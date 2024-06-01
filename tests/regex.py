@@ -141,13 +141,12 @@ def main():
                             print()
 
                             if failed_tests > 0:
-                                any_test_failed = True
+                                sys.exit(1)
                         except Exception as e:
                             print(f"{Fore.RED}Error processing regex {regex_id}: {str(e)}{Style.RESET_ALL}")
                             print()
-
-    if any_test_failed:
-        sys.exit(1)
+                            sys.exit(1)
+    sys.exit(0)
 
 if __name__ == "__main__":
     main()
