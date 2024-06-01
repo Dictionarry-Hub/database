@@ -1,0 +1,82 @@
+{
+  "name": "Freeleech75",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "Freeleech75",
+      "implementation": "IndexerFlagSpecification",
+      "implementationName": "Indexer Flag",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": false,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Flag",
+          "value": 256,
+          "type": "select",
+          "advanced": false,
+          "selectOptions": [
+            {
+              "value": 1,
+              "name": "G Freeleech",
+              "order": 1,
+              "dividerAfter": false
+            },
+            {
+              "value": 2,
+              "name": "G Halfleech",
+              "order": 2,
+              "dividerAfter": false
+            },
+            {
+              "value": 4,
+              "name": "G DoubleUpload",
+              "order": 4,
+              "dividerAfter": false
+            },
+            {
+              "value": 8,
+              "name": "PTP Golden",
+              "order": 8,
+              "dividerAfter": false
+            },
+            {
+              "value": 16,
+              "name": "PTP Approved",
+              "order": 16,
+              "dividerAfter": false
+            },
+            {
+              "value": 32,
+              "name": "G Internal",
+              "order": 32,
+              "dividerAfter": false
+            },
+            {
+              "value": 128,
+              "name": "G Scene",
+              "order": 128,
+              "dividerAfter": false
+            },
+            {
+              "value": 256,
+              "name": "G Freeleech75",
+              "order": 256,
+              "dividerAfter": false
+            },
+            {
+              "value": 512,
+              "name": "G Freeleech25",
+              "order": 512,
+              "dividerAfter": false
+            }
+          ],
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    }
+  ]
+}
