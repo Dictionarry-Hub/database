@@ -3,6 +3,7 @@ import subprocess
 import time
 import re
 import os
+import sys
 from colorama import Fore, Style
 
 class RegexTester:
@@ -100,7 +101,8 @@ def extract_regex_ids(data):
 def main():
     tester = RegexTester()
     regex_dir = "./db/custom_formats"
-    tested_ids = set()  # Set to store tested regexIDs
+    tested_ids = set()
+    any_test_failed = False
 
     for root, dirs, files in os.walk(regex_dir):
         for filename in files:
@@ -137,9 +139,15 @@ def main():
                             print(f"Status: {status_color}{status_text}{Style.RESET_ALL}")
                             print(f"====================")
                             print()
+
+                            if failed_tests > 0:
+                                any_test_failed = True
                         except Exception as e:
                             print(f"{Fore.RED}Error processing regex {regex_id}: {str(e)}{Style.RESET_ALL}")
                             print()
+
+    if any_test_failed:
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()
