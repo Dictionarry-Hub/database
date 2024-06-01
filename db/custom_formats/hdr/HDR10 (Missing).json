@@ -1,0 +1,160 @@
+{
+  "name": "HDR10 (Missing)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "RlsGrp (Missing HDR)",
+      "implementation": "ReleaseGroupSpecification",
+      "implementationName": "Release Group",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": false,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "\\b(FraMeSToR|HQMUX|SiCFoI|playBD|RYU|ElNeekster|CiNEPHiLES|3L|EDV|Kenobi|TRiToN|HDH|NTb|Flights)\\b",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    },
+    {
+      "name": "2160p",
+      "implementation": "ResolutionSpecification",
+      "implementationName": "Resolution",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": false,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Resolution",
+          "value": 2160,
+          "type": "select",
+          "advanced": false,
+          "selectOptions": [
+            {
+              "value": 0,
+              "name": "Unknown",
+              "order": 0,
+              "dividerAfter": false
+            },
+            {
+              "value": 360,
+              "name": "R360p",
+              "order": 360,
+              "dividerAfter": false
+            },
+            {
+              "value": 480,
+              "name": "R480p",
+              "order": 480,
+              "dividerAfter": false
+            },
+            {
+              "value": 540,
+              "name": "R540p",
+              "order": 540,
+              "dividerAfter": false
+            },
+            {
+              "value": 576,
+              "name": "R576p",
+              "order": 576,
+              "dividerAfter": false
+            },
+            {
+              "value": 720,
+              "name": "R720p",
+              "order": 720,
+              "dividerAfter": false
+            },
+            {
+              "value": 1080,
+              "name": "R1080p",
+              "order": 1080,
+              "dividerAfter": false
+            },
+            {
+              "value": 2160,
+              "name": "R2160p",
+              "order": 2160,
+              "dividerAfter": false
+            }
+          ],
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    },
+    {
+      "name": "Not SDR",
+      "implementation": "ReleaseTitleSpecification",
+      "implementationName": "Release Title",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": true,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "\\bSDR(\\b|\\d)",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    },
+    {
+      "name": "Not HDR10+",
+      "implementation": "ReleaseTitleSpecification",
+      "implementationName": "Release Title",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": true,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "\\bHDR10(\\+|P(lus)?\\b)",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    },
+    {
+      "name": "HDR",
+      "implementation": "ReleaseTitleSpecification",
+      "implementationName": "Release Title",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": true,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "HDR",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    }
+  ]
+}
