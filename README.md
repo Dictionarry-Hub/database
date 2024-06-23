@@ -2,10 +2,6 @@
 
 This repository contains the database configurations and collections used by the Dictionarry project, supporting both the Profilarr tool and the Dictionarry website.
 
-## Overview
-
-Dictionarry aims to simplify media automation via tailored custom formats and profiles for Radarr and Sonarr. This repository provides the necessary database setup and management instructions.
-
 ## Prerequisites
 
 - **Python 3.6+**: Required to run the database management scripts.
