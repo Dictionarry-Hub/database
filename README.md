@@ -1,16 +1,13 @@
 # Dictionarry Database Repository
 
 This repository contains the database configurations and collections used by the Dictionarry project, supporting both the Profilarr tool and the Dictionarry website.
-
-## Prerequisites
-
 - **Python 3.6+**: Required to run the database management scripts.
 
 ## Contributing
 
-- Follow this [guide]((https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/git.md)) on best git practices: 
+- Follow this [guide](https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/git.md) on best git practices: 
 
-## Custom Formats
+### Custom Formats
 1. In a new [regex101](https://regex101.com/) link, add your regex pattern and unit tests.
    - Try to include as many edge cases as possible.
    - Include at least 5 results that should match and 5 that should not match.
@@ -76,7 +73,7 @@ This repository contains the database configurations and collections used by the
    }
    ```
 
-## Quality Profiles 
+### Quality Profiles 
 1. Create a new branch for your changes.
    ```bash
    git checkout -b your-branch-name
@@ -85,7 +82,7 @@ This repository contains the database configurations and collections used by the
 
 3. Export the quality profile using exportarr and move the JSON file to the `/db/quality_profiles` directory.
 
-## Pushing Changes
+### Pushing Changes
 
 1. Commit your changes and push the branch to the repository.
    ```bash
