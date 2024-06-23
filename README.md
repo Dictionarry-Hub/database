@@ -12,7 +12,7 @@ Dictionarry aims to simplify media automation via tailored custom formats and pr
 
 ## Contributing
 
-- Follow this guide on best git practices: [Link](https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/git.md)
+- Follow this [guide]((https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/git.md)) on best git practices: 
 
 ## Custom Formats
 1. In a new [regex101](https://regex101.com/) link, add your regex pattern and unit tests.
@@ -21,7 +21,7 @@ Dictionarry aims to simplify media automation via tailored custom formats and pr
     - If there are any particular cases that should be looked at, include a description describing any nessecary details. 
    - Your page should look something like this:
 
-    ![Regex101 Example](Regex101%20Example.png)
+    ![Regex101 Example](https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/Regex101%20Example.png)
 
    - Take note of the ID of the regex101 link: `https://regex101.com/r/<ID>/<Revision>`. For example:
      ```
