@@ -1,0 +1,27 @@
+{
+  "name": "KiMCHI",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "KiMCHI",
+      "implementation": "ReleaseGroupSpecification",
+      "implementationName": "Release Group",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": false,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "^(KiMCHI)$",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    }
+  ]
+}

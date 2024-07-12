@@ -1,0 +1,27 @@
+{
+  "name": "inid4c",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "inid4c",
+      "implementation": "ReleaseTitleSpecification",
+      "implementationName": "Release Title",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": false,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "\\b(inid4c)\\b",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    }
+  ]
+}

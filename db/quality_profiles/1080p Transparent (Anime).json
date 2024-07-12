@@ -1,0 +1,2646 @@
+[
+  {
+    "name": "1080p Transparent (Anime)",
+    "upgradeAllowed": true,
+    "cutoff": 1001,
+    "items": [
+      {
+        "quality": {
+          "id": 0,
+          "name": "Unknown",
+          "source": "unknown",
+          "resolution": 0
+        },
+        "items": [],
+        "allowed": false
+      },
+      {
+        "name": "Fallback SD",
+        "items": [
+          {
+            "quality": {
+              "id": 1,
+              "name": "SDTV",
+              "source": "television",
+              "resolution": 480
+            },
+            "items": [],
+            "allowed": false
+          },
+          {
+            "quality": {
+              "id": 12,
+              "name": "WEBRip-480p",
+              "source": "webRip",
+              "resolution": 480
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 8,
+              "name": "WEBDL-480p",
+              "source": "web",
+              "resolution": 480
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 2,
+              "name": "DVD",
+              "source": "dvd",
+              "resolution": 480
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 13,
+              "name": "Bluray-480p",
+              "source": "bluray",
+              "resolution": 480
+            },
+            "items": [],
+            "allowed": true
+          }
+        ],
+        "allowed": true,
+        "id": 1004
+      },
+      {
+        "name": "Fallback 720p",
+        "items": [
+          {
+            "quality": {
+              "id": 4,
+              "name": "HDTV-720p",
+              "source": "television",
+              "resolution": 720
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 14,
+              "name": "WEBRip-720p",
+              "source": "webRip",
+              "resolution": 720
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 5,
+              "name": "WEBDL-720p",
+              "source": "web",
+              "resolution": 720
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 6,
+              "name": "Bluray-720p",
+              "source": "bluray",
+              "resolution": 720
+            },
+            "items": [],
+            "allowed": true
+          }
+        ],
+        "allowed": true,
+        "id": 1003
+      },
+      {
+        "name": "Fallback 1080p",
+        "items": [
+          {
+            "quality": {
+              "id": 10,
+              "name": "Raw-HD",
+              "source": "televisionRaw",
+              "resolution": 1080
+            },
+            "items": [],
+            "allowed": false
+          },
+          {
+            "quality": {
+              "id": 9,
+              "name": "HDTV-1080p",
+              "source": "television",
+              "resolution": 1080
+            },
+            "items": [],
+            "allowed": true
+          }
+        ],
+        "allowed": true,
+        "id": 1002
+      },
+      {
+        "name": "Transparent Capable",
+        "items": [
+          {
+            "quality": {
+              "id": 15,
+              "name": "WEBRip-1080p",
+              "source": "webRip",
+              "resolution": 1080
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 3,
+              "name": "WEBDL-1080p",
+              "source": "web",
+              "resolution": 1080
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 7,
+              "name": "Bluray-1080p",
+              "source": "bluray",
+              "resolution": 1080
+            },
+            "items": [],
+            "allowed": true
+          },
+          {
+            "quality": {
+              "id": 20,
+              "name": "Bluray-1080p Remux",
+              "source": "blurayRaw",
+              "resolution": 1080
+            },
+            "items": [],
+            "allowed": true
+          }
+        ],
+        "allowed": true,
+        "id": 1001
+      },
+      {
+        "quality": {
+          "id": 16,
+          "name": "HDTV-2160p",
+          "source": "television",
+          "resolution": 2160
+        },
+        "items": [],
+        "allowed": false
+      },
+      {
+        "quality": {
+          "id": 17,
+          "name": "WEBRip-2160p",
+          "source": "webRip",
+          "resolution": 2160
+        },
+        "items": [],
+        "allowed": false
+      },
+      {
+        "quality": {
+          "id": 18,
+          "name": "WEBDL-2160p",
+          "source": "web",
+          "resolution": 2160
+        },
+        "items": [],
+        "allowed": false
+      },
+      {
+        "quality": {
+          "id": 19,
+          "name": "Bluray-2160p",
+          "source": "bluray",
+          "resolution": 2160
+        },
+        "items": [],
+        "allowed": false
+      },
+      {
+        "quality": {
+          "id": 21,
+          "name": "Bluray-2160p Remux",
+          "source": "blurayRaw",
+          "resolution": 2160
+        },
+        "items": [],
+        "allowed": false
+      }
+    ],
+    "minFormatScore": 100,
+    "cutoffFormatScore": 10000,
+    "formatItems": [
+      {
+        "format": 1566,
+        "name": "Abema",
+        "score": 1
+      },
+      {
+        "format": 1565,
+        "name": "Animation Digital Network",
+        "score": 1
+      },
+      {
+        "format": 1562,
+        "name": "Crunchyroll",
+        "score": 6
+      },
+      {
+        "format": 1561,
+        "name": "Funimation",
+        "score": 2
+      },
+      {
+        "format": 1559,
+        "name": "VRV",
+        "score": 3
+      },
+      {
+        "format": 1398,
+        "name": "v4",
+        "score": 4
+      },
+      {
+        "format": 1397,
+        "name": "v3",
+        "score": 3
+      },
+      {
+        "format": 1396,
+        "name": "v2",
+        "score": 2
+      },
+      {
+        "format": 1395,
+        "name": "v1",
+        "score": 1
+      },
+      {
+        "format": 1393,
+        "name": "DameDesuYo",
+        "score": 100
+      },
+      {
+        "format": 1392,
+        "name": "ViSiON",
+        "score": 150
+      },
+      {
+        "format": 1391,
+        "name": "T4H",
+        "score": 150
+      },
+      {
+        "format": 1390,
+        "name": "SwAgLaNdEr",
+        "score": 150
+      },
+      {
+        "format": 1389,
+        "name": "SLiGNOME",
+        "score": 150
+      },
+      {
+        "format": 1388,
+        "name": "NINJACENTRAL",
+        "score": 150
+      },
+      {
+        "format": 1387,
+        "name": "DRACULA",
+        "score": 150
+      },
+      {
+        "format": 1386,
+        "name": "XEBEC",
+        "score": 150
+      },
+      {
+        "format": 1385,
+        "name": "WELP",
+        "score": 150
+      },
+      {
+        "format": 1384,
+        "name": "TVSmash",
+        "score": 150
+      },
+      {
+        "format": 1383,
+        "name": "TEPES",
+        "score": 150
+      },
+      {
+        "format": 1382,
+        "name": "SPiRiT",
+        "score": 150
+      },
+      {
+        "format": 1381,
+        "name": "SMURF",
+        "score": 150
+      },
+      {
+        "format": 1380,
+        "name": "SIGMA",
+        "score": 150
+      },
+      {
+        "format": 1379,
+        "name": "SDCC",
+        "score": 150
+      },
+      {
+        "format": 1378,
+        "name": "RTFM",
+        "score": 150
+      },
+      {
+        "format": 1377,
+        "name": "ROCCaT",
+        "score": 150
+      },
+      {
+        "format": 1376,
+        "name": "PSiG",
+        "score": 150
+      },
+      {
+        "format": 1375,
+        "name": "playWEB",
+        "score": 150
+      },
+      {
+        "format": 1374,
+        "name": "PHOENiX",
+        "score": 150
+      },
+      {
+        "format": 1373,
+        "name": "orbitron",
+        "score": 150
+      },
+      {
+        "format": 1372,
+        "name": "NYH",
+        "score": 150
+      },
+      {
+        "format": 1371,
+        "name": "NPMS",
+        "score": 150
+      },
+      {
+        "format": 1370,
+        "name": "MZABI",
+        "score": 150
+      },
+      {
+        "format": 1369,
+        "name": "MiU",
+        "score": 150
+      },
+      {
+        "format": 1368,
+        "name": "LAZY",
+        "score": 150
+      },
+      {
+        "format": 1367,
+        "name": "Kitsune",
+        "score": 150
+      },
+      {
+        "format": 1366,
+        "name": "KiMCHI",
+        "score": 150
+      },
+      {
+        "format": 1365,
+        "name": "KHN",
+        "score": 150
+      },
+      {
+        "format": 1364,
+        "name": "JETIX",
+        "score": 150
+      },
+      {
+        "format": 1363,
+        "name": "iT00NZ",
+        "score": 150
+      },
+      {
+        "format": 1362,
+        "name": "iKA",
+        "score": 150
+      },
+      {
+        "format": 1361,
+        "name": "iJP",
+        "score": 150
+      },
+      {
+        "format": 1360,
+        "name": "GNOME",
+        "score": 150
+      },
+      {
+        "format": 1359,
+        "name": "Flights",
+        "score": 150
+      },
+      {
+        "format": 1358,
+        "name": "FC",
+        "score": 150
+      },
+      {
+        "format": 1357,
+        "name": "ETHiCS",
+        "score": 150
+      },
+      {
+        "format": 1356,
+        "name": "END",
+        "score": 150
+      },
+      {
+        "format": 1355,
+        "name": "DEEP",
+        "score": 150
+      },
+      {
+        "format": 1354,
+        "name": "dB",
+        "score": 150
+      },
+      {
+        "format": 1353,
+        "name": "Coo7",
+        "score": 150
+      },
+      {
+        "format": 1352,
+        "name": "CMRG",
+        "score": 150
+      },
+      {
+        "format": 1351,
+        "name": "CiT",
+        "score": 150
+      },
+      {
+        "format": 1350,
+        "name": "Cinefeel",
+        "score": 150
+      },
+      {
+        "format": 1349,
+        "name": "BTW",
+        "score": 150
+      },
+      {
+        "format": 1348,
+        "name": "BLUTONiUM",
+        "score": 150
+      },
+      {
+        "format": 1347,
+        "name": "3cTWeB",
+        "score": 150
+      },
+      {
+        "format": 1346,
+        "name": "ZigZag",
+        "score": 300
+      },
+      {
+        "format": 1345,
+        "name": "VARYG",
+        "score": 300
+      },
+      {
+        "format": 1344,
+        "name": "URANIME",
+        "score": 300
+      },
+      {
+        "format": 1343,
+        "name": "NanDesuKa",
+        "score": 300
+      },
+      {
+        "format": 1342,
+        "name": "KAN3D2M",
+        "score": 300
+      },
+      {
+        "format": 1341,
+        "name": "HorribleSubs",
+        "score": 300
+      },
+      {
+        "format": 1340,
+        "name": "HorribleRips",
+        "score": 300
+      },
+      {
+        "format": 1339,
+        "name": "GST",
+        "score": 300
+      },
+      {
+        "format": 1338,
+        "name": "Erai-Raws",
+        "score": 300
+      },
+      {
+        "format": 1337,
+        "name": "BlueLobster",
+        "score": 300
+      },
+      {
+        "format": 1336,
+        "name": "ViSUM",
+        "score": 350
+      },
+      {
+        "format": 1335,
+        "name": "TOMMY",
+        "score": 350
+      },
+      {
+        "format": 1334,
+        "name": "T6D",
+        "score": 350
+      },
+      {
+        "format": 1333,
+        "name": "SiC",
+        "score": 350
+      },
+      {
+        "format": 1332,
+        "name": "RTN",
+        "score": 350
+      },
+      {
+        "format": 1331,
+        "name": "QOQ",
+        "score": 350
+      },
+      {
+        "format": 1330,
+        "name": "NTG",
+        "score": 350
+      },
+      {
+        "format": 1329,
+        "name": "NOSiViD",
+        "score": 350
+      },
+      {
+        "format": 1328,
+        "name": "monkee",
+        "score": 350
+      },
+      {
+        "format": 1327,
+        "name": "KiNGS",
+        "score": 350
+      },
+      {
+        "format": 1326,
+        "name": "FLUX",
+        "score": 350
+      },
+      {
+        "format": 1325,
+        "name": "CRFW",
+        "score": 350
+      },
+      {
+        "format": 1324,
+        "name": "CasStudio",
+        "score": 350
+      },
+      {
+        "format": 1323,
+        "name": "APEX",
+        "score": 350
+      },
+      {
+        "format": 1322,
+        "name": "ABBiE",
+        "score": 350
+      },
+      {
+        "format": 1321,
+        "name": "SubsPlus+",
+        "score": 400
+      },
+      {
+        "format": 1320,
+        "name": "SubsPlease",
+        "score": 400
+      },
+      {
+        "format": 1319,
+        "name": "Tenshi",
+        "score": 500
+      },
+      {
+        "format": 1318,
+        "name": "SoLCE",
+        "score": 500
+      },
+      {
+        "format": 1317,
+        "name": "Slyfox",
+        "score": 500
+      },
+      {
+        "format": 1316,
+        "name": "Pizza",
+        "score": 500
+      },
+      {
+        "format": 1315,
+        "name": "HatSubs",
+        "score": 500
+      },
+      {
+        "format": 1314,
+        "name": "Gao",
+        "score": 500
+      },
+      {
+        "format": 1313,
+        "name": "Cyan",
+        "score": 500
+      },
+      {
+        "format": 1312,
+        "name": "Z4ST1N",
+        "score": 600
+      },
+      {
+        "format": 1311,
+        "name": "Setsugen",
+        "score": 600
+      },
+      {
+        "format": 1310,
+        "name": "YURASAKA",
+        "score": 700
+      },
+      {
+        "format": 1309,
+        "name": "Shirσ",
+        "score": 700
+      },
+      {
+        "format": 1308,
+        "name": "Prof",
+        "score": 700
+      },
+      {
+        "format": 1307,
+        "name": "Nep_Blanc",
+        "score": 700
+      },
+      {
+        "format": 1306,
+        "name": "naiyas",
+        "score": 700
+      },
+      {
+        "format": 1305,
+        "name": "Judas",
+        "score": 700
+      },
+      {
+        "format": 1304,
+        "name": "GHOST",
+        "score": 700
+      },
+      {
+        "format": 1303,
+        "name": "EMBER",
+        "score": 700
+      },
+      {
+        "format": 1302,
+        "name": "EDGE",
+        "score": 700
+      },
+      {
+        "format": 1301,
+        "name": "Arukoru",
+        "score": 700
+      },
+      {
+        "format": 1300,
+        "name": "AkihitoSubs",
+        "score": 700
+      },
+      {
+        "format": 1299,
+        "name": "WaLMaRT",
+        "score": 800
+      },
+      {
+        "format": 1298,
+        "name": "TENEIGHTY",
+        "score": 800
+      },
+      {
+        "format": 1297,
+        "name": "STRiFE",
+        "score": 800
+      },
+      {
+        "format": 1296,
+        "name": "RH",
+        "score": 800
+      },
+      {
+        "format": 1295,
+        "name": "RedBlade",
+        "score": 800
+      },
+      {
+        "format": 1294,
+        "name": "NPC",
+        "score": 800
+      },
+      {
+        "format": 1293,
+        "name": "MCR",
+        "score": 800
+      },
+      {
+        "format": 1292,
+        "name": "KiyoshiStar",
+        "score": 800
+      },
+      {
+        "format": 1291,
+        "name": "inid4c",
+        "score": 800
+      },
+      {
+        "format": 1290,
+        "name": "iAHD",
+        "score": 800
+      },
+      {
+        "format": 1289,
+        "name": "Hark0N",
+        "score": 800
+      },
+      {
+        "format": 1288,
+        "name": "HAiKU",
+        "score": 800
+      },
+      {
+        "format": 1287,
+        "name": "DragsterPS",
+        "score": 800
+      },
+      {
+        "format": 1286,
+        "name": "DHD",
+        "score": 800
+      },
+      {
+        "format": 1285,
+        "name": "CBM",
+        "score": 800
+      },
+      {
+        "format": 1284,
+        "name": "ANiHLS",
+        "score": 800
+      },
+      {
+        "format": 1283,
+        "name": "A-L",
+        "score": 800
+      },
+      {
+        "format": 1282,
+        "name": "Zurako",
+        "score": 900
+      },
+      {
+        "format": 1281,
+        "name": "Yabai",
+        "score": 900
+      },
+      {
+        "format": 1280,
+        "name": "Watashi",
+        "score": 900
+      },
+      {
+        "format": 1279,
+        "name": "Vivid",
+        "score": 900
+      },
+      {
+        "format": 1278,
+        "name": "Sushi",
+        "score": 900
+      },
+      {
+        "format": 1277,
+        "name": "Soldado",
+        "score": 900
+      },
+      {
+        "format": 1276,
+        "name": "SmugCat",
+        "score": 900
+      },
+      {
+        "format": 1275,
+        "name": "SHiN-gx",
+        "score": 900
+      },
+      {
+        "format": 1274,
+        "name": "SCP-2223",
+        "score": 900
+      },
+      {
+        "format": 1273,
+        "name": "Saizen",
+        "score": 900
+      },
+      {
+        "format": 1272,
+        "name": "peachflavored",
+        "score": 900
+      },
+      {
+        "format": 1271,
+        "name": "PAS",
+        "score": 900
+      },
+      {
+        "format": 1270,
+        "name": "orz",
+        "score": 900
+      },
+      {
+        "format": 1269,
+        "name": "OnDeed",
+        "score": 900
+      },
+      {
+        "format": 1268,
+        "name": "Nishi-Taku",
+        "score": 900
+      },
+      {
+        "format": 1267,
+        "name": "niizk",
+        "score": 900
+      },
+      {
+        "format": 1266,
+        "name": "Nii-sama",
+        "score": 900
+      },
+      {
+        "format": 1265,
+        "name": "Licca",
+        "score": 900
+      },
+      {
+        "format": 1264,
+        "name": "LCE",
+        "score": 900
+      },
+      {
+        "format": 1263,
+        "name": "Kantai",
+        "score": 900
+      },
+      {
+        "format": 1262,
+        "name": "Judgement",
+        "score": 900
+      },
+      {
+        "format": 1261,
+        "name": "Inka-Subs",
+        "score": 900
+      },
+      {
+        "format": 1260,
+        "name": "Impatience",
+        "score": 900
+      },
+      {
+        "format": 1259,
+        "name": "Harunatsu",
+        "score": 900
+      },
+      {
+        "format": 1258,
+        "name": "GS",
+        "score": 900
+      },
+      {
+        "format": 1257,
+        "name": "Final8",
+        "score": 900
+      },
+      {
+        "format": 1256,
+        "name": "FFF",
+        "score": 900
+      },
+      {
+        "format": 1255,
+        "name": "Exiled-Destiny",
+        "score": 900
+      },
+      {
+        "format": 1254,
+        "name": "EJF",
+        "score": 900
+      },
+      {
+        "format": 1253,
+        "name": "CH",
+        "score": 900
+      },
+      {
+        "format": 1252,
+        "name": "Bunny-Apocalypse",
+        "score": 900
+      },
+      {
+        "format": 1251,
+        "name": "BlurayDesuYo",
+        "score": 900
+      },
+      {
+        "format": 1250,
+        "name": "Asenshi",
+        "score": 900
+      },
+      {
+        "format": 1249,
+        "name": "ANE",
+        "score": 900
+      },
+      {
+        "format": 1248,
+        "name": "Almighty",
+        "score": 900
+      },
+      {
+        "format": 1247,
+        "name": "Akai",
+        "score": 900
+      },
+      {
+        "format": 1246,
+        "name": "Afro",
+        "score": 900
+      },
+      {
+        "format": 1245,
+        "name": "SiCFoI",
+        "score": 1000
+      },
+      {
+        "format": 1244,
+        "name": "KRaLiMaRKo",
+        "score": 1000
+      },
+      {
+        "format": 1243,
+        "name": "ZR",
+        "score": 1000
+      },
+      {
+        "format": 1242,
+        "name": "TTGA",
+        "score": 1000
+      },
+      {
+        "format": 1241,
+        "name": "SRLS",
+        "score": 1000
+      },
+      {
+        "format": 1240,
+        "name": "Spark",
+        "score": 1000
+      },
+      {
+        "format": 1239,
+        "name": "REVO",
+        "score": 1000
+      },
+      {
+        "format": 1238,
+        "name": "Raizel",
+        "score": 1000
+      },
+      {
+        "format": 1237,
+        "name": "MKVULTRA",
+        "score": 1000
+      },
+      {
+        "format": 1236,
+        "name": "KAWAiREMUX",
+        "score": 1000
+      },
+      {
+        "format": 1235,
+        "name": "Dragon-Releases",
+        "score": 1000
+      },
+      {
+        "format": 1234,
+        "name": "D4C",
+        "score": 1000
+      },
+      {
+        "format": 1233,
+        "name": "BluDragon",
+        "score": 1000
+      },
+      {
+        "format": 1232,
+        "name": "AP",
+        "score": 1000
+      },
+      {
+        "format": 1231,
+        "name": "ANThELIa",
+        "score": 1000
+      },
+      {
+        "format": 1230,
+        "name": "CoalGirls",
+        "score": 1100
+      },
+      {
+        "format": 1229,
+        "name": "SallySubs",
+        "score": 1100
+      },
+      {
+        "format": 1228,
+        "name": "Chihiro",
+        "score": 1100
+      },
+      {
+        "format": 1227,
+        "name": "Tsundere",
+        "score": 1100
+      },
+      {
+        "format": 1226,
+        "name": "Doki",
+        "score": 1100
+      },
+      {
+        "format": 1225,
+        "name": "Kaleido",
+        "score": 1100
+      },
+      {
+        "format": 1224,
+        "name": "Commie",
+        "score": 1100
+      },
+      {
+        "format": 1223,
+        "name": "Koitern",
+        "score": 1100
+      },
+      {
+        "format": 1222,
+        "name": "UWU",
+        "score": 1100
+      },
+      {
+        "format": 1221,
+        "name": "kmplx",
+        "score": 1100
+      },
+      {
+        "format": 1220,
+        "name": "Lia",
+        "score": 1100
+      },
+      {
+        "format": 1219,
+        "name": "9volt",
+        "score": 1100
+      },
+      {
+        "format": 1218,
+        "name": "Iznjie Biznjie",
+        "score": 1100
+      },
+      {
+        "format": 1217,
+        "name": "GHS",
+        "score": 1100
+      },
+      {
+        "format": 1216,
+        "name": "Davinci",
+        "score": 1100
+      },
+      {
+        "format": 1215,
+        "name": "THORA",
+        "score": 1100
+      },
+      {
+        "format": 1214,
+        "name": "Cait-Sidhe",
+        "score": 1100
+      },
+      {
+        "format": 1213,
+        "name": "Orphan",
+        "score": 1100
+      },
+      {
+        "format": 1212,
+        "name": "SNSbu",
+        "score": 1100
+      },
+      {
+        "format": 1211,
+        "name": "kBaraka",
+        "score": 1100
+      },
+      {
+        "format": 1210,
+        "name": "xPearse",
+        "score": 1100
+      },
+      {
+        "format": 1209,
+        "name": "karios",
+        "score": 1100
+      },
+      {
+        "format": 1208,
+        "name": "RMX",
+        "score": 1100
+      },
+      {
+        "format": 1207,
+        "name": "AOmundson",
+        "score": 1100
+      },
+      {
+        "format": 1206,
+        "name": "D3",
+        "score": 1100
+      },
+      {
+        "format": 1205,
+        "name": "MCLR",
+        "score": 1100
+      },
+      {
+        "format": 1204,
+        "name": "ASO",
+        "score": 1100
+      },
+      {
+        "format": 1203,
+        "name": "NTRM",
+        "score": 1100
+      },
+      {
+        "format": 1202,
+        "name": "SOLA",
+        "score": 1100
+      },
+      {
+        "format": 1201,
+        "name": "Scriptum",
+        "score": 1100
+      },
+      {
+        "format": 1200,
+        "name": "Bolshevik",
+        "score": 1100
+      },
+      {
+        "format": 1199,
+        "name": "mottoj",
+        "score": 1100
+      },
+      {
+        "format": 1198,
+        "name": "HaiveMind",
+        "score": 1100
+      },
+      {
+        "format": 1197,
+        "name": "Asakura",
+        "score": 1100
+      },
+      {
+        "format": 1196,
+        "name": "Kulot",
+        "score": 1100
+      },
+      {
+        "format": 1195,
+        "name": "Koten_Gars",
+        "score": 1100
+      },
+      {
+        "format": 1194,
+        "name": "Foxtrot",
+        "score": 1100
+      },
+      {
+        "format": 1193,
+        "name": "Bulldog",
+        "score": 1100
+      },
+      {
+        "format": 1192,
+        "name": "Chimera",
+        "score": 1100
+      },
+      {
+        "format": 1191,
+        "name": "NH",
+        "score": 1100
+      },
+      {
+        "format": 1190,
+        "name": "hchcsen",
+        "score": 1100
+      },
+      {
+        "format": 1189,
+        "name": "ShadyCrab",
+        "score": 1100
+      },
+      {
+        "format": 1188,
+        "name": "deanzel",
+        "score": 1100
+      },
+      {
+        "format": 1187,
+        "name": "ZOIO",
+        "score": 1200
+      },
+      {
+        "format": 1186,
+        "name": "YURI",
+        "score": 1200
+      },
+      {
+        "format": 1185,
+        "name": "Yoghurt",
+        "score": 1200
+      },
+      {
+        "format": 1184,
+        "name": "WSE",
+        "score": 1200
+      },
+      {
+        "format": 1183,
+        "name": "WBDP",
+        "score": 1200
+      },
+      {
+        "format": 1182,
+        "name": "ShowY",
+        "score": 1200
+      },
+      {
+        "format": 1181,
+        "name": "Senjou",
+        "score": 1200
+      },
+      {
+        "format": 1180,
+        "name": "Rasetsu",
+        "score": 1200
+      },
+      {
+        "format": 1179,
+        "name": "Quetzal",
+        "score": 1200
+      },
+      {
+        "format": 1178,
+        "name": "Pookie",
+        "score": 1200
+      },
+      {
+        "format": 1177,
+        "name": "Pn8",
+        "score": 1200
+      },
+      {
+        "format": 1176,
+        "name": "Netaro",
+        "score": 1200
+      },
+      {
+        "format": 1175,
+        "name": "Mysteria",
+        "score": 1200
+      },
+      {
+        "format": 1174,
+        "name": "MK",
+        "score": 1200
+      },
+      {
+        "format": 1173,
+        "name": "LazyRemux",
+        "score": 1200
+      },
+      {
+        "format": 1172,
+        "name": "kuchikirukia",
+        "score": 1200
+      },
+      {
+        "format": 1171,
+        "name": "KH",
+        "score": 1200
+      },
+      {
+        "format": 1170,
+        "name": "Kametsu",
+        "score": 1200
+      },
+      {
+        "format": 1169,
+        "name": "Kaizoku",
+        "score": 1200
+      },
+      {
+        "format": 1168,
+        "name": "IK",
+        "score": 1200
+      },
+      {
+        "format": 1167,
+        "name": "Holomux",
+        "score": 1200
+      },
+      {
+        "format": 1166,
+        "name": "GSK_kun",
+        "score": 1200
+      },
+      {
+        "format": 1165,
+        "name": "Galator",
+        "score": 1200
+      },
+      {
+        "format": 1164,
+        "name": "EXP",
+        "score": 1200
+      },
+      {
+        "format": 1163,
+        "name": "Dekinai",
+        "score": 1200
+      },
+      {
+        "format": 1162,
+        "name": "CyC",
+        "score": 1200
+      },
+      {
+        "format": 1161,
+        "name": "CTR",
+        "score": 1200
+      },
+      {
+        "format": 1160,
+        "name": "CBT",
+        "score": 1200
+      },
+      {
+        "format": 1159,
+        "name": "Ayashii",
+        "score": 1200
+      },
+      {
+        "format": 1158,
+        "name": "AssMix",
+        "score": 1200
+      },
+      {
+        "format": 1157,
+        "name": "ASC",
+        "score": 1200
+      },
+      {
+        "format": 1156,
+        "name": "AC",
+        "score": 1200
+      },
+      {
+        "format": 1155,
+        "name": "Yuki",
+        "score": 1300
+      },
+      {
+        "format": 1154,
+        "name": "UDF",
+        "score": 1300
+      },
+      {
+        "format": 1153,
+        "name": "Thighs",
+        "score": 1300
+      },
+      {
+        "format": 1152,
+        "name": "Spirale",
+        "score": 1300
+      },
+      {
+        "format": 1151,
+        "name": "Smoke",
+        "score": 1300
+      },
+      {
+        "format": 1150,
+        "name": "Shimatta",
+        "score": 1300
+      },
+      {
+        "format": 1149,
+        "name": "Reza",
+        "score": 1300
+      },
+      {
+        "format": 1148,
+        "name": "RAI",
+        "score": 1300
+      },
+      {
+        "format": 1147,
+        "name": "pyroneko",
+        "score": 1300
+      },
+      {
+        "format": 1146,
+        "name": "pog42",
+        "score": 1300
+      },
+      {
+        "format": 1145,
+        "name": "Okay-Subs",
+        "score": 1300
+      },
+      {
+        "format": 1144,
+        "name": "NSDAB",
+        "score": 1300
+      },
+      {
+        "format": 1143,
+        "name": "Noyr",
+        "score": 1300
+      },
+      {
+        "format": 1142,
+        "name": "Not-Vodes",
+        "score": 1300
+      },
+      {
+        "format": 1141,
+        "name": "MTBB",
+        "score": 1300
+      },
+      {
+        "format": 1140,
+        "name": "Metal",
+        "score": 1300
+      },
+      {
+        "format": 1139,
+        "name": "MC",
+        "score": 1300
+      },
+      {
+        "format": 1138,
+        "name": "Matsya",
+        "score": 1300
+      },
+      {
+        "format": 1137,
+        "name": "Lulu",
+        "score": 1300
+      },
+      {
+        "format": 1136,
+        "name": "LostYears",
+        "score": 1300
+      },
+      {
+        "format": 1135,
+        "name": "JySzE",
+        "score": 1300
+      },
+      {
+        "format": 1134,
+        "name": "iKaos",
+        "score": 1300
+      },
+      {
+        "format": 1133,
+        "name": "hydes",
+        "score": 1300
+      },
+      {
+        "format": 1132,
+        "name": "FLFL",
+        "score": 1300
+      },
+      {
+        "format": 1131,
+        "name": "Drag",
+        "score": 1300
+      },
+      {
+        "format": 1130,
+        "name": "Datte13",
+        "score": 1300
+      },
+      {
+        "format": 1129,
+        "name": "Dae",
+        "score": 1300
+      },
+      {
+        "format": 1128,
+        "name": "CUNNY",
+        "score": 1300
+      },
+      {
+        "format": 1127,
+        "name": "CsS",
+        "score": 1300
+      },
+      {
+        "format": 1126,
+        "name": "Crow",
+        "score": 1300
+      },
+      {
+        "format": 1125,
+        "name": "Brrrrrrr",
+        "score": 1300
+      },
+      {
+        "format": 1124,
+        "name": "BKC",
+        "score": 1300
+      },
+      {
+        "format": 1123,
+        "name": "Baws",
+        "score": 1300
+      },
+      {
+        "format": 1122,
+        "name": "aro",
+        "score": 1300
+      },
+      {
+        "format": 1121,
+        "name": "Arid",
+        "score": 1300
+      },
+      {
+        "format": 1120,
+        "name": "ARC",
+        "score": 1300
+      },
+      {
+        "format": 1119,
+        "name": "Alt",
+        "score": 1300
+      },
+      {
+        "format": 1118,
+        "name": "0x539",
+        "score": 1300
+      },
+      {
+        "format": 1117,
+        "name": "ZeroBuild",
+        "score": 1400
+      },
+      {
+        "format": 1116,
+        "name": "Vodes",
+        "score": 1400
+      },
+      {
+        "format": 1115,
+        "name": "Vanilla",
+        "score": 1400
+      },
+      {
+        "format": 1114,
+        "name": "smol",
+        "score": 1400
+      },
+      {
+        "format": 1113,
+        "name": "SCY",
+        "score": 1400
+      },
+      {
+        "format": 1112,
+        "name": "sam",
+        "score": 1400
+      },
+      {
+        "format": 1111,
+        "name": "OZR",
+        "score": 1400
+      },
+      {
+        "format": 1110,
+        "name": "LYS1TH3A",
+        "score": 1400
+      },
+      {
+        "format": 1109,
+        "name": "Legion",
+        "score": 1400
+      },
+      {
+        "format": 1108,
+        "name": "Arg0",
+        "score": 1400
+      },
+      {
+        "format": 1107,
+        "name": "Aergia",
+        "score": 1400
+      },
+      {
+        "format": 1102,
+        "name": "SEV",
+        "score": 800
+      },
+      {
+        "format": 1089,
+        "name": "HONE",
+        "score": 350
+      },
+      {
+        "format": 1077,
+        "name": "AJP69",
+        "score": 350
+      },
+      {
+        "format": 1071,
+        "name": "EPSiLON",
+        "score": 1000
+      },
+      {
+        "format": 1070,
+        "name": "playBD",
+        "score": 1000
+      },
+      {
+        "format": 1069,
+        "name": "BLURANiUM",
+        "score": 1050
+      },
+      {
+        "format": 1068,
+        "name": "PmP",
+        "score": 1050
+      },
+      {
+        "format": 1066,
+        "name": "TRiToN",
+        "score": 1000
+      },
+      {
+        "format": 1005,
+        "name": "FraMeSToR",
+        "score": 1050
+      },
+      {
+        "format": 996,
+        "name": "E.N.D",
+        "score": 1000
+      },
+      {
+        "format": 980,
+        "name": "Chotab",
+        "score": 1300
+      },
+      {
+        "format": 974,
+        "name": "PTer",
+        "score": 1000
+      },
+      {
+        "format": 973,
+        "name": "SbR",
+        "score": 150
+      },
+      {
+        "format": 969,
+        "name": "BMF",
+        "score": 1050
+      },
+      {
+        "format": 963,
+        "name": "decibeL",
+        "score": 1000
+      },
+      {
+        "format": 962,
+        "name": "NTb",
+        "score": 350
+      },
+      {
+        "format": 960,
+        "name": "SA89",
+        "score": 150
+      },
+      {
+        "format": 957,
+        "name": "HiFi",
+        "score": 1000
+      },
+      {
+        "format": 956,
+        "name": "CtrlHD",
+        "score": 350
+      },
+      {
+        "format": 949,
+        "name": "D-Z0N3",
+        "score": 1300
+      },
+      {
+        "format": 1086,
+        "name": "HR",
+        "score": -10000
+      },
+      {
+        "format": 1394,
+        "name": "v0",
+        "score": -51
+      },
+      {
+        "format": 1401,
+        "name": "Beatrice-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1402,
+        "name": "Daddy-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1403,
+        "name": "Fumi-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1404,
+        "name": "IrizaRaws",
+        "score": -10000
+      },
+      {
+        "format": 1405,
+        "name": "Kawaiika-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1406,
+        "name": "km",
+        "score": -10000
+      },
+      {
+        "format": 1407,
+        "name": "Koi-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1408,
+        "name": "Lilith-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1409,
+        "name": "LowPower-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1410,
+        "name": "NanakoRaws",
+        "score": -10000
+      },
+      {
+        "format": 1411,
+        "name": "NC-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1412,
+        "name": "neko-raws",
+        "score": -10000
+      },
+      {
+        "format": 1413,
+        "name": "New-raws",
+        "score": -10000
+      },
+      {
+        "format": 1414,
+        "name": "Ohys-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1415,
+        "name": "Pandoratv-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1416,
+        "name": "Raws-Maji",
+        "score": -10000
+      },
+      {
+        "format": 1417,
+        "name": "Scryous-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1418,
+        "name": "Seicher-Raws",
+        "score": -10000
+      },
+      {
+        "format": 1419,
+        "name": "$tore-Chill",
+        "score": -10000
+      },
+      {
+        "format": 1420,
+        "name": "0neshot",
+        "score": -10000
+      },
+      {
+        "format": 1421,
+        "name": "224",
+        "score": -10000
+      },
+      {
+        "format": 1422,
+        "name": "A-Destiny",
+        "score": -10000
+      },
+      {
+        "format": 1423,
+        "name": "AceAres",
+        "score": -10000
+      },
+      {
+        "format": 1424,
+        "name": "AhmadDev",
+        "score": -10000
+      },
+      {
+        "format": 1425,
+        "name": "Anime Chap",
+        "score": -10000
+      },
+      {
+        "format": 1426,
+        "name": "Anime Land",
+        "score": -10000
+      },
+      {
+        "format": 1427,
+        "name": "Anime Time",
+        "score": -10000
+      },
+      {
+        "format": 1428,
+        "name": "AnimeDynastyEN",
+        "score": -10000
+      },
+      {
+        "format": 1429,
+        "name": "AnimeKuro",
+        "score": -10000
+      },
+      {
+        "format": 1430,
+        "name": "AnimeRG",
+        "score": -10000
+      },
+      {
+        "format": 1431,
+        "name": "Animesubs",
+        "score": -10000
+      },
+      {
+        "format": 1432,
+        "name": "AnimeTR",
+        "score": -10000
+      },
+      {
+        "format": 1433,
+        "name": "Anitsu",
+        "score": -10000
+      },
+      {
+        "format": 1434,
+        "name": "AniVoid",
+        "score": -10000
+      },
+      {
+        "format": 1435,
+        "name": "ArataEnc",
+        "score": -10000
+      },
+      {
+        "format": 1436,
+        "name": "AREY",
+        "score": -10000
+      },
+      {
+        "format": 1437,
+        "name": "Ari",
+        "score": -10000
+      },
+      {
+        "format": 1438,
+        "name": "ASW",
+        "score": -10000
+      },
+      {
+        "format": 1439,
+        "name": "BJX",
+        "score": -10000
+      },
+      {
+        "format": 1440,
+        "name": "BlackLuster",
+        "score": -10000
+      },
+      {
+        "format": 1441,
+        "name": "bonkai77",
+        "score": -10000
+      },
+      {
+        "format": 1442,
+        "name": "CameEsp",
+        "score": -10000
+      },
+      {
+        "format": 1443,
+        "name": "Cat66",
+        "score": -10000
+      },
+      {
+        "format": 1444,
+        "name": "CBB",
+        "score": -10000
+      },
+      {
+        "format": 1445,
+        "name": "Cerberus",
+        "score": -10000
+      },
+      {
+        "format": 1446,
+        "name": "Cleo",
+        "score": -10000
+      },
+      {
+        "format": 1447,
+        "name": "CuaP",
+        "score": -10000
+      },
+      {
+        "format": 1448,
+        "name": "DaddySubs",
+        "score": -10000
+      },
+      {
+        "format": 1449,
+        "name": "DARKFLiX",
+        "score": -10000
+      },
+      {
+        "format": 1450,
+        "name": "DB",
+        "score": -10000
+      },
+      {
+        "format": 1451,
+        "name": "DBArabic",
+        "score": -10000
+      },
+      {
+        "format": 1452,
+        "name": "Deadmau- RAWS",
+        "score": -10000
+      },
+      {
+        "format": 1453,
+        "name": "DKB",
+        "score": -10000
+      },
+      {
+        "format": 1454,
+        "name": "DP",
+        "score": -10000
+      },
+      {
+        "format": 1455,
+        "name": "DsunS",
+        "score": -10000
+      },
+      {
+        "format": 1456,
+        "name": "ExREN",
+        "score": -10000
+      },
+      {
+        "format": 1457,
+        "name": "FAV",
+        "score": -10000
+      },
+      {
+        "format": 1458,
+        "name": "Fish",
+        "score": -10000
+      },
+      {
+        "format": 1459,
+        "name": "FunArts",
+        "score": -10000
+      },
+      {
+        "format": 1460,
+        "name": "GERMini",
+        "score": -10000
+      },
+      {
+        "format": 1461,
+        "name": "Hakata Ramen",
+        "score": -10000
+      },
+      {
+        "format": 1462,
+        "name": "Hall_of_C",
+        "score": -10000
+      },
+      {
+        "format": 1463,
+        "name": "Hatsuyuki",
+        "score": -10000
+      },
+      {
+        "format": 1464,
+        "name": "HAV1T",
+        "score": -10000
+      },
+      {
+        "format": 1465,
+        "name": "HENiL",
+        "score": -10000
+      },
+      {
+        "format": 1466,
+        "name": "Hitoku",
+        "score": -10000
+      },
+      {
+        "format": 1467,
+        "name": "HollowRoxas",
+        "score": -10000
+      },
+      {
+        "format": 1468,
+        "name": "ICEBLUE",
+        "score": -10000
+      },
+      {
+        "format": 1469,
+        "name": "iPUNISHER",
+        "score": -10000
+      },
+      {
+        "format": 1470,
+        "name": "JacobSwaggedUp",
+        "score": -10000
+      },
+      {
+        "format": 1471,
+        "name": "Johnny-englishsubs",
+        "score": -10000
+      },
+      {
+        "format": 1472,
+        "name": "Kanjouteki",
+        "score": -10000
+      },
+      {
+        "format": 1473,
+        "name": "KEKMASTERS",
+        "score": -10000
+      },
+      {
+        "format": 1474,
+        "name": "Kirion",
+        "score": -10000
+      },
+      {
+        "format": 1475,
+        "name": "KQRM",
+        "score": -10000
+      },
+      {
+        "format": 1476,
+        "name": "KRP",
+        "score": -10000
+      },
+      {
+        "format": 1477,
+        "name": "LoliHouse",
+        "score": -10000
+      },
+      {
+        "format": 1478,
+        "name": "M@nI",
+        "score": -10000
+      },
+      {
+        "format": 1479,
+        "name": "mal lu zen",
+        "score": -10000
+      },
+      {
+        "format": 1480,
+        "name": "Man.K",
+        "score": -10000
+      },
+      {
+        "format": 1481,
+        "name": "Maximus",
+        "score": -10000
+      },
+      {
+        "format": 1482,
+        "name": "MD",
+        "score": -10000
+      },
+      {
+        "format": 1483,
+        "name": "mdcx",
+        "score": -10000
+      },
+      {
+        "format": 1484,
+        "name": "Metaljerk",
+        "score": -10000
+      },
+      {
+        "format": 1485,
+        "name": "MGD",
+        "score": -10000
+      },
+      {
+        "format": 1486,
+        "name": "MiniFreeza",
+        "score": -10000
+      },
+      {
+        "format": 1487,
+        "name": "MiniMTBB",
+        "score": -10000
+      },
+      {
+        "format": 1488,
+        "name": "MinisCuba",
+        "score": -10000
+      },
+      {
+        "format": 1489,
+        "name": "MiniTheatre",
+        "score": -10000
+      },
+      {
+        "format": 1490,
+        "name": "Mites",
+        "score": -10000
+      },
+      {
+        "format": 1491,
+        "name": "Modders Bay",
+        "score": -10000
+      },
+      {
+        "format": 1492,
+        "name": "Mr. Deadpool",
+        "score": -10000
+      },
+      {
+        "format": 1493,
+        "name": "NemDiggers",
+        "score": -10000
+      },
+      {
+        "format": 1494,
+        "name": "neoHEVC",
+        "score": -10000
+      },
+      {
+        "format": 1495,
+        "name": "Nokou",
+        "score": -10000
+      },
+      {
+        "format": 1496,
+        "name": "NoobSubs",
+        "score": -10000
+      },
+      {
+        "format": 1497,
+        "name": "NS",
+        "score": -10000
+      },
+      {
+        "format": 1498,
+        "name": "Nyanpasu",
+        "score": -10000
+      },
+      {
+        "format": 1499,
+        "name": "OldCastle",
+        "score": -10000
+      },
+      {
+        "format": 1500,
+        "name": "Pantsu",
+        "score": -10000
+      },
+      {
+        "format": 1501,
+        "name": "Pao",
+        "score": -10000
+      },
+      {
+        "format": 1502,
+        "name": "phazer11",
+        "score": -10000
+      },
+      {
+        "format": 1503,
+        "name": "Pixel",
+        "score": -10000
+      },
+      {
+        "format": 1504,
+        "name": "Plex Friendly",
+        "score": -10000
+      },
+      {
+        "format": 1505,
+        "name": "PnPSubs",
+        "score": -10000
+      },
+      {
+        "format": 1506,
+        "name": "Polarwindz",
+        "score": -10000
+      },
+      {
+        "format": 1507,
+        "name": "Project-gxs",
+        "score": -10000
+      },
+      {
+        "format": 1508,
+        "name": "PuyaSubs",
+        "score": -10000
+      },
+      {
+        "format": 1509,
+        "name": "QaS",
+        "score": -10000
+      },
+      {
+        "format": 1510,
+        "name": "QCE",
+        "score": -10000
+      },
+      {
+        "format": 1511,
+        "name": "Rando235",
+        "score": -10000
+      },
+      {
+        "format": 1512,
+        "name": "Ranger",
+        "score": -10000
+      },
+      {
+        "format": 1513,
+        "name": "Rapta",
+        "score": -10000
+      },
+      {
+        "format": 1514,
+        "name": "Raw Files",
+        "score": -10000
+      },
+      {
+        "format": 1515,
+        "name": "Raze",
+        "score": -10000
+      },
+      {
+        "format": 1516,
+        "name": "Reaktor",
+        "score": -10000
+      },
+      {
+        "format": 1517,
+        "name": "RightShiftBy2",
+        "score": -10000
+      },
+      {
+        "format": 1518,
+        "name": "Rip Time",
+        "score": -10000
+      },
+      {
+        "format": 1519,
+        "name": "SAD",
+        "score": -10000
+      },
+      {
+        "format": 1520,
+        "name": "Salieri",
+        "score": -10000
+      },
+      {
+        "format": 1521,
+        "name": "Samir755",
+        "score": -10000
+      },
+      {
+        "format": 1522,
+        "name": "SanKyuu",
+        "score": -10000
+      },
+      {
+        "format": 1523,
+        "name": "SEiN",
+        "score": -10000
+      },
+      {
+        "format": 1524,
+        "name": "sekkusu&ok",
+        "score": -10000
+      },
+      {
+        "format": 1525,
+        "name": "SHFS",
+        "score": -10000
+      },
+      {
+        "format": 1526,
+        "name": "SLAX",
+        "score": -10000
+      },
+      {
+        "format": 1527,
+        "name": "SRW",
+        "score": -10000
+      },
+      {
+        "format": 1528,
+        "name": "SSA",
+        "score": -10000
+      },
+      {
+        "format": 1529,
+        "name": "StrayGods",
+        "score": -10000
+      },
+      {
+        "format": 1530,
+        "name": "Suki Desu",
+        "score": -10000
+      },
+      {
+        "format": 1531,
+        "name": "TeamTurquoize",
+        "score": -10000
+      },
+      {
+        "format": 1532,
+        "name": "Tenrai Sensei",
+        "score": -10000
+      },
+      {
+        "format": 1533,
+        "name": "TnF",
+        "score": -10000
+      },
+      {
+        "format": 1534,
+        "name": "TOPKEK",
+        "score": -10000
+      },
+      {
+        "format": 1535,
+        "name": "Trix",
+        "score": -10000
+      },
+      {
+        "format": 1536,
+        "name": "U3-Web",
+        "score": -10000
+      },
+      {
+        "format": 1537,
+        "name": "UNBIASED",
+        "score": -10000
+      },
+      {
+        "format": 1538,
+        "name": "USD",
+        "score": -10000
+      },
+      {
+        "format": 1539,
+        "name": "Valenciano",
+        "score": -10000
+      },
+      {
+        "format": 1540,
+        "name": "VipapkStudios",
+        "score": -10000
+      },
+      {
+        "format": 1541,
+        "name": "Wardevil",
+        "score": -10000
+      },
+      {
+        "format": 1542,
+        "name": "WtF Anime",
+        "score": -10000
+      },
+      {
+        "format": 1543,
+        "name": "xiao-av1",
+        "score": -10000
+      },
+      {
+        "format": 1544,
+        "name": "Yabai_Desu_NeRandomRemux",
+        "score": -10000
+      },
+      {
+        "format": 1545,
+        "name": "YakuboEncodes",
+        "score": -10000
+      },
+      {
+        "format": 1546,
+        "name": "youshikibi",
+        "score": -10000
+      },
+      {
+        "format": 1547,
+        "name": "YuiSubs",
+        "score": -10000
+      },
+      {
+        "format": 1548,
+        "name": "Yun",
+        "score": -10000
+      },
+      {
+        "format": 1549,
+        "name": "zza",
+        "score": -10000
+      },
+      {
+        "format": 1550,
+        "name": "Dubbed",
+        "score": -10000
+      },
+      {
+        "format": 1551,
+        "name": "Golumpa",
+        "score": -10000
+      },
+      {
+        "format": 1552,
+        "name": "KaiDubs",
+        "score": -10000
+      },
+      {
+        "format": 1553,
+        "name": "KamiFS",
+        "score": -10000
+      },
+      {
+        "format": 1554,
+        "name": "KS (Not Dual Audio)",
+        "score": -10000
+      },
+      {
+        "format": 1555,
+        "name": "torenter69",
+        "score": -10000
+      },
+      {
+        "format": 1556,
+        "name": "Yameii",
+        "score": -10000
+      },
+      {
+        "format": 1557,
+        "name": "VOSTFR",
+        "score": -10000
+      },
+      {
+        "format": 1558,
+        "name": "SUBFRENCH",
+        "score": -10000
+      },
+      {
+        "format": 1015,
+        "name": "Amazon Prime",
+        "score": 3
+      },
+      {
+        "format": 1018,
+        "name": "Disney+",
+        "score": 5
+      },
+      {
+        "format": 1020,
+        "name": "Netflix",
+        "score": 4
+      }
+    ]
+  }
+]
