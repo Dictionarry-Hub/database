@@ -1,0 +1,27 @@
+{
+  "name": "KS (Not Dual Audio)",
+  "includeCustomFormatWhenRenaming": false,
+  "specifications": [
+    {
+      "name": "KS (Not Dual Audio)",
+      "implementation": "ReleaseTitleSpecification",
+      "implementationName": "Release Title",
+      "infoLink": "https://wiki.servarr.com/radarr/settings#custom-formats-2",
+      "negate": false,
+      "required": true,
+      "fields": [
+        {
+          "order": 0,
+          "name": "value",
+          "label": "Regular Expression",
+          "helpText": "Custom Format RegEx is Case Insensitive",
+          "value": "^(?!.*(dual[ ._-]?audio|[\\[(]dual[\\]]|(JA|ZH)\\+EN|EN\\+(JA|ZH))).*\\bKS\\b",
+          "type": "textbox",
+          "advanced": false,
+          "privacy": "normal",
+          "isFloat": false
+        }
+      ]
+    }
+  ]
+}
