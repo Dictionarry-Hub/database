@@ -1,4 +1,4 @@
-Dictionary Database Repository
+# Dictionary Database Repository
 
 This repository hosts Dictionary's database containing:
 
