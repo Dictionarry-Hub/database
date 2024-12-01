@@ -17,9 +17,9 @@ The database serves two main purposes:
 
 Contains thoroughly tested and verified database entries ready for production use. All entries have gone through our quality assurance process.
 
-### Nightly
+### Dev
 
-Contains the latest updates and additions that are pending verification. May include experimental patterns and profiles that require further testing.
+Contains the latest updates and additions that are pending formal verification. May include experimental patterns and profiles that require further testing.
 
 ### Feature Branches
 
