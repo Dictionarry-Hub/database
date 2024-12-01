@@ -1,0 +1,56 @@
+name: 1080p Encode
+description: This profile aims to provide a balance between quality, size and compatibility
+  by prioritising 'Transparent' encodes through a special metric known as the Golden
+  Popcorn Performance Index. This is a data-driven metric that identifies and ranks
+  release groups based on their propensity to release a 'Golden Pocorn' - a very high
+  quality encode. Special considerations for audio, sources, extras and flags are
+  also used to help rank releases.
+tags:
+- 1080p
+- Transparent
+- GPPi
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 320
+minScoreIncrement: 0
+custom_formats:
+- name: 1080p
+  score: 60
+- name: 720p
+  score: -9999
+- name: 2160p
+  score: -9999
+qualities:
+- id: 1733038078161
+  name: Transparent Capable
+  description: 'All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL. '
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+- id: 12
+  name: HDTV-1080p
+- id: 1733038108088
+  name: Fallbacks
+  description: SD Fallbacks
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 22
+    name: DVD
+  - id: 23
+    name: DVDSCR
+  - id: 24
+    name: SDTV
+upgrade_until:
+  id: 1733038078161
+  name: Transparent Capable
+  description: 'All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL. '
+language: original
