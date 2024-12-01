@@ -1,99 +1,26 @@
-# Dictionarry Database Repository
+Dictionary Database Repository
 
-This repository contains the database configurations and collections used by the Dictionarry project, supporting both the Profilarr tool and the Dictionarry website.
-- **Python 3.6+**: Required to run the database management scripts.
+This repository hosts Dictionary's database containing:
 
-## Contributing
+- Regex Patterns
+- Custom Formats
+- Quality Profiles
 
-- Follow this [guide](https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/git.md) on best git practices: 
+The database serves two main purposes:
 
-### Custom Formats
-1. In a new [regex101](https://regex101.com/) link, add your regex pattern and unit tests.
-   - Try to include as many edge cases as possible.
-   - Include at least 5 results that should match and 5 that should not match.
-    - If there are any particular cases that should be looked at, include a description describing any nessecary details. 
-   - Your page should look something like this:
+1. Powers our website and wiki documentation
+2. Provides import files for the Profilarr application
 
-    ![Regex101 Example](https://github.com/Dictionarry-Hub/docs/blob/main/Contributing/Regex101%20Example.png)
+## Branches
 
-   - Take note of the ID of the regex101 link: `https://regex101.com/r/<ID>/<Revision>`. For example:
-     ```
-     https://regex101.com/r/GDhflH/4
-     ```
+### Stable
 
-2. Create a new branch for your changes.
-   ```bash
-   git checkout -b your-branch-name
-   ```
+Contains thoroughly tested and verified database entries ready for production use. All entries have gone through our quality assurance process.
 
-3. Once you have thoroughly tested your regex pattern, create your custom format inside Radarr / Sonarr and use [Profilarr's Export Tool](https://github.com/Dictionarry-Hub/profilarr?tab=readme-ov-file#exporting) to export the format.
-   - The result should be a JSON file that contains the format and the regex pattern.
-   - Move this file to the `/db/custom_formats` directory.
-   - The result should look something like this:
-     ```json
-     {
-       "name": "Upscaled",
-       "includeCustomFormatWhenRenaming": false,
-       "specifications": [
-         {
-           "name": "Upscaled",
-           "implementation": "ReleaseTitleSpecification",
-           "negate": false,
-           "required": true,
-           "fields": [
-             {
-               "name": "value",
-               "value": "(Up[-\.\s]?scale|Re[-\.\s]?Grade|AI[-\.\s]?enhanced)"
-             }
-           ]
-         }
-       ]
-     }
-     ```
+### Nightly
 
-4. Replace the line containing "value" and the regex pattern with "regexID" and the ID of the regex101 link.
-   ```json
-   {
-     "name": "Upscaled",
-     "includeCustomFormatWhenRenaming": false,
-     "specifications": [
-       {
-         "name": "Upscaled",
-         "implementation": "ReleaseTitleSpecification",
-         "negate": false,
-         "required": true,
-         "fields": [
-           {
-             "name": "value",
-             "regexID": "GDhflH"
-           }
-         ]
-       }
-     ]
-   }
-   ```
+Contains the latest updates and additions that are pending verification. May include experimental patterns and profiles that require further testing.
 
-### Quality Profiles 
-1. Create a new branch for your changes.
-   ```bash
-   git checkout -b your-branch-name
-   ```
-2. Create and test your quality profile in Radarr / Sonarr.
+### Feature Branches
 
-3. Export the quality profile using exportarr and move the JSON file to the `/db/quality_profiles` directory.
-
-### Pushing Changes
-
-1. Commit your changes and push the branch to the repository.
-   ```bash
-   git add .
-   git commit -m "Add custom format: Upscaled"
-   git push -u origin your-branch-name
-   ```
-
-2. Open a pull request on GitHub, providing a detailed description of your changes and the purpose of the custom format. Make sure to include:
-  - The regex101 link.
-  - Any outstanding issues or edge cases that should be considered.
-  - The PR should be merged into the `dev` branch.
-
-3. Wait for the maintainers to review your pull request. They may provide feedback or request changes before merging your contribution.
+Used for developing and testing new database entries, patterns, or major changes before merging into nightly. These branches follow the naming convention: `feature/description-of-change`
