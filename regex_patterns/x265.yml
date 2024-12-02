@@ -1,0 +1,6 @@
+name: x265
+pattern: ^(?!.*(?i:remux)).*([x]\s?(\.?265))
+description: 'An open source encoder that produces H.265 videos. '
+tags:
+- Encoder
+tests: []

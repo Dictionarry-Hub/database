@@ -1,0 +1,112 @@
+name: Movies Anywhere
+description: Matches 'Movies Anywhere' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: MA Regex
+  negate: false
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
+- name: WEBRip
+  negate: true
+  required: false
+  source: webrip
+  type: source
+- name: x265
+  negate: true
+  pattern: x265
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: MA Regex
+    negate: false
+    pattern: Movies Anywhere
+    required: true
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Scooby-Doo.In.Wheres.My.Mummy.2005.1080p.MA.WEB-DL.DDP5.1.H264-HHWEB.mkv
+  lastRun: '2024-12-02T16:38:32.173913'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: MA Regex
+    negate: false
+    pattern: Movies Anywhere
+    required: true
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: true
+  id: 2
+  input: Speak.No.Evil.2024.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv
+  lastRun: '2024-12-02T16:38:32.173913'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: MA Regex
+    negate: false
+    pattern: Movies Anywhere
+    required: true
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: true
+  id: 3
+  input: The.Super.Mario.Bros.Movie.2023.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-CMaRioG.mkv
+  lastRun: '2024-12-02T16:38:32.173913'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: MA Regex
+    negate: false
+    pattern: Movies Anywhere
+    required: true
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 4
+  input: Interstellar.2014.UHD.BluRay.2160p.DTS-HD.MA.5.1.HEVC.REMUX-FraMeSToR.mkv
+  lastRun: '2024-12-02T16:38:32.173913'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: MA Regex
+    negate: false
+    pattern: Movies Anywhere
+    required: true
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 5
+  input: The.Amazing.Spider-Man.2012.1080p.Remastered.BluRay.DTSHD-MA.x264.D-Z0N3.mkv
+  lastRun: '2024-12-02T16:38:32.173913'
+  passes: true
