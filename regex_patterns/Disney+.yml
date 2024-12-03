@@ -1,0 +1,45 @@
+name: Disney+
+pattern: \b(dsnp|dsny(p)?|disney\+)\s*\b
+description: Disney+ is an American subscription video on-demand over-the-top streaming
+  media service that primarily distributes films and television shows produced by
+  Walt Disney Studios and Disney Television Studios, with dedicated content hubs for
+  Disney's flagship brands; Disney, Pixar, Marvel, Star Wars, National Geographic,
+  ESPN, Hulu and Star.
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: Star Wars - The Clone Wars (2008) S06 (1080p DSNP WEB-DL H264 SDR DDP 5 1
+    English - HONE)
+  lastRun: '2024-12-03T16:25:40.465487'
+  passes: true
+- expected: true
+  id: 2
+  input: Pupstruction S02E09E10 The Funniest Pup in Petsburg Beddy Bye Build 720p
+    DSNY WEB-DL AAC 2.0 H.264-4f8c4100292
+  lastRun: '2024-12-03T16:25:40.465487'
+  passes: true
+- expected: true
+  id: 3
+  input: Once Upon a Snowman 2020 DSNYP 1080p WEBRip X264 Atmos-EVO
+  lastRun: '2024-12-03T16:25:40.465487'
+  passes: true
+- expected: false
+  id: 4
+  input: How.Disney.Built.America.S01E01.1080p.WEB.h264-EDITH
+  lastRun: '2024-12-03T16:25:40.465487'
+  passes: true
+- expected: true
+  id: 5
+  input: High School Musical - The Musical - The Series S00E01 The Special 2160p HDR
+    Disney+ WEBRip DD+ 5 1 x265-TrollUHD
+  lastRun: '2024-12-03T16:25:40.465487'
+  passes: true
+- expected: true
+  id: 6
+  input: Air Crash Investigation S18 2018 Disney+ WEB-DL 1080p H264 DDP-HDCTV
+  lastRun: '2024-12-03T16:25:40.465487'
+  passes: true
