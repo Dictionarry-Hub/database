@@ -20,6 +20,14 @@ custom_formats:
   score: -9999
 - name: 2160p
   score: -9999
+- name: Movies Anywhere
+  score: 40
+- name: Disney+
+  score: 40
+- name: Amazon Prime
+  score: 40
+- name: Apple TV+
+  score: 40
 qualities:
 - id: 1733038078161
   name: Transparent Capable
