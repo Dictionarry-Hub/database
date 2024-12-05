@@ -14,18 +14,38 @@ minCustomFormatScore: 0
 upgradeUntilScore: 320
 minScoreIncrement: 0
 custom_formats:
+- name: Criterion Channel
+  score: 30
+- name: iTunes (Missing)
+  score: 20
+- name: Peacock
+  score: 30
+- name: iTunes
+  score: 20
+- name: Roku
+  score: 20
 - name: 1080p
   score: 60
 - name: 720p
   score: -9999
+- name: Netflix
+  score: 30
 - name: 2160p
   score: -9999
 - name: Movies Anywhere
   score: 40
+- name: Max
+  score: 30
+- name: Hulu
+  score: 20
+- name: Paramount+
+  score: 30
 - name: Disney+
   score: 40
 - name: Amazon Prime
   score: 40
+- name: HBO Max
+  score: 30
 - name: Apple TV+
   score: 40
 qualities:
@@ -62,3 +82,10 @@ upgrade_until:
   description: 'All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL. '
 language: original
+tweaks:
+  preferFreeleech: true
+  allowLosslessAudio: true
+  allowDVNoFallback: false
+  allowBleedingEdgeCodecs: false
+  allowPrereleases: false
+  languageStrictness: disabled
