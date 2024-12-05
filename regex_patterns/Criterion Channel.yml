@@ -1,0 +1,54 @@
+name: Criterion Channel
+pattern: \bCRiT\b
+description: The Criterion Channel is a subscription-based streaming service launched
+  on April 8, 2019, by The Criterion Collection. Available in the United States and
+  Canada, it features a rich library of films, including Criterion Collection releases
+  with special features, curated playlists, temporarily licensed titles, and original
+  content such as academic overviews and introductions. The Channel also showcases
+  Janus-owned titles not yet available on physical media and maintains a collaborative
+  relationship with Warner Bros. Discovery's Max platform. Perfect for cinephiles,
+  the service brings a curated cinematic experience to the digital space.
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: Wild 90 1968 480p CRiT WEB-DL AAC2 0 x264-AT3N
+  lastRun: '2024-12-06T05:17:39.382994'
+  matchSpan:
+    end: 22
+    start: 18
+  matchedContent: CRiT
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Night Mother 1986 1080p CRiT WEB-DL AAC2 0 x264-AT3N
+  lastRun: '2024-12-06T05:17:39.382994'
+  matchSpan:
+    end: 28
+    start: 24
+  matchedContent: CRiT
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Please Speak Continuously and Describe Your Experiences as They Come to You
+    2019 1080p CRIT WEB-DL AAC2 0 x264-SiGLA
+  lastRun: '2024-12-06T05:17:39.382994'
+  matchSpan:
+    end: 91
+    start: 87
+  matchedContent: CRIT
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: John Malkovich in The Music Critic 2021 720p WEB H264-LiQUiD
+  lastRun: '2024-12-06T05:17:39.382994'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

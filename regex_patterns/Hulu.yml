@@ -1,0 +1,33 @@
+name: Hulu
+pattern: \b(hulu)\b
+description: Hulu, an American subscription streaming service owned by Disney, offers
+  recent TV episodes, full seasons of shows, original content, and live TV channels.
+  As of December 2023, Hulu content is being integrated into Disney+, making its library
+  accessible to Disney+ subscribers.
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: Agent Recon 2024 1080p HULU WEB-DL DDP 5 1 H 264-PiRaTeS
+  lastRun: '2024-12-06T05:28:53.151608'
+  matchSpan:
+    end: 27
+    start: 23
+  matchedContent: HULU
+  matchedGroups:
+  - HULU
+  passes: true
+- expected: true
+  id: 2
+  input: Gullivers Travels 2010 1080p HULU WEB-DL DDP 5 1 H 264-PiRaTeS
+  lastRun: '2024-12-06T05:28:53.151608'
+  matchSpan:
+    end: 33
+    start: 29
+  matchedContent: HULU
+  matchedGroups:
+  - HULU
+  passes: true

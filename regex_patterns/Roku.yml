@@ -1,0 +1,43 @@
+name: Roku
+pattern: \b(1080p[ .\-_]ROKU|ROKU[ .\-_]1080p)\b
+description: The Roku Channel is an over-the-top video streaming service available
+  in the U.S., Canada, Mexico and the U.K. Launched in September 2017. The Roku Channel
+  offers over 400 free live linear TV channels, more than 80,000 free movies and shows,
+  and access to paid content.
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: 10 Minutes Gone 2019 1080p ROKU WEB-DL DD 5 1 H 264-PiRaTeS
+  lastRun: '2024-12-06T05:35:49.092439'
+  matchSpan:
+    end: 31
+    start: 21
+  matchedContent: 1080p ROKU
+  matchedGroups:
+  - 1080p ROKU
+  passes: true
+- expected: false
+  id: 2
+  input: Natsume's Book of Friends S06 AKA Natsume Yuujinchou Roku 1080p BluRay FLAC
+    2.0 Hi10P x264-CyC
+  lastRun: '2024-12-06T05:35:49.092439'
+  matchSpan:
+    end: 63
+    start: 53
+  matchedContent: Roku 1080p
+  matchedGroups:
+  - Roku 1080p
+  passes: false
+- expected: false
+  id: 3
+  input: Natsume's Book of Friends AKA Natsume Yuujinchou Roku S06 1080p CR WEB-DL
+    Dubbed AAC 2.0 H.264-Yameii
+  lastRun: '2024-12-06T05:35:49.092439'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

@@ -1,0 +1,66 @@
+name: Peacock TV
+pattern: \b(?:(?:1080|2160|720)p\s+PCOK|(?:Peacock\s+Web-?DL|Web-?DL\s+Peacock))\b
+description: Peacock is an American over-the-top subscription streaming service owned
+  and operated by Peacock TV, LLC, a subsidiary of NBCUniversal Media Group. The service
+  primarily features series and film content from NBCUniversal studios and other third-party
+  content providers (such as WWE and Hallmark Channel).
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: The Day of the Jackal S01E05 1080p PCOK WEB-DL DDP5 1 H 264-STC
+  lastRun: '2024-12-06T01:57:36.984387'
+  matchSpan:
+    end: 39
+    start: 29
+  matchedContent: 1080p PCOK
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Fight Night - The Million Dollar Heist (2024) S01E01 (2160p PCOK WEB-DL H265
+    SDR DDP 5.1 English - HONE)
+  lastRun: '2024-12-06T01:57:36.984387'
+  matchSpan:
+    end: 64
+    start: 54
+  matchedContent: 2160p PCOK
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Halloween Kills 2021 1080p Peacock WebDL H264 AC3 Will1869
+  lastRun: '2024-12-06T01:57:36.984387'
+  matchSpan:
+    end: 40
+    start: 27
+  matchedContent: Peacock WebDL
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: Peacock.S01.1080p.AMZN.WEB-DL.DDP2.0.H.264-Cinefeel
+  lastRun: '2024-12-06T01:57:36.984387'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 5
+  input: Peacock.S02.1080p.iP.WEB-DL.AAC2.0.H.264-RNG
+  lastRun: '2024-12-06T01:57:36.984387'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 6
+  input: Banana Fish S01E16 Lo The Poor Peacock WEB h264-PLUTONiUM
+  lastRun: '2024-12-06T01:57:36.984387'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

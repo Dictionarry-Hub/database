@@ -1,0 +1,51 @@
+name: Netflix
+pattern: \b(nf|netflix)\b
+description: Netflix is an American subscription video on-demand over-the-top streaming
+  service. The service primarily distributes original and acquired films and television
+  shows from various genres, and it is available internationally in multiple languages.
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: The.Roast.of.Tom.Brady.2024.1080p.NF.WEB-DL.DDP5.1.H.264-NTb
+  lastRun: '2024-12-06T05:02:55.281514'
+  matchSpan:
+    end: 36
+    start: 34
+  matchedContent: NF
+  matchedGroups:
+  - NF
+  passes: true
+- expected: true
+  id: 2
+  input: Penn & Teller - Fool Us S01 1080p Netflix WEB-DL DD+ 2 0 x264-TrollHD
+  lastRun: '2024-12-06T05:02:55.281514'
+  matchSpan:
+    end: 41
+    start: 34
+  matchedContent: Netflix
+  matchedGroups:
+  - Netflix
+  passes: true
+- expected: true
+  id: 3
+  input: 'Anthony Jeselnik: Bones and All 2024 1080p NF WEB-DL DDP5 1 H 264-FLUX'
+  lastRun: '2024-12-06T05:02:55.281514'
+  matchSpan:
+    end: 45
+    start: 43
+  matchedContent: NF
+  matchedGroups:
+  - NF
+  passes: true
+- expected: false
+  id: 4
+  input: Its in the Game Madden NFL S01E02 1080p WEB H264-GloriousMongoose
+  lastRun: '2024-12-06T05:02:55.281514'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
