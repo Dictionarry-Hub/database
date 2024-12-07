@@ -1,6 +1,6 @@
 name: iTunes (Missing)
 description: 'Matches ''iTunes'' WEB-DLs that are not labelled correctly. Matches
-  when it not from another streaming service and comes from an iPT release group:
+  when its not from another streaming service and comes from an iPT release group:
   EVO or CMRG'
 tags:
 - Streaming Service
