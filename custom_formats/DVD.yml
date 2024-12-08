@@ -1,0 +1,19 @@
+name: DVD
+description: The DVD format, or Digital Versatile Disc, is an optical disc storage
+  medium widely used for video, audio, and data storage. It offers a standard capacity
+  of 4.7 GB for single-layer discs and up to 8.5 GB for dual-layer discs, making it
+  suitable for movies, software, and backups. DVDs provide a resolution of 720x480
+  (NTSC) or 720x576 (PAL) for video and support Dolby Digital or DTS audio for high-quality
+  sound. They are compatible with standalone DVD players, computer drives, and gaming
+  consoles, offering broad accessibility while requiring a physical disc for playback.
+tags:
+- Source
+- SD
+- Storage
+conditions:
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
+tests: []
