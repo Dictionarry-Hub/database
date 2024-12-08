@@ -14,6 +14,8 @@ minCustomFormatScore: 0
 upgradeUntilScore: 320
 minScoreIncrement: 0
 custom_formats:
+- name: DON
+  score: 80
 - name: Criterion Channel
   score: 30
 - name: iTunes (Missing)
@@ -44,6 +46,10 @@ custom_formats:
   score: 10
 - name: Max
   score: 30
+- name: D-Z0N3
+  score: 80
+- name: EbP
+  score: 80
 - name: Hulu
   score: 20
 - name: Paramount+
