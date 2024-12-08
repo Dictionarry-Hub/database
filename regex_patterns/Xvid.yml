@@ -1,0 +1,29 @@
+name: Xvid
+pattern: (?i)[-. ]Xvid
+description: 'Xvid is a video codec based on the MPEG-4 Part 2 standard, designed
+  for efficient compression while maintaining good visual quality. It is commonly
+  used for encoding videos into smaller file sizes suitable for online sharing or
+  storage, often paired with MP3 or AAC audio. '
+tags:
+- Codec
+tests:
+- expected: true
+  id: 1
+  input: U2.Vertigo.Live.From.Chicago.720p.AC3.5.1ch.Xvid
+  lastRun: '2024-12-08T22:47:07.712482'
+  matchSpan:
+    end: 48
+    start: 43
+  matchedContent: .Xvid
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Britney Spears-Toxic-Hdtv-720P-Xvid.avi
+  lastRun: '2024-12-08T22:47:07.712482'
+  matchSpan:
+    end: 35
+    start: 30
+  matchedContent: -Xvid
+  matchedGroups: []
+  passes: true

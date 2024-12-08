@@ -1,0 +1,192 @@
+name: Full Disc
+pattern: ^(?!.*\b((?<!HD[._ -]|HD)DVD|BDRip|MKV|XviD|WMV|d3g|BDREMUX|REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_.
+  ]?26[45]|German.*DL|((?<=\d{4}).*German.*(DL)?)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_.
+  ]?2)\b))\b)(((?=.*\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\b)(?=.*\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_.
+  ]?2|BDMV|ISO)\b))|^((?=.*\b(^((?=.*\b((.*_)?COMPLETE.*|Dis[ck])\b)(?=.*(Blu[-_.
+  ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_.
+  ]?(25|50|66|100|ISO)))))))).*|(?i)(DVD9|DVD5|NTSC|PAL|VOB IFO|VC-1|AVC|MPEG-2|\bCOMPLETE[-.\s]?(?:UHD[-.\s])?BLU[-.\s]?RAY\b|\bCOMPLETE
+  BLURAY\b|\bBR-Disk\b)
+description: A Full Disc release refers to a complete copy of a physical media disc,
+  such as a DVD or Blu-ray, preserving all original content including menus, bonus
+  features, and multiple audio or subtitle tracks. Unlike compressed or re-encoded
+  formats, Full Disc files maintain the full structure and quality of the original
+  disc, often stored as ISO files or folders like BDMV for Blu-rays. These releases
+  are ideal for users seeking an authentic, unaltered experience identical to using
+  the physical disc.
+tags:
+- Storage
+tests:
+- expected: true
+  id: 1
+  input: Bleach.S14.NTSC.DVD.LPCM2.0-NOGRP
+  lastRun: '2024-12-08T22:54:52.791014'
+  matchSpan:
+    end: 15
+    start: 11
+  matchedContent: NTSC
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - NTSC
+  passes: true
+- expected: true
+  id: 2
+  input: "The Prisoner 2009 S01 1080i Blu-ray AVC DTS-HD MA 5.1-CultFilms\u2122"
+  lastRun: '2024-12-08T22:54:52.791014'
+  matchSpan:
+    end: 64
+    start: 0
+  matchedContent: "The Prisoner 2009 S01 1080i Blu-ray AVC DTS-HD MA 5.1-CultFilms\u2122"
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - ''
+  - ''
+  - Blu-ray
+  - AVC
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 3
+  input: Scissor.Penis.2018.1080i.Blu-ray.AVC.DTS-HD.MA.2.0
+  lastRun: '2024-12-08T22:54:52.791014'
+  matchSpan:
+    end: 50
+    start: 0
+  matchedContent: Scissor.Penis.2018.1080i.Blu-ray.AVC.DTS-HD.MA.2.0
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - ''
+  - ''
+  - Blu-ray
+  - AVC
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 4
+  input: "Heaven's Prisoners 1996 1080p AUS Blu-ray AVC LPCM 2.0-CultFilms\u2122"
+  lastRun: '2024-12-08T22:54:52.791014'
+  matchSpan:
+    end: 65
+    start: 0
+  matchedContent: "Heaven's Prisoners 1996 1080p AUS Blu-ray AVC LPCM 2.0-CultFilms\u2122"
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - ''
+  - ''
+  - Blu-ray
+  - AVC
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 5
+  input: Hors-saison.2024.VOF.1080p.FRA.BluRay.AVC.DTS-HD.MA.5.1-RyanHG
+  lastRun: '2024-12-08T22:54:52.791014'
+  matchSpan:
+    end: 62
+    start: 0
+  matchedContent: Hors-saison.2024.VOF.1080p.FRA.BluRay.AVC.DTS-HD.MA.5.1-RyanHG
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - ''
+  - ''
+  - BluRay
+  - AVC
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 6
+  input: El.Aviso.2018.SPANiSH.COMPLETE.BLURAY-CEBCOM
+  lastRun: '2024-12-08T22:54:52.791014'
+  matchSpan:
+    end: 44
+    start: 0
+  matchedContent: El.Aviso.2018.SPANiSH.COMPLETE.BLURAY-CEBCOM
+  matchedGroups:
+  - null
+  - null
+  - null
+  - null
+  - ''
+  - null
+  - null
+  - null
+  - ''
+  - ''
+  - ''
+  - COMPLETE.BLURAY-CEBCOM
+  - null
+  - BLURAY
+  - null
+  - null
+  - null
+  - null
+  - null
+  passes: true
