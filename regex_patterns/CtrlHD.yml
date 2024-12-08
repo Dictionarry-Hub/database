@@ -1,0 +1,6 @@
+name: CtrlHD
+pattern: (?<=^|[\s.-])CtrlHD\b
+description: ''
+tags:
+- Release Group
+tests: []

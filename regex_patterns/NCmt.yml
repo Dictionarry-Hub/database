@@ -1,0 +1,6 @@
+name: NCmt
+pattern: (?<=^|[\s.-])NCmt\b
+description: ''
+tags:
+- Release Group
+tests: []

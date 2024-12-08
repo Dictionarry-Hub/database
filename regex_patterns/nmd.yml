@@ -1,0 +1,6 @@
+name: nmd
+pattern: (?<=^|[\s.-])nmd\b
+description: ''
+tags:
+- Release Group
+tests: []

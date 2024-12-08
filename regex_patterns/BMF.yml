@@ -1,0 +1,6 @@
+name: BMF
+pattern: (?<=^|[\s.-])BMF\b
+description: ''
+tags:
+- Release Group
+tests: []

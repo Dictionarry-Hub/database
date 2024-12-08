@@ -1,0 +1,6 @@
+name: E.N.D
+pattern: (?<=^|[\s.-])E.N.D\b
+description: ''
+tags:
+- Release Group
+tests: []

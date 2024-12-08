@@ -1,0 +1,6 @@
+name: CRX
+pattern: (?<=^|[\s.-])CRX\b
+description: ''
+tags:
+- Release Group
+tests: []

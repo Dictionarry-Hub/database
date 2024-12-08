@@ -1,0 +1,6 @@
+name: FilmHD
+pattern: (?<=^|[\s.-])FilmHD\b
+description: ''
+tags:
+- Release Group
+tests: []

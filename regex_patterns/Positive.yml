@@ -1,0 +1,6 @@
+name: Positive
+pattern: (?<=^|[\s.-])Positive\b
+description: ''
+tags:
+- Release Group
+tests: []

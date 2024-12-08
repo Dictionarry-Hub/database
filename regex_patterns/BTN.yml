@@ -1,0 +1,6 @@
+name: BTN
+pattern: (?<=^|[\s.-])BTN\b
+description: ''
+tags:
+- Release Group
+tests: []

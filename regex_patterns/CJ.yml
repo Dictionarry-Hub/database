@@ -1,0 +1,6 @@
+name: CJ
+pattern: (?<=^|[\s.-])CJ\b
+description: ''
+tags:
+- Release Group
+tests: []

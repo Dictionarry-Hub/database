@@ -1,0 +1,6 @@
+name: luvBB
+pattern: (?<=^|[\s.-])luvBB\b
+description: ''
+tags:
+- Release Group
+tests: []

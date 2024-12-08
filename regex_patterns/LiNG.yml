@@ -1,0 +1,6 @@
+name: LiNG
+pattern: (?<=^|[\s.-])LiNG\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: FoRM
+pattern: (?<=^|[\s.-])FoRM\b
+description: ''
+tags:
+- Release Group
+tests: []

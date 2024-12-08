@@ -1,0 +1,6 @@
+name: MTeam
+pattern: (?<=^|[\s.-])MTeam\b
+description: ''
+tags:
+- Release Group
+tests: []
