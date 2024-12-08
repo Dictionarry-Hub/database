@@ -20,30 +20,44 @@ custom_formats:
   score: 20
 - name: Peacock
   score: 30
+- name: DVD Remux
+  score: 40
 - name: iTunes
   score: 20
 - name: Roku
   score: 20
+- name: WEBRip
+  score: 10
 - name: 1080p
   score: 60
 - name: 720p
   score: -9999
 - name: Netflix
   score: 30
+- name: x265
+  score: -9999
 - name: 2160p
   score: -9999
 - name: Movies Anywhere
   score: 40
+- name: x264
+  score: 10
 - name: Max
   score: 30
 - name: Hulu
   score: 20
 - name: Paramount+
   score: 30
+- name: Blu-ray
+  score: 10
+- name: Full Disc
+  score: -9999
 - name: Disney+
   score: 40
 - name: Amazon Prime
   score: 40
+- name: Blu-ray Remux
+  score: -9999
 - name: HBO Max
   score: 30
 - name: Apple TV+
