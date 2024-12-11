@@ -2,7 +2,7 @@ name: D-Z0N3
 description: ''
 tags:
 - Release Group
-- Encode T1 [1080p]
+- Encode Tier 1 (1080p)
 conditions:
 - name: Regex
   negate: false
