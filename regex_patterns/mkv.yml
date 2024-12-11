@@ -1,0 +1,27 @@
+name: mkv
+pattern: .mkv|.mp4
+description: Matches MKV and MP4 containers. Helps to differentiate file names from
+  torrent names.
+tags:
+- Container
+tests:
+- expected: true
+  id: 1
+  input: Full.Metal.Jacket.1987.1080p.HMAX.WEB-DL.DD5.1.HEVC-SiGLA.mkv
+  lastRun: '2024-12-11T05:19:13.022900'
+  matchSpan:
+    end: 61
+    start: 57
+  matchedContent: .mkv
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: "Don\u2019t Move \u201CDirected by Anthony Melton\u201D_HD_1920x1080_tt2846600.mp4"
+  lastRun: '2024-12-11T05:19:13.022900'
+  matchSpan:
+    end: 66
+    start: 62
+  matchedContent: .mp4
+  matchedGroups: []
+  passes: true

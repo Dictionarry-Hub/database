@@ -1,0 +1,16 @@
+name: SiGLA
+pattern: (?<=^|[\s.-])SiGLA\b
+description: ''
+tags:
+- Release Group
+tests:
+- expected: true
+  id: 1
+  input: Full.Metal.Jacket.1987.1080p.HMAX.WEB-DL.DD5.1.HEVC-SiGLA.mkv
+  lastRun: '2024-12-11T05:23:38.079493'
+  matchSpan:
+    end: 57
+    start: 52
+  matchedContent: SiGLA
+  matchedGroups: []
+  passes: true
