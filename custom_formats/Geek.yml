@@ -1,0 +1,12 @@
+name: Geek
+description: ''
+tags:
+- Release Group
+- Encode Tier 2 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: Geek
+  required: true
+  type: release_group
+tests: []

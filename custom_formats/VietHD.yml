@@ -1,0 +1,12 @@
+name: VietHD
+description: ''
+tags:
+- Release Group
+- Encode Tier 2 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: VietHD
+  required: true
+  type: release_group
+tests: []
