@@ -1,0 +1,12 @@
+name: BHDStudio
+description: ''
+tags:
+- Release Group
+- Encode Tier 6 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: BHDStudio
+  required: true
+  type: release_group
+tests: []

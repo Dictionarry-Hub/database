@@ -1,0 +1,12 @@
+name: LEGi0N
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: LEGi0N
+  required: true
+  type: release_group
+tests: []

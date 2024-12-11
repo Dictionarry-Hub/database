@@ -1,0 +1,13 @@
+name: P0W4HD
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+- Manual Rank
+conditions:
+- name: Regex
+  negate: false
+  pattern: P0W4HD
+  required: true
+  type: release_group
+tests: []

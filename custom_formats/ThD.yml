@@ -1,0 +1,12 @@
+name: ThD
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: ThD
+  required: true
+  type: release_group
+tests: []

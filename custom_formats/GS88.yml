@@ -1,0 +1,12 @@
+name: GS88
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: GS88
+  required: true
+  type: release_group
+tests: []

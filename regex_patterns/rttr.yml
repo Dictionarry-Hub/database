@@ -1,0 +1,6 @@
+name: rttr
+pattern: (?<=^|[\s.-])rttr\b
+description: ''
+tags:
+- Release Group
+tests: []

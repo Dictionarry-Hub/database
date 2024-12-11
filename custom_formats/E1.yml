@@ -1,0 +1,12 @@
+name: E1
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: E1
+  required: true
+  type: release_group
+tests: []

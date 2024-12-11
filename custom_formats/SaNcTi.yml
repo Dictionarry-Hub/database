@@ -1,0 +1,12 @@
+name: SaNcTi
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: SaNcTi
+  required: true
+  type: release_group
+tests: []
