@@ -1,0 +1,12 @@
+name: FoRM
+description: ''
+tags:
+- Release Group
+- Encode Tier 3 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: FoRM
+  required: true
+  type: release_group
+tests: []

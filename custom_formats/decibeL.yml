@@ -1,0 +1,12 @@
+name: decibeL
+description: ''
+tags:
+- Release Group
+- Encode Tier 3 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: decibeL
+  required: true
+  type: release_group
+tests: []
