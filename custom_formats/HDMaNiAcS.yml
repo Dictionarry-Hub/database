@@ -1,0 +1,12 @@
+name: HDMaNiAcS
+description: ''
+tags:
+- Release Group
+- Encode Tier 4 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: HDMaNiAcS
+  required: true
+  type: release_group
+tests: []

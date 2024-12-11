@@ -1,0 +1,17 @@
+name: NTb
+description: ''
+tags:
+- Release Group
+- Encode Tier 4 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: NTb
+  required: true
+  type: release_group
+- name: Not WEB-DL
+  type: source
+  required: false
+  negate: true
+  source: web_dl
+tests: []
