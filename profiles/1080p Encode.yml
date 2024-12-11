@@ -14,60 +14,202 @@ minCustomFormatScore: 0
 upgradeUntilScore: 320
 minScoreIncrement: 0
 custom_formats:
+- name: c0ke
+  score: 70
+- name: PTer
+  score: 30
 - name: DON
   score: 80
+- name: AJP69
+  score: 30
+- name: GALAXY
+  score: 30
+- name: BHDStudio
+  score: 20
+- name: ZIMBO
+  score: 30
 - name: Criterion Channel
   score: 30
+- name: hdalx
+  score: 30
+- name: TayTo
+  score: 70
 - name: iTunes (Missing)
   score: 20
+- name: decibeL
+  score: 60
+- name: HiP
+  score: 60
+- name: P0W4HD
+  score: 30
+- name: Penumbra
+  score: 30
+- name: NCmt
+  score: 50
+- name: CJ
+  score: 30
+- name: ZQ
+  score: 70
+- name: HiFi
+  score: 70
 - name: Peacock
   score: 30
 - name: DVD Remux
   score: 40
+- name: FoRM
+  score: 60
+- name: SA89
+  score: 60
 - name: iTunes
   score: 20
+- name: BV
+  score: 30
+- name: Geek
+  score: 70
+- name: CtrlHD
+  score: 70
+- name: EXCiSION
+  score: 30
+- name: nmd
+  score: 30
+- name: luvBB
+  score: 30
+- name: ORiGEN
+  score: 30
 - name: Roku
   score: 20
+- name: SaNcTi
+  score: 30
+- name: TDD
+  score: 30
+- name: ZoroSenpai
+  score: 30
 - name: WEBRip
   score: 10
+- name: Chotab
+  score: 30
+- name: LiNG
+  score: 30
+- name: W4NK3R
+  score: 30
 - name: 1080p
   score: 60
+- name: ESiR
+  score: 30
+- name: CRiSC
+  score: 60
+- name: iON
+  score: 30
+- name: HDMaNiAcS
+  score: 50
+- name: ThD
+  score: 30
+- name: SiMPLE
+  score: 30
 - name: 720p
   score: -9999
+- name: IDE
+  score: 50
 - name: Netflix
   score: 30
+- name: de[42]
+  score: 50
 - name: x265
   score: -9999
 - name: 2160p
   score: -9999
 - name: Movies Anywhere
   score: 40
+- name: TBB
+  score: 30
+- name: EDPH
+  score: 30
 - name: x264
   score: 10
+- name: LolHD
+  score: 50
+- name: NTb
+  score: 50
 - name: Max
   score: 30
 - name: D-Z0N3
   score: 80
+- name: HiDt
+  score: 60
+- name: LEGi0N
+  score: 30
 - name: EbP
   score: 80
+- name: GS88
+  score: 30
 - name: Hulu
   score: 20
+- name: MTeam
+  score: 30
+- name: WMING
+  score: 60
+- name: Dariush
+  score: 30
+- name: FraMeSToR
+  score: 30
 - name: Paramount+
   score: 30
 - name: Blu-ray
   score: 10
+- name: KASHMiR
+  score: 30
+- name: FTW-HD
+  score: 30
+- name: E.N.D
+  score: 30
+- name: xander
+  score: 30
+- name: playHD
+  score: 30
+- name: Positive
+  score: 30
 - name: Full Disc
   score: -9999
+- name: E1
+  score: 30
+- name: rightSIZE
+  score: 30
 - name: Disney+
   score: 40
 - name: Amazon Prime
   score: 40
+- name: CRX
+  score: 30
+- name: iFT
+  score: 60
 - name: Blu-ray Remux
   score: -9999
+- name: FilmHD
+  score: 30
+- name: LoRD
+  score: 30
+- name: EbP [COPY]
+  score: 70
 - name: HBO Max
+  score: 30
+- name: BMF
+  score: 50
+- name: VietHD
+  score: 70
+- name: EA
+  score: 50
+- name: rttr
+  score: 30
+- name: SbR
   score: 30
 - name: Apple TV+
   score: 40
+- name: VLAD
+  score: 30
+- name: HANDJOB
+  score: 30
+- name: NyHD
+  score: 30
 qualities:
 - id: 1733038078161
   name: Transparent Capable
