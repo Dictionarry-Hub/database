@@ -1,0 +1,13 @@
+name: Atmos
+description: Matches 'Atmos' Regex Pattern
+tags:
+- Audio
+- Enhancement
+- Dolby
+conditions:
+- name: Atmos
+  negate: false
+  pattern: Atmos
+  required: true
+  type: release_title
+tests: []
