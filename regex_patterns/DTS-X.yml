@@ -1,0 +1,5 @@
+name: DTS-X
+pattern: \b(dts[-_. ]?x)\b(?!\d)
+description: ''
+tags: []
+tests: []

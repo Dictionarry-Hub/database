@@ -1,0 +1,7 @@
+name: TrueHD
+pattern: True[ .-]?HD[ .-]?
+description: ''
+tags:
+- Audio
+- Lossless
+tests: []
