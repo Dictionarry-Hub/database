@@ -1,0 +1,22 @@
+name: SD Golden Popcorn
+description: Matches SD Golden Popcorns. Only works on PassThePopcorn
+tags:
+- Flag
+- Golden Popcorn
+conditions:
+- flag: ptp_golden
+  name: Golden Popcorn
+  negate: false
+  required: true
+  type: indexer_flag
+- name: 720p
+  negate: true
+  required: false
+  resolution: 720p
+  type: resolution
+- name: 1080p
+  type: resolution
+  required: false
+  negate: true
+  resolution: 1080p
+tests: []
