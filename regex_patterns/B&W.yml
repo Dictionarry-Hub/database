@@ -1,0 +1,50 @@
+name: B&W
+pattern: (?i)\bblack\s*[.-]?\s*(?:and|&)\s*[.-]?\s*white\b
+description: Black and White colour grading.
+tags:
+- Enhancement
+- Unwanted
+- Colour Grade
+tests:
+- expected: true
+  id: 1
+  input: The Mist Black and White 2007 2160p USA UHD Blu-ray DV HDR HEVC TrueHD 7.1
+    Atmos-BeyondHD
+  lastRun: '2024-12-13T07:08:12.829611'
+  matchSpan:
+    end: 24
+    start: 9
+  matchedContent: Black and White
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Black and White 2002 1080p Blu-ray AVC DTS-HD MA 5.1-CultFilms
+  lastRun: '2024-12-13T07:08:12.829611'
+  matchSpan:
+    end: 15
+    start: 0
+  matchedContent: Black and White
+  matchedGroups: []
+  passes: false
+- expected: false
+  id: 3
+  input: 'Pokemon the Movie: Black and White-Victini and Reshiram Zekrom 2011 1080p
+    AUS BD50 DTS-HD MA 5.1 AVC-PHOENiX'
+  lastRun: '2024-12-13T07:08:12.829611'
+  matchSpan:
+    end: 34
+    start: 19
+  matchedContent: Black and White
+  matchedGroups: []
+  passes: false
+- expected: true
+  id: 4
+  input: Madeo 2009 Black & White Version 1080p JPN Blu-ray AVC TrueHD 5.1-kyRLS
+  lastRun: '2024-12-13T07:08:12.829611'
+  matchSpan:
+    end: 24
+    start: 11
+  matchedContent: Black & White
+  matchedGroups: []
+  passes: true

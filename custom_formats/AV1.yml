@@ -1,0 +1,12 @@
+name: AV1
+description: Matches the 'AV1' Regex Pattern
+tags:
+- Codec
+- Bleeding Edge
+conditions:
+- name: AV1
+  negate: false
+  pattern: AV1
+  required: true
+  type: release_title
+tests: []

@@ -1,0 +1,12 @@
+name: B&W
+description: Matches the 'B&W' Regex Pattern
+tags:
+- Unwanted
+- Colour Grade
+conditions:
+- name: B&W
+  negate: false
+  pattern: B&W
+  required: true
+  type: release_title
+tests: []

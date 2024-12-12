@@ -1,0 +1,31 @@
+name: 3D
+pattern: \b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\b
+description: ''
+tags:
+- Enhancement
+- Unwanted
+tests:
+- expected: true
+  id: 1
+  input: Universal.Soldier.Day.of.Reckoning.2012.1080p.BluRay.3D.H-SBS.DTS.x264-BluRay3D
+  lastRun: '2024-12-13T06:50:15.135830'
+  matchSpan:
+    end: 55
+    start: 53
+  matchedContent: 3D
+  matchedGroups:
+  - 3D
+  - null
+  passes: true
+- expected: true
+  id: 2
+  input: Justin.And.The.Knights.Of.Valour.3D.2013.1080p.BluRay.Half-SBS.x264-BluRay3D
+  lastRun: '2024-12-13T06:50:15.135830'
+  matchSpan:
+    end: 35
+    start: 33
+  matchedContent: 3D
+  matchedGroups:
+  - 3D
+  - null
+  passes: true

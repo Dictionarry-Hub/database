@@ -1,0 +1,12 @@
+name: 3D
+description: Matches the '3D' Regex Pattern
+tags:
+- Enhancement
+- Unwanted
+conditions:
+- name: 3D
+  negate: false
+  pattern: 3D
+  required: true
+  type: release_title
+tests: []
