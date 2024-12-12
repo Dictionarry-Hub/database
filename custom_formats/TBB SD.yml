@@ -1,8 +1,8 @@
-name: TBB
-description: ''
+name: TBB SD
+description: Matches SD TBB Encodes
 tags:
 - Release Group
-- Encode Tier 5 (1080p)
+- Encode Tier 1 (SD)
 conditions:
 - name: Regex
   negate: false
@@ -10,8 +10,8 @@ conditions:
   required: true
   type: release_group
 - name: DVD
-  type: source
-  required: false
-  negate: true
+  negate: false
+  required: true
   source: dvd
+  type: source
 tests: []

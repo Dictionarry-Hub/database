@@ -62,6 +62,8 @@ custom_formats:
   score: 40
 - name: FoRM
   score: 60
+- name: TBB SD
+  score: 30
 - name: SA89
   score: 60
 - name: iTunes
@@ -92,6 +94,8 @@ custom_formats:
   score: 30
 - name: WEBRip
   score: 10
+- name: Dariush SD
+  score: 30
 - name: Chotab
   score: 30
 - name: LiNG
@@ -200,8 +204,6 @@ custom_formats:
   score: 30
 - name: LoRD
   score: 30
-- name: EbP [COPY]
-  score: 70
 - name: HBO Max
   score: 30
 - name: BMF
@@ -214,6 +216,8 @@ custom_formats:
   score: 30
 - name: SbR
   score: 30
+- name: HANDJOB SD
+  score: 20
 - name: Apple TV+
   score: 40
 - name: 1080p Golden Popcorn
