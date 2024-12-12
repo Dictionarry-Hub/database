@@ -30,6 +30,8 @@ custom_formats:
   score: 20
 - name: ZIMBO
   score: 30
+- name: SD Golden Popcorn
+  score: 30
 - name: Criterion Channel
   score: 30
 - name: hdalx
@@ -214,6 +216,8 @@ custom_formats:
   score: 30
 - name: Apple TV+
   score: 40
+- name: 1080p Golden Popcorn
+  score: 80
 - name: VLAD
   score: 30
 - name: HANDJOB
