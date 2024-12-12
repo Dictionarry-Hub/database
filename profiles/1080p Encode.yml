@@ -22,6 +22,8 @@ custom_formats:
   score: 80
 - name: AJP69
   score: 30
+- name: Atmos
+  score: 10
 - name: GALAXY
   score: 30
 - name: BHDStudio
@@ -70,6 +72,8 @@ custom_formats:
   score: 70
 - name: EXCiSION
   score: 30
+- name: TrueHD
+  score: -9999
 - name: nmd
   score: 30
 - name: luvBB
@@ -92,12 +96,16 @@ custom_formats:
   score: 30
 - name: W4NK3R
   score: 30
+- name: DTS-X
+  score: -9999
 - name: 1080p
   score: 60
 - name: ESiR
   score: 30
 - name: CRiSC
   score: 60
+- name: Atmos (Missing)
+  score: 10
 - name: iON
   score: 30
 - name: HDMaNiAcS
@@ -128,6 +136,8 @@ custom_formats:
   score: 10
 - name: LolHD
   score: 50
+- name: TrueHD (Missing)
+  score: -9999
 - name: NTb
   score: 50
 - name: Max
@@ -210,6 +220,8 @@ custom_formats:
   score: 30
 - name: NyHD
   score: 30
+- name: DTS-HD MA
+  score: -9999
 qualities:
 - id: 1733038078161
   name: Transparent Capable
