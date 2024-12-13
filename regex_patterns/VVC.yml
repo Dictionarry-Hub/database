@@ -1,0 +1,18 @@
+name: VVC
+pattern: (?<=^|[\s.-])VVC\b
+description: VVC, or Versatile Video Coding (H.266), is a video coding format that
+  compresses video files and streams to significantly smaller sizes than H.265 while
+  maintaining high quality.
+tags:
+- Codec
+tests:
+- expected: true
+  id: 1
+  input: Aftersun.2022.1080p.BluRay.Opus.5.1.VVC-TayTO
+  lastRun: '2024-12-13T17:44:21.546788'
+  matchSpan:
+    end: 39
+    start: 36
+  matchedContent: VVC
+  matchedGroups: []
+  passes: true
