@@ -1,0 +1,52 @@
+name: Dolby Vision (Without Fallback)
+pattern: (?<=^(?!.*(HDR|HULU|REMUX|BLURAY)).*?)\b(DV|Dovi|Dolby[- .]?V(ision)?)\b
+description: Matches Dolby Vision when it doesn't come with regular HDR Fallback (A
+  Bluray Remux or a Hulu WEB-DL)
+tags:
+- Enhancement
+- Colour Grade
+- HDR
+tests:
+- expected: false
+  id: 1
+  input: Barbie.2023.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX
+  lastRun: '2024-12-13T09:54:37.318637'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: "\t Barbie (2023) (2160p AMZN WEB-DL Hybrid H265 DV HDR10+ DDP Atmos 5.1\
+    \ English - HONE)"
+  lastRun: '2024-12-13T09:54:37.318637'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Barbie.2023.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.H.265-FLUX
+  lastRun: '2024-12-13T09:54:37.318637'
+  matchSpan:
+    end: 43
+    start: 41
+  matchedContent: DV
+  matchedGroups:
+  - null
+  - DV
+  - null
+  passes: true
+- expected: true
+  id: 4
+  input: Barbie.2023.2160p.MA.WEB-DL.DDP5.1.Atmos.DV.H.265-FLUX.mkv
+  lastRun: '2024-12-13T09:54:37.318637'
+  matchSpan:
+    end: 43
+    start: 41
+  matchedContent: DV
+  matchedGroups:
+  - null
+  - DV
+  - null
+  passes: true

@@ -1,0 +1,12 @@
+name: HDR10+
+description: Matches the 'HDR10+' Regex Pattern
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: HDR10+
+  negate: false
+  pattern: HDR10+
+  required: true
+  type: release_title
+tests: []
