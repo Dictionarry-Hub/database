@@ -255,10 +255,10 @@ custom_formats:
 - name: x265
   score: -9999
 qualities:
-- id: 1733038078161
+- id: -1
   name: Transparent Capable
-  description: 'All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL. '
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -283,10 +283,10 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: 1733038078161
+  id: -1
   name: Transparent Capable
-  description: 'All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL. '
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
 language: original
 tweaks:
   preferFreeleech: true
