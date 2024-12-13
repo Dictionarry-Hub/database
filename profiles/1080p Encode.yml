@@ -255,14 +255,36 @@ custom_formats:
 - name: x265
   score: -9999
 qualities:
-- id: 10
-  name: Bluray-1080p
+- id: -1
+  name: Transparent capable
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
 - id: 12
   name: HDTV-1080p
+- id: -2
+  name: Fallbacks
+  description: SD Fallbacks
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 22
+    name: DVD
+  - id: 24
+    name: SDTV
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: -1
+  name: Transparent capable
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
 language: original
 tweaks:
   preferFreeleech: true
