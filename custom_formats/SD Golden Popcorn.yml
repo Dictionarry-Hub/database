@@ -9,14 +9,24 @@ conditions:
   negate: false
   required: true
   type: indexer_flag
-- name: 720p
-  negate: true
+- name: 360p
+  negate: false
   required: false
-  resolution: 720p
+  resolution: 360p
   type: resolution
-- name: 1080p
+- name: 480p
+  negate: false
+  required: false
+  resolution: 480p
+  type: resolution
+- name: 540p
   type: resolution
   required: false
-  negate: true
-  resolution: 1080p
+  negate: false
+  resolution: 540p
+- name: 576p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 576p
 tests: []
