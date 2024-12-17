@@ -23,4 +23,4 @@ Contains the latest updates and additions that are pending formal verification. 
 
 ### Feature Branches
 
-Used for developing and testing new database entries, patterns, or major changes before merging into nightly. These branches follow the naming convention: `feature/description-of-change`
+Used for developing and testing new database entries, patterns, or major changes before merging into dev. These branches follow the naming convention: `feature/description-of-change`
