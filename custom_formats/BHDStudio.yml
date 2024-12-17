@@ -2,7 +2,6 @@ name: BHDStudio
 description: ''
 tags:
 - Release Group
-- Encode Tier 6 (1080p)
 conditions:
 - name: Regex
   negate: false

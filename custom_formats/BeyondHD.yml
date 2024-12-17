@@ -2,7 +2,6 @@ name: BeyondHD
 description: ''
 tags:
 - Release Group
-- Encode Tier 4 (1080p)
 conditions:
 - name: Regex
   negate: false
