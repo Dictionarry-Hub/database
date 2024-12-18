@@ -289,11 +289,11 @@ upgrade_until:
   name: Transparent capable
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
-language: original
+language: must_english
 tweaks:
   preferFreeleech: true
   allowLosslessAudio: true
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false
   allowPrereleases: false
-  languageStrictness: disabled
+  languageStrictness: mustnot_english
