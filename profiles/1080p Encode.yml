@@ -296,4 +296,3 @@ tweaks:
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false
   allowPrereleases: false
-  languageStrictness: mustnot_english
