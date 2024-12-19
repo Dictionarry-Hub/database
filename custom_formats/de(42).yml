@@ -1,0 +1,12 @@
+name: de[42]
+description: ''
+tags:
+- Release Group
+- Encode Tier 4 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: de[42]
+  required: true
+  type: release_group
+tests: []
