@@ -286,7 +286,7 @@ upgrade_until:
 language: must_english
 tweaks:
   preferFreeleech: true
-  allowLosslessAudio: false
+  allowLosslessAudio: true
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false
   allowPrereleases: false
