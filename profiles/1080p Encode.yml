@@ -234,10 +234,6 @@ custom_formats:
   score: -9999
 - name: Dolby Vision (Without Fallback)
   score: -9999
-- name: DTS-HD MA
-  score: -9999
-- name: DTS-X
-  score: -9999
 - name: Full Disc
   score: -9999
 - name: h265
@@ -249,10 +245,6 @@ custom_formats:
 - name: HDR10 (Missing)
   score: -9999
 - name: HDR10+
-  score: -9999
-- name: TrueHD
-  score: -9999
-- name: TrueHD (Missing)
   score: -9999
 - name: Upscaled
   score: -9999
@@ -294,7 +286,7 @@ upgrade_until:
 language: must_english
 tweaks:
   preferFreeleech: true
-  allowLosslessAudio: true
+  allowLosslessAudio: false
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false
   allowPrereleases: false
