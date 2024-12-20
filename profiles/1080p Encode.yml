@@ -222,8 +222,6 @@ custom_formats:
   score: -9999
 - name: 720p Golden Popcorn
   score: -9999
-- name: AV1
-  score: -9999
 - name: B&W
   score: -9999
 - name: BeyondHD
@@ -231,8 +229,6 @@ custom_formats:
 - name: Blu-ray Remux
   score: -9999
 - name: Dolby Vision
-  score: -9999
-- name: Dolby Vision (Without Fallback)
   score: -9999
 - name: Full Disc
   score: -9999
@@ -247,8 +243,6 @@ custom_formats:
 - name: HDR10+
   score: -9999
 - name: Upscaled
-  score: -9999
-- name: VVC
   score: -9999
 - name: x265
   score: -9999
