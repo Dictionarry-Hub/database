@@ -15,7 +15,7 @@ upgradeUntilScore: 320
 minScoreIncrement: 0
 custom_formats:
 - name: 1080p Golden Popcorn
-  score: 80
+  score: 160
 - name: D-Z0N3
   score: 80
 - name: DON
