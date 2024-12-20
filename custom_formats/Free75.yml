@@ -5,7 +5,7 @@ tags:
 - Tweak
 conditions:
 - flag: freeleech_75
-  name: Free50
+  name: Free75
   negate: false
   required: true
   type: indexer_flag
