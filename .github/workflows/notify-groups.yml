@@ -12,7 +12,7 @@ jobs:
       - name: Repository Dispatch
         uses: peter-evans/repository-dispatch@v2
         with:
-          token: ${{ secrets.ADMIN_DICTIONARRY }}
+          token: ${{ secrets.WORKFLOW_AUTOMATION_TOKEN }}
           repository: Dictionarry-Hub/groups
           event-type: database-updated
           client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}"}'
