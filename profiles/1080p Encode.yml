@@ -156,6 +156,8 @@ custom_formats:
   score: 40
 - name: SiMPLE
   score: 40
+- name: SOP
+  score: 40
 - name: TBB
   score: 40
 - name: TDD
