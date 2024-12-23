@@ -1,4 +1,4 @@
-name: 1080p Encode
+name: 1080p Quality
 description: This profile aims to provide a balance between quality, size and compatibility
   by prioritising 'Transparent' encodes through a special metric known as the Golden
   Popcorn Performance Index. This is a data-driven metric that identifies and ranks
