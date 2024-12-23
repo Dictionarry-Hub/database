@@ -1,0 +1,6 @@
+name: SbR
+pattern: (?<=^|[\s.-])SbR\b
+description: ''
+tags:
+- Release Group
+tests: []

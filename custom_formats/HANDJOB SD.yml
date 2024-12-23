@@ -1,0 +1,17 @@
+name: HANDJOB SD
+description: Matches SD HANDJOB Encodes
+tags:
+- Release Group
+- Encode Tier 2 (SD)
+conditions:
+- name: 'Regex '
+  negate: false
+  pattern: HANDJOB
+  required: true
+  type: release_group
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
+tests: []

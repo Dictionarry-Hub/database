@@ -1,0 +1,6 @@
+name: SiMPLE
+pattern: (?<=^|[\s.-])SiMPLE\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,12 @@
+name: Free25
+description: Matches releases with 25% Freeleech
+tags:
+- Freeleech
+- Tweak
+conditions:
+- name: Free25
+  type: indexer_flag
+  required: true
+  negate: false
+  flag: freeleech_25
+tests: []

@@ -1,0 +1,32 @@
+name: SD Bluray Encodes
+description: 'Matches SD Encodes that were encoded from a Blu-ray source. Existence
+  implies the existence of HD encodes. '
+tags:
+- Encode
+conditions:
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+- name: 576p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 576p
+- name: 540p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 540p
+- name: 480p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 480p
+- name: 360p
+  type: resolution
+  required: false
+  negate: false
+  resolution: 360p
+tests: []

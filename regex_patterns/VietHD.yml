@@ -1,0 +1,6 @@
+name: VietHD
+pattern: (?<=^|[\s.-])VietHD\b
+description: ''
+tags:
+- Release Group
+tests: []

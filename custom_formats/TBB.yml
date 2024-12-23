@@ -1,0 +1,17 @@
+name: TBB
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: TBB
+  required: true
+  type: release_group
+- name: DVD
+  type: source
+  required: false
+  negate: true
+  source: dvd
+tests: []

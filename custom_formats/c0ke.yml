@@ -1,0 +1,13 @@
+name: c0ke
+description: ''
+tags:
+- Release Group
+- Encode Tier 2 (1080p)
+- Manual Rank
+conditions:
+- name: Regex
+  negate: false
+  pattern: c0ke
+  required: true
+  type: release_group
+tests: []

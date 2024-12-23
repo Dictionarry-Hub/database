@@ -1,0 +1,6 @@
+name: ESiR
+pattern: (?<=^|[\s.-])ESiR\b
+description: ''
+tags:
+- Release Group
+tests: []

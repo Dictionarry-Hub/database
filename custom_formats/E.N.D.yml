@@ -1,0 +1,12 @@
+name: E.N.D
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: E.N.D
+  required: true
+  type: release_group
+tests: []

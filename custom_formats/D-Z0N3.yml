@@ -1,0 +1,12 @@
+name: D-Z0N3
+description: ''
+tags:
+- Release Group
+- Encode Tier 1 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: D-Z0N3
+  required: true
+  type: release_group
+tests: []

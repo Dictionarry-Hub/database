@@ -1,0 +1,6 @@
+name: Dariush
+pattern: (?<=^|[\s.-])Dariush\b
+description: ''
+tags:
+- Release Group
+tests: []

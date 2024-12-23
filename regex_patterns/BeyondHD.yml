@@ -1,0 +1,17 @@
+name: BeyondHD
+pattern: (?<=^|[\s.-])BeyondHD\b
+description: ''
+tags:
+- Release Group
+tests:
+- expected: true
+  id: 1
+  input: Game of Thrones (2012) S02 2160p UHD Blu-ray HEVC DV HDR TrueHD Atmos 7.1
+    English-BeyondHD
+  lastRun: '2024-12-13T17:46:48.251985'
+  matchSpan:
+    end: 90
+    start: 82
+  matchedContent: BeyondHD
+  matchedGroups: []
+  passes: true

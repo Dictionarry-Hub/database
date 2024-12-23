@@ -1,0 +1,6 @@
+name: LolHD
+pattern: (?<=^|[\s.-])LolHD\b
+description: ''
+tags:
+- Release Group
+tests: []

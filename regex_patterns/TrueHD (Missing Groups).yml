@@ -1,0 +1,6 @@
+name: TrueHD (Missing Groups)
+pattern: (?<=^|[\s.-])TRiToN|EPSiLON|NoGroup\b
+description: Matches groups who mislabel TrueHD
+tags:
+- Release Group
+tests: []

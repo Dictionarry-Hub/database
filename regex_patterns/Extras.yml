@@ -1,0 +1,7 @@
+name: Extras
+pattern: (?i)(\b|\.)(extra[s]?|special feature[s]?)\b
+description: Extras, Special Features, Featurettes, etc
+tags:
+- Unwanted
+- Extras
+tests: []

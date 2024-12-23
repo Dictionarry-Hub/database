@@ -1,0 +1,12 @@
+name: ZQ
+description: ''
+tags:
+- Release Group
+- Encode Tier 2 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: ZQ
+  required: true
+  type: release_group
+tests: []

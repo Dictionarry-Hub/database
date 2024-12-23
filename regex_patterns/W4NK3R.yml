@@ -1,0 +1,6 @@
+name: W4NK3R
+pattern: (?<=^|[\s.-])W4NK3R\b
+description: ''
+tags:
+- Release Group
+tests: []

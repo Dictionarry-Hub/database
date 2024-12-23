@@ -1,0 +1,13 @@
+name: iFT
+description: ''
+tags:
+- Release Group
+- Encode Tier 3 (1080p)
+- Manual Rank
+conditions:
+- name: Regex
+  negate: false
+  pattern: iFT
+  required: true
+  type: release_group
+tests: []

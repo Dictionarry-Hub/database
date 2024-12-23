@@ -1,0 +1,6 @@
+name: HDMaNiAcS
+pattern: (?<=^|[\s.-])HDMaNiAcS\b
+description: ''
+tags:
+- Release Group
+tests: []

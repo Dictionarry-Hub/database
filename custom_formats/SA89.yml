@@ -1,0 +1,12 @@
+name: SA89
+description: ''
+tags:
+- Release Group
+- Encode Tier 3 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: SA89
+  required: true
+  type: release_group
+tests: []

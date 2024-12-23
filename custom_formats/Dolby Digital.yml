@@ -1,0 +1,42 @@
+name: Dolby Digital
+description: Matches 'Dolby Digital' Regex Pattern and negates any other audio types
+  that might conflict.
+tags:
+- Audio
+conditions:
+- name: Dolby Digital
+  negate: false
+  pattern: Dolby Digital
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: false
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: AAC
+  required: false
+  type: release_title
+- name: Not DTS
+  negate: true
+  pattern: DTS
+  required: false
+  type: release_title
+- name: Not TrueHD + Atmos
+  negate: true
+  pattern: TrueHD + Atmos
+  required: false
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: false
+  type: release_title
+- name: Not Dolby Digital +
+  type: release_title
+  required: false
+  negate: true
+  pattern: Dolby Digital +
+tests: []

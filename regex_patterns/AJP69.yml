@@ -1,0 +1,6 @@
+name: AJP69
+pattern: (?<=^|[\s.-])AJP69\b
+description: ''
+tags:
+- Release Group
+tests: []

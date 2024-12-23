@@ -1,0 +1,44 @@
+name: Paramount+
+pattern: \b(pmtp|Paramount Plus)\b
+description: 'Paramount+ is an American subscription video on-demand over-the-top
+  streaming service owned that offers content primarily from the libraries of CBS
+  Media Ventures, CBS Studios, Paramount Media Networks and Paramount Pictures, while
+  also including original series and films, live streaming sports coverage, and in
+  the United States, live streaming of local CBS broadcast stations. '
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: Landman S01E02 Dreamers and Losers 2160p PMTP WEB-DL DDP5 1 H 265-STC
+  lastRun: '2024-12-06T05:10:12.208630'
+  matchSpan:
+    end: 45
+    start: 41
+  matchedContent: PMTP
+  matchedGroups:
+  - PMTP
+  passes: true
+- expected: true
+  id: 2
+  input: Star Trek Lower Decks S05E03 The Best Exotic Nanite Hotel 1080p PMTP WEB-DL
+    DDP5 1 H 264-STC
+  lastRun: '2024-12-06T05:10:12.208630'
+  matchSpan:
+    end: 68
+    start: 64
+  matchedContent: PMTP
+  matchedGroups:
+  - PMTP
+  passes: true
+- expected: false
+  id: 4
+  input: Gladiator 2000 Paramount Reissue Extended Cut Remastered 1080p BluRay AVC
+    DTS-HD MA 5.1 REMUX-FraMeSToR
+  lastRun: '2024-12-06T05:10:12.208630'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

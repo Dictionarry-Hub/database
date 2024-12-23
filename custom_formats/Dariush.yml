@@ -1,0 +1,17 @@
+name: Dariush
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: Dariush
+  required: true
+  type: release_group
+- name: DVD
+  type: source
+  required: false
+  negate: true
+  source: dvd
+tests: []

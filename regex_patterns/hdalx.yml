@@ -1,0 +1,6 @@
+name: hdalx
+pattern: (?<=^|[\s.-])hdalx\b
+description: ''
+tags:
+- Release Group
+tests: []

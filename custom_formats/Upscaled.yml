@@ -1,0 +1,12 @@
+name: Upscaled
+description: Matches the 'Upscaled' regex pattern
+tags:
+- Enhancement
+- Unwanted
+conditions:
+- name: Upscaled
+  type: release_title
+  required: true
+  negate: false
+  pattern: Upscaled
+tests: []

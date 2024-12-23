@@ -1,0 +1,16 @@
+name: SOP
+pattern: (?<=^|[\s.-])SOP\b
+description: ''
+tags:
+- Release Group
+tests:
+- expected: true
+  id: 1
+  input: Interstellar.2014.PROPER.1080p.BluRay.DTS.x264-SoP
+  lastRun: '2024-12-22T20:56:46.004338'
+  matchSpan:
+    end: 50
+    start: 47
+  matchedContent: SoP
+  matchedGroups: []
+  passes: true

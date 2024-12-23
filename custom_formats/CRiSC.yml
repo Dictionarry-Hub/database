@@ -1,0 +1,12 @@
+name: CRiSC
+description: ''
+tags:
+- Release Group
+- Encode Tier 3 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: CRiSC
+  required: true
+  type: release_group
+tests: []

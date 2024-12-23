@@ -1,0 +1,6 @@
+name: ZIMBO
+pattern: (?<=^|[\s.-])ZIMBO\b
+description: ''
+tags:
+- Release Group
+tests: []

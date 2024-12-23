@@ -1,0 +1,6 @@
+name: ORiGEN
+pattern: (?<=^|[\s.-])ORiGEN\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: FraMeSToR
+pattern: (?<=^|[\s.-])FraMeSToR\b
+description: ''
+tags:
+- Release Group
+tests: []

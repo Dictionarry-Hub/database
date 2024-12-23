@@ -1,0 +1,17 @@
+name: HANDJOB
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: HANDJOB
+  required: true
+  type: release_group
+- name: DVD
+  negate: true
+  required: false
+  source: dvd
+  type: source
+tests: []

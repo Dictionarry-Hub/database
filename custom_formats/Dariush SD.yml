@@ -1,0 +1,17 @@
+name: Dariush SD
+description: Matches SD Dariush Encodes
+tags:
+- Release Group
+- Encode Tier 1 (SD)
+conditions:
+- name: Regex SD
+  negate: false
+  pattern: Dariush
+  required: true
+  type: release_group
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
+tests: []

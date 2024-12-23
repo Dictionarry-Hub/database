@@ -1,0 +1,12 @@
+name: EbP
+description: ''
+tags:
+- Release Group
+- Encode Tier 1 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: EbP
+  required: true
+  type: release_group
+tests: []

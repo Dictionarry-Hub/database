@@ -1,0 +1,12 @@
+name: BMF
+description: ''
+tags:
+- Release Group
+- Encode Tier 4 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: BMF
+  required: true
+  type: release_group
+tests: []

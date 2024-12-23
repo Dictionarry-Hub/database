@@ -1,0 +1,33 @@
+name: DVD Remux
+description: A DVD Remux is a direct rip of a DVD's content without any re-encoding,
+  preserving the original video, audio, and subtitle quality. It retains the exact
+  resolution, bitrate, and format of the DVD, ensuring no loss in fidelity compared
+  to the source.
+tags:
+- Source
+- SD
+- Lossless
+conditions:
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
+- name: Remux
+  type: release_title
+  required: true
+  negate: false
+  pattern: Remux
+tests:
+- conditionResults:
+  - matches: true
+    name: Remux
+    negate: false
+    pattern: Remux
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: "\xC6on Flux AKA Aeon Flux S01 NTSC DVD DD5.1 MPEG-2 REMUX-GF"
+  lastRun: '2024-12-08T22:41:50.874176'
+  passes: true

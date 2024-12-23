@@ -1,0 +1,12 @@
+name: W4NK3R
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: W4NK3R
+  required: true
+  type: release_group
+tests: []

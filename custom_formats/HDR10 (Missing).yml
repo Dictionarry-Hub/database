@@ -1,0 +1,76 @@
+name: HDR10 (Missing)
+description: Attempts to match HDR10 to groups that mislabel their releases
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: Not HDR10
+  negate: true
+  pattern: HDR10
+  required: false
+  type: release_title
+- name: Not HDR10+
+  negate: true
+  pattern: HDR10+
+  required: false
+  type: release_title
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Missing Groups
+  negate: false
+  pattern: HDR10 (Missing Groups)
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: Not HDR10
+    negate: true
+    pattern: HDR10
+    required: false
+    type: release_title
+  - matches: false
+    name: Not HDR10+
+    negate: true
+    pattern: HDR10+
+    required: false
+    type: release_title
+  - matches: true
+    name: Missing Groups
+    negate: false
+    pattern: HDR10 (Missing Groups)
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Barbie 2023 UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC HYBRID REMUX-FraMeSToR
+  lastRun: '2024-12-13T09:50:00.736356'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Not HDR10
+    negate: true
+    pattern: HDR10
+    required: false
+    type: release_title
+  - matches: false
+    name: Not HDR10+
+    negate: true
+    pattern: HDR10+
+    required: false
+    type: release_title
+  - matches: true
+    name: Missing Groups
+    negate: false
+    pattern: HDR10 (Missing Groups)
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Barbie (2023) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR TrueHD Atmos 7.1
+    English-FraMeSToR
+  lastRun: '2024-12-13T09:50:00.736356'
+  passes: true

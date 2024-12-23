@@ -1,0 +1,12 @@
+name: IDE
+description: ''
+tags:
+- Release Group
+- Encode Tier 4 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: IDE
+  required: true
+  type: release_group
+tests: []

@@ -1,0 +1,13 @@
+name: VLAD
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+- Manual Rank
+conditions:
+- name: Regex
+  negate: false
+  pattern: VLAD
+  required: true
+  type: release_group
+tests: []

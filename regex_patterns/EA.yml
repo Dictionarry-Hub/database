@@ -1,0 +1,6 @@
+name: EA
+pattern: (?<=^|[\s.-])EA\b
+description: ''
+tags:
+- Release Group
+tests: []

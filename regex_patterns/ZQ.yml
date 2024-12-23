@@ -1,0 +1,6 @@
+name: ZQ
+pattern: (?<=^|[\s.-])ZQ\b
+description: ''
+tags:
+- Release Group
+tests: []

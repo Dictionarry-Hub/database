@@ -1,0 +1,6 @@
+name: NyHD
+pattern: (?<=^|[\s.-])NyHD\b
+description: ''
+tags:
+- Release Group
+tests: []

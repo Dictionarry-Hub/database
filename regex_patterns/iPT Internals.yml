@@ -1,0 +1,42 @@
+name: iPT Internals
+pattern: (?<=^|[\s.-])CM(a)?R(io)?G|EVO\b
+description: 'Matches EVO / CMRG. Needed for the iTunes (Missing) CF. '
+tags:
+- Release Group
+tests:
+- expected: true
+  id: 1
+  input: 12 Dares of Christmas 2023 1080p AMZN WEB-DL DDP 2.0 H.264-CMRG
+  lastRun: '2024-12-06T06:14:09.421485'
+  matchSpan:
+    end: 63
+    start: 59
+  matchedContent: CMRG
+  matchedGroups:
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 2
+  input: The.Super.Mario.Bros.Movie.2023.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-CMaRioG.mkv
+  lastRun: '2024-12-06T06:14:09.421485'
+  matchSpan:
+    end: 74
+    start: 67
+  matchedContent: CMaRioG
+  matchedGroups:
+  - a
+  - io
+  passes: true
+- expected: true
+  id: 3
+  input: Aisha 2022 1080p WEB-DL DDP5 1 H 264-EVO
+  lastRun: '2024-12-06T06:14:09.421485'
+  matchSpan:
+    end: 40
+    start: 37
+  matchedContent: EVO
+  matchedGroups:
+  - null
+  - null
+  passes: true

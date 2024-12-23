@@ -1,0 +1,12 @@
+name: ORiGEN
+description: ''
+tags:
+- Release Group
+- Encode Tier 5 (1080p)
+conditions:
+- name: Regex
+  negate: false
+  pattern: ORiGEN
+  required: true
+  type: release_group
+tests: []

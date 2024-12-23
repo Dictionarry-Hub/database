@@ -1,0 +1,6 @@
+name: PTer
+pattern: (?<=^|[\s.-])PTer\b
+description: ''
+tags:
+- Release Group
+tests: []

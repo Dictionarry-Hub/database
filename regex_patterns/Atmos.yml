@@ -1,0 +1,7 @@
+name: Atmos
+pattern: \bATMOS(\b|\d)
+description: ''
+tags:
+- Audio
+- Enhancement
+tests: []

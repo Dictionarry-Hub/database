@@ -1,0 +1,17 @@
+name: 1080p Golden Popcorn
+description: Matches 1080p Golden Popcorns. Only works on PassThePopcorn
+tags:
+- Flag
+- Golden Popcorn
+conditions:
+- flag: ptp_golden
+  name: Golden Popcorn
+  negate: false
+  required: true
+  type: indexer_flag
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+tests: []

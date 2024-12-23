@@ -1,0 +1,57 @@
+name: DTS
+description: Matches 'DTS' Regex Pattern and negates any other audio types that might
+  conflict.
+tags:
+- Audio
+conditions:
+- name: DTS
+  negate: false
+  pattern: DTS
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: false
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: AAC
+  required: false
+  type: release_title
+- name: Not DTS-HD
+  negate: true
+  pattern: DTS-HD
+  required: false
+  type: release_title
+- name: Not DTS-HD HRA ES
+  negate: true
+  pattern: DTS-HD HRA ES
+  required: false
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: false
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: false
+  type: release_title
+- name: Not TrueHD + Atmos
+  negate: true
+  pattern: TrueHD + Atmos
+  required: false
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: false
+  type: release_title
+- name: Not DTS-X
+  negate: true
+  pattern: DTS-X
+  required: false
+  type: release_title
+tests: []

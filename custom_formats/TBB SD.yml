@@ -1,0 +1,17 @@
+name: TBB SD
+description: Matches SD TBB Encodes
+tags:
+- Release Group
+- Encode Tier 1 (SD)
+conditions:
+- name: Regex
+  negate: false
+  pattern: TBB
+  required: true
+  type: release_group
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
+tests: []

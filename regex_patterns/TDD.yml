@@ -1,0 +1,6 @@
+name: TDD
+pattern: (?<=^|[\s.-])TDD\b
+description: ''
+tags:
+- Release Group
+tests: []

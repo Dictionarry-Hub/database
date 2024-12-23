@@ -1,0 +1,57 @@
+name: Full Disc
+description: 'Matches the ''Full Disc'' regex pattern and negates any remuxes / encodes. '
+tags:
+- Storage
+- Source
+conditions:
+- name: Full Disc
+  negate: false
+  pattern: Full Disc
+  required: true
+  type: release_title
+- name: x264
+  negate: true
+  pattern: x264
+  required: false
+  type: release_title
+- name: x265
+  negate: true
+  pattern: x265
+  required: false
+  type: release_title
+- name: Remux
+  negate: true
+  pattern: Remux
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Full Disc
+    negate: false
+    pattern: Full Disc
+    required: true
+    type: release_title
+  - matches: false
+    name: x264
+    negate: true
+    pattern: x264
+    required: false
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  - matches: true
+    name: Remux
+    negate: true
+    pattern: Remux
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Isolani 2017 1080p BluRay REMUX AVC DTS-HD MA 5.1-Parapluie
+  lastRun: '2024-12-08T22:57:56.281360'
+  passes: true

@@ -1,0 +1,41 @@
+name: Amazon Prime
+description: Matches 'Amazon Prime' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+- WEB1 [1080p]
+conditions:
+- name: AMZN Regex
+  negate: false
+  pattern: Amazon Prime
+  required: true
+  type: release_title
+- name: WEBRip
+  negate: true
+  required: false
+  source: webrip
+  type: source
+- name: x265
+  negate: true
+  pattern: x265
+  required: false
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: AMZN Regex
+    negate: false
+    pattern: Amazon Prime
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: The Bad Guys (2022) (1080p AMZN Webrip x265 10bit EAC3 5 1 - ArcX)[TAoE]
+  lastRun: '2024-12-02T19:53:46.454146'
+  passes: true

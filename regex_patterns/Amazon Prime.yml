@@ -1,0 +1,54 @@
+name: Amazon Prime
+pattern: \b(?:amzn|(?:AMZN|Amazon)(?=\s*(?:WEB-?DL|HD)))\b
+description: Amazon Prime Video, or simply Prime Video, is an American subscription
+  video on-demand over-the-top streaming and rental service of Amazon offered both
+  as a stand-alone service and as part of Amazon's Prime subscription.
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: Futurama.S03E01.Amazon Women in the Mood.1080p.AMZN.WEB-DL.DDP2.0.H.264-Yatogam1.mkv
+  lastRun: '2024-12-06T01:59:08.829137'
+  matchSpan:
+    end: 51
+    start: 47
+  matchedContent: AMZN
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Futurama.S03E05.Amazon.Women.in.the.Mood.NF.WEB DL.DDP2.0.x264 CtrlSD.mkv
+  lastRun: '2024-12-06T01:59:08.829137'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: Amazon.Women.on.the.Moon.1987.720p.BluRay.x264-HANDJOB.mkv
+  lastRun: '2024-12-06T01:59:08.829137'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 4
+  input: First.Contact.Lost.Tribe.of.the.Amazon.2016.1080p.AMZN.WEB-DL.DDP2.0.H.264-Q0SWeb.mkv
+  lastRun: '2024-12-06T01:59:08.829137'
+  matchSpan:
+    end: 54
+    start: 50
+  matchedContent: AMZN
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 5
+  input: First.Contact.Lost.Tribe.of.the.Amazon.2016.1080p.WEB-DL.DDP2.0.H.264-Q0SWeb.mkv
+  lastRun: '2024-12-06T01:59:08.829137'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

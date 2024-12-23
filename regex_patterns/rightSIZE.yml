@@ -1,0 +1,6 @@
+name: rightSIZE
+pattern: (?<=^|[\s.-])rightSIZE\b
+description: ''
+tags:
+- Release Group
+tests: []

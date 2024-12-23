@@ -1,0 +1,6 @@
+name: NTb
+pattern: (?<=^|[\s.-])NTb\b
+description: ''
+tags:
+- Release Group
+tests: []

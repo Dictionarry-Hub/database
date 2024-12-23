@@ -1,0 +1,116 @@
+name: Dual Audio
+pattern: \b((multi[^a-zA-Z]*)|(dual[\s.-](audio|complete)))\b
+description: Matches releases with Dual Audio; Media releases that contain two language
+  tracks - typically the original language (such as Japanese) along with an English
+  dub, allowing viewers to switch between either audio track while watching the same
+  video content.
+tags: []
+tests:
+- expected: true
+  id: 1
+  input: "\t The.Hunger.Games.2012.MULTi.1080p.BluRay.DTS.HD.MA.x264-HeavyWeight"
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan:
+    end: 30
+    start: 24
+  matchedContent: MULTi.
+  matchedGroups:
+  - MULTi.
+  - MULTi.
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 2
+  input: The.Hunger.Games.2012.1080p.AMZN.WEB-DL.Multi.DDP5.1.H.264-DHRUB_DXD
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan:
+    end: 46
+    start: 40
+  matchedContent: Multi.
+  matchedGroups:
+  - Multi.
+  - Multi.
+  - null
+  - null
+  passes: true
+- expected: false
+  id: 3
+  input: 'We Don''t Die, We Multiply: The Robin Harris Story'
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 4
+  input: Cyberpunk 2077 Phantom Liberty MULTi19 v2 2 DINOByTES
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan:
+    end: 39
+    start: 31
+  matchedContent: 'MULTi19 '
+  matchedGroups:
+  - 'MULTi19 '
+  - 'MULTi19 '
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 5
+  input: Attack on Titan S04 2020 1080p USA Blu-ray AVC TrueHD 5.1 Dual Audio -ZR-
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan:
+    end: 68
+    start: 58
+  matchedContent: Dual Audio
+  matchedGroups:
+  - Dual Audio
+  - null
+  - Dual Audio
+  - Audio
+  passes: true
+- expected: true
+  id: 6
+  input: DanMachi Sword Oratoria Vol 01-04 2017 ANiME DUAL COMPLETE BLURAY-iFPD
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan:
+    end: 58
+    start: 45
+  matchedContent: DUAL COMPLETE
+  matchedGroups:
+  - DUAL COMPLETE
+  - null
+  - DUAL COMPLETE
+  - COMPLETE
+  passes: true
+- expected: true
+  id: 7
+  input: Bleach.S12.1080p.BluRay.REMUX.AVC.Dual-Audio.DTS-HD.MA.2.0-ZR-
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan:
+    end: 44
+    start: 34
+  matchedContent: Dual-Audio
+  matchedGroups:
+  - Dual-Audio
+  - null
+  - Dual-Audio
+  - Audio
+  passes: true
+- expected: false
+  id: 8
+  input: Dual.2022.1080p.BluRay.DDP5.1.x264-iFT.mkv
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 9
+  input: uality.A.Graffiti.Story.2022.1080p.WEB.H264-AEROHOLiCS.mkv
+  lastRun: '2024-12-18T11:58:49.979470'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

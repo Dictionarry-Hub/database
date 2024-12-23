@@ -1,0 +1,11 @@
+name: BHDStudio
+description: ''
+tags:
+- Release Group
+conditions:
+- name: Regex
+  negate: false
+  pattern: BHDStudio
+  required: true
+  type: release_group
+tests: []
