@@ -7,12 +7,12 @@ conditions:
 - name: Not HDR10
   negate: true
   pattern: HDR10
-  required: false
+  required: true
   type: release_title
 - name: Not HDR10+
   negate: true
   pattern: HDR10+
-  required: false
+  required: true
   type: release_title
 - name: 2160p
   negate: false
