@@ -1,0 +1,11 @@
+name: Remux
+description: Matches Remux as a codec, not a source. Either h265 or h264.
+tags:
+- Codec
+conditions:
+- name: Remux
+  type: release_title
+  required: true
+  negate: false
+  pattern: Remux
+tests: []
