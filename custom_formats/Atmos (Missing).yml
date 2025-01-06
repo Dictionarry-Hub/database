@@ -21,4 +21,9 @@ conditions:
   pattern: TrueHD
   required: true
   type: release_title
+- name: Not Atmos (BTN)
+  type: release_title
+  required: true
+  negate: true
+  pattern: Atmos (BTN)
 tests: []

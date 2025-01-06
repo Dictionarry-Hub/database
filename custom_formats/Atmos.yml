@@ -8,6 +8,11 @@ conditions:
 - name: Atmos
   negate: false
   pattern: Atmos
-  required: true
+  required: false
   type: release_title
+- name: Atmos (BTN Standard)
+  type: release_title
+  required: false
+  negate: false
+  pattern: Atmos (BTN)
 tests: []
