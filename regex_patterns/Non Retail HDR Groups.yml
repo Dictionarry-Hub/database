@@ -1,0 +1,18 @@
+name: Non Retail HDR Groups
+pattern: (?<=^|[\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c\b
+description: Matches groups that produce non retail HDR.
+tags:
+- Release Group
+- HDR
+- Unwanted
+tests:
+- expected: true
+  id: 1
+  input: Longlegs 2024 2160p BluRay REMUX DTS-HD MA 5 1 DV HDR H 265-SasukeducK
+  lastRun: '2025-01-06T14:40:34.463173'
+  matchSpan:
+    end: 70
+    start: 60
+  matchedContent: SasukeducK
+  matchedGroups: []
+  passes: true
