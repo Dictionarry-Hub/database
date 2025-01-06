@@ -140,9 +140,9 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: 5
-  name: WEBDL-2160p
-  description: 4K web download, untouched as released by the streaming service
+  id: 3
+  name: Remux-2160p
+  description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
 language: must_english
 tweaks:
   preferFreeleech: true
