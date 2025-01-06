@@ -1,0 +1,16 @@
+name: Blu-ray Encode
+description: Matches Blu-rays that are NOT remuxes
+tags:
+- Source
+conditions:
+- name: Remux
+  type: release_title
+  required: true
+  negate: true
+  pattern: Remux
+- name: Blu-ray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+tests: []
