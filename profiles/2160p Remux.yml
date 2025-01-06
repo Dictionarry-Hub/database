@@ -28,7 +28,13 @@ custom_formats:
   score: 60
 - name: DTS-X
   score: 60
+- name: Remux
+  score: 60
 - name: DTS-HD MA
+  score: 50
+- name: TrueHD
+  score: 50
+- name: TrueHD (Missing)
   score: 50
 - name: DVD Remux
   score: 40
@@ -88,6 +94,8 @@ custom_formats:
   score: -9999
 - name: B&W
   score: -9999
+- name: Blu-ray Encode
+  score: -9999
 - name: Dolby Vision (Without Fallback)
   score: -9999
 - name: Extras
@@ -97,6 +105,8 @@ custom_formats:
 - name: h265
   score: -9999
 - name: h265 (Missing)
+  score: -9999
+- name: Non Retail HDR
   score: -9999
 - name: Upscaled
   score: -9999
@@ -130,12 +140,12 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: 5
+  name: WEBDL-2160p
+  description: 4K web download, untouched as released by the streaming service
 language: must_english
 tweaks:
-  preferFreeleech: true
+  preferFreeleech: false
   allowLosslessAudio: true
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false
