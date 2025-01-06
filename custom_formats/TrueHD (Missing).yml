@@ -10,10 +10,10 @@ conditions:
   required: true
   type: release_title
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: Remux
   negate: false
   pattern: Remux
@@ -22,21 +22,21 @@ conditions:
 - name: Not DTS-HD
   negate: true
   pattern: DTS-HD
-  required: false
+  required: true
   type: release_title
 - name: Not DTS-X
   negate: true
   pattern: DTS-X
-  required: false
+  required: true
   type: release_title
 - name: Not TrueHD
-  type: release_title
-  required: false
   negate: true
   pattern: TrueHD
-- name: Not FLAC
+  required: true
   type: release_title
-  required: false
+- name: Not FLAC
   negate: true
   pattern: FLAC
+  required: true
+  type: release_title
 tests: []
