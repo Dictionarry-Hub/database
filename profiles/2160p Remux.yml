@@ -145,7 +145,7 @@ upgrade_until:
   description: 4K web download, untouched as released by the streaming service
 language: must_english
 tweaks:
-  preferFreeleech: false
+  preferFreeleech: true
   allowLosslessAudio: true
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false
