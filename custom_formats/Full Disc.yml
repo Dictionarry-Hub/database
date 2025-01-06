@@ -12,17 +12,17 @@ conditions:
 - name: x264
   negate: true
   pattern: x264
-  required: false
+  required: true
   type: release_title
 - name: x265
   negate: true
   pattern: x265
-  required: false
+  required: true
   type: release_title
 - name: Remux
   negate: true
   pattern: Remux
-  required: false
+  required: true
   type: release_title
 tests:
 - conditionResults:
