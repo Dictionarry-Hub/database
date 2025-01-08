@@ -4,21 +4,21 @@ description: This profile aims to provide a balance between quality, size and co
   Popcorn Performance Index. This is a data-driven metric that identifies and ranks
   release groups based on their propensity to release a 'Golden Pocorn' - a very high
   quality encode. Special considerations for audio, sources, extras and flags are
-  also used to help rank releases.
+  also used to help rank releases. Test
 tags:
 - 1080p
 - Transparent
 - GPPi
 - x264
-upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 320
-minScoreIncrement: 0
+upgradesAllowed: false
+minCustomFormatScore: 10
+upgradeUntilScore: 20
+minScoreIncrement: 30
 custom_formats:
 - name: 1080p Golden Popcorn
-  score: 160
+  score: 200
 - name: D-Z0N3
-  score: 80
+  score: 300
 - name: DON
   score: 80
 - name: EbP
