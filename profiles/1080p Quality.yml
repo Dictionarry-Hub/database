@@ -11,14 +11,14 @@ tags:
 - GPPi
 - x264
 upgradesAllowed: false
-minCustomFormatScore: 10
-upgradeUntilScore: 20
-minScoreIncrement: 30
+minCustomFormatScore: 0
+upgradeUntilScore: 320
+minScoreIncrement: 10
 custom_formats:
 - name: 1080p Golden Popcorn
-  score: 200
+  score: 160
 - name: D-Z0N3
-  score: 300
+  score: 80
 - name: DON
   score: 80
 - name: EbP
