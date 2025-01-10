@@ -15,8 +15,8 @@ tags:
 - Dolby Vision
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 0
-minScoreIncrement: 0
+upgradeUntilScore: 350
+minScoreIncrement: 10
 custom_formats:
 - name: 2160p
   score: 120
