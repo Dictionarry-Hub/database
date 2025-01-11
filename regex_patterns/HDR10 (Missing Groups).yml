@@ -1,7 +1,29 @@
 name: HDR10 (Missing Groups)
-pattern: \b(FraMeSToR|HQMUX|SiCFoI|playBD|RYU|ElNeekster|CiNEPHiLES|3L|EDV|Kenobi|TRiToN|HDH|NTb|Flights|TekMUX)\b
+pattern: \b(FraMeSToR|HQMUX|SiCFoI|playBD|RYU|ElNeekster|CiNEPHiLES|3L|EDV|Kenobi|TRiToN|HDH|NTb|Flights|TekMUX|HDS)\b
 description: Matches groups who mislabel HDR10
 tags:
 - Release Group
 - HDR
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: Loki S01 2023 2160p UHD Blu-ray Remux HEVC TrueHD 7 1 Atmos-HDS
+  lastRun: '2025-01-12T00:54:11.550115'
+  matchSpan:
+    end: 63
+    start: 60
+  matchedContent: HDS
+  matchedGroups:
+  - HDS
+  passes: true
+- expected: true
+  id: 2
+  input: "\t Loki S01 REPACK UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC HYBRID REMUX-FraMeSToR"
+  lastRun: '2025-01-12T00:54:11.550115'
+  matchSpan:
+    end: 82
+    start: 73
+  matchedContent: FraMeSToR
+  matchedGroups:
+  - FraMeSToR
+  passes: true
