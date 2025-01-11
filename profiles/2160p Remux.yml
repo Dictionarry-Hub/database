@@ -42,8 +42,6 @@ custom_formats:
   score: 30
 - name: Apple TV+
   score: 30
-- name: Dariush SD
-  score: 30
 - name: Disney+
   score: 30
 - name: Dolby Vision
@@ -52,11 +50,7 @@ custom_formats:
   score: 30
 - name: Movies Anywhere
   score: 30
-- name: TBB SD
-  score: 30
 - name: Criterion Channel
-  score: 20
-- name: HANDJOB SD
   score: 20
 - name: HBO Max
   score: 20
@@ -143,7 +137,7 @@ upgrade_until:
   id: 3
   name: Remux-2160p
   description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
-language: must_english
+language: must_original
 tweaks:
   preferFreeleech: true
   allowLosslessAudio: true
