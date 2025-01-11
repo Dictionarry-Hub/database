@@ -1,0 +1,27 @@
+name: SDR
+pattern: \bSDR\b
+description: 'Explicitly matches labelled Standard Dynamic Range, i.e. "SDR" '
+tags:
+- HDR
+tests:
+- expected: true
+  id: 1
+  input: Yojimbo.1961.REPACK.2160p.UHD.Blu-ray.Remux.SDR.HEVC.FLAC.1.0-CiNEPHiLES.mkv
+  lastRun: '2025-01-11T22:58:34.197378'
+  matchSpan:
+    end: 47
+    start: 44
+  matchedContent: SDR
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: "For a Few Dollars More aka Per qualche dollaro in pi\xF9 1965 UHD BluRay\
+    \ 2160p DTS-HD MA 5.1 SDR HEVC REMUX-FraMeSToR"
+  lastRun: '2025-01-11T22:58:34.197378'
+  matchSpan:
+    end: 93
+    start: 90
+  matchedContent: SDR
+  matchedGroups: []
+  passes: true
