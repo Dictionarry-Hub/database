@@ -4,180 +4,42 @@ description: This profile aims to provide a balance between quality, size and co
   Popcorn Performance Index. This is a data-driven metric that identifies and ranks
   release groups based on their propensity to release a 'Golden Pocorn' - a very high
   quality encode. Special considerations for audio, sources, extras and flags are
-  also used to help rank releases. Test
+  also used to help rank releases.
 tags:
 - 1080p
 - Transparent
 - GPPi
 - x264
 upgradesAllowed: false
-minCustomFormatScore: 10
-upgradeUntilScore: 20
-minScoreIncrement: 30
+minCustomFormatScore: 0
+upgradeUntilScore: 320
+minScoreIncrement: 10
 custom_formats:
 - name: 1080p Golden Popcorn
-  score: 200
-- name: D-Z0N3
-  score: 300
-- name: DON
+  score: 160
+- name: 1080p Quality Tier 1
   score: 80
-- name: EbP
-  score: 80
-- name: c0ke
-  score: 70
-- name: CtrlHD
-  score: 70
-- name: Geek
-  score: 70
-- name: HiFi
-  score: 70
-- name: TayTo
-  score: 70
-- name: VietHD
-  score: 70
-- name: ZQ
+- name: 1080p Quality Tier 2
   score: 70
 - name: 1080p
   score: 60
-- name: CRiSC
+- name: 1080p Quality Tier 3
   score: 60
-- name: decibeL
-  score: 60
-- name: FoRM
-  score: 60
-- name: HiDt
-  score: 60
-- name: HiP
-  score: 60
-- name: iFT
-  score: 60
-- name: SA89
-  score: 60
-- name: WMING
-  score: 60
-- name: BMF
+- name: 1080p Quality Tier 4
   score: 50
-- name: de[42]
-  score: 50
-- name: EA
-  score: 50
-- name: HDMaNiAcS
-  score: 50
-- name: IDE
-  score: 50
-- name: LolHD
-  score: 50
-- name: NCmt
-  score: 50
-- name: NTb
-  score: 50
-- name: AJP69
+- name: 1080p Quality Tier 5
   score: 40
 - name: Amazon Prime
   score: 40
 - name: Apple TV+
   score: 40
-- name: BV
-  score: 40
-- name: Chotab
-  score: 40
-- name: CJ
-  score: 40
-- name: CRX
-  score: 40
-- name: Dariush
-  score: 40
 - name: Disney+
   score: 40
 - name: DVD Remux
   score: 40
-- name: E.N.D
-  score: 40
-- name: E1
-  score: 40
-- name: EDPH
-  score: 40
-- name: ESiR
-  score: 40
-- name: EXCiSION
-  score: 40
-- name: FilmHD
-  score: 40
-- name: FraMeSToR
-  score: 40
-- name: FTW-HD
-  score: 40
-- name: GALAXY
-  score: 40
-- name: GS88
-  score: 40
-- name: HANDJOB
-  score: 40
-- name: hdalx
-  score: 40
-- name: iON
-  score: 40
-- name: KASHMiR
-  score: 40
-- name: LEGi0N
-  score: 40
-- name: LiNG
-  score: 40
-- name: LoRD
-  score: 40
-- name: luvBB
-  score: 40
 - name: Movies Anywhere
   score: 40
-- name: MTeam
-  score: 40
-- name: nmd
-  score: 40
-- name: NyHD
-  score: 40
-- name: ORiGEN
-  score: 40
-- name: P0W4HD
-  score: 40
-- name: Penumbra
-  score: 40
-- name: playHD
-  score: 40
-- name: Positive
-  score: 40
-- name: PTer
-  score: 40
-- name: rightSIZE
-  score: 40
-- name: rttr
-  score: 40
-- name: SaNcTi
-  score: 40
-- name: SbR
-  score: 40
-- name: SiMPLE
-  score: 40
-- name: SOP
-  score: 40
-- name: TBB
-  score: 40
-- name: TDD
-  score: 40
-- name: ThD
-  score: 40
-- name: VLAD
-  score: 40
-- name: W4NK3R
-  score: 40
-- name: xander
-  score: 40
-- name: ZIMBO
-  score: 40
-- name: ZoroSenpai
-  score: 40
 - name: Criterion Channel
-  score: 30
-- name: Dariush SD
   score: 30
 - name: HBO Max
   score: 30
@@ -191,10 +53,8 @@ custom_formats:
   score: 30
 - name: SD Golden Popcorn
   score: 30
-- name: TBB SD
+- name: SD Quality Tier 1
   score: 30
-- name: HANDJOB SD
-  score: 20
 - name: Hulu
   score: 20
 - name: iTunes
@@ -204,6 +64,8 @@ custom_formats:
 - name: Roku
   score: 20
 - name: Scene
+  score: 20
+- name: SD Quality Tier 2
   score: 20
 - name: Atmos
   score: 10
@@ -293,7 +155,7 @@ upgrade_until:
   name: Transparent capable
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
-language: must_english
+language: must_original
 tweaks:
   preferFreeleech: true
   allowLosslessAudio: true
