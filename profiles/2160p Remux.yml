@@ -102,6 +102,8 @@ custom_formats:
   score: -9999
 - name: Non Retail HDR
   score: -9999
+- name: UHDBits
+  score: -9999
 - name: Upscaled
   score: -9999
 - name: VVC
