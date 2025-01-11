@@ -1,0 +1,54 @@
+name: 1080p Quality Tier 2
+description: Matches release groups who fall under 1080p GPPi Tier 2
+tags:
+- GPPi
+- Release Group Tier
+- 1080p
+- Quality
+conditions:
+- name: c0ke
+  negate: false
+  pattern: c0ke
+  required: false
+  type: release_group
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
+- name: Geek
+  negate: false
+  pattern: Geek
+  required: false
+  type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
+- name: TayTo
+  negate: false
+  pattern: TayTo
+  required: false
+  type: release_group
+- name: VietHD
+  negate: false
+  pattern: VietHD
+  required: false
+  type: release_group
+- name: ZQ
+  negate: false
+  pattern: ZQ
+  required: false
+  type: release_group
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+tests: []

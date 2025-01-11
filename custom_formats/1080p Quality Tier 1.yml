@@ -1,0 +1,34 @@
+name: 1080p Quality Tier 1
+description: Matches release groups who fall under 1080p GPPi Tier 1
+tags:
+- GPPi
+- Release Group Tier
+- 1080p
+- Quality
+conditions:
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: D-Z0N3
+  negate: false
+  pattern: D-Z0N3
+  required: false
+  type: release_group
+- name: EbP
+  negate: false
+  pattern: EbP
+  required: false
+  type: release_group
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+tests: []
