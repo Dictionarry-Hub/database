@@ -22,8 +22,68 @@ conditions:
   required: true
   type: release_title
 - name: Not Atmos (BTN)
-  type: release_title
-  required: true
   negate: true
-  pattern: Atmos (BTN)
-tests: []
+  pattern: BTN Atmos
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: Not Atmos
+    negate: true
+    pattern: Atmos
+    required: true
+    type: release_title
+  - matches: true
+    name: 7.1 Surround
+    negate: false
+    pattern: 7.1 Surround
+    required: true
+    type: release_title
+  - matches: true
+    name: TrueHD
+    negate: false
+    pattern: TrueHD
+    required: true
+    type: release_title
+  - matches: true
+    name: Not Atmos (BTN)
+    negate: true
+    pattern: BTN Atmos
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: House.of.the.Dragon.S01.DV.2160p.BluRay.Remux.TrueHDA7.1.H.265-TekMUX
+  lastRun: '2025-01-11T22:46:33.711966'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Not Atmos
+    negate: true
+    pattern: Atmos
+    required: true
+    type: release_title
+  - matches: true
+    name: 7.1 Surround
+    negate: false
+    pattern: 7.1 Surround
+    required: true
+    type: release_title
+  - matches: true
+    name: TrueHD
+    negate: false
+    pattern: TrueHD
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Atmos (BTN)
+    negate: true
+    pattern: BTN Atmos
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: House of the Dragon S01 UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC REMUX-FraMeSToR
+  lastRun: '2025-01-11T22:46:33.711966'
+  passes: true
