@@ -18,10 +18,10 @@ conditions:
   source: bluray
   type: source
 - name: Remux
-  type: release_title
-  required: false
   negate: true
   pattern: Remux
+  required: true
+  type: release_title
 tests:
 - conditionResults:
   - matches: true

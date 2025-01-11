@@ -12,21 +12,21 @@ conditions:
 - name: Not DTS
   negate: true
   pattern: DTS
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital
   negate: true
   pattern: Dolby Digital
-  required: false
+  required: true
   type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital +
   negate: true
   pattern: Dolby Digital +
-  required: false
+  required: true
   type: release_title
 tests: []

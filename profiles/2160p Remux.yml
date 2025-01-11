@@ -1,0 +1,148 @@
+name: 2160p Remux
+description: "This profile prioritizes quality above all else. It will attempt to\
+  \ grab 2160p Remuxes, which are direct copies of 4K Blu-rays. These files include\
+  \ very high bitrate video, lossless, often spatial, audio as well as the various\
+  \ HDR formats - HDR10(+) and Dolby Vision. Instead of relying on a release group\
+  \ metric to find the best remuxes, it uses the various video + audio formats introduced\
+  \ prior, to find the best release. For example, Dolby Vision is preferred over HDR10\
+  \ & TrueHD + Atmos is preferred over DTS-HD MA. \n\nThis profile does not fit into\
+  \ the typical \"Quality -> Balanced -> Efficient\" triarchy since it's lossless. "
+tags:
+- 2160p
+- Lossless
+- Remux
+- HDR
+- Dolby Vision
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 350
+minScoreIncrement: 10
+custom_formats:
+- name: 2160p
+  score: 120
+- name: 1080p
+  score: 60
+- name: Blu-ray
+  score: 60
+- name: Blu-ray Remux
+  score: 60
+- name: DTS-X
+  score: 60
+- name: Remux
+  score: 60
+- name: DTS-HD MA
+  score: 50
+- name: TrueHD
+  score: 50
+- name: TrueHD (Missing)
+  score: 50
+- name: DVD Remux
+  score: 40
+- name: Amazon Prime
+  score: 30
+- name: Apple TV+
+  score: 30
+- name: Disney+
+  score: 30
+- name: Dolby Vision
+  score: 30
+- name: FLAC
+  score: 30
+- name: Movies Anywhere
+  score: 30
+- name: Criterion Channel
+  score: 20
+- name: HBO Max
+  score: 20
+- name: HDR10+
+  score: 20
+- name: Max
+  score: 20
+- name: Netflix
+  score: 20
+- name: Paramount+
+  score: 20
+- name: Peacock
+  score: 20
+- name: Atmos
+  score: 10
+- name: Atmos (Missing)
+  score: 10
+- name: HDR10
+  score: 10
+- name: HDR10 (Missing)
+  score: 10
+- name: Hulu
+  score: 10
+- name: iTunes
+  score: 10
+- name: iTunes (Missing)
+  score: 10
+- name: Roku
+  score: 10
+- name: 3D
+  score: -9999
+- name: 720p
+  score: -9999
+- name: AV1
+  score: -9999
+- name: B&W
+  score: -9999
+- name: Blu-ray Encode
+  score: -9999
+- name: Dolby Vision (Without Fallback)
+  score: -9999
+- name: Extras
+  score: -9999
+- name: Full Disc
+  score: -9999
+- name: h265
+  score: -9999
+- name: h265 (Missing)
+  score: -9999
+- name: Non Retail HDR
+  score: -9999
+- name: UHDBits
+  score: -9999
+- name: Upscaled
+  score: -9999
+- name: VVC
+  score: -9999
+- name: WEBRip
+  score: -9999
+- name: x264
+  score: -9999
+- name: x265
+  score: -9999
+qualities:
+- id: 3
+  name: Remux-2160p
+- id: 5
+  name: WEBDL-2160p
+- id: 8
+  name: Remux-1080p
+- id: 9
+  name: WEBDL-1080p
+- id: -1
+  name: SD
+  description: Standard Definition Fallbacks
+  qualities:
+  - id: 22
+    name: DVD
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 24
+    name: SDTV
+upgrade_until:
+  id: 3
+  name: Remux-2160p
+  description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
+language: must_original
+tweaks:
+  preferFreeleech: true
+  allowLosslessAudio: true
+  allowDVNoFallback: false
+  allowBleedingEdgeCodecs: false
+  allowPrereleases: false
