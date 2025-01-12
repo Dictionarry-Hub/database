@@ -109,6 +109,8 @@ custom_formats:
   score: -9999
 - name: HDR10+
   score: -9999
+- name: Remux
+  score: -9999
 - name: SD Bluray Encodes
   score: -9999
 - name: Upscaled
