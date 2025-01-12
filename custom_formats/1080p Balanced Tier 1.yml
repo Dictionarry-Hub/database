@@ -3,11 +3,21 @@ description: Matches release groups who fall under 1080p Balanced Tier 1
 tags:
 - Release Group
 conditions:
+- name: Not WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
 - name: hallowed
-  type: release_group
-  required: false
   negate: false
   pattern: hallowed
+  required: false
+  type: release_group
 - name: BHDStudio
   negate: false
   pattern: BHDStudio
