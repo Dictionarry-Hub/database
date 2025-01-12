@@ -1,0 +1,172 @@
+name: 1080p Balanced
+description: "This profile aims to balance quality, size and compatibility by prioritising\
+  \ WEB-DLs and falling back to transparent encodes, with special consideration for\
+  \ 'streaming optimised' release groups. WEB-DLs are preferred because they often\
+  \ give 'enough' quality at sizes smaller than transparent encodes, are plentiful,\
+  \ and are much easier to rank. \n\nIn the case that a 1080p WEB-DL or encode is\
+  \ not available, the profile falls back to DVD remuxes & encodes."
+tags:
+- 1080p
+- x264
+- Balanced
+- WEB
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 320
+minScoreIncrement: 10
+custom_formats:
+- name: 1080p
+  score: 220
+- name: Disney+
+  score: 220
+- name: Movies Anywhere
+  score: 220
+- name: Amazon Prime
+  score: 210
+- name: Apple TV+
+  score: 210
+- name: Criterion Channel
+  score: 210
+- name: HBO Max
+  score: 210
+- name: Max
+  score: 210
+- name: Netflix
+  score: 210
+- name: Paramount+
+  score: 210
+- name: Peacock
+  score: 210
+- name: iTunes (Missing)
+  score: 200
+- name: 1080p Balanced Tier 1
+  score: 170
+- name: 1080p Balanced Tier 2
+  score: 160
+- name: 1080p Quality Tier 1
+  score: 90
+- name: Hulu
+  score: 90
+- name: iTunes
+  score: 90
+- name: Roku
+  score: 90
+- name: 1080p Quality Tier 2
+  score: 80
+- name: 1080p Quality Tier 3
+  score: 70
+- name: 1080p Golden Popcorn
+  score: 60
+- name: 1080p Quality Tier 4
+  score: 60
+- name: 1080p Quality Tier 5
+  score: 50
+- name: DVD Remux
+  score: 40
+- name: SD Golden Popcorn
+  score: 30
+- name: SD Quality Tier 1
+  score: 30
+- name: Scene
+  score: 20
+- name: SD Quality Tier 2
+  score: 20
+- name: Atmos
+  score: 10
+- name: Atmos (Missing)
+  score: 10
+- name: Blu-ray
+  score: 10
+- name: WEBRip
+  score: 10
+- name: x264
+  score: 10
+- name: 2160p
+  score: -9999
+- name: 3D
+  score: -9999
+- name: 720p
+  score: -9999
+- name: 720p Golden Popcorn
+  score: -9999
+- name: B&W
+  score: -9999
+- name: BeyondHD
+  score: -9999
+- name: Blu-ray Remux
+  score: -9999
+- name: Dolby Vision
+  score: -9999
+- name: Full Disc
+  score: -9999
+- name: h265
+  score: -9999
+- name: h265 (Missing)
+  score: -9999
+- name: HDR10
+  score: -9999
+- name: HDR10 (Missing)
+  score: -9999
+- name: HDR10+
+  score: -9999
+- name: SD Bluray Encodes
+  score: -9999
+- name: Upscaled
+  score: -9999
+- name: x265
+  score: -9999
+- name: x265 (Missing)
+  score: -9999
+qualities:
+- id: -1
+  name: Balanced capable
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+- id: 12
+  name: HDTV-1080p
+- id: -2
+  name: Fallbacks
+  description: SD Fallbacks
+  qualities:
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 22
+    name: DVD
+  - id: 24
+    name: SDTV
+- id: -3
+  name: Prereleases
+  description: 'Low quality releases that come out before physical discs / streaming
+    / VODs. Needs to be enabled for tweak to work. '
+  qualities:
+  - id: 29
+    name: CAM
+  - id: 26
+    name: Telesync
+  - id: 25
+    name: Telecine
+  - id: 23
+    name: DVDSCR
+upgrade_until:
+  id: -1
+  name: Balanced capable
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
+language: must_original
+tweaks:
+  preferFreeleech: false
+  allowLosslessAudio: false
+  allowDVNoFallback: false
+  allowBleedingEdgeCodecs: false
+  allowPrereleases: false
