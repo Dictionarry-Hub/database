@@ -1,10 +1,14 @@
 name: 1080p Quality
-description: This profile aims to provide a balance between quality, size and compatibility
-  by prioritising 'Transparent' encodes through a special metric known as the Golden
-  Popcorn Performance Index. This is a data-driven metric that identifies and ranks
-  release groups based on their propensity to release a 'Golden Pocorn' - a very high
-  quality encode. Special considerations for audio, sources, extras and flags are
-  also used to help rank releases.
+description: 'This profile prioritises ''Transparent'' encodes through a special metric
+  known as the Golden Popcorn Performance Index. This is a data-driven metric that
+  identifies and ranks release groups based on their propensity to release a ''Golden
+  Pocorn'' - a very high quality encode. Special considerations for audio, sources,
+  extras and flags are also used to help rank releases.
+
+
+
+  In the case that a 1080p encode or WEB-DL is not available, the profile falls back
+  to DVD remuxes & encodes.'
 tags:
 - 1080p
 - Transparent
@@ -67,11 +71,11 @@ custom_formats:
   score: 20
 - name: SD Quality Tier 2
   score: 20
+- name: 1080p Balanced Tier 1
+  score: 10
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
-  score: 10
-- name: BHDStudio
   score: 10
 - name: Blu-ray
   score: 10
