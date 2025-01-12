@@ -113,9 +113,13 @@ custom_formats:
   score: -9999
 - name: HDR10+
   score: -9999
+- name: SD Bluray Encodes
+  score: -9999
 - name: Upscaled
   score: -9999
 - name: x265
+  score: -9999
+- name: x265 (Missing)
   score: -9999
 qualities:
 - id: -1
