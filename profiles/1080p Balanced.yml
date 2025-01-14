@@ -97,7 +97,11 @@ custom_formats:
   score: -9999
 - name: Dolby Vision
   score: -9999
+- name: Extras
+  score: -9999
 - name: Full Disc
+  score: -9999
+- name: Full Disc (Quality Match)
   score: -9999
 - name: h265
   score: -9999
