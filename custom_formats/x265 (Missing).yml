@@ -4,23 +4,41 @@ tags:
 - x265
 conditions:
 - name: 1080p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 1080p
+  type: resolution
 - name: Bluray
-  type: source
-  required: true
   negate: false
+  required: true
   source: bluray
+  type: source
 - name: Not x265
-  type: release_title
-  required: true
-  negate: false
+  negate: true
   pattern: x265
-- name: h265
-  type: release_title
   required: true
+  type: release_title
+- name: h265
   negate: false
   pattern: h265
-tests: []
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: Not x265
+    negate: true
+    pattern: x265
+    required: true
+    type: release_title
+  - matches: true
+    name: h265
+    negate: false
+    pattern: h265
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Training Day 2001 BluRay 10Bit 1080p DD5 1 H265-d3g
+  lastRun: '2025-01-14T09:03:52.278761'
+  passes: true
