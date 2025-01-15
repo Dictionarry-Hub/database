@@ -12,7 +12,7 @@ def load_template(template_path):
     """Load a YAML template file."""
     try:
         with open(template_path, 'r') as f:
-            return f.read()
+            return yaml.safe_load(f)
     except FileNotFoundError:
         print(f"Error: Template file not found: {template_path}")
         sys.exit(1)
@@ -33,7 +33,8 @@ def create_regex_pattern(group_name, template_dir, output_dir, dry_run=False):
 
     # Load and fill template
     template = load_template(template_dir / "releaseGroup.yml")
-    pattern = template.replace("<name>", group_name)
+    template['name'] = group_name
+    template['pattern'] = f"(?<=^|[\\s.-]){group_name}\\b"
 
     # Create output directory if it doesn't exist
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -41,7 +42,7 @@ def create_regex_pattern(group_name, template_dir, output_dir, dry_run=False):
     # Write pattern file if not dry run
     if not dry_run:
         with open(output_path, 'w') as f:
-            f.write(pattern)
+            yaml.dump(template, f, sort_keys=False)
 
 
 def create_tier_format(tier,
@@ -52,23 +53,38 @@ def create_tier_format(tier,
                        output_dir,
                        dry_run=False):
     """Create a custom format file for a specific tier."""
-    template = load_template(template_dir / "groupTier.yml")
-
-    # Create release group pattern string
-    release_groups = [
-        group["name"] for group in groups if group["tier"] == tier
-    ]
-    if not release_groups:
+    # Get groups for this tier
+    tier_groups = [group["name"] for group in groups if group["tier"] == tier]
+    if not tier_groups:
         return
 
-    release_group_pattern = '|'.join(f"(?:{name})" for name in release_groups)
+    # Load and fill template
+    template = load_template(template_dir / "groupTier.yml")
 
-    # Fill in template
-    format_content = (template.replace("<resolution>", resolution).replace(
-        "<type>",
-        type_name).replace("<level>",
-                           str(tier)).replace("<release_group>",
-                                              release_group_pattern))
+    # Replace template variables
+    template['name'] = f"{resolution} {type_name} Tier {tier}"
+    template[
+        'description'] = f"Matches release groups who fall under {resolution} {type_name} Tier {tier}"
+
+    # Find and update resolution condition
+    for condition in template['conditions']:
+        if condition.get('resolution'):
+            condition['name'] = resolution
+            condition['resolution'] = resolution
+
+    # Add release group conditions
+    for group_name in tier_groups:
+        release_group_condition = {
+            'name': group_name,
+            'negate': False,
+            'pattern': group_name,
+            'required': False,
+            'type': 'release_group'
+        }
+        template['conditions'].append(release_group_condition)
+
+    # Ensure tests is an empty list, not null
+    template['tests'] = []
 
     # Create output directory if it doesn't exist
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -76,12 +92,16 @@ def create_tier_format(tier,
     # Write custom format file
     output_path = output_dir / f"{resolution} {type_name} Tier {tier}.yml"
     print(
-        f"{'Would create' if dry_run else 'Creating'} custom format: {output_path} (includes {len(release_groups)} groups)"
+        f"{'Would create' if dry_run else 'Creating'} custom format: {output_path} (includes {len(tier_groups)} groups)"
     )
 
     if not dry_run:
         with open(output_path, 'w') as f:
-            f.write(format_content)
+            yaml.dump(template,
+                      f,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      indent=2)
 
 
 def main():
@@ -146,7 +166,7 @@ def main():
                            args.dry_run)
 
     print(
-        f"Successfully created custom formats for {args.resolution} {args.type}"
+        f"\nSuccessfully {'simulated' if args.dry_run else 'created'} custom formats for {args.resolution} {args.type}"
     )
 
 
