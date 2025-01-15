@@ -2,7 +2,7 @@ name: Notify
 on:
   push:
     branches:
-      - "**"
+      - "stable"
 jobs:
   notify:
     uses: Dictionarry-Hub/parrot/.github/workflows/notify.yml@main
