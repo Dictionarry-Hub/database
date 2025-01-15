@@ -91,8 +91,9 @@ def create_tier_format(tier,
 
     # Write custom format file
     output_path = output_dir / f"{resolution} {type_name} Tier {tier}.yml"
+    existing = "Overwriting" if output_path.exists() else "Creating"
     print(
-        f"{'Would create' if dry_run else 'Creating'} custom format: {output_path} (includes {len(tier_groups)} groups)"
+        f"{'Would ' + existing.lower() if dry_run else existing} custom format: {output_path} (includes {len(tier_groups)} groups)"
     )
 
     if not dry_run:
