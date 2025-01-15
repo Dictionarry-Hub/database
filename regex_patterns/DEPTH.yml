@@ -1,0 +1,6 @@
+name: DEPTH
+pattern: (?<=^|[\s.-])DEPTH\b
+description: ''
+tags:
+- Release Group
+tests: null

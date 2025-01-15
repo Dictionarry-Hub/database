@@ -1,0 +1,76 @@
+name: 2160p Quality Tier 3
+description: Matches release groups who fall under 2160p Quality Tier 3
+tags:
+- Release Group
+conditions:
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: D-Z0N3
+  negate: false
+  pattern: D-Z0N3
+  required: false
+  type: release_group
+- name: SMAHAWUG
+  negate: false
+  pattern: SMAHAWUG
+  required: false
+  type: release_group
+- name: MiMiC
+  negate: false
+  pattern: MiMiC
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
+- name: MainFrame
+  negate: false
+  pattern: MainFrame
+  required: false
+  type: release_group
+- name: PussyFoot
+  negate: false
+  pattern: PussyFoot
+  required: false
+  type: release_group
+- name: KNiVES
+  negate: false
+  pattern: KNiVES
+  required: false
+  type: release_group
+- name: HypStu
+  negate: false
+  pattern: HypStu
+  required: false
+  type: release_group
+- name: EDPH
+  negate: false
+  pattern: EDPH
+  required: false
+  type: release_group
+- name: BlzT
+  negate: false
+  pattern: BlzT
+  required: false
+  type: release_group
+- name: Absinth
+  negate: false
+  pattern: Absinth
+  required: false
+  type: release_group
+- name: CMCT
+  negate: false
+  pattern: CMCT
+  required: false
+  type: release_group
+tests: []

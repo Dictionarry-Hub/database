@@ -1,0 +1,6 @@
+name: SWTYBLZ
+pattern: (?<=^|[\s.-])SWTYBLZ\b
+description: ''
+tags:
+- Release Group
+tests: null

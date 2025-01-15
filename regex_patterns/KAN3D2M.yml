@@ -1,0 +1,6 @@
+name: KAN3D2M
+pattern: (?<=^|[\s.-])KAN3D2M\b
+description: ''
+tags:
+- Release Group
+tests: null

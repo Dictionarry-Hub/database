@@ -1,0 +1,6 @@
+name: FRDS
+pattern: (?<=^|[\s.-])FRDS\b
+description: ''
+tags:
+- Release Group
+tests: null

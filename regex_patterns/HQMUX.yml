@@ -1,0 +1,6 @@
+name: HQMUX
+pattern: (?<=^|[\s.-])HQMUX\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: HDS
+pattern: (?<=^|[\s.-])HDS\b
+description: ''
+tags:
+- Release Group
+tests: null

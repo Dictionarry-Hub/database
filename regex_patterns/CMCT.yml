@@ -1,0 +1,6 @@
+name: CMCT
+pattern: (?<=^|[\s.-])CMCT\b
+description: ''
+tags:
+- Release Group
+tests: null

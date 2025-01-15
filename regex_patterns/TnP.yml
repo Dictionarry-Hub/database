@@ -1,0 +1,6 @@
+name: TnP
+pattern: (?<=^|[\s.-])TnP\b
+description: ''
+tags:
+- Release Group
+tests: null

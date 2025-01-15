@@ -1,0 +1,76 @@
+name: 2160p Quality Tier 2
+description: Matches release groups who fall under 2160p Quality Tier 2
+tags:
+- Release Group
+conditions:
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: SURCODE
+  negate: false
+  pattern: SURCODE
+  required: false
+  type: release_group
+- name: JustWatch
+  negate: false
+  pattern: JustWatch
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: DEPTH
+  negate: false
+  pattern: DEPTH
+  required: false
+  type: release_group
+- name: Chotab
+  negate: false
+  pattern: Chotab
+  required: false
+  type: release_group
+- name: whiterhino
+  negate: false
+  pattern: whiterhino
+  required: false
+  type: release_group
+- name: b0mbardiers
+  negate: false
+  pattern: b0mbardiers
+  required: false
+  type: release_group
+- name: LAZARUS
+  negate: false
+  pattern: LAZARUS
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
+  required: false
+  type: release_group
+- name: WiKi
+  negate: false
+  pattern: WiKi
+  required: false
+  type: release_group
+- name: KAN3D2M
+  negate: false
+  pattern: KAN3D2M
+  required: false
+  type: release_group
+- name: FRDS
+  negate: false
+  pattern: FRDS
+  required: false
+  type: release_group
+tests: []

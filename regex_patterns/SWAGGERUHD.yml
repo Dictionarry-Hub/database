@@ -1,0 +1,6 @@
+name: SWAGGERUHD
+pattern: (?<=^|[\s.-])SWAGGERUHD\b
+description: ''
+tags:
+- Release Group
+tests: null
