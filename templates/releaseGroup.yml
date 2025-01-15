@@ -1,0 +1,6 @@
+name: <name>
+pattern: (?<=^|[\s.-])<name>\b
+description: ""
+tags:
+  - Release Group
+tests:
