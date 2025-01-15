@@ -12,13 +12,13 @@ conditions:
   type: release_title
 - name: WEBRip
   negate: true
-  required: false
+  required: true
   source: webrip
   type: source
 - name: x265
   negate: true
   pattern: x265
-  required: false
+  required: true
   type: release_title
 tests:
 - conditionResults:
