@@ -1,5 +1,5 @@
 name: <resolution> <type> Tier <level>
-description: Matches release groups who fall under 1080p <type> Tier <level>
+description: Matches release groups who fall under <resolution> <type> Tier <level>
 tags:
   - Release Group
 conditions:
@@ -13,9 +13,4 @@ conditions:
     required: true
     resolution: <resolution>
     type: resolution
-  - name: <release_group>
-    negate: false
-    pattern: <release_group>
-    required: false
-    type: release_group
 tests:
