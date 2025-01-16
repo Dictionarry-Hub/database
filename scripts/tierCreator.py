@@ -18,7 +18,11 @@ def load_template(template_path):
         sys.exit(1)
 
 
-def create_regex_pattern(group_name, template_dir, output_dir, dry_run=False):
+def create_regex_pattern(group_name,
+                         template_dir,
+                         output_dir,
+                         dry_run=False,
+                         show_preview=False):
     """Create a regex pattern file for a release group if it doesn't exist."""
     output_path = output_dir / f"{group_name}.yml"
 
@@ -36,6 +40,17 @@ def create_regex_pattern(group_name, template_dir, output_dir, dry_run=False):
     template['name'] = group_name
     template['pattern'] = f"(?<=^|[\\s.-]){group_name}\\b"
 
+    # Show preview in dry run mode if this is the first pattern
+    if dry_run and show_preview:
+        print("\nPreview of first regex pattern:")
+        print("---")
+        print(
+            yaml.dump(template,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      indent=2))
+        print("---\n")
+
     # Create output directory if it doesn't exist
     output_dir.mkdir(parents=True, exist_ok=True)
 
@@ -51,7 +66,8 @@ def create_tier_format(tier,
                        groups,
                        template_dir,
                        output_dir,
-                       dry_run=False):
+                       dry_run=False,
+                       show_preview=False):
     """Create a custom format file for a specific tier."""
     # Get groups for this tier
     tier_groups = [group["name"] for group in groups if group["tier"] == tier]
@@ -95,6 +111,17 @@ def create_tier_format(tier,
     print(
         f"{'Would ' + existing.lower() if dry_run else existing} custom format: {output_path} (includes {len(tier_groups)} groups)"
     )
+
+    # Show preview in dry run mode if this is the first format
+    if dry_run and show_preview:
+        print("\nPreview of first custom format:")
+        print("---")
+        print(
+            yaml.dump(template,
+                      sort_keys=False,
+                      default_flow_style=False,
+                      indent=2))
+        print("---\n")
 
     if not dry_run:
         with open(output_path, 'w') as f:
@@ -153,18 +180,26 @@ def main():
 
     # Create regex patterns for all groups
     print("\nProcessing regex patterns:")
-    for group in data["tiered_groups"]:
-        create_regex_pattern(group["name"], template_dir, regex_dir,
-                             args.dry_run)
+    for i, group in enumerate(data["tiered_groups"]):
+        create_regex_pattern(group["name"],
+                             template_dir,
+                             regex_dir,
+                             args.dry_run,
+                             show_preview=(i == 0))
 
     # Create tier formats
     print("\nProcessing custom formats:")
     unique_tiers = sorted(set(group["tier"]
                               for group in data["tiered_groups"]))
-    for tier in unique_tiers:
-        create_tier_format(tier, args.resolution, args.type,
-                           data["tiered_groups"], template_dir, format_dir,
-                           args.dry_run)
+    for i, tier in enumerate(unique_tiers):
+        create_tier_format(tier,
+                           args.resolution,
+                           args.type,
+                           data["tiered_groups"],
+                           template_dir,
+                           format_dir,
+                           args.dry_run,
+                           show_preview=(i == 0))
 
     print(
         f"\nSuccessfully {'simulated' if args.dry_run else 'created'} custom formats for {args.resolution} {args.type}"
