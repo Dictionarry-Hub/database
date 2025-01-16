@@ -13,31 +13,6 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: D-Z0N3
-  negate: false
-  pattern: D-Z0N3
-  required: false
-  type: release_group
-- name: SMAHAWUG
-  negate: false
-  pattern: SMAHAWUG
-  required: false
-  type: release_group
-- name: MiMiC
-  negate: false
-  pattern: MiMiC
-  required: false
-  type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
-  required: false
-  type: release_group
-- name: MainFrame
-  negate: false
-  pattern: MainFrame
-  required: false
-  type: release_group
 - name: PussyFoot
   negate: false
   pattern: PussyFoot
@@ -53,9 +28,44 @@ conditions:
   pattern: HypStu
   required: false
   type: release_group
+- name: CHD
+  negate: false
+  pattern: CHD
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
 - name: EDPH
   negate: false
   pattern: EDPH
+  required: false
+  type: release_group
+- name: CMCT
+  negate: false
+  pattern: CMCT
+  required: false
+  type: release_group
+- name: STRiKES
+  negate: false
+  pattern: STRiKES
+  required: false
+  type: release_group
+- name: HOA
+  negate: false
+  pattern: HOA
+  required: false
+  type: release_group
+- name: d3g
+  negate: false
+  pattern: d3g
+  required: false
+  type: release_group
+- name: DESPACiTO
+  negate: false
+  pattern: DESPACiTO
   required: false
   type: release_group
 - name: BlzT
@@ -63,14 +73,39 @@ conditions:
   pattern: BlzT
   required: false
   type: release_group
-- name: Absinth
+- name: SPECTACLE
   negate: false
-  pattern: Absinth
+  pattern: SPECTACLE
   required: false
   type: release_group
-- name: CMCT
+- name: spectacle
   negate: false
-  pattern: CMCT
+  pattern: spectacle
+  required: false
+  type: release_group
+- name: FZHD
+  negate: false
+  pattern: FZHD
+  required: false
+  type: release_group
+- name: HD77
+  negate: false
+  pattern: HD77
+  required: false
+  type: release_group
+- name: VALiS
+  negate: false
+  pattern: VALiS
+  required: false
+  type: release_group
+- name: IAMABLE
+  negate: false
+  pattern: IAMABLE
+  required: false
+  type: release_group
+- name: DiNAMiC
+  negate: false
+  pattern: DiNAMiC
   required: false
   type: release_group
 tests: []

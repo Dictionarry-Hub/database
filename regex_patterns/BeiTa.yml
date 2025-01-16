@@ -1,0 +1,6 @@
+name: BeiTa
+pattern: (?<=^|[\s.-])BeiTa\b
+description: ''
+tags:
+- Release Group
+tests: null

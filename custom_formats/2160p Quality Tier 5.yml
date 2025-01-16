@@ -13,34 +13,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: TERMiNAL
+- name: HDS
   negate: false
-  pattern: TERMiNAL
-  required: false
-  type: release_group
-- name: ADE
-  negate: false
-  pattern: ADE
-  required: false
-  type: release_group
-- name: guhzer
-  negate: false
-  pattern: guhzer
-  required: false
-  type: release_group
-- name: SWTYBLZ
-  negate: false
-  pattern: SWTYBLZ
-  required: false
-  type: release_group
-- name: WhiteRhino
-  negate: false
-  pattern: WhiteRhino
-  required: false
-  type: release_group
-- name: iCandy
-  negate: false
-  pattern: iCandy
+  pattern: HDS
   required: false
   type: release_group
 - name: micius
@@ -58,6 +33,11 @@ conditions:
   pattern: PTH
   required: false
   type: release_group
+- name: ENDSTATiON
+  negate: false
+  pattern: ENDSTATiON
+  required: false
+  type: release_group
 - name: threesome
   negate: false
   pattern: threesome
@@ -68,9 +48,14 @@ conditions:
   pattern: UHDCLUBREMUX
   required: false
   type: release_group
-- name: CHD
+- name: BeiTai
   negate: false
-  pattern: CHD
+  pattern: BeiTai
+  required: false
+  type: release_group
+- name: Verus
+  negate: false
+  pattern: Verus
   required: false
   type: release_group
 - name: Blzt
@@ -81,6 +66,46 @@ conditions:
 - name: LittleBakas
   negate: false
   pattern: LittleBakas
+  required: false
+  type: release_group
+- name: Absinth
+  negate: false
+  pattern: Absinth
+  required: false
+  type: release_group
+- name: FLAME
+  negate: false
+  pattern: FLAME
+  required: false
+  type: release_group
+- name: SP4K
+  negate: false
+  pattern: SP4K
+  required: false
+  type: release_group
+- name: CHAOS
+  negate: false
+  pattern: CHAOS
+  required: false
+  type: release_group
+- name: Hares
+  negate: false
+  pattern: Hares
+  required: false
+  type: release_group
+- name: BLUEBIRD
+  negate: false
+  pattern: BLUEBIRD
+  required: false
+  type: release_group
+- name: 4K4U
+  negate: false
+  pattern: 4K4U
+  required: false
+  type: release_group
+- name: dkore
+  negate: false
+  pattern: dkore
   required: false
   type: release_group
 tests: []

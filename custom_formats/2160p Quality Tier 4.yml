@@ -13,34 +13,24 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: STRiKES
-  negate: false
-  pattern: STRiKES
-  required: false
-  type: release_group
-- name: HD77
-  negate: false
-  pattern: HD77
-  required: false
-  type: release_group
-- name: IAMABLE
-  negate: false
-  pattern: IAMABLE
-  required: false
-  type: release_group
-- name: beAst
-  negate: false
-  pattern: beAst
-  required: false
-  type: release_group
-- name: HDS
-  negate: false
-  pattern: HDS
-  required: false
-  type: release_group
 - name: Tron
   negate: false
   pattern: Tron
+  required: false
+  type: release_group
+- name: HDChina
+  negate: false
+  pattern: HDChina
+  required: false
+  type: release_group
+- name: BeiTa
+  negate: false
+  pattern: BeiTa
+  required: false
+  type: release_group
+- name: ADE
+  negate: false
+  pattern: ADE
   required: false
   type: release_group
 - name: BiTOR
@@ -48,14 +38,14 @@ conditions:
   pattern: BiTOR
   required: false
   type: release_group
-- name: ReaLHD
-  negate: false
-  pattern: ReaLHD
-  required: false
-  type: release_group
 - name: HDmux
   negate: false
   pattern: HDmux
+  required: false
+  type: release_group
+- name: ReaLHD
+  negate: false
+  pattern: ReaLHD
   required: false
   type: release_group
 - name: SWAGGERUHD
@@ -68,6 +58,11 @@ conditions:
   pattern: EMERALD
   required: false
   type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
 - name: iNVANDRAREN
   negate: false
   pattern: iNVANDRAREN
@@ -76,6 +71,41 @@ conditions:
 - name: ReQuEsT
   negate: false
   pattern: ReQuEsT
+  required: false
+  type: release_group
+- name: TERMiNAL
+  negate: false
+  pattern: TERMiNAL
+  required: false
+  type: release_group
+- name: NorTekst
+  negate: false
+  pattern: NorTekst
+  required: false
+  type: release_group
+- name: WhiteRhino
+  negate: false
+  pattern: WhiteRhino
+  required: false
+  type: release_group
+- name: LSt
+  negate: false
+  pattern: LSt
+  required: false
+  type: release_group
+- name: guhzer
+  negate: false
+  pattern: guhzer
+  required: false
+  type: release_group
+- name: SWTYBLZ
+  negate: false
+  pattern: SWTYBLZ
+  required: false
+  type: release_group
+- name: iCandy
+  negate: false
+  pattern: iCandy
   required: false
   type: release_group
 tests: []
