@@ -13,24 +13,14 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: CHAOS
+- name: hallowed
   negate: false
-  pattern: CHAOS
+  pattern: hallowed
   required: false
   type: release_group
-- name: Hares
+- name: BHDStudio
   negate: false
-  pattern: Hares
-  required: false
-  type: release_group
-- name: 10bit-HDS
-  negate: false
-  pattern: 10bit-HDS
-  required: false
-  type: release_group
-- name: FLAME
-  negate: false
-  pattern: FLAME
+  pattern: BHDStudio
   required: false
   type: release_group
 - name: Lucifer
@@ -38,19 +28,9 @@ conditions:
   pattern: Lucifer
   required: false
   type: release_group
-- name: HONE
+- name: SumVision
   negate: false
-  pattern: HONE
-  required: false
-  type: release_group
-- name: BeiTai
-  negate: false
-  pattern: BeiTai
-  required: false
-  type: release_group
-- name: hallowed
-  negate: false
-  pattern: hallowed
+  pattern: SumVision
   required: false
   type: release_group
 - name: AAAUHD
@@ -63,14 +43,64 @@ conditions:
   pattern: GUHZER
   required: false
   type: release_group
-- name: invandraren
+- name: Tigole
   negate: false
-  pattern: invandraren
+  pattern: Tigole
   required: false
   type: release_group
 - name: WOU
   negate: false
   pattern: WOU
+  required: false
+  type: release_group
+- name: invandraren
+  negate: false
+  pattern: invandraren
+  required: false
+  type: release_group
+- name: RandH
+  negate: false
+  pattern: RandH
+  required: false
+  type: release_group
+- name: R
+  negate: false
+  pattern: R
+  required: false
+  type: release_group
+- name: THREESOME
+  negate: false
+  pattern: THREESOME
+  required: false
+  type: release_group
+- name: PRiSTiNE
+  negate: false
+  pattern: PRiSTiNE
+  required: false
+  type: release_group
+- name: LAMA
+  negate: false
+  pattern: LAMA
+  required: false
+  type: release_group
+- name: beAst
+  negate: false
+  pattern: beAst
+  required: false
+  type: release_group
+- name: EX-R
+  negate: false
+  pattern: EX-R
+  required: false
+  type: release_group
+- name: PHOCiS
+  negate: false
+  pattern: PHOCiS
+  required: false
+  type: release_group
+- name: UNK
+  negate: false
+  pattern: UNK
   required: false
   type: release_group
 - name: MALUS

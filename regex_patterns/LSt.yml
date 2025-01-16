@@ -1,0 +1,6 @@
+name: LSt
+pattern: (?<=^|[\s.-])LSt\b
+description: ''
+tags:
+- Release Group
+tests: null

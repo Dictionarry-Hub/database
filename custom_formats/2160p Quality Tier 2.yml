@@ -13,14 +13,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: SURCODE
+- name: b0mbardiers
   negate: false
-  pattern: SURCODE
-  required: false
-  type: release_group
-- name: JustWatch
-  negate: false
-  pattern: JustWatch
+  pattern: b0mbardiers
   required: false
   type: release_group
 - name: NCmt
@@ -28,14 +23,14 @@ conditions:
   pattern: NCmt
   required: false
   type: release_group
+- name: LAZARUS
+  negate: false
+  pattern: LAZARUS
+  required: false
+  type: release_group
 - name: DEPTH
   negate: false
   pattern: DEPTH
-  required: false
-  type: release_group
-- name: Chotab
-  negate: false
-  pattern: Chotab
   required: false
   type: release_group
 - name: whiterhino
@@ -43,24 +38,14 @@ conditions:
   pattern: whiterhino
   required: false
   type: release_group
-- name: b0mbardiers
+- name: Chotab
   negate: false
-  pattern: b0mbardiers
+  pattern: Chotab
   required: false
   type: release_group
-- name: LAZARUS
+- name: TDD
   negate: false
-  pattern: LAZARUS
-  required: false
-  type: release_group
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
+  pattern: TDD
   required: false
   type: release_group
 - name: KAN3D2M
@@ -71,6 +56,41 @@ conditions:
 - name: FRDS
   negate: false
   pattern: FRDS
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
+  required: false
+  type: release_group
+- name: SMAHAWUG
+  negate: false
+  pattern: SMAHAWUG
+  required: false
+  type: release_group
+- name: MiMiC
+  negate: false
+  pattern: MiMiC
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
+- name: WiKi
+  negate: false
+  pattern: WiKi
+  required: false
+  type: release_group
+- name: D-Z0N3
+  negate: false
+  pattern: D-Z0N3
+  required: false
+  type: release_group
+- name: MainFrame
+  negate: false
+  pattern: MainFrame
   required: false
   type: release_group
 tests: []

@@ -1,0 +1,6 @@
+name: BLUEBIRD
+pattern: (?<=^|[\s.-])BLUEBIRD\b
+description: ''
+tags:
+- Release Group
+tests: null

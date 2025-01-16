@@ -1,0 +1,6 @@
+name: 4K4U
+pattern: (?<=^|[\s.-])4K4U\b
+description: ''
+tags:
+- Release Group
+tests: null

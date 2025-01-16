@@ -1,0 +1,6 @@
+name: VALiS
+pattern: (?<=^|[\s.-])VALiS\b
+description: ''
+tags:
+- Release Group
+tests: null

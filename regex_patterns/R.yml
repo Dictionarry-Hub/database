@@ -1,0 +1,6 @@
+name: R
+pattern: (?<=^|[\s.-])R\b
+description: ''
+tags:
+- Release Group
+tests: null

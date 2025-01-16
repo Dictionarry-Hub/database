@@ -1,0 +1,6 @@
+name: DiNAMiC
+pattern: (?<=^|[\s.-])DiNAMiC\b
+description: ''
+tags:
+- Release Group
+tests: null

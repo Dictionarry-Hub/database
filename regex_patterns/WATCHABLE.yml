@@ -1,0 +1,6 @@
+name: WATCHABLE
+pattern: (?<=^|[\s.-])WATCHABLE\b
+description: ''
+tags:
+- Release Group
+tests: null

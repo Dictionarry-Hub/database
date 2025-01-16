@@ -1,0 +1,6 @@
+name: NorTekst
+pattern: (?<=^|[\s.-])NorTekst\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: dkore
+pattern: (?<=^|[\s.-])dkore\b
+description: ''
+tags:
+- Release Group
+tests: null
