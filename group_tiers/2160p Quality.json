@@ -1,47 +1,47 @@
 {
   "metadata": {
-    "total_movies_processed": 613,
-    "movies_with_2160p": 602,
+    "total_movies_processed": 676,
+    "movies_with_2160p": 663,
     "target_efficiency": 0.6,
     "total_tiers": 6,
     "scoring_method": "comprehensive"
   },
   "tier_statistics": {
     "1": {
-      "groups": 17,
-      "total_releases": 673,
+      "groups": 23,
+      "total_releases": 766,
       "avg_score": 100.0,
-      "avg_efficiency": 58.94
+      "avg_efficiency": 58.26
     },
     "2": {
-      "groups": 12,
-      "total_releases": 126,
-      "avg_score": 98.78,
-      "avg_efficiency": 55.42
+      "groups": 16,
+      "total_releases": 186,
+      "avg_score": 97.84,
+      "avg_efficiency": 54.44
     },
     "3": {
-      "groups": 13,
-      "total_releases": 79,
-      "avg_score": 94.72,
-      "avg_efficiency": 50.85
+      "groups": 19,
+      "total_releases": 339,
+      "avg_score": 92.15,
+      "avg_efficiency": 53.21
     },
     "4": {
-      "groups": 13,
-      "total_releases": 306,
-      "avg_score": 86.83,
-      "avg_efficiency": 42.77
+      "groups": 19,
+      "total_releases": 362,
+      "avg_score": 84.58,
+      "avg_efficiency": 42.58
     },
     "5": {
-      "groups": 14,
-      "total_releases": 259,
-      "avg_score": 81.19,
-      "avg_efficiency": 41.29
+      "groups": 19,
+      "total_releases": 44,
+      "avg_score": 78.85,
+      "avg_efficiency": 38.26
     },
     "6": {
-      "groups": 14,
-      "total_releases": 25,
-      "avg_score": 67.34,
-      "avg_efficiency": 44.57
+      "groups": 19,
+      "total_releases": 58,
+      "avg_score": 61.78,
+      "avg_efficiency": 46.95
     }
   },
   "tiered_groups": [
@@ -49,21 +49,21 @@
       "tier": 1,
       "name": "CtrlHD",
       "efficiency": 58.0,
-      "releases": 356,
+      "releases": 371,
       "score": 100
     },
     {
       "tier": 1,
       "name": "SPHD",
       "efficiency": 62.0,
-      "releases": 57,
+      "releases": 59,
       "score": 100
     },
     {
       "tier": 1,
       "name": "W4NK3R",
       "efficiency": 61.0,
-      "releases": 139,
+      "releases": 176,
       "score": 100
     },
     {
@@ -103,23 +103,51 @@
     },
     {
       "tier": 1,
-      "name": "JustWatch",
-      "efficiency": 56.0,
-      "releases": 5,
+      "name": "SURCODE",
+      "efficiency": 57.0,
+      "releases": 12,
       "score": 100
     },
     {
       "tier": 1,
       "name": "TnP",
-      "efficiency": 59.0,
-      "releases": 5,
+      "efficiency": 58.0,
+      "releases": 7,
+      "score": 100
+    },
+    {
+      "tier": 1,
+      "name": "JustWatch",
+      "efficiency": 54.0,
+      "releases": 7,
+      "score": 100
+    },
+    {
+      "tier": 1,
+      "name": "AViATOR",
+      "efficiency": 53.0,
+      "releases": 6,
+      "score": 100
+    },
+    {
+      "tier": 1,
+      "name": "SESKAPiLE",
+      "efficiency": 57.0,
+      "releases": 9,
       "score": 100
     },
     {
       "tier": 1,
       "name": "DEFLATE",
+      "efficiency": 57.0,
+      "releases": 9,
+      "score": 100
+    },
+    {
+      "tier": 1,
+      "name": "WATCHABLE",
       "efficiency": 60.0,
-      "releases": 7,
+      "releases": 2,
       "score": 100
     },
     {
@@ -127,6 +155,20 @@
       "name": "SoLaR",
       "efficiency": 63.0,
       "releases": 8,
+      "score": 100
+    },
+    {
+      "tier": 1,
+      "name": "HDC",
+      "efficiency": 59.0,
+      "releases": 1,
+      "score": 100
+    },
+    {
+      "tier": 1,
+      "name": "HDH",
+      "efficiency": 58.0,
+      "releases": 3,
       "score": 100
     },
     {
@@ -166,10 +208,10 @@
     },
     {
       "tier": 2,
-      "name": "SURCODE",
-      "efficiency": 53.0,
-      "releases": 9,
-      "score": 99.8
+      "name": "b0mbardiers",
+      "efficiency": 57.0,
+      "releases": 19,
+      "score": 99.9
     },
     {
       "tier": 2,
@@ -194,13 +236,6 @@
     },
     {
       "tier": 2,
-      "name": "Chotab",
-      "efficiency": 52.0,
-      "releases": 7,
-      "score": 99.2
-    },
-    {
-      "tier": 2,
       "name": "whiterhino",
       "efficiency": 55.0,
       "releases": 2,
@@ -208,30 +243,16 @@
     },
     {
       "tier": 2,
-      "name": "b0mbardiers",
-      "efficiency": 56.0,
-      "releases": 18,
-      "score": 98.9
-    },
-    {
-      "tier": 2,
-      "name": "HQMUX",
-      "efficiency": 53.0,
-      "releases": 42,
-      "score": 98.1
+      "name": "Chotab",
+      "efficiency": 51.0,
+      "releases": 9,
+      "score": 98.2
     },
     {
       "tier": 2,
       "name": "TDD",
       "efficiency": 54.0,
       "releases": 2,
-      "score": 98.0
-    },
-    {
-      "tier": 2,
-      "name": "WiKi",
-      "efficiency": 56.0,
-      "releases": 1,
       "score": 98.0
     },
     {
@@ -249,35 +270,49 @@
       "score": 98.0
     },
     {
-      "tier": 3,
-      "name": "D-Z0N3",
+      "tier": 2,
+      "name": "HQMUX",
       "efficiency": 53.0,
-      "releases": 9,
-      "score": 97.9
+      "releases": 52,
+      "score": 97.7
     },
     {
-      "tier": 3,
+      "tier": 2,
       "name": "SMAHAWUG",
       "efficiency": 55.0,
       "releases": 1,
       "score": 97.0
     },
     {
-      "tier": 3,
+      "tier": 2,
       "name": "MiMiC",
       "efficiency": 55.0,
       "releases": 1,
       "score": 97.0
     },
     {
-      "tier": 3,
+      "tier": 2,
       "name": "Kitsune",
       "efficiency": 51.0,
       "releases": 9,
       "score": 96.8
     },
     {
-      "tier": 3,
+      "tier": 2,
+      "name": "WiKi",
+      "efficiency": 53.0,
+      "releases": 2,
+      "score": 96.4
+    },
+    {
+      "tier": 2,
+      "name": "D-Z0N3",
+      "efficiency": 51.0,
+      "releases": 10,
+      "score": 95.9
+    },
+    {
+      "tier": 2,
       "name": "MainFrame",
       "efficiency": 50.0,
       "releases": 34,
@@ -303,6 +338,13 @@
       "efficiency": 48.0,
       "releases": 3,
       "score": 93.9
+    },
+    {
+      "tier": 3,
+      "name": "CHD",
+      "efficiency": 47.0,
+      "releases": 6,
+      "score": 93.6
     },
     {
       "tier": 3,
@@ -334,45 +376,80 @@
     },
     {
       "tier": 3,
+      "name": "HOA",
+      "efficiency": 71.0,
+      "releases": 2,
+      "score": 92.8
+    },
+    {
+      "tier": 3,
+      "name": "d3g",
+      "efficiency": 72.0,
+      "releases": 13,
+      "score": 92.6
+    },
+    {
+      "tier": 3,
+      "name": "DESPACiTO",
+      "efficiency": 70.0,
+      "releases": 1,
+      "score": 92.0
+    },
+    {
+      "tier": 3,
+      "name": "BlzT",
+      "efficiency": 45.0,
+      "releases": 17,
+      "score": 91.0
+    },
+    {
+      "tier": 3,
+      "name": "SPECTACLE",
+      "efficiency": 49.0,
+      "releases": 1,
+      "score": 91.0
+    },
+    {
+      "tier": 3,
+      "name": "spectacle",
+      "efficiency": 49.0,
+      "releases": 1,
+      "score": 91.0
+    },
+    {
+      "tier": 3,
+      "name": "FZHD",
+      "efficiency": 71.0,
+      "releases": 1,
+      "score": 91.0
+    },
+    {
+      "tier": 3,
       "name": "HD77",
       "efficiency": 49.0,
       "releases": 1,
       "score": 91.0
     },
     {
-      "tier": 4,
+      "tier": 3,
       "name": "VALiS",
       "efficiency": 48.0,
       "releases": 1,
       "score": 90.0
     },
     {
-      "tier": 4,
-      "name": "beAst",
-      "efficiency": 45.0,
-      "releases": 4,
-      "score": 89.7
-    },
-    {
-      "tier": 4,
+      "tier": 3,
       "name": "IAMABLE",
       "efficiency": 45.0,
-      "releases": 247,
+      "releases": 270,
       "score": 89.4
     },
     {
-      "tier": 4,
-      "name": "BlzT",
-      "efficiency": 43.0,
-      "releases": 15,
-      "score": 89.0
-    },
-    {
-      "tier": 4,
-      "name": "HDS",
+      "tier": 3,
+      "name": "DiNAMiC",
       "efficiency": 47.0,
-      "releases": 2,
-      "score": 88.5
+      "releases": 1,
+      "score": 89.0
     },
     {
       "tier": 4,
@@ -380,6 +457,27 @@
       "efficiency": 45.0,
       "releases": 1,
       "score": 87.0
+    },
+    {
+      "tier": 4,
+      "name": "HDChina",
+      "efficiency": 43.0,
+      "releases": 3,
+      "score": 86.6
+    },
+    {
+      "tier": 4,
+      "name": "BeiTa",
+      "efficiency": 44.0,
+      "releases": 1,
+      "score": 86.0
+    },
+    {
+      "tier": 4,
+      "name": "ADE",
+      "efficiency": 37.0,
+      "releases": 6,
+      "score": 85.8
     },
     {
       "tier": 4,
@@ -399,7 +497,7 @@
       "tier": 4,
       "name": "ReaLHD",
       "efficiency": 38.0,
-      "releases": 13,
+      "releases": 14,
       "score": 85.4
     },
     {
@@ -418,6 +516,13 @@
     },
     {
       "tier": 4,
+      "name": "HONE",
+      "efficiency": 36.0,
+      "releases": 10,
+      "score": 84.6
+    },
+    {
+      "tier": 4,
       "name": "iNVANDRAREN",
       "efficiency": 38.0,
       "releases": 5,
@@ -431,46 +536,60 @@
       "score": 84.4
     },
     {
-      "tier": 5,
-      "name": "ADE",
-      "efficiency": 37.0,
-      "releases": 4,
-      "score": 83.8
-    },
-    {
-      "tier": 5,
+      "tier": 4,
       "name": "TERMiNAL",
-      "efficiency": 40.0,
-      "releases": 164,
-      "score": 83.1
+      "efficiency": 41.0,
+      "releases": 214,
+      "score": 84.1
     },
     {
-      "tier": 5,
+      "tier": 4,
+      "name": "NorTekst",
+      "efficiency": 80.0,
+      "releases": 2,
+      "score": 84.0
+    },
+    {
+      "tier": 4,
+      "name": "WhiteRhino",
+      "efficiency": 41.0,
+      "releases": 72,
+      "score": 83.3
+    },
+    {
+      "tier": 4,
+      "name": "LSt",
+      "efficiency": 39.0,
+      "releases": 2,
+      "score": 83.0
+    },
+    {
+      "tier": 4,
       "name": "guhzer",
       "efficiency": 41.0,
       "releases": 1,
       "score": 83.0
     },
     {
-      "tier": 5,
-      "name": "WhiteRhino",
-      "efficiency": 40.0,
-      "releases": 70,
-      "score": 82.3
-    },
-    {
-      "tier": 5,
+      "tier": 4,
       "name": "SWTYBLZ",
-      "efficiency": 35.0,
-      "releases": 9,
-      "score": 82.1
+      "efficiency": 39.0,
+      "releases": 12,
+      "score": 82.4
     },
     {
-      "tier": 5,
+      "tier": 4,
       "name": "iCandy",
       "efficiency": 40.0,
       "releases": 1,
       "score": 82.0
+    },
+    {
+      "tier": 5,
+      "name": "HDS",
+      "efficiency": 36.0,
+      "releases": 13,
+      "score": 81.5
     },
     {
       "tier": 5,
@@ -495,6 +614,13 @@
     },
     {
       "tier": 5,
+      "name": "ENDSTATiON",
+      "efficiency": 37.0,
+      "releases": 2,
+      "score": 80.4
+    },
+    {
+      "tier": 5,
       "name": "threesome",
       "efficiency": 38.0,
       "releases": 1,
@@ -509,10 +635,17 @@
     },
     {
       "tier": 5,
-      "name": "CHD",
+      "name": "BeiTai",
+      "efficiency": 37.0,
+      "releases": 2,
+      "score": 79.6
+    },
+    {
+      "tier": 5,
+      "name": "Verus",
       "efficiency": 36.0,
       "releases": 2,
-      "score": 79.5
+      "score": 79.4
     },
     {
       "tier": 5,
@@ -529,32 +662,74 @@
       "score": 79.0
     },
     {
-      "tier": 6,
-      "name": "10bit-HDS",
-      "efficiency": 31.0,
-      "releases": 6,
-      "score": 77.9
+      "tier": 5,
+      "name": "Absinth",
+      "efficiency": 32.0,
+      "releases": 5,
+      "score": 78.5
     },
     {
-      "tier": 6,
+      "tier": 5,
+      "name": "FLAME",
+      "efficiency": 37.0,
+      "releases": 3,
+      "score": 78.2
+    },
+    {
+      "tier": 5,
+      "name": "SP4K",
+      "efficiency": 36.0,
+      "releases": 1,
+      "score": 78.0
+    },
+    {
+      "tier": 5,
       "name": "CHAOS",
       "efficiency": 35.0,
       "releases": 1,
       "score": 77.0
     },
     {
-      "tier": 6,
+      "tier": 5,
       "name": "Hares",
       "efficiency": 35.0,
       "releases": 1,
       "score": 77.0
     },
     {
-      "tier": 6,
-      "name": "FLAME",
-      "efficiency": 31.0,
+      "tier": 5,
+      "name": "BLUEBIRD",
+      "efficiency": 34.0,
       "releases": 1,
-      "score": 73.0
+      "score": 76.0
+    },
+    {
+      "tier": 5,
+      "name": "4K4U",
+      "efficiency": 33.0,
+      "releases": 2,
+      "score": 76.0
+    },
+    {
+      "tier": 5,
+      "name": "dkore",
+      "efficiency": 30.0,
+      "releases": 3,
+      "score": 75.8
+    },
+    {
+      "tier": 6,
+      "name": "hallowed",
+      "efficiency": 26.0,
+      "releases": 7,
+      "score": 75.3
+    },
+    {
+      "tier": 6,
+      "name": "BHDStudio",
+      "efficiency": 26.0,
+      "releases": 16,
+      "score": 75.0
     },
     {
       "tier": 6,
@@ -565,24 +740,10 @@
     },
     {
       "tier": 6,
-      "name": "HONE",
-      "efficiency": 29.0,
-      "releases": 2,
-      "score": 72.9
-    },
-    {
-      "tier": 6,
-      "name": "BeiTai",
-      "efficiency": 30.0,
+      "name": "SumVision",
+      "efficiency": 31.0,
       "releases": 1,
-      "score": 72.0
-    },
-    {
-      "tier": 6,
-      "name": "hallowed",
-      "efficiency": 30.0,
-      "releases": 1,
-      "score": 72.0
+      "score": 73.0
     },
     {
       "tier": 6,
@@ -600,10 +761,17 @@
     },
     {
       "tier": 6,
-      "name": "Absinth",
-      "efficiency": 28.0,
+      "name": "Tigole",
+      "efficiency": 26.0,
+      "releases": 2,
+      "score": 69.8
+    },
+    {
+      "tier": 6,
+      "name": "WOU",
+      "efficiency": 97.0,
       "releases": 3,
-      "score": 70.5
+      "score": 68.0
     },
     {
       "tier": 6,
@@ -614,10 +782,66 @@
     },
     {
       "tier": 6,
-      "name": "WOU",
-      "efficiency": 100.0,
+      "name": "RandH",
+      "efficiency": 24.0,
+      "releases": 1,
+      "score": 66.0
+    },
+    {
+      "tier": 6,
+      "name": "R",
+      "efficiency": 24.0,
+      "releases": 1,
+      "score": 66.0
+    },
+    {
+      "tier": 6,
+      "name": "THREESOME",
+      "efficiency": 21.0,
       "releases": 2,
-      "score": 64.0
+      "score": 65.0
+    },
+    {
+      "tier": 6,
+      "name": "PRiSTiNE",
+      "efficiency": 100.0,
+      "releases": 1,
+      "score": 62.0
+    },
+    {
+      "tier": 6,
+      "name": "LAMA",
+      "efficiency": 12.0,
+      "releases": 4,
+      "score": 59.4
+    },
+    {
+      "tier": 6,
+      "name": "beAst",
+      "efficiency": 80.0,
+      "releases": 9,
+      "score": 58.3
+    },
+    {
+      "tier": 6,
+      "name": "EX-R",
+      "efficiency": 14.0,
+      "releases": 1,
+      "score": 56.0
+    },
+    {
+      "tier": 6,
+      "name": "PHOCiS",
+      "efficiency": 12.0,
+      "releases": 2,
+      "score": 55.6
+    },
+    {
+      "tier": 6,
+      "name": "UNK",
+      "efficiency": 124.0,
+      "releases": 1,
+      "score": 38.0
     },
     {
       "tier": 6,
@@ -630,10 +854,10 @@
   "scoring_details": {
     "tier_boundaries": [
       100.0,
-      98.0,
-      91.0,
-      84.0,
-      78.63333333333333
+      95.2,
+      89.0,
+      82.0,
+      75.8
     ]
   }
 }
