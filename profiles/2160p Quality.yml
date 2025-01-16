@@ -1,0 +1,228 @@
+name: 2160p Quality
+description: placeholder
+tags:
+- 2160p
+- HDR
+- Dolby Vision
+- x265
+- Encode
+- Quality
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 800
+minScoreIncrement: 10
+custom_formats:
+- name: 2160p
+  score: 300
+- name: 2160p Quality Tier 1
+  score: 300
+- name: 2160p Quality Tier 2
+  score: 290
+- name: 2160p Quality Tier 3
+  score: 280
+- name: 2160p Quality Tier 4
+  score: 200
+- name: 2160p Quality Tier 5
+  score: 190
+- name: 2160p Quality Tier 6
+  score: 180
+- name: Amazon Prime [UHD]
+  score: 160
+- name: Disney+ [2160p]
+  score: 160
+- name: HBO Max [2160p]
+  score: 160
+- name: Movies Anywhere [2160p]
+  score: 160
+- name: Apple TV+ [2160p]
+  score: 150
+- name: Hulu [2160p]
+  score: 150
+- name: iTunes [2160p]
+  score: 150
+- name: Max [2160p]
+  score: 150
+- name: Netflix [2160p]
+  score: 150
+- name: Paramount+ [2160p]
+  score: 150
+- name: Peacock [2160p]
+  score: 150
+- name: Roku [2160p]
+  score: 150
+- name: 1080p
+  score: 60
+- name: 1080p Quality Tier 1
+  score: 60
+- name: Blu-ray
+  score: 60
+- name: UHD Bluray
+  score: 60
+- name: UHD Bluray (Missing)
+  score: 60
+- name: 1080p Quality Tier 2
+  score: 50
+- name: 1080p Quality Tier 3
+  score: 40
+- name: DVD Remux
+  score: 40
+- name: 1080p Quality Tier 4
+  score: 30
+- name: Amazon Prime [1080p]
+  score: 30
+- name: Apple TV+ [1080p]
+  score: 30
+- name: Disney+ [1080p]
+  score: 30
+- name: Dolby Vision
+  score: 30
+- name: Movies Anywhere [1080p]
+  score: 30
+- name: SD Quality Tier 1
+  score: 30
+- name: 1080p Quality Tier 5
+  score: 20
+- name: HBO Max [1080p]
+  score: 20
+- name: HDR10+
+  score: 20
+- name: Max [1080p]
+  score: 20
+- name: Netflix [1080p]
+  score: 20
+- name: SD Quality Tier 2
+  score: 20
+- name: DTS-X
+  score: 10
+- name: HDR10
+  score: 10
+- name: HDR10 (Missing)
+  score: 10
+- name: Hulu [1080p]
+  score: 10
+- name: iTunes [1080p]
+  score: 10
+- name: Paramount+ [1080p]
+  score: 10
+- name: Peacock [1080p]
+  score: 10
+- name: Roku [1080p]
+  score: 10
+- name: x264
+  score: 10
+- name: Atmos
+  score: 5
+- name: Atmos (Missing)
+  score: 5
+- name: DTS-HD MA
+  score: 5
+- name: FLAC
+  score: 5
+- name: SDR
+  score: 5
+- name: TrueHD
+  score: 5
+- name: TrueHD (Missing)
+  score: 5
+- name: x265
+  score: -150
+- name: 3D
+  score: -9999
+- name: 720p
+  score: -9999
+- name: AV1
+  score: -9999
+- name: B&W
+  score: -9999
+- name: Blu-ray Remux
+  score: -9999
+- name: Dolby Vision (Without Fallback)
+  score: -9999
+- name: Extras
+  score: -9999
+- name: Full Disc
+  score: -9999
+- name: Full Disc (Quality Match)
+  score: -9999
+- name: h265
+  score: -9999
+- name: h265 (Missing)
+  score: -9999
+- name: HDR10 (Missing) (1080p)
+  score: -9999
+- name: Non Retail HDR
+  score: -9999
+- name: Remux
+  score: -9999
+- name: SD Bluray Encodes
+  score: -9999
+- name: UHDBits
+  score: -9999
+- name: Unwanted x265 Groups
+  score: -9999
+- name: Upscaled
+  score: -9999
+- name: VVC
+  score: -9999
+- name: WEBRip
+  score: -9999
+- name: x265 (1080p)
+  score: -9999
+- name: x265 (Missing)
+  score: -9999
+qualities:
+- id: -2
+  name: 2160p Transparent
+  description: Indistinguishable from source
+  qualities:
+  - id: 5
+    name: WEBDL-2160p
+  - id: 4
+    name: Bluray-2160p
+- id: -3
+  name: 1080p Transparent
+  description: Indistinguishable from source
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+- id: -1
+  name: SD
+  description: Standard Definition Fallbacks
+  qualities:
+  - id: 22
+    name: DVD
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 24
+    name: SDTV
+- id: -4
+  name: Prereleases
+  description: Low Quality releases that come out before VODs / Physical Media
+  qualities:
+  - id: 29
+    name: CAM
+  - id: 26
+    name: Telesync
+  - id: 25
+    name: Telecine
+  - id: 23
+    name: DVDSCR
+- id: 1
+  name: Raw-HD
+upgrade_until:
+  id: 1
+  name: Raw-HD
+  description: Uncompressed, high definition recorded video from airing
+language: must_original
+tweaks:
+  preferFreeleech: false
+  allowLosslessAudio: true
+  allowDVNoFallback: false
+  allowBleedingEdgeCodecs: false
+  allowPrereleases: false
