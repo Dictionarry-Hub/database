@@ -1,5 +1,10 @@
 name: 2160p Quality
-description: placeholder
+description: 'Notes:
+
+  - groups in higher quality tiers are given more leeway in terms of naming. They
+  will still be prioritised even if they fail to mislabel HDR / audio.
+
+  - groups in lower tiers are pen'
 tags:
 - 2160p
 - HDR
@@ -55,10 +60,6 @@ custom_formats:
 - name: 1080p Quality Tier 1
   score: 60
 - name: Blu-ray
-  score: 60
-- name: UHD Bluray
-  score: 60
-- name: UHD Bluray (Missing)
   score: 60
 - name: 1080p Quality Tier 2
   score: 50
@@ -118,12 +119,12 @@ custom_formats:
   score: 5
 - name: FLAC
   score: 5
-- name: SDR
-  score: 5
 - name: TrueHD
   score: 5
 - name: TrueHD (Missing)
   score: 5
+- name: SDR
+  score: -80
 - name: x265
   score: -150
 - name: 3D
@@ -165,6 +166,8 @@ custom_formats:
 - name: VVC
   score: -9999
 - name: WEBRip
+  score: -9999
+- name: x264 (2160p)
   score: -9999
 - name: x265 (1080p)
   score: -9999
