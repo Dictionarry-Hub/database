@@ -22,7 +22,7 @@ jobs:
           python -m pip install pyyaml
 
       - name: Run bundling script
-        run: python bundle.py
+        run: python scripts/bundle.py
 
       - name: Commit changes
         run: |
