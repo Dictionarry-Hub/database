@@ -13,9 +13,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: SA89
+- name: BSTD
   negate: false
-  pattern: SA89
+  pattern: BSTD
   required: false
   type: release_group
 - name: c0kE
@@ -23,14 +23,14 @@ conditions:
   pattern: c0kE
   required: false
   type: release_group
-- name: BSTD
+- name: D-Z0N3
   negate: false
-  pattern: BSTD
+  pattern: D-Z0N3
   required: false
   type: release_group
-- name: HQMUX
+- name: MainFrame
   negate: false
-  pattern: HQMUX
+  pattern: MainFrame
   required: false
   type: release_group
 tests: []

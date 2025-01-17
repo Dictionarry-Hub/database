@@ -13,14 +13,19 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: CtrlHD
+- name: DON
   negate: false
-  pattern: CtrlHD
+  pattern: DON
   required: false
   type: release_group
-- name: W4NK3R
+- name: DEPTH
   negate: false
-  pattern: W4NK3R
+  pattern: DEPTH
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
   required: false
   type: release_group
 - name: b0mbardiers
@@ -28,9 +33,9 @@ conditions:
   pattern: b0mbardiers
   required: false
   type: release_group
-- name: DON
+- name: CtrlHD
   negate: false
-  pattern: DON
+  pattern: CtrlHD
   required: false
   type: release_group
 - name: PTer
@@ -38,14 +43,14 @@ conditions:
   pattern: PTer
   required: false
   type: release_group
-- name: SPHD
+- name: SA89
   negate: false
-  pattern: SPHD
+  pattern: SA89
   required: false
   type: release_group
-- name: DEPTH
+- name: W4NK3R
   negate: false
-  pattern: DEPTH
+  pattern: W4NK3R
   required: false
   type: release_group
 tests: []

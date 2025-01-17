@@ -18,9 +18,24 @@ conditions:
   pattern: 4KDVS
   required: false
   type: release_group
+- name: TDD
+  negate: false
+  pattern: TDD
+  required: false
+  type: release_group
 - name: NCmt
   negate: false
   pattern: NCmt
+  required: false
+  type: release_group
+- name: IAMABLE
+  negate: false
+  pattern: IAMABLE
+  required: false
+  type: release_group
+- name: BlzT
+  negate: false
+  pattern: BlzT
   required: false
   type: release_group
 - name: WATCHABLE
@@ -28,29 +43,9 @@ conditions:
   pattern: WATCHABLE
   required: false
   type: release_group
-- name: whiterhino
+- name: iFT
   negate: false
-  pattern: whiterhino
-  required: false
-  type: release_group
-- name: TDD
-  negate: false
-  pattern: TDD
-  required: false
-  type: release_group
-- name: SoLaR
-  negate: false
-  pattern: SoLaR
-  required: false
-  type: release_group
-- name: Chotab
-  negate: false
-  pattern: Chotab
-  required: false
-  type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
+  pattern: iFT
   required: false
   type: release_group
 tests: []

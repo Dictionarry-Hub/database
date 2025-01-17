@@ -38,9 +38,24 @@ conditions:
   pattern: LittleBakas
   required: false
   type: release_group
+- name: PTH
+  negate: false
+  pattern: PTH
+  required: false
+  type: release_group
 - name: CHAOS
   negate: false
   pattern: CHAOS
+  required: false
+  type: release_group
+- name: Hares
+  negate: false
+  pattern: Hares
+  required: false
+  type: release_group
+- name: BLUEBIRD
+  negate: false
+  pattern: BLUEBIRD
   required: false
   type: release_group
 - name: BeiTai
@@ -58,24 +73,14 @@ conditions:
   pattern: UHDCLUBREMUX
   required: false
   type: release_group
-- name: Hares
-  negate: false
-  pattern: Hares
-  required: false
-  type: release_group
-- name: BLUEBIRD
-  negate: false
-  pattern: BLUEBIRD
-  required: false
-  type: release_group
 - name: invandraren
   negate: false
   pattern: invandraren
   required: false
   type: release_group
-- name: PTH
+- name: dkore
   negate: false
-  pattern: PTH
+  pattern: dkore
   required: false
   type: release_group
 - name: Lucifer
