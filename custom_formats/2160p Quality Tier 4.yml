@@ -18,24 +18,9 @@ conditions:
   pattern: 4KDVS
   required: false
   type: release_group
-- name: HDH
-  negate: false
-  pattern: HDH
-  required: false
-  type: release_group
 - name: NCmt
   negate: false
   pattern: NCmt
-  required: false
-  type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
-- name: FRDS
-  negate: false
-  pattern: FRDS
   required: false
   type: release_group
 - name: WATCHABLE
@@ -61,11 +46,6 @@ conditions:
 - name: Chotab
   negate: false
   pattern: Chotab
-  required: false
-  type: release_group
-- name: beAst
-  negate: false
-  pattern: beAst
   required: false
   type: release_group
 - name: Kitsune

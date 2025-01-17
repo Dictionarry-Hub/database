@@ -33,14 +33,19 @@ conditions:
   pattern: MainFrame
   required: false
   type: release_group
-- name: AViATOR
+- name: JustWatch
   negate: false
-  pattern: AViATOR
+  pattern: JustWatch
   required: false
   type: release_group
-- name: d3g
+- name: SURCODE
   negate: false
-  pattern: d3g
+  pattern: SURCODE
+  required: false
+  type: release_group
+- name: D-Z0N3
+  negate: false
+  pattern: D-Z0N3
   required: false
   type: release_group
 tests: []

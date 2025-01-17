@@ -18,11 +18,6 @@ conditions:
   pattern: SA89
   required: false
   type: release_group
-- name: SURCODE
-  negate: false
-  pattern: SURCODE
-  required: false
-  type: release_group
 - name: c0kE
   negate: false
   pattern: c0kE
@@ -33,9 +28,9 @@ conditions:
   pattern: BSTD
   required: false
   type: release_group
-- name: SESKAPiLE
+- name: HQMUX
   negate: false
-  pattern: SESKAPiLE
+  pattern: HQMUX
   required: false
   type: release_group
 tests: []

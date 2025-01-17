@@ -13,16 +13,6 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: iCandy
-  negate: false
-  pattern: iCandy
-  required: false
-  type: release_group
-- name: PHOCiS
-  negate: false
-  pattern: PHOCiS
-  required: false
-  type: release_group
 - name: micius
   negate: false
   pattern: micius
@@ -48,19 +38,19 @@ conditions:
   pattern: LittleBakas
   required: false
   type: release_group
-- name: EX-R
-  negate: false
-  pattern: EX-R
-  required: false
-  type: release_group
 - name: CHAOS
   negate: false
   pattern: CHAOS
   required: false
   type: release_group
-- name: ChopperHitler
+- name: BeiTai
   negate: false
-  pattern: ChopperHitler
+  pattern: BeiTai
+  required: false
+  type: release_group
+- name: FLAME
+  negate: false
+  pattern: FLAME
   required: false
   type: release_group
 - name: UHDCLUBREMUX
@@ -83,34 +73,14 @@ conditions:
   pattern: invandraren
   required: false
   type: release_group
-- name: d3g-d3g
+- name: PTH
   negate: false
-  pattern: d3g-d3g
-  required: false
-  type: release_group
-- name: RandH
-  negate: false
-  pattern: RandH
-  required: false
-  type: release_group
-- name: R
-  negate: false
-  pattern: R
-  required: false
-  type: release_group
-- name: SP4K
-  negate: false
-  pattern: SP4K
+  pattern: PTH
   required: false
   type: release_group
 - name: Lucifer
   negate: false
   pattern: Lucifer
-  required: false
-  type: release_group
-- name: SumVision
-  negate: false
-  pattern: SumVision
   required: false
   type: release_group
 tests: []
