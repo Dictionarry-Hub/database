@@ -1,0 +1,6 @@
+name: LYS
+pattern: (?<=^|[\s.-])LYS\b
+description: ''
+tags:
+- Release Group
+tests: null

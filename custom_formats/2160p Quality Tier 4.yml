@@ -13,99 +13,64 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: Tron
+- name: 4KDVS
   negate: false
-  pattern: Tron
+  pattern: 4KDVS
   required: false
   type: release_group
-- name: HDChina
+- name: HDH
   negate: false
-  pattern: HDChina
+  pattern: HDH
   required: false
   type: release_group
-- name: BeiTa
+- name: NCmt
   negate: false
-  pattern: BeiTa
+  pattern: NCmt
   required: false
   type: release_group
-- name: ADE
+- name: WiKi
   negate: false
-  pattern: ADE
+  pattern: WiKi
   required: false
   type: release_group
-- name: BiTOR
+- name: FRDS
   negate: false
-  pattern: BiTOR
+  pattern: FRDS
   required: false
   type: release_group
-- name: HDmux
+- name: WATCHABLE
   negate: false
-  pattern: HDmux
+  pattern: WATCHABLE
   required: false
   type: release_group
-- name: ReaLHD
+- name: whiterhino
   negate: false
-  pattern: ReaLHD
+  pattern: whiterhino
   required: false
   type: release_group
-- name: SWAGGERUHD
+- name: TDD
   negate: false
-  pattern: SWAGGERUHD
+  pattern: TDD
   required: false
   type: release_group
-- name: EMERALD
+- name: SoLaR
   negate: false
-  pattern: EMERALD
+  pattern: SoLaR
   required: false
   type: release_group
-- name: HONE
+- name: Chotab
   negate: false
-  pattern: HONE
+  pattern: Chotab
   required: false
   type: release_group
-- name: iNVANDRAREN
+- name: beAst
   negate: false
-  pattern: iNVANDRAREN
+  pattern: beAst
   required: false
   type: release_group
-- name: ReQuEsT
+- name: Kitsune
   negate: false
-  pattern: ReQuEsT
-  required: false
-  type: release_group
-- name: TERMiNAL
-  negate: false
-  pattern: TERMiNAL
-  required: false
-  type: release_group
-- name: NorTekst
-  negate: false
-  pattern: NorTekst
-  required: false
-  type: release_group
-- name: WhiteRhino
-  negate: false
-  pattern: WhiteRhino
-  required: false
-  type: release_group
-- name: LSt
-  negate: false
-  pattern: LSt
-  required: false
-  type: release_group
-- name: guhzer
-  negate: false
-  pattern: guhzer
-  required: false
-  type: release_group
-- name: SWTYBLZ
-  negate: false
-  pattern: SWTYBLZ
-  required: false
-  type: release_group
-- name: iCandy
-  negate: false
-  pattern: iCandy
+  pattern: Kitsune
   required: false
   type: release_group
 tests: []

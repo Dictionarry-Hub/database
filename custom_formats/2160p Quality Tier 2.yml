@@ -13,84 +13,29 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: b0mbardiers
+- name: SA89
   negate: false
-  pattern: b0mbardiers
+  pattern: SA89
   required: false
   type: release_group
-- name: NCmt
+- name: SURCODE
   negate: false
-  pattern: NCmt
+  pattern: SURCODE
   required: false
   type: release_group
-- name: LAZARUS
+- name: c0kE
   negate: false
-  pattern: LAZARUS
+  pattern: c0kE
   required: false
   type: release_group
-- name: DEPTH
+- name: BSTD
   negate: false
-  pattern: DEPTH
+  pattern: BSTD
   required: false
   type: release_group
-- name: whiterhino
+- name: SESKAPiLE
   negate: false
-  pattern: whiterhino
-  required: false
-  type: release_group
-- name: Chotab
-  negate: false
-  pattern: Chotab
-  required: false
-  type: release_group
-- name: TDD
-  negate: false
-  pattern: TDD
-  required: false
-  type: release_group
-- name: KAN3D2M
-  negate: false
-  pattern: KAN3D2M
-  required: false
-  type: release_group
-- name: FRDS
-  negate: false
-  pattern: FRDS
-  required: false
-  type: release_group
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
-- name: SMAHAWUG
-  negate: false
-  pattern: SMAHAWUG
-  required: false
-  type: release_group
-- name: MiMiC
-  negate: false
-  pattern: MiMiC
-  required: false
-  type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
-  required: false
-  type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
-- name: D-Z0N3
-  negate: false
-  pattern: D-Z0N3
-  required: false
-  type: release_group
-- name: MainFrame
-  negate: false
-  pattern: MainFrame
+  pattern: SESKAPiLE
   required: false
   type: release_group
 tests: []
