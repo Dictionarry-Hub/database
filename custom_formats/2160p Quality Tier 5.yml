@@ -13,44 +13,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: aviator
+- name: SoLaR
   negate: false
-  pattern: aviator
-  required: false
-  type: release_group
-- name: ULTRAHDCLUB
-  negate: false
-  pattern: ULTRAHDCLUB
-  required: false
-  type: release_group
-- name: HDC
-  negate: false
-  pattern: HDC
-  required: false
-  type: release_group
-- name: KAN3D2M
-  negate: false
-  pattern: KAN3D2M
-  required: false
-  type: release_group
-- name: JustWatch
-  negate: false
-  pattern: JustWatch
-  required: false
-  type: release_group
-- name: LEGi0N
-  negate: false
-  pattern: LEGi0N
-  required: false
-  type: release_group
-- name: ESiR
-  negate: false
-  pattern: ESiR
-  required: false
-  type: release_group
-- name: iFT
-  negate: false
-  pattern: iFT
+  pattern: SoLaR
   required: false
   type: release_group
 - name: SMAHAWUG
@@ -58,64 +23,29 @@ conditions:
   pattern: SMAHAWUG
   required: false
   type: release_group
-- name: k00kie
-  negate: false
-  pattern: k00kie
-  required: false
-  type: release_group
 - name: MiMiC
   negate: false
   pattern: MiMiC
   required: false
   type: release_group
-- name: TERMiNAL
+- name: HypStu
   negate: false
-  pattern: TERMiNAL
+  pattern: HypStu
   required: false
   type: release_group
-- name: WhiteRhino
+- name: KAN3D2M
   negate: false
-  pattern: WhiteRhino
+  pattern: KAN3D2M
   required: false
   type: release_group
-- name: IAMABLE
+- name: FRDS
   negate: false
-  pattern: IAMABLE
+  pattern: FRDS
   required: false
   type: release_group
-- name: BlzT
+- name: EDPH
   negate: false
-  pattern: BlzT
-  required: false
-  type: release_group
-- name: SWTYBLZ
-  negate: false
-  pattern: SWTYBLZ
-  required: false
-  type: release_group
-- name: D-Z0N3
-  negate: false
-  pattern: D-Z0N3
-  required: false
-  type: release_group
-- name: DiNAMiC
-  negate: false
-  pattern: DiNAMiC
-  required: false
-  type: release_group
-- name: LAZARUS
-  negate: false
-  pattern: LAZARUS
-  required: false
-  type: release_group
-- name: NorTekst
-  negate: false
-  pattern: NorTekst
-  required: false
-  type: release_group
-- name: CHD
-  negate: false
-  pattern: CHD
+  pattern: EDPH
   required: false
   type: release_group
 - name: PussyFoot
@@ -128,54 +58,14 @@ conditions:
   pattern: KNiVES
   required: false
   type: release_group
-- name: ReaLHD
-  negate: false
-  pattern: ReaLHD
-  required: false
-  type: release_group
 - name: STRiKES
   negate: false
   pattern: STRiKES
   required: false
   type: release_group
-- name: HypStu
+- name: TOMBCRUISE
   negate: false
-  pattern: HypStu
-  required: false
-  type: release_group
-- name: EDPH
-  negate: false
-  pattern: EDPH
-  required: false
-  type: release_group
-- name: EMERALD
-  negate: false
-  pattern: EMERALD
-  required: false
-  type: release_group
-- name: HONE
-  negate: false
-  pattern: HONE
-  required: false
-  type: release_group
-- name: HDS
-  negate: false
-  pattern: HDS
-  required: false
-  type: release_group
-- name: BHDStudio
-  negate: false
-  pattern: BHDStudio
-  required: false
-  type: release_group
-- name: hallowed
-  negate: false
-  pattern: hallowed
-  required: false
-  type: release_group
-- name: BiTOR
-  negate: false
-  pattern: BiTOR
+  pattern: TOMBCRUISE
   required: false
   type: release_group
 - name: CMCT
@@ -183,49 +73,59 @@ conditions:
   pattern: CMCT
   required: false
   type: release_group
-- name: 4K4U
+- name: TERMiNAL
   negate: false
-  pattern: 4K4U
+  pattern: TERMiNAL
   required: false
   type: release_group
-- name: ADE
+- name: whiterhino
   negate: false
-  pattern: ADE
+  pattern: whiterhino
   required: false
   type: release_group
-- name: TUSAHD
+- name: ReaLHD
   negate: false
-  pattern: TUSAHD
+  pattern: ReaLHD
   required: false
   type: release_group
-- name: HOA
+- name: EMERALD
   negate: false
-  pattern: HOA
+  pattern: EMERALD
   required: false
   type: release_group
-- name: HDChina
+- name: ULTRAHDCLUB
   negate: false
-  pattern: HDChina
+  pattern: ULTRAHDCLUB
   required: false
   type: release_group
-- name: iNVANDRAREN
+- name: CHD
   negate: false
-  pattern: iNVANDRAREN
+  pattern: CHD
   required: false
   type: release_group
-- name: ENDSTATiON
+- name: SWTYBLZ
   negate: false
-  pattern: ENDSTATiON
+  pattern: SWTYBLZ
   required: false
   type: release_group
-- name: BeiTai
+- name: LAZARUS
   negate: false
-  pattern: BeiTai
+  pattern: LAZARUS
   required: false
   type: release_group
-- name: Verus
+- name: ESiR
   negate: false
-  pattern: Verus
+  pattern: ESiR
+  required: false
+  type: release_group
+- name: beAst
+  negate: false
+  pattern: beAst
+  required: false
+  type: release_group
+- name: WiKi
+  negate: false
+  pattern: WiKi
   required: false
   type: release_group
 - name: SPECTACLE
@@ -243,19 +143,19 @@ conditions:
   pattern: HD77
   required: false
   type: release_group
-- name: HDmux
+- name: k00kie
   negate: false
-  pattern: HDmux
+  pattern: k00kie
   required: false
   type: release_group
-- name: THREESOME
+- name: HDS
   negate: false
-  pattern: THREESOME
+  pattern: HDS
   required: false
   type: release_group
-- name: ReQuEsT
+- name: ADE
   negate: false
-  pattern: ReQuEsT
+  pattern: ADE
   required: false
   type: release_group
 - name: VALiS
@@ -263,14 +163,24 @@ conditions:
   pattern: VALiS
   required: false
   type: release_group
-- name: FLAME
+- name: iNVANDRAREN
   negate: false
-  pattern: FLAME
+  pattern: iNVANDRAREN
   required: false
   type: release_group
-- name: LSt
+- name: BiTOR
   negate: false
-  pattern: LSt
+  pattern: BiTOR
+  required: false
+  type: release_group
+- name: HDmux
+  negate: false
+  pattern: HDmux
+  required: false
+  type: release_group
+- name: ReQuEsT
+  negate: false
+  pattern: ReQuEsT
   required: false
   type: release_group
 - name: Absinth
@@ -278,34 +188,9 @@ conditions:
   pattern: Absinth
   required: false
   type: release_group
-- name: Tigole
+- name: AViATOR
   negate: false
-  pattern: Tigole
-  required: false
-  type: release_group
-- name: DESPACiTO
-  negate: false
-  pattern: DESPACiTO
-  required: false
-  type: release_group
-- name: PTH
-  negate: false
-  pattern: PTH
-  required: false
-  type: release_group
-- name: dkore
-  negate: false
-  pattern: dkore
-  required: false
-  type: release_group
-- name: LAMA
-  negate: false
-  pattern: LAMA
-  required: false
-  type: release_group
-- name: FZHD
-  negate: false
-  pattern: FZHD
+  pattern: AViATOR
   required: false
   type: release_group
 - name: Tron
@@ -313,19 +198,9 @@ conditions:
   pattern: Tron
   required: false
   type: release_group
-- name: BeiTa
+- name: HDChina
   negate: false
-  pattern: BeiTa
-  required: false
-  type: release_group
-- name: edge2020
-  negate: false
-  pattern: edge2020
-  required: false
-  type: release_group
-- name: AAAUHD
-  negate: false
-  pattern: AAAUHD
+  pattern: HDChina
   required: false
   type: release_group
 - name: SWAGGERUHD
@@ -333,9 +208,14 @@ conditions:
   pattern: SWAGGERUHD
   required: false
   type: release_group
-- name: LYS
+- name: AAAUHD
   negate: false
-  pattern: LYS
+  pattern: AAAUHD
+  required: false
+  type: release_group
+- name: guhzer
+  negate: false
+  pattern: guhzer
   required: false
   type: release_group
 - name: GUHZER
@@ -343,9 +223,14 @@ conditions:
   pattern: GUHZER
   required: false
   type: release_group
-- name: guhzer
+- name: HUNTJR
   negate: false
-  pattern: guhzer
+  pattern: HUNTJR
+  required: false
+  type: release_group
+- name: iCandy
+  negate: false
+  pattern: iCandy
   required: false
   type: release_group
 tests: []

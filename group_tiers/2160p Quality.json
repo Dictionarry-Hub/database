@@ -1,143 +1,134 @@
 {
   "metadata": {
-    "total_movies_processed": 680,
-    "movies_with_2160p": 667,
-    "target_efficiency": 0.58,
+    "total_movies_processed": 688,
+    "movies_with_2160p": 675,
+    "target_efficiency": 0.55,
     "total_tiers": 6
   },
   "tier_statistics": {
     "1": {
       "groups": 8,
-      "total_releases": 786,
-      "avg_score": 91.0,
-      "avg_efficiency": 57.12,
-      "avg_std_dev": 0.121
+      "total_releases": 701,
+      "avg_score": 91.04,
+      "avg_efficiency": 56.62,
+      "avg_std_dev": 0.118
     },
     "2": {
-      "groups": 5,
-      "total_releases": 57,
-      "avg_score": 83.98,
-      "avg_efficiency": 55.6,
-      "avg_std_dev": 0.12
+      "groups": 4,
+      "total_releases": 81,
+      "avg_score": 81.73,
+      "avg_efficiency": 52.5,
+      "avg_std_dev": 0.125
     },
     "3": {
-      "groups": 6,
-      "total_releases": 80,
-      "avg_score": 73.04,
-      "avg_efficiency": 56.5,
-      "avg_std_dev": 0.131
+      "groups": 8,
+      "total_releases": 125,
+      "avg_score": 73.37,
+      "avg_efficiency": 55.0,
+      "avg_std_dev": 0.115
     },
     "4": {
-      "groups": 12,
-      "total_releases": 56,
-      "avg_score": 62.09,
-      "avg_efficiency": 55.75,
-      "avg_std_dev": 0.069
+      "groups": 7,
+      "total_releases": 298,
+      "avg_score": 62.16,
+      "avg_efficiency": 52.14,
+      "avg_std_dev": 0.086
     },
     "5": {
-      "groups": 67,
-      "total_releases": 846,
-      "avg_score": 30.84,
-      "avg_efficiency": 44.69,
-      "avg_std_dev": 0.058
+      "groups": 44,
+      "total_releases": 415,
+      "avg_score": 34.15,
+      "avg_efficiency": 45.98,
+      "avg_std_dev": 0.051
     },
     "6": {
-      "groups": 20,
-      "total_releases": 22,
-      "avg_score": 0.71,
-      "avg_efficiency": 36.1,
-      "avg_std_dev": 0.004
+      "groups": 15,
+      "total_releases": 15,
+      "avg_score": 2.06,
+      "avg_efficiency": 36.8,
+      "avg_std_dev": 0.0
     }
   },
   "tiered_groups": [
     {
       "tier": 1,
-      "name": "CtrlHD",
-      "score": 96.49,
-      "efficiency": 58.0,
-      "releases": 379,
-      "std_dev": 0.144,
+      "name": "DON",
+      "score": 97.28,
+      "efficiency": 55.0,
+      "releases": 30,
+      "std_dev": 0.097,
       "efficiency_delta": 0.0
     },
     {
       "tier": 1,
-      "name": "b0mbardiers",
-      "score": 91.83,
-      "efficiency": 57.0,
-      "releases": 19,
-      "std_dev": 0.138,
-      "efficiency_delta": 1.0000000000000009
-    },
-    {
-      "tier": 1,
-      "name": "PTer",
-      "score": 91.47,
-      "efficiency": 57.0,
-      "releases": 18,
-      "std_dev": 0.141,
-      "efficiency_delta": 1.0000000000000009
-    },
-    {
-      "tier": 1,
-      "name": "DON",
-      "score": 91.26,
-      "efficiency": 55.0,
-      "releases": 30,
-      "std_dev": 0.097,
-      "efficiency_delta": 2.9999999999999916
-    },
-    {
-      "tier": 1,
-      "name": "W4NK3R",
-      "score": 90.82,
-      "efficiency": 61.0,
-      "releases": 190,
-      "std_dev": 0.126,
-      "efficiency_delta": 3.0000000000000027
-    },
-    {
-      "tier": 1,
-      "name": "SPHD",
-      "score": 89.48,
-      "efficiency": 62.0,
-      "releases": 59,
-      "std_dev": 0.101,
-      "efficiency_delta": 4.0000000000000036
-    },
-    {
-      "tier": 1,
       "name": "DEPTH",
-      "score": 89.09,
+      "score": 94.93,
       "efficiency": 54.0,
       "releases": 37,
       "std_dev": 0.119,
-      "efficiency_delta": 3.9999999999999925
+      "efficiency_delta": 1.0000000000000009
     },
     {
       "tier": 1,
       "name": "HQMUX",
-      "score": 87.55,
-      "efficiency": 53.0,
-      "releases": 54,
-      "std_dev": 0.105,
+      "score": 91.4,
+      "efficiency": 52.0,
+      "releases": 48,
+      "std_dev": 0.099,
+      "efficiency_delta": 3.0000000000000027
+    },
+    {
+      "tier": 1,
+      "name": "b0mbardiers",
+      "score": 91.14,
+      "efficiency": 58.0,
+      "releases": 31,
+      "std_dev": 0.111,
+      "efficiency_delta": 2.9999999999999916
+    },
+    {
+      "tier": 1,
+      "name": "CtrlHD",
+      "score": 90.47,
+      "efficiency": 58.0,
+      "releases": 369,
+      "std_dev": 0.144,
+      "efficiency_delta": 2.9999999999999916
+    },
+    {
+      "tier": 1,
+      "name": "PTer",
+      "score": 88.65,
+      "efficiency": 57.0,
+      "releases": 16,
+      "std_dev": 0.15,
+      "efficiency_delta": 1.9999999999999907
+    },
+    {
+      "tier": 1,
+      "name": "SA89",
+      "score": 87.4,
+      "efficiency": 59.0,
+      "releases": 21,
+      "std_dev": 0.097,
+      "efficiency_delta": 3.9999999999999925
+    },
+    {
+      "tier": 1,
+      "name": "W4NK3R",
+      "score": 87.02,
+      "efficiency": 60.0,
+      "releases": 149,
+      "std_dev": 0.13,
       "efficiency_delta": 4.999999999999993
     },
     {
       "tier": 2,
-      "name": "SA89",
+      "name": "BSTD",
       "score": 85,
-      "efficiency": 59.0,
+      "efficiency": 54.0,
       "releases": 11,
-      "std_dev": 0.116,
-      "efficiency_delta": 1.0000000000000009
-    },
-    {
-      "tier": 2,
-      "name": "SURCODE",
-      "score": 85,
-      "efficiency": 57.0,
-      "releases": 12,
-      "std_dev": 0.106,
+      "std_dev": 0.102,
       "efficiency_delta": 1.0000000000000009
     },
     {
@@ -147,34 +138,34 @@
       "efficiency": 55.0,
       "releases": 11,
       "std_dev": 0.108,
-      "efficiency_delta": 2.9999999999999916
+      "efficiency_delta": 0.0
     },
     {
       "tier": 2,
-      "name": "BSTD",
-      "score": 83.78,
-      "efficiency": 54.0,
-      "releases": 11,
-      "std_dev": 0.102,
-      "efficiency_delta": 3.9999999999999925
+      "name": "D-Z0N3",
+      "score": 81.94,
+      "efficiency": 51.0,
+      "releases": 10,
+      "std_dev": 0.169,
+      "efficiency_delta": 4.0000000000000036
     },
     {
       "tier": 2,
-      "name": "SESKAPiLE",
-      "score": 81.1,
-      "efficiency": 53.0,
-      "releases": 12,
-      "std_dev": 0.168,
-      "efficiency_delta": 4.999999999999993
+      "name": "MainFrame",
+      "score": 75,
+      "efficiency": 50.0,
+      "releases": 49,
+      "std_dev": 0.12,
+      "efficiency_delta": 5.000000000000004
     },
     {
       "tier": 3,
-      "name": "TnP",
+      "name": "JustWatch",
       "score": 75,
-      "efficiency": 58.0,
+      "efficiency": 54.0,
       "releases": 7,
-      "std_dev": 0.186,
-      "efficiency_delta": 0.0
+      "std_dev": 0.086,
+      "efficiency_delta": 1.0000000000000009
     },
     {
       "tier": 3,
@@ -183,43 +174,61 @@
       "efficiency": 57.0,
       "releases": 9,
       "std_dev": 0.069,
-      "efficiency_delta": 1.0000000000000009
-    },
-    {
-      "tier": 3,
-      "name": "REBORN",
-      "score": 72.9,
-      "efficiency": 56.0,
-      "releases": 5,
-      "std_dev": 0.136,
       "efficiency_delta": 1.9999999999999907
     },
     {
       "tier": 3,
-      "name": "MainFrame",
-      "score": 72.32,
+      "name": "REBORN",
+      "score": 74.91,
+      "efficiency": 56.0,
+      "releases": 5,
+      "std_dev": 0.136,
+      "efficiency_delta": 1.0000000000000009
+    },
+    {
+      "tier": 3,
+      "name": "SURCODE",
+      "score": 73.14,
       "efficiency": 50.0,
-      "releases": 34,
-      "std_dev": 0.107,
+      "releases": 14,
+      "std_dev": 0.106,
+      "efficiency_delta": 5.000000000000004
+    },
+    {
+      "tier": 3,
+      "name": "Chotab",
+      "score": 72.9,
+      "efficiency": 51.0,
+      "releases": 9,
+      "std_dev": 0.095,
+      "efficiency_delta": 4.0000000000000036
+    },
+    {
+      "tier": 3,
+      "name": "SPHD",
+      "score": 72.48,
+      "efficiency": 63.0,
+      "releases": 65,
+      "std_dev": 0.099,
       "efficiency_delta": 7.9999999999999964
     },
     {
       "tier": 3,
-      "name": "AViATOR",
-      "score": 72.19,
-      "efficiency": 54.0,
-      "releases": 8,
-      "std_dev": 0.099,
-      "efficiency_delta": 3.9999999999999925
+      "name": "Kitsune",
+      "score": 71.83,
+      "efficiency": 51.0,
+      "releases": 9,
+      "std_dev": 0.146,
+      "efficiency_delta": 4.0000000000000036
     },
     {
       "tier": 3,
-      "name": "d3g",
-      "score": 70.83,
-      "efficiency": 64.0,
-      "releases": 17,
-      "std_dev": 0.189,
-      "efficiency_delta": 6.000000000000005
+      "name": "TnP",
+      "score": 71.7,
+      "efficiency": 58.0,
+      "releases": 7,
+      "std_dev": 0.186,
+      "efficiency_delta": 2.9999999999999916
     },
     {
       "tier": 4,
@@ -228,16 +237,16 @@
       "efficiency": 58.0,
       "releases": 4,
       "std_dev": 0.097,
-      "efficiency_delta": 0.0
+      "efficiency_delta": 2.9999999999999916
     },
     {
       "tier": 4,
-      "name": "HDH",
+      "name": "TDD",
       "score": 65,
-      "efficiency": 58.0,
-      "releases": 3,
-      "std_dev": 0.029,
-      "efficiency_delta": 0.0
+      "efficiency": 54.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 1.0000000000000009
     },
     {
       "tier": 4,
@@ -246,781 +255,538 @@
       "efficiency": 54.0,
       "releases": 3,
       "std_dev": 0.029,
-      "efficiency_delta": 3.9999999999999925
+      "efficiency_delta": 1.0000000000000009
     },
     {
       "tier": 4,
-      "name": "WiKi",
-      "score": 65,
-      "efficiency": 55.0,
-      "releases": 3,
-      "std_dev": 0.042,
-      "efficiency_delta": 2.9999999999999916
+      "name": "IAMABLE",
+      "score": 63.31,
+      "efficiency": 45.0,
+      "releases": 261,
+      "std_dev": 0.146,
+      "efficiency_delta": 10.000000000000004
     },
     {
       "tier": 4,
-      "name": "FRDS",
-      "score": 65,
-      "efficiency": 58.0,
-      "releases": 2,
-      "std_dev": 0.035,
-      "efficiency_delta": 0.0
+      "name": "BlzT",
+      "score": 60.85,
+      "efficiency": 45.0,
+      "releases": 17,
+      "std_dev": 0.105,
+      "efficiency_delta": 10.000000000000004
     },
     {
       "tier": 4,
       "name": "WATCHABLE",
-      "score": 64.07,
+      "score": 58.39,
       "efficiency": 60.0,
       "releases": 2,
       "std_dev": 0.042,
-      "efficiency_delta": 2.0000000000000018
+      "efficiency_delta": 4.999999999999993
     },
     {
       "tier": 4,
-      "name": "whiterhino",
-      "score": 63.32,
-      "efficiency": 55.0,
-      "releases": 2,
-      "std_dev": 0.0,
-      "efficiency_delta": 2.9999999999999916
-    },
-    {
-      "tier": 4,
-      "name": "TDD",
-      "score": 61.42,
-      "efficiency": 54.0,
-      "releases": 2,
-      "std_dev": 0.0,
-      "efficiency_delta": 3.9999999999999925
-    },
-    {
-      "tier": 4,
-      "name": "SoLaR",
-      "score": 60.02,
-      "efficiency": 63.0,
-      "releases": 8,
-      "std_dev": 0.114,
-      "efficiency_delta": 5.000000000000004
-    },
-    {
-      "tier": 4,
-      "name": "Chotab",
-      "score": 57.55,
-      "efficiency": 51.0,
+      "name": "iFT",
+      "score": 57.58,
+      "efficiency": 49.0,
       "releases": 9,
-      "std_dev": 0.095,
-      "efficiency_delta": 6.999999999999995
-    },
-    {
-      "tier": 4,
-      "name": "beAst",
-      "score": 57.27,
-      "efficiency": 52.0,
-      "releases": 9,
-      "std_dev": 0.199,
-      "efficiency_delta": 5.999999999999995
-    },
-    {
-      "tier": 4,
-      "name": "Kitsune",
-      "score": 56.48,
-      "efficiency": 51.0,
-      "releases": 9,
-      "std_dev": 0.146,
-      "efficiency_delta": 6.999999999999995
+      "std_dev": 0.18,
+      "efficiency_delta": 6.000000000000005
     },
     {
       "tier": 5,
-      "name": "aviator",
+      "name": "SoLaR",
+      "score": 54.84,
+      "efficiency": 63.0,
+      "releases": 8,
+      "std_dev": 0.114,
+      "efficiency_delta": 7.9999999999999964
+    },
+    {
+      "tier": 5,
+      "name": "SMAHAWUG",
       "score": 53.0,
-      "efficiency": 58.0,
+      "efficiency": 55.0,
       "releases": 1,
       "std_dev": 0,
       "efficiency_delta": 0.0
     },
     {
       "tier": 5,
-      "name": "ULTRAHDCLUB",
-      "score": 51.3,
-      "efficiency": 64.0,
-      "releases": 3,
-      "std_dev": 0.081,
-      "efficiency_delta": 6.000000000000005
+      "name": "MiMiC",
+      "score": 53.0,
+      "efficiency": 55.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.0
     },
     {
       "tier": 5,
-      "name": "HDC",
+      "name": "HypStu",
+      "score": 51.57,
+      "efficiency": 48.0,
+      "releases": 3,
+      "std_dev": 0.006,
+      "efficiency_delta": 7.000000000000006
+    },
+    {
+      "tier": 5,
+      "name": "KAN3D2M",
       "score": 50.93,
-      "efficiency": 59.0,
+      "efficiency": 56.0,
       "releases": 1,
       "std_dev": 0,
       "efficiency_delta": 1.0000000000000009
     },
     {
       "tier": 5,
-      "name": "KAN3D2M",
-      "score": 48.92,
+      "name": "FRDS",
+      "score": 50.93,
       "efficiency": 56.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 1.9999999999999907
+      "efficiency_delta": 1.0000000000000009
     },
     {
       "tier": 5,
-      "name": "JustWatch",
-      "score": 48.79,
-      "efficiency": 49.0,
-      "releases": 9,
+      "name": "EDPH",
+      "score": 50.6,
+      "efficiency": 48.0,
+      "releases": 3,
+      "std_dev": 0.04,
+      "efficiency_delta": 7.000000000000006
+    },
+    {
+      "tier": 5,
+      "name": "PussyFoot",
+      "score": 48.92,
+      "efficiency": 53.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 2.0000000000000018
+    },
+    {
+      "tier": 5,
+      "name": "KNiVES",
+      "score": 48.92,
+      "efficiency": 53.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 2.0000000000000018
+    },
+    {
+      "tier": 5,
+      "name": "STRiKES",
+      "score": 45.92,
+      "efficiency": 45.0,
+      "releases": 7,
       "std_dev": 0.116,
-      "efficiency_delta": 8.999999999999996
+      "efficiency_delta": 10.000000000000004
     },
     {
       "tier": 5,
-      "name": "LEGi0N",
-      "score": 47.81,
-      "efficiency": 52.0,
-      "releases": 2,
-      "std_dev": 0.0,
-      "efficiency_delta": 5.999999999999995
-    },
-    {
-      "tier": 5,
-      "name": "ESiR",
-      "score": 47.81,
-      "efficiency": 64.0,
-      "releases": 2,
-      "std_dev": 0.0,
-      "efficiency_delta": 6.000000000000005
-    },
-    {
-      "tier": 5,
-      "name": "iFT",
-      "score": 47.55,
-      "efficiency": 49.0,
-      "releases": 9,
-      "std_dev": 0.18,
-      "efficiency_delta": 8.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "SMAHAWUG",
-      "score": 46.98,
-      "efficiency": 55.0,
+      "name": "TOMBCRUISE",
+      "score": 45.08,
+      "efficiency": 51.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 2.9999999999999916
+      "efficiency_delta": 4.0000000000000036
     },
     {
       "tier": 5,
-      "name": "k00kie",
-      "score": 46.98,
-      "efficiency": 61.0,
+      "name": "CMCT",
+      "score": 45.08,
+      "efficiency": 51.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 3.0000000000000027
-    },
-    {
-      "tier": 5,
-      "name": "MiMiC",
-      "score": 46.98,
-      "efficiency": 55.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 2.9999999999999916
+      "efficiency_delta": 4.0000000000000036
     },
     {
       "tier": 5,
       "name": "TERMiNAL",
       "score": 45,
-      "efficiency": 41.0,
-      "releases": 213,
-      "std_dev": 0.148,
-      "efficiency_delta": 17.0
-    },
-    {
-      "tier": 5,
-      "name": "WhiteRhino",
-      "score": 45,
-      "efficiency": 41.0,
-      "releases": 72,
-      "std_dev": 0.153,
-      "efficiency_delta": 17.0
-    },
-    {
-      "tier": 5,
-      "name": "IAMABLE",
-      "score": 45,
-      "efficiency": 45.0,
-      "releases": 275,
+      "efficiency": 42.0,
+      "releases": 209,
       "std_dev": 0.146,
-      "efficiency_delta": 12.999999999999995
+      "efficiency_delta": 13.000000000000005
     },
     {
       "tier": 5,
-      "name": "BlzT",
+      "name": "whiterhino",
       "score": 45,
-      "efficiency": 45.0,
-      "releases": 17,
-      "std_dev": 0.105,
-      "efficiency_delta": 12.999999999999995
-    },
-    {
-      "tier": 5,
-      "name": "SWTYBLZ",
-      "score": 45,
-      "efficiency": 43.0,
-      "releases": 13,
-      "std_dev": 0.216,
-      "efficiency_delta": 14.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "D-Z0N3",
-      "score": 45,
-      "efficiency": 43.0,
-      "releases": 13,
-      "std_dev": 0.211,
-      "efficiency_delta": 14.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "DiNAMiC",
-      "score": 44.52,
-      "efficiency": 51.0,
-      "releases": 2,
-      "std_dev": 0.057,
-      "efficiency_delta": 6.999999999999995
-    },
-    {
-      "tier": 5,
-      "name": "LAZARUS",
-      "score": 44.34,
-      "efficiency": 66.0,
-      "releases": 3,
-      "std_dev": 0.025,
-      "efficiency_delta": 8.000000000000007
-    },
-    {
-      "tier": 5,
-      "name": "NorTekst",
-      "score": 43.74,
-      "efficiency": 68.0,
-      "releases": 4,
-      "std_dev": 0.139,
-      "efficiency_delta": 10.000000000000009
-    },
-    {
-      "tier": 5,
-      "name": "CHD",
-      "score": 43.58,
-      "efficiency": 47.0,
-      "releases": 6,
-      "std_dev": 0.118,
-      "efficiency_delta": 10.999999999999998
-    },
-    {
-      "tier": 5,
-      "name": "PussyFoot",
-      "score": 43.25,
-      "efficiency": 53.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 4.999999999999993
-    },
-    {
-      "tier": 5,
-      "name": "KNiVES",
-      "score": 43.25,
-      "efficiency": 53.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 4.999999999999993
+      "efficiency": 41.0,
+      "releases": 74,
+      "std_dev": 0.153,
+      "efficiency_delta": 14.000000000000007
     },
     {
       "tier": 5,
       "name": "ReaLHD",
-      "score": 42.61,
+      "score": 45,
       "efficiency": 38.0,
-      "releases": 15,
-      "std_dev": 0.066,
-      "efficiency_delta": 19.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "STRiKES",
-      "score": 41.98,
-      "efficiency": 46.0,
-      "releases": 6,
-      "std_dev": 0.123,
-      "efficiency_delta": 11.999999999999995
-    },
-    {
-      "tier": 5,
-      "name": "HypStu",
-      "score": 41.69,
-      "efficiency": 48.0,
-      "releases": 3,
-      "std_dev": 0.006,
-      "efficiency_delta": 9.999999999999998
-    },
-    {
-      "tier": 5,
-      "name": "EDPH",
-      "score": 40.72,
-      "efficiency": 48.0,
-      "releases": 3,
-      "std_dev": 0.04,
-      "efficiency_delta": 9.999999999999998
+      "releases": 14,
+      "std_dev": 0.069,
+      "efficiency_delta": 17.000000000000004
     },
     {
       "tier": 5,
       "name": "EMERALD",
-      "score": 40.03,
+      "score": 43.65,
       "efficiency": 38.0,
       "releases": 11,
       "std_dev": 0.106,
-      "efficiency_delta": 19.999999999999996
+      "efficiency_delta": 17.000000000000004
     },
     {
       "tier": 5,
-      "name": "HONE",
-      "score": 38.55,
-      "efficiency": 35.0,
-      "releases": 12,
-      "std_dev": 0.049,
-      "efficiency_delta": 23.0
+      "name": "ULTRAHDCLUB",
+      "score": 41.27,
+      "efficiency": 64.0,
+      "releases": 3,
+      "std_dev": 0.081,
+      "efficiency_delta": 8.999999999999996
     },
     {
       "tier": 5,
-      "name": "HDS",
-      "score": 38.07,
-      "efficiency": 35.0,
-      "releases": 15,
-      "std_dev": 0.121,
-      "efficiency_delta": 23.0
+      "name": "CHD",
+      "score": 40.83,
+      "efficiency": 47.0,
+      "releases": 3,
+      "std_dev": 0.184,
+      "efficiency_delta": 8.000000000000007
     },
     {
       "tier": 5,
-      "name": "BHDStudio",
-      "score": 34.51,
-      "efficiency": 27.0,
-      "releases": 21,
-      "std_dev": 0.033,
-      "efficiency_delta": 30.999999999999993
-    },
-    {
-      "tier": 5,
-      "name": "hallowed",
-      "score": 32.26,
-      "efficiency": 29.0,
+      "name": "SWTYBLZ",
+      "score": 40.61,
+      "efficiency": 36.0,
       "releases": 11,
-      "std_dev": 0.05,
-      "efficiency_delta": 28.999999999999996
+      "std_dev": 0.134,
+      "efficiency_delta": 19.000000000000007
     },
     {
       "tier": 5,
-      "name": "BiTOR",
-      "score": 31.73,
-      "efficiency": 41.0,
-      "releases": 5,
-      "std_dev": 0.022,
-      "efficiency_delta": 17.0
+      "name": "LAZARUS",
+      "score": 39.6,
+      "efficiency": 66.0,
+      "releases": 3,
+      "std_dev": 0.025,
+      "efficiency_delta": 10.999999999999998
     },
     {
       "tier": 5,
-      "name": "CMCT",
-      "score": 29.74,
-      "efficiency": 51.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 6.999999999999995
-    },
-    {
-      "tier": 5,
-      "name": "4K4U",
-      "score": 27.66,
-      "efficiency": 39.0,
-      "releases": 5,
-      "std_dev": 0.086,
-      "efficiency_delta": 18.999999999999993
-    },
-    {
-      "tier": 5,
-      "name": "ADE",
-      "score": 27.31,
-      "efficiency": 37.0,
-      "releases": 6,
-      "std_dev": 0.043,
-      "efficiency_delta": 20.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "TUSAHD",
-      "score": 26.73,
-      "efficiency": 45.0,
+      "name": "ESiR",
+      "score": 37.78,
+      "efficiency": 64.0,
       "releases": 2,
       "std_dev": 0.0,
-      "efficiency_delta": 12.999999999999995
+      "efficiency_delta": 8.999999999999996
     },
     {
       "tier": 5,
-      "name": "HOA",
-      "score": 26.32,
-      "efficiency": 71.0,
+      "name": "beAst",
+      "score": 35.08,
+      "efficiency": 42.0,
+      "releases": 6,
+      "std_dev": 0.146,
+      "efficiency_delta": 13.000000000000005
+    },
+    {
+      "tier": 5,
+      "name": "WiKi",
+      "score": 34.32,
+      "efficiency": 46.0,
       "releases": 2,
-      "std_dev": 0.014,
-      "efficiency_delta": 13.0
-    },
-    {
-      "tier": 5,
-      "name": "HDChina",
-      "score": 26.23,
-      "efficiency": 43.0,
-      "releases": 3,
-      "std_dev": 0.139,
-      "efficiency_delta": 14.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "iNVANDRAREN",
-      "score": 25.15,
-      "efficiency": 38.0,
-      "releases": 5,
-      "std_dev": 0.149,
-      "efficiency_delta": 19.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "ENDSTATiON",
-      "score": 24.92,
-      "efficiency": 37.0,
-      "releases": 5,
-      "std_dev": 0.105,
-      "efficiency_delta": 20.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "BeiTai",
-      "score": 24.57,
-      "efficiency": 41.0,
-      "releases": 3,
-      "std_dev": 0.095,
-      "efficiency_delta": 17.0
-    },
-    {
-      "tier": 5,
-      "name": "Verus",
-      "score": 23.94,
-      "efficiency": 36.0,
-      "releases": 4,
-      "std_dev": 0.097,
-      "efficiency_delta": 21.999999999999996
+      "std_dev": 0.141,
+      "efficiency_delta": 9.000000000000002
     },
     {
       "tier": 5,
       "name": "SPECTACLE",
-      "score": 21.44,
+      "score": 31.47,
       "efficiency": 49.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 8.999999999999996
+      "efficiency_delta": 6.000000000000005
     },
     {
       "tier": 5,
       "name": "spectacle",
-      "score": 21.44,
+      "score": 31.47,
       "efficiency": 49.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 8.999999999999996
+      "efficiency_delta": 6.000000000000005
     },
     {
       "tier": 5,
       "name": "HD77",
-      "score": 21.44,
+      "score": 31.47,
       "efficiency": 49.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 8.999999999999996
+      "efficiency_delta": 6.000000000000005
     },
     {
       "tier": 5,
-      "name": "HDmux",
-      "score": 21.25,
-      "efficiency": 43.0,
-      "releases": 2,
-      "std_dev": 0.106,
-      "efficiency_delta": 14.999999999999996
+      "name": "k00kie",
+      "score": 31.47,
+      "efficiency": 61.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.999999999999995
     },
     {
       "tier": 5,
-      "name": "THREESOME",
-      "score": 20.47,
-      "efficiency": 33.0,
-      "releases": 6,
-      "std_dev": 0.161,
-      "efficiency_delta": 24.999999999999993
+      "name": "HDS",
+      "score": 30.34,
+      "efficiency": 37.0,
+      "releases": 9,
+      "std_dev": 0.156,
+      "efficiency_delta": 18.000000000000004
     },
     {
       "tier": 5,
-      "name": "ReQuEsT",
-      "score": 20.18,
-      "efficiency": 41.0,
-      "releases": 2,
-      "std_dev": 0.042,
-      "efficiency_delta": 17.0
+      "name": "ADE",
+      "score": 29.8,
+      "efficiency": 37.0,
+      "releases": 5,
+      "std_dev": 0.048,
+      "efficiency_delta": 18.000000000000004
     },
     {
       "tier": 5,
       "name": "VALiS",
-      "score": 19.86,
+      "score": 29.74,
       "efficiency": 48.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 9.999999999999998
+      "efficiency_delta": 7.000000000000006
     },
     {
       "tier": 5,
-      "name": "FLAME",
-      "score": 19.7,
-      "efficiency": 34.0,
-      "releases": 4,
-      "std_dev": 0.209,
-      "efficiency_delta": 23.999999999999993
+      "name": "iNVANDRAREN",
+      "score": 28.77,
+      "efficiency": 38.0,
+      "releases": 5,
+      "std_dev": 0.149,
+      "efficiency_delta": 17.000000000000004
     },
     {
       "tier": 5,
-      "name": "LSt",
-      "score": 18.93,
-      "efficiency": 39.0,
+      "name": "BiTOR",
+      "score": 25.73,
+      "efficiency": 42.0,
       "releases": 2,
-      "std_dev": 0.0,
-      "efficiency_delta": 18.999999999999993
+      "std_dev": 0.035,
+      "efficiency_delta": 13.000000000000005
+    },
+    {
+      "tier": 5,
+      "name": "HDmux",
+      "score": 25.45,
+      "efficiency": 43.0,
+      "releases": 2,
+      "std_dev": 0.106,
+      "efficiency_delta": 12.000000000000005
+    },
+    {
+      "tier": 5,
+      "name": "ReQuEsT",
+      "score": 24.14,
+      "efficiency": 41.0,
+      "releases": 2,
+      "std_dev": 0.042,
+      "efficiency_delta": 14.000000000000007
     },
     {
       "tier": 5,
       "name": "Absinth",
-      "score": 18.73,
+      "score": 21.76,
       "efficiency": 32.0,
       "releases": 5,
       "std_dev": 0.154,
-      "efficiency_delta": 25.999999999999996
+      "efficiency_delta": 23.000000000000004
     },
     {
       "tier": 5,
-      "name": "Tigole",
-      "score": 18.04,
-      "efficiency": 28.0,
-      "releases": 4,
-      "std_dev": 0.024,
-      "efficiency_delta": 29.999999999999993
-    },
-    {
-      "tier": 5,
-      "name": "DESPACiTO",
-      "score": 16.84,
-      "efficiency": 70.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 12.0
-    },
-    {
-      "tier": 5,
-      "name": "PTH",
-      "score": 16.21,
-      "efficiency": 37.0,
+      "name": "AViATOR",
+      "score": 21.37,
+      "efficiency": 38.0,
       "releases": 2,
-      "std_dev": 0.014,
-      "efficiency_delta": 20.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "dkore",
-      "score": 14.88,
-      "efficiency": 30.0,
-      "releases": 3,
-      "std_dev": 0.012,
-      "efficiency_delta": 27.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "LAMA",
-      "score": 11.22,
-      "efficiency": 15.0,
-      "releases": 9,
-      "std_dev": 0.048,
-      "efficiency_delta": 42.99999999999999
-    },
-    {
-      "tier": 5,
-      "name": "FZHD",
-      "score": 10.39,
-      "efficiency": 71.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 13.0
+      "std_dev": 0.0,
+      "efficiency_delta": 17.000000000000004
     },
     {
       "tier": 5,
       "name": "Tron",
-      "score": 10.39,
+      "score": 19.86,
       "efficiency": 45.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 12.999999999999995
+      "efficiency_delta": 10.000000000000004
     },
     {
       "tier": 5,
-      "name": "BeiTa",
-      "score": 8.99,
-      "efficiency": 44.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 13.999999999999996
-    },
-    {
-      "tier": 5,
-      "name": "edge2020",
-      "score": 7.8,
-      "efficiency": 28.0,
+      "name": "HDChina",
+      "score": 17.76,
+      "efficiency": 35.0,
       "releases": 2,
       "std_dev": 0.0,
-      "efficiency_delta": 29.999999999999993
-    },
-    {
-      "tier": 5,
-      "name": "AAAUHD",
-      "score": 7.8,
-      "efficiency": 28.0,
-      "releases": 2,
-      "std_dev": 0.0,
-      "efficiency_delta": 29.999999999999993
+      "efficiency_delta": 20.000000000000007
     },
     {
       "tier": 5,
       "name": "SWAGGERUHD",
-      "score": 7.63,
+      "score": 11.84,
       "efficiency": 43.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 14.999999999999996
+      "efficiency_delta": 12.000000000000005
     },
     {
       "tier": 5,
-      "name": "LYS",
-      "score": 6.96,
-      "efficiency": 27.0,
+      "name": "AAAUHD",
+      "score": 10.48,
+      "efficiency": 28.0,
       "releases": 2,
       "std_dev": 0.0,
-      "efficiency_delta": 30.999999999999993
-    },
-    {
-      "tier": 5,
-      "name": "GUHZER",
-      "score": 5.94,
-      "efficiency": 29.0,
-      "releases": 2,
-      "std_dev": 0.106,
-      "efficiency_delta": 28.999999999999996
+      "efficiency_delta": 27.0
     },
     {
       "tier": 5,
       "name": "guhzer",
-      "score": 5.03,
+      "score": 8.99,
       "efficiency": 41.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 17.0
+      "efficiency_delta": 14.000000000000007
     },
     {
-      "tier": 6,
-      "name": "iCandy",
-      "score": 3.79,
+      "tier": 5,
+      "name": "GUHZER",
+      "score": 8.7,
+      "efficiency": 29.0,
+      "releases": 2,
+      "std_dev": 0.106,
+      "efficiency_delta": 26.000000000000007
+    },
+    {
+      "tier": 5,
+      "name": "HUNTJR",
+      "score": 7.63,
       "efficiency": 40.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 17.999999999999993
+      "efficiency_delta": 15.000000000000002
     },
     {
-      "tier": 6,
-      "name": "PHOCiS",
-      "score": 3.25,
-      "efficiency": 17.0,
-      "releases": 3,
-      "std_dev": 0.083,
-      "efficiency_delta": 40.99999999999999
+      "tier": 5,
+      "name": "iCandy",
+      "score": 7.63,
+      "efficiency": 40.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 15.000000000000002
     },
     {
       "tier": 6,
       "name": "micius",
-      "score": 2.59,
+      "score": 6.31,
       "efficiency": 39.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 18.999999999999993
+      "efficiency_delta": 16.000000000000004
     },
     {
       "tier": 6,
       "name": "BOREDOR",
-      "score": 2.59,
+      "score": 6.31,
       "efficiency": 39.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 18.999999999999993
+      "efficiency_delta": 16.000000000000004
     },
     {
       "tier": 6,
       "name": "threesome",
-      "score": 1.42,
+      "score": 5.03,
       "efficiency": 38.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 19.999999999999996
+      "efficiency_delta": 17.000000000000004
     },
     {
       "tier": 6,
       "name": "Blzt",
-      "score": 0.28,
+      "score": 3.79,
       "efficiency": 37.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 20.999999999999996
+      "efficiency_delta": 18.000000000000004
     },
     {
       "tier": 6,
       "name": "LittleBakas",
-      "score": 0.28,
+      "score": 3.79,
       "efficiency": 37.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 20.999999999999996
+      "efficiency_delta": 18.000000000000004
     },
     {
       "tier": 6,
-      "name": "EX-R",
-      "score": 0,
-      "efficiency": 14.0,
+      "name": "PTH",
+      "score": 2.59,
+      "efficiency": 36.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 43.99999999999999
+      "efficiency_delta": 19.000000000000007
     },
     {
       "tier": 6,
       "name": "CHAOS",
-      "score": 0,
+      "score": 1.42,
       "efficiency": 35.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 23.0
+      "efficiency_delta": 20.000000000000007
     },
     {
       "tier": 6,
-      "name": "ChopperHitler",
-      "score": 0,
-      "efficiency": 13.0,
+      "name": "Hares",
+      "score": 1.42,
+      "efficiency": 35.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 44.99999999999999
+      "efficiency_delta": 20.000000000000007
+    },
+    {
+      "tier": 6,
+      "name": "BLUEBIRD",
+      "score": 0.28,
+      "efficiency": 34.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 21.000000000000004
+    },
+    {
+      "tier": 6,
+      "name": "BeiTai",
+      "score": 0,
+      "efficiency": 30.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 25.000000000000007
+    },
+    {
+      "tier": 6,
+      "name": "FLAME",
+      "score": 0,
+      "efficiency": 31.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 24.000000000000004
     },
     {
       "tier": 6,
@@ -1029,25 +795,7 @@
       "efficiency": 82.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 24.0
-    },
-    {
-      "tier": 6,
-      "name": "Hares",
-      "score": 0,
-      "efficiency": 35.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 23.0
-    },
-    {
-      "tier": 6,
-      "name": "BLUEBIRD",
-      "score": 0,
-      "efficiency": 34.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 23.999999999999993
+      "efficiency_delta": 26.99999999999999
     },
     {
       "tier": 6,
@@ -1056,43 +804,16 @@
       "efficiency": 26.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 31.999999999999996
+      "efficiency_delta": 29.000000000000004
     },
     {
       "tier": 6,
-      "name": "d3g-d3g",
+      "name": "dkore",
       "score": 0,
-      "efficiency": 90.0,
+      "efficiency": 22.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 32.00000000000001
-    },
-    {
-      "tier": 6,
-      "name": "RandH",
-      "score": 0,
-      "efficiency": 24.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 34.0
-    },
-    {
-      "tier": 6,
-      "name": "R",
-      "score": 0,
-      "efficiency": 24.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 34.0
-    },
-    {
-      "tier": 6,
-      "name": "SP4K",
-      "score": 0,
-      "efficiency": 36.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 21.999999999999996
+      "efficiency_delta": 33.00000000000001
     },
     {
       "tier": 6,
@@ -1101,17 +822,8 @@
       "efficiency": 31.0,
       "releases": 1,
       "std_dev": 0,
-      "efficiency_delta": 26.999999999999996
-    },
-    {
-      "tier": 6,
-      "name": "SumVision",
-      "score": 0,
-      "efficiency": 31.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 26.999999999999996
+      "efficiency_delta": 24.000000000000004
     }
   ],
-  "tier_boundaries": [85, 75, 65, 55, 4.409999999999987]
+  "tier_boundaries": [85, 75, 65, 55, 6.52999999999999]
 }

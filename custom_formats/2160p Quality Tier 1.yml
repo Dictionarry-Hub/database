@@ -13,34 +13,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: CtrlHD
-  negate: false
-  pattern: CtrlHD
-  required: false
-  type: release_group
-- name: b0mbardiers
-  negate: false
-  pattern: b0mbardiers
-  required: false
-  type: release_group
-- name: PTer
-  negate: false
-  pattern: PTer
-  required: false
-  type: release_group
 - name: DON
   negate: false
   pattern: DON
-  required: false
-  type: release_group
-- name: W4NK3R
-  negate: false
-  pattern: W4NK3R
-  required: false
-  type: release_group
-- name: SPHD
-  negate: false
-  pattern: SPHD
   required: false
   type: release_group
 - name: DEPTH
@@ -51,6 +26,31 @@ conditions:
 - name: HQMUX
   negate: false
   pattern: HQMUX
+  required: false
+  type: release_group
+- name: b0mbardiers
+  negate: false
+  pattern: b0mbardiers
+  required: false
+  type: release_group
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
+- name: PTer
+  negate: false
+  pattern: PTer
+  required: false
+  type: release_group
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+- name: W4NK3R
+  negate: false
+  pattern: W4NK3R
   required: false
   type: release_group
 tests: []

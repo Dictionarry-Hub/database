@@ -13,9 +13,9 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: TnP
+- name: JustWatch
   negate: false
-  pattern: TnP
+  pattern: JustWatch
   required: false
   type: release_group
 - name: DEFLATE
@@ -28,19 +28,29 @@ conditions:
   pattern: REBORN
   required: false
   type: release_group
-- name: MainFrame
+- name: SURCODE
   negate: false
-  pattern: MainFrame
+  pattern: SURCODE
   required: false
   type: release_group
-- name: AViATOR
+- name: Chotab
   negate: false
-  pattern: AViATOR
+  pattern: Chotab
   required: false
   type: release_group
-- name: d3g
+- name: SPHD
   negate: false
-  pattern: d3g
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
+- name: TnP
+  negate: false
+  pattern: TnP
   required: false
   type: release_group
 tests: []
