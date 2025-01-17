@@ -1,0 +1,33 @@
+name: Bundle Data
+on:
+  push:
+    paths:
+      - "**.yml"
+    branches:
+      - stable
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install pyyaml
+
+      - name: Run bundling script
+        run: python bundle.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bundles/
+          git commit -m "Update bundles" || echo "No changes to commit"
+          git push
