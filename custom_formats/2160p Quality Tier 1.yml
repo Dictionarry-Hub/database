@@ -18,94 +18,9 @@ conditions:
   pattern: CtrlHD
   required: false
   type: release_group
-- name: SPHD
+- name: b0mbardiers
   negate: false
-  pattern: SPHD
-  required: false
-  type: release_group
-- name: W4NK3R
-  negate: false
-  pattern: W4NK3R
-  required: false
-  type: release_group
-- name: BSTD
-  negate: false
-  pattern: BSTD
-  required: false
-  type: release_group
-- name: REBORN
-  negate: false
-  pattern: REBORN
-  required: false
-  type: release_group
-- name: DON
-  negate: false
-  pattern: DON
-  required: false
-  type: release_group
-- name: SA89
-  negate: false
-  pattern: SA89
-  required: false
-  type: release_group
-- name: 4KDVS
-  negate: false
-  pattern: 4KDVS
-  required: false
-  type: release_group
-- name: SURCODE
-  negate: false
-  pattern: SURCODE
-  required: false
-  type: release_group
-- name: TnP
-  negate: false
-  pattern: TnP
-  required: false
-  type: release_group
-- name: JustWatch
-  negate: false
-  pattern: JustWatch
-  required: false
-  type: release_group
-- name: AViATOR
-  negate: false
-  pattern: AViATOR
-  required: false
-  type: release_group
-- name: SESKAPiLE
-  negate: false
-  pattern: SESKAPiLE
-  required: false
-  type: release_group
-- name: DEFLATE
-  negate: false
-  pattern: DEFLATE
-  required: false
-  type: release_group
-- name: WATCHABLE
-  negate: false
-  pattern: WATCHABLE
-  required: false
-  type: release_group
-- name: SoLaR
-  negate: false
-  pattern: SoLaR
-  required: false
-  type: release_group
-- name: HDC
-  negate: false
-  pattern: HDC
-  required: false
-  type: release_group
-- name: HDH
-  negate: false
-  pattern: HDH
-  required: false
-  type: release_group
-- name: ULTRAHDCLUB
-  negate: false
-  pattern: ULTRAHDCLUB
+  pattern: b0mbardiers
   required: false
   type: release_group
 - name: PTer
@@ -113,19 +28,29 @@ conditions:
   pattern: PTer
   required: false
   type: release_group
-- name: c0kE
+- name: DON
   negate: false
-  pattern: c0kE
+  pattern: DON
   required: false
   type: release_group
-- name: ESiR
+- name: W4NK3R
   negate: false
-  pattern: ESiR
+  pattern: W4NK3R
   required: false
   type: release_group
-- name: k00kie
+- name: SPHD
   negate: false
-  pattern: k00kie
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: DEPTH
+  negate: false
+  pattern: DEPTH
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
   required: false
   type: release_group
 tests: []

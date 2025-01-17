@@ -13,99 +13,34 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: PussyFoot
+- name: TnP
   negate: false
-  pattern: PussyFoot
+  pattern: TnP
   required: false
   type: release_group
-- name: KNiVES
+- name: DEFLATE
   negate: false
-  pattern: KNiVES
+  pattern: DEFLATE
   required: false
   type: release_group
-- name: HypStu
+- name: REBORN
   negate: false
-  pattern: HypStu
+  pattern: REBORN
   required: false
   type: release_group
-- name: CHD
+- name: MainFrame
   negate: false
-  pattern: CHD
+  pattern: MainFrame
   required: false
   type: release_group
-- name: iFT
+- name: AViATOR
   negate: false
-  pattern: iFT
-  required: false
-  type: release_group
-- name: EDPH
-  negate: false
-  pattern: EDPH
-  required: false
-  type: release_group
-- name: CMCT
-  negate: false
-  pattern: CMCT
-  required: false
-  type: release_group
-- name: STRiKES
-  negate: false
-  pattern: STRiKES
-  required: false
-  type: release_group
-- name: HOA
-  negate: false
-  pattern: HOA
+  pattern: AViATOR
   required: false
   type: release_group
 - name: d3g
   negate: false
   pattern: d3g
-  required: false
-  type: release_group
-- name: DESPACiTO
-  negate: false
-  pattern: DESPACiTO
-  required: false
-  type: release_group
-- name: BlzT
-  negate: false
-  pattern: BlzT
-  required: false
-  type: release_group
-- name: SPECTACLE
-  negate: false
-  pattern: SPECTACLE
-  required: false
-  type: release_group
-- name: spectacle
-  negate: false
-  pattern: spectacle
-  required: false
-  type: release_group
-- name: FZHD
-  negate: false
-  pattern: FZHD
-  required: false
-  type: release_group
-- name: HD77
-  negate: false
-  pattern: HD77
-  required: false
-  type: release_group
-- name: VALiS
-  negate: false
-  pattern: VALiS
-  required: false
-  type: release_group
-- name: IAMABLE
-  negate: false
-  pattern: IAMABLE
-  required: false
-  type: release_group
-- name: DiNAMiC
-  negate: false
-  pattern: DiNAMiC
   required: false
   type: release_group
 tests: []

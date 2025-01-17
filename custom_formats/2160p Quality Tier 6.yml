@@ -13,49 +13,79 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: hallowed
+- name: iCandy
   negate: false
-  pattern: hallowed
+  pattern: iCandy
   required: false
   type: release_group
-- name: BHDStudio
+- name: PHOCiS
   negate: false
-  pattern: BHDStudio
+  pattern: PHOCiS
   required: false
   type: release_group
-- name: Lucifer
+- name: micius
   negate: false
-  pattern: Lucifer
+  pattern: micius
   required: false
   type: release_group
-- name: SumVision
+- name: BOREDOR
   negate: false
-  pattern: SumVision
+  pattern: BOREDOR
   required: false
   type: release_group
-- name: AAAUHD
+- name: threesome
   negate: false
-  pattern: AAAUHD
+  pattern: threesome
   required: false
   type: release_group
-- name: GUHZER
+- name: Blzt
   negate: false
-  pattern: GUHZER
+  pattern: Blzt
   required: false
   type: release_group
-- name: Tigole
+- name: LittleBakas
   negate: false
-  pattern: Tigole
+  pattern: LittleBakas
   required: false
   type: release_group
-- name: WOU
+- name: EX-R
   negate: false
-  pattern: WOU
+  pattern: EX-R
+  required: false
+  type: release_group
+- name: CHAOS
+  negate: false
+  pattern: CHAOS
+  required: false
+  type: release_group
+- name: ChopperHitler
+  negate: false
+  pattern: ChopperHitler
+  required: false
+  type: release_group
+- name: UHDCLUBREMUX
+  negate: false
+  pattern: UHDCLUBREMUX
+  required: false
+  type: release_group
+- name: Hares
+  negate: false
+  pattern: Hares
+  required: false
+  type: release_group
+- name: BLUEBIRD
+  negate: false
+  pattern: BLUEBIRD
   required: false
   type: release_group
 - name: invandraren
   negate: false
   pattern: invandraren
+  required: false
+  type: release_group
+- name: d3g-d3g
+  negate: false
+  pattern: d3g-d3g
   required: false
   type: release_group
 - name: RandH
@@ -68,44 +98,19 @@ conditions:
   pattern: R
   required: false
   type: release_group
-- name: THREESOME
+- name: SP4K
   negate: false
-  pattern: THREESOME
+  pattern: SP4K
   required: false
   type: release_group
-- name: PRiSTiNE
+- name: Lucifer
   negate: false
-  pattern: PRiSTiNE
+  pattern: Lucifer
   required: false
   type: release_group
-- name: LAMA
+- name: SumVision
   negate: false
-  pattern: LAMA
-  required: false
-  type: release_group
-- name: beAst
-  negate: false
-  pattern: beAst
-  required: false
-  type: release_group
-- name: EX-R
-  negate: false
-  pattern: EX-R
-  required: false
-  type: release_group
-- name: PHOCiS
-  negate: false
-  pattern: PHOCiS
-  required: false
-  type: release_group
-- name: UNK
-  negate: false
-  pattern: UNK
-  required: false
-  type: release_group
-- name: MALUS
-  negate: false
-  pattern: MALUS
+  pattern: SumVision
   required: false
   type: release_group
 tests: []
