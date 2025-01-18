@@ -1,21 +1,22 @@
 name: 2160p Quality
-description: 'Notes:
-
-  - groups in higher quality tiers are given more leeway in terms of naming. They
-  will still be prioritised even if they fail to mislabel HDR / audio.
-
-  - groups in lower tiers are pen'
+description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.pages.dev/)\
+  \ metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\
+  \n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality\
+  \ WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below\
+  \ for further fallback. \n\n- Special considerations for both **HDR** and **Lossless\
+  \ Audio** formats help to push lower tiered encodes over higher tier ones in cases\
+  \ where better sources are used.\n\n- If no 2160p release can be found, the profile\
+  \ will fall back to the 1080p Quality Profile. "
 tags:
 - 2160p
 - HDR
-- Dolby Vision
 - x265
 - Encode
-- Quality
+- Lossless Audio
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 800
-minScoreIncrement: 10
+upgradeUntilScore: 600
+minScoreIncrement: 5
 custom_formats:
 - name: 2160p Quality Tier 1
   score: 320
@@ -228,12 +229,10 @@ qualities:
     name: Telecine
   - id: 23
     name: DVDSCR
-- id: 1
-  name: Raw-HD
 upgrade_until:
-  id: 1
-  name: Raw-HD
-  description: Uncompressed, high definition recorded video from airing
+  id: -2
+  name: 2160p Transparent
+  description: Indistinguishable from source
 language: must_original
 tweaks:
   preferFreeleech: false
