@@ -4,6 +4,11 @@ tags:
 - Colour Grade
 - HDR
 conditions:
+- name: Blu-ray
+  type: source
+  required: true
+  negate: false
+  source: bluray
 - name: Not HDR10
   negate: true
   pattern: HDR10
@@ -19,11 +24,6 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: Missing Groups
-  negate: false
-  pattern: HDR10 (Missing Groups)
-  required: true
-  type: release_title
 - name: Not SDR
   negate: true
   pattern: SDR

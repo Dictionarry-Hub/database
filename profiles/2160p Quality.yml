@@ -17,16 +17,20 @@ minCustomFormatScore: 0
 upgradeUntilScore: 800
 minScoreIncrement: 10
 custom_formats:
+- name: 2160p Quality Tier 1
+  score: 320
+- name: 2160p Quality Tier 2
+  score: 310
 - name: 2160p
   score: 300
-- name: 2160p Quality Tier 1
-  score: 300
-- name: 2160p Quality Tier 2
-  score: 290
 - name: 2160p Quality Tier 3
-  score: 280
+  score: 300
 - name: 2160p Quality Tier 4
-  score: 200
+  score: 290
+- name: 2160p Balanced Tier 1
+  score: 250
+- name: 2160p Balanced Tier 2
+  score: 240
 - name: 2160p Quality Tier 5
   score: 190
 - name: 2160p Quality Tier 6
@@ -81,6 +85,8 @@ custom_formats:
   score: 30
 - name: SD Quality Tier 1
   score: 30
+- name: 1080p Balanced Tier 1
+  score: 20
 - name: 1080p Quality Tier 5
   score: 20
 - name: HBO Max [1080p]
@@ -94,6 +100,8 @@ custom_formats:
 - name: SD Quality Tier 2
   score: 20
 - name: DTS-X
+  score: 15
+- name: 1080p Balanced Tier 2
   score: 10
 - name: HDR10
   score: 10
@@ -109,6 +117,10 @@ custom_formats:
   score: 10
 - name: Roku [1080p]
   score: 10
+- name: TrueHD
+  score: 10
+- name: TrueHD (Missing)
+  score: 10
 - name: x264
   score: 10
 - name: Atmos
@@ -119,9 +131,7 @@ custom_formats:
   score: 5
 - name: FLAC
   score: 5
-- name: TrueHD
-  score: 5
-- name: TrueHD (Missing)
+- name: Unknown Lossless Audio
   score: 5
 - name: SDR
   score: -80
