@@ -1,0 +1,6 @@
+name: AAAUHD
+pattern: (?<=^|[\s.-])AAAUHD\b
+description: ''
+tags:
+- Release Group
+tests: null

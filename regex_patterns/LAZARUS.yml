@@ -1,0 +1,6 @@
+name: LAZARUS
+pattern: (?<=^|[\s.-])LAZARUS\b
+description: ''
+tags:
+- Release Group
+tests: null

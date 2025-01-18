@@ -1,0 +1,6 @@
+name: edge2020
+pattern: (?<=^|[\s.-])edge2020\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: HONE
+pattern: (?<=^|[\s.-])HONE\b
+description: ''
+tags:
+- Release Group
+tests: null

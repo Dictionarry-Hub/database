@@ -1,0 +1,6 @@
+name: SURCODE
+pattern: (?<=^|[\s.-])SURCODE\b
+description: ''
+tags:
+- Release Group
+tests: null

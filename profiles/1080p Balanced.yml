@@ -1,10 +1,15 @@
 name: 1080p Balanced
-description: "This profile aims to balance quality, size and compatibility by prioritising\
-  \ WEB-DLs and falling back to transparent encodes, with special consideration for\
-  \ 'streaming optimised' release groups. WEB-DLs are preferred because they often\
-  \ give 'enough' quality at sizes smaller than transparent encodes, are plentiful,\
-  \ and are much easier to rank. \n\nIn the case that a 1080p WEB-DL or encode is\
-  \ not available, the profile falls back to DVD remuxes & encodes."
+description: '1080p Balanced targets consistent & immutable 1080p **WEB-DLs** with
+  fallback to transparent x264 encodes, prioritised using the **Golden Popcorn Performance
+  Index**.
+
+
+  - Special considerations are given to **Balanced** groups who prioritize **streaming
+  optimisation** over quality, falling somewhere around a tier 2 WEB-DL. This includes
+  groups like **BHDStudio** and **hallowed**.
+
+  - If no 1080p release can be found, the profile will fall back to SD releases -
+  DVD remuxes  / encodes. '
 tags:
 - 1080p
 - x264
@@ -136,10 +141,8 @@ qualities:
     name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
-- id: 12
-  name: HDTV-1080p
 - id: -2
-  name: Fallbacks
+  name: SD
   description: SD Fallbacks
   qualities:
   - id: 19

@@ -1,0 +1,6 @@
+name: KNiVES
+pattern: (?<=^|[\s.-])KNiVES\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,16 @@
+name: <resolution> <type> Tier <level>
+description: Matches release groups who fall under <resolution> <type> Tier <level>
+tags:
+  - Release Group
+conditions:
+  - name: Not WEB-DL
+    negate: true
+    required: true
+    source: web_dl
+    type: source
+  - name: <resolution>
+    negate: false
+    required: true
+    resolution: <resolution>
+    type: resolution
+tests:

@@ -1,0 +1,6 @@
+name: HUNTJR
+pattern: (?<=^|[\s.-])HUNTJR\b
+description: ''
+tags:
+- Release Group
+tests: null

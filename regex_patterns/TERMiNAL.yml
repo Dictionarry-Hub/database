@@ -1,0 +1,6 @@
+name: TERMiNAL
+pattern: (?<=^|[\s.-])TERMiNAL\b
+description: ''
+tags:
+- Release Group
+tests: null

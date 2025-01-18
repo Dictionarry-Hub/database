@@ -1,0 +1,6 @@
+name: ULTRAHDCLUB
+pattern: (?<=^|[\s.-])ULTRAHDCLUB\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: b0mbardiers
+pattern: (?<=^|[\s.-])b0mbardiers\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: AViATOR
+pattern: (?<=^|[\s.-])AViATOR\b
+description: ''
+tags:
+- Release Group
+tests: null

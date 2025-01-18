@@ -1,0 +1,6 @@
+name: 10bit-HDS
+pattern: (?<=^|[\s.-])10bit-HDS\b
+description: ''
+tags:
+- Release Group
+tests: null

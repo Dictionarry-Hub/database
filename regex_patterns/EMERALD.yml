@@ -1,0 +1,6 @@
+name: EMERALD
+pattern: (?<=^|[\s.-])EMERALD\b
+description: ''
+tags:
+- Release Group
+tests: null

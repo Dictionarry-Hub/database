@@ -1,0 +1,6 @@
+name: Lucifer
+pattern: (?<=^|[\s.-])Lucifer\b
+description: ''
+tags:
+- Release Group
+tests: null

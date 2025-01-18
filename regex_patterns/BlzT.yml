@@ -1,0 +1,6 @@
+name: BlzT
+pattern: (?<=^|[\s.-])BlzT\b
+description: ''
+tags:
+- Release Group
+tests: null

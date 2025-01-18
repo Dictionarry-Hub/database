@@ -1,0 +1,32 @@
+name: SDR
+description: Attempts to match Standard Dynamic Range by negating any known HDR formats
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: WEB-DL
+  type: source
+  required: true
+  negate: false
+  source: web_dl
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: Not HDR10+
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR10+
+- name: Not Dolby Vision
+  type: release_title
+  required: true
+  negate: true
+  pattern: Dolby Vision
+- name: Not HDR10
+  negate: true
+  pattern: HDR10
+  required: true
+  type: release_title
+tests: []

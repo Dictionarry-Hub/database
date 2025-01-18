@@ -1,0 +1,6 @@
+name: MiMiC
+pattern: (?<=^|[\s.-])MiMiC\b
+description: ''
+tags:
+- Release Group
+tests: null

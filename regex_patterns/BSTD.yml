@@ -1,0 +1,6 @@
+name: BSTD
+pattern: (?<=^|[\s.-])BSTD\b
+description: ''
+tags:
+- Release Group
+tests: null

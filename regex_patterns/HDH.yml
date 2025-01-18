@@ -1,0 +1,6 @@
+name: HDH
+pattern: (?<=^|[\s.-])HDH\b
+description: ''
+tags:
+- Release Group
+tests: null

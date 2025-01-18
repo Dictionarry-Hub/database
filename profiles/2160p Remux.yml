@@ -1,12 +1,16 @@
 name: 2160p Remux
-description: "This profile prioritizes quality above all else. It will attempt to\
-  \ grab 2160p Remuxes, which are direct copies of 4K Blu-rays. These files include\
-  \ very high bitrate video, lossless, often spatial, audio as well as the various\
-  \ HDR formats - HDR10(+) and Dolby Vision. Instead of relying on a release group\
-  \ metric to find the best remuxes, it uses the various video + audio formats introduced\
-  \ prior, to find the best release. For example, Dolby Vision is preferred over HDR10\
-  \ & TrueHD + Atmos is preferred over DTS-HD MA. \n\nThis profile does not fit into\
-  \ the typical \"Quality -> Balanced -> Efficient\" triarchy since it's lossless. "
+description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
+  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
+  \ releases based on a release group metric, 2160p avoids this to stop *circular\
+  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
+  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
+  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
+  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
+  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
+  \ which are fairly common on quite a few trackers who often have the best remux\
+  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
+  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to **1080p\
+  \ Remux**. "
 tags:
 - 2160p
 - Lossless

@@ -1,0 +1,6 @@
+name: SPHD
+pattern: (?<=^|[\s.-])SPHD\b
+description: ''
+tags:
+- Release Group
+tests: null

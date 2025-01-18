@@ -1,0 +1,6 @@
+name: BiTOR
+pattern: (?<=^|[\s.-])BiTOR\b
+description: ''
+tags:
+- Release Group
+tests: null

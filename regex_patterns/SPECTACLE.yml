@@ -1,0 +1,6 @@
+name: SPECTACLE
+pattern: (?<=^|[\s.-])SPECTACLE\b
+description: ''
+tags:
+- Release Group
+tests: null

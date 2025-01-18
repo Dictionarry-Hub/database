@@ -1,0 +1,6 @@
+name: DEFLATE
+pattern: (?<=^|[\s.-])DEFLATE\b
+description: ''
+tags:
+- Release Group
+tests: null

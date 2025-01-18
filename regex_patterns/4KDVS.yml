@@ -1,0 +1,6 @@
+name: 4KDVS
+pattern: (?<=^|[\s.-])4KDVS\b
+description: ''
+tags:
+- Release Group
+tests: null

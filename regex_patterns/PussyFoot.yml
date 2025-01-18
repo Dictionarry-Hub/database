@@ -1,0 +1,6 @@
+name: PussyFoot
+pattern: (?<=^|[\s.-])PussyFoot\b
+description: ''
+tags:
+- Release Group
+tests: null

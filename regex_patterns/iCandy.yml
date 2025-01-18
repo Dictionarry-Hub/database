@@ -1,0 +1,6 @@
+name: iCandy
+pattern: (?<=^|[\s.-])iCandy\b
+description: ''
+tags:
+- Release Group
+tests: null
