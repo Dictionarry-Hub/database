@@ -1,14 +1,9 @@
 name: 1080p Quality
-description: 'This profile prioritises ''Transparent'' encodes through a special metric
-  known as the Golden Popcorn Performance Index. This is a data-driven metric that
-  identifies and ranks release groups based on their propensity to release a ''Golden
-  Pocorn'' - a very high quality encode. Special considerations for audio, sources,
-  extras and flags are also used to help rank releases.
-
-
-
-  In the case that a 1080p encode or WEB-DL is not available, the profile falls back
-  to DVD remuxes & encodes.'
+description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.pages.dev/)\
+  \ to target **transparent** x264 1080p encodes. \n- 5 Quality tiers prioritise encodes\
+  \ with high 1080p GPPi scores, with fallback to 1080p WEB-DLs and streaming optimised\
+  \ encodes (**BHDStudio & hallowed**).\n- If no 1080p release can be found, the profile\
+  \ will fall back to SD releases - **DVD remuxes  / encodes**"
 tags:
 - 1080p
 - Transparent
@@ -139,10 +134,8 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: 12
-  name: HDTV-1080p
 - id: -2
-  name: Fallbacks
+  name: SD
   description: SD Fallbacks
   qualities:
   - id: 19
