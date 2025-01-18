@@ -1,5 +1,25 @@
 [
   {
+    "name": "R",
+    "pattern": "(?<=^|[\\s.-])R\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "R"
+  },
+  {
+    "name": "SP4K",
+    "pattern": "(?<=^|[\\s.-])SP4K\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SP4K"
+  },
+  {
     "name": "ZQ",
     "pattern": "(?<=^|[\\s.-])ZQ\\b",
     "description": "",
@@ -8,6 +28,16 @@
     ],
     "tests": [],
     "_id": "ZQ"
+  },
+  {
+    "name": "ULTRAHDCLUB",
+    "pattern": "(?<=^|[\\s.-])ULTRAHDCLUB\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ULTRAHDCLUB"
   },
   {
     "name": "ThD",
@@ -79,6 +109,16 @@
     "_id": "iPT Internals"
   },
   {
+    "name": "WhiteRhino",
+    "pattern": "(?<=^|[\\s.-])WhiteRhino\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "WhiteRhino"
+  },
+  {
     "name": "hdalx",
     "pattern": "(?<=^|[\\s.-])hdalx\\b",
     "description": "",
@@ -97,6 +137,16 @@
     ],
     "tests": [],
     "_id": "LEGi0N"
+  },
+  {
+    "name": "HypStu",
+    "pattern": "(?<=^|[\\s.-])HypStu\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HypStu"
   },
   {
     "name": "MTeam",
@@ -119,6 +169,26 @@
     "_id": "Geek"
   },
   {
+    "name": "BeiTai",
+    "pattern": "(?<=^|[\\s.-])BeiTai\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BeiTai"
+  },
+  {
+    "name": "SURCODE",
+    "pattern": "(?<=^|[\\s.-])SURCODE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SURCODE"
+  },
+  {
     "name": "D-Z0N3",
     "pattern": "(?<=^|[\\s.-])D-Z0N3\\b",
     "description": "",
@@ -137,6 +207,16 @@
     ],
     "tests": [],
     "_id": "FoRM"
+  },
+  {
+    "name": "WiKi",
+    "pattern": "(?<=^|[\\s.-])WiKi\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "WiKi"
   },
   {
     "name": "PTer",
@@ -159,6 +239,16 @@
     "_id": "SiMPLE"
   },
   {
+    "name": "Tron",
+    "pattern": "(?<=^|[\\s.-])Tron\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Tron"
+  },
+  {
     "name": "c0ke",
     "pattern": "(?<=^|[\\s.-])c0ke\\b",
     "description": "",
@@ -169,6 +259,16 @@
     "_id": "c0ke"
   },
   {
+    "name": "ADE",
+    "pattern": "(?<=^|[\\s.-])ADE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ADE"
+  },
+  {
     "name": "HiDt",
     "pattern": "(?<=^|[\\s.-])HiDt\\b",
     "description": "",
@@ -177,6 +277,16 @@
     ],
     "tests": [],
     "_id": "HiDt"
+  },
+  {
+    "name": "EMERALD",
+    "pattern": "(?<=^|[\\s.-])EMERALD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "EMERALD"
   },
   {
     "name": "B&W",
@@ -244,12 +354,42 @@
     "_id": "B&W"
   },
   {
+    "name": "LAMA",
+    "pattern": "(?<=^|[\\s.-])LAMA\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LAMA"
+  },
+  {
     "name": "DTS",
     "pattern": "\\bDTS(\\b|\\d)",
     "description": "",
     "tags": [],
     "tests": [],
     "_id": "DTS"
+  },
+  {
+    "name": "HUNTJR",
+    "pattern": "(?<=^|[\\s.-])HUNTJR\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HUNTJR"
+  },
+  {
+    "name": "WATCHABLE",
+    "pattern": "(?<=^|[\\s.-])WATCHABLE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "WATCHABLE"
   },
   {
     "name": "Max",
@@ -327,6 +467,26 @@
     "_id": "Max"
   },
   {
+    "name": "BlzT",
+    "pattern": "(?<=^|[\\s.-])BlzT\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BlzT"
+  },
+  {
+    "name": "CMCT",
+    "pattern": "(?<=^|[\\s.-])CMCT\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CMCT"
+  },
+  {
     "name": "EbP",
     "pattern": "(?<=^|[\\s.-])EbP\\b",
     "description": "",
@@ -335,6 +495,26 @@
     ],
     "tests": [],
     "_id": "EbP"
+  },
+  {
+    "name": "BiTOR",
+    "pattern": "(?<=^|[\\s.-])BiTOR\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BiTOR"
+  },
+  {
+    "name": "NorTekst",
+    "pattern": "(?<=^|[\\s.-])NorTekst\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "NorTekst"
   },
   {
     "name": "x264",
@@ -443,6 +623,36 @@
       }
     ],
     "_id": "x264"
+  },
+  {
+    "name": "DESPACiTO",
+    "pattern": "(?<=^|[\\s.-])DESPACiTO\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "DESPACiTO"
+  },
+  {
+    "name": "b0mbardiers",
+    "pattern": "(?<=^|[\\s.-])b0mbardiers\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "b0mbardiers"
+  },
+  {
+    "name": "AAAUHD",
+    "pattern": "(?<=^|[\\s.-])AAAUHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "AAAUHD"
   },
   {
     "name": "SOP",
@@ -566,6 +776,26 @@
     "_id": "HBO Max"
   },
   {
+    "name": "Blzt",
+    "pattern": "(?<=^|[\\s.-])Blzt\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Blzt"
+  },
+  {
+    "name": "HDH",
+    "pattern": "(?<=^|[\\s.-])HDH\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDH"
+  },
+  {
     "name": "Penumbra",
     "pattern": "(?<=^|[\\s.-])Penumbra\\b",
     "description": "",
@@ -598,6 +828,16 @@
       }
     ],
     "_id": "SM737"
+  },
+  {
+    "name": "BOREDOR",
+    "pattern": "(?<=^|[\\s.-])BOREDOR\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BOREDOR"
   },
   {
     "name": "Paramount+",
@@ -785,6 +1025,26 @@
     "_id": "Amazon Prime"
   },
   {
+    "name": "TnP",
+    "pattern": "(?<=^|[\\s.-])TnP\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "TnP"
+  },
+  {
+    "name": "SPECTACLE",
+    "pattern": "(?<=^|[\\s.-])SPECTACLE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SPECTACLE"
+  },
+  {
     "name": "E.N.D",
     "pattern": "(?<=^|[\\s.-])E.N.D\\b",
     "description": "",
@@ -793,6 +1053,16 @@
     ],
     "tests": [],
     "_id": "E.N.D"
+  },
+  {
+    "name": "threesome",
+    "pattern": "(?<=^|[\\s.-])threesome\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "threesome"
   },
   {
     "name": "DTS-HD MA",
@@ -823,6 +1093,16 @@
     "_id": "BHDStudio"
   },
   {
+    "name": "EX-R",
+    "pattern": "(?<=^|[\\s.-])EX-R\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "EX-R"
+  },
+  {
     "name": "PCM",
     "pattern": "\\b(l?)PCM(\\b|\\d)",
     "description": "",
@@ -832,10 +1112,41 @@
   },
   {
     "name": "DTS-X",
-    "pattern": "\\b(dts[-_. ]?x)\\b(?!\\d)",
+    "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
     "description": "",
     "tags": [],
-    "tests": [],
+    "tests": [
+      {
+        "expected": true,
+        "id": 1,
+        "input": "2 Fast 2 Furious (2003) 2160p MA WEB-DL H265 HDR DTS:X 7.1 English-FLUX",
+        "lastRun": "2025-01-16T15:29:55.783259",
+        "matchSpan": {
+          "end": 54,
+          "start": 49
+        },
+        "matchedContent": "DTS:X",
+        "matchedGroups": [
+          "DTS:X"
+        ],
+        "passes": true
+      },
+      {
+        "expected": true,
+        "id": 2,
+        "input": "2.Fast.2.Furious.2003.2160p.MA.WEB-DL.DTS-X.7.1.H.265-FLUX.mkv",
+        "lastRun": "2025-01-16T15:29:55.783259",
+        "matchSpan": {
+          "end": 43,
+          "start": 38
+        },
+        "matchedContent": "DTS-X",
+        "matchedGroups": [
+          "DTS-X"
+        ],
+        "passes": true
+      }
+    ],
     "_id": "DTS-X"
   },
   {
@@ -1085,6 +1396,36 @@
     "_id": "Full Disc"
   },
   {
+    "name": "JustWatch",
+    "pattern": "(?<=^|[\\s.-])JustWatch\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "JustWatch"
+  },
+  {
+    "name": "beAst",
+    "pattern": "(?<=^|[\\s.-])beAst\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "beAst"
+  },
+  {
+    "name": "whiterhino",
+    "pattern": "(?<=^|[\\s.-])whiterhino\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "whiterhino"
+  },
+  {
     "name": "iFT",
     "pattern": "(?<=^|[\\s.-])iFT\\b",
     "description": "",
@@ -1093,6 +1434,56 @@
     ],
     "tests": [],
     "_id": "iFT"
+  },
+  {
+    "name": "FLAME",
+    "pattern": "(?<=^|[\\s.-])FLAME\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "FLAME"
+  },
+  {
+    "name": "SMAHAWUG",
+    "pattern": "(?<=^|[\\s.-])SMAHAWUG\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SMAHAWUG"
+  },
+  {
+    "name": "FRDS",
+    "pattern": "(?<=^|[\\s.-])FRDS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "FRDS"
+  },
+  {
+    "name": "dkore",
+    "pattern": "(?<=^|[\\s.-])dkore\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "dkore"
+  },
+  {
+    "name": "Hares",
+    "pattern": "(?<=^|[\\s.-])Hares\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Hares"
   },
   {
     "name": "BTN Atmos",
@@ -1163,6 +1554,16 @@
     "_id": "BTN Atmos"
   },
   {
+    "name": "micius",
+    "pattern": "(?<=^|[\\s.-])micius\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "micius"
+  },
+  {
     "name": "Dolby Digital +",
     "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
     "description": "",
@@ -1205,8 +1606,18 @@
     "_id": "GALAXY"
   },
   {
+    "name": "Tigole",
+    "pattern": "(?<=^|[\\s.-])Tigole\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Tigole"
+  },
+  {
     "name": "HDR10 (Missing Groups)",
-    "pattern": "\\b(FraMeSToR|HQMUX|SiCFoI|playBD|RYU|ElNeekster|CiNEPHiLES|3L|EDV|Kenobi|TRiToN|HDH|NTb|Flights|TekMUX|HDS|Aisha(@RFX)?)\\b",
+    "pattern": "\\b(FraMeSToR|HQMUX|SiCFoI|playBD|RYU|ElNeekster|CiNEPHiLES|3L|EDV|Kenobi|TRiToN|HDH|NTb|Flights|TekMUX|HDS|Aisha(@RFX)?|STRiKES|c0kE|mimic)\\b",
     "description": "Matches groups who mislabel HDR10",
     "tags": [
       "Release Group",
@@ -1354,6 +1765,36 @@
     "_id": "UHD Blu-ray"
   },
   {
+    "name": "DEPTH",
+    "pattern": "(?<=^|[\\s.-])DEPTH\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "DEPTH"
+  },
+  {
+    "name": "VALiS",
+    "pattern": "(?<=^|[\\s.-])VALiS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "VALiS"
+  },
+  {
+    "name": "SPHD",
+    "pattern": "(?<=^|[\\s.-])SPHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SPHD"
+  },
+  {
     "name": "SaNcTi",
     "pattern": "(?<=^|[\\s.-])SaNcTi\\b",
     "description": "",
@@ -1362,6 +1803,66 @@
     ],
     "tests": [],
     "_id": "SaNcTi"
+  },
+  {
+    "name": "RandH",
+    "pattern": "(?<=^|[\\s.-])RandH\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "RandH"
+  },
+  {
+    "name": "spectacle",
+    "pattern": "(?<=^|[\\s.-])spectacle\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "spectacle"
+  },
+  {
+    "name": "AViATOR",
+    "pattern": "(?<=^|[\\s.-])AViATOR\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "AViATOR"
+  },
+  {
+    "name": "PTH",
+    "pattern": "(?<=^|[\\s.-])PTH\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PTH"
+  },
+  {
+    "name": "IAMABLE",
+    "pattern": "(?<=^|[\\s.-])IAMABLE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "IAMABLE"
+  },
+  {
+    "name": "UHDCLUBREMUX",
+    "pattern": "(?<=^|[\\s.-])UHDCLUBREMUX\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "UHDCLUBREMUX"
   },
   {
     "name": "HDMaNiAcS",
@@ -1429,6 +1930,16 @@
     "_id": "Atmos (BTN)"
   },
   {
+    "name": "WOU",
+    "pattern": "(?<=^|[\\s.-])WOU\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "WOU"
+  },
+  {
     "name": "rightSIZE",
     "pattern": "(?<=^|[\\s.-])rightSIZE\\b",
     "description": "",
@@ -1449,6 +1960,26 @@
     "_id": "Positive"
   },
   {
+    "name": "HD77",
+    "pattern": "(?<=^|[\\s.-])HD77\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HD77"
+  },
+  {
+    "name": "LittleBakas",
+    "pattern": "(?<=^|[\\s.-])LittleBakas\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LittleBakas"
+  },
+  {
     "name": "Dariush",
     "pattern": "(?<=^|[\\s.-])Dariush\\b",
     "description": "",
@@ -1457,6 +1988,36 @@
     ],
     "tests": [],
     "_id": "Dariush"
+  },
+  {
+    "name": "LAZARUS",
+    "pattern": "(?<=^|[\\s.-])LAZARUS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LAZARUS"
+  },
+  {
+    "name": "DiNAMiC",
+    "pattern": "(?<=^|[\\s.-])DiNAMiC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "DiNAMiC"
+  },
+  {
+    "name": "Kitsune",
+    "pattern": "(?<=^|[\\s.-])Kitsune\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Kitsune"
   },
   {
     "name": "x265",
@@ -1540,6 +2101,36 @@
     "_id": "VLAD"
   },
   {
+    "name": "guhzer",
+    "pattern": "(?<=^|[\\s.-])guhzer\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "guhzer"
+  },
+  {
+    "name": "UNK",
+    "pattern": "(?<=^|[\\s.-])UNK\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "UNK"
+  },
+  {
+    "name": "KAN3D2M",
+    "pattern": "(?<=^|[\\s.-])KAN3D2M\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "KAN3D2M"
+  },
+  {
     "name": "CMRG",
     "pattern": "(?<=^|[\\s.-])CM(a)?R(io)?G\\b",
     "description": "Prolific WEB-DL group. ",
@@ -1614,6 +2205,26 @@
     "_id": "VietHD"
   },
   {
+    "name": "MainFrame",
+    "pattern": "(?<=^|[\\s.-])MainFrame\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "MainFrame"
+  },
+  {
+    "name": "LSt",
+    "pattern": "(?<=^|[\\s.-])LSt\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LSt"
+  },
+  {
     "name": "nmd",
     "pattern": "(?<=^|[\\s.-])nmd\\b",
     "description": "",
@@ -1622,6 +2233,16 @@
     ],
     "tests": [],
     "_id": "nmd"
+  },
+  {
+    "name": "HDS",
+    "pattern": "(?<=^|[\\s.-])HDS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDS"
   },
   {
     "name": "LoRD",
@@ -1850,6 +2471,26 @@
     "_id": "DON"
   },
   {
+    "name": "CHAOS",
+    "pattern": "(?<=^|[\\s.-])CHAOS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CHAOS"
+  },
+  {
+    "name": "4K4U",
+    "pattern": "(?<=^|[\\s.-])4K4U\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "4K4U"
+  },
+  {
     "name": "iTunes",
     "pattern": "\\b(it|itunes)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
     "description": "iTunes began offering video content in October 2005 with the release of iTunes 6. At launch, the iTunes Store provided popular TV shows from ABC, Disney Channel, and other networks. Users could purchase and view video content, such as episodes of Desperate Housewives, Lost, That's So Raven, and The Suite Life of Zack & Cody.\n\nIn 2008, Apple introduced \"iTunes Digital Copy,\" a feature on select DVDs and Blu-ray discs that allowed users to obtain a digital copy of the video content in iTunes and associated media players.\n\nOver time, iTunes expanded its video offerings and became a significant platform for purchasing, organizing, and viewing movies and TV shows.",
@@ -1941,6 +2582,16 @@
     "_id": "CtrlHD"
   },
   {
+    "name": "REBORN",
+    "pattern": "(?<=^|[\\s.-])REBORN\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "REBORN"
+  },
+  {
     "name": "Hulu",
     "pattern": "\\b(hulu)\\b",
     "description": "Hulu, an American subscription streaming service owned by Disney, offers recent TV episodes, full seasons of shows, original content, and live TV channels. As of December 2023, Hulu content is being integrated into Disney+, making its library accessible to Disney+ subscribers.",
@@ -1984,6 +2635,26 @@
     "_id": "Hulu"
   },
   {
+    "name": "Lucifer",
+    "pattern": "(?<=^|[\\s.-])Lucifer\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Lucifer"
+  },
+  {
+    "name": "d3g-d3g",
+    "pattern": "(?<=^|[\\s.-])d3g-d3g\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "d3g-d3g"
+  },
+  {
     "name": "HiP",
     "pattern": "(?<=^|[\\s.-])HiP\\b",
     "description": "",
@@ -1992,6 +2663,16 @@
     ],
     "tests": [],
     "_id": "HiP"
+  },
+  {
+    "name": "DEFLATE",
+    "pattern": "(?<=^|[\\s.-])DEFLATE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "DEFLATE"
   },
   {
     "name": "P0W4HD",
@@ -2145,6 +2826,36 @@
     "_id": "Basic HDR Formats"
   },
   {
+    "name": "PHOCiS",
+    "pattern": "(?<=^|[\\s.-])PHOCiS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PHOCiS"
+  },
+  {
+    "name": "SoLaR",
+    "pattern": "(?<=^|[\\s.-])SoLaR\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SoLaR"
+  },
+  {
+    "name": "edge2020",
+    "pattern": "(?<=^|[\\s.-])edge2020\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "edge2020"
+  },
+  {
     "name": "TrueHD (Missing Groups)",
     "pattern": "(?<=^|[\\s.-])TRiToN|EPSiLON|NoGroup|PmP\\b",
     "description": "Matches groups who mislabel TrueHD",
@@ -2176,6 +2887,26 @@
     "_id": "TrueHD"
   },
   {
+    "name": "iCandy",
+    "pattern": "(?<=^|[\\s.-])iCandy\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "iCandy"
+  },
+  {
+    "name": "PussyFoot",
+    "pattern": "(?<=^|[\\s.-])PussyFoot\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PussyFoot"
+  },
+  {
     "name": "TDD",
     "pattern": "(?<=^|[\\s.-])TDD\\b",
     "description": "",
@@ -2184,6 +2915,16 @@
     ],
     "tests": [],
     "_id": "TDD"
+  },
+  {
+    "name": "iNVANDRAREN",
+    "pattern": "(?<=^|[\\s.-])iNVANDRAREN\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "iNVANDRAREN"
   },
   {
     "name": "Remux",
@@ -2233,6 +2974,46 @@
     "_id": "SbR"
   },
   {
+    "name": "SumVision",
+    "pattern": "(?<=^|[\\s.-])SumVision\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SumVision"
+  },
+  {
+    "name": "KNiVES",
+    "pattern": "(?<=^|[\\s.-])KNiVES\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "KNiVES"
+  },
+  {
+    "name": "CHD",
+    "pattern": "(?<=^|[\\s.-])CHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "CHD"
+  },
+  {
+    "name": "k00kie",
+    "pattern": "(?<=^|[\\s.-])k00kie\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "k00kie"
+  },
+  {
     "name": "de[42]",
     "pattern": "(?<=^|[\\s.-])de[42]\\b",
     "description": "",
@@ -2251,6 +3032,36 @@
     ],
     "tests": [],
     "_id": "W4NK3R"
+  },
+  {
+    "name": "HDC",
+    "pattern": "(?<=^|[\\s.-])HDC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDC"
+  },
+  {
+    "name": "SWTYBLZ",
+    "pattern": "(?<=^|[\\s.-])SWTYBLZ\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SWTYBLZ"
+  },
+  {
+    "name": "Verus",
+    "pattern": "(?<=^|[\\s.-])Verus\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Verus"
   },
   {
     "name": "WMING",
@@ -2369,6 +3180,36 @@
     "_id": "Peacock TV"
   },
   {
+    "name": "BLUEBIRD",
+    "pattern": "(?<=^|[\\s.-])BLUEBIRD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BLUEBIRD"
+  },
+  {
+    "name": "10bit-HDS",
+    "pattern": "(?<=^|[\\s.-])10bit-HDS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "10bit-HDS"
+  },
+  {
+    "name": "BeiTa",
+    "pattern": "(?<=^|[\\s.-])BeiTa\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BeiTa"
+  },
+  {
     "name": "CRX",
     "pattern": "(?<=^|[\\s.-])CRX\\b",
     "description": "",
@@ -2377,6 +3218,16 @@
     ],
     "tests": [],
     "_id": "CRX"
+  },
+  {
+    "name": "c0kE",
+    "pattern": "(?<=^|[\\s.-])c0kE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "c0kE"
   },
   {
     "name": "decibeL",
@@ -2395,6 +3246,26 @@
     "tags": [],
     "tests": [],
     "_id": "AAC"
+  },
+  {
+    "name": "aviator",
+    "pattern": "(?<=^|[\\s.-])aviator\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "aviator"
+  },
+  {
+    "name": "HQMUX",
+    "pattern": "(?<=^|[\\s.-])HQMUX\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HQMUX"
   },
   {
     "name": "TayTo",
@@ -2417,6 +3288,26 @@
     "_id": "playHD"
   },
   {
+    "name": "HONE",
+    "pattern": "(?<=^|[\\s.-])HONE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HONE"
+  },
+  {
+    "name": "4KDVS",
+    "pattern": "(?<=^|[\\s.-])4KDVS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "4KDVS"
+  },
+  {
     "name": "SA89",
     "pattern": "(?<=^|[\\s.-])SA89\\b",
     "description": "",
@@ -2425,6 +3316,26 @@
     ],
     "tests": [],
     "_id": "SA89"
+  },
+  {
+    "name": "HDChina",
+    "pattern": "(?<=^|[\\s.-])HDChina\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDChina"
+  },
+  {
+    "name": "MiMiC",
+    "pattern": "(?<=^|[\\s.-])MiMiC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "MiMiC"
   },
   {
     "name": "Upscaled",
@@ -2703,6 +3614,16 @@
     "_id": "FilmHD"
   },
   {
+    "name": "MALUS",
+    "pattern": "(?<=^|[\\s.-])MALUS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "MALUS"
+  },
+  {
     "name": "HANDJOB",
     "pattern": "(?<=^|[\\s.-])HANDJOB\\b",
     "description": "",
@@ -2721,6 +3642,16 @@
     ],
     "tests": [],
     "_id": "Chotab"
+  },
+  {
+    "name": "SESKAPiLE",
+    "pattern": "(?<=^|[\\s.-])SESKAPiLE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SESKAPiLE"
   },
   {
     "name": "EVO",
@@ -2760,6 +3691,46 @@
       }
     ],
     "_id": "EVO"
+  },
+  {
+    "name": "GUHZER",
+    "pattern": "(?<=^|[\\s.-])GUHZER\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "GUHZER"
+  },
+  {
+    "name": "STRiKES",
+    "pattern": "(?<=^|[\\s.-])STRiKES\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "STRiKES"
+  },
+  {
+    "name": "d3g",
+    "pattern": "(?<=^|[\\s.-])d3g\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "d3g"
+  },
+  {
+    "name": "ReaLHD",
+    "pattern": "(?<=^|[\\s.-])ReaLHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ReaLHD"
   },
   {
     "name": "Non Retail HDR Groups",
@@ -2819,6 +3790,16 @@
     ],
     "tests": [],
     "_id": "ESiR"
+  },
+  {
+    "name": "SWAGGERUHD",
+    "pattern": "(?<=^|[\\s.-])SWAGGERUHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "SWAGGERUHD"
   },
   {
     "name": "Non Retail HDR Formats",
@@ -2934,6 +3915,16 @@
     "_id": "Non Retail HDR Formats"
   },
   {
+    "name": "TOMBCRUISE",
+    "pattern": "(?<=^|[\\s.-])TOMBCRUISE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "TOMBCRUISE"
+  },
+  {
     "name": "Apple TV+",
     "pattern": "\\b(atvp|aptv|Apple TV\\+)\\s*\\b",
     "description": "Apple TV+ is an American subscription OTT streaming service owned and operated by Apple Inc. Launched on November 1, 2019, it offers a selection of original production film and television series called Apple Originals.",
@@ -2973,6 +3964,16 @@
       }
     ],
     "_id": "Apple TV+"
+  },
+  {
+    "name": "invandraren",
+    "pattern": "(?<=^|[\\s.-])invandraren\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "invandraren"
   },
   {
     "name": "Netflix",
@@ -3041,6 +4042,16 @@
       }
     ],
     "_id": "Netflix"
+  },
+  {
+    "name": "LYS",
+    "pattern": "(?<=^|[\\s.-])LYS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "LYS"
   },
   {
     "name": "Dual Audio",
@@ -3409,6 +4420,16 @@
     "_id": "DTS-HD HRA ES"
   },
   {
+    "name": "TUSAHD",
+    "pattern": "(?<=^|[\\s.-])TUSAHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "TUSAHD"
+  },
+  {
     "name": "VVC",
     "pattern": "(?<=^|[\\s.-])VVC\\b",
     "description": "VVC, or Versatile Video Coding (H.266), is a video coding format that compresses video files and streams to significantly smaller sizes than H.265 while maintaining high quality.",
@@ -3455,6 +4476,16 @@
       }
     ],
     "_id": "hallowed"
+  },
+  {
+    "name": "ReQuEsT",
+    "pattern": "(?<=^|[\\s.-])ReQuEsT\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ReQuEsT"
   },
   {
     "name": "DTS-HD",
@@ -3511,6 +4542,16 @@
       }
     ],
     "_id": "Movies Anywhere"
+  },
+  {
+    "name": "PRiSTiNE",
+    "pattern": "(?<=^|[\\s.-])PRiSTiNE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "PRiSTiNE"
   },
   {
     "name": "Xvid",
@@ -3606,6 +4647,16 @@
     "_id": "Scene"
   },
   {
+    "name": "THREESOME",
+    "pattern": "(?<=^|[\\s.-])THREESOME\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "THREESOME"
+  },
+  {
     "name": "EA",
     "pattern": "(?<=^|[\\s.-])EA\\b",
     "description": "",
@@ -3687,6 +4738,26 @@
     ],
     "tests": [],
     "_id": "LolHD"
+  },
+  {
+    "name": "ChopperHitler",
+    "pattern": "(?<=^|[\\s.-])ChopperHitler\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ChopperHitler"
+  },
+  {
+    "name": "BSTD",
+    "pattern": "(?<=^|[\\s.-])BSTD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "BSTD"
   },
   {
     "name": "BTN",
@@ -3947,6 +5018,26 @@
     "_id": "HDR10"
   },
   {
+    "name": "HOA",
+    "pattern": "(?<=^|[\\s.-])HOA\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HOA"
+  },
+  {
+    "name": "TERMiNAL",
+    "pattern": "(?<=^|[\\s.-])TERMiNAL\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "TERMiNAL"
+  },
+  {
     "name": "HDR10+",
     "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
     "description": "This regex matches \"HDR10\" when followed by either a plus sign (\"+\"), \"P\", or \"Plus\", but only in strings that don't contain \"HLG\", \"PQ\", or \"SDR\" (when followed by either a word boundary or digit) anywhere in the text. In other words, it finds references to HDR10+ or HDR10Plus variants while excluding strings that mention other HDR-related technologies.",
@@ -4138,6 +5229,26 @@
     "_id": "Dolby Digital"
   },
   {
+    "name": "ENDSTATiON",
+    "pattern": "(?<=^|[\\s.-])ENDSTATiON\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "ENDSTATiON"
+  },
+  {
+    "name": "HDmux",
+    "pattern": "(?<=^|[\\s.-])HDmux\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "HDmux"
+  },
+  {
     "name": "Atmos",
     "pattern": "\\bATMOS(\\b|\\d)",
     "description": "",
@@ -4200,6 +5311,16 @@
     "_id": "Atmos"
   },
   {
+    "name": "FZHD",
+    "pattern": "(?<=^|[\\s.-])FZHD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "FZHD"
+  },
+  {
     "name": "EXCiSION",
     "pattern": "(?<=^|[\\s.-])EXCiSION\\b",
     "description": "",
@@ -4208,6 +5329,16 @@
     ],
     "tests": [],
     "_id": "EXCiSION"
+  },
+  {
+    "name": "Absinth",
+    "pattern": "(?<=^|[\\s.-])Absinth\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": null,
+    "_id": "Absinth"
   },
   {
     "name": "BeyondHD",

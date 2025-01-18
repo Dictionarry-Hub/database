@@ -18,6 +18,321 @@
     "_id": "UHDBits"
   },
   {
+    "name": "x265 (1080p)",
+    "description": "Matches 'x265' regex pattern only when 1080p is also found. ",
+    "tags": [
+      "Codec",
+      "Resolution"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "x265",
+        "negate": false,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "x265 (1080p)"
+  },
+  {
+    "name": "Amazon Prime [1080p]",
+    "description": "Matches 1080p 'Amazon Prime' WEB-DLs, unique to the 2160p Quality profile",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "AMZN Regex",
+        "negate": false,
+        "pattern": "Amazon Prime",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "AMZN Regex",
+            "negate": false,
+            "pattern": "Amazon Prime",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "The Bad Guys (2022) (1080p AMZN Webrip x265 10bit EAC3 5 1 - ArcX)[TAoE]",
+        "lastRun": "2025-01-14T09:45:16.007149",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "AMZN Regex",
+            "negate": false,
+            "pattern": "Amazon Prime",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Top Gun Maverick (2022) IMAX (1080p AMZN WEB-DL x265 SDR DDP Atmos 5.1 English - Goki TAoE)",
+        "lastRun": "2025-01-14T09:45:16.007149",
+        "passes": true
+      }
+    ],
+    "_id": "Amazon Prime (1080p)"
+  },
+  {
+    "name": "Hulu [2160p]",
+    "description": "Matches 2160p 'Hulu' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "Hulu Regex",
+        "negate": false,
+        "pattern": "Hulu",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "Hulu Regex",
+            "negate": false,
+            "pattern": "Hulu",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Beverly Hills Ninja (1996) 1080p HULU WEB-DL x265 HEVC DDP 5.1-PHOCiS",
+        "lastRun": "2024-12-06T05:29:49.598013",
+        "passes": true
+      }
+    ],
+    "_id": "Hulu (2160p)"
+  },
+  {
+    "name": "Hulu [1080p]",
+    "description": "Matches 1080p 'Hulu' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "Hulu Regex",
+        "negate": false,
+        "pattern": "Hulu",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "Hulu Regex",
+            "negate": false,
+            "pattern": "Hulu",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Beverly Hills Ninja (1996) 1080p HULU WEB-DL x265 HEVC DDP 5.1-PHOCiS",
+        "lastRun": "2024-12-06T05:29:49.598013",
+        "passes": true
+      }
+    ],
+    "_id": "Hulu (1080p)"
+  },
+  {
+    "name": "Netflix [1080p]",
+    "description": "Matches 1080p 'Netflix' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "NF Regex",
+        "negate": false,
+        "pattern": "Netflix",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "NF Regex",
+            "negate": false,
+            "pattern": "Netflix",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Arcane (2021) S02 (1080p NF WEB-DL x265 HEVC 10bit DDP 5 1 Vyndros)",
+        "lastRun": "2024-12-06T05:05:09.422536",
+        "passes": true
+      }
+    ],
+    "_id": "Netflix (1080p)"
+  },
+  {
     "name": "B&W",
     "description": "Matches the 'B&W' Regex Pattern",
     "tags": [
@@ -116,6 +431,72 @@
     ],
     "tests": [],
     "_id": "DTS"
+  },
+  {
+    "name": "Apple TV+ [1080p]",
+    "description": "Matches 1080p 'Apple TV+' WEB-DLs, unique to the 2160p Quality profile",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "APTV Regex",
+        "negate": false,
+        "pattern": "Apple TV+",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "APTV Regex",
+            "negate": false,
+            "pattern": "Apple TV+",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Little America 2020 S01 1080p APTV Webrip x265 10bit EAC3 5 1 - Ainz",
+        "lastRun": "2024-12-03T02:27:03.531343",
+        "passes": true
+      }
+    ],
+    "_id": "Apple TV+ (1080p)"
   },
   {
     "name": "Blu-ray Encode",
@@ -226,6 +607,202 @@
     ],
     "tests": [],
     "_id": "x264"
+  },
+  {
+    "name": "Roku [1080p]",
+    "description": "Matches 1080p 'Roku' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "Roku Regex",
+        "negate": false,
+        "pattern": "Roku",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "Roku Regex",
+            "negate": false,
+            "pattern": "Roku",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Almost Heroes (1998) 1080p ROKU WEB-DL x265 HEVC AAC 2.0-PHOCiS",
+        "lastRun": "2024-12-06T05:41:18.535555",
+        "passes": true
+      }
+    ],
+    "_id": "Roku (1080p)"
+  },
+  {
+    "name": "2160p Quality Tier 6",
+    "description": "Matches release groups who fall under 2160p Quality Tier 6",
+    "tags": [
+      "Release Group"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "micius",
+        "negate": false,
+        "pattern": "micius",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "BOREDOR",
+        "negate": false,
+        "pattern": "BOREDOR",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "threesome",
+        "negate": false,
+        "pattern": "threesome",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Blzt",
+        "negate": false,
+        "pattern": "Blzt",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "LittleBakas",
+        "negate": false,
+        "pattern": "LittleBakas",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "PTH",
+        "negate": false,
+        "pattern": "PTH",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "CHAOS",
+        "negate": false,
+        "pattern": "CHAOS",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Hares",
+        "negate": false,
+        "pattern": "Hares",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "BLUEBIRD",
+        "negate": false,
+        "pattern": "BLUEBIRD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "BeiTai",
+        "negate": false,
+        "pattern": "BeiTai",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "FLAME",
+        "negate": false,
+        "pattern": "FLAME",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "UHDCLUBREMUX",
+        "negate": false,
+        "pattern": "UHDCLUBREMUX",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "invandraren",
+        "negate": false,
+        "pattern": "invandraren",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "dkore",
+        "negate": false,
+        "pattern": "dkore",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Lucifer",
+        "negate": false,
+        "pattern": "Lucifer",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Quality Tier 6"
   },
   {
     "name": "HBO Max",
@@ -365,6 +942,97 @@
     "_id": "1080p Quality Tier 4"
   },
   {
+    "name": "Amazon Prime [UHD]",
+    "description": "Matches 4k 'Amazon Prime' WEB-DLs, unique to the 2160p Quality profile",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "2160p"
+      },
+      {
+        "name": "AMZN Regex",
+        "negate": false,
+        "pattern": "Amazon Prime",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "AMZN Regex",
+            "negate": false,
+            "pattern": "Amazon Prime",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "The Bad Guys (2022) (1080p AMZN Webrip x265 10bit EAC3 5 1 - ArcX)[TAoE]",
+        "lastRun": "2025-01-14T09:45:16.007149",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "AMZN Regex",
+            "negate": false,
+            "pattern": "Amazon Prime",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Top Gun Maverick (2022) IMAX (1080p AMZN WEB-DL x265 SDR DDP Atmos 5.1 English - Goki TAoE)",
+        "lastRun": "2025-01-14T09:45:16.007149",
+        "passes": true
+      }
+    ],
+    "_id": "Amazon Prime (UHD)"
+  },
+  {
     "name": "Free50",
     "description": "Matches releases with 50% Freeleech",
     "tags": [
@@ -461,6 +1129,87 @@
       }
     ],
     "_id": "Paramount+"
+  },
+  {
+    "name": "2160p Quality Tier 1",
+    "description": "Matches release groups who fall under 2160p Quality Tier 1",
+    "tags": [
+      "Release Group"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "DON",
+        "negate": false,
+        "pattern": "DON",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "DEPTH",
+        "negate": false,
+        "pattern": "DEPTH",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HQMUX",
+        "negate": false,
+        "pattern": "HQMUX",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "b0mbardiers",
+        "negate": false,
+        "pattern": "b0mbardiers",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "CtrlHD",
+        "negate": false,
+        "pattern": "CtrlHD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "PTer",
+        "negate": false,
+        "pattern": "PTer",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SA89",
+        "negate": false,
+        "pattern": "SA89",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "W4NK3R",
+        "negate": false,
+        "pattern": "W4NK3R",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Quality Tier 1"
   },
   {
     "name": "Extras",
@@ -565,6 +1314,112 @@
       }
     ],
     "_id": "Amazon Prime"
+  },
+  {
+    "name": "Movies Anywhere [1080p]",
+    "description": "Matches 1080p 'Movies Anywhere' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "MA Regex",
+        "negate": false,
+        "pattern": "Movies Anywhere",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Movies Anywhere (1080p)"
+  },
+  {
+    "name": "Netflix [2160p]",
+    "description": "Matches 2160p 'Netflix' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "NF Regex",
+        "negate": false,
+        "pattern": "Netflix",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "NF Regex",
+            "negate": false,
+            "pattern": "Netflix",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Arcane (2021) S02 (1080p NF WEB-DL x265 HEVC 10bit DDP 5 1 Vyndros)",
+        "lastRun": "2024-12-06T05:05:09.422536",
+        "passes": true
+      }
+    ],
+    "_id": "Netflix (2160p)"
   },
   {
     "name": "1080p Golden Popcorn",
@@ -799,6 +1654,53 @@
     "_id": "DTS-X"
   },
   {
+    "name": "SDR",
+    "description": "Attempts to match Standard Dynamic Range by negating any known HDR formats",
+    "tags": [
+      "Colour Grade",
+      "HDR"
+    ],
+    "conditions": [
+      {
+        "name": "WEB-DL",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "web_dl"
+      },
+      {
+        "name": "2160p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "2160p"
+      },
+      {
+        "name": "Not HDR10+",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "HDR10+"
+      },
+      {
+        "name": "Not Dolby Vision",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "Dolby Vision"
+      },
+      {
+        "name": "Not HDR10",
+        "negate": true,
+        "pattern": "HDR10",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "SDR"
+  },
+  {
     "name": "Full Disc",
     "description": "Matches the 'Full Disc' regex pattern and negates any remuxes / encodes. ",
     "tags": [
@@ -933,11 +1835,25 @@
     ],
     "conditions": [
       {
-        "name": "MovieMan",
-        "type": "release_title",
-        "required": false,
+        "name": "MALUS",
         "negate": false,
-        "pattern": "MovieMan"
+        "pattern": "MALUS",
+        "required": false,
+        "type": "release_title"
+      },
+      {
+        "name": "WOU",
+        "negate": false,
+        "pattern": "WOU",
+        "required": false,
+        "type": "release_title"
+      },
+      {
+        "name": "MovieMan",
+        "negate": false,
+        "pattern": "MovieMan",
+        "required": false,
+        "type": "release_title"
       },
       {
         "name": "SM737",
@@ -950,6 +1866,22 @@
     "tests": [
       {
         "conditionResults": [
+          {
+            "matches": false,
+            "name": "MALUS",
+            "negate": false,
+            "pattern": "MALUS",
+            "required": false,
+            "type": "release_title"
+          },
+          {
+            "matches": false,
+            "name": "WOU",
+            "negate": false,
+            "pattern": "WOU",
+            "required": false,
+            "type": "release_title"
+          },
           {
             "matches": true,
             "name": "MovieMan",
@@ -970,11 +1902,27 @@
         "expected": true,
         "id": 1,
         "input": "Blade.Runner.2049.2017.1080p.UHD.BluRay.HDR.x265.DDP.5.1-MovieMan",
-        "lastRun": "2025-01-14T10:06:40.600924",
+        "lastRun": "2025-01-16T12:17:41.743774",
         "passes": true
       },
       {
         "conditionResults": [
+          {
+            "matches": false,
+            "name": "MALUS",
+            "negate": false,
+            "pattern": "MALUS",
+            "required": false,
+            "type": "release_title"
+          },
+          {
+            "matches": false,
+            "name": "WOU",
+            "negate": false,
+            "pattern": "WOU",
+            "required": false,
+            "type": "release_title"
+          },
           {
             "matches": false,
             "name": "MovieMan",
@@ -995,7 +1943,48 @@
         "expected": true,
         "id": 2,
         "input": "Blade Runner 2049 (2017) (1080p UHD BluRay x265 DV HDR DDP Atmos 5.1 English - SM737) [REPACK]",
-        "lastRun": "2025-01-14T10:06:40.600924",
+        "lastRun": "2025-01-16T12:17:41.743774",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": false,
+            "name": "MALUS",
+            "negate": false,
+            "pattern": "MALUS",
+            "required": false,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "WOU",
+            "negate": false,
+            "pattern": "WOU",
+            "required": false,
+            "type": "release_title"
+          },
+          {
+            "matches": false,
+            "name": "MovieMan",
+            "negate": false,
+            "pattern": "MovieMan",
+            "required": false,
+            "type": "release_title"
+          },
+          {
+            "matches": false,
+            "name": "SM737",
+            "negate": false,
+            "pattern": "SM737",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": true,
+        "id": 3,
+        "input": "2 Fast 2 Furious 2003 2160p UHD BluRay H265-WOU",
+        "lastRun": "2025-01-16T12:17:41.743774",
         "passes": true
       }
     ],
@@ -1333,6 +2322,72 @@
     "_id": "Atmos (Missing)"
   },
   {
+    "name": "Disney+ [2160p]",
+    "description": "Matches 1080p 'Disney+' WEB-DLs, unique to the 2160p Quality profile",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "DNSP Regex",
+        "negate": false,
+        "pattern": "Disney+",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "DNSP Regex",
+            "negate": false,
+            "pattern": "Disney+",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265 10bit EAC3 5 1 - Goki)[TAoE]",
+        "lastRun": "2024-12-03T16:31:38.572151",
+        "passes": true
+      }
+    ],
+    "_id": "Disney+ (2160p)"
+  },
+  {
     "name": "1080p Balanced Tier 1",
     "description": "Matches release groups who fall under 1080p Balanced Tier 1",
     "tags": [
@@ -1608,6 +2663,232 @@
     "_id": "1080p Quality Tier 2"
   },
   {
+    "name": "x265 (Missing 2160p)",
+    "description": "Attempts to match 2160p x265 encodes that aren't labelled with any codec. ",
+    "tags": [
+      "x265"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "Bluray",
+        "negate": false,
+        "required": true,
+        "source": "bluray",
+        "type": "source"
+      },
+      {
+        "name": "Not REMUX",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "Remux"
+      },
+      {
+        "name": "Not x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not x264",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "x264"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": false,
+            "name": "Not x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "h265",
+            "negate": false,
+            "pattern": "h265",
+            "required": true,
+            "type": "release_title"
+          }
+        ],
+        "expected": true,
+        "id": 1,
+        "input": "Training Day 2001 BluRay 10Bit 1080p DD5 1 H265-d3g",
+        "lastRun": "2025-01-14T09:03:52.278761",
+        "passes": true
+      }
+    ],
+    "_id": "x265 (Missing 2160p)"
+  },
+  {
+    "name": "Unknown Lossless Audio",
+    "description": "Matches UHD Blu-rays (remux / encode) that don't include a named audio track. Since all UHD Blu-rays include lossless audio, it's safe to assume that some lossless audio track does exist, and just isn't labelled. ",
+    "tags": [
+      "Audio"
+    ],
+    "conditions": [
+      {
+        "name": "Blu-ray",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "bluray"
+      },
+      {
+        "name": "2160p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "2160p"
+      },
+      {
+        "name": "Not DTS-HD MA",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "DTS-HD MA"
+      },
+      {
+        "name": "Not DTS-X",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "DTS-X"
+      },
+      {
+        "name": "Not FLAC",
+        "negate": true,
+        "pattern": "FLAC",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not PCM",
+        "negate": true,
+        "pattern": "PCM",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not AAC",
+        "negate": true,
+        "pattern": "AAC",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not DTS",
+        "negate": true,
+        "pattern": "DTS",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not TrueHD + Atmos",
+        "negate": true,
+        "pattern": "TrueHD + Atmos",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not Dolby Digital",
+        "negate": true,
+        "pattern": "Dolby Digital",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not Dolby Digital +",
+        "negate": true,
+        "pattern": "Dolby Digital +",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Unknown Lossless Audio"
+  },
+  {
+    "name": "HBO Max [2160p]",
+    "description": "Matches 2160p 'HBO Max' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "HMAX Regex",
+        "negate": false,
+        "pattern": "HBO Max",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "HMAX Regex",
+            "negate": false,
+            "pattern": "HBO Max",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Young Justice S04 1080p HMAX WEBRip DD 5 1 x265-edge2020",
+        "lastRun": "2024-12-06T04:51:30.887518",
+        "passes": true
+      }
+    ],
+    "_id": "HBO Max (2160p)"
+  },
+  {
     "name": "SD Quality Tier 1",
     "description": "Matches release groups who fall under SD GPPi Tier 1",
     "tags": [
@@ -1678,6 +2959,204 @@
     ],
     "tests": [],
     "_id": "x265"
+  },
+  {
+    "name": "iTunes [2160p]",
+    "description": "Matches 2160p 'iTunes' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "iTunes Regex",
+        "negate": false,
+        "pattern": "iTunes",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "iTunes Regex",
+            "negate": false,
+            "pattern": "iTunes",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Alien Romulus (2024) (1080p DS4K iT WEBRip x265 HEVC 10bit DDP Atmos 5 1 English - KaLLuKaLia)",
+        "lastRun": "2024-12-06T05:49:21.811162",
+        "passes": true
+      }
+    ],
+    "_id": "iTunes (2160p)"
+  },
+  {
+    "name": "Max [2160p]",
+    "description": "Matches 2160p 'Max' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "MAX Regex",
+        "negate": false,
+        "pattern": "Max",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "MAX Regex",
+            "negate": false,
+            "pattern": "Max",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Dune Prophecy (2024) S01E02 Two Wolves (2160p HDR10 DV Hybrid MAX Webrip x265 10bit EAC3 5 1 Atmos - Goki)[TAoE]",
+        "lastRun": "2024-12-06T02:59:11.931629",
+        "passes": true
+      }
+    ],
+    "_id": "Max (2160p)"
+  },
+  {
+    "name": "Peacock [1080p]",
+    "description": "Matches 1080p 'Peacock' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "PCOK Regex",
+        "negate": false,
+        "pattern": "Peacock TV",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "PCOK Regex",
+            "negate": false,
+            "pattern": "Peacock TV",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Based On A True Story S02 2160p PCOK WEB-DL DDP5 1 DV HDR x265-NTb",
+        "lastRun": "2024-12-06T02:45:41.699916",
+        "passes": true
+      }
+    ],
+    "_id": "Peacock (1080p)"
   },
   {
     "name": "SD Quality Tier 2",
@@ -1852,6 +3331,72 @@
     ],
     "tests": [],
     "_id": "h265"
+  },
+  {
+    "name": "Peacock [2160p]",
+    "description": "Matches 2160p 'Peacock' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "PCOK Regex",
+        "negate": false,
+        "pattern": "Peacock TV",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "PCOK Regex",
+            "negate": false,
+            "pattern": "Peacock TV",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Based On A True Story S02 2160p PCOK WEB-DL DDP5 1 DV HDR x265-NTb",
+        "lastRun": "2024-12-06T02:45:41.699916",
+        "passes": true
+      }
+    ],
+    "_id": "Peacock (2160p)"
   },
   {
     "name": "iTunes",
@@ -3134,6 +4679,72 @@
     "_id": "1080p Quality Tier 3"
   },
   {
+    "name": "Disney+ [1080p]",
+    "description": "Matches 1080p 'Disney+' WEB-DLs, unique to the 2160p Quality profile",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "DNSP Regex",
+        "negate": false,
+        "pattern": "Disney+",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "DNSP Regex",
+            "negate": false,
+            "pattern": "Disney+",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265 10bit EAC3 5 1 - Goki)[TAoE]",
+        "lastRun": "2024-12-03T16:31:38.572151",
+        "passes": true
+      }
+    ],
+    "_id": "Disney+ (1080p)"
+  },
+  {
     "name": "TrueHD",
     "description": "Matches 'TrueHD' Regex Pattern and negates any other audio types that might conflict.",
     "tags": [
@@ -3224,6 +4835,138 @@
     ],
     "tests": [],
     "_id": "480p"
+  },
+  {
+    "name": "HBO Max [1080p]",
+    "description": "Matches 1080p 'HBO Max' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "HMAX Regex",
+        "negate": false,
+        "pattern": "HBO Max",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "HMAX Regex",
+            "negate": false,
+            "pattern": "HBO Max",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Young Justice S04 1080p HMAX WEBRip DD 5 1 x265-edge2020",
+        "lastRun": "2024-12-06T04:51:30.887518",
+        "passes": true
+      }
+    ],
+    "_id": "HBO Max (1080p)"
+  },
+  {
+    "name": "Paramount+ [1080p]",
+    "description": "Matches 1080p 'Paramount+' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "PMTP Regex",
+        "negate": false,
+        "pattern": "Paramount+",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "PMTP Regex",
+            "negate": false,
+            "pattern": "Paramount+",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Evil 2019 S04 1080p PMTP WEB-DL DDP 5 1 x265 - YELLO",
+        "lastRun": "2024-12-06T05:11:34.055223",
+        "passes": true
+      }
+    ],
+    "_id": "Paramount+ (1080p)"
   },
   {
     "name": "Free25",
@@ -3323,6 +5066,80 @@
     "_id": "Non Retail HDR"
   },
   {
+    "name": "2160p Quality Tier 4",
+    "description": "Matches release groups who fall under 2160p Quality Tier 4",
+    "tags": [
+      "Release Group"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "4KDVS",
+        "negate": false,
+        "pattern": "4KDVS",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "TDD",
+        "negate": false,
+        "pattern": "TDD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "NCmt",
+        "negate": false,
+        "pattern": "NCmt",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "IAMABLE",
+        "negate": false,
+        "pattern": "IAMABLE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "BlzT",
+        "negate": false,
+        "pattern": "BlzT",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "WATCHABLE",
+        "negate": false,
+        "pattern": "WATCHABLE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "iFT",
+        "negate": false,
+        "pattern": "iFT",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Quality Tier 4"
+  },
+  {
     "name": "Not Only English",
     "description": "Matches releases that don't include an English language track. Dual audio is NOT allowed.",
     "tags": [],
@@ -3346,6 +5163,112 @@
     ],
     "tests": [],
     "_id": "Not Only English"
+  },
+  {
+    "name": "Movies Anywhere [2160p]",
+    "description": "Matches 1080p 'Movies Anywhere' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "MA Regex",
+        "negate": false,
+        "pattern": "Movies Anywhere",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Movies Anywhere (2160p)"
+  },
+  {
+    "name": "Paramount+ [2160p]",
+    "description": "Matches 2160p 'Paramount+' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "PMTP Regex",
+        "negate": false,
+        "pattern": "Paramount+",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "PMTP Regex",
+            "negate": false,
+            "pattern": "Paramount+",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Evil 2019 S04 1080p PMTP WEB-DL DDP 5 1 x265 - YELLO",
+        "lastRun": "2024-12-06T05:11:34.055223",
+        "passes": true
+      }
+    ],
+    "_id": "Paramount+ (2160p)"
   },
   {
     "name": "SD Bluray Encodes",
@@ -3436,6 +5359,153 @@
     ],
     "tests": [],
     "_id": "Full Disc (Quality Match)"
+  },
+  {
+    "name": "Apple TV+ [2160p]",
+    "description": "Matches 2160p 'Apple TV+' WEB-DLs, unique to the 2160p Quality profile",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "APTV Regex",
+        "negate": false,
+        "pattern": "Apple TV+",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "APTV Regex",
+            "negate": false,
+            "pattern": "Apple TV+",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Little America 2020 S01 1080p APTV Webrip x265 10bit EAC3 5 1 - Ainz",
+        "lastRun": "2024-12-03T02:27:03.531343",
+        "passes": true
+      }
+    ],
+    "_id": "Apple TV+ (2160p)"
+  },
+  {
+    "name": "2160p Quality Tier 3",
+    "description": "Matches release groups who fall under 2160p Quality Tier 3",
+    "tags": [
+      "Release Group"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "JustWatch",
+        "negate": false,
+        "pattern": "JustWatch",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "DEFLATE",
+        "negate": false,
+        "pattern": "DEFLATE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "REBORN",
+        "negate": false,
+        "pattern": "REBORN",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SURCODE",
+        "negate": false,
+        "pattern": "SURCODE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Chotab",
+        "negate": false,
+        "pattern": "Chotab",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SPHD",
+        "negate": false,
+        "pattern": "SPHD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Kitsune",
+        "negate": false,
+        "pattern": "Kitsune",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "TnP",
+        "negate": false,
+        "pattern": "TnP",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Quality Tier 3"
   },
   {
     "name": "h265 (Missing)",
@@ -3775,6 +5845,59 @@
     "_id": "2160p"
   },
   {
+    "name": "2160p Quality Tier 2",
+    "description": "Matches release groups who fall under 2160p Quality Tier 2",
+    "tags": [
+      "Release Group"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "BSTD",
+        "negate": false,
+        "pattern": "BSTD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "c0kE",
+        "negate": false,
+        "pattern": "c0kE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "D-Z0N3",
+        "negate": false,
+        "pattern": "D-Z0N3",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "MainFrame",
+        "negate": false,
+        "pattern": "MainFrame",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Quality Tier 2"
+  },
+  {
     "name": "HDR10 (Missing)",
     "description": "Attempts to match HDR10 to groups that mislabel their releases",
     "tags": [
@@ -3782,6 +5905,13 @@
       "HDR"
     ],
     "conditions": [
+      {
+        "name": "Blu-ray",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "bluray"
+      },
       {
         "name": "Not HDR10",
         "negate": true,
@@ -3802,13 +5932,6 @@
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
-      },
-      {
-        "name": "Missing Groups",
-        "negate": false,
-        "pattern": "HDR10 (Missing Groups)",
-        "required": true,
-        "type": "release_title"
       },
       {
         "name": "Not SDR",
@@ -3944,6 +6067,98 @@
       }
     ],
     "_id": "HDR10 (Missing)"
+  },
+  {
+    "name": "Max [1080p]",
+    "description": "Matches 1080p 'Max' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "MAX Regex",
+        "negate": false,
+        "pattern": "Max",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "MAX Regex",
+            "negate": false,
+            "pattern": "Max",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Dune Prophecy (2024) S01E02 Two Wolves (2160p HDR10 DV Hybrid MAX Webrip x265 10bit EAC3 5 1 Atmos - Goki)[TAoE]",
+        "lastRun": "2024-12-06T02:59:11.931629",
+        "passes": true
+      }
+    ],
+    "_id": "Max (1080p)"
+  },
+  {
+    "name": "x264 (2160p)",
+    "description": "Matches 'x264' regex pattern only when 2160p is also found. ",
+    "tags": [
+      "Codec",
+      "Resolution"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "x264",
+        "negate": false,
+        "pattern": "x264",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "x264 (2160p)"
   },
   {
     "name": "1080p",
@@ -4126,6 +6341,72 @@
     ],
     "tests": [],
     "_id": "Free100"
+  },
+  {
+    "name": "iTunes [1080p]",
+    "description": "Matches 1080p 'iTunes' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "iTunes Regex",
+        "negate": false,
+        "pattern": "iTunes",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "iTunes Regex",
+            "negate": false,
+            "pattern": "iTunes",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 1,
+        "input": "Alien Romulus (2024) (1080p DS4K iT WEBRip x265 HEVC 10bit DDP Atmos 5 1 English - KaLLuKaLia)",
+        "lastRun": "2024-12-06T05:49:21.811162",
+        "passes": true
+      }
+    ],
+    "_id": "iTunes (1080p)"
   },
   {
     "name": "Dolby Vision",
@@ -4438,6 +6719,147 @@
       }
     ],
     "_id": "Blu-ray"
+  },
+  {
+    "name": "2160p Balanced Tier 2",
+    "description": "Matches release groups who fall under 2160p Balanced Tier 2",
+    "tags": [
+      "Release Group",
+      "Tier"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "hallowed",
+        "type": "release_group",
+        "required": false,
+        "negate": false,
+        "pattern": "hallowed"
+      },
+      {
+        "name": "BHDStudio",
+        "negate": false,
+        "pattern": "BHDStudio",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": false,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 1,
+        "input": "Contact.1997.BluRay.1080p.DDP.5.1.x264-hallowed",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": false,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 2,
+        "input": "Gladiator.2000.Extended.Cut.UHD.BluRay.2160p.DDP.7.1.DV.HDR.x265-hallowed",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": false,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": true,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 3,
+        "input": "Yi Yi 2000 BluRay 720p DD 2 0 x264-BHDStudio",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": false,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": true,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 4,
+        "input": "Winnie the Pooh - Blood and Honey (2023) 2160p UHD BluRay x265 DV HDR DD 5.1 English-BHDStudio",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      }
+    ],
+    "_id": "2160p Balanced Tier 2"
   },
   {
     "name": "Xvid",
@@ -4784,6 +7206,72 @@
     "_id": "Dolby Digital"
   },
   {
+    "name": "Roku [2160p]",
+    "description": "Matches 2160p 'Roku' WEB-DLs. Negates any encodes.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "Roku Regex",
+        "negate": false,
+        "pattern": "Roku",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
+        "type": "source"
+      },
+      {
+        "name": "x265",
+        "negate": true,
+        "pattern": "x265",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "Roku Regex",
+            "negate": false,
+            "pattern": "Roku",
+            "required": true,
+            "type": "release_title"
+          },
+          {
+            "matches": true,
+            "name": "x265",
+            "negate": true,
+            "pattern": "x265",
+            "required": false,
+            "type": "release_title"
+          }
+        ],
+        "expected": false,
+        "id": 2,
+        "input": "Almost Heroes (1998) 1080p ROKU WEB-DL x265 HEVC AAC 2.0-PHOCiS",
+        "lastRun": "2024-12-06T05:41:18.535555",
+        "passes": true
+      }
+    ],
+    "_id": "Roku (2160p)"
+  },
+  {
     "name": "Atmos",
     "description": "Matches 'Atmos' Regex Pattern",
     "tags": [
@@ -4887,6 +7375,140 @@
     "_id": "Atmos"
   },
   {
+    "name": "2160p Balanced Tier 1",
+    "description": "Matches release groups who fall under 2160p Balanced Tier 1",
+    "tags": [
+      "Release Group",
+      "Tier"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "HONE",
+        "type": "release_title",
+        "required": false,
+        "negate": false,
+        "pattern": "HONE"
+      }
+    ],
+    "tests": [
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": false,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 1,
+        "input": "Contact.1997.BluRay.1080p.DDP.5.1.x264-hallowed",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": true,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": false,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 2,
+        "input": "Gladiator.2000.Extended.Cut.UHD.BluRay.2160p.DDP.7.1.DV.HDR.x265-hallowed",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": false,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": true,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 3,
+        "input": "Yi Yi 2000 BluRay 720p DD 2 0 x264-BHDStudio",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      },
+      {
+        "conditionResults": [
+          {
+            "matches": false,
+            "name": "hallowed",
+            "negate": false,
+            "pattern": "hallowed",
+            "required": false,
+            "type": "release_group"
+          },
+          {
+            "matches": true,
+            "name": "BHDStudio",
+            "negate": false,
+            "pattern": "BHDStudio",
+            "required": false,
+            "type": "release_group"
+          }
+        ],
+        "expected": true,
+        "id": 4,
+        "input": "Winnie the Pooh - Blood and Honey (2023) 2160p UHD BluRay x265 DV HDR DD 5.1 English-BHDStudio",
+        "lastRun": "2025-01-13T02:53:37.357699",
+        "passes": true
+      }
+    ],
+    "_id": "2160p Balanced Tier 1"
+  },
+  {
     "name": "BeyondHD",
     "description": "",
     "tags": [
@@ -4903,6 +7525,339 @@
     ],
     "tests": [],
     "_id": "BeyondHD"
+  },
+  {
+    "name": "2160p Quality Tier 5",
+    "description": "Matches release groups who fall under 2160p Quality Tier 5",
+    "tags": [
+      "Release Group"
+    ],
+    "conditions": [
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
+      {
+        "name": "SoLaR",
+        "negate": false,
+        "pattern": "SoLaR",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SMAHAWUG",
+        "negate": false,
+        "pattern": "SMAHAWUG",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "MiMiC",
+        "negate": false,
+        "pattern": "MiMiC",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HypStu",
+        "negate": false,
+        "pattern": "HypStu",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "KAN3D2M",
+        "negate": false,
+        "pattern": "KAN3D2M",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "FRDS",
+        "negate": false,
+        "pattern": "FRDS",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "EDPH",
+        "negate": false,
+        "pattern": "EDPH",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "PussyFoot",
+        "negate": false,
+        "pattern": "PussyFoot",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "KNiVES",
+        "negate": false,
+        "pattern": "KNiVES",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "STRiKES",
+        "negate": false,
+        "pattern": "STRiKES",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "TOMBCRUISE",
+        "negate": false,
+        "pattern": "TOMBCRUISE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "CMCT",
+        "negate": false,
+        "pattern": "CMCT",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "TERMiNAL",
+        "negate": false,
+        "pattern": "TERMiNAL",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "whiterhino",
+        "negate": false,
+        "pattern": "whiterhino",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "ReaLHD",
+        "negate": false,
+        "pattern": "ReaLHD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "EMERALD",
+        "negate": false,
+        "pattern": "EMERALD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "ULTRAHDCLUB",
+        "negate": false,
+        "pattern": "ULTRAHDCLUB",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "CHD",
+        "negate": false,
+        "pattern": "CHD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SWTYBLZ",
+        "negate": false,
+        "pattern": "SWTYBLZ",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "LAZARUS",
+        "negate": false,
+        "pattern": "LAZARUS",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "ESiR",
+        "negate": false,
+        "pattern": "ESiR",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "beAst",
+        "negate": false,
+        "pattern": "beAst",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "WiKi",
+        "negate": false,
+        "pattern": "WiKi",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SPECTACLE",
+        "negate": false,
+        "pattern": "SPECTACLE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "spectacle",
+        "negate": false,
+        "pattern": "spectacle",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HD77",
+        "negate": false,
+        "pattern": "HD77",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "k00kie",
+        "negate": false,
+        "pattern": "k00kie",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HDS",
+        "negate": false,
+        "pattern": "HDS",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "ADE",
+        "negate": false,
+        "pattern": "ADE",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "VALiS",
+        "negate": false,
+        "pattern": "VALiS",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "iNVANDRAREN",
+        "negate": false,
+        "pattern": "iNVANDRAREN",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "BiTOR",
+        "negate": false,
+        "pattern": "BiTOR",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HDmux",
+        "negate": false,
+        "pattern": "HDmux",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "ReQuEsT",
+        "negate": false,
+        "pattern": "ReQuEsT",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Absinth",
+        "negate": false,
+        "pattern": "Absinth",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "AViATOR",
+        "negate": false,
+        "pattern": "AViATOR",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "Tron",
+        "negate": false,
+        "pattern": "Tron",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HDChina",
+        "negate": false,
+        "pattern": "HDChina",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "SWAGGERUHD",
+        "negate": false,
+        "pattern": "SWAGGERUHD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "AAAUHD",
+        "negate": false,
+        "pattern": "AAAUHD",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "guhzer",
+        "negate": false,
+        "pattern": "guhzer",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "GUHZER",
+        "negate": false,
+        "pattern": "GUHZER",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "HUNTJR",
+        "negate": false,
+        "pattern": "HUNTJR",
+        "required": false,
+        "type": "release_group"
+      },
+      {
+        "name": "iCandy",
+        "negate": false,
+        "pattern": "iCandy",
+        "required": false,
+        "type": "release_group"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Quality Tier 5"
   },
   {
     "name": "1080p Balanced Tier 2",
