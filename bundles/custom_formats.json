@@ -2924,6 +2924,52 @@
     "_id": "SD Quality Tier 1"
   },
   {
+    "name": "Lossless Audio (1080p)",
+    "description": "Matches any lossless audio track in a 1080p release.",
+    "tags": [
+      "Audio"
+    ],
+    "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "DTS-HD MA",
+        "negate": false,
+        "pattern": "DTS-HD MA",
+        "required": false,
+        "type": "release_title"
+      },
+      {
+        "name": "DTS-X",
+        "negate": false,
+        "pattern": "DTS-X",
+        "required": false,
+        "type": "release_title"
+      },
+      {
+        "name": "PCM",
+        "negate": false,
+        "pattern": "PCM",
+        "required": false,
+        "type": "release_title"
+      },
+      {
+        "name": "TrueHD + Atmos",
+        "negate": false,
+        "pattern": "TrueHD + Atmos",
+        "required": false,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Lossless Audio (1080p)"
+  },
+  {
     "name": "Free75",
     "description": "Matches releases with 75% Freeleech",
     "tags": [
@@ -6322,6 +6368,38 @@
     ],
     "tests": [],
     "_id": "Not Only English (Missing)"
+  },
+  {
+    "name": "2160p Blu-ray Encode",
+    "description": "Matches 2160p Blu-rays that are NOT remuxes",
+    "tags": [
+      "Source"
+    ],
+    "conditions": [
+      {
+        "name": "2160p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "2160p"
+      },
+      {
+        "name": "Remux",
+        "negate": true,
+        "pattern": "Remux",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Blu-ray",
+        "negate": false,
+        "required": true,
+        "source": "bluray",
+        "type": "source"
+      }
+    ],
+    "tests": [],
+    "_id": "2160p Blu-ray Encode"
   },
   {
     "name": "Free100",

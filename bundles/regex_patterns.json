@@ -2483,11 +2483,11 @@
   {
     "name": "4K4U",
     "pattern": "(?<=^|[\\s.-])4K4U\\b",
-    "description": "",
+    "description": "Matches the release group `4K4U` only if it is:\n\n- Preceded by the start of the string (`^`), a whitespace character (`\\s`), a period (`.`), or a hyphen (`-`).\n- Followed by a word boundary (`\\b`), ensuring it ends cleanly without being part of a longer word. ",
     "tags": [
       "Release Group"
     ],
-    "tests": null,
+    "tests": [],
     "_id": "4K4U"
   },
   {
@@ -3192,11 +3192,11 @@
   {
     "name": "10bit-HDS",
     "pattern": "(?<=^|[\\s.-])10bit-HDS\\b",
-    "description": "",
+    "description": "Matches the release group `10bit-HDS` only if it is:\n\n- Preceded by the start of the string (`^`), a whitespace character (`\\s`), a period (`.`), or a hyphen (`-`).\n- Followed by a word boundary (`\\b`), ensuring it ends cleanly without being part of a longer word. ",
     "tags": [
       "Release Group"
     ],
-    "tests": null,
+    "tests": [],
     "_id": "10bit-HDS"
   },
   {
@@ -3552,7 +3552,7 @@
   {
     "name": "3D",
     "pattern": "\\b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\\b",
-    "description": "",
+    "description": "Matches terms related to 3D video formats:\n- `bluray3d` or `bd3d` (optional `bluray` or `bd` followed by `3d`).\n- `sbs` (side-by-side).\n- `half ou` or `half sbs` with space (` `), dot (`.`), or hyphen (`-`) as separators.",
     "tags": [
       "Enhancement",
       "Unwanted"
