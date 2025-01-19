@@ -19,23 +19,23 @@ upgradeUntilScore: 600
 minScoreIncrement: 5
 custom_formats:
 - name: 2160p Quality Tier 1
-  score: 320
+  score: 370
 - name: 2160p Quality Tier 2
-  score: 310
+  score: 360
+- name: 2160p Quality Tier 3
+  score: 350
+- name: 2160p Quality Tier 4
+  score: 340
 - name: 2160p
   score: 300
-- name: 2160p Quality Tier 3
-  score: 300
-- name: 2160p Quality Tier 4
-  score: 290
 - name: 2160p Balanced Tier 1
-  score: 250
+  score: 300
 - name: 2160p Balanced Tier 2
-  score: 240
+  score: 290
 - name: 2160p Quality Tier 5
-  score: 190
+  score: 240
 - name: 2160p Quality Tier 6
-  score: 180
+  score: 230
 - name: Amazon Prime [UHD]
   score: 160
 - name: Disney+ [2160p]
@@ -63,8 +63,6 @@ custom_formats:
 - name: 1080p
   score: 60
 - name: 1080p Quality Tier 1
-  score: 60
-- name: Blu-ray
   score: 60
 - name: 1080p Quality Tier 2
   score: 50
@@ -104,6 +102,8 @@ custom_formats:
   score: 15
 - name: 1080p Balanced Tier 2
   score: 10
+- name: Blu-ray
+  score: 10
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
@@ -121,6 +121,8 @@ custom_formats:
 - name: TrueHD
   score: 10
 - name: TrueHD (Missing)
+  score: 10
+- name: WEBRip
   score: 10
 - name: x264
   score: 10
@@ -164,6 +166,8 @@ custom_formats:
   score: -9999
 - name: HDR10 (Missing) (1080p)
   score: -9999
+- name: Lossless Audio (1080p)
+  score: -9999
 - name: Non Retail HDR
   score: -9999
 - name: Remux
@@ -177,8 +181,6 @@ custom_formats:
 - name: Upscaled
   score: -9999
 - name: VVC
-  score: -9999
-- name: WEBRip
   score: -9999
 - name: x264 (2160p)
   score: -9999
