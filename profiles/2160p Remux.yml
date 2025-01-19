@@ -9,8 +9,8 @@ description: "2160p Remux utilizes **audio / video tags** to prioritise high qua
   \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
   \ which are fairly common on quite a few trackers who often have the best remux\
   \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
-  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to **1080p\
-  \ Remux**. "
+  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
+  \ **1080p Remux** profile. "
 tags:
 - 2160p
 - Lossless
@@ -84,6 +84,8 @@ custom_formats:
   score: 10
 - name: Roku
   score: 10
+- name: Unknown Lossless Audio
+  score: 5
 - name: 3D
   score: -9999
 - name: 720p

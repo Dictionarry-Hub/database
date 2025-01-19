@@ -1,6 +1,12 @@
 name: 3D
 pattern: \b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\b
-description: ''
+description: 'Matches terms related to 3D video formats:
+
+  - `bluray3d` or `bd3d` (optional `bluray` or `bd` followed by `3d`).
+
+  - `sbs` (side-by-side).
+
+  - `half ou` or `half sbs` with space (` `), dot (`.`), or hyphen (`-`) as separators.'
 tags:
 - Enhancement
 - Unwanted

@@ -1,41 +1,28 @@
-name: 2160p Quality
-description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.pages.dev/)\
-  \ metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\
-  \n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality\
-  \ WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below\
-  \ for further fallback. \n\n- Special considerations for both **HDR** and **Lossless\
-  \ Audio** formats help to push lower tiered encodes over higher tier ones in cases\
-  \ where better sources are used.\n\n- If no 2160p release can be found, the profile\
-  \ will fall back to the 1080p Quality Profile. "
+name: 2160p Balanced
+description: "2160p Balanced targets consistent & immutable 2160p **HDR WEB-DLs w/\
+  \ Lossy Audio**. \n- Special considerations are given to **Balanced** groups who\
+  \ prioritize **streaming optimisation** over quality, falling somewhere around a\
+  \ tier 2 WEB-DL. This includes groups like **BHDStudio**, **HONE** and **hallowed**.\n\
+  - If no 2160p WEB-DL can be found, the profile will fall back to the 1080p Quality\
+  \ Profile.\n- Transparent 2160p Encodes (\xE0 la  2160p Quality) are not allowed\
+  \ as fallback since they are comparatively much larger than 2160p WEB-DLs"
 tags:
 - 2160p
 - HDR
-- x265
 - Encode
-- Lossless Audio
+- x264
+- x265
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 600
 minScoreIncrement: 5
 custom_formats:
-- name: 2160p Quality Tier 1
-  score: 370
-- name: 2160p Quality Tier 2
-  score: 360
-- name: 2160p Quality Tier 3
-  score: 350
-- name: 2160p Quality Tier 4
-  score: 340
 - name: 2160p
   score: 300
 - name: 2160p Balanced Tier 1
-  score: 300
+  score: 250
 - name: 2160p Balanced Tier 2
-  score: 290
-- name: 2160p Quality Tier 5
   score: 240
-- name: 2160p Quality Tier 6
-  score: 230
 - name: Amazon Prime [UHD]
   score: 160
 - name: Disney+ [2160p]
@@ -138,10 +125,8 @@ custom_formats:
   score: 5
 - name: SDR
   score: -80
-- name: x265
-  score: -150
-- name: x265 (Missing 2160p)
-  score: -150
+- name: 2160p Blu-ray Encode
+  score: -9999
 - name: 3D
   score: -9999
 - name: 720p
@@ -184,19 +169,17 @@ custom_formats:
   score: -9999
 - name: x264 (2160p)
   score: -9999
+- name: x265
+  score: -9999
 - name: x265 (1080p)
+  score: -9999
+- name: x265 (Missing 2160p)
   score: -9999
 - name: x265 (Missing)
   score: -9999
 qualities:
-- id: -2
-  name: 2160p Transparent
-  description: Indistinguishable from source
-  qualities:
-  - id: 5
-    name: WEBDL-2160p
-  - id: 4
-    name: Bluray-2160p
+- id: 5
+  name: WEBDL-2160p
 - id: -3
   name: 1080p Transparent
   description: Indistinguishable from source
@@ -232,9 +215,9 @@ qualities:
   - id: 23
     name: DVDSCR
 upgrade_until:
-  id: -2
-  name: 2160p Transparent
-  description: Indistinguishable from source
+  id: 5
+  name: WEBDL-2160p
+  description: 4K web download, untouched as released by the streaming service
 language: must_original
 tweaks:
   preferFreeleech: false
