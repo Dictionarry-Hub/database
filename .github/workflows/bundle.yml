@@ -1,8 +1,6 @@
 name: Bundle Data
 on:
   push:
-    paths:
-      - "**.yml"
     branches:
       - stable
 
