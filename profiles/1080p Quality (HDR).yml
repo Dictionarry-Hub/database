@@ -9,11 +9,11 @@ description: "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Ind
   \ will fall back to SD releases - **DVD remuxes  / encodes**"
 tags:
 - 1080p
-- Transparent
-- GPPi
 - x264
 - x265
 - HDR
+- Lossy Audio
+- Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 320

@@ -1,7 +1,7 @@
 name: 2160p Remux
 description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
   \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
-  \ releases based on a release group metric, 2160p avoids this to stop *circular\
+  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
   \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
   \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
   \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
@@ -13,10 +13,10 @@ description: "2160p Remux utilizes **audio / video tags** to prioritise high qua
   \ **1080p Remux** profile. "
 tags:
 - 2160p
-- Lossless
 - Remux
 - HDR
-- Dolby Vision
+- Lossless Audio
+- h265
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 350
@@ -111,6 +111,8 @@ custom_formats:
 - name: Non Retail HDR
   score: -9999
 - name: UHDBits
+  score: -9999
+- name: Unwanted Remux Groups
   score: -9999
 - name: Upscaled
   score: -9999

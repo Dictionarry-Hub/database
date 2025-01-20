@@ -13,8 +13,8 @@ description: '1080p Balanced targets consistent & immutable 1080p **WEB-DLs** wi
 tags:
 - 1080p
 - x264
-- Balanced
-- WEB
+- Lossy Audio
+- Balanced Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 320
