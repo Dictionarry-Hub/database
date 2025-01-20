@@ -142,7 +142,7 @@ def main():
                         required=True,
                         help='Resolution for custom formats')
     parser.add_argument('--type',
-                        choices=['Quality', 'Balanced'],
+                        choices=['Quality', 'Balanced', 'Efficient'],
                         required=True,
                         help='Type of custom format')
     parser.add_argument(
