@@ -1,0 +1,6 @@
+name: StrayedDowns
+pattern: (?<=^|[\s.-])StrayedDowns\b
+description: ''
+tags:
+- Release Group
+tests: null

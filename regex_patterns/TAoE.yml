@@ -1,0 +1,6 @@
+name: TAoE
+pattern: (?<=^|[\s.-])TAoE\b
+description: ''
+tags:
+- Release Group
+tests: null

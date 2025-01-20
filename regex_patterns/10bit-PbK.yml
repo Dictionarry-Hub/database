@@ -1,0 +1,6 @@
+name: 10bit-PbK
+pattern: (?<=^|[\s.-])10bit-PbK\b
+description: ''
+tags:
+- Release Group
+tests: null

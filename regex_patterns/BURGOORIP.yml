@@ -1,0 +1,6 @@
+name: BURGOORIP
+pattern: (?<=^|[\s.-])BURGOORIP\b
+description: ''
+tags:
+- Release Group
+tests: null

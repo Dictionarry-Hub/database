@@ -1,0 +1,6 @@
+name: TiTUS
+pattern: (?<=^|[\s.-])TiTUS\b
+description: ''
+tags:
+- Release Group
+tests: null

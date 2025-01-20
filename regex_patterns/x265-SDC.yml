@@ -1,0 +1,6 @@
+name: x265-SDC
+pattern: (?<=^|[\s.-])x265-SDC\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: NOGRP
+pattern: (?<=^|[\s.-])NOGRP\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: HD
+pattern: (?<=^|[\s.-])HD\b
+description: ''
+tags:
+- Release Group
+tests: null

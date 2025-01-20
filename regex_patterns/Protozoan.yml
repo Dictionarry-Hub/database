@@ -1,0 +1,6 @@
+name: Protozoan
+pattern: (?<=^|[\s.-])Protozoan\b
+description: ''
+tags:
+- Release Group
+tests: null

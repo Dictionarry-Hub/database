@@ -1,0 +1,6 @@
+name: French
+pattern: (?<=^|[\s.-])French\b
+description: ''
+tags:
+- Release Group
+tests: null

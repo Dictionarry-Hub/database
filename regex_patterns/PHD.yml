@@ -1,0 +1,6 @@
+name: PHD
+pattern: (?<=^|[\s.-])PHD\b
+description: ''
+tags:
+- Release Group
+tests: null

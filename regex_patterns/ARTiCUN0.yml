@@ -1,0 +1,6 @@
+name: ARTiCUN0
+pattern: (?<=^|[\s.-])ARTiCUN0\b
+description: ''
+tags:
+- Release Group
+tests: null

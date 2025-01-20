@@ -1,0 +1,6 @@
+name: PaTrol
+pattern: (?<=^|[\s.-])PaTrol\b
+description: ''
+tags:
+- Release Group
+tests: null

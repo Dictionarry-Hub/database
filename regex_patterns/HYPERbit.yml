@@ -1,0 +1,6 @@
+name: HYPERbit
+pattern: (?<=^|[\s.-])HYPERbit\b
+description: ''
+tags:
+- Release Group
+tests: null

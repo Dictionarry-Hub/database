@@ -1,0 +1,6 @@
+name: Nb8
+pattern: (?<=^|[\s.-])Nb8\b
+description: ''
+tags:
+- Release Group
+tests: null

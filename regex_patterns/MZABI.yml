@@ -1,0 +1,6 @@
+name: MZABI
+pattern: (?<=^|[\s.-])MZABI\b
+description: ''
+tags:
+- Release Group
+tests: null

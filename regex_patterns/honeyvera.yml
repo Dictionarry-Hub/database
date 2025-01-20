@@ -1,0 +1,6 @@
+name: honeyvera
+pattern: (?<=^|[\s.-])honeyvera\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: DQLDR
+pattern: (?<=^|[\s.-])DQLDR\b
+description: ''
+tags:
+- Release Group
+tests: null

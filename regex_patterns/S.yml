@@ -1,0 +1,6 @@
+name: S
+pattern: (?<=^|[\s.-])S\b
+description: ''
+tags:
+- Release Group
+tests: null

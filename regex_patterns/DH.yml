@@ -1,0 +1,6 @@
+name: DH
+pattern: (?<=^|[\s.-])DH\b
+description: ''
+tags:
+- Release Group
+tests: null

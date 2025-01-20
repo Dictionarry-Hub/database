@@ -1,0 +1,6 @@
+name: iMAGiNE
+pattern: (?<=^|[\s.-])iMAGiNE\b
+description: ''
+tags:
+- Release Group
+tests: null

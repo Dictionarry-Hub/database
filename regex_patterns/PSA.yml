@@ -1,0 +1,6 @@
+name: PSA
+pattern: (?<=^|[\s.-])PSA\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: TWA
+pattern: (?<=^|[\s.-])TWA\b
+description: ''
+tags:
+- Release Group
+tests: null

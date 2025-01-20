@@ -1,0 +1,6 @@
+name: TimeDistortion
+pattern: (?<=^|[\s.-])TimeDistortion\b
+description: ''
+tags:
+- Release Group
+tests: null

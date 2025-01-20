@@ -1,0 +1,6 @@
+name: afm72
+pattern: (?<=^|[\s.-])afm72\b
+description: ''
+tags:
+- Release Group
+tests: null

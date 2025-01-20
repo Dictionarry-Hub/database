@@ -1,0 +1,6 @@
+name: MIRCrew
+pattern: (?<=^|[\s.-])MIRCrew\b
+description: ''
+tags:
+- Release Group
+tests: null

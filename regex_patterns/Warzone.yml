@@ -1,0 +1,6 @@
+name: Warzone
+pattern: (?<=^|[\s.-])Warzone\b
+description: ''
+tags:
+- Release Group
+tests: null

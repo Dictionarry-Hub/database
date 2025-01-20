@@ -1,0 +1,6 @@
+name: NotCrisp
+pattern: (?<=^|[\s.-])NotCrisp\b
+description: ''
+tags:
+- Release Group
+tests: null

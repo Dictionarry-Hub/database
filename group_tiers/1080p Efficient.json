@@ -1,0 +1,1525 @@
+{
+  "metadata": {
+    "total_movies_processed": 290,
+    "movies_with_1080p": 284,
+    "target_efficiency": 0.23,
+    "total_tiers": 6
+  },
+  "tier_statistics": {
+    "1": {
+      "groups": 5,
+      "total_releases": 531,
+      "avg_score": 92.05,
+      "avg_efficiency": 23.2,
+      "avg_std_dev": 0.092
+    },
+    "2": {
+      "groups": 6,
+      "total_releases": 200,
+      "avg_score": 78.33,
+      "avg_efficiency": 19.5,
+      "avg_std_dev": 0.047
+    },
+    "3": {
+      "groups": 15,
+      "total_releases": 360,
+      "avg_score": 72.37,
+      "avg_efficiency": 19.6,
+      "avg_std_dev": 0.051
+    },
+    "4": {
+      "groups": 21,
+      "total_releases": 158,
+      "avg_score": 61.87,
+      "avg_efficiency": 23.67,
+      "avg_std_dev": 0.058
+    },
+    "5": {
+      "groups": 78,
+      "total_releases": 510,
+      "avg_score": 35.23,
+      "avg_efficiency": 25.15,
+      "avg_std_dev": 0.026
+    },
+    "6": {
+      "groups": 22,
+      "total_releases": 34,
+      "avg_score": 3.63,
+      "avg_efficiency": 52.36,
+      "avg_std_dev": 0.005
+    }
+  },
+  "tiered_groups": [
+    {
+      "tier": 1,
+      "name": "QxR",
+      "codec": "x265",
+      "score": 95.6,
+      "efficiency": 24.0,
+      "releases": 190,
+      "std_dev": 0.088,
+      "efficiency_delta": 0.9999999999999981
+    },
+    {
+      "tier": 1,
+      "name": "TAoE",
+      "codec": "x265",
+      "score": 93.37,
+      "efficiency": 25.0,
+      "releases": 225,
+      "std_dev": 0.098,
+      "efficiency_delta": 1.9999999999999991
+    },
+    {
+      "tier": 1,
+      "name": "POIASD",
+      "codec": "x265",
+      "score": 91.23,
+      "efficiency": 21.0,
+      "releases": 23,
+      "std_dev": 0.121,
+      "efficiency_delta": 2.0000000000000018
+    },
+    {
+      "tier": 1,
+      "name": "HONE",
+      "codec": "x265",
+      "score": 90.17,
+      "efficiency": 27.0,
+      "releases": 59,
+      "std_dev": 0.071,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 1,
+      "name": "GRiMM",
+      "codec": "x265",
+      "score": 89.87,
+      "efficiency": 19.0,
+      "releases": 34,
+      "std_dev": 0.084,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 2,
+      "name": "d3g",
+      "codec": "x265",
+      "score": 85,
+      "efficiency": 23.0,
+      "releases": 12,
+      "std_dev": 0.09,
+      "efficiency_delta": 0.0
+    },
+    {
+      "tier": 2,
+      "name": "LSt",
+      "codec": "x265",
+      "score": 85,
+      "efficiency": 27.0,
+      "releases": 11,
+      "std_dev": 0.044,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 2,
+      "name": "Vyndros",
+      "codec": "x265",
+      "score": 75,
+      "efficiency": 16.0,
+      "releases": 47,
+      "std_dev": 0.045,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 2,
+      "name": "Chivaman",
+      "codec": "x265",
+      "score": 75,
+      "efficiency": 17.0,
+      "releases": 21,
+      "std_dev": 0.027,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 2,
+      "name": "Ralphy",
+      "codec": "x265",
+      "score": 75,
+      "efficiency": 17.0,
+      "releases": 65,
+      "std_dev": 0.057,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 2,
+      "name": "R1GY3B",
+      "codec": "x265",
+      "score": 75,
+      "efficiency": 17.0,
+      "releases": 44,
+      "std_dev": 0.019,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 3,
+      "name": "SARTRE",
+      "codec": "x265",
+      "score": 75,
+      "efficiency": 24.0,
+      "releases": 9,
+      "std_dev": 0.073,
+      "efficiency_delta": 0.9999999999999981
+    },
+    {
+      "tier": 3,
+      "name": "Pokeweed",
+      "codec": "x265",
+      "score": 75,
+      "efficiency": 20.0,
+      "releases": 7,
+      "std_dev": 0.029,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 3,
+      "name": "edge2020",
+      "codec": "x265",
+      "score": 74.92,
+      "efficiency": 16.0,
+      "releases": 175,
+      "std_dev": 0.067,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 3,
+      "name": "ARTiCUN0",
+      "codec": "x265",
+      "score": 74.57,
+      "efficiency": 26.0,
+      "releases": 8,
+      "std_dev": 0.078,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 3,
+      "name": "TimeDistortion",
+      "codec": "x265",
+      "score": 74.31,
+      "efficiency": 30.0,
+      "releases": 28,
+      "std_dev": 0.069,
+      "efficiency_delta": 6.999999999999998
+    },
+    {
+      "tier": 3,
+      "name": "PxL",
+      "codec": "x265",
+      "score": 74.15,
+      "efficiency": 20.0,
+      "releases": 6,
+      "std_dev": 0.037,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 3,
+      "name": "afm72",
+      "codec": "x265",
+      "score": 73.95,
+      "efficiency": 18.0,
+      "releases": 12,
+      "std_dev": 0.039,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 3,
+      "name": "DiscoD",
+      "codec": "x265",
+      "score": 73.67,
+      "efficiency": 20.0,
+      "releases": 5,
+      "std_dev": 0.022,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 3,
+      "name": "MZABI",
+      "codec": "x265",
+      "score": 73.42,
+      "efficiency": 19.0,
+      "releases": 7,
+      "std_dev": 0.023,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 3,
+      "name": "DUS",
+      "codec": "x265",
+      "score": 73.09,
+      "efficiency": 19.0,
+      "releases": 8,
+      "std_dev": 0.061,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 3,
+      "name": "dkore",
+      "codec": "x265",
+      "score": 71.89,
+      "efficiency": 19.0,
+      "releases": 5,
+      "std_dev": 0.018,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 3,
+      "name": "FLAME",
+      "codec": "x265",
+      "score": 71.53,
+      "efficiency": 19.0,
+      "releases": 7,
+      "std_dev": 0.098,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 3,
+      "name": "PSA",
+      "codec": "x265",
+      "score": 70.04,
+      "efficiency": 17.0,
+      "releases": 11,
+      "std_dev": 0.108,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 4,
+      "name": "Absinth",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 26.0,
+      "releases": 3,
+      "std_dev": 0.083,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 3,
+      "name": "LAMA",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 13.0,
+      "releases": 38,
+      "std_dev": 0.02,
+      "efficiency_delta": 10.0
+    },
+    {
+      "tier": 3,
+      "name": "Nb8",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 14.0,
+      "releases": 34,
+      "std_dev": 0.022,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 4,
+      "name": "mAck",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 26.0,
+      "releases": 3,
+      "std_dev": 0.127,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 4,
+      "name": "FRDS",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 25.0,
+      "releases": 4,
+      "std_dev": 0.082,
+      "efficiency_delta": 1.9999999999999991
+    },
+    {
+      "tier": 4,
+      "name": "DH",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 22.0,
+      "releases": 4,
+      "std_dev": 0.032,
+      "efficiency_delta": 1.0000000000000009
+    },
+    {
+      "tier": 4,
+      "name": "AnoZu",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 26.0,
+      "releases": 3,
+      "std_dev": 0.0,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 4,
+      "name": "BongWater",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 22.0,
+      "releases": 4,
+      "std_dev": 0.082,
+      "efficiency_delta": 1.0000000000000009
+    },
+    {
+      "tier": 4,
+      "name": "Vialle",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 21.0,
+      "releases": 4,
+      "std_dev": 0.039,
+      "efficiency_delta": 2.0000000000000018
+    },
+    {
+      "tier": 4,
+      "name": "SAMPA",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 24.0,
+      "releases": 3,
+      "std_dev": 0.087,
+      "efficiency_delta": 0.9999999999999981
+    },
+    {
+      "tier": 4,
+      "name": "PHOCiS",
+      "codec": "x265",
+      "score": 65,
+      "efficiency": 23.0,
+      "releases": 3,
+      "std_dev": 0.06,
+      "efficiency_delta": 0.0
+    },
+    {
+      "tier": 4,
+      "name": "SM737",
+      "codec": "x265",
+      "score": 64.67,
+      "efficiency": 14.0,
+      "releases": 18,
+      "std_dev": 0.026,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 4,
+      "name": "MovieMan",
+      "codec": "x265",
+      "score": 63.32,
+      "efficiency": 26.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 4,
+      "name": "WiKi",
+      "codec": "x265",
+      "score": 63.16,
+      "efficiency": 34.0,
+      "releases": 64,
+      "std_dev": 0.081,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 4,
+      "name": "Kebab",
+      "codec": "x265",
+      "score": 61.42,
+      "efficiency": 27.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 4,
+      "name": "TWA",
+      "codec": "x265",
+      "score": 61.02,
+      "efficiency": 25.0,
+      "releases": 2,
+      "std_dev": 0.184,
+      "efficiency_delta": 1.9999999999999991
+    },
+    {
+      "tier": 4,
+      "name": "CHD",
+      "codec": "x265",
+      "score": 60.19,
+      "efficiency": 32.0,
+      "releases": 10,
+      "std_dev": 0.078,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 4,
+      "name": "YELLO",
+      "codec": "x265",
+      "score": 58.8,
+      "efficiency": 17.0,
+      "releases": 7,
+      "std_dev": 0.061,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 4,
+      "name": "NOGRP",
+      "codec": "x265",
+      "score": 58.23,
+      "efficiency": 28.0,
+      "releases": 4,
+      "std_dev": 0.087,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 4,
+      "name": "NOXXUS",
+      "codec": "x265",
+      "score": 57.03,
+      "efficiency": 16.0,
+      "releases": 4,
+      "std_dev": 0.0,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 4,
+      "name": "Freebee",
+      "codec": "x265",
+      "score": 55.88,
+      "efficiency": 16.0,
+      "releases": 5,
+      "std_dev": 0.043,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 4,
+      "name": "D3FiL3R",
+      "codec": "x265",
+      "score": 55.58,
+      "efficiency": 16.0,
+      "releases": 5,
+      "std_dev": 0.054,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 4,
+      "name": "ogna",
+      "codec": "x265",
+      "score": 55.01,
+      "efficiency": 31.0,
+      "releases": 4,
+      "std_dev": 0.012,
+      "efficiency_delta": 7.999999999999999
+    },
+    {
+      "tier": 5,
+      "name": "MA",
+      "codec": "x265",
+      "score": 53.0,
+      "efficiency": 23.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.0
+    },
+    {
+      "tier": 5,
+      "name": "Goldenyann",
+      "codec": "x265",
+      "score": 53.0,
+      "efficiency": 23.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.0
+    },
+    {
+      "tier": 5,
+      "name": "10bit-PbK",
+      "codec": "x265",
+      "score": 53.0,
+      "efficiency": 23.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.0
+    },
+    {
+      "tier": 5,
+      "name": "BRiAN",
+      "codec": "x265",
+      "score": 51.82,
+      "efficiency": 29.0,
+      "releases": 3,
+      "std_dev": 0.06,
+      "efficiency_delta": 5.999999999999997
+    },
+    {
+      "tier": 5,
+      "name": "StrayedDowns",
+      "codec": "x265",
+      "score": 50.93,
+      "efficiency": 24.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.9999999999999981
+    },
+    {
+      "tier": 5,
+      "name": "SOLAiRE",
+      "codec": "x265",
+      "score": 50.93,
+      "efficiency": 24.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.9999999999999981
+    },
+    {
+      "tier": 5,
+      "name": "iHYTECH",
+      "codec": "x265",
+      "score": 50.93,
+      "efficiency": 24.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 0.9999999999999981
+    },
+    {
+      "tier": 5,
+      "name": "ESPRIT",
+      "codec": "x265",
+      "score": 50.93,
+      "efficiency": 22.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 1.0000000000000009
+    },
+    {
+      "tier": 5,
+      "name": "doc",
+      "codec": "x265",
+      "score": 50.93,
+      "efficiency": 22.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 1.0000000000000009
+    },
+    {
+      "tier": 5,
+      "name": "SH00TINGSTAR",
+      "codec": "x265",
+      "score": 49.59,
+      "efficiency": 18.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "PaTrol",
+      "codec": "x265",
+      "score": 49.17,
+      "efficiency": 15.0,
+      "releases": 5,
+      "std_dev": 0.044,
+      "efficiency_delta": 8.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "Eng",
+      "codec": "x265",
+      "score": 48.92,
+      "efficiency": 25.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 1.9999999999999991
+    },
+    {
+      "tier": 5,
+      "name": "BD",
+      "codec": "x265",
+      "score": 48.21,
+      "efficiency": 18.0,
+      "releases": 2,
+      "std_dev": 0.049,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "MAJESTiC",
+      "codec": "x265",
+      "score": 48.08,
+      "efficiency": 14.0,
+      "releases": 4,
+      "std_dev": 0.022,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "Dtech",
+      "codec": "x265",
+      "score": 47.95,
+      "efficiency": 14.0,
+      "releases": 5,
+      "std_dev": 0.029,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "InfosPack022",
+      "codec": "x265",
+      "score": 47.81,
+      "efficiency": 17.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 5,
+      "name": "BluBirD",
+      "codec": "x265",
+      "score": 47.14,
+      "efficiency": 13.0,
+      "releases": 4,
+      "std_dev": 0.0,
+      "efficiency_delta": 10.0
+    },
+    {
+      "tier": 5,
+      "name": "EGEN",
+      "codec": "x265",
+      "score": 46.98,
+      "efficiency": 26.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 5,
+      "name": "SonyHD",
+      "codec": "x265",
+      "score": 46.98,
+      "efficiency": 26.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 5,
+      "name": "Bandi",
+      "codec": "x265",
+      "score": 46.98,
+      "efficiency": 26.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 3.0
+    },
+    {
+      "tier": 5,
+      "name": "Webhiker",
+      "codec": "x265",
+      "score": 46.44,
+      "efficiency": 13.0,
+      "releases": 4,
+      "std_dev": 0.024,
+      "efficiency_delta": 10.0
+    },
+    {
+      "tier": 5,
+      "name": "SANTi",
+      "codec": "x265",
+      "score": 46.08,
+      "efficiency": 16.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 5,
+      "name": "ZQ",
+      "codec": "x265",
+      "score": 45.61,
+      "efficiency": 34.0,
+      "releases": 4,
+      "std_dev": 0.0,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "DKV",
+      "codec": "x265",
+      "score": 45.2,
+      "efficiency": 12.0,
+      "releases": 5,
+      "std_dev": 0.016,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "NotCrisp",
+      "codec": "x265",
+      "score": 45.08,
+      "efficiency": 27.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 5,
+      "name": "bluegreeen",
+      "codec": "x265",
+      "score": 45.08,
+      "efficiency": 19.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 4.000000000000001
+    },
+    {
+      "tier": 5,
+      "name": "LEGi0N",
+      "codec": "x265",
+      "score": 45,
+      "efficiency": 37.0,
+      "releases": 67,
+      "std_dev": 0.185,
+      "efficiency_delta": 13.999999999999998
+    },
+    {
+      "tier": 5,
+      "name": "NAN0",
+      "codec": "x265",
+      "score": 45,
+      "efficiency": 38.0,
+      "releases": 160,
+      "std_dev": 0.088,
+      "efficiency_delta": 15.0
+    },
+    {
+      "tier": 5,
+      "name": "BeiTai",
+      "codec": "x265",
+      "score": 45,
+      "efficiency": 38.0,
+      "releases": 69,
+      "std_dev": 0.123,
+      "efficiency_delta": 15.0
+    },
+    {
+      "tier": 5,
+      "name": "honeyvera",
+      "codec": "x265",
+      "score": 44.8,
+      "efficiency": 33.0,
+      "releases": 6,
+      "std_dev": 0.133,
+      "efficiency_delta": 10.0
+    },
+    {
+      "tier": 5,
+      "name": "m3th",
+      "codec": "x265",
+      "score": 43.26,
+      "efficiency": 14.0,
+      "releases": 3,
+      "std_dev": 0.006,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "DAA",
+      "codec": "x265",
+      "score": 40.32,
+      "efficiency": 34.0,
+      "releases": 3,
+      "std_dev": 0.0,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "W4NK3R",
+      "codec": "x265",
+      "score": 38.84,
+      "efficiency": 35.0,
+      "releases": 3,
+      "std_dev": 0.0,
+      "efficiency_delta": 11.999999999999996
+    },
+    {
+      "tier": 5,
+      "name": "LAMA265",
+      "codec": "x265",
+      "score": 35.99,
+      "efficiency": 13.0,
+      "releases": 2,
+      "std_dev": 0.007,
+      "efficiency_delta": 10.0
+    },
+    {
+      "tier": 5,
+      "name": "SUINA",
+      "codec": "x265",
+      "score": 35.7,
+      "efficiency": 32.0,
+      "releases": 2,
+      "std_dev": 0.078,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "PMZ",
+      "codec": "x265",
+      "score": 34.25,
+      "efficiency": 12.0,
+      "releases": 2,
+      "std_dev": 0.014,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "BiTOR",
+      "codec": "x265",
+      "score": 34.17,
+      "efficiency": 50.0,
+      "releases": 11,
+      "std_dev": 0.047,
+      "efficiency_delta": 27.0
+    },
+    {
+      "tier": 5,
+      "name": "MainFrame",
+      "codec": "x265",
+      "score": 34.12,
+      "efficiency": 38.0,
+      "releases": 6,
+      "std_dev": 0.064,
+      "efficiency_delta": 15.0
+    },
+    {
+      "tier": 5,
+      "name": "SEV",
+      "codec": "x265",
+      "score": 33.95,
+      "efficiency": 56.0,
+      "releases": 34,
+      "std_dev": 0.077,
+      "efficiency_delta": 33.00000000000001
+    },
+    {
+      "tier": 5,
+      "name": "HD",
+      "codec": "x265",
+      "score": 33.8,
+      "efficiency": 39.0,
+      "releases": 8,
+      "std_dev": 0.083,
+      "efficiency_delta": 16.0
+    },
+    {
+      "tier": 5,
+      "name": "ComPleX",
+      "codec": "x265",
+      "score": 33.66,
+      "efficiency": 34.0,
+      "releases": 2,
+      "std_dev": 0.035,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "IONICBOY",
+      "codec": "x265",
+      "score": 33.25,
+      "efficiency": 18.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "RARBG",
+      "codec": "x265",
+      "score": 33.25,
+      "efficiency": 28.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "130R",
+      "codec": "x265",
+      "score": 33.25,
+      "efficiency": 18.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "VECTOR",
+      "codec": "x265",
+      "score": 33.25,
+      "efficiency": 28.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "Kanashii",
+      "codec": "x265",
+      "score": 33.18,
+      "efficiency": 35.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 11.999999999999996
+    },
+    {
+      "tier": 5,
+      "name": "FZHD",
+      "codec": "x265",
+      "score": 33.02,
+      "efficiency": 33.0,
+      "releases": 2,
+      "std_dev": 0.127,
+      "efficiency_delta": 10.0
+    },
+    {
+      "tier": 5,
+      "name": "Ghost",
+      "codec": "x265",
+      "score": 32.42,
+      "efficiency": 34.0,
+      "releases": 2,
+      "std_dev": 0.085,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "x265-SDC",
+      "codec": "x265",
+      "score": 31.47,
+      "efficiency": 29.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.999999999999997
+    },
+    {
+      "tier": 5,
+      "name": "Warzone",
+      "codec": "x265",
+      "score": 31.47,
+      "efficiency": 17.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 6.0
+    },
+    {
+      "tier": 5,
+      "name": "PHD",
+      "codec": "x265",
+      "score": 31.47,
+      "efficiency": 29.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 5.999999999999997
+    },
+    {
+      "tier": 5,
+      "name": "EPiC",
+      "codec": "x265",
+      "score": 30.95,
+      "efficiency": 36.0,
+      "releases": 3,
+      "std_dev": 0.052,
+      "efficiency_delta": 12.999999999999998
+    },
+    {
+      "tier": 5,
+      "name": "ANONAZ",
+      "codec": "x265",
+      "score": 29.74,
+      "efficiency": 16.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 5,
+      "name": "AC3",
+      "codec": "x265",
+      "score": 29.74,
+      "efficiency": 16.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 5,
+      "name": "GTF",
+      "codec": "x265",
+      "score": 29.74,
+      "efficiency": 16.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 7.000000000000001
+    },
+    {
+      "tier": 5,
+      "name": "DQLDR",
+      "codec": "x265",
+      "score": 29.2,
+      "efficiency": 42.0,
+      "releases": 5,
+      "std_dev": 0.025,
+      "efficiency_delta": 18.999999999999996
+    },
+    {
+      "tier": 5,
+      "name": "Pahe",
+      "codec": "x265",
+      "score": 28.18,
+      "efficiency": 11.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "iVy",
+      "codec": "x265",
+      "score": 28.18,
+      "efficiency": 11.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "Garshasp",
+      "codec": "x265",
+      "score": 26.93,
+      "efficiency": 37.0,
+      "releases": 3,
+      "std_dev": 0.174,
+      "efficiency_delta": 13.999999999999998
+    },
+    {
+      "tier": 5,
+      "name": "B3YG1R",
+      "codec": "x265",
+      "score": 26.73,
+      "efficiency": 10.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 13.0
+    },
+    {
+      "tier": 5,
+      "name": "SDC",
+      "codec": "x265",
+      "score": 25.92,
+      "efficiency": 36.0,
+      "releases": 2,
+      "std_dev": 0.028,
+      "efficiency_delta": 12.999999999999998
+    },
+    {
+      "tier": 5,
+      "name": "Natty",
+      "codec": "x265",
+      "score": 23.06,
+      "efficiency": 15.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 8.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "TiTUS",
+      "codec": "x265",
+      "score": 23.06,
+      "efficiency": 15.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 8.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "HDS",
+      "codec": "x265",
+      "score": 21.44,
+      "efficiency": 14.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "BADViBES",
+      "codec": "x265",
+      "score": 21.44,
+      "efficiency": 14.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "BURGOORIP",
+      "codec": "x265",
+      "score": 21.44,
+      "efficiency": 14.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 9.0
+    },
+    {
+      "tier": 5,
+      "name": "CRX",
+      "codec": "x265",
+      "score": 20.43,
+      "efficiency": 51.0,
+      "releases": 5,
+      "std_dev": 0.004,
+      "efficiency_delta": 28.000000000000004
+    },
+    {
+      "tier": 5,
+      "name": "AC3-AAC",
+      "codec": "x265",
+      "score": 18.32,
+      "efficiency": 12.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "DiN",
+      "codec": "x265",
+      "score": 18.32,
+      "efficiency": 12.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 11.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "Qman-UTR",
+      "codec": "x265",
+      "score": 16.9,
+      "efficiency": 40.0,
+      "releases": 2,
+      "std_dev": 0.198,
+      "efficiency_delta": 17.0
+    },
+    {
+      "tier": 5,
+      "name": "jmux",
+      "codec": "x265",
+      "score": 16.84,
+      "efficiency": 35.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 11.999999999999996
+    },
+    {
+      "tier": 5,
+      "name": "UnKn0wn",
+      "codec": "x265",
+      "score": 16.38,
+      "efficiency": 77.0,
+      "releases": 15,
+      "std_dev": 0.142,
+      "efficiency_delta": 54.0
+    },
+    {
+      "tier": 5,
+      "name": "ZAX",
+      "codec": "x265",
+      "score": 15.18,
+      "efficiency": 58.0,
+      "releases": 6,
+      "std_dev": 0.019,
+      "efficiency_delta": 35.0
+    },
+    {
+      "tier": 5,
+      "name": "MIRCrew",
+      "codec": "x265",
+      "score": 11.84,
+      "efficiency": 11.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "Protozoan",
+      "codec": "x265",
+      "score": 11.84,
+      "efficiency": 11.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "PoF",
+      "codec": "x265",
+      "score": 11.84,
+      "efficiency": 11.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "TheSource",
+      "codec": "x265",
+      "score": 11.84,
+      "efficiency": 11.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 5,
+      "name": "iMAGiNE",
+      "codec": "x265",
+      "score": 11.84,
+      "efficiency": 11.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 12.000000000000002
+    },
+    {
+      "tier": 6,
+      "name": "SCiPIO",
+      "codec": "x265",
+      "score": 10.4,
+      "efficiency": 55.0,
+      "releases": 3,
+      "std_dev": 0.05,
+      "efficiency_delta": 32.00000000000001
+    },
+    {
+      "tier": 6,
+      "name": "HDMA",
+      "codec": "x265",
+      "score": 10.39,
+      "efficiency": 36.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 12.999999999999998
+    },
+    {
+      "tier": 6,
+      "name": "COMBO",
+      "codec": "x265",
+      "score": 10.39,
+      "efficiency": 10.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 13.0
+    },
+    {
+      "tier": 6,
+      "name": "S",
+      "codec": "x265",
+      "score": 7.63,
+      "efficiency": 38.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 15.0
+    },
+    {
+      "tier": 6,
+      "name": "HQMUX",
+      "codec": "x265",
+      "score": 7.18,
+      "efficiency": 53.0,
+      "releases": 2,
+      "std_dev": 0.021,
+      "efficiency_delta": 30.000000000000004
+    },
+    {
+      "tier": 6,
+      "name": "HDH",
+      "codec": "x265",
+      "score": 6.96,
+      "efficiency": 54.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 31.000000000000007
+    },
+    {
+      "tier": 6,
+      "name": "French",
+      "codec": "x265",
+      "score": 5.03,
+      "efficiency": 40.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 17.0
+    },
+    {
+      "tier": 6,
+      "name": "BNL",
+      "codec": "x265",
+      "score": 5.03,
+      "efficiency": 40.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 17.0
+    },
+    {
+      "tier": 6,
+      "name": "DON",
+      "codec": "x265",
+      "score": 5.0,
+      "efficiency": 75.0,
+      "releases": 4,
+      "std_dev": 0.0,
+      "efficiency_delta": 52.0
+    },
+    {
+      "tier": 6,
+      "name": "KiRA",
+      "codec": "x265",
+      "score": 3.84,
+      "efficiency": 58.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 35.0
+    },
+    {
+      "tier": 6,
+      "name": "x265",
+      "codec": "x265",
+      "score": 3.79,
+      "efficiency": 41.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 17.999999999999996
+    },
+    {
+      "tier": 6,
+      "name": "HYPERbit",
+      "codec": "x265",
+      "score": 2.59,
+      "efficiency": 42.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 18.999999999999996
+    },
+    {
+      "tier": 6,
+      "name": "SoLiS",
+      "codec": "x265",
+      "score": 1.42,
+      "efficiency": 43.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 20.0
+    },
+    {
+      "tier": 6,
+      "name": "SA89",
+      "codec": "x265",
+      "score": 0.28,
+      "efficiency": 44.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 21.0
+    },
+    {
+      "tier": 6,
+      "name": "Chotab",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 81.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 58.00000000000001
+    },
+    {
+      "tier": 6,
+      "name": "4K4U",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 63.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 40.0
+    },
+    {
+      "tier": 6,
+      "name": "AR",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 53.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 30.000000000000004
+    },
+    {
+      "tier": 6,
+      "name": "D0ct0rlewsev",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 49.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 26.0
+    },
+    {
+      "tier": 6,
+      "name": "EnC0de",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 74.0,
+      "releases": 3,
+      "std_dev": 0.04,
+      "efficiency_delta": 51.0
+    },
+    {
+      "tier": 6,
+      "name": "D0ct0rLew",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 68.0,
+      "releases": 2,
+      "std_dev": 0.007,
+      "efficiency_delta": 45.00000000000001
+    },
+    {
+      "tier": 6,
+      "name": "Enc0de",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 82.0,
+      "releases": 2,
+      "std_dev": 0.0,
+      "efficiency_delta": 59.0
+    },
+    {
+      "tier": 6,
+      "name": "ZagonSubs",
+      "codec": "x265",
+      "score": 0,
+      "efficiency": 53.0,
+      "releases": 1,
+      "std_dev": 0,
+      "efficiency_delta": 30.000000000000004
+    }
+  ],
+  "tier_boundaries": [85, 75, 65, 55, 11.84]
+}

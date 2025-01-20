@@ -1,0 +1,6 @@
+name: SARTRE
+pattern: (?<=^|[\s.-])SARTRE\b
+description: ''
+tags:
+- Release Group
+tests: null

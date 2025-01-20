@@ -1,0 +1,6 @@
+name: DUS
+pattern: (?<=^|[\s.-])DUS\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: Qman-UTR
+pattern: (?<=^|[\s.-])Qman-UTR\b
+description: ''
+tags:
+- Release Group
+tests: null

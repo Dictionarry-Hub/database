@@ -1,0 +1,6 @@
+name: SAMPA
+pattern: (?<=^|[\s.-])SAMPA\b
+description: ''
+tags:
+- Release Group
+tests: null

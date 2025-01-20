@@ -1,0 +1,6 @@
+name: Dtech
+pattern: (?<=^|[\s.-])Dtech\b
+description: ''
+tags:
+- Release Group
+tests: null

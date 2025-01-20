@@ -1,0 +1,6 @@
+name: jmux
+pattern: (?<=^|[\s.-])jmux\b
+description: ''
+tags:
+- Release Group
+tests: null

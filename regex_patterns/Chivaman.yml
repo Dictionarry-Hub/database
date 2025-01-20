@@ -1,0 +1,6 @@
+name: Chivaman
+pattern: (?<=^|[\s.-])Chivaman\b
+description: ''
+tags:
+- Release Group
+tests: null

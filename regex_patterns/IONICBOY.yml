@@ -1,0 +1,6 @@
+name: IONICBOY
+pattern: (?<=^|[\s.-])IONICBOY\b
+description: ''
+tags:
+- Release Group
+tests: null

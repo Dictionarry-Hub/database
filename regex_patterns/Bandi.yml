@@ -1,0 +1,6 @@
+name: Bandi
+pattern: (?<=^|[\s.-])Bandi\b
+description: ''
+tags:
+- Release Group
+tests: null

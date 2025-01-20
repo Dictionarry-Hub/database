@@ -1,0 +1,6 @@
+name: SDC
+pattern: (?<=^|[\s.-])SDC\b
+description: ''
+tags:
+- Release Group
+tests: null

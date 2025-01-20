@@ -1,0 +1,6 @@
+name: SOLAiRE
+pattern: (?<=^|[\s.-])SOLAiRE\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: D0ct0rLew
+pattern: (?<=^|[\s.-])D0ct0rLew\b
+description: ''
+tags:
+- Release Group
+tests: null

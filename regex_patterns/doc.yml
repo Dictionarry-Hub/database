@@ -1,0 +1,6 @@
+name: doc
+pattern: (?<=^|[\s.-])doc\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: Freebee
+pattern: (?<=^|[\s.-])Freebee\b
+description: ''
+tags:
+- Release Group
+tests: null

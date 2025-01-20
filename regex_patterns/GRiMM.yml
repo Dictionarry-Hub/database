@@ -1,0 +1,6 @@
+name: GRiMM
+pattern: (?<=^|[\s.-])GRiMM\b
+description: ''
+tags:
+- Release Group
+tests: null
