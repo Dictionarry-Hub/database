@@ -805,6 +805,25 @@
     "_id": "2160p Quality Tier 6"
   },
   {
+    "name": "Unwanted Remux Groups",
+    "description": "Matches otherwise unfavourable remux groups - bloated audio tracks, fake HDR, etc.",
+    "tags": [
+      "Release Group",
+      "Unwanted"
+    ],
+    "conditions": [
+      {
+        "name": "Bloated Remux Groups",
+        "type": "release_title",
+        "required": false,
+        "negate": false,
+        "pattern": "Bloated Remux Groups"
+      }
+    ],
+    "tests": [],
+    "_id": "Unwanted Remux Groups"
+  },
+  {
     "name": "HBO Max",
     "description": "Matches 'HBO Max' WEB-DLs. Negates any encodes.",
     "tags": [
