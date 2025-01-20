@@ -1,29 +1,23 @@
-name: 2160p Remux
-description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
-  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
-  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
-  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
-  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
-  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
-  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
-  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
-  \ which are fairly common on quite a few trackers who often have the best remux\
-  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
-  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
-  \ **1080p Remux** profile. "
+name: 1080p Remux
+description: "1080p Remux utilizes **audio tags** to prioritise high quality lossless\
+  \ copies of HD Blu-rays.\n\n- Unlike the encode profiles, which target releases\
+  \ based on a release group metric, 1080p Remux avoids this to stop *circular downloads*\
+  \ where no discernable upgrade is found. \n- Instead, audio metrics such TrueHD,\
+  \ Atmos, DTS-X, etc are used to indicate when a remux should be upgraded.\n- This\
+  \ also helps to grab non group tagged remuxes, which are fairly common on quite\
+  \ a few trackers who often have the best remux available. \n- If no 1080p Remux\
+  \ cannot be found, the profile falls back to **1080p WEB-DLs**.\n- If no 1080p release\
+  \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. "
 tags:
-- 2160p
+- 1080p
 - Remux
-- HDR
 - Lossless Audio
-- h265
+- h264
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 350
 minScoreIncrement: 10
 custom_formats:
-- name: 2160p
-  score: 120
 - name: 1080p
   score: 60
 - name: Blu-ray
@@ -48,8 +42,6 @@ custom_formats:
   score: 30
 - name: Disney+
   score: 30
-- name: Dolby Vision
-  score: 30
 - name: FLAC
   score: 30
 - name: Movies Anywhere
@@ -57,8 +49,6 @@ custom_formats:
 - name: Criterion Channel
   score: 20
 - name: HBO Max
-  score: 20
-- name: HDR10+
   score: 20
 - name: Max
   score: 20
@@ -72,10 +62,6 @@ custom_formats:
   score: 10
 - name: Atmos (Missing)
   score: 10
-- name: HDR10
-  score: 10
-- name: HDR10 (Missing)
-  score: 10
 - name: Hulu
   score: 10
 - name: iTunes
@@ -86,6 +72,8 @@ custom_formats:
   score: 10
 - name: Unknown Lossless Audio
   score: 5
+- name: 2160p
+  score: -9999
 - name: 3D
   score: -9999
 - name: 720p
@@ -95,6 +83,8 @@ custom_formats:
 - name: B&W
   score: -9999
 - name: Blu-ray Encode
+  score: -9999
+- name: Dolby Vision
   score: -9999
 - name: Dolby Vision (Without Fallback)
   score: -9999
@@ -107,6 +97,12 @@ custom_formats:
 - name: h265
   score: -9999
 - name: h265 (Missing)
+  score: -9999
+- name: HDR10
+  score: -9999
+- name: HDR10 (Missing)
+  score: -9999
+- name: HDR10+
   score: -9999
 - name: Non Retail HDR
   score: -9999
@@ -125,10 +121,6 @@ custom_formats:
 - name: x265
   score: -9999
 qualities:
-- id: 3
-  name: Remux-2160p
-- id: 5
-  name: WEBDL-2160p
 - id: 8
   name: Remux-1080p
 - id: 9
@@ -146,12 +138,12 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: 3
-  name: Remux-2160p
-  description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
+  id: 8
+  name: Remux-1080p
+  description: 1080p Blu-ray disc content remuxed into a playable file format
 language: must_original
 tweaks:
-  preferFreeleech: true
+  preferFreeleech: false
   allowLosslessAudio: true
   allowDVNoFallback: false
   allowBleedingEdgeCodecs: false

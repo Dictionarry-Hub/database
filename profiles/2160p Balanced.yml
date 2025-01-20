@@ -9,9 +9,10 @@ description: "2160p Balanced targets consistent & immutable 2160p **HDR WEB-DLs 
 tags:
 - 2160p
 - HDR
-- Encode
 - x264
-- x265
+- h265
+- Lossy Audio
+- Balanced Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 600

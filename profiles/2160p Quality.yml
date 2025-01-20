@@ -13,6 +13,7 @@ tags:
 - x265
 - Encode
 - Lossless Audio
+- Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 600

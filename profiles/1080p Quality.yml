@@ -6,9 +6,9 @@ description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](
   \ will fall back to SD releases - **DVD remuxes  / encodes**"
 tags:
 - 1080p
-- Transparent
-- GPPi
 - x264
+- Lossy Audio
+- Quality Focused
 upgradesAllowed: false
 minCustomFormatScore: 0
 upgradeUntilScore: 320
