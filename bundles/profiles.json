@@ -1,5 +1,653 @@
 [
   {
+    "name": "1080p Balanced",
+    "description": "1080p Balanced targets consistent & immutable 1080p **WEB-DLs** with fallback to transparent x264 encodes, prioritised using the **Golden Popcorn Performance Index**.\n\n- Special considerations are given to **Balanced** groups who prioritize **streaming optimisation** over quality, falling somewhere around a tier 2 WEB-DL. This includes groups like **BHDStudio** and **hallowed**.\n- If no 1080p release can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. ",
+    "tags": [
+      "1080p",
+      "x264",
+      "Lossy Audio",
+      "Balanced Focused"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 0,
+    "upgradeUntilScore": 320,
+    "minScoreIncrement": 10,
+    "custom_formats": [
+      {
+        "name": "1080p",
+        "score": 220
+      },
+      {
+        "name": "Disney+",
+        "score": 220
+      },
+      {
+        "name": "Movies Anywhere",
+        "score": 220
+      },
+      {
+        "name": "Amazon Prime",
+        "score": 210
+      },
+      {
+        "name": "Apple TV+",
+        "score": 210
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 210
+      },
+      {
+        "name": "HBO Max",
+        "score": 210
+      },
+      {
+        "name": "Max",
+        "score": 210
+      },
+      {
+        "name": "Netflix",
+        "score": 210
+      },
+      {
+        "name": "Paramount+",
+        "score": 210
+      },
+      {
+        "name": "Peacock",
+        "score": 210
+      },
+      {
+        "name": "iTunes (Missing)",
+        "score": 200
+      },
+      {
+        "name": "1080p Balanced Tier 1",
+        "score": 170
+      },
+      {
+        "name": "1080p Balanced Tier 2",
+        "score": 160
+      },
+      {
+        "name": "1080p Quality Tier 1",
+        "score": 90
+      },
+      {
+        "name": "Hulu",
+        "score": 90
+      },
+      {
+        "name": "iTunes",
+        "score": 90
+      },
+      {
+        "name": "Roku",
+        "score": 90
+      },
+      {
+        "name": "1080p Quality Tier 2",
+        "score": 80
+      },
+      {
+        "name": "1080p Quality Tier 3",
+        "score": 70
+      },
+      {
+        "name": "1080p Golden Popcorn",
+        "score": 60
+      },
+      {
+        "name": "1080p Quality Tier 4",
+        "score": 60
+      },
+      {
+        "name": "1080p Quality Tier 5",
+        "score": 50
+      },
+      {
+        "name": "DVD Remux",
+        "score": 40
+      },
+      {
+        "name": "SD Golden Popcorn",
+        "score": 30
+      },
+      {
+        "name": "SD Quality Tier 1",
+        "score": 30
+      },
+      {
+        "name": "Scene",
+        "score": 20
+      },
+      {
+        "name": "SD Quality Tier 2",
+        "score": 20
+      },
+      {
+        "name": "Atmos",
+        "score": 10
+      },
+      {
+        "name": "Atmos (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Blu-ray",
+        "score": 10
+      },
+      {
+        "name": "WEBRip",
+        "score": 10
+      },
+      {
+        "name": "x264",
+        "score": 10
+      },
+      {
+        "name": "2160p",
+        "score": -9999
+      },
+      {
+        "name": "3D",
+        "score": -9999
+      },
+      {
+        "name": "720p",
+        "score": -9999
+      },
+      {
+        "name": "720p Golden Popcorn",
+        "score": -9999
+      },
+      {
+        "name": "B&W",
+        "score": -9999
+      },
+      {
+        "name": "BeyondHD",
+        "score": -9999
+      },
+      {
+        "name": "Blu-ray Remux",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision",
+        "score": -9999
+      },
+      {
+        "name": "Extras",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc (Quality Match)",
+        "score": -9999
+      },
+      {
+        "name": "h265",
+        "score": -9999
+      },
+      {
+        "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10",
+        "score": -9999
+      },
+      {
+        "name": "HDR10 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10+",
+        "score": -9999
+      },
+      {
+        "name": "Remux",
+        "score": -9999
+      },
+      {
+        "name": "SD Bluray Encodes",
+        "score": -9999
+      },
+      {
+        "name": "Upscaled",
+        "score": -9999
+      },
+      {
+        "name": "x265",
+        "score": -9999
+      },
+      {
+        "name": "x265 (Missing)",
+        "score": -9999
+      }
+    ],
+    "qualities": [
+      {
+        "id": -1,
+        "name": "Balanced capable",
+        "description": "Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.",
+        "qualities": [
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          },
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          }
+        ]
+      },
+      {
+        "id": -2,
+        "name": "SD",
+        "description": "SD Fallbacks",
+        "qualities": [
+          {
+            "id": 19,
+            "name": "WEBDL-480p"
+          },
+          {
+            "id": 20,
+            "name": "WEBRip-480p"
+          },
+          {
+            "id": 22,
+            "name": "DVD"
+          },
+          {
+            "id": 24,
+            "name": "SDTV"
+          }
+        ]
+      },
+      {
+        "id": -3,
+        "name": "Prereleases",
+        "description": "Low quality releases that come out before physical discs / streaming / VODs. Needs to be enabled for tweak to work. ",
+        "qualities": [
+          {
+            "id": 29,
+            "name": "CAM"
+          },
+          {
+            "id": 26,
+            "name": "Telesync"
+          },
+          {
+            "id": 25,
+            "name": "Telecine"
+          },
+          {
+            "id": 23,
+            "name": "DVDSCR"
+          }
+        ]
+      }
+    ],
+    "upgrade_until": {
+      "id": -1,
+      "name": "Balanced capable",
+      "description": "Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred."
+    },
+    "language": "must_original",
+    "tweaks": {
+      "preferFreeleech": false,
+      "allowLosslessAudio": false,
+      "allowDVNoFallback": false,
+      "allowBleedingEdgeCodecs": false,
+      "allowPrereleases": false
+    },
+    "_id": "1080p Balanced"
+  },
+  {
+    "name": "1080p Quality (HDR)",
+    "description": "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.pages.dev/) to target **transparent x265 HDR** 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to the regular 1080p Quality profile (non HDR), then 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- **x265 is negated** but allowed, if and only if a reputable GPPi group has encoded it from a UHD Bluray source.\n- Non HDR x265 encodes are strictly forbidden in this profile\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
+    "tags": [
+      "1080p",
+      "x264",
+      "x265",
+      "HDR",
+      "Lossy Audio",
+      "Quality Focused"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 0,
+    "upgradeUntilScore": 320,
+    "minScoreIncrement": 10,
+    "custom_formats": [
+      {
+        "name": "UHD Bluray",
+        "score": 350
+      },
+      {
+        "name": "UHD Bluray (Missing)",
+        "score": 350
+      },
+      {
+        "name": "1080p Golden Popcorn",
+        "score": 120
+      },
+      {
+        "name": "1080p Quality Tier 1",
+        "score": 120
+      },
+      {
+        "name": "1080p Quality Tier 2",
+        "score": 110
+      },
+      {
+        "name": "1080p Quality Tier 3",
+        "score": 100
+      },
+      {
+        "name": "1080p Quality Tier 4",
+        "score": 90
+      },
+      {
+        "name": "1080p Quality Tier 5",
+        "score": 80
+      },
+      {
+        "name": "1080p",
+        "score": 60
+      },
+      {
+        "name": "Amazon Prime",
+        "score": 60
+      },
+      {
+        "name": "Apple TV+",
+        "score": 60
+      },
+      {
+        "name": "Disney+",
+        "score": 60
+      },
+      {
+        "name": "Movies Anywhere",
+        "score": 60
+      },
+      {
+        "name": "1080p Balanced Tier 1",
+        "score": 50
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 50
+      },
+      {
+        "name": "HBO Max",
+        "score": 50
+      },
+      {
+        "name": "Max",
+        "score": 50
+      },
+      {
+        "name": "Netflix",
+        "score": 50
+      },
+      {
+        "name": "Paramount+",
+        "score": 50
+      },
+      {
+        "name": "Peacock",
+        "score": 50
+      },
+      {
+        "name": "1080p Balanced Tier 2",
+        "score": 40
+      },
+      {
+        "name": "DVD Remux",
+        "score": 40
+      },
+      {
+        "name": "Hulu",
+        "score": 40
+      },
+      {
+        "name": "iTunes",
+        "score": 40
+      },
+      {
+        "name": "iTunes (Missing)",
+        "score": 40
+      },
+      {
+        "name": "Roku",
+        "score": 40
+      },
+      {
+        "name": "Dolby Vision",
+        "score": 30
+      },
+      {
+        "name": "SD Golden Popcorn",
+        "score": 30
+      },
+      {
+        "name": "SD Quality Tier 1",
+        "score": 30
+      },
+      {
+        "name": "HDR10+",
+        "score": 20
+      },
+      {
+        "name": "Scene",
+        "score": 20
+      },
+      {
+        "name": "SD Quality Tier 2",
+        "score": 20
+      },
+      {
+        "name": "Atmos",
+        "score": 10
+      },
+      {
+        "name": "Atmos (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Blu-ray",
+        "score": 10
+      },
+      {
+        "name": "HDR10",
+        "score": 10
+      },
+      {
+        "name": "HDR10 (Missing)",
+        "score": 10
+      },
+      {
+        "name": "HDR10 (Missing) (1080p)",
+        "score": 10
+      },
+      {
+        "name": "WEBRip",
+        "score": 10
+      },
+      {
+        "name": "x264",
+        "score": 10
+      },
+      {
+        "name": "x265",
+        "score": -90
+      },
+      {
+        "name": "2160p",
+        "score": -9999
+      },
+      {
+        "name": "3D",
+        "score": -9999
+      },
+      {
+        "name": "720p",
+        "score": -9999
+      },
+      {
+        "name": "720p Golden Popcorn",
+        "score": -9999
+      },
+      {
+        "name": "B&W",
+        "score": -9999
+      },
+      {
+        "name": "BeyondHD",
+        "score": -9999
+      },
+      {
+        "name": "Blu-ray Remux",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision (Without Fallback)",
+        "score": -9999
+      },
+      {
+        "name": "Extras",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc (Quality Match)",
+        "score": -9999
+      },
+      {
+        "name": "h265",
+        "score": -9999
+      },
+      {
+        "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "Remux",
+        "score": -9999
+      },
+      {
+        "name": "SD Bluray Encodes",
+        "score": -9999
+      },
+      {
+        "name": "Unwanted x265 Groups",
+        "score": -9999
+      },
+      {
+        "name": "Upscaled",
+        "score": -9999
+      },
+      {
+        "name": "x265 (Missing)",
+        "score": -9999
+      }
+    ],
+    "qualities": [
+      {
+        "id": -1,
+        "name": "Transparent capable",
+        "description": "All capable of being indistinguishable from source. WEB-DL included to not allow unknown encode to trump known WEB-DL.",
+        "qualities": [
+          {
+            "id": 10,
+            "name": "Bluray-1080p"
+          },
+          {
+            "id": 9,
+            "name": "WEBDL-1080p"
+          },
+          {
+            "id": 11,
+            "name": "WEBRip-1080p"
+          }
+        ]
+      },
+      {
+        "id": -2,
+        "name": "SD",
+        "description": "SD Fallbacks",
+        "qualities": [
+          {
+            "id": 19,
+            "name": "WEBDL-480p"
+          },
+          {
+            "id": 20,
+            "name": "WEBRip-480p"
+          },
+          {
+            "id": 22,
+            "name": "DVD"
+          },
+          {
+            "id": 24,
+            "name": "SDTV"
+          }
+        ]
+      },
+      {
+        "id": -3,
+        "name": "Prereleases",
+        "description": "Low quality releases that come out before physical discs / streaming / VODs. Needs to be enabled for tweak to work. ",
+        "qualities": [
+          {
+            "id": 29,
+            "name": "CAM"
+          },
+          {
+            "id": 26,
+            "name": "Telesync"
+          },
+          {
+            "id": 25,
+            "name": "Telecine"
+          },
+          {
+            "id": 23,
+            "name": "DVDSCR"
+          }
+        ]
+      }
+    ],
+    "upgrade_until": {
+      "id": -1,
+      "name": "Transparent capable",
+      "description": "All capable of being indistinguishable from source. WEB-DL included to not allow unknown encode to trump known WEB-DL."
+    },
+    "language": "must_original",
+    "tweaks": {
+      "preferFreeleech": false,
+      "allowLosslessAudio": true,
+      "allowDVNoFallback": false,
+      "allowBleedingEdgeCodecs": false,
+      "allowPrereleases": false
+    },
+    "_id": "1080p Quality (HDR)"
+  },
+  {
     "name": "1080p Quality",
     "description": "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.pages.dev/) to target **transparent** x264 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
     "tags": [
@@ -311,6 +959,273 @@
       "allowPrereleases": false
     },
     "_id": "1080p Quality"
+  },
+  {
+    "name": "1080p Remux",
+    "description": "1080p Remux utilizes **audio tags** to prioritise high quality lossless copies of HD Blu-rays.\n\n- Unlike the encode profiles, which target releases based on a release group metric, 1080p Remux avoids this to stop *circular downloads* where no discernable upgrade is found. \n- Instead, audio metrics such TrueHD, Atmos, DTS-X, etc are used to indicate when a remux should be upgraded.\n- This also helps to grab non group tagged remuxes, which are fairly common on quite a few trackers who often have the best remux available. \n- If no 1080p Remux cannot be found, the profile falls back to **1080p WEB-DLs**.\n- If no 1080p release can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. ",
+    "tags": [
+      "1080p",
+      "Remux",
+      "Lossless Audio",
+      "h264"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 0,
+    "upgradeUntilScore": 350,
+    "minScoreIncrement": 10,
+    "custom_formats": [
+      {
+        "name": "1080p",
+        "score": 60
+      },
+      {
+        "name": "Blu-ray",
+        "score": 60
+      },
+      {
+        "name": "Blu-ray Remux",
+        "score": 60
+      },
+      {
+        "name": "DTS-X",
+        "score": 60
+      },
+      {
+        "name": "Remux",
+        "score": 60
+      },
+      {
+        "name": "DTS-HD MA",
+        "score": 50
+      },
+      {
+        "name": "TrueHD",
+        "score": 50
+      },
+      {
+        "name": "TrueHD (Missing)",
+        "score": 50
+      },
+      {
+        "name": "DVD Remux",
+        "score": 40
+      },
+      {
+        "name": "Amazon Prime",
+        "score": 30
+      },
+      {
+        "name": "Apple TV+",
+        "score": 30
+      },
+      {
+        "name": "Disney+",
+        "score": 30
+      },
+      {
+        "name": "FLAC",
+        "score": 30
+      },
+      {
+        "name": "Movies Anywhere",
+        "score": 30
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "HBO Max",
+        "score": 20
+      },
+      {
+        "name": "Max",
+        "score": 20
+      },
+      {
+        "name": "Netflix",
+        "score": 20
+      },
+      {
+        "name": "Paramount+",
+        "score": 20
+      },
+      {
+        "name": "Peacock",
+        "score": 20
+      },
+      {
+        "name": "Atmos",
+        "score": 10
+      },
+      {
+        "name": "Atmos (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Hulu",
+        "score": 10
+      },
+      {
+        "name": "iTunes",
+        "score": 10
+      },
+      {
+        "name": "iTunes (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Roku",
+        "score": 10
+      },
+      {
+        "name": "Unknown Lossless Audio",
+        "score": 5
+      },
+      {
+        "name": "2160p",
+        "score": -9999
+      },
+      {
+        "name": "3D",
+        "score": -9999
+      },
+      {
+        "name": "720p",
+        "score": -9999
+      },
+      {
+        "name": "AV1",
+        "score": -9999
+      },
+      {
+        "name": "B&W",
+        "score": -9999
+      },
+      {
+        "name": "Blu-ray Encode",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision (Without Fallback)",
+        "score": -9999
+      },
+      {
+        "name": "Extras",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc (Quality Match)",
+        "score": -9999
+      },
+      {
+        "name": "h265",
+        "score": -9999
+      },
+      {
+        "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10",
+        "score": -9999
+      },
+      {
+        "name": "HDR10 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10+",
+        "score": -9999
+      },
+      {
+        "name": "Non Retail HDR",
+        "score": -9999
+      },
+      {
+        "name": "UHDBits",
+        "score": -9999
+      },
+      {
+        "name": "Unwanted Remux Groups",
+        "score": -9999
+      },
+      {
+        "name": "Upscaled",
+        "score": -9999
+      },
+      {
+        "name": "VVC",
+        "score": -9999
+      },
+      {
+        "name": "WEBRip",
+        "score": -9999
+      },
+      {
+        "name": "x264",
+        "score": -9999
+      },
+      {
+        "name": "x265",
+        "score": -9999
+      }
+    ],
+    "qualities": [
+      {
+        "id": 8,
+        "name": "Remux-1080p"
+      },
+      {
+        "id": 9,
+        "name": "WEBDL-1080p"
+      },
+      {
+        "id": -1,
+        "name": "SD",
+        "description": "Standard Definition Fallbacks",
+        "qualities": [
+          {
+            "id": 22,
+            "name": "DVD"
+          },
+          {
+            "id": 19,
+            "name": "WEBDL-480p"
+          },
+          {
+            "id": 20,
+            "name": "WEBRip-480p"
+          },
+          {
+            "id": 24,
+            "name": "SDTV"
+          }
+        ]
+      }
+    ],
+    "upgrade_until": {
+      "id": 8,
+      "name": "Remux-1080p",
+      "description": "1080p Blu-ray disc content remuxed into a playable file format"
+    },
+    "language": "must_original",
+    "tweaks": {
+      "preferFreeleech": false,
+      "allowLosslessAudio": true,
+      "allowDVNoFallback": false,
+      "allowBleedingEdgeCodecs": false,
+      "allowPrereleases": false
+    },
+    "_id": "1080p Remux"
   },
   {
     "name": "2160p Balanced",
@@ -734,1197 +1649,6 @@
       "allowPrereleases": false
     },
     "_id": "2160p Balanced"
-  },
-  {
-    "name": "1080p Balanced",
-    "description": "1080p Balanced targets consistent & immutable 1080p **WEB-DLs** with fallback to transparent x264 encodes, prioritised using the **Golden Popcorn Performance Index**.\n\n- Special considerations are given to **Balanced** groups who prioritize **streaming optimisation** over quality, falling somewhere around a tier 2 WEB-DL. This includes groups like **BHDStudio** and **hallowed**.\n- If no 1080p release can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. ",
-    "tags": [
-      "1080p",
-      "x264",
-      "Lossy Audio",
-      "Balanced Focused"
-    ],
-    "upgradesAllowed": true,
-    "minCustomFormatScore": 0,
-    "upgradeUntilScore": 320,
-    "minScoreIncrement": 10,
-    "custom_formats": [
-      {
-        "name": "1080p",
-        "score": 220
-      },
-      {
-        "name": "Disney+",
-        "score": 220
-      },
-      {
-        "name": "Movies Anywhere",
-        "score": 220
-      },
-      {
-        "name": "Amazon Prime",
-        "score": 210
-      },
-      {
-        "name": "Apple TV+",
-        "score": 210
-      },
-      {
-        "name": "Criterion Channel",
-        "score": 210
-      },
-      {
-        "name": "HBO Max",
-        "score": 210
-      },
-      {
-        "name": "Max",
-        "score": 210
-      },
-      {
-        "name": "Netflix",
-        "score": 210
-      },
-      {
-        "name": "Paramount+",
-        "score": 210
-      },
-      {
-        "name": "Peacock",
-        "score": 210
-      },
-      {
-        "name": "iTunes (Missing)",
-        "score": 200
-      },
-      {
-        "name": "1080p Balanced Tier 1",
-        "score": 170
-      },
-      {
-        "name": "1080p Balanced Tier 2",
-        "score": 160
-      },
-      {
-        "name": "1080p Quality Tier 1",
-        "score": 90
-      },
-      {
-        "name": "Hulu",
-        "score": 90
-      },
-      {
-        "name": "iTunes",
-        "score": 90
-      },
-      {
-        "name": "Roku",
-        "score": 90
-      },
-      {
-        "name": "1080p Quality Tier 2",
-        "score": 80
-      },
-      {
-        "name": "1080p Quality Tier 3",
-        "score": 70
-      },
-      {
-        "name": "1080p Golden Popcorn",
-        "score": 60
-      },
-      {
-        "name": "1080p Quality Tier 4",
-        "score": 60
-      },
-      {
-        "name": "1080p Quality Tier 5",
-        "score": 50
-      },
-      {
-        "name": "DVD Remux",
-        "score": 40
-      },
-      {
-        "name": "SD Golden Popcorn",
-        "score": 30
-      },
-      {
-        "name": "SD Quality Tier 1",
-        "score": 30
-      },
-      {
-        "name": "Scene",
-        "score": 20
-      },
-      {
-        "name": "SD Quality Tier 2",
-        "score": 20
-      },
-      {
-        "name": "Atmos",
-        "score": 10
-      },
-      {
-        "name": "Atmos (Missing)",
-        "score": 10
-      },
-      {
-        "name": "Blu-ray",
-        "score": 10
-      },
-      {
-        "name": "WEBRip",
-        "score": 10
-      },
-      {
-        "name": "x264",
-        "score": 10
-      },
-      {
-        "name": "2160p",
-        "score": -9999
-      },
-      {
-        "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
-        "score": -9999
-      },
-      {
-        "name": "720p Golden Popcorn",
-        "score": -9999
-      },
-      {
-        "name": "B&W",
-        "score": -9999
-      },
-      {
-        "name": "BeyondHD",
-        "score": -9999
-      },
-      {
-        "name": "Blu-ray Remux",
-        "score": -9999
-      },
-      {
-        "name": "Dolby Vision",
-        "score": -9999
-      },
-      {
-        "name": "Extras",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
-        "score": -9999
-      },
-      {
-        "name": "h265",
-        "score": -9999
-      },
-      {
-        "name": "h265 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "HDR10",
-        "score": -9999
-      },
-      {
-        "name": "HDR10 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "HDR10+",
-        "score": -9999
-      },
-      {
-        "name": "Remux",
-        "score": -9999
-      },
-      {
-        "name": "SD Bluray Encodes",
-        "score": -9999
-      },
-      {
-        "name": "Upscaled",
-        "score": -9999
-      },
-      {
-        "name": "x265",
-        "score": -9999
-      },
-      {
-        "name": "x265 (Missing)",
-        "score": -9999
-      }
-    ],
-    "qualities": [
-      {
-        "id": -1,
-        "name": "Balanced capable",
-        "description": "Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.",
-        "qualities": [
-          {
-            "id": 10,
-            "name": "Bluray-1080p"
-          },
-          {
-            "id": 11,
-            "name": "WEBRip-1080p"
-          },
-          {
-            "id": 9,
-            "name": "WEBDL-1080p"
-          }
-        ]
-      },
-      {
-        "id": -2,
-        "name": "SD",
-        "description": "SD Fallbacks",
-        "qualities": [
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
-      },
-      {
-        "id": -3,
-        "name": "Prereleases",
-        "description": "Low quality releases that come out before physical discs / streaming / VODs. Needs to be enabled for tweak to work. ",
-        "qualities": [
-          {
-            "id": 29,
-            "name": "CAM"
-          },
-          {
-            "id": 26,
-            "name": "Telesync"
-          },
-          {
-            "id": 25,
-            "name": "Telecine"
-          },
-          {
-            "id": 23,
-            "name": "DVDSCR"
-          }
-        ]
-      }
-    ],
-    "upgrade_until": {
-      "id": -1,
-      "name": "Balanced capable",
-      "description": "Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred."
-    },
-    "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": false,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
-    "_id": "1080p Balanced"
-  },
-  {
-    "name": "2160p Remux",
-    "description": "2160p Remux utilizes **audio / video tags** to prioritise high quality lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target releases based on a release group metric, 2160p Remux avoids this to stop *circular downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux should be upgraded.\n- For instance, if a hybrid remux that includes some WEB DoVi layer is released, it will be upgraded over the standard non hybrid release, regardless of release group.\n- This also helps to grab non group tagged remuxes, which are fairly common on quite a few trackers who often have the best remux available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the **1080p Remux** profile. ",
-    "tags": [
-      "2160p",
-      "Remux",
-      "HDR",
-      "Lossless Audio",
-      "h265"
-    ],
-    "upgradesAllowed": true,
-    "minCustomFormatScore": 0,
-    "upgradeUntilScore": 350,
-    "minScoreIncrement": 10,
-    "custom_formats": [
-      {
-        "name": "2160p",
-        "score": 120
-      },
-      {
-        "name": "1080p",
-        "score": 60
-      },
-      {
-        "name": "Blu-ray",
-        "score": 60
-      },
-      {
-        "name": "Blu-ray Remux",
-        "score": 60
-      },
-      {
-        "name": "DTS-X",
-        "score": 60
-      },
-      {
-        "name": "Remux",
-        "score": 60
-      },
-      {
-        "name": "DTS-HD MA",
-        "score": 50
-      },
-      {
-        "name": "TrueHD",
-        "score": 50
-      },
-      {
-        "name": "TrueHD (Missing)",
-        "score": 50
-      },
-      {
-        "name": "DVD Remux",
-        "score": 40
-      },
-      {
-        "name": "Amazon Prime",
-        "score": 30
-      },
-      {
-        "name": "Apple TV+",
-        "score": 30
-      },
-      {
-        "name": "Disney+",
-        "score": 30
-      },
-      {
-        "name": "Dolby Vision",
-        "score": 30
-      },
-      {
-        "name": "FLAC",
-        "score": 30
-      },
-      {
-        "name": "Movies Anywhere",
-        "score": 30
-      },
-      {
-        "name": "Criterion Channel",
-        "score": 20
-      },
-      {
-        "name": "HBO Max",
-        "score": 20
-      },
-      {
-        "name": "HDR10+",
-        "score": 20
-      },
-      {
-        "name": "Max",
-        "score": 20
-      },
-      {
-        "name": "Netflix",
-        "score": 20
-      },
-      {
-        "name": "Paramount+",
-        "score": 20
-      },
-      {
-        "name": "Peacock",
-        "score": 20
-      },
-      {
-        "name": "Atmos",
-        "score": 10
-      },
-      {
-        "name": "Atmos (Missing)",
-        "score": 10
-      },
-      {
-        "name": "HDR10",
-        "score": 10
-      },
-      {
-        "name": "HDR10 (Missing)",
-        "score": 10
-      },
-      {
-        "name": "Hulu",
-        "score": 10
-      },
-      {
-        "name": "iTunes",
-        "score": 10
-      },
-      {
-        "name": "iTunes (Missing)",
-        "score": 10
-      },
-      {
-        "name": "Roku",
-        "score": 10
-      },
-      {
-        "name": "Unknown Lossless Audio",
-        "score": 5
-      },
-      {
-        "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
-        "score": -9999
-      },
-      {
-        "name": "AV1",
-        "score": -9999
-      },
-      {
-        "name": "B&W",
-        "score": -9999
-      },
-      {
-        "name": "Blu-ray Encode",
-        "score": -9999
-      },
-      {
-        "name": "Dolby Vision (Without Fallback)",
-        "score": -9999
-      },
-      {
-        "name": "Extras",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
-        "score": -9999
-      },
-      {
-        "name": "h265",
-        "score": -9999
-      },
-      {
-        "name": "h265 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "Non Retail HDR",
-        "score": -9999
-      },
-      {
-        "name": "UHDBits",
-        "score": -9999
-      },
-      {
-        "name": "Unwanted Remux Groups",
-        "score": -9999
-      },
-      {
-        "name": "Upscaled",
-        "score": -9999
-      },
-      {
-        "name": "VVC",
-        "score": -9999
-      },
-      {
-        "name": "WEBRip",
-        "score": -9999
-      },
-      {
-        "name": "x264",
-        "score": -9999
-      },
-      {
-        "name": "x265",
-        "score": -9999
-      }
-    ],
-    "qualities": [
-      {
-        "id": 3,
-        "name": "Remux-2160p"
-      },
-      {
-        "id": 5,
-        "name": "WEBDL-2160p"
-      },
-      {
-        "id": 8,
-        "name": "Remux-1080p"
-      },
-      {
-        "id": 9,
-        "name": "WEBDL-1080p"
-      },
-      {
-        "id": -1,
-        "name": "SD",
-        "description": "Standard Definition Fallbacks",
-        "qualities": [
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
-      }
-    ],
-    "upgrade_until": {
-      "id": 3,
-      "name": "Remux-2160p",
-      "description": "4K Ultra HD Blu-ray disc content remuxed into a playable file format"
-    },
-    "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": true,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
-    "_id": "2160p Remux"
-  },
-  {
-    "name": "1080p Quality (HDR)",
-    "description": "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.pages.dev/) to target **transparent x265 HDR** 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to the regular 1080p Quality profile (non HDR), then 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- **x265 is negated** but allowed, if and only if a reputable GPPi group has encoded it from a UHD Bluray source.\n- Non HDR x265 encodes are strictly forbidden in this profile\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
-    "tags": [
-      "1080p",
-      "x264",
-      "x265",
-      "HDR",
-      "Lossy Audio",
-      "Quality Focused"
-    ],
-    "upgradesAllowed": true,
-    "minCustomFormatScore": 0,
-    "upgradeUntilScore": 320,
-    "minScoreIncrement": 10,
-    "custom_formats": [
-      {
-        "name": "UHD Bluray",
-        "score": 350
-      },
-      {
-        "name": "UHD Bluray (Missing)",
-        "score": 350
-      },
-      {
-        "name": "1080p Golden Popcorn",
-        "score": 120
-      },
-      {
-        "name": "1080p Quality Tier 1",
-        "score": 120
-      },
-      {
-        "name": "1080p Quality Tier 2",
-        "score": 110
-      },
-      {
-        "name": "1080p Quality Tier 3",
-        "score": 100
-      },
-      {
-        "name": "1080p Quality Tier 4",
-        "score": 90
-      },
-      {
-        "name": "1080p Quality Tier 5",
-        "score": 80
-      },
-      {
-        "name": "1080p",
-        "score": 60
-      },
-      {
-        "name": "Amazon Prime",
-        "score": 60
-      },
-      {
-        "name": "Apple TV+",
-        "score": 60
-      },
-      {
-        "name": "Disney+",
-        "score": 60
-      },
-      {
-        "name": "Movies Anywhere",
-        "score": 60
-      },
-      {
-        "name": "1080p Balanced Tier 1",
-        "score": 50
-      },
-      {
-        "name": "Criterion Channel",
-        "score": 50
-      },
-      {
-        "name": "HBO Max",
-        "score": 50
-      },
-      {
-        "name": "Max",
-        "score": 50
-      },
-      {
-        "name": "Netflix",
-        "score": 50
-      },
-      {
-        "name": "Paramount+",
-        "score": 50
-      },
-      {
-        "name": "Peacock",
-        "score": 50
-      },
-      {
-        "name": "1080p Balanced Tier 2",
-        "score": 40
-      },
-      {
-        "name": "DVD Remux",
-        "score": 40
-      },
-      {
-        "name": "Hulu",
-        "score": 40
-      },
-      {
-        "name": "iTunes",
-        "score": 40
-      },
-      {
-        "name": "iTunes (Missing)",
-        "score": 40
-      },
-      {
-        "name": "Roku",
-        "score": 40
-      },
-      {
-        "name": "Dolby Vision",
-        "score": 30
-      },
-      {
-        "name": "SD Golden Popcorn",
-        "score": 30
-      },
-      {
-        "name": "SD Quality Tier 1",
-        "score": 30
-      },
-      {
-        "name": "HDR10+",
-        "score": 20
-      },
-      {
-        "name": "Scene",
-        "score": 20
-      },
-      {
-        "name": "SD Quality Tier 2",
-        "score": 20
-      },
-      {
-        "name": "Atmos",
-        "score": 10
-      },
-      {
-        "name": "Atmos (Missing)",
-        "score": 10
-      },
-      {
-        "name": "Blu-ray",
-        "score": 10
-      },
-      {
-        "name": "HDR10",
-        "score": 10
-      },
-      {
-        "name": "HDR10 (Missing)",
-        "score": 10
-      },
-      {
-        "name": "HDR10 (Missing) (1080p)",
-        "score": 10
-      },
-      {
-        "name": "WEBRip",
-        "score": 10
-      },
-      {
-        "name": "x264",
-        "score": 10
-      },
-      {
-        "name": "x265",
-        "score": -90
-      },
-      {
-        "name": "2160p",
-        "score": -9999
-      },
-      {
-        "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
-        "score": -9999
-      },
-      {
-        "name": "720p Golden Popcorn",
-        "score": -9999
-      },
-      {
-        "name": "B&W",
-        "score": -9999
-      },
-      {
-        "name": "BeyondHD",
-        "score": -9999
-      },
-      {
-        "name": "Blu-ray Remux",
-        "score": -9999
-      },
-      {
-        "name": "Dolby Vision (Without Fallback)",
-        "score": -9999
-      },
-      {
-        "name": "Extras",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
-        "score": -9999
-      },
-      {
-        "name": "h265",
-        "score": -9999
-      },
-      {
-        "name": "h265 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "Remux",
-        "score": -9999
-      },
-      {
-        "name": "SD Bluray Encodes",
-        "score": -9999
-      },
-      {
-        "name": "Unwanted x265 Groups",
-        "score": -9999
-      },
-      {
-        "name": "Upscaled",
-        "score": -9999
-      },
-      {
-        "name": "x265 (Missing)",
-        "score": -9999
-      }
-    ],
-    "qualities": [
-      {
-        "id": -1,
-        "name": "Transparent capable",
-        "description": "All capable of being indistinguishable from source. WEB-DL included to not allow unknown encode to trump known WEB-DL.",
-        "qualities": [
-          {
-            "id": 10,
-            "name": "Bluray-1080p"
-          },
-          {
-            "id": 9,
-            "name": "WEBDL-1080p"
-          },
-          {
-            "id": 11,
-            "name": "WEBRip-1080p"
-          }
-        ]
-      },
-      {
-        "id": -2,
-        "name": "SD",
-        "description": "SD Fallbacks",
-        "qualities": [
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
-      },
-      {
-        "id": -3,
-        "name": "Prereleases",
-        "description": "Low quality releases that come out before physical discs / streaming / VODs. Needs to be enabled for tweak to work. ",
-        "qualities": [
-          {
-            "id": 29,
-            "name": "CAM"
-          },
-          {
-            "id": 26,
-            "name": "Telesync"
-          },
-          {
-            "id": 25,
-            "name": "Telecine"
-          },
-          {
-            "id": 23,
-            "name": "DVDSCR"
-          }
-        ]
-      }
-    ],
-    "upgrade_until": {
-      "id": -1,
-      "name": "Transparent capable",
-      "description": "All capable of being indistinguishable from source. WEB-DL included to not allow unknown encode to trump known WEB-DL."
-    },
-    "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
-    "_id": "1080p Quality (HDR)"
-  },
-  {
-    "name": "1080p Remux",
-    "description": "1080p Remux utilizes **audio tags** to prioritise high quality lossless copies of HD Blu-rays.\n\n- Unlike the encode profiles, which target releases based on a release group metric, 1080p Remux avoids this to stop *circular downloads* where no discernable upgrade is found. \n- Instead, audio metrics such TrueHD, Atmos, DTS-X, etc are used to indicate when a remux should be upgraded.\n- This also helps to grab non group tagged remuxes, which are fairly common on quite a few trackers who often have the best remux available. \n- If no 1080p Remux cannot be found, the profile falls back to **1080p WEB-DLs**.\n- If no 1080p release can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. ",
-    "tags": [
-      "1080p",
-      "Remux",
-      "Lossless Audio",
-      "h264"
-    ],
-    "upgradesAllowed": true,
-    "minCustomFormatScore": 0,
-    "upgradeUntilScore": 350,
-    "minScoreIncrement": 10,
-    "custom_formats": [
-      {
-        "name": "1080p",
-        "score": 60
-      },
-      {
-        "name": "Blu-ray",
-        "score": 60
-      },
-      {
-        "name": "Blu-ray Remux",
-        "score": 60
-      },
-      {
-        "name": "DTS-X",
-        "score": 60
-      },
-      {
-        "name": "Remux",
-        "score": 60
-      },
-      {
-        "name": "DTS-HD MA",
-        "score": 50
-      },
-      {
-        "name": "TrueHD",
-        "score": 50
-      },
-      {
-        "name": "TrueHD (Missing)",
-        "score": 50
-      },
-      {
-        "name": "DVD Remux",
-        "score": 40
-      },
-      {
-        "name": "Amazon Prime",
-        "score": 30
-      },
-      {
-        "name": "Apple TV+",
-        "score": 30
-      },
-      {
-        "name": "Disney+",
-        "score": 30
-      },
-      {
-        "name": "FLAC",
-        "score": 30
-      },
-      {
-        "name": "Movies Anywhere",
-        "score": 30
-      },
-      {
-        "name": "Criterion Channel",
-        "score": 20
-      },
-      {
-        "name": "HBO Max",
-        "score": 20
-      },
-      {
-        "name": "Max",
-        "score": 20
-      },
-      {
-        "name": "Netflix",
-        "score": 20
-      },
-      {
-        "name": "Paramount+",
-        "score": 20
-      },
-      {
-        "name": "Peacock",
-        "score": 20
-      },
-      {
-        "name": "Atmos",
-        "score": 10
-      },
-      {
-        "name": "Atmos (Missing)",
-        "score": 10
-      },
-      {
-        "name": "Hulu",
-        "score": 10
-      },
-      {
-        "name": "iTunes",
-        "score": 10
-      },
-      {
-        "name": "iTunes (Missing)",
-        "score": 10
-      },
-      {
-        "name": "Roku",
-        "score": 10
-      },
-      {
-        "name": "Unknown Lossless Audio",
-        "score": 5
-      },
-      {
-        "name": "2160p",
-        "score": -9999
-      },
-      {
-        "name": "3D",
-        "score": -9999
-      },
-      {
-        "name": "720p",
-        "score": -9999
-      },
-      {
-        "name": "AV1",
-        "score": -9999
-      },
-      {
-        "name": "B&W",
-        "score": -9999
-      },
-      {
-        "name": "Blu-ray Encode",
-        "score": -9999
-      },
-      {
-        "name": "Dolby Vision",
-        "score": -9999
-      },
-      {
-        "name": "Dolby Vision (Without Fallback)",
-        "score": -9999
-      },
-      {
-        "name": "Extras",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc",
-        "score": -9999
-      },
-      {
-        "name": "Full Disc (Quality Match)",
-        "score": -9999
-      },
-      {
-        "name": "h265",
-        "score": -9999
-      },
-      {
-        "name": "h265 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "HDR10",
-        "score": -9999
-      },
-      {
-        "name": "HDR10 (Missing)",
-        "score": -9999
-      },
-      {
-        "name": "HDR10+",
-        "score": -9999
-      },
-      {
-        "name": "Non Retail HDR",
-        "score": -9999
-      },
-      {
-        "name": "UHDBits",
-        "score": -9999
-      },
-      {
-        "name": "Unwanted Remux Groups",
-        "score": -9999
-      },
-      {
-        "name": "Upscaled",
-        "score": -9999
-      },
-      {
-        "name": "VVC",
-        "score": -9999
-      },
-      {
-        "name": "WEBRip",
-        "score": -9999
-      },
-      {
-        "name": "x264",
-        "score": -9999
-      },
-      {
-        "name": "x265",
-        "score": -9999
-      }
-    ],
-    "qualities": [
-      {
-        "id": 8,
-        "name": "Remux-1080p"
-      },
-      {
-        "id": 9,
-        "name": "WEBDL-1080p"
-      },
-      {
-        "id": -1,
-        "name": "SD",
-        "description": "Standard Definition Fallbacks",
-        "qualities": [
-          {
-            "id": 22,
-            "name": "DVD"
-          },
-          {
-            "id": 19,
-            "name": "WEBDL-480p"
-          },
-          {
-            "id": 20,
-            "name": "WEBRip-480p"
-          },
-          {
-            "id": 24,
-            "name": "SDTV"
-          }
-        ]
-      }
-    ],
-    "upgrade_until": {
-      "id": 8,
-      "name": "Remux-1080p",
-      "description": "1080p Blu-ray disc content remuxed into a playable file format"
-    },
-    "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
-    "_id": "1080p Remux"
   },
   {
     "name": "2160p Quality",
@@ -2379,5 +2103,281 @@
       "allowPrereleases": false
     },
     "_id": "2160p Quality"
+  },
+  {
+    "name": "2160p Remux",
+    "description": "2160p Remux utilizes **audio / video tags** to prioritise high quality lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target releases based on a release group metric, 2160p Remux avoids this to stop *circular downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux should be upgraded.\n- For instance, if a hybrid remux that includes some WEB DoVi layer is released, it will be upgraded over the standard non hybrid release, regardless of release group.\n- This also helps to grab non group tagged remuxes, which are fairly common on quite a few trackers who often have the best remux available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the **1080p Remux** profile. ",
+    "tags": [
+      "2160p",
+      "Remux",
+      "HDR",
+      "Lossless Audio",
+      "h265"
+    ],
+    "upgradesAllowed": true,
+    "minCustomFormatScore": 0,
+    "upgradeUntilScore": 350,
+    "minScoreIncrement": 10,
+    "custom_formats": [
+      {
+        "name": "2160p",
+        "score": 120
+      },
+      {
+        "name": "1080p",
+        "score": 60
+      },
+      {
+        "name": "Blu-ray",
+        "score": 60
+      },
+      {
+        "name": "Blu-ray Remux",
+        "score": 60
+      },
+      {
+        "name": "DTS-X",
+        "score": 60
+      },
+      {
+        "name": "Remux",
+        "score": 60
+      },
+      {
+        "name": "DTS-HD MA",
+        "score": 50
+      },
+      {
+        "name": "TrueHD",
+        "score": 50
+      },
+      {
+        "name": "TrueHD (Missing)",
+        "score": 50
+      },
+      {
+        "name": "DVD Remux",
+        "score": 40
+      },
+      {
+        "name": "Amazon Prime",
+        "score": 30
+      },
+      {
+        "name": "Apple TV+",
+        "score": 30
+      },
+      {
+        "name": "Disney+",
+        "score": 30
+      },
+      {
+        "name": "Dolby Vision",
+        "score": 30
+      },
+      {
+        "name": "FLAC",
+        "score": 30
+      },
+      {
+        "name": "Movies Anywhere",
+        "score": 30
+      },
+      {
+        "name": "Criterion Channel",
+        "score": 20
+      },
+      {
+        "name": "HBO Max",
+        "score": 20
+      },
+      {
+        "name": "HDR10+",
+        "score": 20
+      },
+      {
+        "name": "Max",
+        "score": 20
+      },
+      {
+        "name": "Netflix",
+        "score": 20
+      },
+      {
+        "name": "Paramount+",
+        "score": 20
+      },
+      {
+        "name": "Peacock",
+        "score": 20
+      },
+      {
+        "name": "Atmos",
+        "score": 10
+      },
+      {
+        "name": "Atmos (Missing)",
+        "score": 10
+      },
+      {
+        "name": "HDR10",
+        "score": 10
+      },
+      {
+        "name": "HDR10 (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Hulu",
+        "score": 10
+      },
+      {
+        "name": "iTunes",
+        "score": 10
+      },
+      {
+        "name": "iTunes (Missing)",
+        "score": 10
+      },
+      {
+        "name": "Roku",
+        "score": 10
+      },
+      {
+        "name": "Unknown Lossless Audio",
+        "score": 5
+      },
+      {
+        "name": "3D",
+        "score": -9999
+      },
+      {
+        "name": "720p",
+        "score": -9999
+      },
+      {
+        "name": "AV1",
+        "score": -9999
+      },
+      {
+        "name": "B&W",
+        "score": -9999
+      },
+      {
+        "name": "Blu-ray Encode",
+        "score": -9999
+      },
+      {
+        "name": "Dolby Vision (Without Fallback)",
+        "score": -9999
+      },
+      {
+        "name": "Extras",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc",
+        "score": -9999
+      },
+      {
+        "name": "Full Disc (Quality Match)",
+        "score": -9999
+      },
+      {
+        "name": "h265",
+        "score": -9999
+      },
+      {
+        "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "Non Retail HDR",
+        "score": -9999
+      },
+      {
+        "name": "UHDBits",
+        "score": -9999
+      },
+      {
+        "name": "Unwanted Remux Groups",
+        "score": -9999
+      },
+      {
+        "name": "Upscaled",
+        "score": -9999
+      },
+      {
+        "name": "VVC",
+        "score": -9999
+      },
+      {
+        "name": "WEBRip",
+        "score": -9999
+      },
+      {
+        "name": "x264",
+        "score": -9999
+      },
+      {
+        "name": "x265",
+        "score": -9999
+      }
+    ],
+    "qualities": [
+      {
+        "id": 3,
+        "name": "Remux-2160p"
+      },
+      {
+        "id": 5,
+        "name": "WEBDL-2160p"
+      },
+      {
+        "id": 8,
+        "name": "Remux-1080p"
+      },
+      {
+        "id": 9,
+        "name": "WEBDL-1080p"
+      },
+      {
+        "id": -1,
+        "name": "SD",
+        "description": "Standard Definition Fallbacks",
+        "qualities": [
+          {
+            "id": 22,
+            "name": "DVD"
+          },
+          {
+            "id": 19,
+            "name": "WEBDL-480p"
+          },
+          {
+            "id": 20,
+            "name": "WEBRip-480p"
+          },
+          {
+            "id": 24,
+            "name": "SDTV"
+          }
+        ]
+      }
+    ],
+    "upgrade_until": {
+      "id": 3,
+      "name": "Remux-2160p",
+      "description": "4K Ultra HD Blu-ray disc content remuxed into a playable file format"
+    },
+    "language": "must_original",
+    "tweaks": {
+      "preferFreeleech": true,
+      "allowLosslessAudio": true,
+      "allowDVNoFallback": false,
+      "allowBleedingEdgeCodecs": false,
+      "allowPrereleases": false
+    },
+    "_id": "2160p Remux"
   }
 ]
