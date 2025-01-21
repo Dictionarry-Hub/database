@@ -10,7 +10,7 @@ tags: [home, wiki]
 
 Welcome to Dictionarry! This project aims to wiki-fy and **simplify media automation** in Radarr / Sonarr through extensive, data driven documentation, custom formats and quality profiles.
 
-<br>
+---
 
 ## Motivation
 
@@ -40,7 +40,7 @@ Think of Dictionarry as your personal car-buying expert: Instead of researching 
 
 Dictionarry's database of tested profiles and formats handles the technical decisions for you.
 
-<br>
+---
 
 ## Profilarr
 
