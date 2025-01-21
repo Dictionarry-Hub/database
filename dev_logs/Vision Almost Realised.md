@@ -2,13 +2,11 @@
 title: Vision (Almost) Realised
 slug: vision_almost_realised
 author: santiagosayshey
-created: 2025-12-24
+created: 2024-12-24
 tags: [devlog, architecture, gppi]
 ---
 
-hey @everyone, small log for today!
-
-## Vision (almost) Realized
+Hey @everyone, small log for today!
 
 ```bash
 $ python profile_compile.py 'profiles/1080p Encode.yml' '1080p Encode (sonarr - master).json' -s
