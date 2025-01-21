@@ -10,6 +10,8 @@ tags: [home, wiki]
 
 Welcome to Dictionarry! This project aims to wiki-fy and **simplify media automation** in Radarr / Sonarr through extensive, data driven documentation, custom formats and quality profiles.
 
+<br>
+
 ## Motivation
 
 Navigating the world of media automation and coming across quality terms like "Remux", or "HEVC" or "Dolby Vision" can be quite daunting when all you want to do is setup a media server to watch some content. If often **feels like you need a masters in audio / video just to grab the latest blockbuster.** Dictionarry aims not to explain these concepts in detail, but **abstract them into more approachable ideas** that don't require extensive knowledge or experience.
@@ -30,13 +32,15 @@ Dictionarry leverages two key features of Radarr and Sonarr to simplify media au
 
 Think of Dictionarry as your personal car-buying expert: Instead of researching every technical specification and test-driving dozens of vehicles, you get access to a curated showroom of pre-vetted options that match what you're looking for. Whether you want:
 
-- 2160p Remux - _Maximum quality_ 4K HDR remuxes with lossless audio and Dolby Vision
-- 2160p Quality - _Transparent 4K_ HDR encodes selected using the Encode Efficiency Index
-- 1080p Quality - _Transparent 1080p_ encodes optimized using the Golden Popcorn Performance Index
-- 1080p Efficient - _Efficient x265 1080p_ Encodes optimized to save space using the Encode Efficiency Index
+- 2160p Remux - **Maximum Quality** 4K HDR remuxes with lossless audio and Dolby Vision
+- 2160p Quality - **Transparent 4K** HDR encodes selected using the Encode Efficiency Index
+- 1080p Quality - **Transparent 1080p** encodes optimized using the Golden Popcorn Performance Index
+- 1080p Efficient - **Efficient x265 1080p** Encodes optimized to save space using the Encode Efficiency Index
 - And More....
 
 Dictionarry's database of tested profiles and formats handles the technical decisions for you.
+
+<br>
 
 ## Profilarr
 
@@ -44,9 +48,9 @@ The database by itself does nothing. Custom Formats and Quality Profiles **need 
 
 Profilarr is a **configuration management tool** for Radarr and Sonarr that can interface with **ANY remote configuration database** (not just Dictionarry's!). It automatically:
 
-- _Pulls_ new updates from your chosen database
-- _Compiles_ the database format into specific arr formats
-- _Imports_ them to your arr installations
+- **Pulls** new updates from your chosen database
+- **Compiles** the database format into specific arr formats
+- **Imports** them to your arr installations
 - Manages version control of your configurations
 
 Built on top of git, Profilarr treats your configurations like code, allowing you to:
