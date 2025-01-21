@@ -8,8 +8,6 @@ tags: [devlog, architecture]
 
 Hey @everyone, here's a small update on what I've been working on lately:
 
-# Architecture Overhaul
-
 As the project has grown bigger, it's gotten quite difficult to keep track of and manage a billion different custom formats, quality profiles, etc. To help improve development productivity, I've planned a complete overhaul of Dictionarry's architecture. This starts with separating things into modules - namely a separate database which powers the website and the profilarr tool.
 
 Next up is standardizing the actual entries inside the database. The biggest issue in development right now is making / editing / updating the same thing multiple times. If you have the same regex pattern for multiple CFs, it needs to be updated for each one of them. Quality profiles across different apps have miniscule differences in syntax (eg. web-dl in radarr vs web in sonarr), which means we need multiple files with tiny differences.
