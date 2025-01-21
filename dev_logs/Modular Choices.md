@@ -1,6 +1,6 @@
 ---
-title: Profile Tweaks
-slug: profile_tweaks
+title: Modular Choices
+slug: modular_choices
 author: santiagosayshey
 created: 2024-12-3
 tags: [devlog, architecture, user_choice]
