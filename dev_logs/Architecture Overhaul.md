@@ -15,3 +15,7 @@ Next up is standardizing the actual entries inside the database. The biggest iss
 Working in this system is extremely error prone and time consuming. To fix this, I'm creating a standard unique to dictionarry based on a **single definition format**, i.e. Regex patterns, Custom Formats and Quality Profiles are defined once, and repeated in other places using foreign keys. I don't know exactly _how_ this will look, but the plan is simplicity above all. Outside of improving productivity, I hope this standard helps encourage people who feel less confident with custom formats / quality profiles make more intuitive changes to their own setups.
 
 Now, the problem with this new and improved standard is - the arrs won't be able to read the files anymore. Solution: A compiler! This is where the fun begins; we take our simple, easy-to-develop-for files and push them through the compiler. Out pops the required syntax, with those weird naming rules (web-dl for radarr, web for sonarr), without the developer needing to ever worry about it!
+
+Here's a canvas page I made in Obsidian which visualizes this architecture:
+
+![Archiecture Diagram](https://i.imgur.com/HcXFNHU.png)
