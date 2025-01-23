@@ -4,6 +4,7 @@ slug: GPPi
 author: santiagosayshey
 created: 2023-04-20
 tags: [wiki, quality, encode]
+blurb: A data-driven metric that identifies high-quality release groups by analyzing their Golden Popcorn track record.
 ---
 
 ## What are Golden Popcorns?

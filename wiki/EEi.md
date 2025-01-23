@@ -4,6 +4,7 @@ slug: EEi
 author: santiagosayshey
 created: 2024-12-28
 tags: [wiki, efficiency, encode]
+blurb: A data-driven metric that measures how well release groups balance file size and quality in their encodes, helping users find releases that match their storage and quality preferences.
 ---
 
 This metric is aimed at identifying and ranking release groups based on their propensity to release encodes that meet certain compression ratios, with particular focus on HEVC releases where optimal efficiency occurs in specific bitrate ranges. By ranking these groups, we effectively prioritize releases that maximize HEVC's compression capabilities while maintaining quality at minimal file sizes.
