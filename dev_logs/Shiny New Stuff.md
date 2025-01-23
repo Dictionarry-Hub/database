@@ -54,3 +54,21 @@ This part is mostly speculation and rambling - nothing concrete yet. I really wa
 I want to implement this one day, I just don't have enough knowledge or experience to do it yet. The best I've come up with is something that sends a request to OpenAI's API with a prompt. The results are less than ideal. But just imagine the future where some kind of machine learning tool has access to an entire database of regexes, custom formats, and quality profiles curated by hundreds of people, and can use that knowledge to predict patterns and truly tailor stuff to suit people's needs. Who knows if it ever gets to that point, but that's my vision for Dictionarry.
 
 Ramble over, as you can tell I've been feeling pretty motivated lately!
+
+Anyway, here's some images of profilarr v2.
+
+**Regex Page**:
+
+![Regex Page](https://i.imgur.com/kMZ9qII.png)
+
+**Custom Format Page**:
+
+![Custom Format Page](https://i.imgur.com/mCyDxId.png)
+
+**Status Page**:
+
+![Status Page](https://i.imgur.com/ZleeOEF.png)
+
+Of course, everything is still a heavy work in progress.
+
+That's all for today!

@@ -30,3 +30,7 @@ If anyone has any tweak ideas (even super specific ones), please let me know and
 - Data modules (custom formats, regex patterns, quality profiles) are complete and fully implement the existing logic from Radarr / Sonarr.
 - I am currently in the progress of porting existing data to the new database (https://github.com/Dictionarry-Hub/database/tree/stable) in the new profilarr standard format. This is going to take a while, as I have to write descriptions, add tags, test cases, etc.
 - Finally, I am starting to work on the compilation engine (https://discord.com/channels/1202375791556431892/1246504849265266738/1272756617041154049) and the import module. Once these things are complete, and I'm confident we won't run into massive bugs, I'll release a beta docker image. ETA? I really don't know, but I'm working as hard as I can.
+
+If anyone has any tweak ideas (even super specific ones), please let me know and I'll work on getting it integrated! Here's an image of the Tweaks Tab:
+
+![Profile Tweaks](https://i.imgur.com/fzbmJSn.png)

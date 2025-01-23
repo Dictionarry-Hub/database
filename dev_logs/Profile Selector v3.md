@@ -17,3 +17,11 @@ The good thing about this design is that it's really modular. Once I finish the 
 Here's how it looks right now (obvious disclaimer that final version will look much much better):
 
 ![Selector Proof of Concept](https://streamable.com/2uprnl)
+
+Here's a funny tidbit from development:
+
+I tried writing some animation styling to make the inner polygon look like its stretching (as opposed to instant, static movement). It didn't quite work..
+
+Behold: Frankenstein's Triangle.
+
+![Frankenstein's Triangle](https://streamable.com/z70sj8)

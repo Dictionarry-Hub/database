@@ -19,3 +19,9 @@ Now, the problem with this new and improved standard is - the arrs won't be able
 Here's a canvas page I made in Obsidian which visualizes this architecture:
 
 ![Archiecture Diagram](https://i.imgur.com/HcXFNHU.png)
+
+# Profile Selector
+
+Here's an updated look at the new profile selector (WIP) in action. I'll leave explaining the selection algorithm for another day (because I'm still not quite happy with it), but I think it's still pretty cool to look at as is.
+
+![Selection Algorithm v1](https://streamable.com/bhi7h6)

@@ -26,3 +26,7 @@ Profilarr now includes a dedicated page for 'Sync Settings'. It allows you to li
 # Beta Release
 
 - Still not quite ready yet, but I'm working hard to get it out! Stay tuned :hearts:
+
+Here's a screenshot of this new Conflict Resolver in action (Ignore the date modified row, it will be removed for actual use)
+
+![Conflict Resolver](https://i.imgur.com/0EZrumU.png)
