@@ -7,11 +7,11 @@ tags: [wiki, efficiency, encode]
 blurb: A data-driven metric that measures how well release groups balance file size and quality in their encodes, helping users find releases that match their storage and quality preferences.
 ---
 
-This metric is aimed at identifying and ranking release groups based on their propensity to release encodes that meet certain compression ratios, with particular focus on HEVC releases where optimal efficiency occurs in specific bitrate ranges. By ranking these groups, we effectively prioritize releases that maximize HEVC's compression capabilities while maintaining quality at minimal file sizes.
+This metric is aimed at identifying and ranking release groups based on their propensity to release **encodes that meet certain compression ratios**, with particular focus on **HEVC** releases where optimal efficiency occurs in specific bitrate ranges. By ranking these groups, we effectively prioritize releases that maximize HEVC's compression capabilities while maintaining quality at minimal file sizes.
 
 ## What is a Compression Ratio?
 
-A compression ratio is a (made up) metric that evaluates encodes against their sources. We express this as the encoded file size as a percentage of its source size (typically a remux or WEB-DL).
+A compression ratio is a (made up) metric that evaluates encodes against their sources. We express this as the **encoded file size as a percentage of its source size** (typically a **remux** or **WEB-DL**).
 
 For example:
 
@@ -23,21 +23,22 @@ For example:
 
 ## Why Is This Important?
 
-Understanding compression ratios helps balance two competing needs: maintaining high video quality while minimizing file size. Modern codecs like HEVC have a "sweet spot" where they deliver excellent quality with significant size savings. Finding this optimal point is crucial because:
+Understanding compression ratios helps balance two competing needs: **maintaining high video quality while minimizing file size**. Modern codecs like **HEVC** have a **"sweet spot"** where they deliver excellent quality with significant size savings. Finding this optimal point is crucial because:
 
-- Storage and bandwidth are always limited resources
-- Going beyond certain bitrates provides diminishing quality returns
-- Different codecs have different efficiency curves
-- Release groups need clear standards for quality vs. size trade-offs
+- Storage and bandwidth are always **limited resources**
+- Going beyond certain bitrates provides **diminishing quality returns**
+- Different codecs have different **efficiency curves**
+- Release groups need clear standards for **quality vs. size trade-offs**
 
 ## What Ratio is Best?
 
-There's no one-size-fits-all answer when it comes to choosing the perfect compression ratio. The "best" ratio depends entirely on the end user's priorities and constraints. At 1080p:
+There's no one-size-fits-all answer when it comes to choosing the perfect compression ratio. The "best" ratio **depends entirely on your specific needs**. At 1080p:
 
-- Space-conscious users might prefer smaller files around 5-10% of source size, accepting quality trade-offs
-- Quality-focused users might push towards 30-40% of source size for more transparent results
-- Most users find a sweet spot in the middle, balancing quality and size
-  However, there are clear technical limits where going larger becomes pointless - this is where we get to our maximum ratios of 40% and 60% for 1080p and 2160p, respectively?
+- Space-conscious users might prefer **smaller files (5-10% of source)** with quality trade-offs
+- Quality-focused users might push towards **higher quality (30-40% of source)** for transparency
+- Most users find a sweet spot in the middle
+
+However, there are technical limits - files larger than **40% for 1080p** and **60% for 2160p** provide no meaningful benefits.
 
 ## Why Set Maximum Ratios of 40% and 60%?
 
@@ -45,32 +46,29 @@ The compression ratio ceilings are set based on different factors for 1080p and 
 
 ### 1080p (40% Maximum)
 
-The 40% ceiling for 1080p exists because we can roughly measure where h265 stops being more efficient than h264. We do this using two key video quality metrics:
+The 40% ceiling for 1080p exists because we can roughly measure where **HEVC stops being efficient compared to AVC**. We do this using two key video quality metrics:
 
-- **VMAF,** developed by Netflix, analyzes how humans perceive video quality and scores it from 0-100
-- **BD-Rate** tells us how much smaller one encode is compared to another while maintaining the same quality level
+- **VMAF** - analyzes how humans perceive video quality and scores it from 0-100
+- **BD-Rate** - tells us how much smaller one encode is compared to another while maintaining the same quality level
 
 Using these tools together shows us that:
 
-- HEVC achieves 20-40% smaller files in the mid-bitrate range (~2-10 Mbps for 1080p)
+- HEVC achieves **20-40% smaller files** in the mid-bitrate range (~2-10 Mbps for 1080p)
 - These space savings are consistent across different quality levels
-- Beyond this point, both old and new codecs saturate at near transparent quality, making HEVC's advantages disappear
-- At ratios above 40%, x264 becomes the preferred choice as encodes are easier to produce and typically undergo more rigorous quality control
+- Beyond this point, both codecs achieve **near identical quality**
+- At ratios above 40%, **AVC becomes preferred** due to better tooling and quality control
 
 ### 2160p (60% Maximum)
 
 The 60% ceiling for 2160p content is based on different considerations:
 
-- This is approximately where transparency becomes achievable for most 2160p content
-- Higher ratios provide diminishing returns in perceived quality
-- At this compression level, most content achieves VMAF scores above 95
-- Storage efficiency becomes particularly important at 2160p due to the larger base file sizes
-- The relationship between bitrate and perceived quality is non-linear, with improvements becoming increasingly subtle beyond this point
+- This is approximately where **visual transparency** becomes achievable
+- Higher ratios provide **diminishing returns**
+- At this compression level, content achieves **VMAF scores above 95**
+- **Storage efficiency** becomes critical due to larger base file sizes
+- Quality improvements become **increasingly subtle** beyond this point
 
-Give these articles a read to better understand how VMAF and BD-Rate tell us how efficient a codec is:
-
-- https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
-- https://www.mdpi.com/2079-9292/13/5/953
+Read these articles to better understand how VMAF and BD-Rate tell us how efficient a codec is[^1][^2]:
 
 ## How Do We Apply This Index?
 
@@ -184,3 +182,8 @@ These examples demonstrate how different groups excel at different target ratios
 | What about animated content?                                         | Animated content typically has different compression characteristics than live action - it often achieves excellent quality at much lower bitrates due to its unique properties (flat colors, sharp edges, less grain). Ideally, we would use higher target ratios for live action and lower ones for animation. However, reliably detecting animated content programmatically is extremely challenging. While we can sometimes identify anime by certain keywords or release group patterns, western animation, partial animation, and CGI-heavy content create too many edge cases for reliable detection. For now, we treat all content with the same metric, acknowledging this as a known limitation of the system. Users seeking optimal results for animated content may want to target lower compression ratios than they would for live action material, perhaps via a duplicate profile at a different compression target.                                                                                                                                                                                                                                                                     |
 | Why does transparency require 60% at 2160p compared to 40% at 1080p? | The higher ratio requirement for 2160p content stems from several technical factors that compound to demand more data for achieving transparency:<br><br>1. **Increased Color Depth**: Most 2160p content uses 10-bit color depth compared to 8-bit for standard 1080p content. This 25% increase in bit depth requires more data to maintain precision in color gradients and prevent banding.<br><br>2. **HDR Requirements**: 2160p content often includes HDR metadata, which demands more precise encoding of brightness levels and color information. The expanded dynamic range means we need to preserve more subtle variations in both very bright and very dark scenes.<br><br>3. **Resolution Scaling**: While 2160p has 4x the pixels of 1080p, compression efficiency doesn't scale linearly. Higher resolution reveals more subtle details and film grain, which require more data to preserve accurately.<br><br>These factors combine multiplicatively rather than additively, which is why we need a 50% increase in the compression ratio ceiling (from 40% to 60%) to achieve similar perceptual transparency.                                                                         |
 | Do all 2160p releases need 60% for transparency?                     | No, the actual requirements vary significantly based on several factors:<br><br>1. **Content Type**:<br>- Animation might achieve transparency at 30-40%<br>- Digital source material (like CGI-heavy films) often requires less<br>- Film-based content with heavy grain needs the full 60%<br><br>2. **HDR Implementation**:<br>- SDR 2160p content can often achieve transparency at lower ratios<br>- Dolby Vision adds additional overhead compared to HDR10<br>- Some HDR grades are more demanding than others<br><br>3. **Source Quality**:<br>- Digital intermediate resolution (2K vs 4K)<br>- Film scan quality and grain structure<br>- Original master's bit depth and color space<br><br>4. **Scene Complexity**:<br>- High motion scenes need more data<br>- Complex textures and patterns require higher bitrates<br>- Dark scenes with subtle gradients are particularly demanding                                                                                                                                                                                                                                                                                                      |
+
+## References
+
+[^1]: Shen, Y. (2020). "Bjontegaard Delta Rate Metric". Medium Innovation Labs Blog. https://medium.com/innovation-labs-blog/bjontegaard-delta-rate-metric-c8c82c1bc42c
+[^2]: Ling, N.; Antier, M.; Liu, Y.; Yang, X.; Li, Z. (2024). "Video Quality Assessment: From FR to NR". Electronics, 13(5), 953. https://www.mdpi.com/2079-9292/13/5/953
