@@ -3,7 +3,9 @@
     "name": "1080p Balanced Tier 1",
     "description": "Matches release groups who fall under 1080p Balanced Tier 1",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Balanced",
+      "1080p"
     ],
     "conditions": [
       {
@@ -136,7 +138,9 @@
     "name": "1080p Balanced Tier 2",
     "description": "Matches release groups who fall under 1080p Balanced Tier 2",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Balanced",
+      "1080p"
     ],
     "conditions": [
       {
@@ -958,8 +962,9 @@
     "name": "2160p Balanced Tier 1",
     "description": "Matches release groups who fall under 2160p Balanced Tier 1",
     "tags": [
-      "Release Group",
-      "Tier"
+      "Release Group Tier",
+      "Balanced",
+      "2160p"
     ],
     "conditions": [
       {
@@ -978,10 +983,10 @@
       },
       {
         "name": "HONE",
-        "type": "release_title",
-        "required": false,
         "negate": false,
-        "pattern": "HONE"
+        "pattern": "HONE",
+        "required": false,
+        "type": "release_title"
       }
     ],
     "tests": [
@@ -1092,8 +1097,9 @@
     "name": "2160p Balanced Tier 2",
     "description": "Matches release groups who fall under 2160p Balanced Tier 2",
     "tags": [
-      "Release Group",
-      "Tier"
+      "Release Group Tier",
+      "Balanced",
+      "2160p"
     ],
     "conditions": [
       {
@@ -1112,10 +1118,10 @@
       },
       {
         "name": "hallowed",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "hallowed"
+        "pattern": "hallowed",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "BHDStudio",
@@ -1265,7 +1271,9 @@
     "name": "2160p Quality Tier 1",
     "description": "Matches release groups who fall under 2160p Quality Tier 1",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Quality",
+      "2160p"
     ],
     "conditions": [
       {
@@ -1346,7 +1354,9 @@
     "name": "2160p Quality Tier 2",
     "description": "Matches release groups who fall under 2160p Quality Tier 2",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Quality",
+      "2160p"
     ],
     "conditions": [
       {
@@ -1399,7 +1409,9 @@
     "name": "2160p Quality Tier 3",
     "description": "Matches release groups who fall under 2160p Quality Tier 3",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Quality",
+      "2160p"
     ],
     "conditions": [
       {
@@ -1480,7 +1492,9 @@
     "name": "2160p Quality Tier 4",
     "description": "Matches release groups who fall under 2160p Quality Tier 4",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Quality",
+      "2160p"
     ],
     "conditions": [
       {
@@ -1554,7 +1568,9 @@
     "name": "2160p Quality Tier 5",
     "description": "Matches release groups who fall under 2160p Quality Tier 5",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Quality",
+      "2160p"
     ],
     "conditions": [
       {
@@ -1887,7 +1903,9 @@
     "name": "2160p Quality Tier 6",
     "description": "Matches release groups who fall under 2160p Quality Tier 6",
     "tags": [
-      "Release Group"
+      "Release Group Tier",
+      "Quality",
+      "2160p"
     ],
     "conditions": [
       {
@@ -2928,7 +2946,8 @@
     "description": "Matches the 'B&W' Regex Pattern",
     "tags": [
       "Unwanted",
-      "Colour Grade"
+      "Colour Grade",
+      "Enhancement"
     ],
     "conditions": [
       {
@@ -2989,22 +3008,23 @@
     "name": "Blu-ray Remux",
     "description": "A Blu-ray Remux is a direct rip of a Blu-ray's content without any re-encoding, preserving the original video, audio, and subtitle quality. It retains the exact resolution, bitrate, and format of the Blu-ray, ensuring no loss in fidelity compared to the source.",
     "tags": [
-      "Lossless"
+      "Lossless",
+      "Source"
     ],
     "conditions": [
       {
         "name": "Blu-ray",
-        "type": "source",
-        "required": true,
         "negate": false,
-        "source": "bluray"
+        "required": true,
+        "source": "bluray",
+        "type": "source"
       },
       {
         "name": "Remux",
-        "type": "release_title",
-        "required": true,
         "negate": false,
-        "pattern": "Remux"
+        "pattern": "Remux",
+        "required": true,
+        "type": "release_title"
       }
     ],
     "tests": [
@@ -3759,7 +3779,8 @@
     "description": "Matches the 'Extras' Regex Pattern",
     "tags": [
       "Unwanted",
-      "Extras"
+      "Extras",
+      "Enhancement"
     ],
     "conditions": [
       {
@@ -3838,7 +3859,8 @@
     "description": "Matches releases with 100% Freeleech",
     "tags": [
       "Freeleech",
-      "Tweak"
+      "Tweak",
+      "Flag"
     ],
     "conditions": [
       {
@@ -3857,15 +3879,16 @@
     "description": "Matches releases with 25% Freeleech",
     "tags": [
       "Freeleech",
-      "Tweak"
+      "Tweak",
+      "Flag"
     ],
     "conditions": [
       {
+        "flag": "freeleech_25",
         "name": "Free25",
-        "type": "indexer_flag",
-        "required": true,
         "negate": false,
-        "flag": "freeleech_25"
+        "required": true,
+        "type": "indexer_flag"
       }
     ],
     "tests": [],
@@ -3876,7 +3899,8 @@
     "description": "Matches releases with 50% Freeleech",
     "tags": [
       "Freeleech",
-      "Tweak"
+      "Tweak",
+      "Flag"
     ],
     "conditions": [
       {
@@ -3895,7 +3919,8 @@
     "description": "Matches releases with 75% Freeleech",
     "tags": [
       "Freeleech",
-      "Tweak"
+      "Tweak",
+      "Flag"
     ],
     "conditions": [
       {
@@ -5281,7 +5306,9 @@
   {
     "name": "Not English",
     "description": "Matches releases that don't include an English language track. Dual audio is allowed.",
-    "tags": [],
+    "tags": [
+      "Language"
+    ],
     "conditions": [
       {
         "exceptLanguage": true,
@@ -5306,7 +5333,9 @@
   {
     "name": "Not Only English (Missing)",
     "description": "Attempts to matches releases with mutliple audio tracks but are not parsed as \"Multi Langauge\". Instead, attempts to find regular expressions which imply the release has dual audio. \n ",
-    "tags": [],
+    "tags": [
+      "Language"
+    ],
     "conditions": [
       {
         "exceptLanguage": false,
@@ -5318,10 +5347,10 @@
       },
       {
         "name": "Dual Audio Regex",
-        "type": "release_title",
-        "required": true,
         "negate": false,
-        "pattern": "Dual Audio"
+        "pattern": "Dual Audio",
+        "required": true,
+        "type": "release_title"
       }
     ],
     "tests": [],
@@ -5330,7 +5359,9 @@
   {
     "name": "Not Only English",
     "description": "Matches releases that don't include an English language track. Dual audio is NOT allowed.",
-    "tags": [],
+    "tags": [
+      "Language"
+    ],
     "conditions": [
       {
         "exceptLanguage": true,
@@ -5957,43 +5988,44 @@
     "name": "SD Bluray Encodes",
     "description": "Matches SD Encodes that were encoded from a Blu-ray source. Existence implies the existence of HD encodes. ",
     "tags": [
-      "Encode"
+      "Encode",
+      "Source"
     ],
     "conditions": [
       {
         "name": "Bluray",
-        "type": "source",
-        "required": true,
         "negate": false,
-        "source": "bluray"
+        "required": true,
+        "source": "bluray",
+        "type": "source"
       },
       {
         "name": "576p",
-        "type": "resolution",
-        "required": false,
         "negate": false,
-        "resolution": "576p"
+        "required": false,
+        "resolution": "576p",
+        "type": "resolution"
       },
       {
         "name": "540p",
-        "type": "resolution",
-        "required": false,
         "negate": false,
-        "resolution": "540p"
+        "required": false,
+        "resolution": "540p",
+        "type": "resolution"
       },
       {
         "name": "480p",
-        "type": "resolution",
-        "required": false,
         "negate": false,
-        "resolution": "480p"
+        "required": false,
+        "resolution": "480p",
+        "type": "resolution"
       },
       {
         "name": "360p",
-        "type": "resolution",
-        "required": false,
         "negate": false,
-        "resolution": "360p"
+        "required": false,
+        "resolution": "360p",
+        "type": "resolution"
       }
     ],
     "tests": [],
@@ -6159,21 +6191,23 @@
   {
     "name": "Scene",
     "description": "Matches Scene regex patterns, negates any WEB-DLs.",
-    "tags": [],
+    "tags": [
+      "Release Group"
+    ],
     "conditions": [
       {
         "name": "Scene",
-        "type": "release_title",
-        "required": true,
         "negate": false,
-        "pattern": "Scene"
+        "pattern": "Scene",
+        "required": true,
+        "type": "release_title"
       },
       {
         "name": "WEB-DL",
-        "type": "source",
-        "required": false,
         "negate": true,
-        "source": "web_dl"
+        "required": false,
+        "source": "web_dl",
+        "type": "source"
       }
     ],
     "tests": [],
@@ -6467,7 +6501,8 @@
     "name": "UHDBits",
     "description": "Matches patterns unique to the UHDBits indexer. Needed to remove remux based releases due to bad parsing",
     "tags": [
-      "Private Tracker"
+      "Private Tracker",
+      "Release Group"
     ],
     "conditions": [
       {
@@ -7938,7 +7973,8 @@
     "name": "x265 (Missing 2160p)",
     "description": "Attempts to match 2160p x265 encodes that aren't labelled with any codec. ",
     "tags": [
-      "x265"
+      "x265",
+      "Codec"
     ],
     "conditions": [
       {
@@ -7957,10 +7993,10 @@
       },
       {
         "name": "Not REMUX",
-        "type": "release_title",
-        "required": true,
         "negate": true,
-        "pattern": "Remux"
+        "pattern": "Remux",
+        "required": true,
+        "type": "release_title"
       },
       {
         "name": "Not x265",
@@ -7971,10 +8007,10 @@
       },
       {
         "name": "Not x264",
-        "type": "release_title",
-        "required": true,
         "negate": true,
-        "pattern": "x264"
+        "pattern": "x264",
+        "required": true,
+        "type": "release_title"
       }
     ],
     "tests": [
@@ -8010,7 +8046,8 @@
     "name": "x265 (Missing)",
     "description": "Attempts to match 1080p x265 encodes that are mislabeled as h265. ",
     "tags": [
-      "x265"
+      "x265",
+      "Codec"
     ],
     "conditions": [
       {
