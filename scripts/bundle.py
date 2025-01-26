@@ -27,11 +27,38 @@ def parse_frontmatter(content):
     return {}, content
 
 
+def load_regex_patterns():
+    """Load all regex patterns from the regex_patterns folder"""
+    patterns = {}
+    pattern_folder = Path("regex_patterns")
+    if pattern_folder.exists():
+        for yml_file in pattern_folder.glob("*.yml"):
+            try:
+                with open(yml_file, encoding='utf-8') as f:
+                    pattern_data = yaml.safe_load(f)
+                    patterns[yml_file.stem] = pattern_data.get('pattern')
+            except Exception as e:
+                print(f"Error loading regex pattern {yml_file}: {e}")
+    return patterns
+
+
+def resolve_patterns_in_conditions(conditions, patterns):
+    """Resolve regex patterns in conditions"""
+    pattern_types = ['release_title', 'release_group', 'edition']
+
+    for condition in conditions:
+        if condition.get('type') in pattern_types:
+            # For these types, pattern field is always a reference to regex_patterns
+            pattern_name = condition.get('pattern')
+            if pattern_name and pattern_name in patterns:
+                condition['pattern'] = patterns[pattern_name]
+    return conditions
+
+
 def bundle_markdown(folder_name):
     """Bundle markdown files with frontmatter"""
     data = []
     folder_path = Path(folder_name)
-
     if folder_path.exists():
         # Sort files to ensure consistent ordering
         for md_file in sorted(folder_path.glob("*.md")):
@@ -39,13 +66,11 @@ def bundle_markdown(folder_name):
                 with open(md_file, encoding='utf-8') as f:
                     content = f.read()
                     meta, content = parse_frontmatter(content)
-
                     # Ensure required fields exist
                     if 'title' not in meta:
                         meta['title'] = md_file.stem.replace('-', ' ').title()
                     if 'author' not in meta:
                         meta['author'] = 'Unknown'
-
                     item = {
                         "_id":
                         md_file.stem,
@@ -62,56 +87,71 @@ def bundle_markdown(folder_name):
     return data
 
 
-def bundle_folder(folder_name):
+def bundle_folder(folder_name, regex_patterns=None):
     """Bundle files based on type"""
-    # List of folders that contain markdown files
     markdown_folders = ["wiki", "dev_logs"]
 
     if folder_name in markdown_folders:
         return bundle_markdown(folder_name)
-    else:
-        data = []
-        folder_path = Path(folder_name)
 
-        if folder_path.exists():
-            # Sort files to ensure consistent ordering
-            for yml_file in sorted(folder_path.glob("*.yml")):
-                try:
-                    with open(yml_file, encoding='utf-8') as f:
-                        item = yaml.safe_load(f)
-                        item["_id"] = yml_file.stem
-                        data.append(item)
-                except Exception as e:
-                    print(f"Error processing {yml_file}: {e}")
-        return data
+    data = []
+    folder_path = Path(folder_name)
+    if folder_path.exists():
+        # Sort files to ensure consistent ordering
+        for yml_file in sorted(folder_path.glob("*.yml")):
+            try:
+                with open(yml_file, encoding='utf-8') as f:
+                    item = yaml.safe_load(f)
+                    item["_id"] = yml_file.stem
+
+                    # If this is a custom format, resolve its patterns
+                    if folder_name == "custom_formats" and regex_patterns:
+                        if "conditions" in item:
+                            item[
+                                "conditions"] = resolve_patterns_in_conditions(
+                                    item["conditions"], regex_patterns)
+
+                    data.append(item)
+            except Exception as e:
+                print(f"Error processing {yml_file}: {e}")
+    return data
 
 
-# Create bundles directory
-Path("bundles").mkdir(exist_ok=True)
+def main():
+    # Create bundles directory
+    Path("bundles").mkdir(exist_ok=True)
 
-# Define folders to bundle
-folders = [
-    "custom_formats", "profiles", "regex_patterns", "group_tiers", "dev_logs",
-    "wiki"
-]
+    # Load regex patterns first
+    print("Loading regex patterns...")
+    regex_patterns = load_regex_patterns()
 
-# Bundle each folder
-for folder in folders:
-    print(f"Processing {folder}...")
-    data = bundle_folder(folder)
-    bundle_path = f"bundles/{folder}.json"
+    # Define folders to bundle
+    folders = [
+        "custom_formats", "profiles", "regex_patterns", "group_tiers",
+        "dev_logs", "wiki"
+    ]
 
-    with open(bundle_path, "w", encoding='utf-8') as f:
-        json.dump(data, f, indent=2, cls=DateTimeEncoder)
-    print(f"Created {bundle_path} with {len(data)} items")
+    # Bundle each folder
+    for folder in folders:
+        print(f"Processing {folder}...")
+        data = bundle_folder(folder,
+                             regex_patterns=regex_patterns
+                             if folder == "custom_formats" else None)
+        bundle_path = f"bundles/{folder}.json"
+        with open(bundle_path, "w", encoding='utf-8') as f:
+            json.dump(data, f, indent=2, cls=DateTimeEncoder)
+        print(f"Created {bundle_path} with {len(data)} items")
 
-# Create version file
-version = {
-    "updated_at": datetime.now(timezone.utc).isoformat(),
-    "folders": folders
-}
+    # Create version file
+    version = {
+        "updated_at": datetime.now(timezone.utc).isoformat(),
+        "folders": folders
+    }
+    with open("bundles/version.json", "w", encoding='utf-8') as f:
+        json.dump(version, f, indent=2, cls=DateTimeEncoder)
 
-with open("bundles/version.json", "w", encoding='utf-8') as f:
-    json.dump(version, f, indent=2, cls=DateTimeEncoder)
+    print("Bundle creation complete!")
 
-print("Bundle creation complete!")
+
+if __name__ == "__main__":
+    main()
