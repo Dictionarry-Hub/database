@@ -25,7 +25,7 @@
       {
         "name": "BHDStudio",
         "negate": false,
-        "pattern": "BHDStudio",
+        "pattern": "(?<=^|[\\s.-])BHDStudio\\b",
         "required": false,
         "type": "release_group"
       }
@@ -160,7 +160,7 @@
       {
         "name": "hallowed",
         "negate": false,
-        "pattern": "hallowed",
+        "pattern": "(?<=^|[\\s.-])hallowed\\b",
         "required": false,
         "type": "release_group"
       }
@@ -308,21 +308,21 @@
       {
         "name": "DON",
         "negate": false,
-        "pattern": "DON",
+        "pattern": "(?<=^|[\\s.-])DON\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "D-Z0N3",
         "negate": false,
-        "pattern": "D-Z0N3",
+        "pattern": "(?<=^|[\\s.-])D-Z0N3\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "EbP",
         "negate": false,
-        "pattern": "EbP",
+        "pattern": "(?<=^|[\\s.-])EbP\\b",
         "required": false,
         "type": "release_group"
       },
@@ -357,49 +357,49 @@
       {
         "name": "c0ke",
         "negate": false,
-        "pattern": "c0ke",
+        "pattern": "(?<=^|[\\s.-])c0ke\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CtrlHD",
         "negate": false,
-        "pattern": "CtrlHD",
+        "pattern": "(?<=^|[\\s.-])CtrlHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Geek",
         "negate": false,
-        "pattern": "Geek",
+        "pattern": "(?<=^|[\\s.-])Geek\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HiFi",
         "negate": false,
-        "pattern": "HiFi",
+        "pattern": "(?<=^|[\\s.-])HiFi\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "TayTo",
         "negate": false,
-        "pattern": "TayTo",
+        "pattern": "(?<=^|[\\s.-])TayTo\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "VietHD",
         "negate": false,
-        "pattern": "VietHD",
+        "pattern": "(?<=^|[\\s.-])VietHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "ZQ",
         "negate": false,
-        "pattern": "ZQ",
+        "pattern": "(?<=^|[\\s.-])ZQ\\b",
         "required": false,
         "type": "release_group"
       },
@@ -434,56 +434,56 @@
       {
         "name": "CRiSC",
         "negate": false,
-        "pattern": "CRiSC",
+        "pattern": "(?<=^|[\\s.-])CRiSC\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "decibeL",
         "negate": false,
-        "pattern": "decibeL",
+        "pattern": "(?<=^|[\\s.-])decibeL\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "FoRM",
         "negate": false,
-        "pattern": "FoRM",
+        "pattern": "(?<=^|[\\s.-])FoRM\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HiDt",
         "negate": false,
-        "pattern": "HiDt",
+        "pattern": "(?<=^|[\\s.-])HiDt\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HiP",
         "negate": false,
-        "pattern": "HiP",
+        "pattern": "(?<=^|[\\s.-])HiP\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "iFT",
         "negate": false,
-        "pattern": "iFT",
+        "pattern": "(?<=^|[\\s.-])iFT\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SA89",
         "negate": false,
-        "pattern": "SA89",
+        "pattern": "(?<=^|[\\s.-])SA89\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "WMING",
         "negate": false,
-        "pattern": "WMING",
+        "pattern": "(?<=^|[\\s.-])WMING\\b",
         "required": false,
         "type": "release_group"
       },
@@ -518,7 +518,7 @@
       {
         "name": "BMF",
         "negate": false,
-        "pattern": "BMF",
+        "pattern": "(?<=^|[\\s.-])BMF\\b",
         "required": false,
         "type": "release_group"
       },
@@ -532,35 +532,35 @@
       {
         "name": "HDMaNiAcS",
         "negate": false,
-        "pattern": "HDMaNiAcS",
+        "pattern": "(?<=^|[\\s.-])HDMaNiAcS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "IDE",
         "negate": false,
-        "pattern": "IDE",
+        "pattern": "(?<=^|[\\s.-])IDE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "LolHD",
         "negate": false,
-        "pattern": "LolHD",
+        "pattern": "(?<=^|[\\s.-])LolHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "NCmt",
         "negate": false,
-        "pattern": "NCmt",
+        "pattern": "(?<=^|[\\s.-])NCmt\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "NTb",
         "negate": false,
-        "pattern": "NTb",
+        "pattern": "(?<=^|[\\s.-])NTb\\b",
         "required": false,
         "type": "release_group"
       },
@@ -595,56 +595,56 @@
       {
         "name": "AJP69",
         "negate": false,
-        "pattern": "AJP69",
+        "pattern": "(?<=^|[\\s.-])AJP69\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BV",
         "negate": false,
-        "pattern": "BV",
+        "pattern": "(?<=^|[\\s.-])BV\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Chotab",
         "negate": false,
-        "pattern": "Chotab",
+        "pattern": "(?<=^|[\\s.-])Chotab\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CJ",
         "negate": false,
-        "pattern": "CJ",
+        "pattern": "(?<=^|[\\s.-])CJ\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CRX",
         "negate": false,
-        "pattern": "CRX",
+        "pattern": "(?<=^|[\\s.-])CRX\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Dariush",
         "negate": false,
-        "pattern": "Dariush",
+        "pattern": "(?<=^|[\\s.-])Dariush\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "E.N.D",
         "negate": false,
-        "pattern": "E.N.D",
+        "pattern": "(?<=^|[\\s.-])E.N.D\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "E1",
         "negate": false,
-        "pattern": "E1",
+        "pattern": "(?<=^|[\\s.-])E1\\b",
         "required": false,
         "type": "release_group"
       },
@@ -653,266 +653,266 @@
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "EDPH"
+        "pattern": "(?<=^|[\\s.-])EDPH\\b"
       },
       {
         "name": "ESiR",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "ESiR"
+        "pattern": "(?<=^|[\\s.-])ESiR\\b"
       },
       {
         "name": "EXCiSION",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "EXCiSION"
+        "pattern": "(?<=^|[\\s.-])EXCiSION\\b"
       },
       {
         "name": "FilmHD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "FilmHD"
+        "pattern": "(?<=^|[\\s.-])FilmHD\\b"
       },
       {
         "name": "FraMeSToR",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "FraMeSToR"
+        "pattern": "(?<=^|[\\s.-])FraMeSToR\\b"
       },
       {
         "name": "FTW-HD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "FTW-HD"
+        "pattern": "(?<=^|[\\s.-])FTW-HD\\b"
       },
       {
         "name": "GALAXY",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "GALAXY"
+        "pattern": "(?<=^|[\\s.-])GALAXY\\b"
       },
       {
         "name": "GS88",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "GS88"
+        "pattern": "(?<=^|[\\s.-])GS88\\b"
       },
       {
         "name": "HANDJOB",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "HANDJOB"
+        "pattern": "(?<=^|[\\s.-])HANDJOB\\b"
       },
       {
         "name": "hdalx",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "hdalx"
+        "pattern": "(?<=^|[\\s.-])hdalx\\b"
       },
       {
         "name": "iON",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "iON"
+        "pattern": "(?<=^|[\\s.-])iON\\b"
       },
       {
         "name": "KASHMiR",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "KASHMiR"
+        "pattern": "(?<=^|[\\s.-])KASHMiR\\b"
       },
       {
         "name": "LEGi0N",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "LEGi0N"
+        "pattern": "(?<=^|[\\s.-])LEGi0N\\b"
       },
       {
         "name": "LiNG",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "LiNG"
+        "pattern": "(?<=^|[\\s.-])LiNG\\b"
       },
       {
         "name": "LoRD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "LoRD"
+        "pattern": "(?<=^|[\\s.-])LoRD\\b"
       },
       {
         "name": "luvBB",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "luvBB"
+        "pattern": "(?<=^|[\\s.-])luvBB\\b"
       },
       {
         "name": "MTeam",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "MTeam"
+        "pattern": "(?<=^|[\\s.-])MTeam\\b"
       },
       {
         "name": "nmd",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "nmd"
+        "pattern": "(?<=^|[\\s.-])nmd\\b"
       },
       {
         "name": "NyHD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "NyHD"
+        "pattern": "(?<=^|[\\s.-])NyHD\\b"
       },
       {
         "name": "ORiGEN",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "ORiGEN"
+        "pattern": "(?<=^|[\\s.-])ORiGEN\\b"
       },
       {
         "name": "P0W4HD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "P0W4HD"
+        "pattern": "(?<=^|[\\s.-])P0W4HD\\b"
       },
       {
         "name": "Penumbra",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "Penumbra"
+        "pattern": "(?<=^|[\\s.-])Penumbra\\b"
       },
       {
         "name": "playHD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "playHD"
+        "pattern": "(?<=^|[\\s.-])playHD\\b"
       },
       {
         "name": "Positive",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "Positive"
+        "pattern": "(?<=^|[\\s.-])Positive\\b"
       },
       {
         "name": "PTer",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "PTer"
+        "pattern": "(?<=^|[\\s.-])PTer\\b"
       },
       {
         "name": "rightSIZE",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "rightSIZE"
+        "pattern": "(?<=^|[\\s.-])rightSIZE\\b"
       },
       {
         "name": "rttr",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "rttr"
+        "pattern": "(?<=^|[\\s.-])rttr\\b"
       },
       {
         "name": "SaNcTi",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "SaNcTi"
+        "pattern": "(?<=^|[\\s.-])SaNcTi\\b"
       },
       {
         "name": "SbR",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "SbR"
+        "pattern": "(?<=^|[\\s.-])SbR\\b"
       },
       {
         "name": "SiMPLE",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "SiMPLE"
+        "pattern": "(?<=^|[\\s.-])SiMPLE\\b"
       },
       {
         "name": "SOP",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "SOP"
+        "pattern": "(?<=^|[\\s.-])SOP\\b"
       },
       {
         "name": "TBB",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "TBB"
+        "pattern": "(?<=^|[\\s.-])TBB\\b"
       },
       {
         "name": "TDD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "TDD"
+        "pattern": "(?<=^|[\\s.-])TDD\\b"
       },
       {
         "name": "VLAD",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "VLAD"
+        "pattern": "(?<=^|[\\s.-])VLAD\\b"
       },
       {
         "name": "W4NK3R",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "W4NK3R"
+        "pattern": "(?<=^|[\\s.-])W4NK3R\\b"
       },
       {
         "name": "xander",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "xander"
+        "pattern": "(?<=^|[\\s.-])xander\\b"
       },
       {
         "name": "ZIMBO",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "ZIMBO"
+        "pattern": "(?<=^|[\\s.-])ZIMBO\\b"
       },
       {
         "name": "ZoroSenpai",
         "type": "release_group",
         "required": false,
         "negate": false,
-        "pattern": "ZoroSenpai"
+        "pattern": "(?<=^|[\\s.-])ZoroSenpai\\b"
       },
       {
         "name": "Not WEB-DL",
@@ -984,7 +984,7 @@
       {
         "name": "HONE",
         "negate": false,
-        "pattern": "HONE",
+        "pattern": "(?<=^|[\\s.-])HONE\\b",
         "required": false,
         "type": "release_title"
       }
@@ -1119,14 +1119,14 @@
       {
         "name": "hallowed",
         "negate": false,
-        "pattern": "hallowed",
+        "pattern": "(?<=^|[\\s.-])hallowed\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BHDStudio",
         "negate": false,
-        "pattern": "BHDStudio",
+        "pattern": "(?<=^|[\\s.-])BHDStudio\\b",
         "required": false,
         "type": "release_group"
       }
@@ -1252,7 +1252,7 @@
       {
         "name": "Remux",
         "negate": true,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       },
@@ -1293,56 +1293,56 @@
       {
         "name": "DON",
         "negate": false,
-        "pattern": "DON",
+        "pattern": "(?<=^|[\\s.-])DON\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "DEPTH",
         "negate": false,
-        "pattern": "DEPTH",
+        "pattern": "(?<=^|[\\s.-])DEPTH\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HQMUX",
         "negate": false,
-        "pattern": "HQMUX",
+        "pattern": "(?<=^|[\\s.-])HQMUX\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "b0mbardiers",
         "negate": false,
-        "pattern": "b0mbardiers",
+        "pattern": "(?<=^|[\\s.-])b0mbardiers\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CtrlHD",
         "negate": false,
-        "pattern": "CtrlHD",
+        "pattern": "(?<=^|[\\s.-])CtrlHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "PTer",
         "negate": false,
-        "pattern": "PTer",
+        "pattern": "(?<=^|[\\s.-])PTer\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SA89",
         "negate": false,
-        "pattern": "SA89",
+        "pattern": "(?<=^|[\\s.-])SA89\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "W4NK3R",
         "negate": false,
-        "pattern": "W4NK3R",
+        "pattern": "(?<=^|[\\s.-])W4NK3R\\b",
         "required": false,
         "type": "release_group"
       }
@@ -1376,28 +1376,28 @@
       {
         "name": "BSTD",
         "negate": false,
-        "pattern": "BSTD",
+        "pattern": "(?<=^|[\\s.-])BSTD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "c0kE",
         "negate": false,
-        "pattern": "c0kE",
+        "pattern": "(?<=^|[\\s.-])c0kE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "D-Z0N3",
         "negate": false,
-        "pattern": "D-Z0N3",
+        "pattern": "(?<=^|[\\s.-])D-Z0N3\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "MainFrame",
         "negate": false,
-        "pattern": "MainFrame",
+        "pattern": "(?<=^|[\\s.-])MainFrame\\b",
         "required": false,
         "type": "release_group"
       }
@@ -1431,56 +1431,56 @@
       {
         "name": "JustWatch",
         "negate": false,
-        "pattern": "JustWatch",
+        "pattern": "(?<=^|[\\s.-])JustWatch\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "DEFLATE",
         "negate": false,
-        "pattern": "DEFLATE",
+        "pattern": "(?<=^|[\\s.-])DEFLATE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "REBORN",
         "negate": false,
-        "pattern": "REBORN",
+        "pattern": "(?<=^|[\\s.-])REBORN\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SURCODE",
         "negate": false,
-        "pattern": "SURCODE",
+        "pattern": "(?<=^|[\\s.-])SURCODE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Chotab",
         "negate": false,
-        "pattern": "Chotab",
+        "pattern": "(?<=^|[\\s.-])Chotab\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SPHD",
         "negate": false,
-        "pattern": "SPHD",
+        "pattern": "(?<=^|[\\s.-])SPHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Kitsune",
         "negate": false,
-        "pattern": "Kitsune",
+        "pattern": "(?<=^|[\\s.-])Kitsune\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "TnP",
         "negate": false,
-        "pattern": "TnP",
+        "pattern": "(?<=^|[\\s.-])TnP\\b",
         "required": false,
         "type": "release_group"
       }
@@ -1514,49 +1514,49 @@
       {
         "name": "4KDVS",
         "negate": false,
-        "pattern": "4KDVS",
+        "pattern": "(?<=^|[\\s.-])4KDVS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "TDD",
         "negate": false,
-        "pattern": "TDD",
+        "pattern": "(?<=^|[\\s.-])TDD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "NCmt",
         "negate": false,
-        "pattern": "NCmt",
+        "pattern": "(?<=^|[\\s.-])NCmt\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "IAMABLE",
         "negate": false,
-        "pattern": "IAMABLE",
+        "pattern": "(?<=^|[\\s.-])IAMABLE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BlzT",
         "negate": false,
-        "pattern": "BlzT",
+        "pattern": "(?<=^|[\\s.-])BlzT\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "WATCHABLE",
         "negate": false,
-        "pattern": "WATCHABLE",
+        "pattern": "(?<=^|[\\s.-])WATCHABLE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "iFT",
         "negate": false,
-        "pattern": "iFT",
+        "pattern": "(?<=^|[\\s.-])iFT\\b",
         "required": false,
         "type": "release_group"
       }
@@ -1590,308 +1590,308 @@
       {
         "name": "SoLaR",
         "negate": false,
-        "pattern": "SoLaR",
+        "pattern": "(?<=^|[\\s.-])SoLaR\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SMAHAWUG",
         "negate": false,
-        "pattern": "SMAHAWUG",
+        "pattern": "(?<=^|[\\s.-])SMAHAWUG\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "MiMiC",
         "negate": false,
-        "pattern": "MiMiC",
+        "pattern": "(?<=^|[\\s.-])MiMiC\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HypStu",
         "negate": false,
-        "pattern": "HypStu",
+        "pattern": "(?<=^|[\\s.-])HypStu\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "KAN3D2M",
         "negate": false,
-        "pattern": "KAN3D2M",
+        "pattern": "(?<=^|[\\s.-])KAN3D2M\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "FRDS",
         "negate": false,
-        "pattern": "FRDS",
+        "pattern": "(?<=^|[\\s.-])FRDS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "EDPH",
         "negate": false,
-        "pattern": "EDPH",
+        "pattern": "(?<=^|[\\s.-])EDPH\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "PussyFoot",
         "negate": false,
-        "pattern": "PussyFoot",
+        "pattern": "(?<=^|[\\s.-])PussyFoot\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "KNiVES",
         "negate": false,
-        "pattern": "KNiVES",
+        "pattern": "(?<=^|[\\s.-])KNiVES\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "STRiKES",
         "negate": false,
-        "pattern": "STRiKES",
+        "pattern": "(?<=^|[\\s.-])STRiKES\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "TOMBCRUISE",
         "negate": false,
-        "pattern": "TOMBCRUISE",
+        "pattern": "(?<=^|[\\s.-])TOMBCRUISE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CMCT",
         "negate": false,
-        "pattern": "CMCT",
+        "pattern": "(?<=^|[\\s.-])CMCT\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "TERMiNAL",
         "negate": false,
-        "pattern": "TERMiNAL",
+        "pattern": "(?<=^|[\\s.-])TERMiNAL\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "whiterhino",
         "negate": false,
-        "pattern": "whiterhino",
+        "pattern": "(?<=^|[\\s.-])whiterhino\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "ReaLHD",
         "negate": false,
-        "pattern": "ReaLHD",
+        "pattern": "(?<=^|[\\s.-])ReaLHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "EMERALD",
         "negate": false,
-        "pattern": "EMERALD",
+        "pattern": "(?<=^|[\\s.-])EMERALD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "ULTRAHDCLUB",
         "negate": false,
-        "pattern": "ULTRAHDCLUB",
+        "pattern": "(?<=^|[\\s.-])ULTRAHDCLUB\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CHD",
         "negate": false,
-        "pattern": "CHD",
+        "pattern": "(?<=^|[\\s.-])CHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SWTYBLZ",
         "negate": false,
-        "pattern": "SWTYBLZ",
+        "pattern": "(?<=^|[\\s.-])SWTYBLZ\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "LAZARUS",
         "negate": false,
-        "pattern": "LAZARUS",
+        "pattern": "(?<=^|[\\s.-])LAZARUS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "ESiR",
         "negate": false,
-        "pattern": "ESiR",
+        "pattern": "(?<=^|[\\s.-])ESiR\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "beAst",
         "negate": false,
-        "pattern": "beAst",
+        "pattern": "(?<=^|[\\s.-])beAst\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "WiKi",
         "negate": false,
-        "pattern": "WiKi",
+        "pattern": "(?<=^|[\\s.-])WiKi\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SPECTACLE",
         "negate": false,
-        "pattern": "SPECTACLE",
+        "pattern": "(?<=^|[\\s.-])SPECTACLE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "spectacle",
         "negate": false,
-        "pattern": "spectacle",
+        "pattern": "(?<=^|[\\s.-])spectacle\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HD77",
         "negate": false,
-        "pattern": "HD77",
+        "pattern": "(?<=^|[\\s.-])HD77\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "k00kie",
         "negate": false,
-        "pattern": "k00kie",
+        "pattern": "(?<=^|[\\s.-])k00kie\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HDS",
         "negate": false,
-        "pattern": "HDS",
+        "pattern": "(?<=^|[\\s.-])HDS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "ADE",
         "negate": false,
-        "pattern": "ADE",
+        "pattern": "(?<=^|[\\s.-])ADE\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "VALiS",
         "negate": false,
-        "pattern": "VALiS",
+        "pattern": "(?<=^|[\\s.-])VALiS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "iNVANDRAREN",
         "negate": false,
-        "pattern": "iNVANDRAREN",
+        "pattern": "(?<=^|[\\s.-])iNVANDRAREN\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BiTOR",
         "negate": false,
-        "pattern": "BiTOR",
+        "pattern": "(?<=^|[\\s.-])BiTOR\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HDmux",
         "negate": false,
-        "pattern": "HDmux",
+        "pattern": "(?<=^|[\\s.-])HDmux\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "ReQuEsT",
         "negate": false,
-        "pattern": "ReQuEsT",
+        "pattern": "(?<=^|[\\s.-])ReQuEsT\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Absinth",
         "negate": false,
-        "pattern": "Absinth",
+        "pattern": "(?<=^|[\\s.-])Absinth\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "AViATOR",
         "negate": false,
-        "pattern": "AViATOR",
+        "pattern": "(?<=^|[\\s.-])AViATOR\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Tron",
         "negate": false,
-        "pattern": "Tron",
+        "pattern": "(?<=^|[\\s.-])Tron\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HDChina",
         "negate": false,
-        "pattern": "HDChina",
+        "pattern": "(?<=^|[\\s.-])HDChina\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "SWAGGERUHD",
         "negate": false,
-        "pattern": "SWAGGERUHD",
+        "pattern": "(?<=^|[\\s.-])SWAGGERUHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "AAAUHD",
         "negate": false,
-        "pattern": "AAAUHD",
+        "pattern": "(?<=^|[\\s.-])AAAUHD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "guhzer",
         "negate": false,
-        "pattern": "guhzer",
+        "pattern": "(?<=^|[\\s.-])guhzer\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "GUHZER",
         "negate": false,
-        "pattern": "GUHZER",
+        "pattern": "(?<=^|[\\s.-])GUHZER\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "HUNTJR",
         "negate": false,
-        "pattern": "HUNTJR",
+        "pattern": "(?<=^|[\\s.-])HUNTJR\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "iCandy",
         "negate": false,
-        "pattern": "iCandy",
+        "pattern": "(?<=^|[\\s.-])iCandy\\b",
         "required": false,
         "type": "release_group"
       }
@@ -1925,105 +1925,105 @@
       {
         "name": "micius",
         "negate": false,
-        "pattern": "micius",
+        "pattern": "(?<=^|[\\s.-])micius\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BOREDOR",
         "negate": false,
-        "pattern": "BOREDOR",
+        "pattern": "(?<=^|[\\s.-])BOREDOR\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "threesome",
         "negate": false,
-        "pattern": "threesome",
+        "pattern": "(?<=^|[\\s.-])threesome\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Blzt",
         "negate": false,
-        "pattern": "Blzt",
+        "pattern": "(?<=^|[\\s.-])Blzt\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "LittleBakas",
         "negate": false,
-        "pattern": "LittleBakas",
+        "pattern": "(?<=^|[\\s.-])LittleBakas\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "PTH",
         "negate": false,
-        "pattern": "PTH",
+        "pattern": "(?<=^|[\\s.-])PTH\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "CHAOS",
         "negate": false,
-        "pattern": "CHAOS",
+        "pattern": "(?<=^|[\\s.-])CHAOS\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Hares",
         "negate": false,
-        "pattern": "Hares",
+        "pattern": "(?<=^|[\\s.-])Hares\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BLUEBIRD",
         "negate": false,
-        "pattern": "BLUEBIRD",
+        "pattern": "(?<=^|[\\s.-])BLUEBIRD\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "BeiTai",
         "negate": false,
-        "pattern": "BeiTai",
+        "pattern": "(?<=^|[\\s.-])BeiTai\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "FLAME",
         "negate": false,
-        "pattern": "FLAME",
+        "pattern": "(?<=^|[\\s.-])FLAME\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "UHDCLUBREMUX",
         "negate": false,
-        "pattern": "UHDCLUBREMUX",
+        "pattern": "(?<=^|[\\s.-])UHDCLUBREMUX\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "invandraren",
         "negate": false,
-        "pattern": "invandraren",
+        "pattern": "(?<=^|[\\s.-])invandraren\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "dkore",
         "negate": false,
-        "pattern": "dkore",
+        "pattern": "(?<=^|[\\s.-])dkore\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Lucifer",
         "negate": false,
-        "pattern": "Lucifer",
+        "pattern": "(?<=^|[\\s.-])Lucifer\\b",
         "required": false,
         "type": "release_group"
       }
@@ -2083,7 +2083,7 @@
       {
         "name": "3D",
         "negate": false,
-        "pattern": "3D",
+        "pattern": "\\b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -2206,7 +2206,7 @@
       {
         "name": "AV1",
         "negate": false,
-        "pattern": "AV1",
+        "pattern": "\\bAV1\\b",
         "required": true,
         "type": "release_title"
       }
@@ -2232,7 +2232,7 @@
       {
         "name": "AMZN Regex",
         "negate": false,
-        "pattern": "Amazon Prime",
+        "pattern": "\\b(?:amzn|(?:AMZN|Amazon)(?=\\s*(?:WEB-?DL|HD)))\\b",
         "required": true,
         "type": "release_title"
       },
@@ -2246,7 +2246,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -2323,7 +2323,7 @@
       {
         "name": "AMZN Regex",
         "negate": false,
-        "pattern": "Amazon Prime",
+        "pattern": "\\b(?:amzn|(?:AMZN|Amazon)(?=\\s*(?:WEB-?DL|HD)))\\b",
         "required": true,
         "type": "release_title"
       },
@@ -2337,7 +2337,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -2408,7 +2408,7 @@
       {
         "name": "AMZN Regex",
         "negate": false,
-        "pattern": "Amazon Prime",
+        "pattern": "\\b(?:amzn|(?:AMZN|Amazon)(?=\\s*(?:WEB-?DL|HD)))\\b",
         "required": true,
         "type": "release_title"
       },
@@ -2422,7 +2422,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -2499,7 +2499,7 @@
       {
         "name": "APTV Regex",
         "negate": false,
-        "pattern": "Apple TV+",
+        "pattern": "\\b(atvp|aptv|Apple TV\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
@@ -2513,7 +2513,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -2565,7 +2565,7 @@
       {
         "name": "APTV Regex",
         "negate": false,
-        "pattern": "Apple TV+",
+        "pattern": "\\b(atvp|aptv|Apple TV\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
@@ -2579,7 +2579,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -2625,7 +2625,7 @@
       {
         "name": "APTV Regex",
         "negate": false,
-        "pattern": "Apple TV+",
+        "pattern": "\\b(atvp|aptv|Apple TV\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
@@ -2639,7 +2639,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -2685,28 +2685,28 @@
       {
         "name": "Not Atmos",
         "negate": true,
-        "pattern": "Atmos",
+        "pattern": "\\bATMOS(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "7.1 Surround",
         "negate": false,
-        "pattern": "7.1 Surround",
+        "pattern": "7.1",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "TrueHD",
         "negate": false,
-        "pattern": "TrueHD",
+        "pattern": "True[ .-]?HD[ .-]?",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not Atmos (BTN)",
         "negate": true,
-        "pattern": "BTN Atmos",
+        "pattern": "\\bTrue[ .-]?HDA[ .-]?[57]\\.1|DDPA[57]\\.1\\b",
         "required": true,
         "type": "release_title"
       }
@@ -2850,14 +2850,14 @@
       {
         "name": "Atmos",
         "negate": false,
-        "pattern": "Atmos",
+        "pattern": "\\bATMOS(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Atmos (BTN Standard)",
         "negate": false,
-        "pattern": "BTN Atmos",
+        "pattern": "\\bTrue[ .-]?HDA[ .-]?[57]\\.1|DDPA[57]\\.1\\b",
         "required": false,
         "type": "release_title"
       }
@@ -2953,7 +2953,7 @@
       {
         "name": "B&W",
         "negate": false,
-        "pattern": "B&W",
+        "pattern": "(?i)\\bblack\\s*[.-]?\\s*(?:and|&)\\s*[.-]?\\s*white\\b",
         "required": true,
         "type": "release_title"
       }
@@ -2971,7 +2971,7 @@
       {
         "name": "Regex",
         "negate": false,
-        "pattern": "BeyondHD",
+        "pattern": "(?<=^|[\\s.-])BeyondHD\\b",
         "required": true,
         "type": "release_group"
       }
@@ -2991,7 +2991,7 @@
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "Remux"
+        "pattern": "remux"
       },
       {
         "name": "Blu-ray",
@@ -3022,7 +3022,7 @@
       {
         "name": "Remux",
         "negate": false,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       }
@@ -3067,7 +3067,7 @@
       {
         "name": "Remux",
         "negate": true,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       }
@@ -3122,7 +3122,7 @@
       {
         "name": "CRiT Regex",
         "negate": false,
-        "pattern": "Criterion Channel",
+        "pattern": "\\bCRiT\\b",
         "required": true,
         "type": "release_title"
       },
@@ -3136,7 +3136,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -3154,42 +3154,42 @@
       {
         "name": "DTS-HD MA",
         "negate": false,
-        "pattern": "DTS-HD MA",
+        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS-HD HRA ES",
         "negate": true,
-        "pattern": "DTS-HD HRA ES",
+        "pattern": "dts[-. ]?(es|(hd[. ]?)?(hr|hi))",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital +",
         "negate": true,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": false,
         "type": "release_title"
       },
@@ -3203,14 +3203,14 @@
       {
         "name": "Not Dolby Digital",
         "negate": true,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS-X",
         "negate": true,
-        "pattern": "DTS-X",
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
         "required": false,
         "type": "release_title"
       }
@@ -3228,35 +3228,35 @@
       {
         "name": "DTS-X",
         "negate": false,
-        "pattern": "DTS-X",
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital +",
         "negate": true,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": false,
         "type": "release_title"
       },
@@ -3270,14 +3270,14 @@
       {
         "name": "Not Dolby Digital",
         "negate": true,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS",
         "negate": true,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": false,
         "type": "release_title"
       }
@@ -3295,49 +3295,49 @@
       {
         "name": "DTS",
         "negate": false,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS-HD",
         "negate": true,
-        "pattern": "DTS-HD",
+        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))\\b",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS-HD HRA ES",
         "negate": true,
-        "pattern": "DTS-HD HRA ES",
+        "pattern": "dts[-. ]?(es|(hd[. ]?)?(hr|hi))",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital +",
         "negate": true,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": false,
         "type": "release_title"
       },
@@ -3351,14 +3351,14 @@
       {
         "name": "Not Dolby Digital",
         "negate": true,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS-X",
         "negate": true,
-        "pattern": "DTS-X",
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
         "required": false,
         "type": "release_title"
       }
@@ -3387,7 +3387,7 @@
         "type": "release_title",
         "required": true,
         "negate": false,
-        "pattern": "Remux"
+        "pattern": "remux"
       }
     ],
     "tests": [
@@ -3449,7 +3449,7 @@
       {
         "name": "DNSP Regex",
         "negate": false,
-        "pattern": "Disney+",
+        "pattern": "\\b(dsnp|dsny(p)?|disney\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
@@ -3463,7 +3463,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -3515,7 +3515,7 @@
       {
         "name": "DNSP Regex",
         "negate": false,
-        "pattern": "Disney+",
+        "pattern": "\\b(dsnp|dsny(p)?|disney\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
@@ -3529,7 +3529,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -3575,7 +3575,7 @@
       {
         "name": "DNSP Regex",
         "negate": false,
-        "pattern": "Disney+",
+        "pattern": "\\b(dsnp|dsny(p)?|disney\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
@@ -3589,7 +3589,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -3633,42 +3633,42 @@
       {
         "name": "Dolby Digital +",
         "negate": false,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS",
         "negate": true,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not TrueHD",
         "negate": true,
-        "pattern": "TrueHD",
+        "pattern": "True[ .-]?HD[ .-]?",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       }
@@ -3686,28 +3686,28 @@
       {
         "name": "Dolby Digital",
         "negate": false,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS",
         "negate": true,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
@@ -3721,7 +3721,7 @@
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
@@ -3730,7 +3730,7 @@
         "type": "release_title",
         "required": false,
         "negate": true,
-        "pattern": "Dolby Digital +"
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b"
       }
     ],
     "tests": [],
@@ -3747,7 +3747,7 @@
       {
         "name": "Dolby Vision (Without Fallback)",
         "negate": false,
-        "pattern": "Dolby Vision (Without Fallback)",
+        "pattern": "(?<=^(?!.*(HDR|HULU|REMUX|BLURAY)).*?)\\b(DV|Dovi|Dolby[- .]?V(ision)?)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -3766,7 +3766,7 @@
       {
         "name": "Dolby Vision",
         "negate": false,
-        "pattern": "Dolby Vision",
+        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -3786,7 +3786,7 @@
       {
         "name": "Extras",
         "negate": false,
-        "pattern": "Extras",
+        "pattern": "(?i)(\\b|\\.)(extra[s]?|special feature[s]?)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -3804,28 +3804,28 @@
       {
         "name": "FLAC",
         "negate": false,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not DTS",
         "negate": true,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
@@ -3839,14 +3839,14 @@
       {
         "name": "Not Dolby Digital",
         "negate": true,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital +",
         "negate": true,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": false,
         "type": "release_title"
       }
@@ -3963,28 +3963,28 @@
       {
         "name": "Full Disc",
         "negate": false,
-        "pattern": "Full Disc",
+        "pattern": "^(?!.*\\b((?<!HD[._ -]|HD)DVD|BDRip|MKV|XviD|WMV|d3g|BDREMUX|REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_. ]?26[45]|German.*DL|((?<=\\d{4}).*German.*(DL)?)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2)\\b))\\b)(((?=.*\\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\\b)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2|BDMV|ISO)\\b))|^((?=.*\\b(^((?=.*\\b((.*_)?COMPLETE.*|Dis[ck])\\b)(?=.*(Blu[-_. ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_. ]?(25|50|66|100|ISO)))))))).*|(?i)(DVD9|DVD5|NTSC|PAL|VOB IFO|VC-1|AVC|MPEG-2|\\bCOMPLETE[-.\\s]?(?:UHD[-.\\s])?BLU[-.\\s]?RAY\\b|\\bCOMPLETE BLURAY\\b|\\bBR-Disk\\b)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "x264",
         "negate": true,
-        "pattern": "x264",
+        "pattern": "^(?!.*(?i:remux)).*([xh](\\.?264)|DVDRip)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Remux",
         "negate": true,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       }
@@ -4052,7 +4052,7 @@
       {
         "name": "HMAX Regex",
         "negate": false,
-        "pattern": "HBO Max",
+        "pattern": "\\b(hmax|hbom|hbo[ ._-]?max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4066,7 +4066,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4118,7 +4118,7 @@
       {
         "name": "HMAX Regex",
         "negate": false,
-        "pattern": "HBO Max",
+        "pattern": "\\b(hmax|hbom|hbo[ ._-]?max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4132,7 +4132,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4178,7 +4178,7 @@
       {
         "name": "HMAX Regex",
         "negate": false,
-        "pattern": "HBO Max",
+        "pattern": "\\b(hmax|hbom|hbo[ ._-]?max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4192,7 +4192,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4237,35 +4237,35 @@
       {
         "name": "Not SDR",
         "negate": true,
-        "pattern": "SDR",
+        "pattern": "\\bSDR\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not HDR10+",
         "negate": true,
-        "pattern": "HDR10+",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not HDR10",
         "negate": true,
-        "pattern": "HDR10",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Dolby Vision",
         "negate": false,
-        "pattern": "Dolby Vision",
+        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "x265",
         "negate": false,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       },
@@ -4298,14 +4298,14 @@
       {
         "name": "Not HDR10",
         "negate": true,
-        "pattern": "HDR10",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not HDR10+",
         "negate": true,
-        "pattern": "HDR10+",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
         "required": true,
         "type": "release_title"
       },
@@ -4319,7 +4319,7 @@
       {
         "name": "Not SDR",
         "negate": true,
-        "pattern": "SDR",
+        "pattern": "\\bSDR\\b",
         "required": true,
         "type": "release_title"
       }
@@ -4462,7 +4462,7 @@
       {
         "name": "HDR10+",
         "negate": false,
-        "pattern": "HDR10+",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
         "required": true,
         "type": "release_title"
       }
@@ -4481,7 +4481,7 @@
       {
         "name": "HDR10",
         "negate": false,
-        "pattern": "HDR10",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
         "required": true,
         "type": "release_title"
       }
@@ -4507,7 +4507,7 @@
       {
         "name": "Hulu Regex",
         "negate": false,
-        "pattern": "Hulu",
+        "pattern": "\\b(hulu)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -4521,7 +4521,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4573,7 +4573,7 @@
       {
         "name": "Hulu Regex",
         "negate": false,
-        "pattern": "Hulu",
+        "pattern": "\\b(hulu)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -4587,7 +4587,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4633,7 +4633,7 @@
       {
         "name": "Hulu Regex",
         "negate": false,
-        "pattern": "Hulu",
+        "pattern": "\\b(hulu)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -4647,7 +4647,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4698,21 +4698,21 @@
       {
         "name": "DTS-HD MA",
         "negate": false,
-        "pattern": "DTS-HD MA",
+        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "DTS-X",
         "negate": false,
-        "pattern": "DTS-X",
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "PCM",
         "negate": false,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": false,
         "type": "release_title"
       },
@@ -4745,7 +4745,7 @@
       {
         "name": "MAX Regex",
         "negate": false,
-        "pattern": "Max",
+        "pattern": "\\b((?<!hbo[ ._-])max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4759,7 +4759,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4811,7 +4811,7 @@
       {
         "name": "MAX Regex",
         "negate": false,
-        "pattern": "Max",
+        "pattern": "\\b((?<!hbo[ ._-])max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4825,7 +4825,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4871,7 +4871,7 @@
       {
         "name": "MAX Regex",
         "negate": false,
-        "pattern": "Max",
+        "pattern": "\\b((?<!hbo[ ._-])max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4885,7 +4885,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4937,7 +4937,7 @@
       {
         "name": "MA Regex",
         "negate": false,
-        "pattern": "Movies Anywhere",
+        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4951,7 +4951,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -4977,7 +4977,7 @@
       {
         "name": "MA Regex",
         "negate": false,
-        "pattern": "Movies Anywhere",
+        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4991,7 +4991,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5011,7 +5011,7 @@
       {
         "name": "MA Regex",
         "negate": false,
-        "pattern": "Movies Anywhere",
+        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -5025,7 +5025,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5051,7 +5051,7 @@
       {
         "name": "NF Regex",
         "negate": false,
-        "pattern": "Netflix",
+        "pattern": "\\b(nf|netflix)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5065,7 +5065,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5117,7 +5117,7 @@
       {
         "name": "NF Regex",
         "negate": false,
-        "pattern": "Netflix",
+        "pattern": "\\b(nf|netflix)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5131,7 +5131,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5177,7 +5177,7 @@
       {
         "name": "NF Regex",
         "negate": false,
-        "pattern": "Netflix",
+        "pattern": "\\b(nf|netflix)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5191,7 +5191,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5237,14 +5237,14 @@
       {
         "name": "HDR10+ or DoVi",
         "negate": false,
-        "pattern": "Non Retail HDR Formats",
+        "pattern": "(?:(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?))|\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Groups",
         "negate": false,
-        "pattern": "Non Retail HDR Groups",
+        "pattern": "(?<=^|[\\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c|jennaortegaUHD\\b",
         "required": true,
         "type": "release_title"
       }
@@ -5348,7 +5348,7 @@
       {
         "name": "Dual Audio Regex",
         "negate": false,
-        "pattern": "Dual Audio",
+        "pattern": "\\b((multi[^a-zA-Z]*)|(dual[\\s.-](audio|complete)))\\b",
         "required": true,
         "type": "release_title"
       }
@@ -5401,7 +5401,7 @@
       {
         "name": "PMTP Regex",
         "negate": false,
-        "pattern": "Paramount+",
+        "pattern": "\\b(pmtp|Paramount Plus)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5415,7 +5415,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5467,7 +5467,7 @@
       {
         "name": "PMTP Regex",
         "negate": false,
-        "pattern": "Paramount+",
+        "pattern": "\\b(pmtp|Paramount Plus)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5481,7 +5481,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5527,7 +5527,7 @@
       {
         "name": "PMTP Regex",
         "negate": false,
-        "pattern": "Paramount+",
+        "pattern": "\\b(pmtp|Paramount Plus)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5541,7 +5541,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5593,7 +5593,7 @@
       {
         "name": "PCOK Regex",
         "negate": false,
-        "pattern": "Peacock TV",
+        "pattern": "\\b(?:(?:1080|2160|720)p\\s+PCOK|(?:Peacock\\s+Web-?DL|Web-?DL\\s+Peacock))\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5607,7 +5607,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5659,7 +5659,7 @@
       {
         "name": "PCOK Regex",
         "negate": false,
-        "pattern": "Peacock TV",
+        "pattern": "\\b(?:(?:1080|2160|720)p\\s+PCOK|(?:Peacock\\s+Web-?DL|Web-?DL\\s+Peacock))\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5673,7 +5673,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5719,7 +5719,7 @@
       {
         "name": "PCOK Regex",
         "negate": false,
-        "pattern": "Peacock TV",
+        "pattern": "\\b(?:(?:1080|2160|720)p\\s+PCOK|(?:Peacock\\s+Web-?DL|Web-?DL\\s+Peacock))\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5733,7 +5733,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5777,7 +5777,7 @@
       {
         "name": "Remux",
         "negate": false,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       },
@@ -5810,7 +5810,7 @@
       {
         "name": "Roku Regex",
         "negate": false,
-        "pattern": "Roku",
+        "pattern": "\\b(1080p[ .\\-_]ROKU|ROKU[ .\\-_]1080p)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5824,7 +5824,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5876,7 +5876,7 @@
       {
         "name": "Roku Regex",
         "negate": false,
-        "pattern": "Roku",
+        "pattern": "\\b(1080p[ .\\-_]ROKU|ROKU[ .\\-_]1080p)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5890,7 +5890,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -5936,7 +5936,7 @@
       {
         "name": "Roku Regex",
         "negate": false,
-        "pattern": "Roku",
+        "pattern": "\\b(1080p[ .\\-_]ROKU|ROKU[ .\\-_]1080p)\\b",
         "required": true,
         "type": "release_title"
       },
@@ -5950,7 +5950,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -6091,14 +6091,14 @@
       {
         "name": "TBB",
         "negate": false,
-        "pattern": "c0ke",
+        "pattern": "(?<=^|[\\s.-])c0ke\\b",
         "required": false,
         "type": "release_group"
       },
       {
         "name": "Dariush",
         "negate": false,
-        "pattern": "Dariush",
+        "pattern": "(?<=^|[\\s.-])Dariush\\b",
         "required": false,
         "type": "release_group"
       },
@@ -6126,7 +6126,7 @@
       {
         "name": "HANDJOB",
         "negate": false,
-        "pattern": "HANDJOB",
+        "pattern": "(?<=^|[\\s.-])HANDJOB\\b",
         "required": false,
         "type": "release_group"
       },
@@ -6168,19 +6168,19 @@
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "HDR10+"
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)"
       },
       {
         "name": "Not Dolby Vision",
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "Dolby Vision"
+        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b"
       },
       {
         "name": "Not HDR10",
         "negate": true,
-        "pattern": "HDR10",
+        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
         "required": true,
         "type": "release_title"
       }
@@ -6198,7 +6198,7 @@
       {
         "name": "Scene",
         "negate": false,
-        "pattern": "Scene",
+        "pattern": "(?<=^|[\\s.-])SPARKS|DRONES|ROVERS|SPRINTER|GECKOS|SHORTBREHD|EDITH|FilmHD|POW4HD|HD4U|TENEIGHTY|ETHEL\\b",
         "required": true,
         "type": "release_title"
       },
@@ -6223,7 +6223,7 @@
       {
         "name": "TrueHD Missing Groups",
         "negate": false,
-        "pattern": "TrueHD (Missing Groups)",
+        "pattern": "(?<=^|[\\s.-])TRiToN|EPSiLON|NoGroup|PmP\\b",
         "required": true,
         "type": "release_title"
       },
@@ -6237,35 +6237,35 @@
       {
         "name": "Remux",
         "negate": false,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not DTS-HD",
         "negate": true,
-        "pattern": "DTS-HD",
+        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not DTS-X",
         "negate": true,
-        "pattern": "DTS-X",
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not TrueHD",
         "negate": true,
-        "pattern": "TrueHD",
+        "pattern": "True[ .-]?HD[ .-]?",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": true,
         "type": "release_title"
       }
@@ -6283,35 +6283,35 @@
       {
         "name": "TrueHD",
         "negate": false,
-        "pattern": "TrueHD",
+        "pattern": "True[ .-]?HD[ .-]?",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not DTS",
         "negate": true,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital",
         "negate": true,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital +",
         "negate": true,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6333,7 +6333,7 @@
         "type": "release_group",
         "required": true,
         "negate": false,
-        "pattern": "UHD Bluray (Missing Groups)"
+        "pattern": "(?<=^|[\\s.-])LEGi0N\\b"
       },
       {
         "name": "1080p",
@@ -6345,14 +6345,14 @@
       {
         "name": "Not UHD Blu-ray",
         "negate": true,
-        "pattern": "UHD Blu-ray",
+        "pattern": "\\buhd[- ._]bluray\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "HDR",
         "negate": false,
-        "pattern": "Basic HDR Formats",
+        "pattern": "(?:(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR)|\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6406,14 +6406,14 @@
       {
         "name": "UHD Blu-ray",
         "negate": false,
-        "pattern": "UHD Blu-ray",
+        "pattern": "\\buhd[- ._]bluray\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "HDR",
         "negate": false,
-        "pattern": "Basic HDR Formats",
+        "pattern": "(?:(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR)|\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6508,7 +6508,7 @@
       {
         "name": "Year in Brackets",
         "negate": false,
-        "pattern": "Bracketed Year",
+        "pattern": "\\[\\d{4}\\]",
         "required": true,
         "type": "release_title"
       }
@@ -6542,40 +6542,40 @@
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "DTS-HD MA"
+        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)"
       },
       {
         "name": "Not DTS-X",
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "DTS-X"
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)"
       },
       {
         "name": "Not FLAC",
         "negate": true,
-        "pattern": "FLAC",
+        "pattern": "\\bFLAC(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not PCM",
         "negate": true,
-        "pattern": "PCM",
+        "pattern": "\\b(l?)PCM(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not AAC",
         "negate": true,
-        "pattern": "AAC",
+        "pattern": "\\bAAC(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not DTS",
         "negate": true,
-        "pattern": "DTS",
+        "pattern": "\\bDTS(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
@@ -6589,14 +6589,14 @@
       {
         "name": "Not Dolby Digital",
         "negate": true,
-        "pattern": "Dolby Digital",
+        "pattern": "\\bDD[^a-z+]|(?<!e)ac3",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not Dolby Digital +",
         "negate": true,
-        "pattern": "Dolby Digital +",
+        "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6617,7 +6617,7 @@
         "type": "release_title",
         "required": false,
         "negate": false,
-        "pattern": "Bloated Remux Groups"
+        "pattern": "\\b(LEGi0N|FGT|RARBG)\\b"
       }
     ],
     "tests": [],
@@ -6635,21 +6635,21 @@
       {
         "name": "MALUS",
         "negate": false,
-        "pattern": "MALUS",
+        "pattern": "(?<=^|[\\s.-])MALUS\\b",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "WOU",
         "negate": false,
-        "pattern": "WOU",
+        "pattern": "(?<=^|[\\s.-])WOU\\b",
         "required": false,
         "type": "release_title"
       },
       {
         "name": "MovieMan",
         "negate": false,
-        "pattern": "MovieMan",
+        "pattern": "(?<=^|[\\s.-])MovieMan\\b",
         "required": false,
         "type": "release_title"
       },
@@ -6801,7 +6801,7 @@
         "type": "release_title",
         "required": true,
         "negate": false,
-        "pattern": "Upscaled"
+        "pattern": "(Up[-\\.\\s]?scale|Re[-\\.\\s]?Grade|\\bAIUS\\b|AI[-\\.\\s]?enhanced)"
       }
     ],
     "tests": [],
@@ -6818,7 +6818,7 @@
       {
         "name": "VVC",
         "negate": false,
-        "pattern": "VVC",
+        "pattern": "(?<=^|[\\s.-])VVC\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6909,7 +6909,7 @@
         "type": "release_title",
         "required": true,
         "negate": false,
-        "pattern": "Xvid"
+        "pattern": "(?i)[-. ]Xvid"
       }
     ],
     "tests": [],
@@ -6925,7 +6925,7 @@
       {
         "name": "Release Group",
         "negate": false,
-        "pattern": "h265 WEB Groups",
+        "pattern": "(?<=^|[\\s.-])SiGLA\\b",
         "required": true,
         "type": "release_group"
       },
@@ -6939,21 +6939,21 @@
       {
         "name": "Filename",
         "negate": false,
-        "pattern": "mkv",
+        "pattern": ".mkv|.mp4",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "x265 | HEVC",
         "negate": false,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not h265",
         "negate": true,
-        "pattern": "h265",
+        "pattern": "(?i)h\\s*\\.?\\s*265",
         "required": false,
         "type": "release_title"
       }
@@ -7054,7 +7054,7 @@
       {
         "name": "h265",
         "negate": false,
-        "pattern": "h265",
+        "pattern": "(?i)h\\s*\\.?\\s*265",
         "required": true,
         "type": "release_title"
       },
@@ -7063,14 +7063,14 @@
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "Full Disc"
+        "pattern": "^(?!.*\\b((?<!HD[._ -]|HD)DVD|BDRip|MKV|XviD|WMV|d3g|BDREMUX|REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_. ]?26[45]|German.*DL|((?<=\\d{4}).*German.*(DL)?)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2)\\b))\\b)(((?=.*\\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\\b)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2|BDMV|ISO)\\b))|^((?=.*\\b(^((?=.*\\b((.*_)?COMPLETE.*|Dis[ck])\\b)(?=.*(Blu[-_. ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_. ]?(25|50|66|100|ISO)))))))).*|(?i)(DVD9|DVD5|NTSC|PAL|VOB IFO|VC-1|AVC|MPEG-2|\\bCOMPLETE[-.\\s]?(?:UHD[-.\\s])?BLU[-.\\s]?RAY\\b|\\bCOMPLETE BLURAY\\b|\\bBR-Disk\\b)"
       },
       {
         "name": "Not Remux",
         "type": "release_title",
         "required": true,
         "negate": true,
-        "pattern": "Remux"
+        "pattern": "remux"
       },
       {
         "name": "WEB",
@@ -7108,7 +7108,7 @@
       {
         "name": "iTunes Regex",
         "negate": false,
-        "pattern": "iTunes",
+        "pattern": "\\b(it|itunes)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -7122,7 +7122,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -7174,7 +7174,7 @@
       {
         "name": "iTunes Regex",
         "negate": false,
-        "pattern": "iTunes",
+        "pattern": "\\b(it|itunes)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -7188,7 +7188,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -7248,98 +7248,98 @@
       {
         "name": "MA Regex",
         "negate": true,
-        "pattern": "Movies Anywhere",
+        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "AMZN Regex",
         "negate": true,
-        "pattern": "Amazon Prime",
+        "pattern": "\\b(?:amzn|(?:AMZN|Amazon)(?=\\s*(?:WEB-?DL|HD)))\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "APTV Regex",
         "negate": true,
-        "pattern": "Apple TV+",
+        "pattern": "\\b(atvp|aptv|Apple TV\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "DSNP Regex",
         "negate": true,
-        "pattern": "Disney+",
+        "pattern": "\\b(dsnp|dsny(p)?|disney\\+)\\s*\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "PCOK Regex",
         "negate": true,
-        "pattern": "Peacock TV",
+        "pattern": "\\b(?:(?:1080|2160|720)p\\s+PCOK|(?:Peacock\\s+Web-?DL|Web-?DL\\s+Peacock))\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "MAX Regex",
         "negate": true,
-        "pattern": "Max",
+        "pattern": "\\b((?<!hbo[ ._-])max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "HMAX Regex",
         "negate": true,
-        "pattern": "HBO Max",
+        "pattern": "\\b(hmax|hbom|hbo[ ._-]?max)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "NF Regex",
         "negate": true,
-        "pattern": "Netflix",
+        "pattern": "\\b(nf|netflix)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "PMTP Regex",
         "negate": true,
-        "pattern": "Paramount+",
+        "pattern": "\\b(pmtp|Paramount Plus)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "CRiT Regex",
         "negate": true,
-        "pattern": "Criterion Channel",
+        "pattern": "\\bCRiT\\b",
         "required": true,
         "type": "release_group"
       },
       {
         "name": "HULU Regex",
         "negate": true,
-        "pattern": "Hulu",
+        "pattern": "\\b(hulu)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "ROKU Regex",
         "negate": true,
-        "pattern": "Roku",
+        "pattern": "\\b(1080p[ .\\-_]ROKU|ROKU[ .\\-_]1080p)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "iPT Internals",
         "negate": false,
-        "pattern": "iPT Internals",
+        "pattern": "(?<=^|[\\s.-])CM(a)?R(io)?G|EVO\\b",
         "required": true,
         "type": "release_group"
       },
       {
         "name": "iTunes Regex",
         "negate": true,
-        "pattern": "iTunes",
+        "pattern": "\\b(it|itunes)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       }
@@ -7844,7 +7844,7 @@
       {
         "name": "iTunes Regex",
         "negate": false,
-        "pattern": "iTunes",
+        "pattern": "\\b(it|itunes)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -7858,7 +7858,7 @@
       {
         "name": "x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -7910,7 +7910,7 @@
       {
         "name": "x264",
         "negate": false,
-        "pattern": "x264",
+        "pattern": "^(?!.*(?i:remux)).*([xh](\\.?264)|DVDRip)",
         "required": true,
         "type": "release_title"
       }
@@ -7928,7 +7928,7 @@
       {
         "name": "x264",
         "negate": false,
-        "pattern": "x264",
+        "pattern": "^(?!.*(?i:remux)).*([xh](\\.?264)|DVDRip)",
         "required": true,
         "type": "release_title"
       },
@@ -7961,7 +7961,7 @@
       {
         "name": "x265",
         "negate": false,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
@@ -7994,21 +7994,21 @@
       {
         "name": "Not REMUX",
         "negate": true,
-        "pattern": "Remux",
+        "pattern": "remux",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not x264",
         "negate": true,
-        "pattern": "x264",
+        "pattern": "^(?!.*(?i:remux)).*([xh](\\.?264)|DVDRip)",
         "required": true,
         "type": "release_title"
       }
@@ -8067,14 +8067,14 @@
       {
         "name": "Not x265",
         "negate": true,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "h265",
         "negate": false,
-        "pattern": "h265",
+        "pattern": "(?i)h\\s*\\.?\\s*265",
         "required": true,
         "type": "release_title"
       }
@@ -8118,7 +8118,7 @@
       {
         "name": "x265",
         "negate": false,
-        "pattern": "x265",
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
