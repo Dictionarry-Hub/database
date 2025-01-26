@@ -2,7 +2,8 @@ name: Not Only English (Missing)
 description: "Attempts to matches releases with mutliple audio tracks but are not\
   \ parsed as \"Multi Langauge\". Instead, attempts to find regular expressions which\
   \ imply the release has dual audio. \n "
-tags: []
+tags:
+- Language
 conditions:
 - exceptLanguage: false
   language: english
@@ -11,8 +12,8 @@ conditions:
   required: true
   type: language
 - name: Dual Audio Regex
-  type: release_title
-  required: true
   negate: false
   pattern: Dual Audio
+  required: true
+  type: release_title
 tests: []

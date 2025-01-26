@@ -1,15 +1,16 @@
 name: Scene
 description: Matches Scene regex patterns, negates any WEB-DLs.
-tags: []
+tags:
+- Release Group
 conditions:
 - name: Scene
-  type: release_title
-  required: true
   negate: false
   pattern: Scene
+  required: true
+  type: release_title
 - name: WEB-DL
-  type: source
-  required: false
   negate: true
+  required: false
   source: web_dl
+  type: source
 tests: []

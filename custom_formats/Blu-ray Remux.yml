@@ -5,17 +5,18 @@ description: A Blu-ray Remux is a direct rip of a Blu-ray's content without any 
   to the source.
 tags:
 - Lossless
+- Source
 conditions:
 - name: Blu-ray
-  type: source
-  required: true
   negate: false
-  source: bluray
-- name: Remux
-  type: release_title
   required: true
+  source: bluray
+  type: source
+- name: Remux
   negate: false
   pattern: Remux
+  required: true
+  type: release_title
 tests:
 - conditionResults:
   - matches: true

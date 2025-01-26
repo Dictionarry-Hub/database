@@ -3,10 +3,11 @@ description: Matches releases with 25% Freeleech
 tags:
 - Freeleech
 - Tweak
+- Flag
 conditions:
-- name: Free25
-  type: indexer_flag
-  required: true
+- flag: freeleech_25
+  name: Free25
   negate: false
-  flag: freeleech_25
+  required: true
+  type: indexer_flag
 tests: []

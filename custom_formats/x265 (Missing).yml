@@ -2,6 +2,7 @@ name: x265 (Missing)
 description: 'Attempts to match 1080p x265 encodes that are mislabeled as h265. '
 tags:
 - x265
+- Codec
 conditions:
 - name: 1080p
   negate: false

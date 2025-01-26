@@ -3,6 +3,7 @@ description: Matches releases with 100% Freeleech
 tags:
 - Freeleech
 - Tweak
+- Flag
 conditions:
 - flag: freeleech
   name: Free100

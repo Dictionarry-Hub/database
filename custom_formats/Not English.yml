@@ -1,7 +1,8 @@
 name: Not English
 description: Matches releases that don't include an English language track. Dual audio
   is allowed.
-tags: []
+tags:
+- Language
 conditions:
 - exceptLanguage: true
   language: english

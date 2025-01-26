@@ -3,6 +3,7 @@ description: Matches releases with 50% Freeleech
 tags:
 - Freeleech
 - Tweak
+- Flag
 conditions:
 - flag: halfleech
   name: Free50

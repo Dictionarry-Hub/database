@@ -3,6 +3,7 @@ description: Matches the 'Extras' Regex Pattern
 tags:
 - Unwanted
 - Extras
+- Enhancement
 conditions:
 - name: Extras
   negate: false

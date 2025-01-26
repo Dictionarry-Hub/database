@@ -3,6 +3,7 @@ description: Matches releases with 75% Freeleech
 tags:
 - Freeleech
 - Tweak
+- Flag
 conditions:
 - flag: freeleech_75
   name: Free75

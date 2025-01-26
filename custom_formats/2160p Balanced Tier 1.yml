@@ -1,8 +1,9 @@
 name: 2160p Balanced Tier 1
 description: Matches release groups who fall under 2160p Balanced Tier 1
 tags:
-- Release Group
-- Tier
+- Release Group Tier
+- Balanced
+- 2160p
 conditions:
 - name: Not WEB-DL
   negate: true
@@ -15,10 +16,10 @@ conditions:
   resolution: 2160p
   type: resolution
 - name: HONE
-  type: release_title
-  required: false
   negate: false
   pattern: HONE
+  required: false
+  type: release_title
 tests:
 - conditionResults:
   - matches: true
