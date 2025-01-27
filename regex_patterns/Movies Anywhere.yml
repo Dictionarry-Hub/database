@@ -1,5 +1,5 @@
 name: Movies Anywhere
-pattern: (?<!dts[ .-]?hd[ .-]?)ma\b(?=.*\bweb[ ._-]?(dl|rip)\b)
+pattern: \b(?<!dts[ .-]?hd[ .-]?)ma\b(?=.*\bweb[ ._-]?(dl|rip)\b)
 description: Movies Anywhere (MA) is a cloud-based digital rights locker and over-the-top
   streaming platform that allows users to stream and download purchased films, including
   digital copies redeemed from codes found in home video releases as well as digital
@@ -12,25 +12,82 @@ tests:
 - expected: true
   id: 1
   input: Scooby-Doo.In.Wheres.My.Mummy.2005.1080p.MA.WEB-DL.DDP5.1.H264-HHWEB.mkv
-  lastRun: '2024-12-02T19:35:04.598396'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan:
+    end: 43
+    start: 41
+  matchedContent: MA
+  matchedGroups:
+  - DL
   passes: true
 - expected: true
   id: 2
   input: Speak.No.Evil.2024.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-FLUX.mkv
-  lastRun: '2024-12-02T19:35:04.598396'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan:
+    end: 27
+    start: 25
+  matchedContent: MA
+  matchedGroups:
+  - DL
   passes: true
 - expected: true
   id: 3
   input: The.Super.Mario.Bros.Movie.2023.1080p.MA.WEB-DL.DDP5.1.Atmos.H.264-CMaRioG.mkv
-  lastRun: '2024-12-02T19:35:04.598396'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan:
+    end: 40
+    start: 38
+  matchedContent: MA
+  matchedGroups:
+  - DL
   passes: true
 - expected: false
   id: 4
   input: Interstellar.2014.UHD.BluRay.2160p.DTS-HD.MA.5.1.HEVC.REMUX-FraMeSToR.mkv
-  lastRun: '2024-12-02T19:35:04.598396'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
   passes: true
 - expected: false
   id: 5
   input: The.Amazing.Spider-Man.2012.1080p.Remastered.BluRay.DTSHD-MA.x264.D-Z0N3.mkv
-  lastRun: '2024-12-02T19:35:04.598396'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 6
+  input: '[ToonsHub] Orb On the Movements of the Earth S01E01 1080p ABEMA WEB-DL AAC2.0
+    H.264'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 7
+  input: '[ToonsHub] Orb On the Movements of the Earth S01E01 1080p ABE MA WEB-DL
+    AAC2.0 H.264'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan:
+    end: 64
+    start: 62
+  matchedContent: MA
+  matchedGroups:
+  - DL
+  passes: true
+- expected: true
+  id: 8
+  input: '[ToonsHub] Orb On the Movements of the Earth S01E01 1080p ABE.MA WEB-DL
+    AAC2.0 H.264'
+  lastRun: '2025-01-28T07:28:30.747386'
+  matchSpan:
+    end: 64
+    start: 62
+  matchedContent: MA
+  matchedGroups:
+  - DL
   passes: true
