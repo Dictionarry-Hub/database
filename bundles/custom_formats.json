@@ -4937,7 +4937,7 @@
       {
         "name": "MA Regex",
         "negate": false,
-        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
+        "pattern": "\\b(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4977,7 +4977,7 @@
       {
         "name": "MA Regex",
         "negate": false,
-        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
+        "pattern": "\\b(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -5011,7 +5011,7 @@
       {
         "name": "MA Regex",
         "negate": false,
-        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
+        "pattern": "\\b(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -7248,7 +7248,7 @@
       {
         "name": "MA Regex",
         "negate": true,
-        "pattern": "(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
+        "pattern": "\\b(?<!dts[ .-]?hd[ .-]?)ma\\b(?=.*\\bweb[ ._-]?(dl|rip)\\b)",
         "required": true,
         "type": "release_title"
       },
