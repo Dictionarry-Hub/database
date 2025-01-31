@@ -1,5 +1,5 @@
 name: 2160p Quality
-description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.pages.dev/)\
+description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.vercel.app/wiki/EEi)\
   \ metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\
   \n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality\
   \ WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below\
