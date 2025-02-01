@@ -36,7 +36,6 @@ Think of Dictionarry as your personal car-buying expert: Instead of researching 
 - 2160p Quality - **Transparent 4K** HDR encodes selected using the Encode Efficiency Index
 - 1080p Quality - **Transparent 1080p** encodes optimized using the Golden Popcorn Performance Index
 - 1080p Efficient - **Efficient x265 1080p** Encodes optimized to save space using the Encode Efficiency Index
-- And More....
 
 ![Profile Preview](https://i.imgur.com/nZQzN9I.png)
 
