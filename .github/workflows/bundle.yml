@@ -29,3 +29,8 @@ jobs:
           git add bundles/
           git commit -m "Update bundles" || echo "No changes to commit"
           git push
+
+      - name: Trigger Vercel Deploy
+        if: success()
+        run: |
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK_URL }}"
