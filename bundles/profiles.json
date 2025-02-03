@@ -314,7 +314,7 @@
   },
   {
     "name": "1080p Quality (HDR)",
-    "description": "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.pages.dev/) to target **transparent x265 HDR** 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to the regular 1080p Quality profile (non HDR), then 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- **x265 is negated** but allowed, if and only if a reputable GPPi group has encoded it from a UHD Bluray source.\n- Non HDR x265 encodes are strictly forbidden in this profile\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
+    "description": "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev) to target **transparent x265 HDR** 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to the regular 1080p Quality profile (non HDR), then 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- **x265 is negated** but allowed, if and only if a reputable GPPi group has encoded it from a UHD Bluray source.\n- Non HDR x265 encodes are strictly forbidden in this profile\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
     "tags": [
       "1080p",
       "x264",
@@ -649,7 +649,7 @@
   },
   {
     "name": "1080p Quality",
-    "description": "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.vercel.app/wiki/GPPi) to target **transparent** x264 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
+    "description": "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/GPPi) to target **transparent** x264 1080p encodes. \n- 5 Quality tiers prioritise encodes with high 1080p GPPi scores, with fallback to 1080p WEB-DLs and streaming optimised encodes (**BHDStudio & hallowed**).\n- If no 1080p release can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**",
     "tags": [
       "1080p",
       "x264",
@@ -1652,7 +1652,7 @@
   },
   {
     "name": "2160p Quality",
-    "description": "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.vercel.app/wiki/EEi) metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below for further fallback. \n- Special considerations for both **HDR** and **Lossless Audio** formats help to push lower tiered encodes over higher tier ones in cases where better sources are used.\n- If no 2160p release can be found, the profile will fall back to the 1080p Quality Profile. ",
+    "description": "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/EEi) metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below for further fallback. \n- Special considerations for both **HDR** and **Lossless Audio** formats help to push lower tiered encodes over higher tier ones in cases where better sources are used.\n- If no 2160p release can be found, the profile will fall back to the 1080p Quality Profile. ",
     "tags": [
       "2160p",
       "HDR",
