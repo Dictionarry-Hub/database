@@ -14,7 +14,7 @@ Welcome to Dictionarry! This project aims to wiki-fy and **simplify media automa
 
 ## 💡 Motivation
 
-Navigating the world of media automation and coming across quality terms like "Remux", or "HEVC" or "Dolby Vision" can be quite daunting when all you want to do is setup a media server to watch some content. If often **feels like you need a masters in audio / video just to grab the latest blockbuster.** Dictionarry aims not to explain these concepts in detail, but **abstract them into more approachable ideas** that don't require extensive knowledge or experience.
+Navigating the world of media automation and coming across quality terms like "Remux", or "HEVC" or "Dolby Vision" can be quite daunting when all you want to do is setup a media server to watch some content. It often **feels like you need a masters in audio / video just to grab the latest blockbuster.** Dictionarry aims not to explain these concepts in detail, but **abstract them into more approachable ideas** that don't require extensive knowledge or experience.
 
 Dictionarry leverages two key features of Radarr and Sonarr to simplify media automation:
 
