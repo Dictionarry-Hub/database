@@ -1,5 +1,5 @@
 name: 1080p Quality (HDR)
-description: "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev)\
+description: "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
   \ to target **transparent x265 HDR** 1080p encodes. \n- 5 Quality tiers prioritise\
   \ encodes with high 1080p GPPi scores, with fallback to the regular 1080p Quality\
   \ profile (non HDR), then 1080p WEB-DLs and streaming optimised encodes (**BHDStudio\
