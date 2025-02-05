@@ -146,6 +146,18 @@
         "score": 10
       },
       {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "Repack1",
+        "score": 5
+      },
+      {
         "name": "2160p",
         "score": -9999
       },
@@ -489,6 +501,18 @@
         "score": 10
       },
       {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "Repack1",
+        "score": 5
+      },
+      {
         "name": "x265",
         "score": -90
       },
@@ -794,6 +818,18 @@
         "score": 10
       },
       {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "Repack1",
+        "score": 5
+      },
+      {
         "name": "2160p",
         "score": -9999
       },
@@ -1077,6 +1113,18 @@
       {
         "name": "Roku",
         "score": 10
+      },
+      {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "Repack1",
+        "score": 5
       },
       {
         "name": "Unknown Lossless Audio",
@@ -1436,6 +1484,14 @@
         "score": 10
       },
       {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
         "name": "Atmos",
         "score": 5
       },
@@ -1449,6 +1505,10 @@
       },
       {
         "name": "FLAC",
+        "score": 5
+      },
+      {
+        "name": "Repack1",
         "score": 5
       },
       {
@@ -1883,6 +1943,14 @@
         "score": 10
       },
       {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
         "name": "Atmos",
         "score": 5
       },
@@ -1896,6 +1964,10 @@
       },
       {
         "name": "FLAC",
+        "score": 5
+      },
+      {
+        "name": "Repack1",
         "score": 5
       },
       {
@@ -2242,6 +2314,18 @@
       {
         "name": "Roku",
         "score": 10
+      },
+      {
+        "name": "Repack3",
+        "score": 7
+      },
+      {
+        "name": "Repack2",
+        "score": 6
+      },
+      {
+        "name": "Repack1",
+        "score": 5
       },
       {
         "name": "Unknown Lossless Audio",

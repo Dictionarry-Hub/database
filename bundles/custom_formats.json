@@ -5793,6 +5793,63 @@
     "_id": "Remux"
   },
   {
+    "name": "Repack1",
+    "description": "Release groups use specific terms to indicate when they're fixing issues in releases:\nIn Scene releases, groups can only occupy one release slot, which leads to two different terms:\n- PROPER is used when a different group fixes issues in another group's release\n- REPACK is used when a group fixes issues in their own release\n\nP2P releases are simpler - REPACK is typically used whenever a group releases a fixed version.\n\nREAL / RERIP indicate similar things but their specific meaning / origin is unclear.\n\nThis custom format will catch basic level fixes (no number suffixes).",
+    "tags": [
+      "Flag",
+      "Repack"
+    ],
+    "conditions": [
+      {
+        "name": "Repack1",
+        "negate": false,
+        "pattern": "(?<=.*?\\d{4}.*?)\\b(re(pack|rip)|proper)\\b",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Repack1"
+  },
+  {
+    "name": "Repack2",
+    "description": "Release groups use specific terms to indicate when they're fixing issues in releases:\nIn Scene releases, groups can only occupy one release slot, which leads to two different terms:\n- PROPER is used when a different group fixes issues in another group's release\n- REPACK is used when a group fixes issues in their own release\n\nP2P releases are simpler - REPACK is typically used whenever a group releases a fixed version.\n\nREAL / RERIP indicate similar things but their specific meaning / origin is unclear.\n\nThis custom format will catch level 2 fixes",
+    "tags": [
+      "Flag",
+      "Repack"
+    ],
+    "conditions": [
+      {
+        "name": "Repack2",
+        "negate": false,
+        "pattern": "\\b(real[\\s.]?(re(pack|rip)|proper)|(re(pack|rip)|proper)2)\\b",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Repack2"
+  },
+  {
+    "name": "Repack3",
+    "description": "Release groups use specific terms to indicate when they're fixing issues in releases:\nIn Scene releases, groups can only occupy one release slot, which leads to two different terms:\n- PROPER is used when a different group fixes issues in another group's release\n- REPACK is used when a group fixes issues in their own release\n\nP2P releases are simpler - REPACK is typically used whenever a group releases a fixed version.\n\nREAL / RERIP indicate similar things but their specific meaning / origin is unclear.\n\nThis custom format will catch level 3 fixes",
+    "tags": [
+      "Flag",
+      "Repack"
+    ],
+    "conditions": [
+      {
+        "name": "Repack3",
+        "negate": false,
+        "pattern": "\\b(real[\\s.]?real[\\s.]?(re(pack|rip)|proper)|(re(pack|rip)|proper)3)\\b",
+        "required": true,
+        "type": "release_title"
+      }
+    ],
+    "tests": [],
+    "_id": "Repack3"
+  },
+  {
     "name": "Roku [1080p]",
     "description": "Matches 1080p 'Roku' WEB-DLs. Negates any encodes.",
     "tags": [
