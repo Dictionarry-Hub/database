@@ -84,6 +84,12 @@ custom_formats:
   score: 10
 - name: Roku
   score: 10
+- name: Repack3
+  score: 7
+- name: Repack2
+  score: 6
+- name: Repack1
+  score: 5
 - name: Unknown Lossless Audio
   score: 5
 - name: 3D

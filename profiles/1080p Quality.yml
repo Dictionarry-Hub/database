@@ -80,6 +80,12 @@ custom_formats:
   score: 10
 - name: x264
   score: 10
+- name: Repack3
+  score: 7
+- name: Repack2
+  score: 6
+- name: Repack1
+  score: 5
 - name: 2160p
   score: -9999
 - name: 3D
