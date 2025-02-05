@@ -1,0 +1,11 @@
+name: repack
+description: test
+tags:
+- test
+conditions:
+- name: repack
+  negate: false
+  pattern: repack
+  required: false
+  type: release_title
+tests:
