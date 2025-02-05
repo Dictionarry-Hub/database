@@ -114,6 +114,10 @@ custom_formats:
   score: 10
 - name: x264
   score: 10
+- name: Repack3
+  score: 7
+- name: Repack2
+  score: 6
 - name: Atmos
   score: 5
 - name: Atmos (Missing)
@@ -121,6 +125,8 @@ custom_formats:
 - name: DTS-HD MA
   score: 5
 - name: FLAC
+  score: 5
+- name: Repack1
   score: 5
 - name: Unknown Lossless Audio
   score: 5
