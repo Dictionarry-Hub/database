@@ -1,6 +1,6 @@
 name: 4KDVS
 pattern: (?<=^|[\s.-])4KDVS\b
-description: ''
+description: 'Matches "4KDVS" when preceded by whitespace, a hyphen or dot'
 tags:
 - Release Group
 tests: null
