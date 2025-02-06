@@ -4,6 +4,11 @@ tags:
 - Colour Grade
 - HDR
 conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
 - name: Blu-ray
   type: source
   required: true
@@ -19,11 +24,6 @@ conditions:
   pattern: HDR10+
   required: true
   type: release_title
-- name: 2160p
-  negate: false
-  required: true
-  resolution: 2160p
-  type: resolution
 - name: Not SDR
   negate: true
   pattern: SDR
