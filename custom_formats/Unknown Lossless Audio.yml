@@ -5,16 +5,16 @@ description: 'Matches UHD Blu-rays (remux / encode) that don''t include a named 
 tags:
 - Audio
 conditions:
-- name: Blu-ray
-  type: source
-  required: true
-  negate: false
-  source: bluray
 - name: 2160p
   type: resolution
   required: true
   negate: false
   resolution: 2160p
+- name: Blu-ray
+  type: source
+  required: true
+  negate: false
+  source: bluray
 - name: Not DTS-HD MA
   type: release_title
   required: true
