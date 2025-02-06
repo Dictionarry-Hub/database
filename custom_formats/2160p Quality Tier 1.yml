@@ -5,16 +5,16 @@ tags:
 - Quality
 - 2160p
 conditions:
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
-  type: source
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
 - name: DON
   negate: false
   pattern: DON
