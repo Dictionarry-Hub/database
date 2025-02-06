@@ -3,6 +3,11 @@ description: Matches 'h265' regex pattern.
 tags:
 - Codec
 conditions:
+- name: WEB
+  type: source
+  required: true
+  negate: false
+  source: web_dl
 - name: h265
   negate: false
   pattern: h265
@@ -18,11 +23,6 @@ conditions:
   required: true
   negate: true
   pattern: Remux
-- name: WEB
-  type: source
-  required: true
-  negate: false
-  source: web_dl
 - name: Not 4K
   type: resolution
   required: true
