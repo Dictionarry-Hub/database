@@ -6,14 +6,14 @@ tags:
 - Quality
 - SD
 conditions:
-- name: HANDJOB
-  negate: false
-  pattern: HANDJOB
-  required: false
-  type: release_group
 - name: DVD
   negate: false
   required: true
   source: dvd
   type: source
+- name: HANDJOB
+  negate: false
+  pattern: HANDJOB
+  required: false
+  type: release_group
 tests: []
