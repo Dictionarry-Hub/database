@@ -4,16 +4,16 @@ tags:
 - Colour Grade
 - HDR
 conditions:
-- name: WEB-DL
-  type: source
-  required: true
-  negate: false
-  source: web_dl
 - name: 2160p
   type: resolution
   required: true
   negate: false
   resolution: 2160p
+- name: WEB-DL
+  type: source
+  required: true
+  negate: false
+  source: web_dl
 - name: Not HDR10+
   type: release_title
   required: true
