@@ -6,6 +6,21 @@ tags:
 - 1080p
 - Quality
 conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
+- name: Not WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: Not DVD
+  type: source
+  required: true
+  negate: true
+  source: dvd
 - name: AJP69
   negate: false
   pattern: AJP69
@@ -236,19 +251,4 @@ conditions:
   required: false
   negate: false
   pattern: ZoroSenpai
-- name: Not WEB-DL
-  type: source
-  required: true
-  negate: true
-  source: web_dl
-- name: Not DVD
-  type: source
-  required: true
-  negate: true
-  source: dvd
-- name: 1080p
-  type: resolution
-  required: true
-  negate: false
-  resolution: 1080p
 tests: []
