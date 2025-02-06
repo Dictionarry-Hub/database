@@ -4,6 +4,21 @@ tags:
 - Colour Grade
 - HDR
 conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Dolby Vision
+  negate: false
+  pattern: Dolby Vision
+  required: true
+  type: release_title
+- name: x265
+  negate: false
+  pattern: x265
+  required: true
+  type: release_title
 - name: Not SDR
   negate: true
   pattern: SDR
@@ -19,19 +34,4 @@ conditions:
   pattern: HDR10
   required: true
   type: release_title
-- name: Dolby Vision
-  negate: false
-  pattern: Dolby Vision
-  required: true
-  type: release_title
-- name: x265
-  negate: false
-  pattern: x265
-  required: true
-  type: release_title
-- name: 1080p
-  negate: false
-  required: true
-  resolution: 1080p
-  type: resolution
 tests: []
