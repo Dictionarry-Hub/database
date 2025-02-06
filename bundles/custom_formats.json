@@ -3786,7 +3786,7 @@
       {
         "name": "Extras",
         "negate": false,
-        "pattern": "(?i)(\\b|\\.)(extra[s]?|special feature[s]?)\\b",
+        "pattern": "(?i)(?<=\\b[12]\\d{3}\\b).*(\\b|\\.)\\b(Extras?|Bonus|Extended[ ._-]Clip|Special Feature[s]?)\\b",
         "required": true,
         "type": "release_title"
       }
