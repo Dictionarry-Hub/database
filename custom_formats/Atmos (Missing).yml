@@ -6,11 +6,6 @@ tags:
 - Enhancement
 - Dolby
 conditions:
-- name: Not Atmos
-  negate: true
-  pattern: Atmos
-  required: true
-  type: release_title
 - name: 7.1 Surround
   negate: false
   pattern: 7.1 Surround
@@ -19,6 +14,11 @@ conditions:
 - name: TrueHD
   negate: false
   pattern: TrueHD
+  required: true
+  type: release_title
+- name: Not Atmos
+  negate: true
+  pattern: Atmos
   required: true
   type: release_title
 - name: Not Atmos (BTN)
