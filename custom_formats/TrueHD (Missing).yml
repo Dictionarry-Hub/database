@@ -4,16 +4,16 @@ description: Attempts to match TrueHD releases which are not labelled correctly 
 tags:
 - Audio
 conditions:
-- name: TrueHD Missing Groups
-  negate: false
-  pattern: TrueHD (Missing Groups)
-  required: true
-  type: release_title
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
+- name: TrueHD Missing Groups
+  negate: false
+  pattern: TrueHD (Missing Groups)
+  required: true
+  type: release_title
 - name: Remux
   negate: false
   pattern: Remux
