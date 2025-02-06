@@ -6,24 +6,24 @@ tags:
 - Storage
 - 2160p
 conditions:
-- name: Release Groups
-  type: release_group
-  required: true
-  negate: false
-  pattern: UHD Bluray (Missing Groups)
 - name: 1080p
   negate: false
   required: true
   resolution: 1080p
   type: resolution
-- name: Not UHD Blu-ray
-  negate: true
-  pattern: UHD Blu-ray
-  required: true
-  type: release_title
 - name: HDR
   negate: false
   pattern: Basic HDR Formats
+  required: true
+  type: release_title
+- name: Release Groups
+  type: release_group
+  required: true
+  negate: false
+  pattern: UHD Bluray (Missing Groups)
+- name: Not UHD Blu-ray
+  negate: true
+  pattern: UHD Blu-ray
   required: true
   type: release_title
 tests:
