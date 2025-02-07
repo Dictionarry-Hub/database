@@ -1,7 +1,16 @@
 name: Extras
-pattern: (?i)(?<=\b[12]\d{3}\b).*(\b|\.)\b(Extras?|Bonus|Extended[ ._-]Clip|Special Feature[s]?)\b
+pattern: (?i)(?<=\b[12]\d{3}\b).*(\b|\.)\b(Extras?|Bonus|Extended[ ._-]Clip|Special
+  Feature[s]?)\b
 description: Extras, Special Features, Featurettes, etc
 tags:
 - Unwanted
 - Extras
-tests: []
+tests:
+- expected: false
+  id: 1
+  input: E.T..el.ExtraTerrestre.30.Aniversario.1982.mHD.10Bits.1080p.BluRay.DD5.1.HEVC-TMd.mkv
+  lastRun: '2025-02-07T06:19:53.936128'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
