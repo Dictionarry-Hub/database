@@ -14,14 +14,14 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Not x265
-  negate: true
-  pattern: x265
-  required: true
-  type: release_title
 - name: h265
   negate: false
   pattern: h265
+  required: true
+  type: release_title
+- name: Not x265
+  negate: true
+  pattern: x265
   required: true
   type: release_title
 tests:

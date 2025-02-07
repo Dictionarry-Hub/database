@@ -7,15 +7,15 @@ tags:
 - WEB-DL
 - WEB3 [1080p]
 conditions:
-- name: WEBRip
-  negate: true
-  required: true
-  source: webrip
-  type: source
 - name: WEB-DL
   negate: false
   required: true
   source: web_dl
+  type: source
+- name: WEBRip
+  negate: true
+  required: true
+  source: webrip
   type: source
 - name: MA Regex
   negate: true

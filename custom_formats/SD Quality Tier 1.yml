@@ -6,6 +6,11 @@ tags:
 - Quality
 - SD
 conditions:
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
 - name: TBB
   negate: false
   pattern: c0ke
@@ -16,9 +21,4 @@ conditions:
   pattern: Dariush
   required: false
   type: release_group
-- name: DVD
-  negate: false
-  required: true
-  source: dvd
-  type: source
 tests: []

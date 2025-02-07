@@ -6,6 +6,16 @@ tags:
 - 1080p
 - Quality
 conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not WEB-DL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
 - name: DON
   negate: false
   pattern: DON
@@ -21,14 +31,4 @@ conditions:
   pattern: EbP
   required: false
   type: release_group
-- name: 1080p
-  negate: false
-  required: true
-  resolution: 1080p
-  type: resolution
-- name: Not WEB-DL
-  type: source
-  required: true
-  negate: true
-  source: web_dl
 tests: []
