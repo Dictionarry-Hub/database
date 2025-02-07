@@ -9,18 +9,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "1080p",
         "negate": false,
         "required": true,
         "resolution": "1080p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "BHDStudio",
@@ -144,18 +144,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "1080p",
         "negate": false,
         "required": true,
         "resolution": "1080p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "hallowed",
@@ -306,6 +306,20 @@
     ],
     "conditions": [
       {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "type": "source",
+        "required": true,
+        "negate": true,
+        "source": "web_dl"
+      },
+      {
         "name": "DON",
         "negate": false,
         "pattern": "(?<=^|[\\s.-])DON\\b",
@@ -325,20 +339,6 @@
         "pattern": "(?<=^|[\\s.-])EbP\\b",
         "required": false,
         "type": "release_group"
-      },
-      {
-        "name": "1080p",
-        "negate": false,
-        "required": true,
-        "resolution": "1080p",
-        "type": "resolution"
-      },
-      {
-        "name": "Not WEB-DL",
-        "type": "source",
-        "required": true,
-        "negate": true,
-        "source": "web_dl"
       }
     ],
     "tests": [],
@@ -354,6 +354,20 @@
       "Quality"
     ],
     "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "type": "source",
+        "required": true,
+        "negate": true,
+        "source": "web_dl"
+      },
       {
         "name": "c0ke",
         "negate": false,
@@ -402,20 +416,6 @@
         "pattern": "(?<=^|[\\s.-])ZQ\\b",
         "required": false,
         "type": "release_group"
-      },
-      {
-        "name": "1080p",
-        "negate": false,
-        "required": true,
-        "resolution": "1080p",
-        "type": "resolution"
-      },
-      {
-        "name": "Not WEB-DL",
-        "type": "source",
-        "required": true,
-        "negate": true,
-        "source": "web_dl"
       }
     ],
     "tests": [],
@@ -431,6 +431,20 @@
       "Quality"
     ],
     "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "type": "source",
+        "required": true,
+        "negate": true,
+        "source": "web_dl"
+      },
       {
         "name": "CRiSC",
         "negate": false,
@@ -486,20 +500,6 @@
         "pattern": "(?<=^|[\\s.-])WMING\\b",
         "required": false,
         "type": "release_group"
-      },
-      {
-        "name": "1080p",
-        "negate": false,
-        "required": true,
-        "resolution": "1080p",
-        "type": "resolution"
-      },
-      {
-        "name": "Not WEB-DL",
-        "type": "source",
-        "required": true,
-        "negate": true,
-        "source": "web_dl"
       }
     ],
     "tests": [],
@@ -515,6 +515,20 @@
       "Quality"
     ],
     "conditions": [
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
+      },
       {
         "name": "BMF",
         "negate": false,
@@ -563,20 +577,6 @@
         "pattern": "(?<=^|[\\s.-])NTb\\b",
         "required": false,
         "type": "release_group"
-      },
-      {
-        "name": "1080p",
-        "negate": false,
-        "required": true,
-        "resolution": "1080p",
-        "type": "resolution"
-      },
-      {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
       }
     ],
     "tests": [],
@@ -592,6 +592,27 @@
       "Quality"
     ],
     "conditions": [
+      {
+        "name": "1080p",
+        "type": "resolution",
+        "required": true,
+        "negate": false,
+        "resolution": "1080p"
+      },
+      {
+        "name": "Not WEB-DL",
+        "type": "source",
+        "required": true,
+        "negate": true,
+        "source": "web_dl"
+      },
+      {
+        "name": "Not DVD",
+        "type": "source",
+        "required": true,
+        "negate": true,
+        "source": "dvd"
+      },
       {
         "name": "AJP69",
         "negate": false,
@@ -913,27 +934,6 @@
         "required": false,
         "negate": false,
         "pattern": "(?<=^|[\\s.-])ZoroSenpai\\b"
-      },
-      {
-        "name": "Not WEB-DL",
-        "type": "source",
-        "required": true,
-        "negate": true,
-        "source": "web_dl"
-      },
-      {
-        "name": "Not DVD",
-        "type": "source",
-        "required": true,
-        "negate": true,
-        "source": "dvd"
-      },
-      {
-        "name": "1080p",
-        "type": "resolution",
-        "required": true,
-        "negate": false,
-        "resolution": "1080p"
       }
     ],
     "tests": [],
@@ -968,18 +968,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "HONE",
@@ -1103,18 +1103,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "hallowed",
@@ -1277,18 +1277,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "DON",
@@ -1360,18 +1360,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "BSTD",
@@ -1415,18 +1415,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "JustWatch",
@@ -1498,18 +1498,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "4KDVS",
@@ -1574,18 +1574,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "SoLaR",
@@ -1909,18 +1909,18 @@
     ],
     "conditions": [
       {
-        "name": "Not WEB-DL",
-        "negate": true,
-        "required": true,
-        "source": "web_dl",
-        "type": "source"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
         "resolution": "2160p",
         "type": "resolution"
+      },
+      {
+        "name": "Not WEB-DL",
+        "negate": true,
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "micius",
@@ -2683,13 +2683,6 @@
     ],
     "conditions": [
       {
-        "name": "Not Atmos",
-        "negate": true,
-        "pattern": "\\bATMOS(\\b|\\d)",
-        "required": true,
-        "type": "release_title"
-      },
-      {
         "name": "7.1 Surround",
         "negate": false,
         "pattern": "7.1",
@@ -2700,6 +2693,13 @@
         "name": "TrueHD",
         "negate": false,
         "pattern": "True[ .-]?HD[ .-]?",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not Atmos",
+        "negate": true,
+        "pattern": "\\bATMOS(\\b|\\d)",
         "required": true,
         "type": "release_title"
       },
@@ -2987,18 +2987,18 @@
     ],
     "conditions": [
       {
-        "name": "Remux",
-        "type": "release_title",
-        "required": true,
-        "negate": true,
-        "pattern": "remux"
-      },
-      {
         "name": "Blu-ray",
         "type": "source",
         "required": true,
         "negate": false,
         "source": "bluray"
+      },
+      {
+        "name": "Remux",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "remux"
       }
     ],
     "tests": [],
@@ -4235,6 +4235,27 @@
     ],
     "conditions": [
       {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
+      },
+      {
+        "name": "Dolby Vision",
+        "negate": false,
+        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "x265",
+        "negate": false,
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
+        "required": true,
+        "type": "release_title"
+      },
+      {
         "name": "Not SDR",
         "negate": true,
         "pattern": "\\bSDR\\b",
@@ -4254,27 +4275,6 @@
         "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
         "required": true,
         "type": "release_title"
-      },
-      {
-        "name": "Dolby Vision",
-        "negate": false,
-        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
-        "required": true,
-        "type": "release_title"
-      },
-      {
-        "name": "x265",
-        "negate": false,
-        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
-        "required": true,
-        "type": "release_title"
-      },
-      {
-        "name": "1080p",
-        "negate": false,
-        "required": true,
-        "resolution": "1080p",
-        "type": "resolution"
       }
     ],
     "tests": [],
@@ -4288,6 +4288,13 @@
       "HDR"
     ],
     "conditions": [
+      {
+        "name": "2160p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
+      },
       {
         "name": "Blu-ray",
         "type": "source",
@@ -4308,13 +4315,6 @@
         "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
         "required": true,
         "type": "release_title"
-      },
-      {
-        "name": "2160p",
-        "negate": false,
-        "required": true,
-        "resolution": "2160p",
-        "type": "resolution"
       },
       {
         "name": "Not SDR",
@@ -6146,6 +6146,13 @@
     ],
     "conditions": [
       {
+        "name": "DVD",
+        "negate": false,
+        "required": true,
+        "source": "dvd",
+        "type": "source"
+      },
+      {
         "name": "TBB",
         "negate": false,
         "pattern": "(?<=^|[\\s.-])c0ke\\b",
@@ -6158,13 +6165,6 @@
         "pattern": "(?<=^|[\\s.-])Dariush\\b",
         "required": false,
         "type": "release_group"
-      },
-      {
-        "name": "DVD",
-        "negate": false,
-        "required": true,
-        "source": "dvd",
-        "type": "source"
       }
     ],
     "tests": [],
@@ -6181,18 +6181,18 @@
     ],
     "conditions": [
       {
-        "name": "HANDJOB",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])HANDJOB\\b",
-        "required": false,
-        "type": "release_group"
-      },
-      {
         "name": "DVD",
         "negate": false,
         "required": true,
         "source": "dvd",
         "type": "source"
+      },
+      {
+        "name": "HANDJOB",
+        "negate": false,
+        "pattern": "(?<=^|[\\s.-])HANDJOB\\b",
+        "required": false,
+        "type": "release_group"
       }
     ],
     "tests": [],
@@ -6207,18 +6207,18 @@
     ],
     "conditions": [
       {
-        "name": "WEB-DL",
-        "type": "source",
-        "required": true,
-        "negate": false,
-        "source": "web_dl"
-      },
-      {
         "name": "2160p",
         "type": "resolution",
         "required": true,
         "negate": false,
         "resolution": "2160p"
+      },
+      {
+        "name": "WEB-DL",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "web_dl"
       },
       {
         "name": "Not HDR10+",
@@ -6278,13 +6278,6 @@
     ],
     "conditions": [
       {
-        "name": "TrueHD Missing Groups",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])TRiToN|EPSiLON|NoGroup|PmP\\b",
-        "required": true,
-        "type": "release_title"
-      },
-      {
         "name": "2160p",
         "negate": false,
         "required": true,
@@ -6295,6 +6288,13 @@
         "name": "Remux",
         "negate": false,
         "pattern": "remux",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "TrueHD Missing Groups",
+        "negate": false,
+        "pattern": "(?<=^|[\\s.-])TRiToN|EPSiLON|NoGroup|PmP\\b",
         "required": true,
         "type": "release_title"
       },
@@ -6386,13 +6386,6 @@
     ],
     "conditions": [
       {
-        "name": "Release Groups",
-        "type": "release_group",
-        "required": true,
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])LEGi0N\\b"
-      },
-      {
         "name": "1080p",
         "negate": false,
         "required": true,
@@ -6400,16 +6393,23 @@
         "type": "resolution"
       },
       {
-        "name": "Not UHD Blu-ray",
-        "negate": true,
-        "pattern": "\\buhd[- ._]bluray\\b",
+        "name": "HDR",
+        "negate": false,
+        "pattern": "(?:(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR)|\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
         "required": true,
         "type": "release_title"
       },
       {
-        "name": "HDR",
+        "name": "Release Groups",
+        "type": "release_group",
+        "required": true,
         "negate": false,
-        "pattern": "(?:(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR)|\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
+        "pattern": "(?<=^|[\\s.-])LEGi0N\\b"
+      },
+      {
+        "name": "Not UHD Blu-ray",
+        "negate": true,
+        "pattern": "\\buhd[- ._]bluray\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6581,18 +6581,18 @@
     ],
     "conditions": [
       {
-        "name": "Blu-ray",
-        "type": "source",
-        "required": true,
-        "negate": false,
-        "source": "bluray"
-      },
-      {
         "name": "2160p",
         "type": "resolution",
         "required": true,
         "negate": false,
         "resolution": "2160p"
+      },
+      {
+        "name": "Blu-ray",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "bluray"
       },
       {
         "name": "Not DTS-HD MA",
@@ -7109,6 +7109,13 @@
     ],
     "conditions": [
       {
+        "name": "WEB",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "web_dl"
+      },
+      {
         "name": "h265",
         "negate": false,
         "pattern": "(?i)h\\s*\\.?\\s*265",
@@ -7128,13 +7135,6 @@
         "required": true,
         "negate": true,
         "pattern": "remux"
-      },
-      {
-        "name": "WEB",
-        "type": "source",
-        "required": true,
-        "negate": false,
-        "source": "web_dl"
       },
       {
         "name": "Not 4K",
@@ -7289,17 +7289,17 @@
     ],
     "conditions": [
       {
-        "name": "WEBRip",
-        "negate": true,
-        "required": true,
-        "source": "webrip",
-        "type": "source"
-      },
-      {
         "name": "WEB-DL",
         "negate": false,
         "required": true,
         "source": "web_dl",
+        "type": "source"
+      },
+      {
+        "name": "WEBRip",
+        "negate": true,
+        "required": true,
+        "source": "webrip",
         "type": "source"
       },
       {
@@ -7958,18 +7958,18 @@
     ],
     "conditions": [
       {
-        "name": "1080p",
-        "negate": false,
-        "required": true,
-        "resolution": "2160p",
-        "type": "resolution"
-      },
-      {
         "name": "x264",
         "negate": false,
         "pattern": "^(?!.*(?i:remux)).*([xh](\\.?264)|DVDRip)",
         "required": true,
         "type": "release_title"
+      },
+      {
+        "name": "1080p",
+        "negate": false,
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
       }
     ],
     "tests": [],
@@ -8122,16 +8122,16 @@
         "type": "source"
       },
       {
-        "name": "Not x265",
-        "negate": true,
-        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
+        "name": "h265",
+        "negate": false,
+        "pattern": "(?i)h\\s*\\.?\\s*265",
         "required": true,
         "type": "release_title"
       },
       {
-        "name": "h265",
-        "negate": false,
-        "pattern": "(?i)h\\s*\\.?\\s*265",
+        "name": "Not x265",
+        "negate": true,
+        "pattern": "^(?!.*(?i:remux))(?=.*([x]\\s?(\\.?265)\\b|HEVC|\\bDS4K\\b)).*$",
         "required": true,
         "type": "release_title"
       }
