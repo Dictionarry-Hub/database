@@ -5323,7 +5323,7 @@
         "language": "english",
         "name": "Includes English",
         "negate": true,
-        "required": false,
+        "required": true,
         "type": "language"
       }
     ],
