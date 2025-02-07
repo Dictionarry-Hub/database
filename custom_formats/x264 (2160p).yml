@@ -4,14 +4,14 @@ tags:
 - Codec
 - Resolution
 conditions:
-- name: x264
-  negate: false
-  pattern: x264
-  required: true
-  type: release_title
 - name: 1080p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
+- name: x264
+  negate: false
+  pattern: x264
+  required: true
+  type: release_title
 tests: []
