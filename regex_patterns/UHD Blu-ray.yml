@@ -1,6 +1,6 @@
 name: UHD Blu-ray
 pattern: \bUHD[-_.\s]?Blu[-]?Ray\b
-description: Matches "UHD Bluray" or "UHD-Blu-Ray" with a hyphen, space, dot or underscore between
+description: Matches "UHD Bluray" or "UHD Blu-Ray" with a hyphen, space, dot or underscore between
   them
 tags: []
 tests:
