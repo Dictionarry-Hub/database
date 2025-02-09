@@ -1,5 +1,5 @@
 name: x264
-pattern: ^(?:(?=.*\bremux\b.*\b(?:h\.?264)\b)|(?=.*\bx264\b)(?!.*\bremux\b)).*$
+pattern: ^(?:(?=.*\bx264\b)(?!.*\bremux\b)).*$
 description: 'An open source encoder that produces H.264 videos. '
 tags:
 - Encoder
@@ -25,14 +25,12 @@ tests:
   matchedContent: Life of Pi 2012 1080p BluRay x264-SPARKS
   matchedGroups: []
   passes: true
-- expected: true
+- expected: false
   id: 3
   input: Movie.Title.2023.1080p.BluRay.REMUX.h.264.DTS-HD.MA.5.1-GRP
   lastRun: '2025-02-08T23:38:43.613169'
-  matchSpan:
-    end: 59
-    start: 0
-  matchedContent: Movie.Title.2023.1080p.BluRay.REMUX.h.264.DTS-HD.MA.5.1-GRP
+  matchSpan: null
+  matchedContent: null
   matchedGroups: []
   passes: true
 - expected: true
