@@ -4,7 +4,7 @@ tags:
 - Codec
 - Resolution
 conditions:
-- name: 1080p
+- name: 2160p
   negate: false
   required: true
   resolution: 2160p
