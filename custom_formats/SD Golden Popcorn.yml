@@ -4,11 +4,6 @@ tags:
 - Flag
 - Golden Popcorn
 conditions:
-- flag: ptp_golden
-  name: Golden Popcorn
-  negate: false
-  required: true
-  type: indexer_flag
 - name: 360p
   negate: false
   required: false
@@ -20,13 +15,18 @@ conditions:
   resolution: 480p
   type: resolution
 - name: 540p
-  type: resolution
-  required: false
   negate: false
+  required: false
   resolution: 540p
-- name: 576p
   type: resolution
-  required: false
+- name: 576p
   negate: false
+  required: false
   resolution: 576p
+  type: resolution
+- flag: ptp_golden
+  name: Golden Popcorn
+  negate: false
+  required: true
+  type: indexer_flag
 tests: []
