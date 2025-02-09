@@ -6409,7 +6409,7 @@
       {
         "name": "Not UHD Blu-ray",
         "negate": true,
-        "pattern": "\\buhd[- ._]bluray\\b",
+        "pattern": "\\bUHD[-_.\\s]?Blu[-]?Ray\\b",
         "required": true,
         "type": "release_title"
       }
@@ -6463,7 +6463,7 @@
       {
         "name": "UHD Blu-ray",
         "negate": false,
-        "pattern": "\\buhd[- ._]bluray\\b",
+        "pattern": "\\bUHD[-_.\\s]?Blu[-]?Ray\\b",
         "required": true,
         "type": "release_title"
       },

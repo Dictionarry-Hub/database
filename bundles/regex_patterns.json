@@ -4876,8 +4876,8 @@
   },
   {
     "name": "UHD Blu-ray",
-    "pattern": "\\buhd[- ._]bluray\\b",
-    "description": "Matches \"UHD Bluray\" with a hyphen, space, dot or underscore between them",
+    "pattern": "\\bUHD[-_.\\s]?Blu[-]?Ray\\b",
+    "description": "Matches \"UHD Bluray\" or \"UHD Blu-Ray\" with a hyphen, space, dot or underscore between them",
     "tags": [],
     "tests": [
       {
