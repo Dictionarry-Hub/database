@@ -1,0 +1,6 @@
+name: KiNGS
+pattern: (?<=^|[\s.-])KiNGS\b
+description: ''
+tags:
+- Release Group
+tests: []
