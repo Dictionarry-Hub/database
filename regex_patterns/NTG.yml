@@ -1,0 +1,6 @@
+name: NTG
+pattern: (?<=^|[\s.-])NTG\b
+description: ''
+tags:
+- Release Group
+tests: []
