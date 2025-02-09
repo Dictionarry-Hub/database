@@ -1,5 +1,5 @@
 name: Remux
-pattern: remux
+pattern: \bremux\b
 description: A remux is a digital video file that maintains the exact quality of the
   original source (like a Blu-ray or DVD) by copying the video and audio streams without
   re-encoding them, essentially creating a perfect 1:1 copy. Think of it like carefully
