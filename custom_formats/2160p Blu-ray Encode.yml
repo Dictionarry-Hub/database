@@ -8,14 +8,14 @@ conditions:
   required: true
   negate: false
   resolution: 2160p
-- name: Remux
-  negate: true
-  pattern: Remux
-  required: true
-  type: release_title
 - name: Blu-ray
   negate: false
   required: true
   source: bluray
   type: source
+- name: Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
 tests: []
