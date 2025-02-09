@@ -1787,6 +1787,16 @@
     "_id": "FLAME"
   },
   {
+    "name": "FLUX",
+    "pattern": "(?<=^|[\\s.-])FLUX\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "FLUX"
+  },
+  {
     "name": "FRDS",
     "pattern": "(?<=^|[\\s.-])FRDS\\b",
     "description": "",
