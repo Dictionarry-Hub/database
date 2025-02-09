@@ -103,6 +103,16 @@
     "_id": "AAC"
   },
   {
+    "name": "ABBIE",
+    "pattern": "(?<=^|[\\s.-])ABBIE\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "ABBIE"
+  },
+  {
     "name": "ADE",
     "pattern": "(?<=^|[\\s.-])ADE\\b",
     "description": "",
@@ -121,6 +131,16 @@
     ],
     "tests": [],
     "_id": "AJP69"
+  },
+  {
+    "name": "APEX",
+    "pattern": "(?<=^|[\\s.-])APEX\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "APEX"
   },
   {
     "name": "AV1",
@@ -445,6 +465,16 @@
     "_id": "BLUEBIRD"
   },
   {
+    "name": "BLUTONiUM",
+    "pattern": "(?<=^|[\\s.-])BLUTONiUM\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BLUTONiUM"
+  },
+  {
     "name": "BMF",
     "pattern": "(?<=^|[\\s.-])BMF\\b",
     "description": "",
@@ -561,6 +591,16 @@
     ],
     "tests": [],
     "_id": "BV"
+  },
+  {
+    "name": "BYNDR",
+    "pattern": "(?<=^|[\\s.-])BYNDR\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "BYNDR"
   },
   {
     "name": "Basic HDR Formats",
@@ -923,6 +963,16 @@
       }
     ],
     "_id": "CMRG"
+  },
+  {
+    "name": "CRFW",
+    "pattern": "(?<=^|[\\s.-])CRFW\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "CRFW"
   },
   {
     "name": "CRX",
@@ -2709,6 +2759,16 @@
     "_id": "HDmux"
   },
   {
+    "name": "HHWEB",
+    "pattern": "(?<=^|[\\s.-])HHWEB\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "HHWEB"
+  },
+  {
     "name": "HOA",
     "pattern": "(?<=^|[\\s.-])HOA\\b",
     "description": "",
@@ -2902,6 +2962,16 @@
     "_id": "KNiVES"
   },
   {
+    "name": "KiNGS",
+    "pattern": "(?<=^|[\\s.-])KiNGS\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "KiNGS"
+  },
+  {
     "name": "Kitsune",
     "pattern": "(?<=^|[\\s.-])Kitsune\\b",
     "description": "",
@@ -3030,6 +3100,16 @@
     ],
     "tests": [],
     "_id": "MTeam"
+  },
+  {
+    "name": "MZABI",
+    "pattern": "(?<=^|[\\s.-])MZABI\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "MZABI"
   },
   {
     "name": "MainFrame",
@@ -3279,13 +3359,47 @@
     "_id": "NCmt"
   },
   {
+    "name": "NOSiViD",
+    "pattern": "(?<=^|[\\s.-])NOSiViD\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NOSiViD"
+  },
+  {
+    "name": "NTG",
+    "pattern": "(?<=^|[\\s.-])NTG\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "NTG"
+  },
+  {
     "name": "NTb",
     "pattern": "(?<=^|[\\s.-])NTb\\b",
     "description": "",
     "tags": [
       "Release Group"
     ],
-    "tests": [],
+    "tests": [
+      {
+        "expected": true,
+        "id": 1,
+        "input": "Zen - Grogu and Dust Bunnies (2022) 2160p DSNP WEB-DL H265 HDR DDP 5.1 English-NTb",
+        "lastRun": "2025-02-09T03:39:58.482938",
+        "matchSpan": {
+          "end": 82,
+          "start": 79
+        },
+        "matchedContent": "NTb",
+        "matchedGroups": [],
+        "passes": true
+      }
+    ],
     "_id": "NTb"
   },
   {
@@ -3593,8 +3707,66 @@
     "tags": [
       "Release Group"
     ],
-    "tests": [],
+    "tests": [
+      {
+        "expected": false,
+        "id": 1,
+        "input": "\u7bb1\u7537.Hako.otoko.2024.1080p.NF.WEB-DL.x264.DDP5.1-PTerWEB",
+        "lastRun": "2025-02-09T03:36:13.163388",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": true,
+        "id": 2,
+        "input": "Ying.Hung.Boon.Sik.1986.REPACK.1080p.UHD.BluRay.DD+7.1.DoVi.HDR10.x265-PTer",
+        "lastRun": "2025-02-09T03:36:13.163388",
+        "matchSpan": {
+          "end": 75,
+          "start": 71
+        },
+        "matchedContent": "PTer",
+        "matchedGroups": [],
+        "passes": true
+      }
+    ],
     "_id": "PTer"
+  },
+  {
+    "name": "PTerWEB",
+    "pattern": "(?<=^|[\\s.-])PTerWEB\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [
+      {
+        "expected": true,
+        "id": 1,
+        "input": "\u7bb1\u7537.Hako.otoko.2024.1080p.NF.WEB-DL.x264.DDP5.1-PTerWEB",
+        "lastRun": "2025-02-09T03:36:19.441066",
+        "matchSpan": {
+          "end": 54,
+          "start": 47
+        },
+        "matchedContent": "PTerWEB",
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 2,
+        "input": "Ying.Hung.Boon.Sik.1986.REPACK.1080p.UHD.BluRay.DD+7.1.DoVi.HDR10.x265-PTer",
+        "lastRun": "2025-02-09T03:36:19.441066",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      }
+    ],
+    "_id": "PTerWEB"
   },
   {
     "name": "Paramount+",
@@ -4343,6 +4515,16 @@
     "_id": "SMAHAWUG"
   },
   {
+    "name": "SMURF",
+    "pattern": "(?<=^|[\\s.-])SMURF\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SMURF"
+  },
+  {
     "name": "SOP",
     "pattern": "(?<=^|[\\s.-])SOP\\b",
     "description": "",
@@ -4465,6 +4647,16 @@
     "_id": "Scene"
   },
   {
+    "name": "SiC",
+    "pattern": "(?<=^|[\\s.-])SiC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SiC"
+  },
+  {
     "name": "SiGLA",
     "pattern": "(?<=^|[\\s.-])SiGLA\\b",
     "description": "",
@@ -4487,6 +4679,16 @@
       }
     ],
     "_id": "SiGLA"
+  },
+  {
+    "name": "SiGMA",
+    "pattern": "(?<=^|[\\s.-])SiGMA\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "SiGMA"
   },
   {
     "name": "SiMPLE",
@@ -4537,6 +4739,16 @@
     ],
     "tests": [],
     "_id": "TDD"
+  },
+  {
+    "name": "TEPES",
+    "pattern": "(?<=^|[\\s.-])TEPES\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "TEPES"
   },
   {
     "name": "TERMiNAL",
@@ -5050,6 +5262,16 @@
     "_id": "WiKi"
   },
   {
+    "name": "XEBEC",
+    "pattern": "(?<=^|[\\s.-])XEBEC\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "XEBEC"
+  },
+  {
     "name": "Xvid",
     "pattern": "(?i)[-. ]Xvid",
     "description": "Xvid is a video codec based on the MPEG-4 Part 2 standard, designed for efficient compression while maintaining good visual quality. It is commonly used for encoding videos into smaller file sizes suitable for online sharing or storage, often paired with MP3 or AAC audio. ",
@@ -5185,6 +5407,16 @@
     ],
     "tests": null,
     "_id": "d3g"
+  },
+  {
+    "name": "dB",
+    "pattern": "(?<=^|[\\s.-])dB\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "dB"
   },
   {
     "name": "de[42]",
@@ -5627,6 +5859,16 @@
     ],
     "tests": [],
     "_id": "playHD"
+  },
+  {
+    "name": "playWEB",
+    "pattern": "(?<=^|[\\s.-])playWEB\\b",
+    "description": "",
+    "tags": [
+      "Release Group"
+    ],
+    "tests": [],
+    "_id": "playWEB"
   },
   {
     "name": "rightSIZE",
