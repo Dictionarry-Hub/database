@@ -1,0 +1,6 @@
+name: CRFW
+pattern: (?<=^|[\s.-])CRFW\b
+description: ''
+tags:
+- Release Group
+tests: []
