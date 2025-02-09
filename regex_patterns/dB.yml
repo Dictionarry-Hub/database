@@ -1,0 +1,6 @@
+name: dB
+pattern: (?<=^|[\s.-])dB\b
+description: ''
+tags:
+- Release Group
+tests: []

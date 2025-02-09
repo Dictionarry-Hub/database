@@ -1,0 +1,6 @@
+name: APEX
+pattern: (?<=^|[\s.-])APEX\b
+description: ''
+tags:
+- Release Group
+tests: []

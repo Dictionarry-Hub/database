@@ -1,0 +1,6 @@
+name: SiGMA
+pattern: (?<=^|[\s.-])SiGMA\b
+description: ''
+tags:
+- Release Group
+tests: []
