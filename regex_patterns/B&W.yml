@@ -1,5 +1,5 @@
 name: B&W
-pattern: (?i)\bblack\s*[.-]?\s*(?:and|&)\s*[.-]?\s*white\b
+pattern: (?:\(\d{4}\)|\d{4})\s*[\w\s.,-]*\s*(?:black\s*(?:and|\&|-|\/)\s*white|b(?:\&|\/|\-|\s*and\s*)w|black[\s.]*(?:and|\&|-|\/)[\s.]*white|b[\s\.\&]w)
 description: Black and White colour grading.
 tags:
 - Enhancement
@@ -10,41 +10,65 @@ tests:
   id: 1
   input: The Mist Black and White 2007 2160p USA UHD Blu-ray DV HDR HEVC TrueHD 7.1
     Atmos-BeyondHD
-  lastRun: '2024-12-13T07:08:12.829611'
-  matchSpan:
-    end: 24
-    start: 9
-  matchedContent: Black and White
+  lastRun: '2025-02-09T17:49:01.033472'
+  matchSpan: null
+  matchedContent: null
   matchedGroups: []
-  passes: true
+  passes: false
 - expected: false
   id: 2
   input: Black and White 2002 1080p Blu-ray AVC DTS-HD MA 5.1-CultFilms
-  lastRun: '2024-12-13T07:08:12.829611'
-  matchSpan:
-    end: 15
-    start: 0
-  matchedContent: Black and White
+  lastRun: '2025-02-09T17:49:01.033472'
+  matchSpan: null
+  matchedContent: null
   matchedGroups: []
-  passes: false
+  passes: true
 - expected: false
   id: 3
   input: 'Pokemon the Movie: Black and White-Victini and Reshiram Zekrom 2011 1080p
     AUS BD50 DTS-HD MA 5.1 AVC-PHOENiX'
-  lastRun: '2024-12-13T07:08:12.829611'
-  matchSpan:
-    end: 34
-    start: 19
-  matchedContent: Black and White
+  lastRun: '2025-02-09T17:49:01.033472'
+  matchSpan: null
+  matchedContent: null
   matchedGroups: []
-  passes: false
+  passes: true
 - expected: true
   id: 4
   input: Madeo 2009 Black & White Version 1080p JPN Blu-ray AVC TrueHD 5.1-kyRLS
-  lastRun: '2024-12-13T07:08:12.829611'
+  lastRun: '2025-02-09T17:49:01.033472'
   matchSpan:
     end: 24
+    start: 6
+  matchedContent: 2009 Black & White
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 5
+  input: Raging.Bull.1980.black-white
+  lastRun: '2025-02-09T17:49:01.033472'
+  matchSpan:
+    end: 28
+    start: 12
+  matchedContent: 1980.black-white
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 6
+  input: Frances.Ha.2012.black.and.white.Version
+  lastRun: '2025-02-09T17:49:01.033472'
+  matchSpan:
+    end: 31
     start: 11
-  matchedContent: Black & White
+  matchedContent: 2012.black.and.white
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 7
+  input: Roma.(2018).b&w
+  lastRun: '2025-02-09T17:49:01.033472'
+  matchSpan:
+    end: 15
+    start: 5
+  matchedContent: (2018).b&w
   matchedGroups: []
   passes: true
