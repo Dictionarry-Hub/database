@@ -7,10 +7,20 @@ tests:
 - expected: true
   id: 1
   input: Zen - Grogu and Dust Bunnies (2022) 2160p DSNP WEB-DL H265 HDR DDP 5.1 English-NTb
-  lastRun: '2025-02-09T03:39:58.482938'
+  lastRun: '2025-02-09T03:47:23.981431'
   matchSpan:
     end: 82
     start: 79
+  matchedContent: NTb
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Jab.We.Met.2007.1080p.BluRay.DTS.x264-NTb.mkv
+  lastRun: '2025-02-09T03:47:23.981431'
+  matchSpan:
+    end: 41
+    start: 38
   matchedContent: NTb
   matchedGroups: []
   passes: true
