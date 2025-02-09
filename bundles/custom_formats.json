@@ -2685,7 +2685,7 @@
       {
         "name": "7.1 Surround",
         "negate": false,
-        "pattern": "7.1",
+        "pattern": "7\\.1",
         "required": true,
         "type": "release_title"
       },
