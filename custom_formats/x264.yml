@@ -4,13 +4,18 @@ tags:
 - Codec
 conditions:
 - name: x264
+  type: release_title
+  required: true
   negate: false
   pattern: x264
-  required: true
-  type: release_title
 - name: Not WEB-DL
-  type: source
-  required: false
   negate: true
+  required: true
   source: web_dl
+  type: source
+- name: Not Xvid
+  type: release_title
+  required: true
+  negate: true
+  pattern: Xvid
 tests: []
