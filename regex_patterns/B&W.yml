@@ -1,5 +1,5 @@
 name: B&W
-pattern: (?:\(\d{4}\)|\d{4})\s*[\w\s.,-]*\s*(?:black\s*(?:and|\&|-|\/)\s*white|b(?:\&|\/|\-|\s*and\s*)w|black[\s.]*(?:and|\&|-|\/)[\s.]*white|b[\s\.\&]w)
+pattern: (?:\(\d{4}\)|\d{4})\s*[\w\s.,-]*\s*(?:\bblack\b[\s.]*(?:and|\&|-|\/)[\s.]*\bwhite\b|\bb\&w\b|\bb\s*[\/\-]?\s*w\b|\bb\b[\s.]*(?:and|\&|-|\/)[\s.]*\bw\b)
 description: Black and White colour grading.
 tags:
 - Enhancement
