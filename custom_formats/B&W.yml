@@ -1,5 +1,5 @@
 name: B&W
-description: Matches the 'B&W' Regex Pattern
+description: Matches the 'B&W' and 'Colour' Regex Pattern
 tags:
 - Unwanted
 - Colour Grade
@@ -10,4 +10,27 @@ conditions:
   pattern: B&W
   required: true
   type: release_title
-tests: []
+- name: Colour
+  negate: true
+  pattern: Colour
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: B&W
+    negate: false
+    pattern: B&W
+    required: true
+    type: release_title
+  - matches: true
+    name: Colour
+    negate: true
+    pattern: Colour
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: Dracula (1931) B&W (Colourized Version)
+  lastRun: '2025-02-13T13:14:54.830866'
+  passes: true
