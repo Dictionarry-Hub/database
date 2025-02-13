@@ -84,7 +84,7 @@ tests:
   passes: true
 - expected: false
   id: 12
-  input: Jack Black & Betty White in a Comedy Special
+  input: Title (2007) Jack Black & Betty White
   lastRun: '2025-02-13T13:15:39.155364'
   matchSpan: null
   matchedContent: null
