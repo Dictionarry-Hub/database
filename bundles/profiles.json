@@ -1015,10 +1015,6 @@
         "score": 60
       },
       {
-        "name": "Blu-ray",
-        "score": 60
-      },
-      {
         "name": "Blu-ray Remux",
         "score": 60
       },
@@ -1151,7 +1147,7 @@
         "score": -9999
       },
       {
-        "name": "Blu-ray Encode",
+        "name": "Blu-ray",
         "score": -9999
       },
       {
@@ -2200,10 +2196,6 @@
         "score": 60
       },
       {
-        "name": "Blu-ray",
-        "score": 60
-      },
-      {
         "name": "Blu-ray Remux",
         "score": 60
       },
@@ -2348,7 +2340,7 @@
         "score": -9999
       },
       {
-        "name": "Blu-ray Encode",
+        "name": "Blu-ray",
         "score": -9999
       },
       {

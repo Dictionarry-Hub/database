@@ -20,8 +20,6 @@ minScoreIncrement: 10
 custom_formats:
 - name: 1080p
   score: 60
-- name: Blu-ray
-  score: 60
 - name: Blu-ray Remux
   score: 60
 - name: DTS-X
@@ -88,7 +86,7 @@ custom_formats:
   score: -9999
 - name: B&W
   score: -9999
-- name: Blu-ray Encode
+- name: Blu-ray
   score: -9999
 - name: Dolby Vision
   score: -9999

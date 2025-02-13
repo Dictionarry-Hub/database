@@ -2,7 +2,7 @@
 title: Website 2.0
 slug: website2.0
 author: santiagosayshey
-created: 2025-01-02
+created: 2025-02-02
 tags: [devlog, website, profile_builder, eei, 2160p, quality]
 ---
 

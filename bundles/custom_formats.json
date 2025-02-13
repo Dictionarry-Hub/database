@@ -2980,31 +2980,6 @@
     "_id": "BeyondHD"
   },
   {
-    "name": "Blu-ray Encode",
-    "description": "Matches Blu-rays that are NOT remuxes",
-    "tags": [
-      "Source"
-    ],
-    "conditions": [
-      {
-        "name": "Blu-ray",
-        "type": "source",
-        "required": true,
-        "negate": false,
-        "source": "bluray"
-      },
-      {
-        "name": "Remux",
-        "type": "release_title",
-        "required": true,
-        "negate": true,
-        "pattern": "remux"
-      }
-    ],
-    "tests": [],
-    "_id": "Blu-ray Encode"
-  },
-  {
     "name": "Blu-ray Remux",
     "description": "A Blu-ray Remux is a direct rip of a Blu-ray's content without any re-encoding, preserving the original video, audio, and subtitle quality. It retains the exact resolution, bitrate, and format of the Blu-ray, ensuring no loss in fidelity compared to the source.",
     "tags": [
@@ -5244,7 +5219,7 @@
       {
         "name": "Groups",
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c|jennaortegaUHD\\b",
+        "pattern": "(?<=^|[\\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c|jennaortegaUHD|VisionXpert\\b",
         "required": true,
         "type": "release_title"
       }
