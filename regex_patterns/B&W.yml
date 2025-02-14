@@ -1,5 +1,5 @@
 name: B&W
-pattern: (?:\(\d{4}\)|\d{4}).*?(?:\bblack\b[\s\&.\-\/]*(?:and)?[\s\&.\-\/]*\bwhite\b|\bb\&?w\b)
+pattern: \(\d{4}\)|\d{4}.*?\bblack\b[\s\&.\-\/]*(?:and)?[\s\&.\-\/]*\bwhite\b|\bb\&?w\b
 description: Black and White colour grading. This regex matches a 4-digit number (optionally
   surrounded by parentheses), followed by any amount of text, and then detects references
   to "black and white" in various formats. It supports `blackwhite` (no spaces), `black
