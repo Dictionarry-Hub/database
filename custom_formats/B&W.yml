@@ -1,5 +1,5 @@
 name: B&W
-description: Matches the 'B&W' and 'Colour' Regex Pattern
+description: Matches the "B&W" pattern unless "Colourisation" is present
 tags:
 - Unwanted
 - Colour Grade
