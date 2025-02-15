@@ -10,9 +10,9 @@ conditions:
   pattern: B&W
   required: true
   type: release_title
-- name: Colour
+- name: Colourisation
   negate: true
-  pattern: Colour
+  pattern: Colourisation
   required: true
   type: release_title
 tests:
@@ -24,13 +24,13 @@ tests:
     required: true
     type: release_title
   - matches: true
-    name: Colour
+    name: Colourisation
     negate: true
-    pattern: Colour
+    pattern: Colourisation
     required: true
     type: release_title
   expected: false
   id: 1
   input: Dracula (1931) B&W (Colourized Version)
-  lastRun: '2025-02-13T13:14:54.830866'
+  lastRun: '2025-02-15T15:43:20.483549'
   passes: true
