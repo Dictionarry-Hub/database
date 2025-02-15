@@ -1,6 +1,6 @@
 name: Colour
 pattern: \bcolou?r(i[sz]ed?|ed)?\b
-description: '- Matches `colour`, `coloured`, `colourize`, `colourized`.
+description: '- Matches `colour`, `coloured`, `colourise`, `colourised`.
 
   - Handles both American ("color") and British ("colour") spellings.'
 tags:
@@ -31,25 +31,25 @@ tests:
   passes: true
 - expected: true
   id: 4
-  input: colourize
+  input: colourise
   lastRun: '2025-02-13T13:29:13.301346'
   matchSpan:
     end: 9
     start: 0
-  matchedContent: colourize
+  matchedContent: colourise
   matchedGroups:
-  - ize
+  - ise
   passes: true
 - expected: true
   id: 7
-  input: colourized
+  input: colourised
   lastRun: '2025-02-13T13:29:13.301346'
   matchSpan:
     end: 10
     start: 0
-  matchedContent: colourized
+  matchedContent: colourised
   matchedGroups:
-  - ized
+  - ised
   passes: true
 - expected: true
   id: 8
