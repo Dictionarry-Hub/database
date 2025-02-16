@@ -1,12 +1,17 @@
 name: Colourisation
 pattern: \bcolou?r(i[sz]ed?|ed)?\b
 description: 'Colourisation (or colorization in American English) is the process of
-  adding colour to black-and-white, sepia, or other monochrome images.
+  adding colour to black-and-white, sepia, or other monochrome images. Matches variations
+  of `color` in both American and British spellings, including:
 
 
-  - Matches `colour`, `coloured`, `colourize`, `colourized`.
+  - **Base forms:** `color`, `colour`
 
-  - Handles both American ("color") and British ("colour") spellings.'
+  - **Past tense/adjective forms:** `colored`, `coloured`
+
+  - **Verb forms:** `colorize`, `colourize`, `colorise`, `colourise`
+
+  - **Past participles:** `colorized`, `coloured`, `colourized`, `colourised`'
 tags:
 - Colour Grade
 - Enhancement
@@ -14,7 +19,7 @@ tests:
 - expected: true
   id: 1
   input: colour
-  lastRun: '2025-02-13T13:29:13.301346'
+  lastRun: '2025-02-16T14:15:44.717864'
   matchSpan:
     end: 6
     start: 0
@@ -25,7 +30,7 @@ tests:
 - expected: true
   id: 3
   input: coloured
-  lastRun: '2025-02-13T13:29:13.301346'
+  lastRun: '2025-02-16T14:15:44.717864'
   matchSpan:
     end: 8
     start: 0
@@ -36,7 +41,7 @@ tests:
 - expected: true
   id: 4
   input: colourise
-  lastRun: '2025-02-13T13:29:13.301346'
+  lastRun: '2025-02-16T14:15:44.717864'
   matchSpan:
     end: 9
     start: 0
@@ -47,7 +52,7 @@ tests:
 - expected: true
   id: 7
   input: colourised
-  lastRun: '2025-02-13T13:29:13.301346'
+  lastRun: '2025-02-16T14:15:44.717864'
   matchSpan:
     end: 10
     start: 0
@@ -58,7 +63,7 @@ tests:
 - expected: true
   id: 8
   input: colored
-  lastRun: '2025-02-13T13:29:13.301346'
+  lastRun: '2025-02-16T14:15:44.717864'
   matchSpan:
     end: 7
     start: 0
@@ -69,7 +74,7 @@ tests:
 - expected: false
   id: 9
   input: discolor
-  lastRun: '2025-02-13T13:29:13.301346'
+  lastRun: '2025-02-16T14:15:44.717864'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
