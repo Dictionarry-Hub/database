@@ -1,5 +1,5 @@
 name: h265
-pattern: (?i)h\s*\.?\s*265
+pattern: (?i)\bh[\-\.\s]?265\b
 description: A video compression standard that delivers higher efficiency than H.264,
   enabling better quality at lower bitrates, ideal for 4K and HDR content.
 tags:
