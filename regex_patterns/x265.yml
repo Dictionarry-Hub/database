@@ -33,13 +33,13 @@ tests:
   passes: true
 - expected: true
   id: 3
-  input: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1 DoVi HDR10x265-c0kE
+  input: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1 DoVi HDR10 x265-c0kE
   lastRun: '2025-01-14T10:24:52.457470'
   matchSpan:
     end: 83
     start: 0
   matchedContent: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1
-    DoVi HDR10x265-c0kE
+    DoVi HDR10 x265-c0kE
   matchedGroups:
   - x265
   - '265'
