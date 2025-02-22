@@ -1,5 +1,5 @@
 name: THREESOME
-pattern: (?<=^|[\s.-])threesome\b
+pattern: (?<=^|[\s.-])THREESOME\b
 description: ''
 tags:
 - Release Group
