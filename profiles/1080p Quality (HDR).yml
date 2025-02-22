@@ -167,28 +167,9 @@ qualities:
     name: DVD
   - id: 24
     name: SDTV
-- id: -3
-  name: Prereleases
-  description: 'Low quality releases that come out before physical discs / streaming
-    / VODs. Needs to be enabled for tweak to work. '
-  qualities:
-  - id: 29
-    name: CAM
-  - id: 26
-    name: Telesync
-  - id: 25
-    name: Telecine
-  - id: 23
-    name: DVDSCR
 upgrade_until:
   id: -1
   name: Transparent capable
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
 language: must_original
-tweaks:
-  preferFreeleech: false
-  allowLosslessAudio: true
-  allowDVNoFallback: false
-  allowBleedingEdgeCodecs: false
-  allowPrereleases: false

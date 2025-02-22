@@ -315,13 +315,6 @@
       "description": "Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred."
     },
     "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": false,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
     "_id": "1080p Balanced"
   },
   {
@@ -631,29 +624,6 @@
             "name": "SDTV"
           }
         ]
-      },
-      {
-        "id": -3,
-        "name": "Prereleases",
-        "description": "Low quality releases that come out before physical discs / streaming / VODs. Needs to be enabled for tweak to work. ",
-        "qualities": [
-          {
-            "id": 29,
-            "name": "CAM"
-          },
-          {
-            "id": 26,
-            "name": "Telesync"
-          },
-          {
-            "id": 25,
-            "name": "Telecine"
-          },
-          {
-            "id": 23,
-            "name": "DVDSCR"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -662,13 +632,6 @@
       "description": "All capable of being indistinguishable from source. WEB-DL included to not allow unknown encode to trump known WEB-DL."
     },
     "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
     "_id": "1080p Quality (HDR)"
   },
   {
@@ -956,29 +919,6 @@
             "name": "SDTV"
           }
         ]
-      },
-      {
-        "id": -3,
-        "name": "Prereleases",
-        "description": "Low quality releases that come out before physical discs / streaming / VODs. Needs to be enabled for tweak to work. ",
-        "qualities": [
-          {
-            "id": 29,
-            "name": "CAM"
-          },
-          {
-            "id": 26,
-            "name": "Telesync"
-          },
-          {
-            "id": 25,
-            "name": "Telecine"
-          },
-          {
-            "id": 23,
-            "name": "DVDSCR"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -987,13 +927,6 @@
       "description": "All capable of being indistinguishable from source. WEB-DL included to not allow unknown encode to trump known WEB-DL."
     },
     "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": true,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
     "_id": "1080p Quality"
   },
   {
@@ -1666,29 +1599,6 @@
             "name": "SDTV"
           }
         ]
-      },
-      {
-        "id": -4,
-        "name": "Prereleases",
-        "description": "Low Quality releases that come out before VODs / Physical Media",
-        "qualities": [
-          {
-            "id": 29,
-            "name": "CAM"
-          },
-          {
-            "id": 26,
-            "name": "Telesync"
-          },
-          {
-            "id": 25,
-            "name": "Telecine"
-          },
-          {
-            "id": 23,
-            "name": "DVDSCR"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -1697,13 +1607,6 @@
       "description": "4K web download, untouched as released by the streaming service"
     },
     "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
     "_id": "2160p Balanced"
   },
   {
@@ -2132,29 +2035,6 @@
             "name": "SDTV"
           }
         ]
-      },
-      {
-        "id": -4,
-        "name": "Prereleases",
-        "description": "Low Quality releases that come out before VODs / Physical Media",
-        "qualities": [
-          {
-            "id": 29,
-            "name": "CAM"
-          },
-          {
-            "id": 26,
-            "name": "Telesync"
-          },
-          {
-            "id": 25,
-            "name": "Telecine"
-          },
-          {
-            "id": 23,
-            "name": "DVDSCR"
-          }
-        ]
       }
     ],
     "upgrade_until": {
@@ -2163,13 +2043,6 @@
       "description": "Indistinguishable from source"
     },
     "language": "must_original",
-    "tweaks": {
-      "preferFreeleech": false,
-      "allowLosslessAudio": true,
-      "allowDVNoFallback": false,
-      "allowBleedingEdgeCodecs": false,
-      "allowPrereleases": false
-    },
     "_id": "2160p Quality"
   },
   {

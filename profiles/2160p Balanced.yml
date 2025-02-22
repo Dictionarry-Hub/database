@@ -209,26 +209,8 @@ qualities:
     name: WEBRip-480p
   - id: 24
     name: SDTV
-- id: -4
-  name: Prereleases
-  description: Low Quality releases that come out before VODs / Physical Media
-  qualities:
-  - id: 29
-    name: CAM
-  - id: 26
-    name: Telesync
-  - id: 25
-    name: Telecine
-  - id: 23
-    name: DVDSCR
 upgrade_until:
   id: 5
   name: WEBDL-2160p
   description: 4K web download, untouched as released by the streaming service
 language: must_original
-tweaks:
-  preferFreeleech: false
-  allowLosslessAudio: true
-  allowDVNoFallback: false
-  allowBleedingEdgeCodecs: false
-  allowPrereleases: false

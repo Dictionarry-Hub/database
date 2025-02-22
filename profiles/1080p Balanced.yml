@@ -179,9 +179,3 @@ upgrade_until:
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
 language: must_original
-tweaks:
-  preferFreeleech: false
-  allowLosslessAudio: false
-  allowDVNoFallback: false
-  allowBleedingEdgeCodecs: false
-  allowPrereleases: false
