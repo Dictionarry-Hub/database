@@ -412,7 +412,7 @@
     },
     {
       "tier": 5,
-      "name": "whiterhino",
+      "name": "WhiteRhino",
       "score": 45,
       "efficiency": 41.0,
       "releases": 74,
@@ -655,15 +655,6 @@
     },
     {
       "tier": 5,
-      "name": "guhzer",
-      "score": 8.99,
-      "efficiency": 41.0,
-      "releases": 1,
-      "std_dev": 0,
-      "efficiency_delta": 14.000000000000007
-    },
-    {
-      "tier": 5,
       "name": "GUHZER",
       "score": 8.7,
       "efficiency": 29.0,
@@ -709,7 +700,7 @@
     },
     {
       "tier": 6,
-      "name": "threesome",
+      "name": "THREESOME",
       "score": 5.03,
       "efficiency": 38.0,
       "releases": 1,
