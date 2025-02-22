@@ -1,6 +1,0 @@
-name: spectacle
-pattern: (?<=^|[\s.-])spectacle\b
-description: ''
-tags:
-- Release Group
-tests: null

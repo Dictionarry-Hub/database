@@ -1,6 +1,0 @@
-name: guhzer
-pattern: (?<=^|[\s.-])guhzer\b
-description: ''
-tags:
-- Release Group
-tests: null

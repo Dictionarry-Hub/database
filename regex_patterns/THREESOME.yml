@@ -1,6 +1,6 @@
 name: THREESOME
-pattern: (?<=^|[\s.-])THREESOME\b
+pattern: (?<=^|[\s.-])threesome\b
 description: ''
 tags:
 - Release Group
-tests: null
+tests: []

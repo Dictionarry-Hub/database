@@ -1,6 +1,0 @@
-name: Blzt
-pattern: (?<=^|[\s.-])Blzt\b
-description: ''
-tags:
-- Release Group
-tests: null

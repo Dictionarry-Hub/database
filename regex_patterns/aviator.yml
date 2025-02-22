@@ -1,6 +1,0 @@
-name: aviator
-pattern: (?<=^|[\s.-])aviator\b
-description: ''
-tags:
-- Release Group
-tests: null

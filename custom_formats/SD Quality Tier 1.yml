@@ -13,7 +13,7 @@ conditions:
   type: source
 - name: TBB
   negate: false
-  pattern: c0ke
+  pattern: TBB
   required: false
   type: release_group
 - name: Dariush

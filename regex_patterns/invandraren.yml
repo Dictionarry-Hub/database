@@ -1,6 +1,0 @@
-name: invandraren
-pattern: (?<=^|[\s.-])invandraren\b
-description: ''
-tags:
-- Release Group
-tests: null
