@@ -1,4 +1,4 @@
-name: Colour
+name: Colourisation
 pattern: \bcolou?r(i[sz]ed?|ed)?\b
 description: '- Matches `colour`, `coloured`, `colourize`, `colourized`.
 
