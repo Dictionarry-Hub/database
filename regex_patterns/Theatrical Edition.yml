@@ -6,7 +6,6 @@ description: 'Matches any type of theatrical edition.
   in the title are not matched'
 tags:
 - Edition
-- Flag
 tests:
 - expected: true
   id: 1

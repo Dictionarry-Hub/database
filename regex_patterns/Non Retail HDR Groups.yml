@@ -1,5 +1,5 @@
 name: Non Retail HDR Groups
-pattern: (?<=^|[\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c|jennaortegaUHD|VisionXpert\b
+pattern: (?<=^|[\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c|jennaortegaUHD|VisionXpert|Flights\b
 description: Matches groups that produce non retail HDR.
 tags:
 - Release Group

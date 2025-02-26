@@ -23,7 +23,6 @@ description: 'Matches movies where the `Theatrical` cut is considered the better
   - Almost Famous (2000)'
 tags:
 - Edition
-- Flag
 tests:
 - expected: true
   id: 1
