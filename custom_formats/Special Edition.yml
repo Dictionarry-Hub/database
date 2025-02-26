@@ -1,0 +1,191 @@
+name: Special Edition
+description: "Special editions are modified versions of movies released after the\
+  \ original theatrical version.\n\n\u2022 They exist because filmmakers want to present\
+  \ their `true vision`, `fix problems`, or because studios want to make more money\n\
+  \u2022 You'll see them with names like `Director's Cut`, `Extended Edition`, or\
+  \ creative marketing labels like `Ultimate Cut`\n\u2022 A single film can have `multiple\
+  \ special editions` as technology improves or different creative perspectives emerge"
+tags:
+- Edition
+conditions:
+- name: Special Edition
+  negate: false
+  pattern: Special Edition
+  required: true
+  type: release_title
+- name: Not IMAX
+  negate: true
+  pattern: IMAX
+  required: true
+  type: release_title
+- name: Not Open Matte
+  negate: true
+  pattern: Open Matte
+  required: true
+  type: release_title
+- name: Not Theatrical Edition
+  negate: true
+  pattern: Theatrical Edition
+  required: true
+  type: release_title
+- name: Not Extended Clip
+  negate: true
+  pattern: Extended Clip
+  required: true
+  type: release_title
+- name: Not Sing Along
+  negate: true
+  pattern: Sing Along
+  required: true
+  type: release_title
+- name: Not Theatrical Preferred
+  negate: true
+  pattern: Better Theatricals
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Special Edition
+    negate: false
+    pattern: Special Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not IMAX
+    negate: true
+    pattern: IMAX
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Open Matte
+    negate: true
+    pattern: Open Matte
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Edition
+    negate: true
+    pattern: Theatrical Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Extended Clip
+    negate: true
+    pattern: Extended Clip
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Sing Along
+    negate: true
+    pattern: Sing Along
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Preferred
+    negate: true
+    pattern: Better Theatricals
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Blade.Runner.The.Final.Cut.1982.BluRay.CEE.1080p.VC-1.TrueHD.5.1-Gazdi
+  lastRun: '2025-02-26T05:09:12.646645'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Special Edition
+    negate: false
+    pattern: Special Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not IMAX
+    negate: true
+    pattern: IMAX
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Open Matte
+    negate: true
+    pattern: Open Matte
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Edition
+    negate: true
+    pattern: Theatrical Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Extended Clip
+    negate: true
+    pattern: Extended Clip
+    required: true
+    type: release_title
+  - matches: true
+    name: Not Sing Along
+    negate: true
+    pattern: Sing Along
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Preferred
+    negate: true
+    pattern: Better Theatricals
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Wicked 2024 Sing-Along Version 720p MA WEB-DL DDP 5.1 H.264-FLUX
+  lastRun: '2025-02-26T05:09:12.646645'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Special Edition
+    negate: false
+    pattern: Special Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not IMAX
+    negate: true
+    pattern: IMAX
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Open Matte
+    negate: true
+    pattern: Open Matte
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Edition
+    negate: true
+    pattern: Theatrical Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Extended Clip
+    negate: true
+    pattern: Extended Clip
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Sing Along
+    negate: true
+    pattern: Sing Along
+    required: true
+    type: release_title
+  - matches: true
+    name: Not Theatrical Preferred
+    negate: true
+    pattern: Better Theatricals
+    required: true
+    type: release_title
+  expected: false
+  id: 3
+  input: Alien 1979 Directors Cut HYBRID 2160p BluRay REMUX HEVC DV-HDR10Plus DTS-HD
+    MA 5 1-Flights
+  lastRun: '2025-02-26T05:09:12.646645'
+  passes: true

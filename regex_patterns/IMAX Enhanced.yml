@@ -1,0 +1,86 @@
+name: IMAX Enhanced
+pattern: ^(?=.*\b((DSNP|Disney\+|BC|B?CORE)(?=.?web.?(dl|rip)\b)))(?=.*\b((?<!NON.?)IMAX(.?Enhanced)?)\b)
+description: 'Matches IMAX releases from specific digital sources.
+
+
+  - Checks for WEBs from `Disney+` or `Bravia Core`
+
+  - Ensures "IMAX" appears (with optional "Enhanced" suffix) but not when preceded
+  by "NON"'
+tags:
+- Enhancement
+- Aspect Ratio
+tests:
+- expected: false
+  id: 1
+  input: A.Writers.Odyssey.2021.1080p.IMAX.BluRay.REMUX.AVC.TrueHD.7.1.Atmos-BELGiAN.mkv
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Transformers Age Of Extinction 2014 NON-IMAX BluRay 1080p DTS AC3 x264-MgB
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: Thor Ragnarok 2017 IMAX Enhanced 1080p HFR WEB-DL HDR10 HEVC 10bit DDP 5
+    1-Robo29
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: Oppenheimer (2023) 2160p (UHD BluRay Enhanced IMAX HDR10Plus DoVi HEVC 10Bit
+    TrueHD 5 1Ch and DTS-HD MA 5 1Ch)-ShieldBearer
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 5
+  input: Thor Ragnarok 2017 IMAX Enhanced 1080p DSNP WEB-DL HDR10 HEVC 10bit DDP 5
+    1-Robo29
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups:
+  - DSNP
+  - DSNP
+  - DL
+  - IMAX Enhanced
+  - ' Enhanced'
+  passes: true
+- expected: true
+  id: 6
+  input: Thor Ragnarok 2017 IMAX 1080p DSNP WEB-DL HDR10 HEVC 10bit DDP 5 1-Robo29
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan:
+    end: 0
+    start: 0
+  matchedContent: ''
+  matchedGroups:
+  - DSNP
+  - DSNP
+  - DL
+  - IMAX
+  - null
+  passes: true
+- expected: false
+  id: 7
+  input: Thor Ragnarok 2017 IMAX Enhanced 1080p WEB-DL HDR10 HEVC 10bit DDP 5 1-Robo29
+  lastRun: '2025-02-25T22:06:39.145915'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

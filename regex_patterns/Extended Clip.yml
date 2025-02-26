@@ -1,0 +1,30 @@
+name: Extended Clip
+pattern: \b(extended.?clip)\b
+description: Matches preview releases labelled as `Extended Clip`
+tags:
+- Preview
+- Unwanted
+tests:
+- expected: true
+  id: 1
+  input: Killers Of The Flower Moon 2023 Extended Clip 1080p AMZN WEB-DL DDP 5.1 H
+    264-FLUX
+  lastRun: '2025-02-25T22:09:00.135768'
+  matchSpan:
+    end: 45
+    start: 32
+  matchedContent: Extended Clip
+  matchedGroups:
+  - Extended Clip
+  passes: true
+- expected: true
+  id: 2
+  input: Killers.of.The.Flower.Moon.2023.Extended.Clip.1080p.AMZN.WEB-DL.DDP5.1.H.264-FLUX
+  lastRun: '2025-02-25T22:09:00.135768'
+  matchSpan:
+    end: 45
+    start: 32
+  matchedContent: Extended.Clip
+  matchedGroups:
+  - Extended.Clip
+  passes: true

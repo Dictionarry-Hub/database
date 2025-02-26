@@ -76,6 +76,8 @@ custom_formats:
   score: 10
 - name: Blu-ray
   score: 10
+- name: Special Edition
+  score: 10
 - name: WEBRip
   score: 10
 - name: x264

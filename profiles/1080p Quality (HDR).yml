@@ -95,6 +95,8 @@ custom_formats:
   score: 10
 - name: HDR10 (Missing) (1080p)
   score: 10
+- name: Special Edition
+  score: 10
 - name: WEBRip
   score: 10
 - name: x264

@@ -34,6 +34,8 @@ custom_formats:
   score: 60
 - name: DTS-HD MA
   score: 50
+- name: Special Edition
+  score: 50
 - name: TrueHD
   score: 50
 - name: TrueHD (Missing)
@@ -154,9 +156,3 @@ upgrade_until:
   name: Remux-2160p
   description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
 language: must_original
-tweaks:
-  preferFreeleech: true
-  allowLosslessAudio: true
-  allowDVNoFallback: false
-  allowBleedingEdgeCodecs: false
-  allowPrereleases: false

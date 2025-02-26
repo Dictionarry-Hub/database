@@ -1,0 +1,42 @@
+name: IMAX
+pattern: \b((?<!NON.?)IMAX)\b
+description: 'Matches any IMAX release. This includes:
+
+  - Any movie shot with IMAX in mind and henceforth tagged as `IMAX`
+
+  - IMAX Enchanced digital releases found on `Disney + / Bravia Core`'
+tags:
+- Enhancement
+- Aspect Ratio
+tests:
+- expected: true
+  id: 1
+  input: A.Writers.Odyssey.2021.1080p.IMAX.BluRay.REMUX.AVC.TrueHD.7.1.Atmos-BELGiAN.mkv
+  lastRun: '2025-02-25T22:05:56.005325'
+  matchSpan:
+    end: 33
+    start: 29
+  matchedContent: IMAX
+  matchedGroups:
+  - IMAX
+  passes: true
+- expected: false
+  id: 2
+  input: Transformers Age Of Extinction 2014 NON-IMAX BluRay 1080p DTS AC3 x264-MgB
+  lastRun: '2025-02-25T22:05:56.005325'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Thor Ragnarok 2017 IMAX Enhanced 1080p HFR WEB-DL HDR10 HEVC 10bit DDP 5
+    1-Robo29
+  lastRun: '2025-02-25T22:05:56.005325'
+  matchSpan:
+    end: 23
+    start: 19
+  matchedContent: IMAX
+  matchedGroups:
+  - IMAX
+  passes: true

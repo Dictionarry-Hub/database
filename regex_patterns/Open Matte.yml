@@ -1,0 +1,41 @@
+name: Open Matte
+pattern: \b(open.?matte)\b
+description: Matches releases with restored widescreen aspect ratio labelled as`Open
+  Matte`
+tags:
+- Aspect Ratio
+- Enhancement
+tests:
+- expected: true
+  id: 1
+  input: Zombieland.2009.Open.Matte.1080p.WEB-DL.DD+5.1.H.264-spartanec163.mkv
+  lastRun: '2025-02-25T22:03:36.971220'
+  matchSpan:
+    end: 26
+    start: 16
+  matchedContent: Open.Matte
+  matchedGroups:
+  - Open.Matte
+  passes: true
+- expected: true
+  id: 2
+  input: Watchmen 2009 Director's Cut Open Matte 1080p WEB-DL DDP 5.1 H.264
+  lastRun: '2025-02-25T22:03:36.971220'
+  matchSpan:
+    end: 39
+    start: 29
+  matchedContent: Open Matte
+  matchedGroups:
+  - Open Matte
+  passes: true
+- expected: true
+  id: 3
+  input: Tron Legacy 2010 Open Matte Upscale 2160p BluRay DV HDR-X DTS-HD MA 7 1 x265-BiTOR
+  lastRun: '2025-02-25T22:03:36.971220'
+  matchSpan:
+    end: 27
+    start: 17
+  matchedContent: Open Matte
+  matchedGroups:
+  - Open Matte
+  passes: true

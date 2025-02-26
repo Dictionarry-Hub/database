@@ -68,6 +68,8 @@ custom_formats:
   score: 10
 - name: Roku
   score: 10
+- name: Special Edition
+  score: 10
 - name: Repack3
   score: 7
 - name: Repack2
@@ -146,9 +148,3 @@ upgrade_until:
   name: Remux-1080p
   description: 1080p Blu-ray disc content remuxed into a playable file format
 language: must_original
-tweaks:
-  preferFreeleech: false
-  allowLosslessAudio: true
-  allowDVNoFallback: false
-  allowBleedingEdgeCodecs: false
-  allowPrereleases: false

@@ -1,0 +1,9 @@
+name: Special Edition
+pattern: '(?<!^|{)\b(extended|uncut|directors|special|unrated|uncensored|cut|version|edition)(\b|\d)
+
+  '
+description: 'Matches any type of non theatrical edition. '
+tags:
+- Edition
+- Flag
+tests: []
