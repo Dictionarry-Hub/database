@@ -1,0 +1,7 @@
+name: WeTV
+pattern: \b(WeTV)\b
+description: Tencent Video also called WeTV outside of China, is a Chinese video streaming website owned by Tencent. The website was launched in April 2011, and is one of China's largest online video platforms
+tags:
+- Streaming Service
+- WEB-DL
+- WEBRip
