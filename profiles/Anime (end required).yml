@@ -1,4 +1,4 @@
-name: Anime
+name: Anime (end required)
 description: Prefers English and dual audio
 tags:
 - anime
@@ -17,12 +17,10 @@ custom_formats:
   score: 3
 - name: DTS
   score: 2
-- name: Not Only English
-  score: 0
 - name: Not Only English (Missing)
   score: 0
 - name: Not English
-  score: -10
+  score: -20
 qualities:
 - id: 8
   name: Remux-1080p
