@@ -1,0 +1,6 @@
+name: PxL
+pattern: (?<=^|[\s.-])PxL\b
+description: ''
+tags:
+- Release Group
+tests: null

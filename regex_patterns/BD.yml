@@ -1,0 +1,6 @@
+name: BD
+pattern: (?<=^|[\s.-])BD\b
+description: ''
+tags:
+- Release Group
+tests: null

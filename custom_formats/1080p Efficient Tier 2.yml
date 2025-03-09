@@ -1,0 +1,46 @@
+name: 1080p Efficient Tier 2
+description: Matches release groups who fall under 1080p Efficient Tier 2
+tags:
+- Release Group
+conditions:
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: d3g
+  negate: false
+  pattern: d3g
+  required: false
+  type: release_group
+- name: LSt
+  negate: false
+  pattern: LSt
+  required: false
+  type: release_group
+- name: Vyndros
+  negate: false
+  pattern: Vyndros
+  required: false
+  type: release_group
+- name: Chivaman
+  negate: false
+  pattern: Chivaman
+  required: false
+  type: release_group
+- name: Ralphy
+  negate: false
+  pattern: Ralphy
+  required: false
+  type: release_group
+- name: R1GY3B
+  negate: false
+  pattern: R1GY3B
+  required: false
+  type: release_group
+tests: []

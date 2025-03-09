@@ -1,0 +1,6 @@
+name: GTF
+pattern: (?<=^|[\s.-])GTF\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: SonyHD
+pattern: (?<=^|[\s.-])SonyHD\b
+description: ''
+tags:
+- Release Group
+tests: null

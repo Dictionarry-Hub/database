@@ -1,0 +1,6 @@
+name: POIASD
+pattern: (?<=^|[\s.-])POIASD\b
+description: ''
+tags:
+- Release Group
+tests: null

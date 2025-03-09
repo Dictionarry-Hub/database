@@ -1,0 +1,6 @@
+name: m3th
+pattern: (?<=^|[\s.-])m3th\b
+description: ''
+tags:
+- Release Group
+tests: null

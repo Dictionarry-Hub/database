@@ -1,0 +1,6 @@
+name: MAJESTiC
+pattern: (?<=^|[\s.-])MAJESTiC\b
+description: ''
+tags:
+- Release Group
+tests: null

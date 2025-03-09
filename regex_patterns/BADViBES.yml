@@ -1,0 +1,6 @@
+name: BADViBES
+pattern: (?<=^|[\s.-])BADViBES\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: EPiC
+pattern: (?<=^|[\s.-])EPiC\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: BRiAN
+pattern: (?<=^|[\s.-])BRiAN\b
+description: ''
+tags:
+- Release Group
+tests: null

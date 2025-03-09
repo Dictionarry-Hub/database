@@ -1,0 +1,6 @@
+name: EnC0de
+pattern: (?<=^|[\s.-])EnC0de\b
+description: ''
+tags:
+- Release Group
+tests: null

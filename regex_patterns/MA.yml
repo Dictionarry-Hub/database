@@ -1,0 +1,6 @@
+name: MA
+pattern: (?<=^|[\s.-])MA\b
+description: ''
+tags:
+- Release Group
+tests: null

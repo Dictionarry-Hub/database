@@ -1,0 +1,6 @@
+name: ogna
+pattern: (?<=^|[\s.-])ogna\b
+description: ''
+tags:
+- Release Group
+tests: null
