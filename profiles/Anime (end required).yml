@@ -21,9 +21,19 @@ custom_formats:
   score: 0
 - name: Not English
   score: -20
+- name: 3D
+  score: -99
+- name: B&W
+  score: -99
+- name: Remux
+  score: -99
+- name: Unwanted Remux Groups
+  score: -99
+- name: Unwanted x265 Groups
+  score: -99
+- name: Upscaled
+  score: -99
 qualities:
-- id: 8
-  name: Remux-1080p
 - id: 9
   name: WEBDL-1080p
 - id: 10
@@ -41,7 +51,7 @@ qualities:
 - id: 24
   name: SDTV
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: 9
+  name: WEBDL-1080p
+  description: 1080p web download, untouched as released by the streaming service
 language: any
