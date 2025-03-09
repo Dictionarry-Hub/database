@@ -1,0 +1,6 @@
+name: ZAX
+pattern: (?<=^|[\s.-])ZAX\b
+description: ''
+tags:
+- Release Group
+tests: null

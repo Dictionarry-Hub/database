@@ -1,0 +1,6 @@
+name: InfosPack022
+pattern: (?<=^|[\s.-])InfosPack022\b
+description: ''
+tags:
+- Release Group
+tests: null

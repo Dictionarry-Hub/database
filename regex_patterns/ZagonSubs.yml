@@ -1,0 +1,6 @@
+name: ZagonSubs
+pattern: (?<=^|[\s.-])ZagonSubs\b
+description: ''
+tags:
+- Release Group
+tests: null

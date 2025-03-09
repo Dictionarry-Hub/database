@@ -1,0 +1,6 @@
+name: HDMA
+pattern: (?<=^|[\s.-])HDMA\b
+description: ''
+tags:
+- Release Group
+tests: null

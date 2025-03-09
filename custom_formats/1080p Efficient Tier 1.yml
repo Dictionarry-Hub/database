@@ -1,0 +1,41 @@
+name: 1080p Efficient Tier 1
+description: Matches release groups who fall under 1080p Efficient Tier 1
+tags:
+- Release Group
+conditions:
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: QxR
+  negate: false
+  pattern: QxR
+  required: false
+  type: release_group
+- name: TAoE
+  negate: false
+  pattern: TAoE
+  required: false
+  type: release_group
+- name: POIASD
+  negate: false
+  pattern: POIASD
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
+- name: GRiMM
+  negate: false
+  pattern: GRiMM
+  required: false
+  type: release_group
+tests: []

@@ -1,0 +1,6 @@
+name: QxR
+pattern: (?<=^|[\s.-])QxR\b
+description: ''
+tags:
+- Release Group
+tests: null

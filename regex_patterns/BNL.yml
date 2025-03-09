@@ -1,0 +1,6 @@
+name: BNL
+pattern: (?<=^|[\s.-])BNL\b
+description: ''
+tags:
+- Release Group
+tests: null

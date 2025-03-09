@@ -1,0 +1,6 @@
+name: PoF
+pattern: (?<=^|[\s.-])PoF\b
+description: ''
+tags:
+- Release Group
+tests: null

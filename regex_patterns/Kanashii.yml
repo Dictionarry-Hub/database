@@ -1,0 +1,6 @@
+name: Kanashii
+pattern: (?<=^|[\s.-])Kanashii\b
+description: ''
+tags:
+- Release Group
+tests: null

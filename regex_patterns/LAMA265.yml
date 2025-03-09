@@ -1,0 +1,6 @@
+name: LAMA265
+pattern: (?<=^|[\s.-])LAMA265\b
+description: ''
+tags:
+- Release Group
+tests: null
