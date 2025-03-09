@@ -1,0 +1,49 @@
+name: Anime
+description: Prefers English and dual audio
+tags:
+- anime
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 0
+minScoreIncrement: 1
+custom_formats:
+- name: Bettter Dual Audio Chec
+  score: 10
+- name: Is English
+  score: 10
+- name: Is Japanese
+  score: 10
+- name: Dolby Digital
+  score: 3
+- name: DTS
+  score: 2
+- name: Not Only English
+  score: 0
+- name: Not Only English (Missing)
+  score: 0
+- name: Not English
+  score: -10
+qualities:
+- id: 8
+  name: Remux-1080p
+- id: 9
+  name: WEBDL-1080p
+- id: 10
+  name: Bluray-1080p
+- id: 13
+  name: Bluray-720p
+- id: 14
+  name: WEBDL-720p
+- id: 16
+  name: HDTV-720p
+- id: 15
+  name: WEBRip-720p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+upgrade_until:
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
+language: any

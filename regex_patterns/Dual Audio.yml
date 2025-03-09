@@ -4,7 +4,8 @@ description: Matches releases with Dual Audio; Media releases that contain two l
   tracks - typically the original language (such as Japanese) along with an English
   dub, allowing viewers to switch between either audio track while watching the same
   video content.
-tags: []
+tags:
+- language
 tests:
 - expected: true
   id: 1

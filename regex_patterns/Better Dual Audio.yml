@@ -1,0 +1,7 @@
+name: Better Dual Audio
+pattern: (?i)(dual[ ._-]?(?:audio|dub)|multi[ ._-]?(?:audio|dub)|ubbed)
+description: ''
+tags:
+- Language
+- Anime
+tests: []

@@ -1,0 +1,12 @@
+name: Is Japanese
+description: ''
+tags:
+- Language
+conditions:
+- exceptLanguage: false
+  language: japanese
+  name: Jap
+  negate: false
+  required: true
+  type: language
+tests: []
