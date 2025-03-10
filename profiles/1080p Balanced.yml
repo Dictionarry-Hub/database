@@ -48,8 +48,6 @@ custom_formats:
   score: 170
 - name: 1080p Balanced Tier 2
   score: 160
-- name: 720p
-  score: 110
 - name: 1080p Quality Tier 1
   score: 90
 - name: Hulu
@@ -76,6 +74,8 @@ custom_formats:
   score: 30
 - name: SD Quality Tier 1
   score: 30
+- name: 720p
+  score: 20
 - name: Scene
   score: 20
 - name: SD Quality Tier 2
