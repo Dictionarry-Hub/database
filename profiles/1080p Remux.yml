@@ -135,7 +135,7 @@ qualities:
   name: WEBDL-720p
 - id: -1
   name: SD Fallback
-  description: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 22
     name: DVD
