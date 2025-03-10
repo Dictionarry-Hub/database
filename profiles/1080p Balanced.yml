@@ -17,7 +17,7 @@ tags:
 - Balanced Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 320
+upgradeUntilScore: 480
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p
@@ -48,6 +48,8 @@ custom_formats:
   score: 170
 - name: 1080p Balanced Tier 2
   score: 160
+- name: 720p
+  score: 110
 - name: 1080p Quality Tier 1
   score: 90
 - name: Hulu
@@ -66,6 +68,8 @@ custom_formats:
   score: 60
 - name: 1080p Quality Tier 5
   score: 50
+- name: 720p Golden Popcorn
+  score: 45
 - name: DVD Remux
   score: 40
 - name: SD Golden Popcorn
@@ -97,10 +101,6 @@ custom_formats:
 - name: 2160p
   score: -9999
 - name: 3D
-  score: -9999
-- name: 720p
-  score: -9999
-- name: 720p Golden Popcorn
   score: -9999
 - name: B&W
   score: -9999
@@ -138,21 +138,33 @@ custom_formats:
   score: -9999
 qualities:
 - id: -1
-  name: Balanced capable
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+  name: Balanced Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
   qualities:
   - id: 10
     name: Bluray-1080p
-  - id: 11
-    name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
 - id: -2
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
+  qualities:
+  - id: 6
+    name: Bluray-720p
+  - id: 5
+    name: WEBDL-720p
+  - id: 14
+    name: WEBRip-720p
+- id: -3
   name: SD
   description: SD Fallbacks
   qualities:
+  - id: 20
+    name: Bluray-480p
   - id: 19
     name: WEBDL-480p
   - id: 20
@@ -161,7 +173,7 @@ qualities:
     name: DVD
   - id: 24
     name: SDTV
-- id: -3
+- id: -4
   name: Prereleases
   description: 'Low quality releases that come out before physical discs / streaming
     / VODs. Needs to be enabled for tweak to work. '
@@ -176,8 +188,8 @@ qualities:
     name: DVDSCR
 upgrade_until:
   id: -1
-  name: Balanced capable
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+  name: Balanced Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
 language: must_original
