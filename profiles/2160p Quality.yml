@@ -105,6 +105,8 @@ custom_formats:
   score: 15
 - name: 1080p Balanced Tier 2
   score: 10
+- name: 720p
+  score: 10
 - name: Blu-ray
   score: 10
 - name: HDR10
@@ -179,8 +181,6 @@ custom_formats:
   score: -150
 - name: 3D
   score: -9999
-- name: 720p
-  score: -9999
 - name: AV1
   score: -9999
 - name: B&W
@@ -224,26 +224,36 @@ custom_formats:
 - name: x265 (Missing)
   score: -9999
 qualities:
-- id: -2
+- id: -1
   name: 2160p Transparent
   description: Indistinguishable from source
   qualities:
-  - id: 5
-    name: WEBDL-2160p
   - id: 4
     name: Bluray-2160p
-- id: -3
+  - id: 5
+    name: WEBDL-2160p
+- id: -2
   name: 1080p Transparent
   description: Indistinguishable from source
   qualities:
   - id: 10
     name: Bluray-1080p
-  - id: 11
-    name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
-- id: -1
-  name: SD
+  - id: 11
+    name: WEBRip-1080p
+- id: -3
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: -4
+  name: SD Fallback
   description: Standard Definition Fallbacks
   qualities:
   - id: 22
@@ -255,7 +265,7 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: -2
+  id: -1
   name: 2160p Transparent
   description: Indistinguishable from source
 language: must_original
