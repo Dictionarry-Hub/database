@@ -85,6 +85,8 @@ custom_formats:
   score: 20
 - name: SD Quality Tier 2
   score: 20
+- name: 720p
+  score: 10
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
@@ -109,8 +111,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: 720p
-  score: 0
 - name: x265
   score: -90
 - name: 2160p
