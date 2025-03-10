@@ -153,17 +153,17 @@ qualities:
   name: 720p Fallback
   description: Fallback to 720p when 1080p cannot be found.
   qualities:
-  - id: 6
+  - id: 13
     name: Bluray-720p
-  - id: 5
-    name: WEBDL-720p
   - id: 14
+    name: WEBDL-720p
+  - id: 15
     name: WEBRip-720p
 - id: -3
   name: SD
   description: SD Fallbacks
   qualities:
-  - id: 20
+  - id: 18
     name: Bluray-480p
   - id: 19
     name: WEBDL-480p
