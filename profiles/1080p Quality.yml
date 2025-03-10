@@ -18,6 +18,8 @@ custom_formats:
   score: 160
 - name: 1080p Quality Tier 1
   score: 80
+- name: 720p Golden Popcorn
+  score: 80
 - name: 1080p Quality Tier 2
   score: 70
 - name: 1080p
@@ -70,6 +72,8 @@ custom_formats:
   score: 10
 - name: 1080p Balanced Tier 2
   score: 10
+- name: 720p
+  score: 10
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
@@ -91,10 +95,6 @@ custom_formats:
 - name: 2160p
   score: -9999
 - name: 3D
-  score: -9999
-- name: 720p
-  score: -9999
-- name: 720p Golden Popcorn
   score: -9999
 - name: B&W
   score: -9999
@@ -132,7 +132,7 @@ custom_formats:
   score: -9999
 qualities:
 - id: -1
-  name: Transparent capable
+  name: Transparent Capable
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
   qualities:
@@ -143,9 +143,21 @@ qualities:
   - id: 11
     name: WEBRip-1080p
 - id: -2
-  name: SD
-  description: SD Fallbacks
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
   qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: -3
+  name: SD Fallback
+  description: SD Fallback
+  qualities:
+  - id: 18
+    name: Bluray-480p
   - id: 19
     name: WEBDL-480p
   - id: 20
@@ -156,7 +168,7 @@ qualities:
     name: SDTV
 upgrade_until:
   id: -1
-  name: Transparent capable
+  name: Transparent Capable
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
 language: must_original
