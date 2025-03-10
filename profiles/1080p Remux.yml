@@ -44,6 +44,8 @@ custom_formats:
   score: 30
 - name: Movies Anywhere
   score: 30
+- name: 720p
+  score: 20
 - name: Criterion Channel
   score: 20
 - name: HBO Max
@@ -81,8 +83,6 @@ custom_formats:
 - name: 2160p
   score: -9999
 - name: 3D
-  score: -9999
-- name: 720p
   score: -9999
 - name: AV1
   score: -9999
@@ -131,16 +131,16 @@ qualities:
   name: Remux-1080p
 - id: 9
   name: WEBDL-1080p
+- id: 14
+  name: WEBDL-720p
 - id: -1
-  name: SD
-  description: Standard Definition Fallbacks
+  name: SD Fallback
+  description: SD Fallback
   qualities:
   - id: 22
     name: DVD
   - id: 19
     name: WEBDL-480p
-  - id: 20
-    name: WEBRip-480p
   - id: 24
     name: SDTV
 upgrade_until:
