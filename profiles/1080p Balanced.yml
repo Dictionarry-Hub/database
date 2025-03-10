@@ -160,8 +160,8 @@ qualities:
   - id: 15
     name: WEBRip-720p
 - id: -3
-  name: SD
-  description: SD Fallbacks
+  name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
