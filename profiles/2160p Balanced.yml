@@ -132,6 +132,8 @@ custom_formats:
   score: 5
 - name: Unknown Lossless Audio
   score: 5
+- name: 720p
+  score: 0
 - name: Amazon Prime
   score: 0
 - name: Apple TV+
@@ -163,8 +165,6 @@ custom_formats:
 - name: 2160p Blu-ray Encode
   score: -9999
 - name: 3D
-  score: -9999
-- name: 720p
   score: -9999
 - name: AV1
   score: -9999
@@ -215,26 +215,38 @@ custom_formats:
 qualities:
 - id: 5
   name: WEBDL-2160p
-- id: -3
+- id: -1
   name: 1080p Transparent
   description: Indistinguishable from source
   qualities:
   - id: 10
     name: Bluray-1080p
-  - id: 11
-    name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
-- id: -1
-  name: SD
+  - id: 11
+    name: WEBRip-1080p
+- id: -2
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: -3
+  name: SD Fallback
   description: Standard Definition Fallbacks
   qualities:
-  - id: 22
-    name: DVD
+  - id: 18
+    name: Bluray-480p
   - id: 19
     name: WEBDL-480p
   - id: 20
     name: WEBRip-480p
+  - id: 22
+    name: DVD
   - id: 24
     name: SDTV
 upgrade_until:
