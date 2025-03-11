@@ -10,7 +10,6 @@ description: 'Blu-ray is a digital optical disc format that succeeded DVD, offer
 tags:
 - Source
 - 1080p
-- Storage
 conditions:
 - name: Bluray
   negate: false
