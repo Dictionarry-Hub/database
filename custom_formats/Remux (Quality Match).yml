@@ -1,4 +1,4 @@
-name: Remux (Quality)
+name: Remux (Quality Match)
 description: Matches Remux using a quality modifier
 tags:
 - Storage
@@ -8,4 +8,9 @@ conditions:
   required: true
   negate: false
   qualityModifier: remux
+- name: DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
 tests: []
