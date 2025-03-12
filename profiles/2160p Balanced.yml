@@ -162,7 +162,7 @@ custom_formats:
   score: 0
 - name: SDR
   score: -80
-- name: 2160p Blu-ray Encode
+- name: 2160p Bluray
   score: -9999
 - name: 3D
   score: -9999
