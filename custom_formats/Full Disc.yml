@@ -2,7 +2,6 @@ name: Full Disc
 description: 'Matches the ''Full Disc'' regex pattern and negates any remuxes / encodes. '
 tags:
 - Storage
-- Source
 conditions:
 - name: Full Disc
   negate: false
