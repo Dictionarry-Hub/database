@@ -1,0 +1,21 @@
+name: 480p Bluray
+description: Matches 480p Blurays that are NOT remuxes
+tags:
+- Source
+conditions:
+- name: 480p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 480p
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+tests: []
