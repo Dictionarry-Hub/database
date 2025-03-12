@@ -1,0 +1,16 @@
+name: 2160p WEBDL
+description: Matches 2160p WEBDLs.
+tags:
+- Source
+conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
+- name: WEBDL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests: []
