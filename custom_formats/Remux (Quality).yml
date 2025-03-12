@@ -1,0 +1,11 @@
+name: Remux (Quality)
+description: Matches Remux using a quality modifier
+tags:
+- Storage
+conditions:
+- name: Remux
+  type: quality_modifier
+  required: true
+  negate: false
+  qualityModifier: remux
+tests: []
