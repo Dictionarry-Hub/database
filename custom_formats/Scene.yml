@@ -10,7 +10,7 @@ conditions:
   type: release_title
 - name: WEB-DL
   negate: true
-  required: false
+  required: true
   source: web_dl
   type: source
 tests: []
