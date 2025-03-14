@@ -112,8 +112,6 @@ custom_formats:
   score: -9999
 - name: BeyondHD
   score: -9999
-- name: Blu-ray Remux
-  score: -9999
 - name: Dolby Vision
   score: -9999
 - name: Extras
