@@ -1,0 +1,16 @@
+name: 720p Bluray
+description: Matches 720p Blurays that are NOT remuxes
+tags:
+- Source
+conditions:
+- name: 720p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 720p
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+tests: []

@@ -1,0 +1,16 @@
+name: 720p WEBRip
+description: Matches 720p WEBRips.
+tags:
+- Source
+conditions:
+- name: 720p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 720p
+- name: WEBRip
+  negate: false
+  required: true
+  source: webrip
+  type: source
+tests: []
