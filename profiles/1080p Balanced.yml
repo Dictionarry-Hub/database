@@ -57,7 +57,7 @@ custom_formats:
 - name: 1080p Balanced Tier 1
   score: 210
 - name: 1080p Balanced Tier 2
-  score: 210
+  score: 200
 - name: 1080p Quality Tier 1
   score: 130
 - name: 1080p Quality Tier 2
