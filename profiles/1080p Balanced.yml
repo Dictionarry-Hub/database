@@ -17,65 +17,79 @@ tags:
 - Balanced Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 480
+upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p
-  score: 220
+- name: 1080p WEBDL
+  score: 720
+- name: 1080p Bluray
+  score: 710
+- name: 1080p WEBRip
+  score: 700
+- name: 720p WEBDL
+  score: 420
+- name: 720p Bluray
+  score: 410
+- name: 720p WEBRip
+  score: 400
 - name: Disney+
-  score: 220
+  score: 240
 - name: Movies Anywhere
-  score: 220
+  score: 240
 - name: Amazon Prime
-  score: 210
+  score: 230
 - name: Apple TV+
-  score: 210
+  score: 230
 - name: Criterion Channel
-  score: 210
+  score: 230
 - name: HBO Max
-  score: 210
+  score: 230
 - name: Max
-  score: 210
+  score: 230
 - name: Netflix
-  score: 210
+  score: 230
 - name: Paramount+
-  score: 210
+  score: 230
 - name: Peacock
-  score: 210
+  score: 230
 - name: iTunes (Missing)
-  score: 200
+  score: 220
 - name: 1080p Balanced Tier 1
-  score: 170
+  score: 210
 - name: 1080p Balanced Tier 2
-  score: 160
+  score: 210
 - name: 1080p Quality Tier 1
-  score: 90
-- name: Hulu
-  score: 90
-- name: iTunes
-  score: 90
-- name: Roku
-  score: 90
+  score: 130
 - name: 1080p Quality Tier 2
-  score: 80
+  score: 120
+- name: 480p WEBDL
+  score: 120
 - name: 1080p Quality Tier 3
-  score: 70
+  score: 110
+- name: 480p Bluray
+  score: 110
+- name: 1080p Quality Tier 4
+  score: 100
+- name: 480p WEBRip
+  score: 100
+- name: Hulu
+  score: 100
+- name: iTunes
+  score: 100
+- name: Roku
+  score: 100
+- name: 1080p Quality Tier 5
+  score: 90
 - name: 1080p Golden Popcorn
   score: 60
-- name: 1080p Quality Tier 4
-  score: 60
-- name: 1080p Quality Tier 5
-  score: 50
 - name: 720p Golden Popcorn
-  score: 45
+  score: 50
 - name: DVD Remux
   score: 40
 - name: SD Golden Popcorn
-  score: 30
+  score: 40
 - name: SD Quality Tier 1
   score: 30
-- name: 720p
-  score: 20
 - name: Scene
   score: 20
 - name: SD Quality Tier 2
@@ -84,13 +98,7 @@ custom_formats:
   score: 10
 - name: Atmos (Missing)
   score: 10
-- name: Blu-ray
-  score: 10
 - name: Special Edition
-  score: 10
-- name: WEBRip
-  score: 10
-- name: x264
   score: 10
 - name: Repack3
   score: 8
@@ -98,8 +106,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: 2160p
-  score: -9999
 - name: 3D
   score: -9999
 - name: B&W
@@ -127,6 +133,8 @@ custom_formats:
 - name: HDR10+
   score: -9999
 - name: Remux
+  score: -9999
+- name: Remux (Quality Match)
   score: -9999
 - name: SD Bluray Encodes
   score: -9999
