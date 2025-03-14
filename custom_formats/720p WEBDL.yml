@@ -1,13 +1,13 @@
 name: 720p WEBDL
 description: Matches 720p WEBDLs.
 tags:
-- Source
+- Resolution
 conditions:
 - name: 720p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 720p
+  type: resolution
 - name: WEBDL
   negate: false
   required: true

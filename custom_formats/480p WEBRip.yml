@@ -1,13 +1,13 @@
 name: 480p WEBRip
 description: Matches 480p WEBRips.
 tags:
-- Source
+- Resolution
 conditions:
 - name: 480p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 480p
+  type: resolution
 - name: WEBRip
   negate: false
   required: true

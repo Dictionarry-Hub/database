@@ -1,13 +1,13 @@
 name: 480p WEBDL
 description: Matches 480p WEBDLs.
 tags:
-- Source
+- Resolution
 conditions:
 - name: 480p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 480p
+  type: resolution
 - name: WEBDL
   negate: false
   required: true

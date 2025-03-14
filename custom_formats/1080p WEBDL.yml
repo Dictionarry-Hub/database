@@ -1,13 +1,13 @@
 name: 1080p WEBDL
 description: Matches 1080p WEBDLs.
 tags:
-- Source
+- Resolution
 conditions:
 - name: 1080p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 1080p
+  type: resolution
 - name: WEBDL
   negate: false
   required: true

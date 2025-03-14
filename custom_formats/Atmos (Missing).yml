@@ -3,7 +3,6 @@ description: Attempts to match releases which have Atmos (TrueHD 7.1) that don't
   it correctly.
 tags:
 - Audio
-- Enhancement
 - Dolby
 conditions:
 - name: 7.1 Surround

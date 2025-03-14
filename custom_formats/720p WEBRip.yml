@@ -1,13 +1,13 @@
 name: 720p WEBRip
 description: Matches 720p WEBRips.
 tags:
-- Source
+- Resolution
 conditions:
 - name: 720p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 720p
+  type: resolution
 - name: WEBRip
   negate: false
   required: true
