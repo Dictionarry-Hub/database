@@ -19,18 +19,52 @@ tags:
 - h265
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 350
+upgradeUntilScore: 1200
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p
+- name: 2160p Remux
+  score: 1000
+- name: 1080p Remux
+  score: 800
+- name: 1080p WEBDL
+  score: 600
+- name: 720p WEBDL
+  score: 400
+- name: 480p WEBDL
+  score: 200
+- name: DVD Remux
   score: 120
-- name: 1080p
-  score: 60
-- name: Blu-ray Remux
-  score: 60
+- name: DVD
+  score: 100
+- name: Amazon Prime
+  score: 80
+- name: Apple TV+
+  score: 80
+- name: Disney+
+  score: 80
+- name: Movies Anywhere
+  score: 80
+- name: Criterion Channel
+  score: 70
+- name: HBO Max
+  score: 70
+- name: Max
+  score: 70
+- name: Netflix
+  score: 70
+- name: Paramount+
+  score: 70
+- name: Peacock
+  score: 70
 - name: DTS-X
   score: 60
-- name: Remux
+- name: Hulu
+  score: 60
+- name: iTunes
+  score: 60
+- name: iTunes (Missing)
+  score: 60
+- name: Roku
   score: 60
 - name: DTS-HD MA
   score: 50
@@ -40,35 +74,11 @@ custom_formats:
   score: 50
 - name: TrueHD (Missing)
   score: 50
-- name: DVD Remux
-  score: 40
-- name: Amazon Prime
-  score: 30
-- name: Apple TV+
-  score: 30
-- name: Disney+
-  score: 30
 - name: Dolby Vision
   score: 30
 - name: FLAC
   score: 30
-- name: Movies Anywhere
-  score: 30
-- name: 720p
-  score: 20
-- name: Criterion Channel
-  score: 20
-- name: HBO Max
-  score: 20
 - name: HDR10+
-  score: 20
-- name: Max
-  score: 20
-- name: Netflix
-  score: 20
-- name: Paramount+
-  score: 20
-- name: Peacock
   score: 20
 - name: Atmos
   score: 10
@@ -77,14 +87,6 @@ custom_formats:
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
-  score: 10
-- name: Hulu
-  score: 10
-- name: iTunes
-  score: 10
-- name: iTunes (Missing)
-  score: 10
-- name: Roku
   score: 10
 - name: Repack3
   score: 8
@@ -99,8 +101,6 @@ custom_formats:
 - name: AV1
   score: -9999
 - name: B&W
-  score: -9999
-- name: Blu-ray
   score: -9999
 - name: Dolby Vision (Without Fallback)
   score: -9999
@@ -123,8 +123,6 @@ custom_formats:
 - name: Upscaled
   score: -9999
 - name: VVC
-  score: -9999
-- name: WEBRip
   score: -9999
 - name: x264
   score: -9999
