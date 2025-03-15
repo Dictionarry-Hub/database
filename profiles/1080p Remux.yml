@@ -15,16 +15,50 @@ tags:
 - h264
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 350
+upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p
-  score: 60
-- name: Blu-ray Remux
-  score: 60
+- name: 1080p Remux
+  score: 800
+- name: 1080p WEBDL
+  score: 600
+- name: 720p WEBDL
+  score: 400
+- name: DVD
+  score: 120
+- name: 480p WEBDL
+  score: 100
+- name: DVD Remux
+  score: 100
+- name: Amazon Prime
+  score: 80
+- name: Apple TV+
+  score: 80
+- name: Disney+
+  score: 80
+- name: Movies Anywhere
+  score: 80
+- name: Criterion Channel
+  score: 70
+- name: HBO Max
+  score: 70
+- name: Max
+  score: 70
+- name: Netflix
+  score: 70
+- name: Paramount+
+  score: 70
+- name: Peacock
+  score: 70
 - name: DTS-X
   score: 60
-- name: Remux
+- name: Hulu
+  score: 60
+- name: iTunes
+  score: 60
+- name: iTunes (Missing)
+  score: 60
+- name: Roku
   score: 60
 - name: DTS-HD MA
   score: 50
@@ -32,43 +66,11 @@ custom_formats:
   score: 50
 - name: TrueHD (Missing)
   score: 50
-- name: DVD Remux
-  score: 40
-- name: Amazon Prime
-  score: 30
-- name: Apple TV+
-  score: 30
-- name: Disney+
-  score: 30
 - name: FLAC
   score: 30
-- name: Movies Anywhere
-  score: 30
-- name: 720p
-  score: 20
-- name: Criterion Channel
-  score: 20
-- name: HBO Max
-  score: 20
-- name: Max
-  score: 20
-- name: Netflix
-  score: 20
-- name: Paramount+
-  score: 20
-- name: Peacock
-  score: 20
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
-  score: 10
-- name: Hulu
-  score: 10
-- name: iTunes
-  score: 10
-- name: iTunes (Missing)
-  score: 10
-- name: Roku
   score: 10
 - name: Special Edition
   score: 10
@@ -80,15 +82,11 @@ custom_formats:
   score: 6
 - name: Unknown Lossless Audio
   score: 5
-- name: 2160p
-  score: -9999
 - name: 3D
   score: -9999
 - name: AV1
   score: -9999
 - name: B&W
-  score: -9999
-- name: Blu-ray
   score: -9999
 - name: Dolby Vision
   score: -9999
@@ -119,8 +117,6 @@ custom_formats:
 - name: Upscaled
   score: -9999
 - name: VVC
-  score: -9999
-- name: WEBRip
   score: -9999
 - name: x264
   score: -9999
