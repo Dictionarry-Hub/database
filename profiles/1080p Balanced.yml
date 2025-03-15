@@ -134,8 +134,6 @@ custom_formats:
   score: -9999
 - name: Remux (Quality Match)
   score: -9999
-- name: SD Bluray Encodes
-  score: -9999
 - name: Upscaled
   score: -9999
 - name: x265
