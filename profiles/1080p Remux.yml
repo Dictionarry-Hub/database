@@ -54,8 +54,6 @@ custom_formats:
   score: 60
 - name: Hulu [1080p]
   score: 60
-- name: iTunes (Missing)
-  score: 60
 - name: iTunes [1080p]
   score: 60
 - name: Roku [1080p]
@@ -82,6 +80,22 @@ custom_formats:
   score: 6
 - name: Unknown Lossless Audio
   score: 5
+- name: 1080p Bluray
+  score: 0
+- name: 1080p WEBRip
+  score: 0
+- name: 2160p Bluray
+  score: 0
+- name: 2160p WEBDL
+  score: 0
+- name: 480p WEBRip
+  score: 0
+- name: 720p Bluray
+  score: 0
+- name: 720p WEBRip
+  score: 0
+- name: Remux (Quality Match)
+  score: 0
 - name: 3D
   score: -9999
 - name: AV1

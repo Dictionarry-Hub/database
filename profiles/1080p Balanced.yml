@@ -52,8 +52,6 @@ custom_formats:
   score: 230
 - name: Peacock [1080p]
   score: 230
-- name: iTunes (Missing)
-  score: 220
 - name: 1080p Balanced Tier 1
   score: 210
 - name: 1080p Balanced Tier 2
@@ -106,6 +104,10 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: 2160p Bluray
+  score: 0
+- name: 2160p WEBDL
+  score: 0
 - name: 3D
   score: -9999
 - name: B&W

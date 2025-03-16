@@ -68,8 +68,6 @@ custom_formats:
   score: 100
 - name: Hulu [1080p]
   score: 100
-- name: iTunes (Missing)
-  score: 100
 - name: iTunes [1080p]
   score: 100
 - name: Roku [1080p]
@@ -100,6 +98,10 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: 2160p Bluray
+  score: 0
+- name: 2160p WEBDL
+  score: 0
 - name: 3D
   score: -9999
 - name: B&W
