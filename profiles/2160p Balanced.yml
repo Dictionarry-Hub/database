@@ -191,6 +191,8 @@ custom_formats:
 - name: x265 (Missing)
   score: -9999
 qualities:
+- id: 4
+  name: Bluray-2160p
 - id: 5
   name: WEBDL-2160p
 - id: -1
