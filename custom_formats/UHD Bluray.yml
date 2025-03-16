@@ -12,7 +12,7 @@ tags:
 - Storage
 - 2160p
 conditions:
-- name: UHD Blu-ray
+- name: UHD Bluray
   negate: false
   pattern: UHD Blu-ray
   required: true

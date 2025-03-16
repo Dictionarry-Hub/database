@@ -7,7 +7,7 @@ tags:
 - Lossless
 - Source
 conditions:
-- name: Blu-ray
+- name: Bluray
   negate: false
   required: true
   source: bluray

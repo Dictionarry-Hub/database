@@ -9,11 +9,11 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: Blu-ray
-  type: source
-  required: true
+- name: Bluray
   negate: false
+  required: true
   source: bluray
+  type: source
 - name: Not HDR10
   negate: true
   pattern: HDR10
