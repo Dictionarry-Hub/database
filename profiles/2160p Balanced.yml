@@ -195,10 +195,10 @@ qualities:
   name: Balanced Capable
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
   qualities:
-- id: 4
-  name: Bluray-2160p
-- id: 5
-  name: WEBDL-2160p
+  - id: 4
+    name: Bluray-2160p
+  - id: 5
+    name: WEBDL-2160p
 - id: -2
   name: 1080p Transparent
   description: Indistinguishable from source
