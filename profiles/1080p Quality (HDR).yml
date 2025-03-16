@@ -16,66 +16,82 @@ tags:
 - Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 320
+upgradeUntilScore: 1200
 minScoreIncrement: 1
 custom_formats:
 - name: UHD Bluray
-  score: 350
+  score: 1000
 - name: UHD Bluray (Missing)
-  score: 350
-- name: 1080p Golden Popcorn
-  score: 120
+  score: 1000
+- name: 1080p Bluray
+  score: 720
+- name: 1080p WEBDL
+  score: 710
+- name: 1080p WEBRip
+  score: 700
+- name: 720p Bluray
+  score: 420
+- name: 720p WEBDL
+  score: 410
+- name: 720p WEBRip
+  score: 400
 - name: 1080p Quality Tier 1
-  score: 120
+  score: 180
 - name: 1080p Quality Tier 2
-  score: 110
+  score: 170
 - name: 1080p Quality Tier 3
-  score: 100
+  score: 160
 - name: 1080p Quality Tier 4
-  score: 90
+  score: 150
 - name: 1080p Quality Tier 5
-  score: 80
-- name: 1080p
-  score: 60
-- name: 720p Golden Popcorn
-  score: 60
+  score: 140
 - name: Amazon Prime
-  score: 60
+  score: 120
 - name: Apple TV+
-  score: 60
+  score: 120
 - name: Disney+
-  score: 60
+  score: 120
+- name: DVD
+  score: 120
 - name: Movies Anywhere
-  score: 60
-- name: 1080p Balanced Tier 1
-  score: 50
+  score: 120
+- name: 480p WEBDL
+  score: 110
 - name: Criterion Channel
-  score: 50
+  score: 110
 - name: HBO Max
-  score: 50
+  score: 110
 - name: Max
-  score: 50
+  score: 110
 - name: Netflix
-  score: 50
+  score: 110
 - name: Paramount+
-  score: 50
+  score: 110
 - name: Peacock
-  score: 50
+  score: 110
+- name: 1080p Balanced Tier 1
+  score: 100
+- name: 1080p Golden Popcorn
+  score: 100
+- name: 480p WEBRip
+  score: 100
+- name: Hulu
+  score: 100
+- name: iTunes
+  score: 100
+- name: iTunes (Missing)
+  score: 100
+- name: Roku
+  score: 100
 - name: 1080p Balanced Tier 2
-  score: 40
+  score: 90
+- name: 720p Golden Popcorn
+  score: 80
 - name: DVD Remux
   score: 40
-- name: Hulu
-  score: 40
-- name: iTunes
-  score: 40
-- name: iTunes (Missing)
-  score: 40
-- name: Roku
+- name: SD Golden Popcorn
   score: 40
 - name: Dolby Vision
-  score: 30
-- name: SD Golden Popcorn
   score: 30
 - name: SD Quality Tier 1
   score: 30
@@ -85,13 +101,9 @@ custom_formats:
   score: 20
 - name: SD Quality Tier 2
   score: 20
-- name: 720p
-  score: 10
 - name: Atmos
   score: 10
 - name: Atmos (Missing)
-  score: 10
-- name: Blu-ray
   score: 10
 - name: HDR10
   score: 10
@@ -101,10 +113,6 @@ custom_formats:
   score: 10
 - name: Special Edition
   score: 10
-- name: WEBRip
-  score: 10
-- name: x264
-  score: 10
 - name: Repack3
   score: 8
 - name: Repack2
@@ -112,16 +120,12 @@ custom_formats:
 - name: Repack1
   score: 6
 - name: x265
-  score: -90
-- name: 2160p
-  score: -9999
+  score: -800
 - name: 3D
   score: -9999
 - name: B&W
   score: -9999
 - name: BeyondHD
-  score: -9999
-- name: Blu-ray Remux
   score: -9999
 - name: Dolby Vision (Without Fallback)
   score: -9999
@@ -137,7 +141,7 @@ custom_formats:
   score: -9999
 - name: Remux
   score: -9999
-- name: SD Bluray Encodes
+- name: Remux (Quality Match)
   score: -9999
 - name: Unwanted x265 Groups
   score: -9999

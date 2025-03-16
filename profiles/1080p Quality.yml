@@ -11,7 +11,7 @@ tags:
 - Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 1000
+upgradeUntilScore: 1200
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Bluray
