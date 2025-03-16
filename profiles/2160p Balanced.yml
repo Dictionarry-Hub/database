@@ -1,22 +1,3 @@
-name: 2160p Balanced
-description: "2160p Balanced targets consistent & immutable 2160p **HDR WEB-DLs w/\
-  \ Lossy Audio**. \n- Special considerations are given to **Balanced** groups who\
-  \ prioritize **streaming optimisation** over quality, falling somewhere around a\
-  \ tier 2 WEB-DL. This includes groups like **BHDStudio**, **HONE** and **hallowed**.\n\
-  - If no 2160p WEB-DL can be found, the profile will fall back to the 1080p Quality\
-  \ Profile.\n- Transparent 2160p Encodes (\xE0 la  2160p Quality) are not allowed\
-  \ as fallback since they are comparatively much larger than 2160p WEB-DLs"
-tags:
-- 2160p
-- HDR
-- x264
-- h265
-- Lossy Audio
-- Balanced Focused
-upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 600
-minScoreIncrement: 1
 custom_formats:
 - name: 2160p Balanced Tier 1
   score: 1180
@@ -192,20 +173,31 @@ custom_formats:
   score: -9999
 - name: x265 (Missing)
   score: -9999
+description: "2160p Balanced targets consistent & immutable 2160p **HDR WEB-DLs w/\
+  \ Lossy Audio**. \n- Special considerations are given to **Balanced** groups who\
+  \ prioritize **streaming optimisation** over quality, falling somewhere around a\
+  \ tier 2 WEB-DL. This includes groups like **BHDStudio**, **HONE** and **hallowed**.\n\
+  - If no 2160p WEB-DL can be found, the profile will fall back to the 1080p Quality\
+  \ Profile.\n- Transparent 2160p Encodes (\xE0 la  2160p Quality) are not allowed\
+  \ as fallback since they are comparatively much larger than 2160p WEB-DLs"
+language: must_original
+minCustomFormatScore: 0
+minScoreIncrement: 1
+name: 2160p Balanced
 qualities:
-- id: -1
-  name: Balanced Capable
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+- description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
+  id: -1
+  name: Balanced Capable
   qualities:
   - id: 4
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
-- id: -2
+- description: Indistinguishable from source
+  id: -2
   name: 1080p Transparent
-  description: Indistinguishable from source
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -213,9 +205,9 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: -3
+- description: Fallback to 720p when 1080p cannot be found.
+  id: -3
   name: 720p Fallback
-  description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -223,9 +215,9 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: -4
+- description: Standard Definition Fallbacks
+  id: -4
   name: SD Fallback
-  description: Standard Definition Fallbacks
   qualities:
   - id: 22
     name: DVD
@@ -235,10 +227,18 @@ qualities:
     name: WEBRip-480p
   - id: 24
     name: SDTV
+tags:
+- 2160p
+- HDR
+- x264
+- h265
+- Lossy Audio
+- Balanced Focused
+upgradeUntilScore: 600
 upgrade_until:
-  id: -1
-  name: Balanced Capable
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
-language: must_original
+  id: -1
+  name: Balanced Capable
+upgradesAllowed: true
