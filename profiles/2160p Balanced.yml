@@ -144,6 +144,8 @@ custom_formats:
   score: 5
 - name: SDR
   score: -80
+- name: 2160p Bluray
+  score: -100
 - name: 3D
   score: -9999
 - name: AV1
@@ -193,7 +195,9 @@ custom_formats:
 qualities:
 - id: -1
   name: Balanced Capable
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
   qualities:
   - id: 4
     name: Bluray-2160p
@@ -234,5 +238,7 @@ qualities:
 upgrade_until:
   id: -1
   name: Balanced Capable
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
 language: must_original
