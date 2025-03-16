@@ -27,8 +27,6 @@ custom_formats:
   score: 350
 - name: 2160p Quality Tier 4
   score: 340
-- name: 2160p
-  score: 300
 - name: 2160p Balanced Tier 1
   score: 300
 - name: 2160p Balanced Tier 2
@@ -61,8 +59,6 @@ custom_formats:
   score: 150
 - name: Roku [2160p]
   score: 150
-- name: 1080p
-  score: 60
 - name: 1080p Quality Tier 1
   score: 60
 - name: 1080p Quality Tier 2
@@ -105,10 +101,6 @@ custom_formats:
   score: 15
 - name: 1080p Balanced Tier 2
   score: 10
-- name: 720p
-  score: 10
-- name: Blu-ray
-  score: 10
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
@@ -127,10 +119,6 @@ custom_formats:
   score: 10
 - name: TrueHD (Missing)
   score: 10
-- name: WEBRip
-  score: 10
-- name: x264
-  score: 10
 - name: Repack3
   score: 8
 - name: Repack2
@@ -147,31 +135,29 @@ custom_formats:
   score: 5
 - name: Unknown Lossless Audio
   score: 5
-- name: Amazon Prime
+- name: 1080p Bluray
   score: 0
-- name: Apple TV+
+- name: 1080p WEBDL
   score: 0
-- name: Criterion Channel
+- name: 1080p WEBRip
   score: 0
-- name: Disney+
+- name: 2160p Bluray
   score: 0
-- name: HBO Max
+- name: 2160p WEBDL
   score: 0
-- name: Hulu
+- name: 480p WEBDL
   score: 0
-- name: iTunes
+- name: 480p WEBRip
   score: 0
-- name: Max
+- name: 720p Bluray
   score: 0
-- name: Movies Anywhere
+- name: 720p WEBDL
   score: 0
-- name: Netflix
+- name: 720p WEBRip
   score: 0
-- name: Paramount+
+- name: DVD
   score: 0
-- name: Peacock
-  score: 0
-- name: Roku
+- name: Remux (Quality Match)
   score: 0
 - name: SDR
   score: -80
@@ -184,8 +170,6 @@ custom_formats:
 - name: AV1
   score: -9999
 - name: B&W
-  score: -9999
-- name: Blu-ray Remux
   score: -9999
 - name: Dolby Vision (Without Fallback)
   score: -9999
@@ -206,8 +190,6 @@ custom_formats:
 - name: Non Retail HDR
   score: -9999
 - name: Remux
-  score: -9999
-- name: SD Bluray Encodes
   score: -9999
 - name: UHDBits
   score: -9999
