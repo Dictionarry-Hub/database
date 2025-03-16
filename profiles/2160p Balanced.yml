@@ -191,11 +191,15 @@ custom_formats:
 - name: x265 (Missing)
   score: -9999
 qualities:
+- id: -1
+  name: Balanced Capable
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
+  qualities:
 - id: 4
   name: Bluray-2160p
 - id: 5
   name: WEBDL-2160p
-- id: -1
+- id: -2
   name: 1080p Transparent
   description: Indistinguishable from source
   qualities:
@@ -205,7 +209,7 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: -2
+- id: -3
   name: 720p Fallback
   description: Fallback to 720p when 1080p cannot be found.
   qualities:
@@ -215,7 +219,7 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: -3
+- id: -4
   name: SD Fallback
   description: Standard Definition Fallbacks
   qualities:
@@ -228,7 +232,7 @@ qualities:
   - id: 24
     name: SDTV
 upgrade_until:
-  id: 5
-  name: WEBDL-2160p
-  description: 4K web download, untouched as released by the streaming service
+  id: -1
+  name: Balanced Capable
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
 language: must_original
