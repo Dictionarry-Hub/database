@@ -8,7 +8,7 @@ conditions:
   qualityModifier: remux
   required: true
   type: quality_modifier
-- name: DVD
+- name: Not DVD
   negate: true
   required: true
   source: dvd

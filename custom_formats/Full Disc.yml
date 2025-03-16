@@ -8,17 +8,17 @@ conditions:
   pattern: Full Disc
   required: true
   type: release_title
-- name: x264
+- name: Not x264
   negate: true
   pattern: x264
   required: true
   type: release_title
-- name: x265
+- name: Not x265
   negate: true
   pattern: x265
   required: true
   type: release_title
-- name: Remux
+- name: Not Remux
   negate: true
   pattern: Remux
   required: true

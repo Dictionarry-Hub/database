@@ -8,7 +8,7 @@ conditions:
   pattern: Scene
   required: true
   type: release_title
-- name: WEB-DL
+- name: Not WEB-DL
   negate: true
   required: true
   source: web_dl

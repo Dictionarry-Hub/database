@@ -16,7 +16,7 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Remux
+- name: Not Remux
   negate: true
   pattern: Remux
   required: true

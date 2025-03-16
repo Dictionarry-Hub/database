@@ -10,7 +10,7 @@ conditions:
   pattern: B&W
   required: true
   type: release_title
-- name: Colour
+- name: Not Colour
   negate: true
   pattern: Colourisation
   required: true

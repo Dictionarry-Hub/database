@@ -8,7 +8,7 @@ conditions:
   required: true
   resolution: 480p
   type: resolution
-- name: WEBDL
+- name: WEB-DL
   negate: false
   required: true
   source: web_dl

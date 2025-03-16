@@ -14,12 +14,12 @@ conditions:
   pattern: HBO Max
   required: true
   type: release_title
-- name: WEBRip
+- name: Not WEBRip
   negate: true
   required: true
   source: webrip
   type: source
-- name: x265
+- name: Not x265
   negate: true
   pattern: x265
   required: true

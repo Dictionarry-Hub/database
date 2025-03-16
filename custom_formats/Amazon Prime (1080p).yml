@@ -9,17 +9,17 @@ conditions:
   pattern: Amazon Prime
   required: true
   type: release_title
-- name: 2160p
+- name: Not 2160p
   negate: true
   required: true
   resolution: 2160p
   type: resolution
-- name: WEBRip
+- name: Not WEBRip
   negate: true
   required: true
   source: webrip
   type: source
-- name: x265
+- name: Not x265
   negate: true
   pattern: x265
   required: true
