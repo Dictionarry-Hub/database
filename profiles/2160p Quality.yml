@@ -141,8 +141,6 @@ custom_formats:
   score: 0
 - name: 1080p WEBRip
   score: 0
-- name: 2160p Bluray
-  score: 0
 - name: 2160p WEB-DL
   score: 0
 - name: 480p WEB-DL
