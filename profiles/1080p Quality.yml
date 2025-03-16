@@ -16,13 +16,13 @@ minScoreIncrement: 1
 custom_formats:
 - name: 1080p Bluray
   score: 720
-- name: 1080p WEBDL
+- name: 1080p WEB-DL
   score: 710
 - name: 1080p WEBRip
   score: 700
 - name: 720p Bluray
   score: 420
-- name: 720p WEBDL
+- name: 720p WEB-DL
   score: 410
 - name: 720p WEBRip
   score: 400
@@ -46,7 +46,7 @@ custom_formats:
   score: 120
 - name: Movies Anywhere [1080p]
   score: 120
-- name: 480p WEBDL
+- name: 480p WEB-DL
   score: 110
 - name: Criterion Channel
   score: 110
@@ -100,7 +100,7 @@ custom_formats:
   score: 6
 - name: 2160p Bluray
   score: 0
-- name: 2160p WEBDL
+- name: 2160p WEB-DL
   score: 0
 - name: 3D
   score: -9999

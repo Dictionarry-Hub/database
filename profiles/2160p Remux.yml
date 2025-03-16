@@ -26,11 +26,11 @@ custom_formats:
   score: 1000
 - name: 1080p Remux
   score: 800
-- name: 1080p WEBDL
+- name: 1080p WEB-DL
   score: 600
-- name: 720p WEBDL
+- name: 720p WEB-DL
   score: 400
-- name: 480p WEBDL
+- name: 480p WEB-DL
   score: 200
 - name: DVD Remux
   score: 120

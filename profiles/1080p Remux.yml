@@ -20,11 +20,11 @@ minScoreIncrement: 1
 custom_formats:
 - name: 1080p Remux
   score: 800
-- name: 1080p WEBDL
+- name: 1080p WEB-DL
   score: 600
-- name: 720p WEBDL
+- name: 720p WEB-DL
   score: 400
-- name: 480p WEBDL
+- name: 480p WEB-DL
   score: 200
 - name: DVD Remux
   score: 120
@@ -86,7 +86,7 @@ custom_formats:
   score: 0
 - name: 2160p Bluray
   score: 0
-- name: 2160p WEBDL
+- name: 2160p WEB-DL
   score: 0
 - name: 480p WEBRip
   score: 0

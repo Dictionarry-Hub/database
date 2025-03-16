@@ -20,13 +20,13 @@ minCustomFormatScore: 0
 upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p WEBDL
+- name: 1080p WEB-DL
   score: 720
 - name: 1080p Bluray
   score: 710
 - name: 1080p WEBRip
   score: 700
-- name: 720p WEBDL
+- name: 720p WEB-DL
   score: 420
 - name: 720p Bluray
   score: 410
@@ -60,7 +60,7 @@ custom_formats:
   score: 130
 - name: 1080p Quality Tier 2
   score: 120
-- name: 480p WEBDL
+- name: 480p WEB-DL
   score: 120
 - name: 1080p Quality Tier 3
   score: 110
@@ -106,7 +106,7 @@ custom_formats:
   score: 6
 - name: 2160p Bluray
   score: 0
-- name: 2160p WEBDL
+- name: 2160p WEB-DL
   score: 0
 - name: 3D
   score: -9999

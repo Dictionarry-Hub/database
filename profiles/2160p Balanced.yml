@@ -22,17 +22,17 @@ custom_formats:
   score: 1180
 - name: 2160p Balanced Tier 2
   score: 1170
-- name: 2160p WEBDL
+- name: 2160p WEB-DL
   score: 1000
 - name: 1080p Bluray
   score: 720
-- name: 1080p WEBDL
+- name: 1080p WEB-DL
   score: 710
 - name: 1080p WEBRip
   score: 700
 - name: 720p Bluray
   score: 420
-- name: 720p WEBDL
+- name: 720p WEB-DL
   score: 410
 - name: 720p WEBRip
   score: 400
@@ -62,7 +62,7 @@ custom_formats:
   score: 190
 - name: DVD
   score: 120
-- name: 480p WEBDL
+- name: 480p WEB-DL
   score: 110
 - name: 480p WEBRip
   score: 100
@@ -193,7 +193,9 @@ custom_formats:
 qualities:
 - id: -1
   name: 2160p Balanced
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
   qualities:
   - id: 4
     name: Bluray-2160p
@@ -234,5 +236,7 @@ qualities:
 upgrade_until:
   id: -1
   name: 2160p Balanced
-  description: Balanced capable releases. Typically WEB-DL would be the overwhelming majority of releases, but there are occasional streaming optimised encodes that should be preferred.
+  description: Balanced capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
 language: must_original
