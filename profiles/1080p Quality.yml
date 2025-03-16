@@ -38,13 +38,21 @@ custom_formats:
   score: 140
 - name: Amazon Prime
   score: 120
+- name: Amazon Prime [1080p]
+  score: 120
 - name: Apple TV+
   score: 120
+- name: Apple TV+ [1080p]
+  score: 120
 - name: Disney+
+  score: 120
+- name: Disney+ [1080p]
   score: 120
 - name: DVD
   score: 120
 - name: Movies Anywhere
+  score: 120
+- name: Movies Anywhere [1080p]
   score: 120
 - name: 480p WEBDL
   score: 110
@@ -52,13 +60,23 @@ custom_formats:
   score: 110
 - name: HBO Max
   score: 110
+- name: HBO Max [1080p]
+  score: 110
 - name: Max
+  score: 110
+- name: Max [1080p]
   score: 110
 - name: Netflix
   score: 110
+- name: Netflix [1080p]
+  score: 110
 - name: Paramount+
   score: 110
+- name: Paramount+ [1080p]
+  score: 110
 - name: Peacock
+  score: 110
+- name: Peacock [1080p]
   score: 110
 - name: 1080p Balanced Tier 1
   score: 100
@@ -68,11 +86,17 @@ custom_formats:
   score: 100
 - name: Hulu
   score: 100
+- name: Hulu [1080p]
+  score: 100
 - name: iTunes
   score: 100
 - name: iTunes (Missing)
   score: 100
+- name: iTunes [1080p]
+  score: 100
 - name: Roku
+  score: 100
+- name: Roku [1080p]
   score: 100
 - name: 1080p Balanced Tier 2
   score: 90

@@ -32,33 +32,57 @@ custom_formats:
   score: 100
 - name: Amazon Prime
   score: 80
+- name: Amazon Prime [1080p]
+  score: 80
 - name: Apple TV+
+  score: 80
+- name: Apple TV+ [1080p]
   score: 80
 - name: Disney+
   score: 80
+- name: Disney+ [1080p]
+  score: 80
 - name: Movies Anywhere
+  score: 80
+- name: Movies Anywhere [1080p]
   score: 80
 - name: Criterion Channel
   score: 70
 - name: HBO Max
   score: 70
+- name: HBO Max [1080p]
+  score: 70
 - name: Max
+  score: 70
+- name: Max [1080p]
   score: 70
 - name: Netflix
   score: 70
+- name: Netflix [1080p]
+  score: 70
 - name: Paramount+
   score: 70
+- name: Paramount+ [1080p]
+  score: 70
 - name: Peacock
+  score: 70
+- name: Peacock [1080p]
   score: 70
 - name: DTS-X
   score: 60
 - name: Hulu
   score: 60
+- name: Hulu [1080p]
+  score: 60
 - name: iTunes
   score: 60
 - name: iTunes (Missing)
   score: 60
+- name: iTunes [1080p]
+  score: 60
 - name: Roku
+  score: 60
+- name: Roku [1080p]
   score: 60
 - name: DTS-HD MA
   score: 50

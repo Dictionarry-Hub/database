@@ -34,23 +34,41 @@ custom_formats:
   score: 400
 - name: Disney+
   score: 240
+- name: Disney+ [1080p]
+  score: 240
 - name: Movies Anywhere
+  score: 240
+- name: Movies Anywhere [1080p]
   score: 240
 - name: Amazon Prime
   score: 230
+- name: Amazon Prime [1080p]
+  score: 230
 - name: Apple TV+
+  score: 230
+- name: Apple TV+ [1080p]
   score: 230
 - name: Criterion Channel
   score: 230
 - name: HBO Max
   score: 230
+- name: HBO Max [1080p]
+  score: 230
 - name: Max
+  score: 230
+- name: Max [1080p]
   score: 230
 - name: Netflix
   score: 230
+- name: Netflix [1080p]
+  score: 230
 - name: Paramount+
   score: 230
+- name: Paramount+ [1080p]
+  score: 230
 - name: Peacock
+  score: 230
+- name: Peacock [1080p]
   score: 230
 - name: iTunes (Missing)
   score: 220
@@ -74,9 +92,15 @@ custom_formats:
   score: 100
 - name: Hulu
   score: 100
+- name: Hulu [1080p]
+  score: 100
 - name: iTunes
   score: 100
+- name: iTunes [1080p]
+  score: 100
 - name: Roku
+  score: 100
+- name: Roku [1080p]
   score: 100
 - name: 1080p Quality Tier 5
   score: 90
