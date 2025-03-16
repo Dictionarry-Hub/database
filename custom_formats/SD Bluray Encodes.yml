@@ -10,24 +10,19 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: 576p
-  negate: false
-  required: false
-  resolution: 576p
+- name: 2160p
+  negate: true
+  required: true
+  resolution: 2160p
   type: resolution
-- name: 540p
-  negate: false
-  required: false
-  resolution: 540p
+- name: 1080p
+  negate: true
+  required: true
+  resolution: 1080p
   type: resolution
-- name: 480p
-  negate: false
-  required: false
-  resolution: 480p
-  type: resolution
-- name: 360p
-  negate: false
-  required: false
-  resolution: 360p
+- name: 720p
+  negate: true
+  required: true
+  resolution: 720p
   type: resolution
 tests: []
