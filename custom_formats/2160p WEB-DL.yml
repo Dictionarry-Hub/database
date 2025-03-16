@@ -1,12 +1,12 @@
-name: 720p WEBDL
-description: Matches 720p WEBDLs.
+name: 2160p WEB-DL
+description: Matches 2160p WEB-DLs.
 tags:
 - Resolution
 conditions:
-- name: 720p
+- name: 2160p
   negate: false
   required: true
-  resolution: 720p
+  resolution: 2160p
   type: resolution
 - name: WEBDL
   negate: false

@@ -1,12 +1,12 @@
-name: 1080p WEBDL
-description: Matches 1080p WEBDLs.
+name: 480p WEB-DL
+description: Matches 480p WEB-DLs.
 tags:
 - Resolution
 conditions:
-- name: 1080p
+- name: 480p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 480p
   type: resolution
 - name: WEBDL
   negate: false
