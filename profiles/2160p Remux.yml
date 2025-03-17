@@ -18,11 +18,13 @@ tags:
 - Lossless Audio
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 1200
+minCustomFormatScore: 100
+upgradeUntilScore: 1400
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
+  score: 1200
+- name: 2160p WEB-DL
   score: 1000
 - name: 1080p Remux
   score: 800
@@ -33,7 +35,7 @@ custom_formats:
 - name: 480p WEB-DL
   score: 200
 - name: DVD Remux
-  score: 120
+  score: 200
 - name: DVD
   score: 100
 - name: Amazon Prime
@@ -62,13 +64,9 @@ custom_formats:
   score: 60
 - name: iTunes
   score: 60
-- name: iTunes (Missing)
-  score: 60
 - name: Roku
   score: 60
 - name: DTS-HD MA
-  score: 50
-- name: Special Edition
   score: 50
 - name: TrueHD
   score: 50
@@ -87,6 +85,8 @@ custom_formats:
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
+  score: 10
+- name: Special Edition
   score: 10
 - name: Repack3
   score: 8
