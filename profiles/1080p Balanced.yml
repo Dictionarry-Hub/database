@@ -32,30 +32,36 @@ custom_formats:
   score: 410
 - name: 720p WEBRip
   score: 400
-- name: Disney+ [1080p]
-  score: 240
-- name: Movies Anywhere [1080p]
-  score: 240
 - name: Amazon Prime [1080p]
-  score: 230
+  score: 260
 - name: Apple TV+ [1080p]
-  score: 230
+  score: 260
+- name: Disney+ [1080p]
+  score: 260
+- name: Movies Anywhere [1080p]
+  score: 260
 - name: Criterion Channel
-  score: 230
+  score: 250
 - name: HBO Max [1080p]
-  score: 230
+  score: 250
 - name: Max [1080p]
-  score: 230
+  score: 250
 - name: Netflix [1080p]
-  score: 230
+  score: 250
 - name: Paramount+ [1080p]
-  score: 230
+  score: 250
 - name: Peacock [1080p]
-  score: 230
+  score: 250
 - name: 1080p Balanced Tier 1
-  score: 210
+  score: 240
 - name: 1080p Balanced Tier 2
-  score: 200
+  score: 230
+- name: Hulu [1080p]
+  score: 210
+- name: iTunes [1080p]
+  score: 210
+- name: Roku [1080p]
+  score: 210
 - name: 1080p Quality Tier 1
   score: 130
 - name: 1080p Quality Tier 2
@@ -70,18 +76,12 @@ custom_formats:
   score: 100
 - name: 480p WEBRip
   score: 100
-- name: Hulu [1080p]
-  score: 100
-- name: iTunes [1080p]
-  score: 100
-- name: Roku [1080p]
-  score: 100
 - name: 1080p Quality Tier 5
   score: 90
 - name: 1080p Golden Popcorn
-  score: 60
+  score: 80
 - name: 720p Golden Popcorn
-  score: 50
+  score: 60
 - name: DVD Remux
   score: 40
 - name: SD Golden Popcorn
