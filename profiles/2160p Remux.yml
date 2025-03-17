@@ -36,35 +36,59 @@ custom_formats:
   score: 200
 - name: DVD Remux
   score: 200
+- name: Amazon Prime [2160p]
+  score: 100
+- name: Apple TV+ [2160p]
+  score: 100
+- name: Disney+ [2160p]
+  score: 100
 - name: DVD
   score: 100
-- name: Amazon Prime
+- name: Movies Anywhere [2160p]
+  score: 100
+- name: HBO Max [2160p]
+  score: 90
+- name: Hulu [2160p]
+  score: 90
+- name: iTunes [2160p]
+  score: 90
+- name: Max [2160p]
+  score: 90
+- name: Netflix [2160p]
+  score: 90
+- name: Paramount+ [2160p]
+  score: 90
+- name: Peacock [2160p]
+  score: 90
+- name: Roku [2160p]
+  score: 90
+- name: Amazon Prime [1080p]
   score: 80
-- name: Apple TV+
+- name: Apple TV+ [1080p]
   score: 80
-- name: Disney+
+- name: Disney+ [1080p]
   score: 80
-- name: Movies Anywhere
+- name: Movies Anywhere [1080p]
   score: 80
 - name: Criterion Channel
   score: 70
-- name: HBO Max
+- name: HBO Max [1080p]
   score: 70
-- name: Max
+- name: Max [1080p]
   score: 70
-- name: Netflix
+- name: Netflix [1080p]
   score: 70
-- name: Paramount+
+- name: Paramount+ [1080p]
   score: 70
-- name: Peacock
+- name: Peacock [1080p]
   score: 70
 - name: DTS-X
   score: 60
-- name: Hulu
+- name: Hulu [1080p]
   score: 60
-- name: iTunes
+- name: iTunes [1080p]
   score: 60
-- name: Roku
+- name: Roku [1080p]
   score: 60
 - name: DTS-HD MA
   score: 50
