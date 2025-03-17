@@ -190,7 +190,7 @@ custom_formats:
   score: -9999
 qualities:
 - id: -1
-  name: Balanced Capable
+  name: 2160p Balanced
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
@@ -233,7 +233,7 @@ qualities:
     name: SDTV
 upgrade_until:
   id: -1
-  name: Balanced Capable
+  name: 2160p Balanced
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
