@@ -14,25 +14,25 @@ tags:
 - Lossy Audio
 - Balanced Focused
 upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 600
+minCustomFormatScore: 100
+upgradeUntilScore: 1400
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Balanced Tier 1
-  score: 1180
+  score: 1110
 - name: 2160p Balanced Tier 2
-  score: 1170
-- name: 2160p WEB-DL
-  score: 1000
+  score: 1100
+- name: 2160p WEBDL
+  score: 1020
 - name: 1080p Bluray
   score: 720
-- name: 1080p WEB-DL
+- name: 1080p WEBDL
   score: 710
 - name: 1080p WEBRip
   score: 700
 - name: 720p Bluray
   score: 420
-- name: 720p WEB-DL
+- name: 720p WEBDL
   score: 410
 - name: 720p WEBRip
   score: 400
@@ -60,67 +60,67 @@ custom_formats:
   score: 190
 - name: Roku [2160p]
   score: 190
+- name: 1080p Quality Tier 1
+  score: 180
+- name: 1080p Quality Tier 2
+  score: 170
+- name: 1080p Quality Tier 3
+  score: 160
+- name: 1080p Quality Tier 4
+  score: 150
+- name: 1080p Quality Tier 5
+  score: 140
+- name: Amazon Prime [1080p]
+  score: 120
+- name: Apple TV+ [1080p]
+  score: 120
+- name: Disney+ [1080p]
+  score: 120
 - name: DVD
   score: 120
-- name: 480p WEB-DL
+- name: Movies Anywhere [1080p]
+  score: 120
+- name: 480p WEBDL
   score: 110
+- name: HBO Max [1080p]
+  score: 110
+- name: Max [1080p]
+  score: 110
+- name: Netflix [1080p]
+  score: 110
+- name: Paramount+ [1080p]
+  score: 110
+- name: Peacock [1080p]
+  score: 110
+- name: 1080p Balanced Tier 1
+  score: 100
 - name: 480p WEBRip
   score: 100
-- name: 1080p Quality Tier 1
-  score: 60
-- name: 1080p Quality Tier 2
-  score: 50
-- name: Special Edition
-  score: 50
-- name: 1080p Quality Tier 3
-  score: 40
+- name: Hulu [1080p]
+  score: 100
+- name: iTunes [1080p]
+  score: 100
+- name: Roku [1080p]
+  score: 100
+- name: 1080p Balanced Tier 2
+  score: 90
 - name: DVD Remux
   score: 40
-- name: 1080p Quality Tier 4
-  score: 30
-- name: Amazon Prime [1080p]
-  score: 30
-- name: Apple TV+ [1080p]
-  score: 30
-- name: Disney+ [1080p]
-  score: 30
 - name: Dolby Vision
-  score: 30
-- name: Movies Anywhere [1080p]
   score: 30
 - name: SD Quality Tier 1
   score: 30
-- name: 1080p Balanced Tier 1
-  score: 20
-- name: 1080p Quality Tier 5
-  score: 20
-- name: HBO Max [1080p]
-  score: 20
 - name: HDR10+
-  score: 20
-- name: Max [1080p]
-  score: 20
-- name: Netflix [1080p]
   score: 20
 - name: SD Quality Tier 2
   score: 20
 - name: DTS-X
   score: 15
-- name: 1080p Balanced Tier 2
-  score: 10
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
   score: 10
-- name: Hulu [1080p]
-  score: 10
-- name: iTunes [1080p]
-  score: 10
-- name: Paramount+ [1080p]
-  score: 10
-- name: Peacock [1080p]
-  score: 10
-- name: Roku [1080p]
+- name: Special Edition
   score: 10
 - name: TrueHD
   score: 10
@@ -142,8 +142,6 @@ custom_formats:
   score: 5
 - name: Unknown Lossless Audio
   score: 5
-- name: SDR
-  score: -80
 - name: 3D
   score: -9999
 - name: AV1
@@ -192,7 +190,7 @@ custom_formats:
   score: -9999
 qualities:
 - id: -1
-  name: 2160p Balanced
+  name: Balanced Capable
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
@@ -235,7 +233,7 @@ qualities:
     name: SDTV
 upgrade_until:
   id: -1
-  name: 2160p Balanced
+  name: Balanced Capable
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.

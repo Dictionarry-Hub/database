@@ -10,7 +10,7 @@ tags:
 - Lossy Audio
 - Quality Focused
 upgradesAllowed: true
-minCustomFormatScore: 0
+minCustomFormatScore: 100
 upgradeUntilScore: 1200
 minScoreIncrement: 1
 custom_formats:
@@ -98,10 +98,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: 2160p Bluray
-  score: 0
-- name: 2160p WEB-DL
-  score: 0
 - name: 3D
   score: -9999
 - name: B&W

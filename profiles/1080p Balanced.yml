@@ -16,7 +16,7 @@ tags:
 - Lossy Audio
 - Balanced Focused
 upgradesAllowed: true
-minCustomFormatScore: 0
+minCustomFormatScore: 100
 upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
