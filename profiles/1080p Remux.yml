@@ -137,8 +137,6 @@ qualities:
     name: DVD
   - id: 19
     name: WEBDL-480p
-  - id: 24
-    name: SDTV
 upgrade_until:
   id: 8
   name: Remux-1080p
