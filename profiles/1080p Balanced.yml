@@ -20,8 +20,6 @@ minCustomFormatScore: 0
 upgradeUntilScore: 320
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p
-  score: 220
 - name: Disney+
   score: 220
 - name: Movies Anywhere
@@ -54,6 +52,8 @@ custom_formats:
   score: 160
 - name: HD Bluray Tier 01
   score: 150
+- name: 1080p
+  score: 100
 - name: HD Bluray Tier 02
   score: 100
 - name: 1080p Quality Tier 1
@@ -77,6 +77,8 @@ custom_formats:
 - name: 1080p Golden Popcorn
   score: 60
 - name: 1080p Quality Tier 4
+  score: 60
+- name: 720p
   score: 60
 - name: 1080p Quality Tier 5
   score: 50
@@ -121,8 +123,6 @@ custom_formats:
 - name: 2160p
   score: -9999
 - name: 3D
-  score: -9999
-- name: 720p
   score: -9999
 - name: 720p Golden Popcorn
   score: -9999

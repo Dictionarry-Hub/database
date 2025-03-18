@@ -163,26 +163,6 @@ qualities:
   name: Remux-1080p
 - id: 9
   name: WEBDL-1080p
-- id: 13
-  name: Bluray-720p
-- id: 14
-  name: WEBDL-720p
-- id: 15
-  name: WEBRip-720p
-- id: 16
-  name: HDTV-720p
-- id: 22
-  name: DVD
-- id: 19
-  name: WEBDL-480p
-- id: 20
-  name: WEBRip-480p
-- id: 24
-  name: SDTV
-- id: 18
-  name: Bluray-480p
-- id: 17
-  name: Bluray-576p
 upgrade_until:
   id: 3
   name: Remux-2160p

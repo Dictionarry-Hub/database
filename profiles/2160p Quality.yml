@@ -240,18 +240,6 @@ qualities:
     name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
-- id: -4
-  name: 720p
-  description: ''
-  qualities:
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
-  - id: 13
-    name: Bluray-720p
-  - id: 16
-    name: HDTV-720p
 upgrade_until:
   id: -2
   name: 2160p Transparent

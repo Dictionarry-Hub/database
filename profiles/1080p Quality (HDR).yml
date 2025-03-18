@@ -137,8 +137,6 @@ custom_formats:
   score: -9999
 - name: 3D
   score: -9999
-- name: 720p
-  score: -9999
 - name: 720p Golden Popcorn
   score: -9999
 - name: B&W

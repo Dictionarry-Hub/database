@@ -32,6 +32,8 @@ custom_formats:
   score: 400
 - name: Anime Web Tier 04 (Official Subs)
   score: 300
+- name: 1080p
+  score: 101
 - name: v4
   score: 4
 - name: v3
