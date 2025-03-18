@@ -1,0 +1,6 @@
+name: SCY
+pattern: \b(SCY)\b
+description: ''
+tags:
+- Release Group
+tests: []
