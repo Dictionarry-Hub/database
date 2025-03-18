@@ -1,0 +1,33 @@
+name: HD Bluray Tier 02
+description: HD Bluray Tier 02
+tags:
+- HD
+- Bluray
+- Tier 02
+conditions:
+- name: BLURAY
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not REMUX
+  negate: true
+  required: true
+  source: remux
+  type: source
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160
+  type: resolution
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+- name: sbR
+  negate: false
+  pattern: sbR
+  required: false
+  type: release_group
+tests: []
