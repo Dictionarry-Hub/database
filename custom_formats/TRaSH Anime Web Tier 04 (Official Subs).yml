@@ -4,6 +4,7 @@ tags:
 - Anime
 - Web
 - Official Subs
+- TRaSH
 conditions:
 - name: WEBDL
   negate: false
