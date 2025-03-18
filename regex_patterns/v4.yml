@@ -1,5 +1,5 @@
 name: 'v4'
-pattern: \b|\d(v4)\b
+pattern: '(\\b|\\d)(v4)\\b'
 description: ''
 tags:
 - Release Group
