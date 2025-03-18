@@ -1,0 +1,47 @@
+name: WEB Tier 03
+description: WEB Tier 03
+tags:
+- WEB
+- Tier 03
+conditions:
+- name: DRACULA
+  negate: false
+  pattern: DRACULA
+  required: false
+  type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: SLiGNOME
+  negate: false
+  pattern: SLiGNOME
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+- name: T4H
+  negate: false
+  pattern: T4H
+  required: false
+  type: release_group
+- name: ViSiON
+  negate: false
+  pattern: ViSiON
+  required: false
+  type: release_group
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: web_rip
+  type: source
+tests: []
