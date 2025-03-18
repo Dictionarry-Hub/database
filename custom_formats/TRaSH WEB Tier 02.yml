@@ -3,6 +3,7 @@ description: WEB Tier 02
 tags:
 - WEB
 - Tier 02
+- TRaSH
 conditions:
 - name: 3cTWeB
   negate: false
