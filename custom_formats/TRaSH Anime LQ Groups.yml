@@ -3,6 +3,7 @@ description: LQ Groups for Anime
 tags:
 - Anime
 - LQ
+- TRaSH
 conditions:
 - name: $tore-Chill
   negate: false
