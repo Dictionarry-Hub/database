@@ -1,5 +1,5 @@
 name: Arg0
-pattern: (?<=^|[\s.-])Arg0\b
+pattern: \b(Arg0)\b
 description: ''
 tags:
 - Release Group
