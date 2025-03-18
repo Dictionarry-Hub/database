@@ -3,6 +3,7 @@ description: Remux Tier 01
 tags:
 - Remux
 - Tier 01
+- TRaSH
 conditions:
 - name: Remux
   negate: false
