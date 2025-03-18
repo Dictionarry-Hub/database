@@ -1,0 +1,74 @@
+name: Anime
+description: TRaSH guides Anime setup
+tags:
+- Anime
+- TRaSH
+- 1080p
+- 720p
+upgradesAllowed: false
+minCustomFormatScore: 0
+upgradeUntilScore: 0
+minScoreIncrement: 0
+custom_formats:
+- name: Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 1400
+- name: Anime BD Tier 02 (SeaDex Muxers)
+  score: 1300
+- name: Anime BD Tier 03 (SeaDex Muxers)
+  score: 1200
+- name: Anime BD Tier 04 (SeaDex Muxers)
+  score: 1100
+- name: Anime BD Tier 05 (Remuxes)
+  score: 1000
+- name: Anime BD Tier 06 (FanSubs)
+  score: 900
+- name: Anime BD Tier 07 (P2P/Scene)
+  score: 800
+- name: Anime Web Tier 01 (Muxers)
+  score: 600
+- name: Anime Web Tier 02 (Top FanSubs)
+  score: 500
+- name: Anime Web Tier 03 (Official Subs)
+  score: 400
+- name: Anime Web Tier 04 (Official Subs)
+  score: 300
+- name: v4
+  score: 4
+- name: v3
+  score: 3
+- name: v2
+  score: 2
+- name: v1
+  score: 1
+- name: v0
+  score: -51
+- name: Anime LQ Groups
+  score: -10000
+- name: Anime Raws
+  score: -10000
+- name: AV1
+  score: -10000
+qualities:
+- id: 10
+  name: Bluray-1080p
+- id: 8
+  name: Remux-1080p
+- id: 9
+  name: WEBDL-1080p
+- id: 11
+  name: WEBRip-1080p
+- id: 12
+  name: HDTV-1080p
+- id: 13
+  name: Bluray-720p
+- id: 14
+  name: WEBDL-720p
+- id: 15
+  name: WEBRip-720p
+- id: 16
+  name: HDTV-720p
+upgrade_until:
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
+language: must_original
