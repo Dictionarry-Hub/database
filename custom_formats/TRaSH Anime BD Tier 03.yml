@@ -4,6 +4,7 @@ tags:
 - Anime
 - BD
 - SeaDex
+- TRaSH
 conditions:
 - name: Bluray
   negate: false
