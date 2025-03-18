@@ -24,99 +24,47 @@ custom_formats:
   score: 600
 - name: 720p WEB-DL
   score: 400
-- name: DVD Remux
-  score: 250
 - name: 480p WEB-DL
   score: 200
-- name: Amazon Prime [1080p]
-  score: 100
-- name: Apple TV+ [1080p]
-  score: 100
-- name: Disney+ [1080p]
-  score: 100
+- name: DVD Remux
+  score: 200
 - name: DVD
   score: 100
-- name: Movies Anywhere [1080p]
-  score: 100
-- name: Criterion Channel [1080p]
-  score: 90
-- name: HBO Max [1080p]
-  score: 90
-- name: Max [1080p]
-  score: 90
-- name: Netflix [1080p]
-  score: 90
-- name: Paramount+ [1080p]
-  score: 90
-- name: Peacock [1080p]
-  score: 90
-- name: Hulu [1080p]
-  score: 80
-- name: iTunes [1080p]
-  score: 80
-- name: Roku [1080p]
-  score: 80
-- name: Amazon Prime [720p]
-  score: 70
-- name: Apple TV+ [720p]
-  score: 70
-- name: Disney+ [720p]
-  score: 70
-- name: Movies Anywhere [720p]
-  score: 70
-- name: Criterion Channel [720p]
-  score: 60
 - name: DTS-X
   score: 60
-- name: HBO Max [720p]
-  score: 60
-- name: Max [720p]
-  score: 60
-- name: Netflix [720p]
-  score: 60
-- name: Paramount+ [720p]
-  score: 60
-- name: Peacock [720p]
-  score: 60
 - name: DTS-HD MA
-  score: 50
-- name: Hulu [720p]
-  score: 50
-- name: iTunes [720p]
-  score: 50
-- name: Roku [720p]
   score: 50
 - name: TrueHD
   score: 50
 - name: TrueHD (Missing)
   score: 50
-- name: Amazon Prime [480p]
+- name: Amazon Prime
   score: 40
-- name: Apple TV+ [480p]
+- name: Apple TV+
   score: 40
-- name: Disney+ [480p]
+- name: Disney+
   score: 40
-- name: Movies Anywhere [480p]
+- name: Movies Anywhere
   score: 40
-- name: Criterion Channel [480p]
+- name: Criterion Channel
   score: 30
 - name: FLAC
   score: 30
-- name: HBO Max [480p]
+- name: HBO Max
   score: 30
-- name: Max [480p]
+- name: Max
   score: 30
-- name: Netflix [480p]
+- name: Netflix
   score: 30
-- name: Paramount+ [480p]
+- name: Paramount+
   score: 30
-- name: Peacock [480p]
+- name: Peacock
   score: 30
-- name: Hulu [480p]
+- name: Hulu
   score: 20
-- name: iTunes [480p]
+- name: iTunes
   score: 20
-- name: Roku [480p]
+- name: Roku
   score: 20
 - name: Atmos
   score: 10
