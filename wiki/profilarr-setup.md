@@ -73,7 +73,7 @@ View lawgics' CasaOS setup guide [here:](https://dictionarry.dev/wiki/profilarr-
 
 ### Development
 
-In addition to being a 'sync' tool for end users, Profilarr also acts as a development platform for people to work on, and contribute to, a remote database. Read [here](https://dictionarry.dev/wiki/development) to learn more on how to setup Profilarr for development.
+In addition to being a 'sync' tool for end users, Profilarr also acts as a development platform for people to work on, and contribute to, a remote database. Read [here](https://dictionarry.dev/wiki/development-setup) to learn more on how to setup Profilarr for development.
 
 ## Usage
 
