@@ -16,7 +16,7 @@ tags:
 - Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 100
-upgradeUntilScore: 1400
+upgradeUntilScore: 1600
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p WEB-DL
