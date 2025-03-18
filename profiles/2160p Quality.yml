@@ -31,10 +31,10 @@ custom_formats:
   score: 700
 - name: 720p WEB-DL
   score: 500
-- name: 2160p Quality Tier 1
-  score: 410
 - name: 720p Bluray
   score: 410
+- name: 2160p Quality Tier 1
+  score: 400
 - name: 720p WEBRip
   score: 400
 - name: 2160p Quality Tier 2
