@@ -1,0 +1,6 @@
+name: Reza
+pattern: \b(Reza)\b
+description: ''
+tags:
+- Release Group
+tests: []
