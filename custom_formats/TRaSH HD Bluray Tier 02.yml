@@ -4,6 +4,7 @@ tags:
 - HD
 - Bluray
 - Tier 02
+- TRaSH
 conditions:
 - name: BLURAY
   negate: false
