@@ -1,0 +1,93 @@
+name: Anime BD Tier 05 (Remuxes)
+description: Remuxes voor Anime BD Tier 05
+tags:
+- Anime
+- BD
+- Remuxes
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: Bluray Remux
+  negate: false
+  required: false
+  source: bluray_remux
+  type: source
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: ANThELIa
+  negate: false
+  pattern: ANThELIa
+  required: false
+  type: release_title
+- name: AP
+  negate: false
+  pattern: AP
+  required: false
+  type: release_title
+- name: BluDragon
+  negate: false
+  pattern: BluDragon
+  required: false
+  type: release_title
+- name: D4C
+  negate: false
+  pattern: D4C
+  required: false
+  type: release_title
+- name: Dragon-Releases
+  negate: false
+  pattern: Dragon-Releases
+  required: false
+  type: release_title
+- name: E.N.D
+  negate: false
+  pattern: E.N.D
+  required: false
+  type: release_title
+- name: KAWAiREMUX
+  negate: false
+  pattern: KAWAiREMUX
+  required: false
+  type: release_title
+- name: MKVULTRA
+  negate: false
+  pattern: MKVULTRA
+  required: false
+  type: release_title
+- name: Raizel
+  negate: false
+  pattern: Raizel
+  required: false
+  type: release_title
+- name: REVO
+  negate: false
+  pattern: REVO
+  required: false
+  type: release_title
+- name: Spark
+  negate: false
+  pattern: Spark
+  required: false
+  type: release_title
+- name: SRLS
+  negate: false
+  pattern: SRLS
+  required: false
+  type: release_title
+- name: TTGA
+  negate: false
+  pattern: TTGA
+  required: false
+  type: release_title
+- name: ZR
+  negate: false
+  pattern: ZR
+  required: false
+  type: release_title
+tests: []
