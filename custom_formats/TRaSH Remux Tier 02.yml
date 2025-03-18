@@ -3,6 +3,7 @@ description: Remux Tier 02
 tags:
 - Remux
 - Tier 02
+- TRaSH
 conditions:
 - name: Remux
   negate: false
