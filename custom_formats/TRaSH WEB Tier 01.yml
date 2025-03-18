@@ -3,6 +3,7 @@ description: WEB Tier 01
 tags:
 - WEB
 - Tier 01
+- TRaSH
 conditions:
 - name: ABBiE
   negate: false
