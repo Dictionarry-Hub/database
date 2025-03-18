@@ -1,5 +1,5 @@
 name: Legion
-pattern: (?<=^|[\s.-])Legion\b
+pattern: \[Legion\]|-Legion\b
 description: ''
 tags:
 - Release Group
