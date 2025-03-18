@@ -1,0 +1,12 @@
+name: v3
+description: Matches the 'v3' Regex Pattern
+tags:
+- TRaSH
+- Anime
+conditions:
+- name: v3
+  negate: false
+  pattern: v3
+  required: true
+  type: release_title
+tests: []
