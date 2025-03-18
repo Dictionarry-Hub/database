@@ -1,24 +1,26 @@
 name: 720p Quality Tier 1
-description: Matches release groups who fall under 720p GPPi Tier 1
+description: Matches release groups who fall under 720p Quality Tier 1
 tags:
-- GPPi
-- Release Group Tier
-- 1080p
-- Quality
+- Release Group
 conditions:
-- name: 720p
-  negate: false
-  required: true
-  resolution: 720p
-  type: resolution
 - name: Not WEB-DL
   negate: true
   required: true
   source: web_dl
   type: source
-- name: c0ke
-  type: release_group
+- name: 720p
+  negate: false
   required: true
+  resolution: 720p
+  type: resolution
+- name: EbP
+  negate: false
+  pattern: EbP
+  required: false
+  type: release_group
+- name: DON
   negate: false
   pattern: DON
+  required: false
+  type: release_group
 tests: []
