@@ -16,4 +16,9 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: c0ke
+  type: release_group
+  required: true
+  negate: false
+  pattern: DON
 tests: []

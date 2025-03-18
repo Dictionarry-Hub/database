@@ -16,4 +16,9 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: DON
+  negate: false
+  pattern: DON
+  required: true
+  type: release_group
 tests: []
