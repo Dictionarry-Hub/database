@@ -1,0 +1,6 @@
+name: Thighs
+pattern: \[Thighs\]|-Thighs\b
+description: ''
+tags:
+- Release Group
+tests: []
