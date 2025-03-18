@@ -160,9 +160,9 @@ conditions:
   pattern: DARKFLiX
   required: false
   type: release_title
-- name: DB
+- name: dB
   negate: false
-  pattern: DB
+  pattern: dB
   required: false
   type: release_title
 - name: DBArabic
