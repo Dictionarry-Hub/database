@@ -1,0 +1,32 @@
+name: Remux Tier 01
+description: Remux Tier 01
+tags:
+- Remux
+- Tier 01
+conditions:
+- name: Remux
+  negate: false
+  required: true
+  source: remux
+  type: source
+- name: BLURANiUM
+  negate: false
+  pattern: BLURANiUM
+  required: false
+  type: release_group
+- name: BMF
+  negate: false
+  pattern: BMF
+  required: false
+  type: release_group
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: false
+  type: release_group
+- name: PmP
+  negate: false
+  pattern: PmP
+  required: false
+  type: release_group
+tests: []
