@@ -34,14 +34,24 @@ custom_formats:
   score: 400
 - name: 480p WEB-DL
   score: 200
+- name: 720p Quality Tier 1
+  score: 180
+- name: 720p Quality Tier 2
+  score: 170
+- name: 720p Quality Tier 3
+  score: 160
+- name: 720p Quality Tier 4
+  score: 150
+- name: 720p Quality Tier 5
+  score: 140
 - name: DVD Remux
   score: 130
-- name: 720p Golden Popcorn
-  score: 120
 - name: DVD
   score: 120
 - name: 480p WEBRip
   score: 100
+- name: 720p Golden Popcorn
+  score: 60
 - name: Amazon Prime
   score: 40
 - name: Apple TV+
