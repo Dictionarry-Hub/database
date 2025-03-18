@@ -1,0 +1,6 @@
+name: Smoke
+pattern: \[Smoke\]|-Smoke\b
+description: ''
+tags:
+- Release Group
+tests: []
