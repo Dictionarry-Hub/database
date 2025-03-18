@@ -1,0 +1,6 @@
+name: CUNNY
+pattern: \b(CUNNY)\b
+description: ''
+tags:
+- Release Group
+tests: []
