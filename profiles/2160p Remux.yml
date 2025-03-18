@@ -32,75 +32,129 @@ custom_formats:
   score: 600
 - name: 720p WEB-DL
   score: 400
+- name: DVD Remux
+  score: 250
 - name: 480p WEB-DL
   score: 200
-- name: DVD Remux
-  score: 200
 - name: Amazon Prime [2160p]
-  score: 100
-- name: Apple TV+ [2160p]
-  score: 100
+  score: 120
 - name: Disney+ [2160p]
+  score: 120
+- name: HBO Max [2160p]
+  score: 120
+- name: Movies Anywhere [2160p]
+  score: 120
+- name: Apple TV+ [2160p]
+  score: 110
+- name: Criterion Channel [2160p]
+  score: 110
+- name: Hulu [2160p]
+  score: 110
+- name: iTunes [2160p]
+  score: 110
+- name: Max [2160p]
+  score: 110
+- name: Netflix [2160p]
+  score: 110
+- name: Paramount+ [2160p]
+  score: 110
+- name: Peacock [2160p]
+  score: 110
+- name: Roku [2160p]
+  score: 110
+- name: Amazon Prime [1080p]
+  score: 100
+- name: Apple TV+ [1080p]
+  score: 100
+- name: Disney+ [1080p]
   score: 100
 - name: DVD
   score: 100
-- name: Movies Anywhere [2160p]
-  score: 100
-- name: HBO Max [2160p]
-  score: 90
-- name: Hulu [2160p]
-  score: 90
-- name: iTunes [2160p]
-  score: 90
-- name: Max [2160p]
-  score: 90
-- name: Netflix [2160p]
-  score: 90
-- name: Paramount+ [2160p]
-  score: 90
-- name: Peacock [2160p]
-  score: 90
-- name: Roku [2160p]
-  score: 90
-- name: Amazon Prime [1080p]
-  score: 80
-- name: Apple TV+ [1080p]
-  score: 80
-- name: Disney+ [1080p]
-  score: 80
 - name: Movies Anywhere [1080p]
-  score: 80
-- name: Criterion Channel
-  score: 70
+  score: 100
+- name: Criterion Channel [1080p]
+  score: 90
 - name: HBO Max [1080p]
-  score: 70
+  score: 90
 - name: Max [1080p]
-  score: 70
+  score: 90
 - name: Netflix [1080p]
-  score: 70
+  score: 90
 - name: Paramount+ [1080p]
-  score: 70
+  score: 90
 - name: Peacock [1080p]
+  score: 90
+- name: Hulu [1080p]
+  score: 80
+- name: iTunes [1080p]
+  score: 80
+- name: Roku [1080p]
+  score: 80
+- name: Amazon Prime [720p]
   score: 70
+- name: Apple TV+ [720p]
+  score: 70
+- name: Disney+ [720p]
+  score: 70
+- name: Movies Anywhere [720p]
+  score: 70
+- name: Criterion Channel [720p]
+  score: 60
 - name: DTS-X
   score: 60
-- name: Hulu [1080p]
+- name: HBO Max [720p]
   score: 60
-- name: iTunes [1080p]
+- name: Max [720p]
   score: 60
-- name: Roku [1080p]
+- name: Netflix [720p]
+  score: 60
+- name: Paramount+ [720p]
+  score: 60
+- name: Peacock [720p]
   score: 60
 - name: DTS-HD MA
+  score: 50
+- name: Hulu [720p]
+  score: 50
+- name: iTunes [720p]
+  score: 50
+- name: Roku [720p]
   score: 50
 - name: TrueHD
   score: 50
 - name: TrueHD (Missing)
   score: 50
+- name: Amazon Prime [480p]
+  score: 40
+- name: Apple TV+ [480p]
+  score: 40
+- name: Disney+ [480p]
+  score: 40
+- name: Movies Anywhere [480p]
+  score: 40
+- name: Criterion Channel [480p]
+  score: 30
 - name: Dolby Vision
   score: 30
 - name: FLAC
   score: 30
+- name: HBO Max [480p]
+  score: 30
+- name: Max [480p]
+  score: 30
+- name: Netflix [480p]
+  score: 30
+- name: Paramount+ [480p]
+  score: 30
+- name: Peacock [480p]
+  score: 30
 - name: HDR10+
+  score: 20
+- name: Hulu [480p]
+  score: 20
+- name: iTunes [480p]
+  score: 20
+- name: Roku [480p]
   score: 20
 - name: Atmos
   score: 10
