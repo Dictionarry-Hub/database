@@ -1,0 +1,6 @@
+name: MTBB
+pattern: \b(MTBB)\b
+description: ''
+tags:
+- Release Group
+tests: []
