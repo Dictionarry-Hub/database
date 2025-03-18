@@ -1,0 +1,6 @@
+name: BKC
+pattern: \b(BKC)\b
+description: ''
+tags:
+- Release Group
+tests: []
