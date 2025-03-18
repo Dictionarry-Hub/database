@@ -1,0 +1,6 @@
+name: Spirale
+pattern: \b(Spirale)\b
+description: ''
+tags:
+- Release Group
+tests: []
