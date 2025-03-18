@@ -1,0 +1,38 @@
+name: Anime Web Tier 03 (Official Subs)
+description: Official Subs for Anime Web Tier 03
+tags:
+- Anime
+- Web
+- Official Subs
+conditions:
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: web_rip
+  type: source
+- name: WEB
+  negate: false
+  required: false
+  source: web
+  type: source
+- name: SubsPlease
+  negate: false
+  pattern: SubsPlease
+  required: false
+  type: release_title
+- name: SubsPlus+
+  negate: false
+  pattern: SubsPlus+
+  required: false
+  type: release_title
+- name: ZR
+  negate: false
+  pattern: ZR
+  required: false
+  type: release_title
+tests: []
