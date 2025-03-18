@@ -3,6 +3,7 @@ description: WEB Tier 03
 tags:
 - WEB
 - Tier 03
+- TRaSH
 conditions:
 - name: DRACULA
   negate: false
