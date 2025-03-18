@@ -1,0 +1,6 @@
+name: ARC
+pattern: \[ARC\]|-ARC\b
+description: ''
+tags:
+- Release Group
+tests: []
