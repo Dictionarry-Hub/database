@@ -1,0 +1,6 @@
+name: Metal
+pattern: \[Metal\]|-Metal\b
+description: ''
+tags:
+- Release Group
+tests: []

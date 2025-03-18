@@ -1,0 +1,6 @@
+name: Arid
+pattern: \[Arid\]|-Arid\b
+description: ''
+tags:
+- Release Group
+tests: []

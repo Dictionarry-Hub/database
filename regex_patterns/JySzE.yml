@@ -1,0 +1,6 @@
+name: JySzE
+pattern: \b(JySzE)\b
+description: ''
+tags:
+- Release Group
+tests: []

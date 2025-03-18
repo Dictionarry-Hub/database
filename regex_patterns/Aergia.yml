@@ -1,0 +1,6 @@
+name: Aergia
+pattern: \[Aergia\]|-Aergia(?!-raws)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: DON
+pattern: (?<=^|[\s.-])DON\b
+description: ''
+tags:
+- Release Group
+tests: []
