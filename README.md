@@ -1,4 +1,4 @@
-# This fork contains some of TRaSH guide's Release groups and Regex
+# This fork contains some of TRaSH guide's Release groups, Regex and Quality profile mixed in with an Anime profile
 
 Maintained by me
 
