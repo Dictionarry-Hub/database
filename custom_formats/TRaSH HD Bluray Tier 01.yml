@@ -1,0 +1,53 @@
+name: HD Bluray Tier 01
+description: HD Bluray Tier 01
+tags:
+- HD
+- Bluray
+- Tier 01
+conditions:
+- name: BLURAY
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not REMUX
+  negate: true
+  required: true
+  source: remux
+  type: source
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160
+  type: resolution
+- name: Chotab
+  negate: false
+  pattern: Chotab
+  required: false
+  type: release_group
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: EbP
+  negate: false
+  pattern: EbP
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+- name: PTer
+  negate: false
+  pattern: PTer
+  required: false
+  type: release_group
+tests: []
