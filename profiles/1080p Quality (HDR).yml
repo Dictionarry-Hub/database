@@ -180,7 +180,7 @@ qualities:
   - id: 11
     name: WEBRip-1080p
 - id: -3
-  name: 720p
+  name: 720p fallback
   description: ''
   qualities:
   - id: 13

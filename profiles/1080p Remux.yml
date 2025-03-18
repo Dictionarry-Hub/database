@@ -154,7 +154,7 @@ qualities:
 - id: 9
   name: WEBDL-1080p
 - id: -2
-  name: 720p
+  name: 720p fallback
   description: ''
   qualities:
   - id: 13
