@@ -15,9 +15,9 @@ conditions:
   pattern: 0neshot
   required: false
   type: release_title
-- name: 224
+- name: '224'
   negate: false
-  pattern: 224
+  pattern: '224'
   required: false
   type: release_title
 - name: A-Destiny
@@ -487,7 +487,7 @@ conditions:
   type: release_title
 - name: Raw Files
   negate: false
-  pattern: M2TS|BDMV|BDVD
+  pattern: 'Raw Files'
   required: false
   type: release_title
 - name: Raze

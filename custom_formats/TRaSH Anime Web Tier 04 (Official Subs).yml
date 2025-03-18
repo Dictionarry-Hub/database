@@ -14,12 +14,7 @@ conditions:
 - name: WEBRIP
   negate: false
   required: false
-  source: web_rip
-  type: source
-- name: WEB
-  negate: false
-  required: false
-  source: web
+  source: WEBRip
   type: source
 - name: BlueLobster
   negate: false

@@ -1,5 +1,5 @@
-name: 'dB'
-pattern: \[DB\]
+name: BLURANiUM
+pattern: ^(BLURANiUM)$
 description: ''
 tags:
 - Release Group

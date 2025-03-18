@@ -1,5 +1,5 @@
-name: 'dB'
-pattern: \[DB\]
+name: 'PmP'
+pattern: ^(PmP)$
 description: ''
 tags:
 - Release Group

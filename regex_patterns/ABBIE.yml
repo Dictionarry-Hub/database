@@ -1,4 +1,4 @@
-name: ABBIE
+name: ABBiE
 pattern: (?<=^|[\s.-])ABBIE\b
 description: ''
 tags:

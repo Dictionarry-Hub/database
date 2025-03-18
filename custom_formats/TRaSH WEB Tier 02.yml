@@ -185,9 +185,9 @@ conditions:
   pattern: SDCC
   required: false
   type: release_group
-- name: SIGMA
+- name: SiGMA
   negate: false
-  pattern: SIGMA
+  pattern: SiGMA
   required: false
   type: release_group
 - name: SMURF
@@ -217,7 +217,7 @@ conditions:
   type: release_group
 - name: XEBEC
   negate: false
-  pattern: XEBEC|4KBEC|CEBEX
+  pattern: XEBEC
   required: false
   type: release_group
 - name: WEBDL
@@ -228,6 +228,6 @@ conditions:
 - name: WEBRIP
   negate: false
   required: false
-  source: web_rip
+  source: WEBRrip
   type: source
 tests: []

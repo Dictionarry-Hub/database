@@ -11,15 +11,10 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: Not REMUX
-  negate: true
-  required: true
-  source: remux
-  type: source
 - name: Not 2160p
   negate: true
   required: true
-  resolution: 2160
+  resolution: 2160p
   type: resolution
 - name: Chotab
   negate: false

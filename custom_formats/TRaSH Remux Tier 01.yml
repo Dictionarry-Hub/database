@@ -5,11 +5,6 @@ tags:
 - Tier 01
 - TRaSH
 conditions:
-- name: Remux
-  negate: false
-  required: true
-  source: remux
-  type: source
 - name: BLURANiUM
   negate: false
   pattern: BLURANiUM

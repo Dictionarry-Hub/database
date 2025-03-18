@@ -17,7 +17,7 @@ conditions:
   type: release_group
 - name: APEX
   negate: false
-  pattern: APEX|PAXA|PEXA|XEPA
+  pattern: APEX
   required: false
   type: release_group
 - name: CasStudio
@@ -108,6 +108,6 @@ conditions:
 - name: WEBRIP
   negate: false
   required: false
-  source: web_rip
+  source: WEBRip
   type: source
 tests: []

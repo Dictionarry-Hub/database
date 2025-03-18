@@ -11,19 +11,14 @@ conditions:
   required: false
   source: bluray
   type: source
-- name: Bluray Remux
-  negate: false
-  required: false
-  source: bluray_remux
-  type: source
 - name: DVD
   negate: false
   required: false
   source: dvd
   type: source
-- name: 0x539
+- name: '0x539'
   negate: false
-  pattern: 0x539
+  pattern: '0x539'
   required: false
   type: release_title
 - name: Alt

@@ -14,16 +14,11 @@ conditions:
 - name: WEBRIP
   negate: false
   required: false
-  source: web_rip
+  source: WEBRip
   type: source
-- name: WEB
+- name: '0x539'
   negate: false
-  required: false
-  source: web
-  type: source
-- name: 0x539
-  negate: false
-  pattern: 0x539
+  pattern: '0x539'
   required: false
   type: release_title
 - name: Asakura

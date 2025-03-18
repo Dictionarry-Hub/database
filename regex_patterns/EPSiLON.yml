@@ -1,5 +1,5 @@
-name: 'dB'
-pattern: \[DB\]
+name: EPSiLON
+pattern: ^(EPSiLON)$
 description: ''
 tags:
 - Release Group
