@@ -143,18 +143,8 @@ custom_formats:
 - name: x265 (Missing)
   score: -9999
 qualities:
-- id: -1
-  name: Balanced Capable
-  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
-    majority of releases, but there are occasional streaming optimised encodes that
-    should be preferred.
-  qualities:
-  - id: 10
-    name: Bluray-1080p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
+- id: 9
+  name: WEBDL-1080p
 - id: -2
   name: 720p Fallback
   description: Fallback to 720p when 1080p cannot be found.
