@@ -4,6 +4,7 @@ tags:
 - Anime
 - Web
 - Muxers
+- TRaSH
 conditions:
 - name: WEBDL
   negate: false
