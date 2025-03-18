@@ -4,6 +4,7 @@ tags:
 - Anime
 - BD
 - FanSubs
+- TRaSH
 conditions:
 - name: Bluray
   negate: false
