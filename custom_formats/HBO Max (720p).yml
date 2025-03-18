@@ -1,17 +1,17 @@
-name: Paramount+ [1080p]
-description: Matches 1080p 'Paramount+' WEB-DLs. Negates any encodes.
+name: HBO Max [720p]
+description: Matches 720p 'HBO Max' WEB-DLs
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 1080p
+- name: 720p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 720p
   type: resolution
-- name: PMTP Regex
+- name: HMAX Regex
   negate: false
-  pattern: Paramount+
+  pattern: HBO Max
   required: true
   type: release_title
 - name: Not WEBRip
@@ -27,9 +27,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: PMTP Regex
+    name: HMAX Regex
     negate: false
-    pattern: Paramount+
+    pattern: HBO Max
     required: true
     type: release_title
   - matches: true
@@ -40,6 +40,6 @@ tests:
     type: release_title
   expected: false
   id: 2
-  input: Evil 2019 S04 1080p PMTP WEB-DL DDP 5 1 x265 - YELLO
-  lastRun: '2024-12-06T05:11:34.055223'
+  input: Young Justice S04 1080p HMAX WEBRip DD 5 1 x265-edge2020
+  lastRun: '2024-12-06T04:51:30.887518'
   passes: true

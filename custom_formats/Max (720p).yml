@@ -1,17 +1,17 @@
-name: Paramount+ [1080p]
-description: Matches 1080p 'Paramount+' WEB-DLs. Negates any encodes.
+name: Max [720p]
+description: Matches 720p 'Max' WEB-DLs
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 1080p
+- name: 720p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 720p
   type: resolution
-- name: PMTP Regex
+- name: MAX Regex
   negate: false
-  pattern: Paramount+
+  pattern: Max
   required: true
   type: release_title
 - name: Not WEBRip
@@ -27,9 +27,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: PMTP Regex
+    name: MAX Regex
     negate: false
-    pattern: Paramount+
+    pattern: Max
     required: true
     type: release_title
   - matches: true
@@ -39,7 +39,8 @@ tests:
     required: false
     type: release_title
   expected: false
-  id: 2
-  input: Evil 2019 S04 1080p PMTP WEB-DL DDP 5 1 x265 - YELLO
-  lastRun: '2024-12-06T05:11:34.055223'
+  id: 1
+  input: Dune Prophecy (2024) S01E02 Two Wolves (2160p HDR10 DV Hybrid MAX Webrip
+    x265 10bit EAC3 5 1 Atmos - Goki)[TAoE]
+  lastRun: '2024-12-06T02:59:11.931629'
   passes: true

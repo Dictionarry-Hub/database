@@ -1,5 +1,5 @@
-name: Movies Anywhere [1080p]
-description: Matches 1080p 'Movies Anywhere' WEB-DLs. Negates any encodes.
+name: Criterion Channel [1080p]
+description: Matches 1080p 'Criterion Channel' WEB-DLs
 tags:
 - Streaming Service
 - WEB-DL
@@ -9,9 +9,9 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: MA Regex
+- name: CRiT Regex
   negate: false
-  pattern: Movies Anywhere
+  pattern: Criterion Channel
   required: true
   type: release_title
 - name: Not WEBRip

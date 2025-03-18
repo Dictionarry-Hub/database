@@ -1,13 +1,13 @@
-name: Amazon Prime [1080p]
-description: Matches 1080p 'Amazon Prime' WEB-DLs, unique to the 2160p Quality profile
+name: Amazon Prime [720p]
+description: Matches 720p 'Amazon Prime' WEB-DLs
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 1080p
+- name: 720p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 720p
   type: resolution
 - name: AMZN Regex
   negate: false

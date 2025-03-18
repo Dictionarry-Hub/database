@@ -1,17 +1,17 @@
-name: Paramount+ [1080p]
-description: Matches 1080p 'Paramount+' WEB-DLs. Negates any encodes.
+name: Apple TV+ [480p]
+description: Matches 480p 'Apple TV+' WEB-DLs
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 1080p
+- name: 480p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 480p
   type: resolution
-- name: PMTP Regex
+- name: APTV Regex
   negate: false
-  pattern: Paramount+
+  pattern: Apple TV+
   required: true
   type: release_title
 - name: Not WEBRip
@@ -27,9 +27,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: PMTP Regex
+    name: APTV Regex
     negate: false
-    pattern: Paramount+
+    pattern: Apple TV+
     required: true
     type: release_title
   - matches: true
@@ -40,6 +40,6 @@ tests:
     type: release_title
   expected: false
   id: 2
-  input: Evil 2019 S04 1080p PMTP WEB-DL DDP 5 1 x265 - YELLO
-  lastRun: '2024-12-06T05:11:34.055223'
+  input: Little America 2020 S01 1080p APTV Webrip x265 10bit EAC3 5 1 - Ainz
+  lastRun: '2024-12-03T02:27:03.531343'
   passes: true

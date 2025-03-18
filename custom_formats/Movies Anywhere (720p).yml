@@ -1,13 +1,13 @@
-name: Movies Anywhere [1080p]
-description: Matches 1080p 'Movies Anywhere' WEB-DLs. Negates any encodes.
+name: Movies Anywhere [720p]
+description: Matches 720p 'Movies Anywhere' WEB-DLs
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 1080p
+- name: 720p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 720p
   type: resolution
 - name: MA Regex
   negate: false
