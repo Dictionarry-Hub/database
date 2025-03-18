@@ -1,0 +1,6 @@
+name: Noyr
+pattern: \b(Noyr)\b
+description: ''
+tags:
+- Release Group
+tests: []
