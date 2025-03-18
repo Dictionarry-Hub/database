@@ -4,6 +4,7 @@ tags:
 - HD
 - Bluray
 - Tier 01
+- TRaSH
 conditions:
 - name: BLURAY
   negate: false
