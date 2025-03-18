@@ -1,0 +1,6 @@
+name: 'monkee'
+pattern: ^(monkee)$
+description: ''
+tags:
+- Release Group
+tests: []

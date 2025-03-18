@@ -1,0 +1,6 @@
+name: '9volt'
+pattern: \b(9volt)\b
+description: ''
+tags:
+- Release Group
+tests: []

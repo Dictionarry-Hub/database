@@ -1,0 +1,6 @@
+name: 'Suki Desu'
+pattern: \[Suki[ .-]?Desu\]|-Suki[ .-]?Desu\b
+description: ''
+tags:
+- Release Group
+tests: []

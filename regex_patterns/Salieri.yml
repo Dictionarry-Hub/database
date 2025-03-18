@@ -1,0 +1,6 @@
+name: 'Salieri'
+pattern: \b(Salieri)\b
+description: ''
+tags:
+- Release Group
+tests: []

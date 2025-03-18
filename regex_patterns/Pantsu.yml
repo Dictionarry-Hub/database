@@ -1,0 +1,6 @@
+name: 'Pantsu'
+pattern: \[Pantsu\]|-Pantsu\b
+description: ''
+tags:
+- Release Group
+tests: []

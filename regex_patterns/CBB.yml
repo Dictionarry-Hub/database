@@ -1,0 +1,6 @@
+name: 'CBB'
+pattern: \b(CBB)\b
+description: ''
+tags:
+- Release Group
+tests: []

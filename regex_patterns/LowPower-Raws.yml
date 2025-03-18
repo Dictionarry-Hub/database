@@ -1,0 +1,6 @@
+name: 'LowPower-Raws'
+pattern: LowPower[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'BJX'
+pattern: \b(BJX)\b
+description: ''
+tags:
+- Release Group
+tests: []

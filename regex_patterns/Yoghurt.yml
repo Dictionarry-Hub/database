@@ -1,0 +1,6 @@
+name: 'Yoghurt'
+pattern: \b(Yoghurt)\b
+description: ''
+tags:
+- Release Group
+tests: []

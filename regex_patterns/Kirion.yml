@@ -1,0 +1,6 @@
+name: 'Kirion'
+pattern: \b(Kirion)\b
+description: ''
+tags:
+- Release Group
+tests: []

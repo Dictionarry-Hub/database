@@ -1,0 +1,6 @@
+name: 'MGD'
+pattern: \b(MGD)\b
+description: ''
+tags:
+- Release Group
+tests: []

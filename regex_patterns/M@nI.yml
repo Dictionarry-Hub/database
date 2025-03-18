@@ -1,0 +1,6 @@
+name: 'M@nI'
+pattern: \b(M@nI)\b
+description: ''
+tags:
+- Release Group
+tests: []

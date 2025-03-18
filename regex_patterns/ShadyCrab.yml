@@ -1,0 +1,6 @@
+name: 'ShadyCrab'
+pattern: \b(ShadyCrab)\b
+description: ''
+tags:
+- Release Group
+tests: []

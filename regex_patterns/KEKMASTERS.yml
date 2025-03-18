@@ -1,0 +1,6 @@
+name: 'KEKMASTERS'
+pattern: \b(KEKMASTERS)\b
+description: ''
+tags:
+- Release Group
+tests: []

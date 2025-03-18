@@ -1,0 +1,6 @@
+name: 'NC-Raws'
+pattern: NC[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: NPMS
+pattern: ^(NPMS)$
+description: ''
+tags:
+- Release Group
+tests: []

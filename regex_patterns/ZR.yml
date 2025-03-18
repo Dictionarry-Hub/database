@@ -1,0 +1,6 @@
+name: 'ZR'
+pattern: \b(ZR)\b
+description: ''
+tags:
+- Release Group
+tests: []

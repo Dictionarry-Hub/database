@@ -1,0 +1,6 @@
+name: 'MiniTheatre'
+pattern: \b(MiniTheatre)\b
+description: ''
+tags:
+- Release Group
+tests: []

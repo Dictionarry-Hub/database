@@ -1,0 +1,6 @@
+name: NINJACENTRAL
+pattern: ^(NINJACENTRAL)$
+description: ''
+tags:
+- Release Group
+tests: []

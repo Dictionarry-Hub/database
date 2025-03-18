@@ -1,0 +1,6 @@
+name: 'iPUNISHER'
+pattern: \b(iPUNISHER)\b
+description: ''
+tags:
+- Release Group
+tests: []

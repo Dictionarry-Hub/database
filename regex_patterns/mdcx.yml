@@ -1,0 +1,6 @@
+name: 'mdcx'
+pattern: \b(mdcx)\b
+description: ''
+tags:
+- Release Group
+tests: []

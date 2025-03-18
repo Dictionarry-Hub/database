@@ -1,0 +1,6 @@
+name: 'AOmundson'
+pattern: \b(AOmundson)\b
+description: ''
+tags:
+- Release Group
+tests: []

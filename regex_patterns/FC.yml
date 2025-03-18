@@ -1,0 +1,6 @@
+name: FC
+pattern: ^(FC)$
+description: ''
+tags:
+- Release Group
+tests: []

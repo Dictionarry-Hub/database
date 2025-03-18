@@ -1,0 +1,6 @@
+name: 'SoLCE'
+pattern: \b(SoLCE)\b
+description: ''
+tags:
+- Release Group
+tests: []

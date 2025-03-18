@@ -1,0 +1,6 @@
+name: 'Koitern'
+pattern: \b(Koitern)\b
+description: ''
+tags:
+- Release Group
+tests: []

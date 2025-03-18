@@ -1,0 +1,6 @@
+name: 'Seicher-Raws'
+pattern: Seicher[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

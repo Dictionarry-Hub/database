@@ -1,0 +1,6 @@
+name: 'Scriptum'
+pattern: \b(Scriptum)\b
+description: ''
+tags:
+- Release Group
+tests: []

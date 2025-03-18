@@ -1,0 +1,6 @@
+name: 'LoliHouse'
+pattern: \b(LoliHouse)\b
+description: ''
+tags:
+- Release Group
+tests: []

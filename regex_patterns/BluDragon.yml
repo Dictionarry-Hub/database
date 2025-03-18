@@ -1,0 +1,6 @@
+name: 'BluDragon'
+pattern: \b(BluDragon)\b
+description: ''
+tags:
+- Release Group
+tests: []

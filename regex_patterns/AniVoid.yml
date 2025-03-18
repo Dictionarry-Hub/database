@@ -1,0 +1,6 @@
+name: 'AniVoid'
+pattern: \b(AniVoid)\b
+description: ''
+tags:
+- Release Group
+tests: []

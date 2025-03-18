@@ -1,0 +1,6 @@
+name: 'ViSUM'
+pattern: ^(ViSUM)$
+description: ''
+tags:
+- Release Group
+tests: []

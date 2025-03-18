@@ -1,0 +1,6 @@
+name: 'Sushi'
+pattern: \[Sushi\]|-Sushi\b
+description: ''
+tags:
+- Release Group
+tests: []

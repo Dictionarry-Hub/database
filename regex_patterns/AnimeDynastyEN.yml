@@ -1,0 +1,6 @@
+name: 'AnimeDynastyEN'
+pattern: \b(AnimeDynastyEN)\b
+description: ''
+tags:
+- Release Group
+tests: []

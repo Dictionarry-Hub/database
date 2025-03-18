@@ -1,0 +1,6 @@
+name: 'Project-gxs'
+pattern: \b(Project-gxs)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'BlueLobster'
+pattern: \b(BlueLobster)\b
+description: ''
+tags:
+- Release Group
+tests: []

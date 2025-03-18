@@ -1,0 +1,6 @@
+name: JETIX
+pattern: ^(JETIX)$
+description: ''
+tags:
+- Release Group
+tests: []

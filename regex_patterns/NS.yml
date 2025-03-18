@@ -1,0 +1,6 @@
+name: 'NS'
+pattern: \b(NS)\b
+description: ''
+tags:
+- Release Group
+tests: []

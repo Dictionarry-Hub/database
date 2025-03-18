@@ -1,0 +1,6 @@
+name: 'LazyRemux'
+pattern: \b(LazyRemux)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'DBArabic'
+pattern: \b(DBArabic)\b
+description: ''
+tags:
+- Release Group
+tests: []

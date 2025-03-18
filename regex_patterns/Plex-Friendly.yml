@@ -1,0 +1,6 @@
+name: 'Plex Friendly'
+pattern: \b(Plex[ .-]?Friendly)\b
+description: ''
+tags:
+- Release Group
+tests: []

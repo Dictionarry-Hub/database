@@ -1,0 +1,6 @@
+name: 'NoobSubs'
+pattern: \b(N[eo][wo]b[ ._-]?Subs)\b
+description: ''
+tags:
+- Release Group
+tests: []

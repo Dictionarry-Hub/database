@@ -1,0 +1,6 @@
+name: 'MCLR'
+pattern: \b(MCLR)\b
+description: ''
+tags:
+- Release Group
+tests: []

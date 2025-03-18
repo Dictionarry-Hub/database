@@ -1,0 +1,6 @@
+name: 'Ranger'
+pattern: \[Ranger\]|-Ranger\b
+description: ''
+tags:
+- Release Group
+tests: []

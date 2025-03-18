@@ -1,0 +1,6 @@
+name: 'Anime Chap'
+pattern: \b(Anime[ .-]?Chap)\b
+description: ''
+tags:
+- Release Group
+tests: []

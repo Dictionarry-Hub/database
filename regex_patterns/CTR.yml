@@ -1,0 +1,6 @@
+name: 'CTR'
+pattern: \b(CTR)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'SmugCat'
+pattern: \b(SmugCat)\b
+description: ''
+tags:
+- Release Group
+tests: []

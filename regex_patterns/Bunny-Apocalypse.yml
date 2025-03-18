@@ -1,0 +1,6 @@
+name: 'Bunny-Apocalypse'
+pattern: \b(Bunny-Apocalypse)\b
+description: ''
+tags:
+- Release Group
+tests: []

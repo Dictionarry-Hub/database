@@ -1,0 +1,6 @@
+name: 'GERMini'
+pattern: \b(GERMini)\b
+description: ''
+tags:
+- Release Group
+tests: []

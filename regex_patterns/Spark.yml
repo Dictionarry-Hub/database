@@ -1,0 +1,6 @@
+name: 'Spark'
+pattern: \[Spark\]|-Spark\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'A-L'
+pattern: \b(A-L)\b
+description: ''
+tags:
+- Release Group
+tests: []

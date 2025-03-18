@@ -1,0 +1,6 @@
+name: 'SHiN-gx'
+pattern: \b(SHiN-gx)\b
+description: ''
+tags:
+- Release Group
+tests: []

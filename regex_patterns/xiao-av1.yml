@@ -1,0 +1,6 @@
+name: 'xiao-av1'
+pattern: \b(xiao-av1)\b
+description: ''
+tags:
+- Release Group
+tests: []

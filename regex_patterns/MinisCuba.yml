@@ -1,0 +1,6 @@
+name: 'MinisCuba'
+pattern: \b(MinisCuba)\b
+description: ''
+tags:
+- Release Group
+tests: []

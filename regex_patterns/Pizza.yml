@@ -1,0 +1,6 @@
+name: 'Pizza'
+pattern: \[Pizza\]|-Pizza\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'NanDesuKa'
+pattern: \b(NanDesuKa)\b
+description: ''
+tags:
+- Release Group
+tests: []

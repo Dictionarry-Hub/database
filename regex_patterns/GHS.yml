@@ -1,0 +1,6 @@
+name: 'GHS'
+pattern: \b(GHS)\b
+description: ''
+tags:
+- Release Group
+tests: []

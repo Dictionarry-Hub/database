@@ -1,0 +1,6 @@
+name: 'SEV'
+pattern: \b(SEV)\b
+description: ''
+tags:
+- Release Group
+tests: []

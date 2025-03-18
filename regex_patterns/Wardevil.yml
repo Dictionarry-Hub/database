@@ -1,0 +1,6 @@
+name: 'Wardevil'
+pattern: \[Wardevil\]|-Wardevil\b
+description: ''
+tags:
+- Release Group
+tests: []

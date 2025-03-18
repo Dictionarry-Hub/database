@@ -1,0 +1,6 @@
+name: 'TOMMY'
+pattern: ^(TOMMY)$
+description: ''
+tags:
+- Release Group
+tests: []

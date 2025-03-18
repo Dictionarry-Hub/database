@@ -1,0 +1,6 @@
+name: 'MK'
+pattern: \b(MK)\b
+description: ''
+tags:
+- Release Group
+tests: []

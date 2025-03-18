@@ -1,0 +1,6 @@
+name: 'HorribleSubs'
+pattern: \b(HorribleSubs)\b
+description: ''
+tags:
+- Release Group
+tests: []

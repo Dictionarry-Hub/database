@@ -1,0 +1,6 @@
+name: 'Man.K'
+pattern: \b(Man\.K)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'Pandoratv-Raws'
+pattern: Pandoratv[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

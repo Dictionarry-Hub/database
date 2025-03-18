@@ -1,0 +1,6 @@
+name: 'VipapkStudios'
+pattern: \b(VipapkStudios)\b
+description: ''
+tags:
+- Release Group
+tests: []

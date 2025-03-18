@@ -1,0 +1,6 @@
+name: Cinefeel
+pattern: ^(Cinefeel)$
+description: ''
+tags:
+- Release Group
+tests: []

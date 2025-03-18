@@ -1,0 +1,6 @@
+name: 'Rip Time'
+pattern: \b(Rip[ .-]?Time)\b
+description: ''
+tags:
+- Release Group
+tests: []

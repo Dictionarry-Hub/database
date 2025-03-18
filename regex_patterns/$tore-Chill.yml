@@ -1,0 +1,6 @@
+name: '$tore-Chill'
+pattern: \b(\$tore-Chill)\b
+description: ''
+tags:
+- Release Group
+tests: []

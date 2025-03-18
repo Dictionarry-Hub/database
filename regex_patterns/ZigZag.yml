@@ -1,0 +1,6 @@
+name: 'ZigZag'
+pattern: \[ZigZag\]|-ZigZab\b
+description: ''
+tags:
+- Release Group
+tests: []

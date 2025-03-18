@@ -1,0 +1,6 @@
+name: 'Nokou'
+pattern: \b(Nokou)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: RTFM
+pattern: ^(RTFM)$
+description: ''
+tags:
+- Release Group
+tests: []

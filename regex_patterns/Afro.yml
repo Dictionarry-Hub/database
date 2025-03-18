@@ -1,0 +1,6 @@
+name: 'Afro'
+pattern: \[Afro\]|-Afro\b
+description: ''
+tags:
+- Release Group
+tests: []

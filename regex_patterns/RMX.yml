@@ -1,0 +1,6 @@
+name: 'RMX'
+pattern: \b(RMX)\b
+description: ''
+tags:
+- Release Group
+tests: []

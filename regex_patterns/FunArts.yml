@@ -1,0 +1,6 @@
+name: 'FunArts'
+pattern: \b(FunArts)\b
+description: ''
+tags:
+- Release Group
+tests: []

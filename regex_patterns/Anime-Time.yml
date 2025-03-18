@@ -1,0 +1,6 @@
+name: 'Anime Time'
+pattern: \b(Anime[ .-]?Time)\b
+description: ''
+tags:
+- Release Group
+tests: []

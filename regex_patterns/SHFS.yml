@@ -1,0 +1,6 @@
+name: 'SHFS'
+pattern: \b(SHFS)\b
+description: ''
+tags:
+- Release Group
+tests: []

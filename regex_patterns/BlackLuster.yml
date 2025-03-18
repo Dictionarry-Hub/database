@@ -1,0 +1,6 @@
+name: 'BlackLuster'
+pattern: \b(BlackLuster)\b
+description: ''
+tags:
+- Release Group
+tests: []

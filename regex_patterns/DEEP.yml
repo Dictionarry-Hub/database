@@ -1,0 +1,6 @@
+name: DEEP
+pattern: ^(DEEP)$
+description: ''
+tags:
+- Release Group
+tests: []

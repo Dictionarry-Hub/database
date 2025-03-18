@@ -1,0 +1,6 @@
+name: 'Bolshevik'
+pattern: \[Bolshevik\]|-Bolshevik\b
+description: ''
+tags:
+- Release Group
+tests: []

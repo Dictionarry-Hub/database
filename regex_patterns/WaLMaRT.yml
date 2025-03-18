@@ -1,0 +1,6 @@
+name: 'WaLMaRT'
+pattern: \b(WaLMaRT)\b
+description: ''
+tags:
+- Release Group
+tests: []

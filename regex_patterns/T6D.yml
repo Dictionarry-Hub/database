@@ -1,0 +1,6 @@
+name: 'T6D'
+pattern: ^(T6D)$
+description: ''
+tags:
+- Release Group
+tests: []

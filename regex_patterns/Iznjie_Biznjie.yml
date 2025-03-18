@@ -1,0 +1,6 @@
+name: 'Iznjie Biznjie'
+pattern: \b(Iznjie[ .-]Biznjie)\b
+description: ''
+tags:
+- Release Group
+tests: []

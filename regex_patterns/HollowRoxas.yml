@@ -1,0 +1,6 @@
+name: 'HollowRoxas'
+pattern: \b(HollowRoxas)\b
+description: ''
+tags:
+- Release Group
+tests: []

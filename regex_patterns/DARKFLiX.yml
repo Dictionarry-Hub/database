@@ -1,0 +1,6 @@
+name: 'DARKFLiX'
+pattern: \b(DARKFLiX)\b
+description: ''
+tags:
+- Release Group
+tests: []

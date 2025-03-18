@@ -1,0 +1,6 @@
+name: 'HaiveMind'
+pattern: \b(HaiveMind)\b
+description: ''
+tags:
+- Release Group
+tests: []

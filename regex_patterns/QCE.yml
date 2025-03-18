@@ -1,0 +1,6 @@
+name: 'QCE'
+pattern: \b(QCE)\b
+description: ''
+tags:
+- Release Group
+tests: []

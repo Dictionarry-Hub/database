@@ -1,0 +1,6 @@
+name: 'DaddySubs'
+pattern: \[Daddy(Subs)?\]|-Daddy(Subs)?\b
+description: ''
+tags:
+- Release Group
+tests: []

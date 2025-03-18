@@ -1,0 +1,6 @@
+name: 'MiniFreeza'
+pattern: \b(MiniFreeza)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'GS'
+pattern: \b(GS)\b
+description: ''
+tags:
+- Release Group
+tests: []

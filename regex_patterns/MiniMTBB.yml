@@ -1,0 +1,6 @@
+name: 'MiniMTBB'
+pattern: \b(MiniMTBB)\b
+description: ''
+tags:
+- Release Group
+tests: []

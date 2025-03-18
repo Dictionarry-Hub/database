@@ -1,0 +1,6 @@
+name: 'km'
+pattern: \[km\]|-km\b
+description: ''
+tags:
+- Release Group
+tests: []

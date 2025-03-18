@@ -1,0 +1,6 @@
+name: 'Slyfox'
+pattern: \b(Slyfox)\b
+description: ''
+tags:
+- Release Group
+tests: []

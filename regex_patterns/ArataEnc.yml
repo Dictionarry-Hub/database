@@ -1,0 +1,6 @@
+name: 'ArataEnc'
+pattern: \b(ArataEnc)\b
+description: ''
+tags:
+- Release Group
+tests: []

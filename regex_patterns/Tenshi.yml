@@ -1,0 +1,6 @@
+name: 'Tenshi'
+pattern: \[tenshi\]|-tenshi$
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'NTRM'
+pattern: \b(NTRM)\b
+description: ''
+tags:
+- Release Group
+tests: []

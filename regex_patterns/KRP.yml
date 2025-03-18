@@ -1,0 +1,6 @@
+name: 'KRP'
+pattern: \b(KRP)\b
+description: ''
+tags:
+- Release Group
+tests: []

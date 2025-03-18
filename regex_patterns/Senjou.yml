@@ -1,0 +1,6 @@
+name: 'Senjou'
+pattern: \[Senjou\]|-Senjou\b
+description: ''
+tags:
+- Release Group
+tests: []

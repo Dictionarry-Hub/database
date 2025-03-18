@@ -1,0 +1,6 @@
+name: 'CuaP'
+pattern: \b(CuaP)\b
+description: ''
+tags:
+- Release Group
+tests: []

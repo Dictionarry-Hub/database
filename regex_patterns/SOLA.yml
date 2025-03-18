@@ -1,0 +1,6 @@
+name: 'SOLA'
+pattern: \[SOLA\]|-SOLA\b
+description: ''
+tags:
+- Release Group
+tests: []

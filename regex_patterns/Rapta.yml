@@ -1,0 +1,6 @@
+name: 'Rapta'
+pattern: \[Rapta\]|-Rapta\b
+description: ''
+tags:
+- Release Group
+tests: []

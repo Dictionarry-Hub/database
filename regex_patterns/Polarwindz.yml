@@ -1,0 +1,6 @@
+name: 'Polarwindz'
+pattern: \b(Polarwindz)\b
+description: ''
+tags:
+- Release Group
+tests: []

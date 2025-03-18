@@ -1,0 +1,6 @@
+name: END
+pattern: ^(END)$
+description: ''
+tags:
+- Release Group
+tests: []

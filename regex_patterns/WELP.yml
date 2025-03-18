@@ -1,0 +1,6 @@
+name: WELP
+pattern: ^(WELP)$
+description: ''
+tags:
+- Release Group
+tests: []

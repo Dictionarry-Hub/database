@@ -1,0 +1,6 @@
+name: GNOME
+pattern: ^(GNOME)$
+description: ''
+tags:
+- Release Group
+tests: []

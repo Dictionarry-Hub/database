@@ -1,0 +1,6 @@
+name: Setsugen
+pattern: \b(Setsugen)\b
+description: ''
+tags:
+- Release Group
+tests: []

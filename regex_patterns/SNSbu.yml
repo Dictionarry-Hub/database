@@ -1,0 +1,6 @@
+name: 'SNSbu'
+pattern: \b(SNSbu)\b
+description: ''
+tags:
+- Release Group
+tests: []

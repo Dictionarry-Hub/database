@@ -1,0 +1,6 @@
+name: 'Nyanpasu'
+pattern: \b(Nyanpasu)\b
+description: ''
+tags:
+- Release Group
+tests: []

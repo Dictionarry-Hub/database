@@ -1,0 +1,6 @@
+name: 'Kanjouteki'
+pattern: \b(Kanjouteki)\b
+description: ''
+tags:
+- Release Group
+tests: []

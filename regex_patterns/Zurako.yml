@@ -1,0 +1,6 @@
+name: 'Zurako'
+pattern: \b(Zurako)\b
+description: ''
+tags:
+- Release Group
+tests: []

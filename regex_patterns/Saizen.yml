@@ -1,0 +1,6 @@
+name: 'Saizen'
+pattern: \b(Saizen)\b
+description: ''
+tags:
+- Release Group
+tests: []

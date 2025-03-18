@@ -1,0 +1,6 @@
+name: KHN
+pattern: ^(KHN)$
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'Doki'
+pattern: \[Doki\]|-Doki\b
+description: ''
+tags:
+- Release Group
+tests: []

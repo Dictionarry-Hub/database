@@ -1,0 +1,6 @@
+name: 'Netaro'
+pattern: \b(Netaro)\b
+description: ''
+tags:
+- Release Group
+tests: []

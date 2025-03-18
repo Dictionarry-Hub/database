@@ -1,0 +1,6 @@
+name: 'JacobSwaggedUp'
+pattern: \b(JacobSwaggedUp)\b
+description: ''
+tags:
+- Release Group
+tests: []

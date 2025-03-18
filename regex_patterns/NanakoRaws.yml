@@ -1,0 +1,6 @@
+name: 'NanakoRaws'
+pattern: Nanako[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

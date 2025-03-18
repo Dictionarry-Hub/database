@@ -1,0 +1,6 @@
+name: 'IrizaRaws'
+pattern: Iriza[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

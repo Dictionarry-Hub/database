@@ -1,0 +1,6 @@
+name: SPiRiT
+pattern: ^(SPiRiT)$
+description: ''
+tags:
+- Release Group
+tests: []

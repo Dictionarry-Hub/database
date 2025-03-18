@@ -1,0 +1,6 @@
+name: 'QOQ'
+pattern: ^(QOQ)$
+description: ''
+tags:
+- Release Group
+tests: []

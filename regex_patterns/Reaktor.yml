@@ -1,0 +1,6 @@
+name: 'Reaktor'
+pattern: \b(Reaktor)\b
+description: ''
+tags:
+- Release Group
+tests: []

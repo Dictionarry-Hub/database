@@ -1,0 +1,6 @@
+name: 'Watashi'
+pattern: \[Watashi\]|-Watashi\b
+description: ''
+tags:
+- Release Group
+tests: []

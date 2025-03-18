@@ -1,0 +1,6 @@
+name: 'CBM'
+pattern: \b(CBM)\b
+description: ''
+tags:
+- Release Group
+tests: []

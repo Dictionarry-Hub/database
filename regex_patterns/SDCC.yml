@@ -1,0 +1,6 @@
+name: SDCC
+pattern: ^(SDCC)$
+description: ''
+tags:
+- Release Group
+tests: []

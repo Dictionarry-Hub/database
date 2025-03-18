@@ -1,0 +1,6 @@
+name: 'neoHEVC'
+pattern: \b(neoHEVC)\b
+description: ''
+tags:
+- Release Group
+tests: []

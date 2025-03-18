@@ -1,0 +1,6 @@
+name: 'Ari'
+pattern: \[Ari\]|-Ari\b
+description: ''
+tags:
+- Release Group
+tests: []

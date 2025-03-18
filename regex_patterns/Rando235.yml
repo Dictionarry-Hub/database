@@ -1,0 +1,6 @@
+name: 'Rando235'
+pattern: \b(Rando235)\b
+description: ''
+tags:
+- Release Group
+tests: []

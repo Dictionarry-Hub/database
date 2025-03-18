@@ -1,0 +1,6 @@
+name: Flights
+pattern: ^(Flights)$
+description: ''
+tags:
+- Release Group
+tests: []

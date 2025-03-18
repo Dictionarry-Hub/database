@@ -1,0 +1,6 @@
+name: 'Raw Files'
+pattern: \b(M2TS|BDMV|BDVD)\b
+description: ''
+tags:
+- Release Group
+tests: []

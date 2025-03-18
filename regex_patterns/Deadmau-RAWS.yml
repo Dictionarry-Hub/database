@@ -1,0 +1,6 @@
+name: 'Deadmau- RAWS'
+pattern: \b(Deadmau[ .-]?[ .-]?RAWS)\b
+description: ''
+tags:
+- Release Group
+tests: []

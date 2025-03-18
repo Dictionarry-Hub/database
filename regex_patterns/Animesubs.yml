@@ -1,0 +1,6 @@
+name: 'Animesubs'
+pattern: \b(Animesubs)\b
+description: ''
+tags:
+- Release Group
+tests: []

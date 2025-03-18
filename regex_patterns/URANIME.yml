@@ -1,0 +1,6 @@
+name: 'URANIME'
+pattern: \b(URANIME)\b
+description: ''
+tags:
+- Release Group
+tests: []

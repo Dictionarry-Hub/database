@@ -1,0 +1,6 @@
+name: 'DP'
+pattern: \b(DP)\b
+description: ''
+tags:
+- Release Group
+tests: []

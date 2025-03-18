@@ -1,0 +1,6 @@
+name: 'AnimeKuro'
+pattern: \b(AnimeKuro)\b
+description: ''
+tags:
+- Release Group
+tests: []

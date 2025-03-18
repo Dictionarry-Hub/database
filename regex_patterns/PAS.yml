@@ -1,0 +1,6 @@
+name: 'PAS'
+pattern: \b(PAS)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'Mysteria'
+pattern: \[Mysteria\]|-Mysteria\b
+description: ''
+tags:
+- Release Group
+tests: []

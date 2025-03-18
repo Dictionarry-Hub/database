@@ -1,0 +1,6 @@
+name: 'kBaraka'
+pattern: \b(kBaraka)\b
+description: ''
+tags:
+- Release Group
+tests: []

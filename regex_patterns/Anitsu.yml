@@ -1,0 +1,6 @@
+name: 'Anitsu'
+pattern: \b(Anitsu)\b
+description: ''
+tags:
+- Release Group
+tests: []

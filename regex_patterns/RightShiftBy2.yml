@@ -1,0 +1,6 @@
+name: 'RightShiftBy2'
+pattern: \b(RightShiftBy2)\b
+description: ''
+tags:
+- Release Group
+tests: []

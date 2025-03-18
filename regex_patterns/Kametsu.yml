@@ -1,0 +1,6 @@
+name: 'Kametsu'
+pattern: \b(Kametsu)\b
+description: ''
+tags:
+- Release Group
+tests: []

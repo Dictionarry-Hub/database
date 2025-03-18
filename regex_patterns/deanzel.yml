@@ -1,0 +1,6 @@
+name: 'deanzel'
+pattern: \b(deanzel)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,4 +1,4 @@
-name: Not-Vodes
+name: 'Not-Vodes'
 pattern: \[Not-Vodes\]|-Not-Vodes\b
 description: ''
 tags:

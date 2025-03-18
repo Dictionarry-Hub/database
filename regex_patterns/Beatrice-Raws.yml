@@ -1,0 +1,6 @@
+name: 'Beatrice-Raws'
+pattern: Beatrice[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

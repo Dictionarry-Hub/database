@@ -1,0 +1,6 @@
+name: 'Harunatsu'
+pattern: \[Harunatsu\]|-Harunatsu\b
+description: ''
+tags:
+- Release Group
+tests: []

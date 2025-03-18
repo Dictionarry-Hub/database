@@ -1,0 +1,6 @@
+name: '0neshot'
+pattern: \b(0neshot)\b
+description: ''
+tags:
+- Release Group
+tests: []

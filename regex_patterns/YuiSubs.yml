@@ -1,0 +1,6 @@
+name: 'YuiSubs'
+pattern: \b(YuiSubs)\b
+description: ''
+tags:
+- Release Group
+tests: []

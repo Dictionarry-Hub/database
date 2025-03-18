@@ -1,0 +1,6 @@
+name: 'Pookie'
+pattern: \b(Pookie)\b
+description: ''
+tags:
+- Release Group
+tests: []

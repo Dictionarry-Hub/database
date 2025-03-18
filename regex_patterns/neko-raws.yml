@@ -1,0 +1,6 @@
+name: 'neko-raws'
+pattern: neko[ ._-]?(raws)
+description: ''
+tags:
+- Release Group
+tests: []

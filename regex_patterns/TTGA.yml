@@ -1,0 +1,6 @@
+name: 'TTGA'
+pattern: \b(TTGA)\b
+description: ''
+tags:
+- Release Group
+tests: []

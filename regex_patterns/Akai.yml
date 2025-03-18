@@ -1,0 +1,6 @@
+name: 'Akai'
+pattern: \[Akai\]|-Akai\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: iJP
+pattern: ^(iJP)$
+description: ''
+tags:
+- Release Group
+tests: []

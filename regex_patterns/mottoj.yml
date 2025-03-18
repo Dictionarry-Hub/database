@@ -1,0 +1,6 @@
+name: 'mottoj'
+pattern: \b(mottoj)\b
+description: ''
+tags:
+- Release Group
+tests: []

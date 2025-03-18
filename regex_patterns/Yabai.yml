@@ -1,0 +1,6 @@
+name: 'Yabai'
+pattern: \[Yabai\]|-Yabai\b
+description: ''
+tags:
+- Release Group
+tests: []

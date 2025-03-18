@@ -1,0 +1,6 @@
+name: 'EXP'
+pattern: \[EXP\]|-EXP\b
+description: ''
+tags:
+- Release Group
+tests: []

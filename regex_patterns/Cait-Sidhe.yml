@@ -1,0 +1,6 @@
+name: 'Cait-Sidhe'
+pattern: \b(Cait-Sidhe)\b
+description: ''
+tags:
+- Release Group
+tests: []

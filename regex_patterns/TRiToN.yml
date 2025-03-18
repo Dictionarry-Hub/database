@@ -1,0 +1,6 @@
+name: 'TRiToN'
+pattern: ^(TRiToN)$
+description: ''
+tags:
+- Release Group
+tests: []

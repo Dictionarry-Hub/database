@@ -1,0 +1,6 @@
+name: 'MKVULTRA'
+pattern: \b(MKVULTRA)\b
+description: ''
+tags:
+- Release Group
+tests: []

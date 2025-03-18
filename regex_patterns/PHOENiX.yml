@@ -1,0 +1,6 @@
+name: PHOENiX
+pattern: ^(PHOENiX)$
+description: ''
+tags:
+- Release Group
+tests: []

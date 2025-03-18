@@ -1,0 +1,6 @@
+name: 'Chimera'
+pattern: \[Chimera\]|-Chimera\b
+description: ''
+tags:
+- Release Group
+tests: []

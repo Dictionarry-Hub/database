@@ -1,0 +1,6 @@
+name: 'RedBlade'
+pattern: \b(RedBlade)\b
+description: ''
+tags:
+- Release Group
+tests: []

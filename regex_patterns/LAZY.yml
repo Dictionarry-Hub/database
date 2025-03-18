@@ -1,0 +1,6 @@
+name: LAZY
+pattern: ^(LAZY)$
+description: ''
+tags:
+- Release Group
+tests: []

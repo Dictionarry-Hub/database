@@ -1,0 +1,6 @@
+name: 'Ayashii'
+pattern: \[Ayashii\]|-Ayashii\b
+description: ''
+tags:
+- Release Group
+tests: []

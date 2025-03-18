@@ -1,0 +1,6 @@
+name: 'Pn8'
+pattern: \b(Pn8)\b
+description: ''
+tags:
+- Release Group
+tests: []

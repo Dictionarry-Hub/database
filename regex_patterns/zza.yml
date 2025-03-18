@@ -1,0 +1,6 @@
+name: 'zza'
+pattern: \[zza\]|-zza\b
+description: ''
+tags:
+- Release Group
+tests: []

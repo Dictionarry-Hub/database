@@ -1,0 +1,6 @@
+name: 'Trix'
+pattern: \[Trix\]|-Trix\b
+description: ''
+tags:
+- Release Group
+tests: []

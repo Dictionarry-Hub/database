@@ -1,0 +1,6 @@
+name: 'Hall_of_C'
+pattern: \b(Hall_of_C)\b
+description: ''
+tags:
+- Release Group
+tests: []

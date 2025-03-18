@@ -1,0 +1,6 @@
+name: 'RTN'
+pattern: ^(RTN)$
+description: ''
+tags:
+- Release Group
+tests: []

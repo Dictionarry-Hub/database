@@ -1,0 +1,6 @@
+name: 'Kaleido'
+pattern: \b(Kaleido)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'Cerberus'
+pattern: \[Cerberus\]|-Cerberus\b
+description: ''
+tags:
+- Release Group
+tests: []

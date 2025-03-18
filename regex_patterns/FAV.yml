@@ -1,0 +1,6 @@
+name: 'FAV'
+pattern: \[FAV\]|-FAV\b
+description: ''
+tags:
+- Release Group
+tests: []

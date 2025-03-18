@@ -1,0 +1,6 @@
+name: 'QaS'
+pattern: \b(QAS)\b
+description: ''
+tags:
+- Release Group
+tests: []

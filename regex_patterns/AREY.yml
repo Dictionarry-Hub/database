@@ -1,0 +1,6 @@
+name: 'AREY'
+pattern: \b(AREY)\b
+description: ''
+tags:
+- Release Group
+tests: []

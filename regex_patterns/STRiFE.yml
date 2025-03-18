@@ -1,0 +1,6 @@
+name: 'STRiFE'
+pattern: \[STRiFE\]|-STRiFE\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'Hakata Ramen'
+pattern: \b(Hakata[ .-]?Ramen)\b
+description: ''
+tags:
+- Release Group
+tests: []

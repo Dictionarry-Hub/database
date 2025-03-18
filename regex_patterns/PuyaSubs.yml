@@ -1,0 +1,6 @@
+name: 'PuyaSubs'
+pattern: \b(PuyaSubs)\b
+description: ''
+tags:
+- Release Group
+tests: []

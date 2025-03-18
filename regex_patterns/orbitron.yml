@@ -1,0 +1,6 @@
+name: orbitron
+pattern: ^(orbitron)$
+description: ''
+tags:
+- Release Group
+tests: []

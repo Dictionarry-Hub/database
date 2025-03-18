@@ -1,0 +1,6 @@
+name: 'Kaizoku'
+pattern: \b(AnimeKaizoku)\b|\[Kaizoku\]|-Kaizoku\b
+description: ''
+tags:
+- Release Group
+tests: []

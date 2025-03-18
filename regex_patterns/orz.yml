@@ -1,0 +1,6 @@
+name: 'orz'
+pattern: \b(orz)\b
+description: ''
+tags:
+- Release Group
+tests: []

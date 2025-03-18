@@ -1,0 +1,6 @@
+name: 'AP'
+pattern: \b(AP)\b
+description: ''
+tags:
+- Release Group
+tests: []

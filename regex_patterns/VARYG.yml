@@ -1,0 +1,6 @@
+name: 'VARYG'
+pattern: \b(VARYG)\b
+description: ''
+tags:
+- Release Group
+tests: []

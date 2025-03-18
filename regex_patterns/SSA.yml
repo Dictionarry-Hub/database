@@ -1,0 +1,6 @@
+name: 'SSA'
+pattern: \b(SSA)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'New-raws'
+pattern: New[ ._-]?(raws)
+description: ''
+tags:
+- Release Group
+tests: []

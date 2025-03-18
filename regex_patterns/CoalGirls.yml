@@ -1,0 +1,6 @@
+name: 'CoalGirls'
+pattern: \b(CoalGirls)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'HAiKU'
+pattern: \b(HAiKU)\b
+description: ''
+tags:
+- Release Group
+tests: []

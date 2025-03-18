@@ -1,0 +1,6 @@
+name: 'Raizel'
+pattern: \b(Raizel)\b
+description: ''
+tags:
+- Release Group
+tests: []

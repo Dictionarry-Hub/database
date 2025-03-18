@@ -1,0 +1,6 @@
+name: 'Modders Bay'
+pattern: \b(Modders[ .-]?Bay)\b
+description: ''
+tags:
+- Release Group
+tests: []

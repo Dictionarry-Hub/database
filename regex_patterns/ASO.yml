@@ -1,0 +1,6 @@
+name: 'ASO'
+pattern: \b(ASO)\b
+description: ''
+tags:
+- Release Group
+tests: []

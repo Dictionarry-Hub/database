@@ -1,0 +1,6 @@
+name: 'Bulldog'
+pattern: \[Bulldog\]|-Bulldog\b
+description: ''
+tags:
+- Release Group
+tests: []

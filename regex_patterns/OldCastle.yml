@@ -1,0 +1,6 @@
+name: 'OldCastle'
+pattern: \b(OldCastle)\b
+description: ''
+tags:
+- Release Group
+tests: []

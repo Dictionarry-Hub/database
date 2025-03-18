@@ -1,0 +1,6 @@
+name: 'TENEIGHTY'
+pattern: \b(TENEIGHTY)\b
+description: ''
+tags:
+- Release Group
+tests: []

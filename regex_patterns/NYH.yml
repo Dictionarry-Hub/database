@@ -1,0 +1,6 @@
+name: NYH
+pattern: ^(NYH)$
+description: ''
+tags:
+- Release Group
+tests: []

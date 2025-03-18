@@ -1,0 +1,6 @@
+name: 'HAV1T'
+pattern: \b(HAV1T)\b
+description: ''
+tags:
+- Release Group
+tests: []

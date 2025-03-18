@@ -1,0 +1,6 @@
+name: 'KAWAiREMUX'
+pattern: \b(KAWAiREMUX)\b
+description: ''
+tags:
+- Release Group
+tests: []

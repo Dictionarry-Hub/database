@@ -1,0 +1,6 @@
+name: CiT
+pattern: ^(CiT)$
+description: ''
+tags:
+- Release Group
+tests: []

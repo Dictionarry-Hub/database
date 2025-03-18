@@ -1,0 +1,6 @@
+name: 'AnimeTR'
+pattern: \b(AnimeTR)\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: 'YURI'
+pattern: \[YURI\]|-YURI\b
+description: ''
+tags:
+- Release Group
+tests: []

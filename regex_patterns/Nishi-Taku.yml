@@ -1,0 +1,6 @@
+name: 'Nishi-Taku'
+pattern: \b(Nishi-Taku)\b
+description: ''
+tags:
+- Release Group
+tests: []

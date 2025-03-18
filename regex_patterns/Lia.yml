@@ -1,0 +1,6 @@
+name: 'Lia'
+pattern: \[Lia\]|-Lia\b
+description: ''
+tags:
+- Release Group
+tests: []

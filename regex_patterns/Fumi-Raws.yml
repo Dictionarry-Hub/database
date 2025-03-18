@@ -1,0 +1,6 @@
+name: 'Fumi-Raws'
+pattern: Fumi[ ._-]?(Raws)
+description: ''
+tags:
+- Release Group
+tests: []

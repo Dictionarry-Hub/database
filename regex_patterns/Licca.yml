@@ -1,0 +1,6 @@
+name: 'Licca'
+pattern: \b(Licca)\b
+description: ''
+tags:
+- Release Group
+tests: []

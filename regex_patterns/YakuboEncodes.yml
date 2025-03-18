@@ -1,0 +1,6 @@
+name: 'YakuboEncodes'
+pattern: \b(YakuboEncodes)\b
+description: ''
+tags:
+- Release Group
+tests: []

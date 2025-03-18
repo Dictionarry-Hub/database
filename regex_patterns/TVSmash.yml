@@ -1,0 +1,6 @@
+name: TVSmash
+pattern: ^(TVSmash)$
+description: ''
+tags:
+- Release Group
+tests: []

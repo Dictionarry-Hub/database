@@ -1,0 +1,6 @@
+name: SLiGNOME
+pattern: ^(SLiGNOME)$
+description: ''
+tags:
+- Release Group
+tests: []

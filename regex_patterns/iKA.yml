@@ -1,0 +1,6 @@
+name: iKA
+pattern: ^(iKA)$
+description: ''
+tags:
+- Release Group
+tests: []

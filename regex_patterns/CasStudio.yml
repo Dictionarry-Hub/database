@@ -1,0 +1,6 @@
+name: 'CasStudio'
+pattern: ^(CasStudio)$
+description: ''
+tags:
+- Release Group
+tests: []
