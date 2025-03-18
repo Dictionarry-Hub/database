@@ -173,18 +173,32 @@ qualities:
     name: WEBRip-1080p
   - id: 9
     name: WEBDL-1080p
+- id: -4
+  name: 720p fallback
+  description: ''
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 16
+    name: HDTV-720p
 - id: -2
   name: SD
   description: SD Fallbacks
   qualities:
+  - id: 17
+    name: Bluray-576p
+  - id: 18
+    name: Bluray-480p
   - id: 19
     name: WEBDL-480p
   - id: 20
     name: WEBRip-480p
   - id: 22
     name: DVD
-  - id: 24
-    name: SDTV
 - id: -3
   name: Prereleases
   description: 'Low quality releases that come out before physical discs / streaming
