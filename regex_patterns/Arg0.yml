@@ -1,0 +1,6 @@
+name: Arg0
+pattern: (?<=^|[\s.-])Arg0\b
+description: ''
+tags:
+- Release Group
+tests: []
