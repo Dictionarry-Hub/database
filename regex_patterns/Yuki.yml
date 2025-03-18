@@ -1,6 +1,0 @@
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
-description: ''
-tags:
-- Release Group
-tests: []

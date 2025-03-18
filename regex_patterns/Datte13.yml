@@ -1,6 +1,0 @@
-name: Datte13
-pattern: \b(Datte13)\b
-description: ''
-tags:
-- Release Group
-tests: []

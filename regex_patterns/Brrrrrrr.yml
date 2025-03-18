@@ -1,6 +1,0 @@
-name: Brrrrrrr
-pattern: \b(Brrrrrrr)\b
-description: ''
-tags:
-- Release Group
-tests: []

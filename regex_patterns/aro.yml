@@ -1,6 +1,0 @@
-name: aro
-pattern: \b(aro)\b
-description: ''
-tags:
-- Release Group
-tests: []

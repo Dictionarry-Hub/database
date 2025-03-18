@@ -1,6 +1,0 @@
-name: Baws
-pattern: \b(Baws)\b
-description: ''
-tags:
-- Release Group
-tests: []

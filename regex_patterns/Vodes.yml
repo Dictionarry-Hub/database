@@ -1,6 +1,0 @@
-name: Vodes
-pattern: \[Vodes\]|(?<!Not)-Vodes\b
-description: ''
-tags:
-- Release Group
-tests: []

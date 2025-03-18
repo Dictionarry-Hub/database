@@ -1,6 +1,0 @@
-name: CsS
-pattern: \b(CsS)\b
-description: ''
-tags:
-- Release Group
-tests: []

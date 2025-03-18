@@ -1,6 +1,0 @@
-name: Shimatta
-pattern: \b(Shimatta)\b
-description: ''
-tags:
-- Release Group
-tests: []

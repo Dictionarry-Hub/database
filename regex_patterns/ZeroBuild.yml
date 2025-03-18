@@ -1,6 +1,0 @@
-name: ZeroBuild
-pattern: \b(ZeroBuild)\b
-description: ''
-tags:
-- Release Group
-tests: []

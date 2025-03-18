@@ -1,6 +1,0 @@
-name: Vanilla
-pattern: \[Vanilla\]|-Vanilla\b
-description: ''
-tags:
-- Release Group
-tests: []

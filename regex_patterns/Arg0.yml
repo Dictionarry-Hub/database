@@ -1,6 +1,0 @@
-name: Arg0
-pattern: \b(Arg0)\b
-description: ''
-tags:
-- Release Group
-tests: []

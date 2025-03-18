@@ -1,6 +1,0 @@
-name: Chotab
-pattern: (?<=^|[\s.-])Chotab\b
-description: ''
-tags:
-- Release Group
-tests: []

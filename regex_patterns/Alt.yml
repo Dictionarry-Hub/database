@@ -1,6 +1,0 @@
-name: Alt
-pattern: \[Alt\]|-Alt\b
-description: ''
-tags:
-- Release Group
-tests: []
