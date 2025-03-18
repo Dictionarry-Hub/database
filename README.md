@@ -1,3 +1,7 @@
+# This fork contains some of TRaSH guide's Release groups and Regex
+
+Maintained by me
+
 # Dictionary Database Repository
 
 This repository hosts Dictionary's database containing:
