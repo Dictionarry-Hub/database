@@ -1,0 +1,6 @@
+name: Drag
+pattern: \[Drag\]|-Drag\b
+description: ''
+tags:
+- Release Group
+tests: []
