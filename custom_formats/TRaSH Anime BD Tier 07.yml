@@ -5,6 +5,7 @@ tags:
 - BD
 - P2P
 - Scene
+- TRaSH
 conditions:
 - name: Bluray
   negate: false
