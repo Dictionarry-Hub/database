@@ -1,0 +1,6 @@
+name: 'Asakura'
+pattern: \[Asakura\]|-Asakura\b
+description: ''
+tags:
+- Release Group
+tests: []

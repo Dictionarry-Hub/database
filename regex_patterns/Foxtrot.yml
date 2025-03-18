@@ -1,0 +1,6 @@
+name: 'Foxtrot'
+pattern: \[Foxtrot\]|-Foxtrot\b
+description: ''
+tags:
+- Release Group
+tests: []
