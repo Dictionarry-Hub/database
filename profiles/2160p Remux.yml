@@ -22,8 +22,22 @@ minCustomFormatScore: 0
 upgradeUntilScore: 350
 minScoreIncrement: 1
 custom_formats:
+- name: Remux Tier 01
+  score: 175
+- name: Remux Tier 02
+  score: 165
+- name: HD Bluray Tier 01
+  score: 150
 - name: 2160p
   score: 120
+- name: HD Bluray Tier 02
+  score: 100
+- name: WEB Tier 01
+  score: 85
+- name: WEB Tier 02
+  score: 75
+- name: WEB Tier 03
+  score: 65
 - name: 1080p
   score: 60
 - name: Blu-ray Remux
@@ -92,6 +106,16 @@ custom_formats:
   score: 6
 - name: Unknown Lossless Audio
   score: 5
+- name: v4
+  score: 4
+- name: v3
+  score: 3
+- name: v2
+  score: 2
+- name: v1
+  score: 1
+- name: v0
+  score: -51
 - name: 3D
   score: -9999
 - name: 720p

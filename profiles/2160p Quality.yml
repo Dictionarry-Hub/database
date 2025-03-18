@@ -37,6 +37,10 @@ custom_formats:
   score: 240
 - name: 2160p Quality Tier 6
   score: 230
+- name: Remux Tier 01
+  score: 175
+- name: Remux Tier 02
+  score: 164
 - name: Amazon Prime [2160p]
   score: 160
 - name: Disney+ [2160p]
@@ -46,6 +50,8 @@ custom_formats:
 - name: Movies Anywhere [2160p]
   score: 160
 - name: Apple TV+ [2160p]
+  score: 150
+- name: HD Bluray Tier 01
   score: 150
 - name: Hulu [2160p]
   score: 150
@@ -61,6 +67,14 @@ custom_formats:
   score: 150
 - name: Roku [2160p]
   score: 150
+- name: HD Bluray Tier 02
+  score: 100
+- name: WEB Tier 01
+  score: 85
+- name: WEB Tier 02
+  score: 75
+- name: WEB Tier 03
+  score: 65
 - name: 1080p
   score: 60
 - name: 1080p Quality Tier 1
@@ -145,32 +159,16 @@ custom_formats:
   score: 5
 - name: Unknown Lossless Audio
   score: 5
-- name: Amazon Prime
-  score: 0
-- name: Apple TV+
-  score: 0
-- name: Criterion Channel
-  score: 0
-- name: Disney+
-  score: 0
-- name: HBO Max
-  score: 0
-- name: Hulu
-  score: 0
-- name: iTunes
-  score: 0
-- name: Max
-  score: 0
-- name: Movies Anywhere
-  score: 0
-- name: Netflix
-  score: 0
-- name: Paramount+
-  score: 0
-- name: Peacock
-  score: 0
-- name: Roku
-  score: 0
+- name: v4
+  score: 4
+- name: v3
+  score: 3
+- name: v2
+  score: 2
+- name: v1
+  score: 1
+- name: v0
+  score: -51
 - name: SDR
   score: -80
 - name: x265
