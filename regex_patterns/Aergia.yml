@@ -1,5 +1,5 @@
 name: Aergia
-pattern: (?<=^|[\s.-])Aergia\b
+pattern: \[Aergia\]|-Aergia(?!-raws)\b
 description: ''
 tags:
 - Release Group
