@@ -1,5 +1,5 @@
-name: 720p Quality Tier 5
-description: Matches release groups who fall under 720p Quality Tier 5
+name: 720p Quality Tier 4
+description: Matches release groups who fall under 720p Quality Tier 4
 tags:
 - Release Group
 conditions:
@@ -13,29 +13,14 @@ conditions:
   required: true
   resolution: 720p
   type: resolution
-- name: NTb
+- name: EA
   negate: false
-  pattern: NTb
+  pattern: EA
   required: false
   type: release_group
-- name: Dariush
+- name: TDD
   negate: false
-  pattern: Dariush
-  required: false
-  type: release_group
-- name: FoRM
-  negate: false
-  pattern: FoRM
-  required: false
-  type: release_group
-- name: D-Z0N3
-  negate: false
-  pattern: D-Z0N3
-  required: false
-  type: release_group
-- name: PTer
-  negate: false
-  pattern: PTer
+  pattern: TDD
   required: false
   type: release_group
 tests: []
