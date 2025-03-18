@@ -20,74 +20,58 @@ minCustomFormatScore: 100
 upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Balanced Tier 1
+  score: 820
+- name: 1080p Balanced Tier 2
+  score: 810
 - name: 1080p WEB-DL
-  score: 720
-- name: 1080p Bluray
-  score: 710
-- name: 1080p WEBRip
-  score: 700
+  score: 800
 - name: 720p WEB-DL
-  score: 420
+  score: 500
 - name: 720p Bluray
-  score: 410
+  score: 420
 - name: 720p WEBRip
   score: 400
-- name: Amazon Prime [1080p]
-  score: 260
-- name: Apple TV+ [1080p]
-  score: 260
-- name: Disney+ [1080p]
-  score: 260
-- name: Movies Anywhere [1080p]
-  score: 260
-- name: Criterion Channel
-  score: 250
-- name: HBO Max [1080p]
-  score: 250
-- name: Max [1080p]
-  score: 250
-- name: Netflix [1080p]
-  score: 250
-- name: Paramount+ [1080p]
-  score: 250
-- name: Peacock [1080p]
-  score: 250
-- name: 1080p Balanced Tier 1
-  score: 240
-- name: 1080p Balanced Tier 2
-  score: 230
-- name: Hulu [1080p]
-  score: 210
-- name: iTunes [1080p]
-  score: 210
-- name: Roku [1080p]
-  score: 210
-- name: 1080p Quality Tier 1
-  score: 130
-- name: 1080p Quality Tier 2
-  score: 120
 - name: 480p WEB-DL
+  score: 200
+- name: DVD Remux
+  score: 130
+- name: 720p Golden Popcorn
   score: 120
-- name: 1080p Quality Tier 3
-  score: 110
 - name: DVD
-  score: 110
-- name: 1080p Quality Tier 4
-  score: 100
+  score: 120
 - name: 480p WEBRip
   score: 100
-- name: 1080p Quality Tier 5
-  score: 90
-- name: 1080p Golden Popcorn
-  score: 80
-- name: 720p Golden Popcorn
-  score: 60
-- name: DVD Remux
+- name: Amazon Prime
+  score: 40
+- name: Apple TV+
+  score: 40
+- name: Disney+
+  score: 40
+- name: Movies Anywhere
   score: 40
 - name: SD Golden Popcorn
   score: 40
+- name: Criterion Channel
+  score: 30
+- name: HBO Max
+  score: 30
+- name: Max
+  score: 30
+- name: Netflix
+  score: 30
+- name: Paramount+
+  score: 30
+- name: Peacock
+  score: 30
 - name: SD Quality Tier 1
   score: 30
+- name: Hulu
+  score: 20
+- name: iTunes
+  score: 20
+- name: Roku
+  score: 20
 - name: Scene
   score: 20
 - name: SD Quality Tier 2
