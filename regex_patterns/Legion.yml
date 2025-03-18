@@ -1,0 +1,6 @@
+name: Legion
+pattern: (?<=^|[\s.-])Legion\b
+description: ''
+tags:
+- Release Group
+tests: []
