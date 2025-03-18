@@ -1,24 +1,61 @@
 name: 720p Quality Tier 2
-description: Matches release groups who fall under 720p GPPi Tier 1
+description: Matches release groups who fall under 720p Quality Tier 2
 tags:
-- GPPi
-- Release Group Tier
-- 1080p
-- Quality
+- Release Group
 conditions:
-- name: 720p
-  negate: false
-  required: true
-  resolution: 720p
-  type: resolution
 - name: Not WEB-DL
   negate: true
   required: true
   source: web_dl
   type: source
-- name: DON
-  type: release_group
-  required: true
+- name: 720p
   negate: false
-  pattern: DON
+  required: true
+  resolution: 720p
+  type: resolution
+- name: HiDt
+  negate: false
+  pattern: HiDt
+  required: false
+  type: release_group
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
+- name: VietHD
+  negate: false
+  pattern: VietHD
+  required: false
+  type: release_group
+- name: CRiSC
+  negate: false
+  pattern: CRiSC
+  required: false
+  type: release_group
+- name: TayTo
+  negate: false
+  pattern: TayTo
+  required: false
+  type: release_group
+- name: SbR
+  negate: false
+  pattern: SbR
+  required: false
+  type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
+- name: IDE
+  negate: false
+  pattern: IDE
+  required: false
+  type: release_group
+- name: ZQ
+  negate: false
+  pattern: ZQ
+  required: false
+  type: release_group
 tests: []
