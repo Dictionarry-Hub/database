@@ -1,24 +1,26 @@
 name: 720p Quality Tier 4
-description: Matches release groups who fall under 720p GPPi Tier 1
+description: Matches release groups who fall under 720p Quality Tier 4
 tags:
-- GPPi
-- Release Group Tier
-- 1080p
-- Quality
+- Release Group
 conditions:
-- name: 720p
-  negate: false
-  required: true
-  resolution: 720p
-  type: resolution
 - name: Not WEB-DL
   negate: true
   required: true
   source: web_dl
   type: source
-- name: DON
+- name: 720p
   negate: false
-  pattern: DON
   required: true
+  resolution: 720p
+  type: resolution
+- name: EA
+  negate: false
+  pattern: EA
+  required: false
+  type: release_group
+- name: TDD
+  negate: false
+  pattern: TDD
+  required: false
   type: release_group
 tests: []
