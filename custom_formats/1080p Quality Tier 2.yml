@@ -12,13 +12,13 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Not WEB-DL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
-- name: c0ke
+  type: source
+- name: c0kE
   negate: false
-  pattern: c0ke
+  pattern: c0kE
   required: false
   type: release_group
 - name: CtrlHD

@@ -1,6 +1,0 @@
-name: c0ke
-pattern: (?<=^|[\s.-])c0ke\b
-description: ''
-tags:
-- Release Group
-tests: []

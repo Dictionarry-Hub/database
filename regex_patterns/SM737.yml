@@ -1,5 +1,5 @@
 name: SM737
-pattern: SM737
+pattern: (?<=^|[\s.-])SM737\b
 description: ''
 tags:
 - Release Group

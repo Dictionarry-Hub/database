@@ -363,15 +363,15 @@
       },
       {
         "name": "Not WEB-DL",
-        "type": "source",
-        "required": true,
         "negate": true,
-        "source": "web_dl"
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
-        "name": "c0ke",
+        "name": "c0kE",
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])c0ke\\b",
+        "pattern": "(?<=^|[\\s.-])c0kE\\b",
         "required": false,
         "type": "release_group"
       },
@@ -1681,7 +1681,7 @@
       {
         "name": "whiterhino",
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])whiterhino\\b",
+        "pattern": "(?<=^|[\\s.-])WhiteRhino\\b",
         "required": false,
         "type": "release_group"
       },
@@ -1752,13 +1752,6 @@
         "name": "SPECTACLE",
         "negate": false,
         "pattern": "(?<=^|[\\s.-])SPECTACLE\\b",
-        "required": false,
-        "type": "release_group"
-      },
-      {
-        "name": "spectacle",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])spectacle\\b",
         "required": false,
         "type": "release_group"
       },
@@ -1868,13 +1861,6 @@
         "type": "release_group"
       },
       {
-        "name": "guhzer",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])guhzer\\b",
-        "required": false,
-        "type": "release_group"
-      },
-      {
         "name": "GUHZER",
         "negate": false,
         "pattern": "(?<=^|[\\s.-])GUHZER\\b",
@@ -1937,20 +1923,6 @@
         "type": "release_group"
       },
       {
-        "name": "threesome",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])threesome\\b",
-        "required": false,
-        "type": "release_group"
-      },
-      {
-        "name": "Blzt",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])Blzt\\b",
-        "required": false,
-        "type": "release_group"
-      },
-      {
         "name": "LittleBakas",
         "negate": false,
         "pattern": "(?<=^|[\\s.-])LittleBakas\\b",
@@ -2007,13 +1979,6 @@
         "type": "release_group"
       },
       {
-        "name": "invandraren",
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])invandraren\\b",
-        "required": false,
-        "type": "release_group"
-      },
-      {
         "name": "dkore",
         "negate": false,
         "pattern": "(?<=^|[\\s.-])dkore\\b",
@@ -2026,6 +1991,13 @@
         "pattern": "(?<=^|[\\s.-])Lucifer\\b",
         "required": false,
         "type": "release_group"
+      },
+      {
+        "name": "THREESOME",
+        "type": "release_group",
+        "required": false,
+        "negate": false,
+        "pattern": "(?<=^|[\\s.-])THREESOME\\b"
       }
     ],
     "tests": [],
@@ -6163,7 +6135,7 @@
       {
         "name": "TBB",
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])c0ke\\b",
+        "pattern": "(?<=^|[\\s.-])TBB\\b",
         "required": false,
         "type": "release_group"
       },
@@ -7429,7 +7401,7 @@
       {
         "name": "SM737",
         "negate": false,
-        "pattern": "SM737",
+        "pattern": "(?<=^|[\\s.-])SM737\\b",
         "required": false,
         "type": "release_title"
       }

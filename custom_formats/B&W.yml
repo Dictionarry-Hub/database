@@ -12,7 +12,7 @@ conditions:
   type: release_title
 - name: Colour
   negate: true
-  pattern: Colour
+  pattern: Colourisation
   required: true
   type: release_title
 tests:

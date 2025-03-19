@@ -1,6 +1,0 @@
-name: whiterhino
-pattern: (?<=^|[\s.-])whiterhino\b
-description: ''
-tags:
-- Release Group
-tests: null

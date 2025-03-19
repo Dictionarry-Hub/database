@@ -67,4 +67,4 @@ Profilarr empowers you to use Dictionarry's database (or anyone elses!) as a fou
 
 ## 🔨 Development Notice
 
-Custom Formats / Quality profiles on this site reflect the contents of the [Dictionarry Database](https://github.com/Dictionarry-Hub/database) and what the upcoming Profilarr GUI will clone / import. The old profilarr scripts still use outdated profiles / custom formats! We're currently in a bit of an inbetween state at the moment, so please bare with us as we get the new Profilarr version out!
+Profilarr 1.0.0 is out now in open beta! https://dictionarry.dev/wiki/profilarr-setup

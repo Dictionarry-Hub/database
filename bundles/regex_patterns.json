@@ -1298,16 +1298,6 @@
     "_id": "BlzT"
   },
   {
-    "name": "Blzt",
-    "pattern": "(?<=^|[\\s.-])Blzt\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "Blzt"
-  },
-  {
     "name": "Bracketed Year",
     "pattern": "\\[\\d{4}\\]",
     "description": "Match a year moniker inside square brackets",
@@ -1464,9 +1454,9 @@
     "_id": "Chotab"
   },
   {
-    "name": "Colour",
+    "name": "Colourisation",
     "pattern": "\\bcolou?r(i[sz]ed?|ed)?\\b",
-    "description": "- Matches `colour`, `coloured`, `colourize`, `colourized`.\n- Handles both American (\"color\") and British (\"colour\") spellings.",
+    "description": "Colourisation (or colorization in American English) is the process of adding colour to black-and-white, sepia, or other monochrome images. Matches variations of `color` in both American and British spellings, including:\n\n- **Base forms:** `color`, `colour`\n- **Past tense/adjective forms:** `colored`, `coloured`\n- **Verb forms:** `colorize`, `colourize`, `colorise`, `colourise`\n- **Past participles:** `colorized`, `coloured`, `colourized`, `colourised`",
     "tags": [
       "Colour Grade",
       "Enhancement"
@@ -1476,7 +1466,7 @@
         "expected": true,
         "id": 1,
         "input": "colour",
-        "lastRun": "2025-02-13T13:29:13.301346",
+        "lastRun": "2025-02-22T19:10:06.067266",
         "matchSpan": {
           "end": 6,
           "start": 0
@@ -1491,7 +1481,7 @@
         "expected": true,
         "id": 3,
         "input": "coloured",
-        "lastRun": "2025-02-13T13:29:13.301346",
+        "lastRun": "2025-02-22T19:10:06.067266",
         "matchSpan": {
           "end": 8,
           "start": 0
@@ -1505,30 +1495,30 @@
       {
         "expected": true,
         "id": 4,
-        "input": "colourize",
-        "lastRun": "2025-02-13T13:29:13.301346",
+        "input": "colourise",
+        "lastRun": "2025-02-22T19:10:06.067266",
         "matchSpan": {
           "end": 9,
           "start": 0
         },
-        "matchedContent": "colourize",
+        "matchedContent": "colourise",
         "matchedGroups": [
-          "ize"
+          "ise"
         ],
         "passes": true
       },
       {
         "expected": true,
         "id": 7,
-        "input": "colourized",
-        "lastRun": "2025-02-13T13:29:13.301346",
+        "input": "colourised",
+        "lastRun": "2025-02-22T19:10:06.067266",
         "matchSpan": {
           "end": 10,
           "start": 0
         },
-        "matchedContent": "colourized",
+        "matchedContent": "colourised",
         "matchedGroups": [
-          "ized"
+          "ised"
         ],
         "passes": true
       },
@@ -1536,7 +1526,7 @@
         "expected": true,
         "id": 8,
         "input": "colored",
-        "lastRun": "2025-02-13T13:29:13.301346",
+        "lastRun": "2025-02-22T19:10:06.067266",
         "matchSpan": {
           "end": 7,
           "start": 0
@@ -1551,14 +1541,14 @@
         "expected": false,
         "id": 9,
         "input": "discolor",
-        "lastRun": "2025-02-13T13:29:13.301346",
+        "lastRun": "2025-02-22T19:10:06.067266",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
         "passes": true
       }
     ],
-    "_id": "Colour"
+    "_id": "Colourisation"
   },
   {
     "name": "Criterion Channel",
@@ -3692,6 +3682,17 @@
     "_id": "KASHMiR"
   },
   {
+    "name": "KCW",
+    "pattern": "\\b(KCW|Kocowa)\\b",
+    "description": "Kocowa is an American over-the-top streaming service headquartered in Los Angeles as a joint venture between the top three Korean broadcast networks to provide Korean entertainment including K-dramas, K-reality, K-variety, and K-pop to the Americas and all with multi-language subtitles.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "KCW"
+  },
+  {
     "name": "KNiVES",
     "pattern": "(?<=^|[\\s.-])KNiVES\\b",
     "description": "",
@@ -5292,7 +5293,7 @@
   },
   {
     "name": "SM737",
-    "pattern": "SM737",
+    "pattern": "(?<=^|[\\s.-])SM737\\b",
     "description": "",
     "tags": [
       "Release Group"
@@ -5974,7 +5975,7 @@
     "tags": [
       "Release Group"
     ],
-    "tests": null,
+    "tests": [],
     "_id": "THREESOME"
   },
   {
@@ -5996,6 +5997,17 @@
     ],
     "tests": null,
     "_id": "TUSAHD"
+  },
+  {
+    "name": "TVING",
+    "pattern": "\\b(TVING)\\b",
+    "description": "TVING is a South Korean subscription video on-demand over-the-top streaming service operated by TVING Corporation, a joint venture made of CJ ENM Entertainment Division, Naver and JTBC by its JTBC Studios, now called SLL.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "TVING"
   },
   {
     "name": "TayTo",
@@ -6466,6 +6478,28 @@
     "_id": "VietHD"
   },
   {
+    "name": "Viki",
+    "pattern": "\\b(Viki)\\b",
+    "description": "Rakuten Viki is an American over-the-top subscription video on-demand streaming service. It streams videos similar to other services, but also allows users to subtitle content available in 200 languages as well as providing original programming.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "Viki"
+  },
+  {
+    "name": "Viu",
+    "pattern": "\\b(Viu)\\b",
+    "description": "Viu is a Hong Kong-based over-the-top video on demand streaming service from PCCW Media Group's Viu International Ltd. Viu delivers content in different genres from Asia's top content providers with local language subtitles",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "Viu"
+  },
+  {
     "name": "W4NK3R",
     "pattern": "(?<=^|[\\s.-])W4NK3R\\b",
     "description": "",
@@ -6506,13 +6540,35 @@
     "_id": "WOU"
   },
   {
+    "name": "Wavve",
+    "pattern": "\\b(Wavve)\\b",
+    "description": "Wavve is an online streaming platform, that was first launched on September 18, 2019. The company was founded as a joint venture between SK Telecom and South Korea's three terrestrial broadcasters KBS, MBC, SBS.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "Wavve"
+  },
+  {
+    "name": "WeTV",
+    "pattern": "\\b(WeTV)\\b",
+    "description": "Tencent Video also called WeTV outside of China, is a Chinese video streaming website owned by Tencent. The website was launched in April 2011, and is one of China's largest online video platforms",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "WeTV"
+  },
+  {
     "name": "WhiteRhino",
     "pattern": "(?<=^|[\\s.-])WhiteRhino\\b",
     "description": "",
     "tags": [
       "Release Group"
     ],
-    "tests": null,
+    "tests": [],
     "_id": "WhiteRhino"
   },
   {
@@ -6603,16 +6659,6 @@
     "_id": "ZoroSenpai"
   },
   {
-    "name": "aviator",
-    "pattern": "(?<=^|[\\s.-])aviator\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "aviator"
-  },
-  {
     "name": "b0mbardiers",
     "pattern": "(?<=^|[\\s.-])b0mbardiers\\b",
     "description": "",
@@ -6641,16 +6687,6 @@
     ],
     "tests": null,
     "_id": "c0kE"
-  },
-  {
-    "name": "c0ke",
-    "pattern": "(?<=^|[\\s.-])c0ke\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": [],
-    "_id": "c0ke"
   },
   {
     "name": "d3g-d3g",
@@ -6721,16 +6757,6 @@
     ],
     "tests": null,
     "_id": "edge2020"
-  },
-  {
-    "name": "guhzer",
-    "pattern": "(?<=^|[\\s.-])guhzer\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "guhzer"
   },
   {
     "name": "h265 WEB Groups",
@@ -6947,6 +6973,17 @@
     "_id": "iPT Internals"
   },
   {
+    "name": "iQIYI",
+    "pattern": "\\b(iQIYI)\\b",
+    "description": "iQIYI is a Chinese subscription video on-demand over-the-top streaming service owned by Baidu. Headquartered in Beijing, iQIYI primarily produces and distributes films and television series.",
+    "tags": [
+      "Streaming Service",
+      "WEB-DL",
+      "WEBRip"
+    ],
+    "_id": "iQIYI"
+  },
+  {
     "name": "iTunes",
     "pattern": "\\b(it|itunes)\\b(?=[ ._-]web[ ._-]?(dl|rip)\\b)",
     "description": "iTunes began offering video content in October 2005 with the release of iTunes 6. At launch, the iTunes Store provided popular TV shows from ABC, Disney Channel, and other networks. Users could purchase and view video content, such as episodes of Desperate Housewives, Lost, That's So Raven, and The Suite Life of Zack & Cody.\n\nIn 2008, Apple introduced \"iTunes Digital Copy,\" a feature on select DVDs and Blu-ray discs that allowed users to obtain a digital copy of the video content in iTunes and associated media players.\n\nOver time, iTunes expanded its video offerings and became a significant platform for purchasing, organizing, and viewing movies and TV shows.",
@@ -7026,16 +7063,6 @@
       }
     ],
     "_id": "iTunes"
-  },
-  {
-    "name": "invandraren",
-    "pattern": "(?<=^|[\\s.-])invandraren\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "invandraren"
   },
   {
     "name": "k00kie",
@@ -7153,36 +7180,6 @@
     ],
     "tests": [],
     "_id": "rttr"
-  },
-  {
-    "name": "spectacle",
-    "pattern": "(?<=^|[\\s.-])spectacle\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "spectacle"
-  },
-  {
-    "name": "threesome",
-    "pattern": "(?<=^|[\\s.-])threesome\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "threesome"
-  },
-  {
-    "name": "whiterhino",
-    "pattern": "(?<=^|[\\s.-])whiterhino\\b",
-    "description": "",
-    "tags": [
-      "Release Group"
-    ],
-    "tests": null,
-    "_id": "whiterhino"
   },
   {
     "name": "x264",

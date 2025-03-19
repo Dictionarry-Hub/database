@@ -82,7 +82,7 @@ conditions:
   type: release_group
 - name: whiterhino
   negate: false
-  pattern: whiterhino
+  pattern: WhiteRhino
   required: false
   type: release_group
 - name: ReaLHD
@@ -133,11 +133,6 @@ conditions:
 - name: SPECTACLE
   negate: false
   pattern: SPECTACLE
-  required: false
-  type: release_group
-- name: spectacle
-  negate: false
-  pattern: spectacle
   required: false
   type: release_group
 - name: HD77
@@ -213,11 +208,6 @@ conditions:
 - name: AAAUHD
   negate: false
   pattern: AAAUHD
-  required: false
-  type: release_group
-- name: guhzer
-  negate: false
-  pattern: guhzer
   required: false
   type: release_group
 - name: GUHZER
