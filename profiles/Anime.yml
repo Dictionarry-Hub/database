@@ -5,35 +5,49 @@ tags:
 - TRaSH
 - 1080p
 - 720p
-upgradesAllowed: false
+upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 0
-minScoreIncrement: 0
+upgradeUntilScore: 300
+minScoreIncrement: 200
 custom_formats:
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
-  score: 1400
-- name: Anime BD Tier 02 (SeaDex Muxers)
   score: 1300
-- name: Anime BD Tier 03 (SeaDex Muxers)
+- name: Anime BD Tier 02 (SeaDex Muxers)
   score: 1200
-- name: Anime BD Tier 04 (SeaDex Muxers)
-  score: 1100
-- name: Anime BD Tier 05 (Remuxes)
+- name: Anime BD Tier 03 (SeaDex Muxers)
   score: 1000
-- name: Anime BD Tier 06 (FanSubs)
+- name: Anime BD Tier 04 (SeaDex Muxers)
   score: 900
-- name: Anime BD Tier 07 (P2P/Scene)
+- name: Anime BD Tier 05 (Remuxes)
   score: 800
-- name: Anime Web Tier 01 (Muxers)
+- name: Anime BD Tier 06 (FanSubs)
+  score: 700
+- name: Anime BD Tier 07 (P2P/Scene)
   score: 600
-- name: Anime Web Tier 02 (Top FanSubs)
+- name: Anime Web Tier 01 (Muxers)
   score: 500
-- name: Anime Web Tier 03 (Official Subs)
+- name: Anime Web Tier 02 (Top FanSubs)
   score: 400
-- name: Anime Web Tier 04 (Official Subs)
+- name: Anime Web Tier 03 (Official Subs)
   score: 300
+- name: Anime Web Tier 04 (Official Subs)
+  score: 200
 - name: 1080p
   score: 101
+- name: 2160p
+  score: 50
+- name: Free100
+  score: 50
+- name: Netflix
+  score: 50
+- name: Netflix [1080p]
+  score: 50
+- name: 720p
+  score: 25
+- name: Not English
+  score: 25
+- name: Not Only English
+  score: 25
 - name: v4
   score: 4
 - name: v3
