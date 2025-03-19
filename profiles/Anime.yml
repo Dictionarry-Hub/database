@@ -5,9 +5,9 @@ tags:
 - TRaSH
 - 1080p
 - 720p
-upgradesAllowed: false
+upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 0
+upgradeUntilScore: 400
 minScoreIncrement: 0
 custom_formats:
 - name: Anime BD Tier 01 (Top SeaDex Muxers)
