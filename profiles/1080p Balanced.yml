@@ -17,8 +17,8 @@ tags:
 - Balanced Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 320
-minScoreIncrement: 1
+upgradeUntilScore: 200
+minScoreIncrement: 50
 custom_formats:
 - name: Disney+
   score: 220
