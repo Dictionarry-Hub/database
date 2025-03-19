@@ -18,7 +18,7 @@ tags:
 upgradesAllowed: true
 minCustomFormatScore: 0
 upgradeUntilScore: 200
-minScoreIncrement: 1
+minScoreIncrement: 50
 custom_formats:
 - name: Disney+
   score: 220
