@@ -11,7 +11,7 @@ tags:
 - Quality Focused
 upgradesAllowed: true
 minCustomFormatScore: 0
-upgradeUntilScore: 320
+upgradeUntilScore: 200
 minScoreIncrement: 1
 custom_formats:
 - name: Remux Tier 01
