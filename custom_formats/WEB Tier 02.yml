@@ -228,6 +228,6 @@ conditions:
 - name: WEBRIP
   negate: false
   required: false
-  source: WEBRrip
+  source: webrip
   type: source
 tests: []
