@@ -74,8 +74,6 @@ custom_formats:
   score: 70
 - name: WEB Tier 03
   score: 65
-- name: 1080p Golden Popcorn
-  score: 60
 - name: 1080p Quality Tier 4
   score: 60
 - name: 720p
@@ -84,8 +82,6 @@ custom_formats:
   score: 50
 - name: DVD Remux
   score: 40
-- name: SD Golden Popcorn
-  score: 30
 - name: SD Quality Tier 1
   score: 30
 - name: Scene
@@ -124,8 +120,6 @@ custom_formats:
   score: -9999
 - name: 3D
   score: -9999
-- name: 720p Golden Popcorn
-  score: -9999
 - name: B&W
   score: -9999
 - name: BeyondHD
@@ -137,8 +131,6 @@ custom_formats:
 - name: Extras
   score: -9999
 - name: Full Disc
-  score: -9999
-- name: Full Disc (Quality Match)
   score: -9999
 - name: HDR10
   score: -9999

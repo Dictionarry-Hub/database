@@ -18,8 +18,6 @@ custom_formats:
   score: 175
 - name: TRaSH Remux Tier 02
   score: 165
-- name: 1080p Golden Popcorn
-  score: 160
 - name: TRaSH HD Bluray Tier 01
   score: 150
 - name: 1080p
@@ -63,8 +61,6 @@ custom_formats:
 - name: Paramount+
   score: 30
 - name: Peacock
-  score: 30
-- name: SD Golden Popcorn
   score: 30
 - name: SD Quality Tier 1
   score: 30
@@ -118,8 +114,6 @@ custom_formats:
   score: -9999
 - name: 3D
   score: -9999
-- name: 720p Golden Popcorn
-  score: -9999
 - name: B&W
   score: -9999
 - name: BeyondHD
@@ -131,8 +125,6 @@ custom_formats:
 - name: Extras
   score: -9999
 - name: Full Disc
-  score: -9999
-- name: Full Disc (Quality Match)
   score: -9999
 - name: h265
   score: -9999
