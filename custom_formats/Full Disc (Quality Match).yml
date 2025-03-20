@@ -1,0 +1,6 @@
+name: Full Disc (Quality Match)
+description: Matches full discs using a quality modifier
+tags:
+- Storage
+conditions:
+tests: []
