@@ -11,7 +11,6 @@ description: The Criterion Channel is a subscription-based streaming service lau
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

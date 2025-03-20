@@ -1,7 +1,9 @@
 name: Wavve
 pattern: \b(Wavve)\b
-description: Wavve is an online streaming platform, that was first launched on September 18, 2019. The company was founded as a joint venture between SK Telecom and South Korea's three terrestrial broadcasters KBS, MBC, SBS.
+description: Wavve is an online streaming platform, that was first launched on September
+  18, 2019. The company was founded as a joint venture between SK Telecom and South
+  Korea's three terrestrial broadcasters KBS, MBC, SBS.
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
+tests: []

@@ -7,7 +7,6 @@ description: Hulu, an American subscription streaming service owned by Disney, o
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

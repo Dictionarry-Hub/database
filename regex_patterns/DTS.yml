@@ -1,5 +1,6 @@
 name: DTS
 pattern: \bDTS(\b|\d)
 description: ''
-tags: []
+tags:
+- Audio
 tests: []

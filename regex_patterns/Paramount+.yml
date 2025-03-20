@@ -8,7 +8,6 @@ description: 'Paramount+ is an American subscription video on-demand over-the-to
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

@@ -1,7 +1,10 @@
 name: Viki
 pattern: \b(Viki)\b
-description: Rakuten Viki is an American over-the-top subscription video on-demand streaming service. It streams videos similar to other services, but also allows users to subtitle content available in 200 languages as well as providing original programming.
+description: Rakuten Viki is an American over-the-top subscription video on-demand
+  streaming service. It streams videos similar to other services, but also allows
+  users to subtitle content available in 200 languages as well as providing original
+  programming.
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
+tests: []

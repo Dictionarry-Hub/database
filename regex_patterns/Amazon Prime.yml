@@ -6,7 +6,6 @@ description: Amazon Prime Video, or simply Prime Video, is an American subscript
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

@@ -6,7 +6,6 @@ description: Netflix is an American subscription video on-demand over-the-top st
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

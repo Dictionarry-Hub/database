@@ -1,5 +1,6 @@
 name: Dolby Digital
 pattern: \bDD[^a-z+]|(?<!e)ac3
 description: ''
-tags: []
+tags:
+- Audio
 tests: []
