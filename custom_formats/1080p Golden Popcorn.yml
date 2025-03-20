@@ -4,9 +4,9 @@ tags:
 - Flag
 - Golden Popcorn
 conditions:
-- name: 1080p
+- name: 360p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 360p
   type: resolution
 tests: []
