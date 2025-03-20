@@ -8,9 +8,8 @@ description: UHD Blu-ray is a digital optical disc format released in 2016. It s
   DTS-HD MA, and Dolby TrueHD. UHD Blu-ray players require HDMI 2.0a and HDCP 2.2
   compliant displays to show 4K HDR content.
 tags:
-- Source
-- Storage
 - 2160p
+- Storage
 conditions:
 - name: UHD Bluray
   negate: false

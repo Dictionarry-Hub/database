@@ -2,9 +2,8 @@ name: UHD Bluray (Missing)
 description: Attempts to match UHD Bluray as a source when not included in the release
   title
 tags:
-- Source
-- Storage
 - 2160p
+- Storage
 conditions:
 - name: 1080p
   negate: false
