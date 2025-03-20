@@ -37,9 +37,9 @@ custom_formats:
   score: 240
 - name: 2160p Quality Tier 6
   score: 230
-- name: Remux Tier 01
+- name: TRaSH Remux Tier 01
   score: 175
-- name: Remux Tier 02
+- name: TRaSH Remux Tier 02
   score: 164
 - name: Amazon Prime [2160p]
   score: 160
@@ -51,7 +51,7 @@ custom_formats:
   score: 160
 - name: Apple TV+ [2160p]
   score: 150
-- name: HD Bluray Tier 01
+- name: TRaSH HD Bluray Tier 01
   score: 150
 - name: Hulu [2160p]
   score: 150
@@ -67,13 +67,13 @@ custom_formats:
   score: 150
 - name: Roku [2160p]
   score: 150
-- name: HD Bluray Tier 02
+- name: TRaSH HD Bluray Tier 02
   score: 100
-- name: WEB Tier 01
+- name: TRaSH Web Tier 01
   score: 85
-- name: WEB Tier 02
+- name: TRaSH Web Tier 02
   score: 75
-- name: WEB Tier 03
+- name: TRaSH Web Tier 03
   score: 65
 - name: 1080p
   score: 60

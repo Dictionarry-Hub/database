@@ -18,19 +18,19 @@ minCustomFormatScore: 0
 upgradeUntilScore: 350
 minScoreIncrement: 1
 custom_formats:
-- name: Remux Tier 01
+- name: TRaSH Remux Tier 01
   score: 175
-- name: Remux Tier 02
+- name: TRaSH Remux Tier 02
   score: 165
-- name: HD Bluray Tier 01
+- name: TRaSH HD Bluray Tier 01
   score: 150
-- name: HD Bluray Tier 02
+- name: TRaSH HD Bluray Tier 02
   score: 100
-- name: WEB Tier 01
+- name: TRaSH Web Tier 01
   score: 85
-- name: WEB Tier 02
+- name: TRaSH Web Tier 02
   score: 75
-- name: WEB Tier 03
+- name: TRaSH Web Tier 03
   score: 65
 - name: 1080p
   score: 60
