@@ -10,27 +10,27 @@ minCustomFormatScore: 0
 upgradeUntilScore: 300
 minScoreIncrement: 200
 custom_formats:
-- name: Anime BD Tier 01 (Top SeaDex Muxers)
+- name: TRaSH Anime BD Tier 01
   score: 1300
-- name: Anime BD Tier 02 (SeaDex Muxers)
+- name: TRaSH Anime BD Tier 02
   score: 1200
-- name: Anime BD Tier 03 (SeaDex Muxers)
+- name: TRaSH Anime BD Tier 03
   score: 1000
-- name: Anime BD Tier 04 (SeaDex Muxers)
+- name: TRaSH Anime BD Tier 04
   score: 900
-- name: Anime BD Tier 05 (Remuxes)
+- name: TRaSH Anime BD Tier 05
   score: 800
-- name: Anime BD Tier 06 (FanSubs)
+- name: TRaSH Anime BD Tier 06
   score: 700
-- name: Anime BD Tier 07 (P2P/Scene)
+- name: TRaSH Anime BD Tier 07
   score: 600
-- name: Anime Web Tier 01 (Muxers)
+- name: TRaSH Anime Web Tier 01
   score: 500
-- name: Anime Web Tier 02 (Top FanSubs)
+- name: TRaSH Anime Web Tier 02
   score: 400
-- name: Anime Web Tier 03 (Official Subs)
+- name: TRaSH Anime Web Tier 03
   score: 300
-- name: Anime Web Tier 04 (Official Subs)
+- name: TRaSH Anime Web Tier 04
   score: 200
 - name: 1080p
   score: 101
@@ -58,9 +58,9 @@ custom_formats:
   score: 1
 - name: v0
   score: -51
-- name: Anime LQ Groups
+- name: TRaSH Anime LQ Groups
   score: -10000
-- name: Anime Raws
+- name: TRaSH Anime Raws
   score: -10000
 - name: AV1
   score: -10000
