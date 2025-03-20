@@ -3,4 +3,9 @@ description: Matches full discs using a quality modifier
 tags:
 - Storage
 conditions:
+- name: 360p
+  negate: false
+  required: true
+  resolution: 360p
+  type: resolution
 tests: []
