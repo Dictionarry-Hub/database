@@ -665,9 +665,4 @@ conditions:
   pattern: zza
   required: false
   type: release_title
-- name: Z-B
-  negate: false
-  pattern: Z-B
-  required: false
-  type: release_title
 tests: []

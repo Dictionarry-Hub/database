@@ -1,6 +1,0 @@
-name: 'Z-B'
-pattern: '\b(Z-B)\b'
-description: ''
-tags:
-- Release Group
-tests: []
