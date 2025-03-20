@@ -665,4 +665,9 @@ conditions:
   pattern: zza
   required: false
   type: release_title
+- name: test
+  negate: false
+  pattern: zza
+  required: false
+  type: release_title
 tests: []
