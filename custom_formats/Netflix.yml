@@ -3,7 +3,6 @@ description: Matches 'Netflix' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
-- WEB2 [1080p]
 conditions:
 - name: NF Regex
   negate: false

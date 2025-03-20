@@ -5,7 +5,6 @@ description: 'Matches ''iTunes'' WEB-DLs that are not labelled correctly. Matche
 tags:
 - Streaming Service
 - WEB-DL
-- WEB3 [1080p]
 conditions:
 - name: WEB-DL
   negate: false

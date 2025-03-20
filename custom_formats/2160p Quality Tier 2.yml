@@ -2,8 +2,8 @@ name: 2160p Quality Tier 2
 description: Matches release groups who fall under 2160p Quality Tier 2
 tags:
 - Release Group Tier
-- Quality
 - 2160p
+- Quality
 conditions:
 - name: 2160p
   negate: false

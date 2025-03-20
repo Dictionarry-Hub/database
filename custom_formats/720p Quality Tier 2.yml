@@ -1,7 +1,10 @@
 name: 720p Quality Tier 2
 description: Matches release groups who fall under 720p Quality Tier 2
 tags:
+- GPPi
 - Release Group Tier
+- 720p
+- Quality
 conditions:
 - name: 720p
   negate: false

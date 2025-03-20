@@ -3,7 +3,6 @@ description: Matches 'Amazon Prime' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
-- WEB1 [1080p]
 conditions:
 - name: AMZN Regex
   negate: false

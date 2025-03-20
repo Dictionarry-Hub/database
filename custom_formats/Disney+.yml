@@ -3,7 +3,6 @@ description: Matches 'Disney+' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
-- WEB1 [1080p]
 conditions:
 - name: DNSP Regex
   negate: false

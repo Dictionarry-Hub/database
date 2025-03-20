@@ -3,8 +3,8 @@ description: Matches release groups who fall under SD GPPi Tier 2
 tags:
 - GPPi
 - Release Group Tier
-- Quality
 - SD
+- Quality
 conditions:
 - name: DVD
   negate: false

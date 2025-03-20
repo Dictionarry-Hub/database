@@ -2,8 +2,8 @@ name: 2160p Quality Tier 6
 description: Matches release groups who fall under 2160p Quality Tier 6
 tags:
 - Release Group Tier
-- Quality
 - 2160p
+- Quality
 conditions:
 - name: 2160p
   negate: false
@@ -76,8 +76,8 @@ conditions:
   required: false
   type: release_group
 - name: THREESOME
-  type: release_group
-  required: false
   negate: false
   pattern: THREESOME
+  required: false
+  type: release_group
 tests: []

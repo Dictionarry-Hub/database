@@ -3,7 +3,6 @@ description: Matches 'iTunes' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
-- WEB3 [1080p]
 conditions:
 - name: iTunes Regex
   negate: false
