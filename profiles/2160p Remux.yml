@@ -32,11 +32,11 @@ custom_formats:
   score: 120
 - name: TRaSH HD Bluray Tier 02
   score: 100
-- name: TRaSH Web Tier 01
+- name: WEB Tier 01
   score: 85
-- name: TRaSH Web Tier 02
+- name: WEB Tier 02
   score: 75
-- name: TRaSH Web Tier 03
+- name: WEB Tier 03
   score: 65
 - name: 1080p
   score: 60
