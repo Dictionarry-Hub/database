@@ -1,0 +1,10 @@
+name: TESTCF
+description: blah blah
+tags: []
+conditions:
+- name: TEST
+  type: resolution
+  required: true
+  negate: false
+  resolution: 360p
+tests: []
