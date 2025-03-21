@@ -9,11 +9,11 @@ description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://d
   \ will fall back to the 1080p Quality Profile. "
 tags:
 - 2160p
-- HDR
-- x265
-- Encode
-- Lossless Audio
 - Quality Focused
+- HDR
+- Lossless Audio
+- x265
+- h265
 upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 1600

@@ -8,11 +8,11 @@ description: "2160p Balanced targets consistent & immutable 2160p **HDR WEB-DLs 
   \ as fallback since they are comparatively much larger than 2160p WEB-DLs"
 tags:
 - 2160p
+- Balanced Focused
 - HDR
+- Lossy Audio
 - x264
 - h265
-- Lossy Audio
-- Balanced Focused
 upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 1400

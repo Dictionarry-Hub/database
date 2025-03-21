@@ -12,9 +12,10 @@ description: '1080p Balanced targets consistent & immutable 1080p **WEB-DLs** wi
   DVD remuxes  / encodes. '
 tags:
 - 1080p
-- x264
-- Lossy Audio
 - Balanced Focused
+- Lossy Audio
+- x264
+- h264
 upgradesAllowed: true
 minCustomFormatScore: 100
 upgradeUntilScore: 1000
