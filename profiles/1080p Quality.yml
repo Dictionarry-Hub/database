@@ -44,15 +44,15 @@ custom_formats:
 - name: 480p WEB-DL
   score: 220
 - name: 720p Quality Tier 1
-  score: 220
-- name: 720p Quality Tier 2
-  score: 210
-- name: 720p Quality Tier 3
   score: 200
-- name: 720p Quality Tier 4
+- name: 720p Quality Tier 2
   score: 190
-- name: 720p Quality Tier 5
+- name: 720p Quality Tier 3
   score: 180
+- name: 720p Quality Tier 4
+  score: 170
+- name: 720p Quality Tier 5
+  score: 160
 - name: DVD Remux
   score: 130
 - name: DVD
