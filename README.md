@@ -2,6 +2,8 @@
 
 Maintained by me
 
+This fork doesn't contain anything Golden Popcorn related as it was causing issues for some reason for me syncing to my Sonarr which I couldn't solve
+
 # Dictionary Database Repository
 
 This repository hosts Dictionary's database containing:
