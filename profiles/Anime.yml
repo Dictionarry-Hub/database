@@ -44,10 +44,6 @@ custom_formats:
   score: 50
 - name: 720p
   score: 25
-- name: Not English
-  score: 25
-- name: Not Only English
-  score: 25
 - name: v4
   score: 4
 - name: v3
