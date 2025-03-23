@@ -1,5 +1,5 @@
 name: Peacock TV
-pattern: \b(?:(?:1080|2160|720)p\s+PCOK|(?:Peacock\s+Web-?DL|Web-?DL\s+Peacock))\b
+pattern: \b(?:(?:1080|2160|720)p(?:[ .]+)PCOK|(?:Peacock(?:[ .]+)Web-?DL|Web-?DL(?:[ .]+)Peacock))\b
 description: Peacock is an American over-the-top subscription streaming service owned
   and operated by Peacock TV, LLC, a subsidiary of NBCUniversal Media Group. The service
   primarily features series and film content from NBCUniversal studios and other third-party
