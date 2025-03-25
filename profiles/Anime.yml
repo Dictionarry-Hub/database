@@ -1,5 +1,5 @@
 name: Anime
-description: TRaSH guides Anime setup (This change is to test)
+description: TRaSH guides Anime setup
 tags:
 - Anime
 - TRaSH
@@ -33,7 +33,7 @@ custom_formats:
 - name: TRaSH Anime Web Tier 04
   score: 200
 - name: 1080p
-  score: 101
+  score: 102
 - name: 2160p
   score: 50
 - name: Free100
