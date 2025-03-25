@@ -3,9 +3,9 @@ description: Matches full discs using a quality modifier
 tags:
 - Storage
 conditions:
-- name: BRDISK
-  type: quality_modifier
-  required: true
+- name: 360p
   negate: false
-  qualityModifier: brdisk
+  required: true
+  resolution: 360p
+  type: resolution
 tests: []
