@@ -29,6 +29,8 @@ custom_formats:
   score: 165
 - name: TRaSH HD Bluray Tier 01
   score: 150
+- name: 1080p Golden Popcorn
+  score: 120
 - name: 1080p Quality Tier 1
   score: 120
 - name: 1080p Quality Tier 2
@@ -85,6 +87,8 @@ custom_formats:
   score: 40
 - name: Dolby Vision
   score: 30
+- name: SD Golden Popcorn
+  score: 30
 - name: SD Quality Tier 1
   score: 30
 - name: HDR10+
@@ -132,6 +136,8 @@ custom_formats:
 - name: 2160p
   score: -9999
 - name: 3D
+  score: -9999
+- name: 720p Golden Popcorn
   score: -9999
 - name: B&W
   score: -9999
