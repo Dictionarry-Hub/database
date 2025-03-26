@@ -46,6 +46,11 @@ conditions:
   pattern: VietHD
   required: false
   type: release_group
+- name: ZoroSenpai
+  negate: false
+  pattern: ZoroSenpai
+  required: false
+  type: release_group
 - name: ZQ
   negate: false
   pattern: ZQ
