@@ -111,6 +111,8 @@ custom_formats:
   score: 6
 - name: 3D
   score: -9999
+- name: AV1
+  score: -9999
 - name: B&W
   score: -9999
 - name: BeyondHD
@@ -138,6 +140,8 @@ custom_formats:
 - name: Remux (Quality Match)
   score: -9999
 - name: Upscaled
+  score: -9999
+- name: VVC
   score: -9999
 - name: x265
   score: -9999
