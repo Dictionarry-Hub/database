@@ -416,6 +416,13 @@
         "pattern": "(?<=^|[\\s.-])ZQ\\b",
         "required": false,
         "type": "release_group"
+      },
+      {
+        "name": "ZoroSenpai",
+        "type": "release_group",
+        "required": false,
+        "negate": false,
+        "pattern": "(?<=^|[\\s.-])ZoroSenpai\\b"
       }
     ],
     "tests": [],
@@ -594,24 +601,24 @@
     "conditions": [
       {
         "name": "1080p",
-        "type": "resolution",
-        "required": true,
         "negate": false,
-        "resolution": "1080p"
+        "required": true,
+        "resolution": "1080p",
+        "type": "resolution"
       },
       {
         "name": "Not WEB-DL",
-        "type": "source",
-        "required": true,
         "negate": true,
-        "source": "web_dl"
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "Not DVD",
-        "type": "source",
-        "required": true,
         "negate": true,
-        "source": "dvd"
+        "required": true,
+        "source": "dvd",
+        "type": "source"
       },
       {
         "name": "AJP69",
@@ -671,269 +678,262 @@
       },
       {
         "name": "EDPH",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])EDPH\\b"
+        "pattern": "(?<=^|[\\s.-])EDPH\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "ESiR",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])ESiR\\b"
+        "pattern": "(?<=^|[\\s.-])ESiR\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "EXCiSION",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])EXCiSION\\b"
+        "pattern": "(?<=^|[\\s.-])EXCiSION\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "FilmHD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])FilmHD\\b"
+        "pattern": "(?<=^|[\\s.-])FilmHD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "FraMeSToR",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])FraMeSToR\\b"
+        "pattern": "(?<=^|[\\s.-])FraMeSToR\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "FTW-HD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])FTW-HD\\b"
+        "pattern": "(?<=^|[\\s.-])FTW-HD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "GALAXY",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])GALAXY\\b"
+        "pattern": "(?<=^|[\\s.-])GALAXY\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "GS88",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])GS88\\b"
+        "pattern": "(?<=^|[\\s.-])GS88\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "HANDJOB",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])HANDJOB\\b"
+        "pattern": "(?<=^|[\\s.-])HANDJOB\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "hdalx",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])hdalx\\b"
+        "pattern": "(?<=^|[\\s.-])hdalx\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "iON",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])iON\\b"
+        "pattern": "(?<=^|[\\s.-])iON\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "KASHMiR",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])KASHMiR\\b"
+        "pattern": "(?<=^|[\\s.-])KASHMiR\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "LEGi0N",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])LEGi0N\\b"
+        "pattern": "(?<=^|[\\s.-])LEGi0N\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "LiNG",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])LiNG\\b"
+        "pattern": "(?<=^|[\\s.-])LiNG\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "LoRD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])LoRD\\b"
+        "pattern": "(?<=^|[\\s.-])LoRD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "luvBB",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])luvBB\\b"
+        "pattern": "(?<=^|[\\s.-])luvBB\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "MTeam",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])MTeam\\b"
+        "pattern": "(?<=^|[\\s.-])MTeam\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "nmd",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])nmd\\b"
+        "pattern": "(?<=^|[\\s.-])nmd\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "NyHD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])NyHD\\b"
+        "pattern": "(?<=^|[\\s.-])NyHD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "ORiGEN",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])ORiGEN\\b"
+        "pattern": "(?<=^|[\\s.-])ORiGEN\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "P0W4HD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])P0W4HD\\b"
+        "pattern": "(?<=^|[\\s.-])P0W4HD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "Penumbra",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])Penumbra\\b"
+        "pattern": "(?<=^|[\\s.-])Penumbra\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "playHD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])playHD\\b"
+        "pattern": "(?<=^|[\\s.-])playHD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "Positive",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])Positive\\b"
+        "pattern": "(?<=^|[\\s.-])Positive\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "PTer",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])PTer\\b"
+        "pattern": "(?<=^|[\\s.-])PTer\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "rightSIZE",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])rightSIZE\\b"
+        "pattern": "(?<=^|[\\s.-])rightSIZE\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "rttr",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])rttr\\b"
+        "pattern": "(?<=^|[\\s.-])rttr\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "SaNcTi",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])SaNcTi\\b"
+        "pattern": "(?<=^|[\\s.-])SaNcTi\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "SbR",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])SbR\\b"
+        "pattern": "(?<=^|[\\s.-])SbR\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "SiMPLE",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])SiMPLE\\b"
+        "pattern": "(?<=^|[\\s.-])SiMPLE\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "SOP",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])SOP\\b"
+        "pattern": "(?<=^|[\\s.-])SOP\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "TBB",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])TBB\\b"
+        "pattern": "(?<=^|[\\s.-])TBB\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "TDD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])TDD\\b"
+        "pattern": "(?<=^|[\\s.-])TDD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "VLAD",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])VLAD\\b"
+        "pattern": "(?<=^|[\\s.-])VLAD\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "W4NK3R",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])W4NK3R\\b"
+        "pattern": "(?<=^|[\\s.-])W4NK3R\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "xander",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])xander\\b"
+        "pattern": "(?<=^|[\\s.-])xander\\b",
+        "required": false,
+        "type": "release_group"
       },
       {
         "name": "ZIMBO",
-        "type": "release_group",
-        "required": false,
         "negate": false,
-        "pattern": "(?<=^|[\\s.-])ZIMBO\\b"
-      },
-      {
-        "name": "ZoroSenpai",
-        "type": "release_group",
+        "pattern": "(?<=^|[\\s.-])ZIMBO\\b",
         "required": false,
-        "negate": false,
-        "pattern": "(?<=^|[\\s.-])ZoroSenpai\\b"
+        "type": "release_group"
       }
     ],
     "tests": [],

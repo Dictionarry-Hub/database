@@ -51,4 +51,9 @@ conditions:
   pattern: ZQ
   required: false
   type: release_group
+- name: ZoroSenpai
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZoroSenpai
 tests: []
