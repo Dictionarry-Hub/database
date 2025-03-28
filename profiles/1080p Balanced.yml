@@ -97,8 +97,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: Scene
-  score: -10
 - name: 3D
   score: -9999
 - name: AV1

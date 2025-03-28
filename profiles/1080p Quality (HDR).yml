@@ -125,8 +125,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: Scene
-  score: -10
 - name: x265
   score: -1000
 - name: 2160p
