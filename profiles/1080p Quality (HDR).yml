@@ -105,8 +105,6 @@ custom_formats:
   score: 20
 - name: Roku
   score: 20
-- name: Scene
-  score: 20
 - name: SD Quality Tier 2
   score: 20
 - name: Atmos
@@ -127,6 +125,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: Scene
+  score: -10
 - name: x265
   score: -1000
 - name: 2160p

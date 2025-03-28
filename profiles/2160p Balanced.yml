@@ -130,6 +130,8 @@ custom_formats:
   score: 5
 - name: Unknown Lossless Audio
   score: 5
+- name: Scene
+  score: -10
 - name: 3D
   score: -9999
 - name: AV1
