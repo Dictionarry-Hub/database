@@ -7,20 +7,20 @@ tags:
 - Quality
 conditions:
 - name: 1080p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 1080p
+  type: resolution
 - name: Not WEB-DL
-  type: source
-  required: true
   negate: true
+  required: true
   source: web_dl
-- name: Not DVD
   type: source
-  required: true
+- name: Not DVD
   negate: true
+  required: true
   source: dvd
+  type: source
 - name: AJP69
   negate: false
   pattern: AJP69
@@ -62,193 +62,188 @@ conditions:
   required: false
   type: release_group
 - name: EDPH
-  type: release_group
-  required: false
   negate: false
   pattern: EDPH
-- name: ESiR
-  type: release_group
   required: false
+  type: release_group
+- name: ESiR
   negate: false
   pattern: ESiR
-- name: EXCiSION
-  type: release_group
   required: false
+  type: release_group
+- name: EXCiSION
   negate: false
   pattern: EXCiSION
-- name: FilmHD
-  type: release_group
   required: false
+  type: release_group
+- name: FilmHD
   negate: false
   pattern: FilmHD
-- name: FraMeSToR
-  type: release_group
   required: false
+  type: release_group
+- name: FraMeSToR
   negate: false
   pattern: FraMeSToR
-- name: FTW-HD
-  type: release_group
   required: false
+  type: release_group
+- name: FTW-HD
   negate: false
   pattern: FTW-HD
-- name: GALAXY
-  type: release_group
   required: false
+  type: release_group
+- name: GALAXY
   negate: false
   pattern: GALAXY
-- name: GS88
-  type: release_group
   required: false
+  type: release_group
+- name: GS88
   negate: false
   pattern: GS88
-- name: HANDJOB
-  type: release_group
   required: false
+  type: release_group
+- name: HANDJOB
   negate: false
   pattern: HANDJOB
-- name: hdalx
-  type: release_group
   required: false
+  type: release_group
+- name: hdalx
   negate: false
   pattern: hdalx
-- name: iON
-  type: release_group
   required: false
+  type: release_group
+- name: iON
   negate: false
   pattern: iON
-- name: KASHMiR
-  type: release_group
   required: false
+  type: release_group
+- name: KASHMiR
   negate: false
   pattern: KASHMiR
-- name: LEGi0N
-  type: release_group
   required: false
+  type: release_group
+- name: LEGi0N
   negate: false
   pattern: LEGi0N
-- name: LiNG
-  type: release_group
   required: false
+  type: release_group
+- name: LiNG
   negate: false
   pattern: LiNG
-- name: LoRD
-  type: release_group
   required: false
+  type: release_group
+- name: LoRD
   negate: false
   pattern: LoRD
-- name: luvBB
-  type: release_group
   required: false
+  type: release_group
+- name: luvBB
   negate: false
   pattern: luvBB
-- name: MTeam
-  type: release_group
   required: false
+  type: release_group
+- name: MTeam
   negate: false
   pattern: MTeam
-- name: nmd
-  type: release_group
   required: false
+  type: release_group
+- name: nmd
   negate: false
   pattern: nmd
-- name: NyHD
-  type: release_group
   required: false
+  type: release_group
+- name: NyHD
   negate: false
   pattern: NyHD
-- name: ORiGEN
-  type: release_group
   required: false
+  type: release_group
+- name: ORiGEN
   negate: false
   pattern: ORiGEN
-- name: P0W4HD
-  type: release_group
   required: false
+  type: release_group
+- name: P0W4HD
   negate: false
   pattern: P0W4HD
-- name: Penumbra
-  type: release_group
   required: false
+  type: release_group
+- name: Penumbra
   negate: false
   pattern: Penumbra
-- name: playHD
-  type: release_group
   required: false
+  type: release_group
+- name: playHD
   negate: false
   pattern: playHD
-- name: Positive
-  type: release_group
   required: false
+  type: release_group
+- name: Positive
   negate: false
   pattern: Positive
-- name: PTer
-  type: release_group
   required: false
+  type: release_group
+- name: PTer
   negate: false
   pattern: PTer
-- name: rightSIZE
-  type: release_group
   required: false
+  type: release_group
+- name: rightSIZE
   negate: false
   pattern: rightSIZE
-- name: rttr
-  type: release_group
   required: false
+  type: release_group
+- name: rttr
   negate: false
   pattern: rttr
-- name: SaNcTi
-  type: release_group
   required: false
+  type: release_group
+- name: SaNcTi
   negate: false
   pattern: SaNcTi
-- name: SbR
-  type: release_group
   required: false
+  type: release_group
+- name: SbR
   negate: false
   pattern: SbR
-- name: SiMPLE
-  type: release_group
   required: false
+  type: release_group
+- name: SiMPLE
   negate: false
   pattern: SiMPLE
-- name: SOP
-  type: release_group
   required: false
+  type: release_group
+- name: SOP
   negate: false
   pattern: SOP
-- name: TBB
-  type: release_group
   required: false
+  type: release_group
+- name: TBB
   negate: false
   pattern: TBB
-- name: TDD
-  type: release_group
   required: false
+  type: release_group
+- name: TDD
   negate: false
   pattern: TDD
-- name: VLAD
-  type: release_group
   required: false
+  type: release_group
+- name: VLAD
   negate: false
   pattern: VLAD
-- name: W4NK3R
-  type: release_group
   required: false
+  type: release_group
+- name: W4NK3R
   negate: false
   pattern: W4NK3R
-- name: xander
-  type: release_group
   required: false
+  type: release_group
+- name: xander
   negate: false
   pattern: xander
-- name: ZIMBO
-  type: release_group
   required: false
+  type: release_group
+- name: ZIMBO
   negate: false
   pattern: ZIMBO
-- name: ZoroSenpai
-  type: release_group
   required: false
-  negate: false
-  pattern: ZoroSenpai
+  type: release_group
 tests: []
