@@ -1,12 +1,12 @@
-name: Roku
-description: Matches 'Roku' WEB-DLs. Negates any encodes.
+name: HMAX
+description: Matches 'HBO Max' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: Roku Regex
+- name: HMAX Regex
   negate: false
-  pattern: Roku
+  pattern: HBO Max
   required: true
   type: release_title
 - name: Not WEBRip
@@ -22,9 +22,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: Roku Regex
+    name: HMAX Regex
     negate: false
-    pattern: Roku
+    pattern: HBO Max
     required: true
     type: release_title
   - matches: true
@@ -35,6 +35,6 @@ tests:
     type: release_title
   expected: false
   id: 2
-  input: Almost Heroes (1998) 1080p ROKU WEB-DL x265 HEVC AAC 2.0-PHOCiS
-  lastRun: '2024-12-06T05:41:18.535555'
+  input: Young Justice S04 1080p HMAX WEBRip DD 5 1 x265-edge2020
+  lastRun: '2024-12-06T04:51:30.887518'
   passes: true

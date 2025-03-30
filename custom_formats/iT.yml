@@ -1,12 +1,12 @@
-name: HBO Max
-description: Matches 'HBO Max' WEB-DLs. Negates any encodes.
+name: iT
+description: Matches 'iTunes' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: HMAX Regex
+- name: iTunes Regex
   negate: false
-  pattern: HBO Max
+  pattern: iTunes
   required: true
   type: release_title
 - name: Not WEBRip
@@ -22,9 +22,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: HMAX Regex
+    name: iTunes Regex
     negate: false
-    pattern: HBO Max
+    pattern: iTunes
     required: true
     type: release_title
   - matches: true
@@ -34,7 +34,8 @@ tests:
     required: false
     type: release_title
   expected: false
-  id: 2
-  input: Young Justice S04 1080p HMAX WEBRip DD 5 1 x265-edge2020
-  lastRun: '2024-12-06T04:51:30.887518'
+  id: 1
+  input: Alien Romulus (2024) (1080p DS4K iT WEBRip x265 HEVC 10bit DDP Atmos 5 1
+    English - KaLLuKaLia)
+  lastRun: '2024-12-06T05:49:21.811162'
   passes: true

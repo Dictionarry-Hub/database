@@ -1,4 +1,4 @@
-name: Movies Anywhere
+name: MA
 description: Matches 'Movies Anywhere' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service

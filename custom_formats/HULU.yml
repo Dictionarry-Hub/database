@@ -1,12 +1,12 @@
-name: iTunes
-description: Matches 'iTunes' WEB-DLs. Negates any encodes.
+name: HULU
+description: Matches 'Hulu' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: iTunes Regex
+- name: Hulu Regex
   negate: false
-  pattern: iTunes
+  pattern: Hulu
   required: true
   type: release_title
 - name: Not WEBRip
@@ -22,9 +22,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: iTunes Regex
+    name: Hulu Regex
     negate: false
-    pattern: iTunes
+    pattern: Hulu
     required: true
     type: release_title
   - matches: true
@@ -35,7 +35,6 @@ tests:
     type: release_title
   expected: false
   id: 1
-  input: Alien Romulus (2024) (1080p DS4K iT WEBRip x265 HEVC 10bit DDP Atmos 5 1
-    English - KaLLuKaLia)
-  lastRun: '2024-12-06T05:49:21.811162'
+  input: Beverly Hills Ninja (1996) 1080p HULU WEB-DL x265 HEVC DDP 5.1-PHOCiS
+  lastRun: '2024-12-06T05:29:49.598013'
   passes: true

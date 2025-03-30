@@ -1,4 +1,4 @@
-name: Netflix
+name: NF
 description: Matches 'Netflix' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service

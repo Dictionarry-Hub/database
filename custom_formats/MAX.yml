@@ -1,12 +1,12 @@
-name: Hulu
-description: Matches 'Hulu' WEB-DLs. Negates any encodes.
+name: MAX
+description: Matches 'Max' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: Hulu Regex
+- name: MAX Regex
   negate: false
-  pattern: Hulu
+  pattern: Max
   required: true
   type: release_title
 - name: Not WEBRip
@@ -22,9 +22,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: Hulu Regex
+    name: MAX Regex
     negate: false
-    pattern: Hulu
+    pattern: Max
     required: true
     type: release_title
   - matches: true
@@ -35,6 +35,7 @@ tests:
     type: release_title
   expected: false
   id: 1
-  input: Beverly Hills Ninja (1996) 1080p HULU WEB-DL x265 HEVC DDP 5.1-PHOCiS
-  lastRun: '2024-12-06T05:29:49.598013'
+  input: Dune Prophecy (2024) S01E02 Two Wolves (2160p HDR10 DV Hybrid MAX Webrip
+    x265 10bit EAC3 5 1 Atmos - Goki)[TAoE]
+  lastRun: '2024-12-06T02:59:11.931629'
   passes: true

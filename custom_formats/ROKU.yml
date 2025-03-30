@@ -1,12 +1,12 @@
-name: Disney+
-description: Matches 'Disney+' WEB-DLs. Negates any encodes.
+name: ROKU
+description: Matches 'Roku' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: DNSP Regex
+- name: Roku Regex
   negate: false
-  pattern: Disney+
+  pattern: Roku
   required: true
   type: release_title
 - name: Not WEBRip
@@ -22,9 +22,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: DNSP Regex
+    name: Roku Regex
     negate: false
-    pattern: Disney+
+    pattern: Roku
     required: true
     type: release_title
   - matches: true
@@ -34,8 +34,7 @@ tests:
     required: false
     type: release_title
   expected: false
-  id: 1
-  input: The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265
-    10bit EAC3 5 1 - Goki)[TAoE]
-  lastRun: '2024-12-03T16:31:38.572151'
+  id: 2
+  input: Almost Heroes (1998) 1080p ROKU WEB-DL x265 HEVC AAC 2.0-PHOCiS
+  lastRun: '2024-12-06T05:41:18.535555'
   passes: true
