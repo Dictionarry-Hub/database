@@ -1,0 +1,10 @@
+name: Bravia Core
+pattern: \b(BCORE)\b
+description: Sony Pictures Core (formerly known as Bravia Core) is a video on demand
+  service from Sony for its televisions and smartphones, launched in April 2021. The
+  service offers the streaming of movies at up to 4K resolution provided by Sony Pictures
+  Entertainment. CORE stands for Centre of Real Entertainment.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []
