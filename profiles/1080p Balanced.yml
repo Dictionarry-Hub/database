@@ -22,19 +22,19 @@ upgradeUntilScore: 1000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Balanced Tier 1
-  score: 850
+  score: 830
 - name: 1080p Balanced Tier 2
-  score: 840
-- name: 1080p WEB-DL
   score: 820
+- name: 1080p WEB-DL
+  score: 800
 - name: 720p WEB-DL
-  score: 520
+  score: 500
 - name: 720p Bluray
-  score: 420
-- name: 720p WEBRip
   score: 410
+- name: 720p WEBRip
+  score: 400
 - name: 480p WEB-DL
-  score: 220
+  score: 200
 - name: 720p Quality Tier 1
   score: 200
 - name: 720p Quality Tier 2
@@ -50,7 +50,7 @@ custom_formats:
 - name: DVD
   score: 120
 - name: 480p WEBRip
-  score: 110
+  score: 100
 - name: 720p Golden Popcorn
   score: 60
 - name: Amazon Prime

@@ -24,17 +24,17 @@ custom_formats:
 - name: UHD Bluray (Missing)
   score: 1200
 - name: 1080p WEB-DL
-  score: 920
+  score: 900
 - name: 1080p Bluray
-  score: 720
-- name: 1080p WEBRip
   score: 710
+- name: 1080p WEBRip
+  score: 700
 - name: 720p WEB-DL
-  score: 520
+  score: 500
 - name: 720p Bluray
-  score: 420
-- name: 720p WEBRip
   score: 410
+- name: 720p WEBRip
+  score: 400
 - name: 1080p Quality Tier 1
   score: 300
 - name: 1080p Quality Tier 2
@@ -46,11 +46,11 @@ custom_formats:
 - name: 1080p Quality Tier 5
   score: 260
 - name: 1080p Balanced Tier 1
-  score: 230
+  score: 220
 - name: 1080p Balanced Tier 2
-  score: 220
+  score: 210
 - name: 480p WEB-DL
-  score: 220
+  score: 200
 - name: 720p Quality Tier 1
   score: 200
 - name: 720p Quality Tier 2
@@ -66,7 +66,7 @@ custom_formats:
 - name: DVD
   score: 120
 - name: 480p WEBRip
-  score: 110
+  score: 100
 - name: 1080p Golden Popcorn
   score: 80
 - name: 720p Golden Popcorn
