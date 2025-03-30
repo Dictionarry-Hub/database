@@ -34,6 +34,8 @@ custom_formats:
   score: 60
 - name: DTS-HD MA
   score: 50
+- name: MA
+  score: 50
 - name: TrueHD
   score: 50
 - name: TrueHD (Missing)
@@ -43,8 +45,6 @@ custom_formats:
 - name: ATVP
   score: 40
 - name: DSNP
-  score: 40
-- name: MA
   score: 40
 - name: CRIT
   score: 30
@@ -56,9 +56,9 @@ custom_formats:
   score: 30
 - name: NF
   score: 30
-- name: PMTP
-  score: 30
 - name: PCOK
+  score: 30
+- name: PMTP
   score: 30
 - name: HULU
   score: 20

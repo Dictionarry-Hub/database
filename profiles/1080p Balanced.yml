@@ -53,13 +53,13 @@ custom_formats:
   score: 100
 - name: 720p Golden Popcorn
   score: 60
+- name: MA
+  score: 50
 - name: AMZN
   score: 40
 - name: ATVP
   score: 40
 - name: DSNP
-  score: 40
-- name: MA
   score: 40
 - name: SD Golden Popcorn
   score: 40
@@ -71,9 +71,9 @@ custom_formats:
   score: 30
 - name: NF
   score: 30
-- name: PMTP
-  score: 30
 - name: PCOK
+  score: 30
+- name: PMTP
   score: 30
 - name: SD Quality Tier 1
   score: 30
