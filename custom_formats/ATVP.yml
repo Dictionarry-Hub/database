@@ -1,17 +1,12 @@
-name: Disney+ [2160p]
-description: Matches 1080p 'Disney+' WEB-DLs, unique to the 2160p Quality profile
+name: ATVP
+description: Matches 'Apple TV+' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 2160p
+- name: APTV Regex
   negate: false
-  required: true
-  resolution: 2160p
-  type: resolution
-- name: DNSP Regex
-  negate: false
-  pattern: Disney+
+  pattern: Apple TV+
   required: true
   type: release_title
 - name: Not WEBRip
@@ -27,9 +22,9 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: DNSP Regex
+    name: APTV Regex
     negate: false
-    pattern: Disney+
+    pattern: Apple TV+
     required: true
     type: release_title
   - matches: true
@@ -39,8 +34,7 @@ tests:
     required: false
     type: release_title
   expected: false
-  id: 1
-  input: The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265
-    10bit EAC3 5 1 - Goki)[TAoE]
-  lastRun: '2024-12-03T16:31:38.572151'
+  id: 2
+  input: Little America 2020 S01 1080p APTV Webrip x265 10bit EAC3 5 1 - Ainz
+  lastRun: '2024-12-03T02:27:03.531343'
   passes: true

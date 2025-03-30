@@ -1,14 +1,9 @@
-name: Amazon Prime [2160p]
-description: Matches 4k 'Amazon Prime' WEB-DLs, unique to the 2160p Quality profile
+name: AMZN
+description: Matches 'Amazon Prime' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: 2160p
-  negate: false
-  required: true
-  resolution: 2160p
-  type: resolution
 - name: AMZN Regex
   negate: false
   pattern: Amazon Prime
