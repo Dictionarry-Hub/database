@@ -4,7 +4,7 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: APTV Regex
+- name: ATVP Regex
   negate: false
   pattern: Apple TV+
   required: true

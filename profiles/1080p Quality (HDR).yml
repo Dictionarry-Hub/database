@@ -71,39 +71,39 @@ custom_formats:
   score: 80
 - name: 720p Golden Popcorn
   score: 60
-- name: Amazon Prime
+- name: AMZN
   score: 40
-- name: Apple TV+
+- name: ATVP
   score: 40
-- name: Disney+
+- name: DSNP
   score: 40
-- name: Movies Anywhere
+- name: MA
   score: 40
 - name: SD Golden Popcorn
   score: 40
-- name: Criterion Channel
+- name: CRIT
   score: 30
 - name: Dolby Vision
   score: 30
-- name: HBO Max
+- name: HMAX
   score: 30
-- name: Max
+- name: MAX
   score: 30
-- name: Netflix
+- name: NF
   score: 30
-- name: Paramount+
+- name: PMTP
   score: 30
-- name: Peacock
+- name: PCOK
   score: 30
 - name: SD Quality Tier 1
   score: 30
 - name: HDR10+
   score: 20
-- name: Hulu
+- name: HULU
   score: 20
-- name: iTunes
+- name: iT
   score: 20
-- name: Roku
+- name: ROKU
   score: 20
 - name: SD Quality Tier 2
   score: 20
