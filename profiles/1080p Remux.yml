@@ -60,8 +60,6 @@ custom_formats:
   score: 30
 - name: PMTP
   score: 30
-- name: STAN
-  score: 30
 - name: HULU
   score: 20
 - name: iT
