@@ -1,9 +1,31 @@
 name: Stan
-pattern: \b(stan)\\b[ ._-]web[ ._-]?(dl|rip)?\\b
+pattern: \b(STAN)\b
 description: 'Stan is an Australian over-the-top streaming service. The service offers
   a broad range of film and television content from both local and foreign productions,
   particularly from the United States and United Kingdom. '
 tags:
 - Streaming Service
 - WEB-DL
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: Silk Road 2021 2160p STAN WEB-DL AAC 5.1 H.265-TEPES
+  lastRun: '2025-03-31T15:14:13.768374'
+  matchSpan:
+    end: 25
+    start: 21
+  matchedContent: STAN
+  matchedGroups:
+  - STAN
+  passes: true
+- expected: true
+  id: 2
+  input: ' Silk.Road.2021.2160p.STAN.WEB-DL.AAC5.1.HEVC-TEPES.mkv'
+  lastRun: '2025-03-31T15:14:13.768374'
+  matchSpan:
+    end: 26
+    start: 22
+  matchedContent: STAN
+  matchedGroups:
+  - STAN
+  passes: true
