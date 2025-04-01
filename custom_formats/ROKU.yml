@@ -9,16 +9,11 @@ conditions:
   pattern: Roku
   required: true
   type: release_title
-- name: Not WEBRip
-  negate: true
+- name: WEB-DL
+  negate: false
   required: true
-  source: webrip
+  source: web_dl
   type: source
-- name: Not x265
-  negate: true
-  pattern: x265
-  required: true
-  type: release_title
 tests:
 - conditionResults:
   - matches: true

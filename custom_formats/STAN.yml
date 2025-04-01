@@ -10,20 +10,15 @@ conditions:
   required: false
   type: release_title
 - name: STAN Rename Regex
-  type: release_title
-  required: false
   negate: false
   pattern: Stan Rename
-- name: Not WEBRip
-  negate: true
-  required: true
-  source: webrip
-  type: source
-- name: Not x265
-  negate: true
-  pattern: x265
-  required: true
+  required: false
   type: release_title
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
 tests:
 - conditionResults:
   - matches: true

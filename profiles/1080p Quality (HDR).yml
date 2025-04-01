@@ -153,8 +153,6 @@ custom_formats:
   score: -9999
 - name: Remux
   score: -9999
-- name: Remux (Quality Match)
-  score: -9999
 - name: Unwanted x265 Groups
   score: -9999
 - name: Upscaled
