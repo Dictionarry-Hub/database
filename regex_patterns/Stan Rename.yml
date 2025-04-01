@@ -1,0 +1,9 @@
+name: Stan Rename
+pattern: \[(STAN)\b|\b(STAN)\]
+description: Stan is an Australian over-the-top streaming service. The service offers
+  a broad range of film and television content from both local and foreign productions,
+  particularly from the United States and United Kingdom.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []
