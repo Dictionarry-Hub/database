@@ -5,28 +5,33 @@ tags:
 - HDR
 conditions:
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: WEB-DL
-  type: source
-  required: true
   negate: false
-  source: web_dl
-- name: Not HDR10+
-  type: release_title
   required: true
+  source: web_dl
+  type: source
+- name: Not HDR10+
   negate: true
   pattern: HDR10+
-- name: Not Dolby Vision
-  type: release_title
   required: true
+  type: release_title
+- name: Not Dolby Vision
   negate: true
   pattern: Dolby Vision
+  required: true
+  type: release_title
 - name: Not HDR10
   negate: true
   pattern: HDR10
   required: true
   type: release_title
+- name: Not HDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR
 tests: []

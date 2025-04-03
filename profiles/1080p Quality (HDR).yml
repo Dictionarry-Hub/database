@@ -89,9 +89,9 @@ custom_formats:
   score: 10
 - name: Blu-ray
   score: 10
-- name: HDR10
+- name: HDR
   score: 10
-- name: HDR10 (Missing)
+- name: HDR10
   score: 10
 - name: HDR10 (Missing) (1080p)
   score: 10
@@ -134,6 +134,8 @@ custom_formats:
 - name: h265
   score: -9999
 - name: h265 (Missing)
+  score: -9999
+- name: Non Retail HDR
   score: -9999
 - name: Remux
   score: -9999

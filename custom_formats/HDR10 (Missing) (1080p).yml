@@ -4,6 +4,11 @@ tags:
 - Colour Grade
 - HDR
 conditions:
+- name: Blu-ray
+  type: source
+  required: true
+  negate: false
+  source: bluray
 - name: 1080p
   negate: false
   required: true
@@ -32,6 +37,11 @@ conditions:
 - name: Not HDR10
   negate: true
   pattern: HDR10
+  required: true
+  type: release_title
+- name: Not HDR
+  negate: true
+  pattern: HDR
   required: true
   type: release_title
 tests: []
