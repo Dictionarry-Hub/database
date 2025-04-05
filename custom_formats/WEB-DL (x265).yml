@@ -1,0 +1,16 @@
+name: WEB-DL (x265)
+description: ''
+tags:
+- Codecs
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: Not x265
+  negate: true
+  pattern: x265
+  required: true
+  type: release_title
+tests: []
