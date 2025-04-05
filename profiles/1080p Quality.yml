@@ -145,6 +145,8 @@ custom_formats:
   score: -9999
 - name: VVC
   score: -9999
+- name: WEB-DL (x265)
+  score: -9999
 - name: x265
   score: -9999
 - name: x265 (Missing)

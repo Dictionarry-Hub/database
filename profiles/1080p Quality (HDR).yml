@@ -117,8 +117,6 @@ custom_formats:
   score: 10
 - name: HDR10
   score: 10
-- name: HDR10
-  score: 10
 - name: HDR10 (Missing) (1080p)
   score: 10
 - name: Special Edition
@@ -162,6 +160,8 @@ custom_formats:
 - name: Upscaled
   score: -9999
 - name: VVC
+  score: -9999
+- name: WEB-DL (x265)
   score: -9999
 - name: x265 (Missing)
   score: -9999
