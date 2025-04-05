@@ -14,6 +14,16 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: Not HDR
+  negate: true
+  pattern: HDR
+  required: true
+  type: release_title
+- name: Not HDR10
+  negate: true
+  pattern: HDR10
+  required: true
+  type: release_title
 - name: Not HDR10+
   negate: true
   pattern: HDR10+
@@ -24,14 +34,4 @@ conditions:
   pattern: Dolby Vision
   required: true
   type: release_title
-- name: Not HDR10
-  negate: true
-  pattern: HDR10
-  required: true
-  type: release_title
-- name: Not HDR
-  type: release_title
-  required: true
-  negate: true
-  pattern: HDR
 tests: []
