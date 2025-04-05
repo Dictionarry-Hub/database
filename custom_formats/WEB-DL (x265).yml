@@ -8,8 +8,8 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: Not x265
-  negate: true
+- name: x265
+  negate: false
   pattern: x265
   required: true
   type: release_title
