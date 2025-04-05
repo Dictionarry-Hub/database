@@ -1,0 +1,95 @@
+name: HDR
+pattern: \b(HDR)\b
+description: 'This regex matches a `HDR` generalisation. This can be HDR10, HDR10+,
+  etc. '
+tags:
+- Enhancement
+- Colour Grade
+- HDR
+tests:
+- expected: true
+  id: 2
+  input: HDR+
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan:
+    end: 3
+    start: 0
+  matchedContent: HDR
+  matchedGroups:
+  - HDR
+  passes: true
+- expected: false
+  id: 3
+  input: HDR10
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: HDR10+
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 8
+  input: HDR10
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 9
+  input: Barbie (2023) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR TrueHD Atmos 7.1
+    English-FraMeSToR
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan:
+    end: 55
+    start: 52
+  matchedContent: HDR
+  matchedGroups:
+  - HDR
+  passes: true
+- expected: true
+  id: 10
+  input: Game of Thrones (2011) S06 2160p UHD BluRay REMUX HEVC DV HDR TrueHD Atmos
+    7.1 English-FraMeSToR
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan:
+    end: 61
+    start: 58
+  matchedContent: HDR
+  matchedGroups:
+  - HDR
+  passes: true
+- expected: false
+  id: 11
+  input: Liu lang di qiu 2 AKA The Wandering Earth II 2023 2160p CHN UHD Blu-ray DoVi
+    HDR10 HEVC TrueHD 7.1 Atmos-ANKO
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 12
+  input: Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10+ TrueHD
+    Atmos 7.1 English-WiLDCAT
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 13
+  input: Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10P TrueHD
+    Atmos 7.1 English-WiLDCAT
+  lastRun: '2025-04-03T04:14:14.836165'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

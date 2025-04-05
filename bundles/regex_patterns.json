@@ -2891,6 +2891,124 @@
     "_id": "HDMaNiAcS"
   },
   {
+    "name": "HDR",
+    "pattern": "\\b(HDR)\\b",
+    "description": "This regex matches a `HDR` generalisation. This can be HDR10, HDR10+, etc. ",
+    "tags": [
+      "Enhancement",
+      "Colour Grade",
+      "HDR"
+    ],
+    "tests": [
+      {
+        "expected": true,
+        "id": 2,
+        "input": "HDR+",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": {
+          "end": 3,
+          "start": 0
+        },
+        "matchedContent": "HDR",
+        "matchedGroups": [
+          "HDR"
+        ],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 3,
+        "input": "HDR10",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 4,
+        "input": "HDR10+",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 8,
+        "input": "HDR10",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": true,
+        "id": 9,
+        "input": "Barbie (2023) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR TrueHD Atmos 7.1 English-FraMeSToR",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": {
+          "end": 55,
+          "start": 52
+        },
+        "matchedContent": "HDR",
+        "matchedGroups": [
+          "HDR"
+        ],
+        "passes": true
+      },
+      {
+        "expected": true,
+        "id": 10,
+        "input": "Game of Thrones (2011) S06 2160p UHD BluRay REMUX HEVC DV HDR TrueHD Atmos 7.1 English-FraMeSToR",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": {
+          "end": 61,
+          "start": 58
+        },
+        "matchedContent": "HDR",
+        "matchedGroups": [
+          "HDR"
+        ],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 11,
+        "input": "Liu lang di qiu 2 AKA The Wandering Earth II 2023 2160p CHN UHD Blu-ray DoVi HDR10 HEVC TrueHD 7.1 Atmos-ANKO",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 12,
+        "input": "Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10+ TrueHD Atmos 7.1 English-WiLDCAT",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 13,
+        "input": "Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10P TrueHD Atmos 7.1 English-WiLDCAT",
+        "lastRun": "2025-04-03T04:14:14.836165",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      }
+    ],
+    "_id": "HDR"
+  },
+  {
     "name": "HDR10 (Missing Groups)",
     "pattern": "\\b(FraMeSToR|HQMUX|SiCFoI|playBD|RYU|ElNeekster|CiNEPHiLES|3L|EDV|Kenobi|TRiToN|HDH|NTb|Flights|TekMUX|HDS|Aisha(@RFX)?|STRiKES|c0kE|mimic)\\b",
     "description": "Matches groups who mislabel HDR10",
@@ -2952,8 +3070,8 @@
   },
   {
     "name": "HDR10+",
-    "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
-    "description": "This regex matches \"HDR10\" when followed by either a plus sign (\"+\"), \"P\", or \"Plus\", but only in strings that don't contain \"HLG\", \"PQ\", or \"SDR\" (when followed by either a word boundary or digit) anywhere in the text. In other words, it finds references to HDR10+ or HDR10Plus variants while excluding strings that mention other HDR-related technologies.",
+    "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)",
+    "description": "This regex matches `HDR10` when followed by either a plus sign `+`, `P`, or `Plus`",
     "tags": [
       "Enhancement",
       "Colour Grade",
@@ -2964,7 +3082,7 @@
         "expected": false,
         "id": 1,
         "input": "HDR",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -2974,7 +3092,7 @@
         "expected": false,
         "id": 2,
         "input": "HDR+",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -2984,7 +3102,7 @@
         "expected": false,
         "id": 3,
         "input": "HDR10",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -2994,15 +3112,13 @@
         "expected": true,
         "id": 4,
         "input": "HDR10+",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": {
           "end": 6,
           "start": 0
         },
         "matchedContent": "HDR10+",
         "matchedGroups": [
-          null,
-          null,
           "+",
           null
         ],
@@ -3012,7 +3128,7 @@
         "expected": false,
         "id": 5,
         "input": "HLG HDR",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3022,7 +3138,7 @@
         "expected": false,
         "id": 6,
         "input": "SDR HDR",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3032,7 +3148,7 @@
         "expected": false,
         "id": 7,
         "input": "PQ HDR",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3042,15 +3158,13 @@
         "expected": true,
         "id": 8,
         "input": "HDR10P",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": {
           "end": 6,
           "start": 0
         },
         "matchedContent": "HDR10P",
         "matchedGroups": [
-          null,
-          null,
           "P",
           null
         ],
@@ -3060,15 +3174,13 @@
         "expected": true,
         "id": 9,
         "input": "HDR10Plus",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": {
           "end": 9,
           "start": 0
         },
         "matchedContent": "HDR10Plus",
         "matchedGroups": [
-          null,
-          null,
           "Plus",
           "lus"
         ],
@@ -3078,15 +3190,13 @@
         "expected": true,
         "id": 10,
         "input": "Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10+ TrueHD Atmos 7.1 English-WiLDCAT",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": {
           "end": 68,
           "start": 62
         },
         "matchedContent": "HDR10+",
         "matchedGroups": [
-          null,
-          null,
           "+",
           null
         ],
@@ -3096,15 +3206,13 @@
         "expected": true,
         "id": 11,
         "input": "La Maison S01 REPACK 2160p ATVP WEB-DL Dual-Audio DD+ 5.1 Atmos DV HDR10+ H.265-Kitsune",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": {
           "end": 73,
           "start": 67
         },
         "matchedContent": "HDR10+",
         "matchedGroups": [
-          null,
-          null,
           "+",
           null
         ],
@@ -3114,10 +3222,26 @@
         "expected": false,
         "id": 12,
         "input": "Liu lang di qiu 2 AKA The Wandering Earth II 2023 2160p CHN UHD Blu-ray DoVi HDR10 HEVC TrueHD 7.1 Atmos-ANKO",
-        "lastRun": "2024-12-13T09:52:40.529508",
+        "lastRun": "2025-04-05T09:25:21.372205",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": true,
+        "id": 13,
+        "input": "Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10 Plus TrueHD Atmos 7.1 English-WiLDCAT",
+        "lastRun": "2025-04-05T09:25:21.372205",
+        "matchSpan": {
+          "end": 72,
+          "start": 62
+        },
+        "matchedContent": "HDR10 Plus",
+        "matchedGroups": [
+          "Plus",
+          "lus"
+        ],
         "passes": true
       }
     ],
@@ -3125,8 +3249,8 @@
   },
   {
     "name": "HDR10",
-    "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
-    "description": "This regex matches \"HDR\" only in strings that do not contain \"HLG\", \"PQ\", or \"SDR\" (when followed by either a word boundary or digit) anywhere in the text, and where the \"HDR\" itself is not followed by any HDR format specifiers like \"10+\", \"+\", \"10P\", \"P\", \"10Plus\", or \"Plus\". It ensures we're matching standalone \"HDR\" references that aren't tied to any specific HDR format or appearing in strings that mention other common HDR-related technologies.",
+    "pattern": "\\bHDR10(?!\\+|Plus)\\b",
+    "description": "This regex matches `HDR10` only when it *is not* followed by any HDR format specifiers like `+`, or `Plus`. ",
     "tags": [
       "Enhancement",
       "Colour Grade",
@@ -3134,30 +3258,10 @@
     ],
     "tests": [
       {
-        "expected": true,
-        "id": 1,
-        "input": "HDR",
-        "lastRun": "2024-12-13T09:52:16.317820",
-        "matchSpan": {
-          "end": 3,
-          "start": 0
-        },
-        "matchedContent": "HDR",
-        "matchedGroups": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
-        "passes": true
-      },
-      {
         "expected": false,
         "id": 2,
         "input": "HDR+",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3167,27 +3271,20 @@
         "expected": true,
         "id": 3,
         "input": "HDR10",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": {
-          "end": 3,
+          "end": 5,
           "start": 0
         },
-        "matchedContent": "HDR",
-        "matchedGroups": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
+        "matchedContent": "HDR10",
+        "matchedGroups": [],
         "passes": true
       },
       {
         "expected": false,
         "id": 4,
         "input": "HDR10+",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3197,7 +3294,7 @@
         "expected": false,
         "id": 5,
         "input": "HLG HDR",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3207,7 +3304,7 @@
         "expected": false,
         "id": 6,
         "input": "SDR HDR",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3217,7 +3314,7 @@
         "expected": false,
         "id": 7,
         "input": "PQ HDR",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],
@@ -3227,87 +3324,63 @@
         "expected": true,
         "id": 8,
         "input": "HDR10",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": {
-          "end": 3,
+          "end": 5,
           "start": 0
         },
-        "matchedContent": "HDR",
-        "matchedGroups": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
+        "matchedContent": "HDR10",
+        "matchedGroups": [],
         "passes": true
       },
       {
-        "expected": true,
+        "expected": false,
         "id": 9,
         "input": "Barbie (2023) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR TrueHD Atmos 7.1 English-FraMeSToR",
-        "lastRun": "2024-12-13T09:52:16.317820",
-        "matchSpan": {
-          "end": 55,
-          "start": 52
-        },
-        "matchedContent": "HDR",
-        "matchedGroups": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
+        "lastRun": "2025-04-02T20:01:38.732592",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
         "passes": true
       },
       {
-        "expected": true,
+        "expected": false,
         "id": 10,
         "input": "Game of Thrones (2011) S06 2160p UHD BluRay REMUX HEVC DV HDR TrueHD Atmos 7.1 English-FraMeSToR",
-        "lastRun": "2024-12-13T09:52:16.317820",
-        "matchSpan": {
-          "end": 61,
-          "start": 58
-        },
-        "matchedContent": "HDR",
-        "matchedGroups": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
+        "lastRun": "2025-04-02T20:01:38.732592",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
         "passes": true
       },
       {
         "expected": true,
         "id": 11,
         "input": "Liu lang di qiu 2 AKA The Wandering Earth II 2023 2160p CHN UHD Blu-ray DoVi HDR10 HEVC TrueHD 7.1 Atmos-ANKO",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": {
-          "end": 80,
+          "end": 82,
           "start": 77
         },
-        "matchedContent": "HDR",
-        "matchedGroups": [
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ],
+        "matchedContent": "HDR10",
+        "matchedGroups": [],
         "passes": true
       },
       {
         "expected": false,
         "id": 12,
         "input": "Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10+ TrueHD Atmos 7.1 English-WiLDCAT",
-        "lastRun": "2024-12-13T09:52:16.317820",
+        "lastRun": "2025-04-02T20:01:38.732592",
+        "matchSpan": null,
+        "matchedContent": null,
+        "matchedGroups": [],
+        "passes": true
+      },
+      {
+        "expected": false,
+        "id": 13,
+        "input": "Schindler's List (1993) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR10P TrueHD Atmos 7.1 English-WiLDCAT",
+        "lastRun": "2025-04-02T20:01:38.732592",
         "matchSpan": null,
         "matchedContent": null,
         "matchedGroups": [],

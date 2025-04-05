@@ -214,11 +214,19 @@
         "score": -9999
       },
       {
+        "name": "HDR",
+        "score": -9999
+      },
+      {
         "name": "HDR10",
         "score": -9999
       },
       {
         "name": "HDR10 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10 (Missing) (1080p)",
         "score": -9999
       },
       {
@@ -478,11 +486,11 @@
         "score": 10
       },
       {
-        "name": "HDR10",
+        "name": "HDR",
         "score": 10
       },
       {
-        "name": "HDR10 (Missing)",
+        "name": "HDR10",
         "score": 10
       },
       {
@@ -567,6 +575,10 @@
       },
       {
         "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "Non Retail HDR",
         "score": -9999
       },
       {
@@ -857,11 +869,19 @@
         "score": -9999
       },
       {
+        "name": "HDR",
+        "score": -9999
+      },
+      {
         "name": "HDR10",
         "score": -9999
       },
       {
         "name": "HDR10 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10 (Missing) (1080p)",
         "score": -9999
       },
       {
@@ -1128,6 +1148,10 @@
         "score": -9999
       },
       {
+        "name": "HDR",
+        "score": -9999
+      },
+      {
         "name": "HDR10",
         "score": -9999
       },
@@ -1382,6 +1406,10 @@
         "score": 10
       },
       {
+        "name": "HDR",
+        "score": 10
+      },
+      {
         "name": "HDR10",
         "score": 10
       },
@@ -1456,58 +1484,6 @@
       {
         "name": "Unknown Lossless Audio",
         "score": 5
-      },
-      {
-        "name": "Amazon Prime",
-        "score": 0
-      },
-      {
-        "name": "Apple TV+",
-        "score": 0
-      },
-      {
-        "name": "Criterion Channel",
-        "score": 0
-      },
-      {
-        "name": "Disney+",
-        "score": 0
-      },
-      {
-        "name": "HBO Max",
-        "score": 0
-      },
-      {
-        "name": "Hulu",
-        "score": 0
-      },
-      {
-        "name": "iTunes",
-        "score": 0
-      },
-      {
-        "name": "Max",
-        "score": 0
-      },
-      {
-        "name": "Movies Anywhere",
-        "score": 0
-      },
-      {
-        "name": "Netflix",
-        "score": 0
-      },
-      {
-        "name": "Paramount+",
-        "score": 0
-      },
-      {
-        "name": "Peacock",
-        "score": 0
-      },
-      {
-        "name": "Roku",
-        "score": 0
       },
       {
         "name": "SDR",
@@ -1867,6 +1843,10 @@
         "score": 10
       },
       {
+        "name": "HDR",
+        "score": 10
+      },
+      {
         "name": "HDR10",
         "score": 10
       },
@@ -1941,58 +1921,6 @@
       {
         "name": "Unknown Lossless Audio",
         "score": 5
-      },
-      {
-        "name": "Amazon Prime",
-        "score": 0
-      },
-      {
-        "name": "Apple TV+",
-        "score": 0
-      },
-      {
-        "name": "Criterion Channel",
-        "score": 0
-      },
-      {
-        "name": "Disney+",
-        "score": 0
-      },
-      {
-        "name": "HBO Max",
-        "score": 0
-      },
-      {
-        "name": "Hulu",
-        "score": 0
-      },
-      {
-        "name": "iTunes",
-        "score": 0
-      },
-      {
-        "name": "Max",
-        "score": 0
-      },
-      {
-        "name": "Movies Anywhere",
-        "score": 0
-      },
-      {
-        "name": "Netflix",
-        "score": 0
-      },
-      {
-        "name": "Paramount+",
-        "score": 0
-      },
-      {
-        "name": "Peacock",
-        "score": 0
-      },
-      {
-        "name": "Roku",
-        "score": 0
       },
       {
         "name": "SDR",
@@ -2282,6 +2210,10 @@
         "score": 10
       },
       {
+        "name": "HDR",
+        "score": 10
+      },
+      {
         "name": "HDR10",
         "score": 10
       },
@@ -2363,6 +2295,10 @@
       },
       {
         "name": "h265 (Missing)",
+        "score": -9999
+      },
+      {
+        "name": "HDR10 (Missing) (1080p)",
         "score": -9999
       },
       {

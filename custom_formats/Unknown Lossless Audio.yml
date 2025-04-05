@@ -6,25 +6,25 @@ tags:
 - Audio
 conditions:
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: Blu-ray
-  type: source
-  required: true
   negate: false
-  source: bluray
-- name: Not DTS-HD MA
-  type: release_title
   required: true
+  source: bluray
+  type: source
+- name: Not DTS-HD MA
   negate: true
   pattern: DTS-HD MA
-- name: Not DTS-X
-  type: release_title
   required: true
+  type: release_title
+- name: Not DTS-X
   negate: true
   pattern: DTS-X
+  required: true
+  type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
@@ -45,9 +45,9 @@ conditions:
   pattern: DTS
   required: true
   type: release_title
-- name: Not TrueHD + Atmos
+- name: Not TrueHD
   negate: true
-  pattern: TrueHD + Atmos
+  pattern: TrueHD
   required: true
   type: release_title
 - name: Not Dolby Digital
@@ -60,4 +60,9 @@ conditions:
   pattern: Dolby Digital +
   required: true
   type: release_title
+- name: Not Missing Group
+  type: release_title
+  required: true
+  negate: true
+  pattern: TrueHD (Missing Groups)
 tests: []

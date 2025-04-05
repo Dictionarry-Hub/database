@@ -4207,6 +4207,39 @@
     "_id": "HBO Max"
   },
   {
+    "name": "HDR",
+    "description": "Matches the 'HDR' Regex Pattern",
+    "tags": [
+      "Colour Grade",
+      "HDR"
+    ],
+    "conditions": [
+      {
+        "name": "HDR",
+        "negate": false,
+        "pattern": "\\b(HDR)\\b",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not HDR10",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "\\bHDR10(?!\\+|Plus)\\b"
+      },
+      {
+        "name": "Not HDR10+",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)"
+      }
+    ],
+    "tests": [],
+    "_id": "HDR"
+  },
+  {
     "name": "HDR10 (Missing) (1080p)",
     "description": "Attempts to match HDR10 in 1080p x265 Encodes labelled with x265",
     "tags": [
@@ -4214,6 +4247,13 @@
       "HDR"
     ],
     "conditions": [
+      {
+        "name": "Blu-ray",
+        "type": "source",
+        "required": true,
+        "negate": false,
+        "source": "bluray"
+      },
       {
         "name": "1080p",
         "negate": false,
@@ -4245,14 +4285,21 @@
       {
         "name": "Not HDR10+",
         "negate": true,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
+        "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not HDR10",
         "negate": true,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
+        "pattern": "\\bHDR10(?!\\+|Plus)\\b",
+        "required": true,
+        "type": "release_title"
+      },
+      {
+        "name": "Not HDR",
+        "negate": true,
+        "pattern": "\\b(HDR)\\b",
         "required": true,
         "type": "release_title"
       }
@@ -4262,12 +4309,19 @@
   },
   {
     "name": "HDR10 (Missing)",
-    "description": "Attempts to match HDR10 to groups that mislabel their releases",
+    "description": "Attempts to match HDR10 to groups that mislabel their releases. *This does not work properly in sonarr.*",
     "tags": [
       "Colour Grade",
       "HDR"
     ],
     "conditions": [
+      {
+        "name": "Blu-ray",
+        "negate": false,
+        "required": true,
+        "source": "bluray",
+        "type": "source"
+      },
       {
         "name": "2160p",
         "negate": false,
@@ -4276,23 +4330,16 @@
         "type": "resolution"
       },
       {
-        "name": "Blu-ray",
-        "type": "source",
-        "required": true,
-        "negate": false,
-        "source": "bluray"
-      },
-      {
         "name": "Not HDR10",
         "negate": true,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
+        "pattern": "\\bHDR10(?!\\+|Plus)\\b",
         "required": true,
         "type": "release_title"
       },
       {
         "name": "Not HDR10+",
         "negate": true,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
+        "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)",
         "required": true,
         "type": "release_title"
       },
@@ -4302,6 +4349,13 @@
         "pattern": "\\bSDR\\b",
         "required": true,
         "type": "release_title"
+      },
+      {
+        "name": "Not HDR",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "\\b(HDR)\\b"
       }
     ],
     "tests": [
@@ -4442,7 +4496,7 @@
       {
         "name": "HDR10+",
         "negate": false,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)",
+        "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)",
         "required": true,
         "type": "release_title"
       }
@@ -4461,9 +4515,16 @@
       {
         "name": "HDR10",
         "negate": false,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
+        "pattern": "\\bHDR10(?!\\+|Plus)\\b",
         "required": true,
         "type": "release_title"
+      },
+      {
+        "name": "Not HDR10+",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)"
       }
     ],
     "tests": [],
@@ -6188,38 +6249,45 @@
     "conditions": [
       {
         "name": "2160p",
-        "type": "resolution",
-        "required": true,
         "negate": false,
-        "resolution": "2160p"
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
       },
       {
         "name": "WEB-DL",
-        "type": "source",
-        "required": true,
         "negate": false,
-        "source": "web_dl"
+        "required": true,
+        "source": "web_dl",
+        "type": "source"
       },
       {
         "name": "Not HDR10+",
-        "type": "release_title",
-        "required": true,
         "negate": true,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR10(\\+|P(lus)?)"
+        "pattern": "\\bHDR10.?(\\+|P(lus)?\\b)",
+        "required": true,
+        "type": "release_title"
       },
       {
         "name": "Not Dolby Vision",
-        "type": "release_title",
-        "required": true,
         "negate": true,
-        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b"
+        "pattern": "\\b(dv(?![ .](HLG|SDR))|dovi|dolby[ .]?vision)\\b",
+        "required": true,
+        "type": "release_title"
       },
       {
         "name": "Not HDR10",
         "negate": true,
-        "pattern": "(?<=^(?!.*\\b(HLG|PQ|SDR)(\\b|\\d)).*?)HDR(?!((10)?(\\+|P(lus)?)))",
+        "pattern": "\\bHDR10(?!\\+|Plus)\\b",
         "required": true,
         "type": "release_title"
+      },
+      {
+        "name": "Not HDR",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "\\b(HDR)\\b"
       }
     ],
     "tests": [],
@@ -7270,31 +7338,31 @@
     "conditions": [
       {
         "name": "2160p",
-        "type": "resolution",
-        "required": true,
         "negate": false,
-        "resolution": "2160p"
+        "required": true,
+        "resolution": "2160p",
+        "type": "resolution"
       },
       {
         "name": "Blu-ray",
-        "type": "source",
-        "required": true,
         "negate": false,
-        "source": "bluray"
+        "required": true,
+        "source": "bluray",
+        "type": "source"
       },
       {
         "name": "Not DTS-HD MA",
-        "type": "release_title",
-        "required": true,
         "negate": true,
-        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)"
+        "pattern": "\\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\\b|\\d)",
+        "required": true,
+        "type": "release_title"
       },
       {
         "name": "Not DTS-X",
-        "type": "release_title",
-        "required": true,
         "negate": true,
-        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)"
+        "pattern": "\\b(dts[-_. :]?x)\\b(?!\\d)",
+        "required": true,
+        "type": "release_title"
       },
       {
         "name": "Not FLAC",
@@ -7325,9 +7393,9 @@
         "type": "release_title"
       },
       {
-        "name": "Not TrueHD + Atmos",
+        "name": "Not TrueHD",
         "negate": true,
-        "pattern": "TrueHD + Atmos",
+        "pattern": "True[ .-]?HD[ .-]?",
         "required": true,
         "type": "release_title"
       },
@@ -7344,6 +7412,13 @@
         "pattern": "\\bDD[P+]|\\b(e[-_. ]?ac3)\\b",
         "required": true,
         "type": "release_title"
+      },
+      {
+        "name": "Not Missing Group",
+        "type": "release_title",
+        "required": true,
+        "negate": true,
+        "pattern": "(?<=^|[\\s.-])TRiToN|EPSiLON|NoGroup|PmP\\b"
       }
     ],
     "tests": [],

@@ -107,6 +107,8 @@ custom_formats:
   score: 10
 - name: Blu-ray
   score: 10
+- name: HDR
+  score: 10
 - name: HDR10
   score: 10
 - name: HDR10 (Missing)
@@ -145,32 +147,6 @@ custom_formats:
   score: 5
 - name: Unknown Lossless Audio
   score: 5
-- name: Amazon Prime
-  score: 0
-- name: Apple TV+
-  score: 0
-- name: Criterion Channel
-  score: 0
-- name: Disney+
-  score: 0
-- name: HBO Max
-  score: 0
-- name: Hulu
-  score: 0
-- name: iTunes
-  score: 0
-- name: Max
-  score: 0
-- name: Movies Anywhere
-  score: 0
-- name: Netflix
-  score: 0
-- name: Paramount+
-  score: 0
-- name: Peacock
-  score: 0
-- name: Roku
-  score: 0
 - name: SDR
   score: -80
 - name: x265

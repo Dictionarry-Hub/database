@@ -1,19 +1,20 @@
 name: HDR10 (Missing)
-description: Attempts to match HDR10 to groups that mislabel their releases
+description: Attempts to match HDR10 to groups that mislabel their releases. *This
+  does not work properly in sonarr.*
 tags:
 - Colour Grade
 - HDR
 conditions:
+- name: Blu-ray
+  negate: false
+  required: true
+  source: bluray
+  type: source
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
-- name: Blu-ray
-  type: source
-  required: true
-  negate: false
-  source: bluray
 - name: Not HDR10
   negate: true
   pattern: HDR10
@@ -29,6 +30,11 @@ conditions:
   pattern: SDR
   required: true
   type: release_title
+- name: Not HDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR
 tests:
 - conditionResults:
   - matches: false
