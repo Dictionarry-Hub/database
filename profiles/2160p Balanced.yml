@@ -170,8 +170,6 @@ custom_formats:
   score: -9999
 - name: x264 (2160p)
   score: -9999
-- name: x265
-  score: -9999
 - name: x265 (1080p)
   score: -9999
 - name: x265 (Missing 2160p)
