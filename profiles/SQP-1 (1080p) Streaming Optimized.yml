@@ -1,22 +1,21 @@
 name: SQP-1 (1080p) Streaming Optimized
-description: "**TRaSH Guides:**\n\n**Why choose this quality profile?**\n\n    \n\
-  - You want good compatibility across a range of playback devices without compromising\
-  \ on release quality.\n- You run a second 'Streaming Optimized' instance of Radarr\
-  \ and want both versions, or just want streaming optimized 1080p overall.\n- You\
-  \ want to have little to no transcoding for low powered devices or remote streaming.\n\
-  - You want to grab releases optimized for streaming.\n- Smaller file sizes and bitrates.\n\
-  \n**BHDStudio release HQ 1080p Encodes with the following features:**\n- Streaming\
-  \ optimized (Optimized for PLEX, emby, Jellyfin, and other streaming platforms)\n\
-  - AC3 Audio (Downmixed Lossless audio track to Dolby Digital 5.1 for optimal compatibility)\n\
-  - Small sizes\n- Good quality\n\n**If you don't have access to the top tier indexers,\
-  \ you won't have access to all BHDStudio releases, and you will end up with less\
-  \ or not streaming optimized releases.**\n\n**hallowed release HQ 1080p encodes\
-  \ with the following features:**\n- Highly streamable releases with some more modern\
-  \ optimizations:\n- Dolby Digital Plus multichannel or AAC mono/stereo audio (converted\
-  \ from lossless audio track)\n- Included English SRT subtitles, as well as a selection\
-  \ of PGS subtitles in English and other languages\n- Dual audio for foreign films\
-  \ \n- Smaller sizes\n- Good quality\n\nhallowed's releases have very good general\
-  \ availability.\n"
+description: "**TRaSH Guides:**\n    \n- You want good compatibility across a range\
+  \ of playback devices without compromising on release quality.\n- You run a second\
+  \ 'Streaming Optimized' instance of Radarr and want both versions, or just want\
+  \ streaming optimized 1080p overall.\n- You want to have little to no transcoding\
+  \ for low powered devices or remote streaming.\n- You want to grab releases optimized\
+  \ for streaming.\n- Smaller file sizes and bitrates.\n\n**BHDStudio release HQ 1080p\
+  \ Encodes with the following features:**\n- Streaming optimized (Optimized for PLEX,\
+  \ emby, Jellyfin, and other streaming platforms)\n- AC3 Audio (Downmixed Lossless\
+  \ audio track to Dolby Digital 5.1 for optimal compatibility)\n- Small sizes\n-\
+  \ Good quality\n\n**If you don't have access to the top tier indexers, you won't\
+  \ have access to all BHDStudio releases, and you will end up with less or not streaming\
+  \ optimized releases.**\n\n**hallowed release HQ 1080p encodes with the following\
+  \ features:**\n- Highly streamable releases with some more modern optimizations:\n\
+  - Dolby Digital Plus multichannel or AAC mono/stereo audio (converted from lossless\
+  \ audio track)\n- Included English SRT subtitles, as well as a selection of PGS\
+  \ subtitles in English and other languages\n- Dual audio for foreign films \n- Smaller\
+  \ sizes\n- Good quality\n\nhallowed's releases have very good general availability.\n"
 tags:
 - TRaSH
 - 1080p
@@ -93,19 +92,23 @@ custom_formats:
 - name: SQP - x265 (HD)
   score: -10000
 qualities:
-- id: 10
-  name: Bluray-1080p
-- id: 9
-  name: WEBDL-1080p
-- id: 11
-  name: WEBRip-1080p
-- id: 14
-  name: WEBDL-720p
-- id: 15
-  name: WEBRip-720p
+- id: -1
+  name: Bluray|WEB-1080p
+  description: ''
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: 13
+  name: Bluray-720p
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: -1
+  name: Bluray|WEB-1080p
 language: must_original
-

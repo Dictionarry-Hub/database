@@ -1,4 +1,4 @@
-name: SQP-1 (2160p) Streaming Optimized
+name: SQP-1 WEB (2160p) Streaming Optimized
 description: '**TRaSH Guides:**
 
 
@@ -67,6 +67,7 @@ tags:
 - TRaSH
 - 2160p
 - Streaming Optimized
+- WEB
 upgradesAllowed: true
 minCustomFormatScore: 1000
 upgradeUntilScore: 10000

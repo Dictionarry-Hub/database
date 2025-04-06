@@ -1,6 +1,9 @@
 name: SQP-1 WEB (1080p) Streaming Optimized
-description: '- You run a second "Streaming Optimized" instance of Radarr and want
-  both versions, or you just want streaming-optimized 1080p overall.
+description: '**TRaSH Guides:**
+
+
+  - You run a second "Streaming Optimized" instance of Radarr and want both versions,
+  or you just want streaming-optimized 1080p overall.
 
   - You want fewer upgrades than with SQP-1 because the WEBDL is often watched before
   the BHDStudio Blu-ray is released.
@@ -137,14 +140,17 @@ custom_formats:
 - name: SQP - x265 (HD)
   score: -10000
 qualities:
-- id: 10
-  name: Bluray-1080p
-- id: 9
-  name: WEBDL-1080p
-- id: 11
-  name: WEBRip-1080p
+- id: -1
+  name: Bluray|WEB-1080p
+  description: ''
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
 upgrade_until:
-  id: 10
-  name: Bluray-1080p
-  description: 1080p Blu-ray video encoded with lossy compression
+  id: -1
+  name: Bluray|WEB-1080p
 language: must_original
