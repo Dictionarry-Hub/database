@@ -1,0 +1,28 @@
+name: SQP - UHD Bluray Tier 02
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: true
+  negate: true
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: true
+  negate: true
+  source: webrip
+- name: Not 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: HQMUX
+  negate: false
+  required: false
+  type: custom
+  pattern: HQMUX
+  type: release_group
+tests: []

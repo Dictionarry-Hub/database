@@ -1,0 +1,46 @@
+name: SQP - UHD Bluray Tier 01
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Not 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: CtrlHD
+  negate: false
+  required: false
+  type: custom
+  pattern: CtrlHD
+  type: release_group
+- name: MainFrame
+  negate: false
+  required: false
+  type: custom
+  pattern: MainFrame
+  type: release_group
+- name: DON
+  negate: false
+  required: false
+  type: custom
+  pattern: DON
+  type: release_group
+- name: W4NK3R
+  negate: false
+  required: false
+  type: custom
+  pattern: W4NK3R
+  type: release_group
+tests: []
