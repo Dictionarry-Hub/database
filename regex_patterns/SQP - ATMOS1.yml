@@ -1,6 +1,7 @@
-name: "SQP - ATMOS"
+name: "SQP - ATMOS1"
 pattern: '\b(ATMOS|CtrlHD|W4NK3R|DON)(\b|\d)'
 description: ''
 tags:
 - Audio
+- TRaSH
 tests: []

@@ -1,0 +1,7 @@
+name: "SQP - Not DTS-HD HRA/ES"
+pattern: 'dts[-. ]?(es|(hd[. ]?)?(hr|hi))'
+description: ''
+tags:
+- Audio
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+name: "SQP - Not RlsGrp (TrueHD only)"
+pattern: '\b(CtrlHD|W4NK3R|DON)\b'
+description: ''
+tags:
+- Audio
+- TRaSH
+tests: []

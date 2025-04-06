@@ -1,5 +1,7 @@
-name: DTS-HD MA
+name: "SQP - Not DTS-HD"
 pattern: '\b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))(\b|\d)'
 description: ''
-tags: []
+tags:
+- Audio
+- TRaSH
 tests: []

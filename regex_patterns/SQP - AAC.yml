@@ -1,4 +1,4 @@
-name: "SQP - Not AAC"
+name: "SQP - AAC"
 pattern: '\bAAC(\b|\d)'
 description: ''
 tags:

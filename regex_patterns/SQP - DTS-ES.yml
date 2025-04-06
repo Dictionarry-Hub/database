@@ -1,0 +1,7 @@
+name: "SQP - DTS-ES"
+pattern: 'dts[-. ]?es\b'
+description: ''
+tags:
+- Audio
+- TRaSH
+tests: []

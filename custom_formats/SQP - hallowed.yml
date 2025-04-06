@@ -1,0 +1,12 @@
+name: SQP - hallowed
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: SQP - hallowed
+  negate: false
+  pattern: SQP - hallowed
+  required: true
+  type: release_title
+tests: []

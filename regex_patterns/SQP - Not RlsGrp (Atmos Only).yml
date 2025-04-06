@@ -1,0 +1,7 @@
+name: "SQP - Not RlsGrp (Atmos Only)"
+pattern: '\b(W4NK3R|HQMUX)\b'
+description: ''
+tags:
+- Audio
+- TRaSH
+tests: []

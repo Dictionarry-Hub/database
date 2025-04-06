@@ -1,5 +1,5 @@
-name: "SQP - Not DTS"
-pattern: '\bDTS(\b|\d)'
+name: "SQP - TrueHD2"
+pattern: 'True[ .-]?HD'
 description: ''
 tags:
 - Audio

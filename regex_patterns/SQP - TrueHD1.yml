@@ -1,6 +1,7 @@
-name: "SQP - TrueHD"
+name: "SQP - TrueHD1"
 pattern: 'True[ .-]?HD|W4NK3R|HQMUX'
 description: ''
 tags:
 - Audio
+- TRaSH
 tests: []

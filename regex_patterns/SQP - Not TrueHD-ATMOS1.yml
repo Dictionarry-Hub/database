@@ -1,6 +1,7 @@
-name: "SQP - Not TrueHD/ATMOS"
+name: "SQP - Not TrueHD/ATMOS1"
 pattern: 'True[ .-]?HD|\bATMOS(\b|\d)'
 description: ''
 tags:
 - Audio
+- TRaSH
 tests: []

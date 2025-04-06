@@ -1,4 +1,4 @@
-name: "SQP - Not FLAC"
+name: "SQP - FLAC"
 pattern: '\bFLAC(\b|\d)'
 description: ''
 tags:

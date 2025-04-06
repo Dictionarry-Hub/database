@@ -1,4 +1,4 @@
-name: "SQP - Not Basic Dolby Digital"
+name: "SQP - Basic Dolby Digital"
 pattern: '\bDD[^a-z+]|(?<!e-)\b(ac-?3)\b'
 description: ''
 tags:

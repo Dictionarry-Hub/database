@@ -1,4 +1,4 @@
-name: "SQP - Not DTS"
+name: "SQP - Basic DTS"
 pattern: '\bDTS(\b|\d)'
 description: ''
 tags:

@@ -1,0 +1,102 @@
+name: SQP - WEB Tier 01
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: SQP - WEBDL
+  negate: false
+  pattern: SQP - WEBDL
+  required: false
+  type: release_group
+- name: SQP - WEBRIP
+  negate: false
+  pattern: SQP - WEBRIP
+  required: false
+  type: release_group
+- name: SQP - ABBIE
+  negate: false
+  pattern: SQP - ABBIE
+  required: false
+  type: release_group
+- name: SQP - AJP69
+  negate: false
+  pattern: SQP - AJP69
+  required: false
+  type: release_group
+- name: SQP - APEX
+  negate: false
+  pattern: SQP - APEX
+  required: false
+  type: release_group
+- name: SQP - BLUTONiUM
+  negate: false
+  pattern: SQP - BLUTONiUM
+  required: false
+  type: release_group
+- name: SQP - CMRG
+  negate: false
+  pattern: SQP - CMRG
+  required: false
+  type: release_group
+- name: SQP - CRFW
+  negate: false
+  pattern: SQP - CRFW
+  required: false
+  type: release_group
+- name: SQP - CRUD
+  negate: false
+  pattern: SQP - CRUD
+  required: false
+  type: release_group
+- name: SQP - FLUX
+  negate: false
+  pattern: SQP - FLUX
+  required: false
+  type: release_group
+- name: SQP - GNOME
+  negate: false
+  pattern: SQP - GNOME
+  required: false
+  type: release_group
+- name: SQP - HONE
+  negate: false
+  pattern: SQP - HONE
+  required: false
+  type: release_group
+- name: SQP - KiNGS
+  negate: false
+  pattern: SQP - KiNGS
+  required: false
+  type: release_group
+- name: SQP - Kitsune
+  negate: false
+  pattern: SQP - Kitsune
+  required: false
+  type: release_group
+- name: SQP - NOSiViD
+  negate: false
+  pattern: SQP - NOSiViD
+  required: false
+  type: release_group
+- name: SQP - NTb
+  negate: false
+  pattern: SQP - NTb
+  required: false
+  type: release_group
+- name: SQP - NTG
+  negate: false
+  pattern: SQP - NTG
+  required: false
+  type: release_group
+- name: SQP - SiC
+  negate: false
+  pattern: SQP - SiC
+  required: false
+  type: release_group
+- name: SQP - TEPES
+  negate: false
+  pattern: SQP - TEPES
+  required: false
+  type: release_group
+tests: []

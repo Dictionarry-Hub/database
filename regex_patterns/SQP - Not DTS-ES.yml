@@ -1,0 +1,7 @@
+name: SQP - Not DTS-ES
+pattern: dts.?es
+description: ''
+tags: 
+- Audio
+- TRaSH
+tests: []

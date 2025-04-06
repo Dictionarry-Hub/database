@@ -1,0 +1,7 @@
+name: "SQP - BHDStudio"
+pattern: "^(BHDStudio)$"
+description: ''
+tags:
+- Release Group
+- TRaSH
+tests: []

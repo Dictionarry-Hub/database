@@ -1,5 +1,5 @@
-name: "SQP - Not DTS"
-pattern: '\bDTS(\b|\d)'
+name: "SQP - ATMOS2"
+pattern: '\bATMOS(\b|\d)'
 description: ''
 tags:
 - Audio

@@ -3,14 +3,29 @@ description:
 tags:
 - Audio
 conditions:
-- name: SQP - TrueHD
+- name: SQP - FLAC
   negate: false
-  pattern: SQP - TrueHD
+  pattern: SQP - FLAC
   required: true
   type: release_title
-- name: SQP - ATMOS
-  negate: false
-  pattern: SQP - ATMOS
+- name: SQP - Not PCM
+  negate: true
+  pattern: SQP - Not PCM
+  required: true
+  type: release_title
+- name: SQP - Not AAC
+  negate: true
+  pattern: SQP - Not AAC
+  required: true
+  type: release_title
+- name: SQP - Not DTS
+  negate: true
+  pattern: SQP - Not DTS
+  required: true
+  type: release_title
+- name: SQP - Not TrueHD/ATMOS1
+  negate: true
+  pattern: SQP - Not TrueHD/ATMOS1
   required: true
   type: release_title
 - name: SQP - Not Basic Dolby Digital
@@ -21,21 +36,6 @@ conditions:
 - name: SQP - Not Dolby Digital Plus
   negate: true
   pattern: SQP - Not Dolby Digital Plus
-  required: true
-  type: release_title
-- name: SQP - Not DTS
-  negate: true
-  pattern: SQP - Not DTS
-  required: true
-  type: release_title
-- name: SQP - Not DTS X
-  negate: true
-  pattern: SQP - Not DTS X
-  required: true
-  type: release_title
-- name: SQP - Not FLAC
-  negate: true
-  pattern: SQP - Not FLAC
   required: true
   type: release_title
 tests: []

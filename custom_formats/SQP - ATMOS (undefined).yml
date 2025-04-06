@@ -1,16 +1,16 @@
-name: SQP - DTS X
+name: SQP - ATMOS (undefined)
 description:
 tags:
 - Audio
 conditions:
-- name: SQP - DTS X
+- name: SQP - ATMOS2
   negate: false
-  pattern: SQP - DTS X
+  pattern: SQP - ATMOS2
   required: true
   type: release_title
-- name: SQP - Not Basic DTS
+- name: SQP - Not AAC
   negate: true
-  pattern: SQP - Not Basic DTS
+  pattern: SQP - Not AAC
   required: true
   type: release_title
 - name: SQP - Not Basic Dolby Digital
@@ -23,9 +23,9 @@ conditions:
   pattern: SQP - Not Dolby Digital Plus
   required: true
   type: release_title
-- name: SQP - Not TrueHD/ATMOS1
+- name: SQP - Not DTS
   negate: true
-  pattern: SQP - Not TrueHD/ATMOS1
+  pattern: SQP - Not DTS
   required: true
   type: release_title
 - name: SQP - Not FLAC
@@ -33,14 +33,19 @@ conditions:
   pattern: SQP - Not FLAC
   required: true
   type: release_title
-- name: SQP - Not AAC
-  negate: true
-  pattern: SQP - Not AAC
-  required: true
-  type: release_title
 - name: SQP - Not PCM
   negate: true
   pattern: SQP - Not PCM
+  required: true
+  type: release_title
+- name: SQP - Not RlsGrp (Atmos Only)
+  negate: true
+  pattern: SQP - Not RlsGrp (Atmos Only)
+  required: true
+  type: release_title
+- name: SQP - Not TrueHD
+  negate: true
+  pattern: SQP - Not TrueHD
   required: true
   type: release_title
 tests: []

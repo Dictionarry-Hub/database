@@ -1,0 +1,12 @@
+name: SQP - BHDStudio
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: SQP - BHDStudio
+  negate: false
+  pattern: SQP - BHDStudio
+  required: true
+  type: release_title
+tests: []

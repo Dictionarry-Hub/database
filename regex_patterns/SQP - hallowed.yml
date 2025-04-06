@@ -1,0 +1,7 @@
+name: "SQP - hallowed"
+pattern: "^(hallowed)$"
+description: ''
+tags:
+- Release Group
+- TRaSH
+tests: []

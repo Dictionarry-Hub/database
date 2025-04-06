@@ -1,4 +1,4 @@
-name: "SQP - Not Dolby Digital Plus"
+name: "SQP - Dolby Digital Plus1"
 pattern: '\bDD[P+]|\b(e[-_. ]?ac-?3)\b'
 description: ''
 tags:

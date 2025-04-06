@@ -1,31 +1,21 @@
-name: SQP - DTS X
+name: SQP - DD+
 description:
 tags:
 - Audio
 conditions:
-- name: SQP - DTS X
+- name: SQP - Dolby Digital Plus
   negate: false
-  pattern: SQP - DTS X
+  pattern: SQP - Dolby Digital Plus
   required: true
   type: release_title
-- name: SQP - Not Basic DTS
+- name: SQP - Not TrueHD/ATMOS2
   negate: true
-  pattern: SQP - Not Basic DTS
+  pattern: SQP - Not TrueHD/ATMOS2
   required: true
   type: release_title
-- name: SQP - Not Basic Dolby Digital
+- name: SQP - Not DTS
   negate: true
-  pattern: SQP - Not Basic Dolby Digital
-  required: true
-  type: release_title
-- name: SQP - Not Dolby Digital Plus
-  negate: true
-  pattern: SQP - Not Dolby Digital Plus
-  required: true
-  type: release_title
-- name: SQP - Not TrueHD/ATMOS1
-  negate: true
-  pattern: SQP - Not TrueHD/ATMOS1
+  pattern: SQP - Not DTS
   required: true
   type: release_title
 - name: SQP - Not FLAC

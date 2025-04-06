@@ -1,0 +1,7 @@
+name: "SQP - Not TrueHD/ATMOS2"
+pattern: '\b(True[ .-]?HD|ATMOS|DDPA)(\b|\d)'
+description: ''
+tags:
+- Audio
+- TRaSH
+tests: []
