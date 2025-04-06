@@ -49,9 +49,9 @@ conditions:
   required: false
   type: release_group
   pattern: SA89
-- name: sbR
+- name: SbR
   negate: false
   required: false
   type: release_group
-  pattern: sbR
+  pattern: SbR
 tests: []
