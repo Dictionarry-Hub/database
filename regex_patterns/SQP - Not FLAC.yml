@@ -1,0 +1,6 @@
+name: "SQP - Not FLAC"
+pattern: '\bFLAC(\b|\d)'
+description: ''
+tags:
+- Audio
+tests: []

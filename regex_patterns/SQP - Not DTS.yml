@@ -1,0 +1,6 @@
+name: "SQP - Not DTS"
+pattern: '\bDTS(\b|\d)'
+description: ''
+tags:
+- Audio
+tests: []

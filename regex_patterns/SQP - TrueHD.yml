@@ -1,0 +1,6 @@
+name: "SQP - TrueHD"
+pattern: 'True[ .-]?HD|W4NK3R|HQMUX'
+description: ''
+tags:
+- Audio
+tests: []

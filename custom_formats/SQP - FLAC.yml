@@ -1,0 +1,41 @@
+name: SQP - FLAC
+description:
+tags:
+- Audio
+conditions:
+- name: SQP - TrueHD
+  negate: false
+  pattern: SQP - TrueHD
+  required: true
+  type: release_title
+- name: SQP - ATMOS
+  negate: false
+  pattern: SQP - ATMOS
+  required: true
+  type: release_title
+- name: SQP - Not Basic Dolby Digital
+  negate: true
+  pattern: SQP - Not Basic Dolby Digital
+  required: true
+  type: release_title
+- name: SQP - Not Dolby Digital Plus
+  negate: true
+  pattern: SQP - Not Dolby Digital Plus
+  required: true
+  type: release_title
+- name: SQP - Not DTS
+  negate: true
+  pattern: SQP - Not DTS
+  required: true
+  type: release_title
+- name: SQP - Not DTS X
+  negate: true
+  pattern: SQP - Not DTS X
+  required: true
+  type: release_title
+- name: SQP - Not FLAC
+  negate: true
+  pattern: SQP - Not FLAC
+  required: true
+  type: release_title
+tests: []
