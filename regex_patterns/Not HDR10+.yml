@@ -1,0 +1,5 @@
+name: Not HDR10+
+pattern: \bHDR10(\+|P(lus)?\b)
+description: ''
+tags: []
+tests: []

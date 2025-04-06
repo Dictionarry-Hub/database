@@ -1,0 +1,20 @@
+name: DV HLG
+description:
+tags: []
+conditions:
+- name: DV HLG
+  negate: false
+  pattern: DV HLG
+  required: true
+  type: release_title
+- name: Not DV HDR10
+  negate: true
+  pattern: Not DV HDR10
+  required: true
+  type: release_title
+- name: Not DV SDR
+  negate: true
+  pattern: Not DV SDR
+  required: true
+  type: release_title
+tests: []

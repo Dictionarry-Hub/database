@@ -1,0 +1,6 @@
+name: 'DV HDR10'
+pattern: '^(?=.*\\b(DV|DoVi|Dolby[ .]?V(ision)?)\\b)(?=.*\\b((HDR10(?!(P(lus)?)\\b|\\+))|(HDR))\\b)'
+description: ''
+tags:
+- Release Group
+tests: []

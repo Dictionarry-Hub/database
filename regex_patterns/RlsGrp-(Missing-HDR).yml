@@ -1,0 +1,6 @@
+name: 'RlsGrp (Missing HDR)'
+pattern: '\\b(FraMeSToR|HQMUX|SiCFoI)\\b'
+description: ''
+tags:
+- Release Group
+tests: []

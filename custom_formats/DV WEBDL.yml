@@ -1,0 +1,35 @@
+name: DV (WEBDL)
+description:
+tags: []
+conditions:
+- name: Dolby Vision
+  negate: false
+  pattern: Dolby Vision
+  required: true
+  type: release_title
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Not RlsGrp
+  negate: true
+  pattern: Not RlsGrp
+  required: true
+  type: release_title
+- name: Not HDR
+  negate: true
+  pattern: Not HDR
+  required: true
+  type: release_title
+- name: Not Hulu
+  negate: true
+  pattern: Not Hulu
+  required: true
+  type: release_title
+tests: []
