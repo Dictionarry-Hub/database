@@ -1,6 +1,8 @@
 name: LQ (Release Title)
 description:
-tags: []
+tags: 
+- Release Group
+- TRaSH
 conditions:
 - name: 1XBET
   negate: false

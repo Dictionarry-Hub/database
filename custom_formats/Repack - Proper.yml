@@ -1,6 +1,8 @@
 name: Repack/Proper
 description:
-tags: []
+tags:
+- Flag
+- Repack
 conditions:
 - name: Repack
   negate: false
