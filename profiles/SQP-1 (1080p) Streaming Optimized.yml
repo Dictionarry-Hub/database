@@ -58,7 +58,7 @@ custom_formats:
   score: 7
 - name: Repack2
   score: 6
-- name: 2160p
+- name: 720p
   score: 5
 - name: Repack/Proper
   score: 5
