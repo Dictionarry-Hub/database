@@ -9,4 +9,14 @@ conditions:
   pattern: 3D
   required: true
   type: release_title
+- name: BluRay3D
+  negate: false
+  pattern: BluRay3D
+  required: false
+  type: release_title
+- name: BD3D
+  negate: false
+  pattern: BD3D
+  required: false
+  type: release_title
 tests: []

@@ -1,0 +1,57 @@
+name: SQP - WEB Tier 03
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: GNOMiSSiON
+  negate: false
+  pattern: GNOMiSSiON
+  required: false
+  type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
+  required: false
+  type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: SiGMA
+  negate: false
+  pattern: SiGMA
+  required: false
+  type: release_group
+- name: SLiGNOME
+  negate: false
+  pattern: SLiGNOME
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+tests: []

@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: '1XBET'
+pattern: '\\b(1XBET)\\b'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

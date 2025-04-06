@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'GalaxyRG'
+pattern: '\\b(GalaxyRG)\\b'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

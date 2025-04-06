@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'Will1869'
+pattern: '\\b(Will1869)\\b'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

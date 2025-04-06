@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: '10bit'
+pattern: '10[.-]?bit'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

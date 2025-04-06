@@ -1,0 +1,15 @@
+name: 10bit
+description:
+tags: []
+conditions:
+- name: 10bit
+  negate: false
+  pattern: 10bit
+  required: false
+  type: release_title
+- name: hi10p
+  negate: false
+  pattern: 10bit
+  required: false
+  type: release_title
+tests: []

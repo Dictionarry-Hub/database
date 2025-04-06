@@ -1,0 +1,72 @@
+name: SQP - WEB Tier 02
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: WEBDL
+  type: source
+  required: false
+  negate: false
+  source: web_dl
+- name: WEBRIP
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: dB
+  negate: false
+  required: false
+  pattern: dB
+  type: release_group
+- name: Flights
+  negate: false
+  required: false
+  pattern: Flights
+  type: release_group
+- name: MiU
+  negate: false
+  required: false
+  pattern: MiU
+  type: release_group
+- name: monkee
+  negate: false
+  required: false
+  pattern: monkee
+  type: release_group
+- name: MZABI
+  negate: false
+  required: false
+  pattern: MZABI
+  type: release_group
+- name: PHOENiX
+  negate: false
+  required: false
+  pattern: PHOENiX
+  type: release_group
+- name: playWEB
+  negate: false
+  required: false
+  pattern: playWEB
+  type: release_group
+- name: SbR
+  negate: false
+  required: false
+  pattern: SbR
+  type: release_group
+- name: SMURF
+  negate: false
+  required: false
+  pattern: SMURF
+  type: release_group
+- name: TOMMY
+  negate: false
+  required: false
+  pattern: TOMMY
+  type: release_group
+- name: XEBEC
+  negate: false
+  required: false
+  pattern: XEBEC
+  type: release_group
+tests: []

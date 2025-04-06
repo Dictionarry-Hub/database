@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'AZAZE'
+pattern: '^(AZAZE)$'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

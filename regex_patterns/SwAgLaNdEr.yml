@@ -1,5 +1,5 @@
-name: SwAgLaNdEr
-pattern: ^(SwAgLaNdEr)$
+name: 'SwAgLaNdEr'
+pattern: '^(SwAgLaNdEr)$'
 description: ''
 tags:
 - Release Group

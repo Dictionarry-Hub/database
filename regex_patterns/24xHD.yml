@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: '24xHD'
+pattern: '\b(24xHD)\b'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

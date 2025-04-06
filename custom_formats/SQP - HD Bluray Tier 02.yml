@@ -1,0 +1,57 @@
+name: SQP - HD Bluray Tier 02
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: BLURAY
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: EA
+  negate: false
+  required: false
+  type: release_group
+  pattern: EA
+- name: HiDt
+  negate: false
+  required: false
+  type: release_group
+  pattern: HiDt
+- name: HiSD
+  negate: false
+  required: false
+  type: release_group
+  pattern: HiSD
+- name: iFT
+  negate: false
+  required: false
+  type: release_group
+  pattern: iFT
+- name: NTb
+  negate: false
+  required: false
+  type: release_group
+  pattern: NTb
+- name: QOQ
+  negate: false
+  required: false
+  type: release_group
+  pattern: QOQ
+- name: SA89
+  negate: false
+  required: false
+  type: release_group
+  pattern: SA89
+- name: sbR
+  negate: false
+  required: false
+  type: release_group
+  pattern: sbR
+tests: []

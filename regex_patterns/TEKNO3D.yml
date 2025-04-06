@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'TEKNO3D'
+pattern: '\\b(TEKNO3D)\\b'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

@@ -1,5 +1,5 @@
-name: ROCCaT
-pattern: ^(ROCCaT)$
+name: 'ROCCaT'
+pattern: '^(ROCCaT)$'
 description: ''
 tags:
 - Release Group

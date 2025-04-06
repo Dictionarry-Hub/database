@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'tarunk9c'
+pattern: '^(tarunk9c)$'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

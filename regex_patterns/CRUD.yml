@@ -1,5 +1,5 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: "CRUD"
+pattern: "^(CRUD)$"
 description: ''
 tags:
 - Release Group

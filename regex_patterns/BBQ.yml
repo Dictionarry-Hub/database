@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'BBQ'
+pattern: '^(BBQ)$'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

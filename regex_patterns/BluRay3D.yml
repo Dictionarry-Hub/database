@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'BluRay3D'
+pattern: '\b(BluRay3D)\b'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: '41RGB'
+pattern: '^(41RGB)$'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

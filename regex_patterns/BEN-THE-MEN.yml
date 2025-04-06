@@ -1,0 +1,6 @@
+name: 'BEN THE MEN'
+pattern: '\\b(BEN[ ._-]THE[ ._-]MEN)\\b'
+description: ''
+tags:
+- Release Group
+tests: []

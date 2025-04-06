@@ -1,7 +1,6 @@
-name: "Kitsune"
-pattern: "^(Kitsune)$"
+name: 'VECTOR'
+pattern: '^(VECTOR)$'
 description: ''
 tags:
 - Release Group
-- TRaSH
 tests: []

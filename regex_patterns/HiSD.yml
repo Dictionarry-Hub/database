@@ -1,0 +1,6 @@
+name: 'HiSD'
+pattern: '^(HiSD)$'
+description: ''
+tags:
+- Release Group
+tests: []

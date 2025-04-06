@@ -1,0 +1,47 @@
+name: Generated Dynamic HDR
+description:
+tags:
+- Release Group
+- TRaSH
+conditions:
+- name: BiTOR
+  negate: false
+  pattern: BiTOR
+  required: false
+  type: release_group
+- name: DepraveD
+  negate: false
+  pattern: DepraveD
+  required: false
+  type: release_group
+- name: SasukeducK
+  negate: false
+  pattern: SasukeducK
+  required: false
+  type: release_group
+- name: tarunk9c
+  negate: false
+  pattern: tarunk9c
+  required: false
+  type: release_group
+- name: VD0N
+  negate: false
+  pattern: VD0N
+  required: false
+  type: release_group
+- name: VECTOR
+  negate: false
+  pattern: VECTOR
+  required: false
+  type: release_group
+- name: HDR10+
+  negate: false
+  pattern: HDR10+
+  required: false
+  type: release_title
+- name: DV
+  negate: false
+  pattern: DV
+  required: false
+  type: release_title
+tests: []

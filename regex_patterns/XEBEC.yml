@@ -1,5 +1,5 @@
 name: XEBEC
-pattern: (?<=^|[\s.-])XEBEC\b
+pattern: ^(XEBEC|4KBEC|CEBEX)$
 description: ''
 tags:
 - Release Group
