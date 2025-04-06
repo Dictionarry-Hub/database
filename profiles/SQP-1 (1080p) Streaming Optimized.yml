@@ -107,4 +107,5 @@ upgrade_until:
   id: 10
   name: Bluray-1080p
   description: 1080p Blu-ray video encoded with lossy compression
-language: must_english
+language: must_original
+
