@@ -1,6 +1,7 @@
 name: BCORE
 description:
-tags: []
+tags: 
+- Streaming Service
 conditions:
 - name: Bravia Core
   negate: false
