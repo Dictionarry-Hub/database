@@ -1,4 +1,4 @@
-name: "GNOME"
+name: 'GNOME'
 pattern: "^(GNOME)$"
 description: ''
 tags:
