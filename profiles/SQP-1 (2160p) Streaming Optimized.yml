@@ -1,0 +1,149 @@
+name: SQP-1 (2160p) Streaming Optimized
+description: '- You run a second "Streaming Optimized" instance of Radarr and want
+  both versions, or you just want streaming-optimized 1080p overall.
+
+  - You want fewer upgrades than with SQP-1 because the WEBDL is often watched before
+  the BHDStudio Blu-ray is released.
+
+  - You desire good compatibility across various playback devices without compromising
+  release quality.
+
+  - You want little to no transcoding for low-powered devices or remote streaming.
+
+  - Smaller file sizes and bitrates ( the same quality as you would get with official
+  streaming services).
+
+  - Easier to obtain even without access to top-tier trackers or indexers.
+
+  - You prefer Dolby Digital Plus (Atmos) audio over Dolby Digital, as WEB-DLs commonly
+  come with Dolby Digital Plus (Atmos) audio.
+
+  - You prefer IMAX-Enhanced.
+
+  - You prefer included embedded subtitles.
+
+  - More cross-seed hits, as WEBDL is more widespread over the trackers.
+
+
+  **BHDStudio release HQ 1080p Encodes with the following features:**
+
+
+  -Streaming optimized (Optimized for PLEX, emby, Jellyfin, and other streaming platforms)
+
+  -AC3 Audio (Downmixed Lossless audio track to Dolby Digital 5.1 for optimal compatibility)
+
+  -Small sizes
+
+  -Good quality
+
+
+  If you don''t have access to the top tier indexers, you won''t have access to all
+  BHDStudio releases. WEB releases, however, have much better general availability.
+
+
+  **hallowed release HQ 1080p encodes with the following features:**
+
+
+  - Highly streamable releases with some more modern optimizations:
+
+  - Dolby Digital Plus multichannel or AAC mono/stereo audio (converted from lossless
+  audio track)
+
+  - Included English SRT subtitles, as well as a selection of PGS subtitles in English
+  and other languages
+
+  - Dual audio for foreign films
+
+  - Smaller sizes
+
+  - Good quality
+
+
+  hallowed''s releases have very good general availability.'
+tags:
+- TRaSH
+- 2160p
+- Streaming Optimized
+upgradesAllowed: true
+minCustomFormatScore: 1000
+upgradeUntilScore: 10000
+minScoreIncrement: 1000
+custom_formats:
+- name: SQP - WEB Tier 01
+  score: 1700
+- name: SQP - WEB Tier 02
+  score: 1650
+- name: SQP - WEB Tier 03
+  score: 1600
+- name: SQP - HD Bluray Tier 01
+  score: 1100
+- name: SQP - HD Bluray Tier 02
+  score: 1050
+- name: SQP - HD Bluray Tier 03
+  score: 1000
+- name: SQP - hallowed
+  score: 600
+- name: SQP - BHDStudio
+  score: 550
+- name: SQP - DD+ ATMOS
+  score: 135
+- name: SQP - DD+
+  score: 125
+- name: SQP - DD
+  score: 115
+- name: 1080p
+  score: 50
+- name: Criterion Channel
+  score: 20
+- name: Movies Anywhere [1080p]
+  score: 20
+- name: Repack3
+  score: 7
+- name: Repack2
+  score: 6
+- name: 720p
+  score: 5
+- name: Repack/Proper
+  score: 5
+- name: 10bit
+  score: -10000
+- name: 3D
+  score: -10000
+- name: AV1
+  score: -10000
+- name: BCORE
+  score: -10000
+- name: BR-DISK
+  score: -10000
+- name: Extras
+  score: -10000
+- name: Generated Dynamic HDR
+  score: -10000
+- name: LQ
+  score: -10000
+- name: LQ (Release Title)
+  score: -10000
+- name: SQP - DTS X
+  score: -10000
+- name: SQP - DTS-HD HRA
+  score: -10000
+- name: SQP - DTS-HD MA
+  score: -10000
+- name: SQP - TrueHD
+  score: -10000
+- name: SQP - TrueHD ATMOS
+  score: -10000
+- name: SQP - x265 (HD)
+  score: -10000
+qualities:
+- id: 10
+  name: Bluray-1080p
+- id: 9
+  name: WEBDL-1080p
+- id: 11
+  name: WEBRip-1080p
+upgrade_until:
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
+language: must_original
