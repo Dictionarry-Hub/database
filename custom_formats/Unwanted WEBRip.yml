@@ -2,7 +2,6 @@ name: Unwanted WEBRip
 description: Matches WEBRip releases that are not from a quality tier
 tags:
 - Release Group
-- 1080p
 - Unwanted
 conditions:
 - name: WEBRip
@@ -21,10 +20,10 @@ conditions:
   required: true
   type: release_group
 - name: EbP
-  type: release_group
-  required: true
   negate: true
   pattern: EbP
+  required: true
+  type: release_group
 - name: c0kE
   negate: true
   pattern: c0kE
