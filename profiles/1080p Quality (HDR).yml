@@ -36,31 +36,31 @@ custom_formats:
 - name: 720p WEBRip
   score: 400
 - name: 1080p Quality Tier 1
-  score: 300
+  score: 310
 - name: 1080p Quality Tier 2
-  score: 290
+  score: 300
 - name: 1080p Quality Tier 3
-  score: 280
+  score: 290
 - name: 1080p Quality Tier 4
-  score: 270
+  score: 280
 - name: 1080p Quality Tier 5
-  score: 260
+  score: 270
 - name: 1080p Balanced Tier 1
   score: 230
 - name: 1080p Balanced Tier 2
   score: 220
+- name: 720p Quality Tier 1
+  score: 210
 - name: 480p WEB-DL
   score: 200
-- name: 720p Quality Tier 1
-  score: 200
 - name: 720p Quality Tier 2
-  score: 190
+  score: 200
 - name: 720p Quality Tier 3
-  score: 180
+  score: 190
 - name: 720p Quality Tier 4
-  score: 170
+  score: 180
 - name: 720p Quality Tier 5
-  score: 160
+  score: 170
 - name: DVD Remux
   score: 130
 - name: DVD
