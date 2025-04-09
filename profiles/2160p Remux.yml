@@ -124,17 +124,19 @@ custom_formats:
   score: -9999
 - name: UHDBits
   score: -9999
+- name: Unwanted Release Groups
+  score: -9999
 - name: Unwanted Remux Groups
   score: -9999
 - name: Upscaled
   score: -9999
 - name: VVC
   score: -9999
-- name: x265 (WEB-DL)
-  score: -9999
 - name: x264
   score: -9999
 - name: x265
+  score: -9999
+- name: x265 (WEB-DL)
   score: -9999
 qualities:
 - id: 3

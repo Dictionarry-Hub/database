@@ -1,0 +1,6 @@
+name: PiRaTeS
+pattern: (?<=^|[\s.-])PiRaTeS\b
+description: ''
+tags:
+- Release Group
+tests: []

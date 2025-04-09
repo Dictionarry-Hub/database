@@ -1,0 +1,17 @@
+name: Unwanted Release Groups
+description: Matches Release Groups that are Banned
+tags:
+- Release Group
+- Unwanted
+conditions:
+- name: d3g
+  negate: false
+  pattern: d3g
+  required: true
+  type: release_group
+- name: PiRaTeS
+  type: release_group
+  required: true
+  negate: false
+  pattern: PiRaTeS
+tests: []

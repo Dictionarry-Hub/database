@@ -131,6 +131,8 @@ custom_formats:
   score: -9999
 - name: Remux
   score: -9999
+- name: Unwanted Release Groups
+  score: -9999
 - name: Unwanted WEBRip
   score: -9999
 - name: Upscaled
