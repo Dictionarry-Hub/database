@@ -8,6 +8,21 @@ conditions:
   pattern: Full Disc
   required: true
   type: release_title
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Not WEBRip
+  negate: true
+  required: true
+  source: webrip
+  type: source
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
 - name: Not x264
   negate: true
   pattern: x264
@@ -16,11 +31,6 @@ conditions:
 - name: Not x265
   negate: true
   pattern: x265
-  required: true
-  type: release_title
-- name: Not Remux
-  negate: true
-  pattern: Remux
   required: true
   type: release_title
 tests:
