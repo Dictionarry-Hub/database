@@ -9,99 +9,9 @@ conditions:
   required: true
   source: webrip
   type: source
-- name: DON
+- name: AJP69
   negate: true
-  pattern: DON
-  required: true
-  type: release_group
-- name: D-Z0N3
-  negate: true
-  pattern: D-Z0N3
-  required: true
-  type: release_group
-- name: EbP
-  negate: true
-  pattern: EbP
-  required: true
-  type: release_group
-- name: c0kE
-  negate: true
-  pattern: c0kE
-  required: true
-  type: release_group
-- name: CtrlHD
-  negate: true
-  pattern: CtrlHD
-  required: true
-  type: release_group
-- name: Geek
-  negate: true
-  pattern: Geek
-  required: true
-  type: release_group
-- name: HiFi
-  negate: true
-  pattern: HiFi
-  required: true
-  type: release_group
-- name: TayTo
-  negate: true
-  pattern: TayTo
-  required: true
-  type: release_group
-- name: VietHD
-  negate: true
-  pattern: VietHD
-  required: true
-  type: release_group
-- name: ZQ
-  negate: true
-  pattern: ZQ
-  required: true
-  type: release_group
-- name: ZoroSenpai
-  negate: true
-  pattern: ZoroSenpai
-  required: true
-  type: release_group
-- name: CRiSC
-  negate: true
-  pattern: CRiSC
-  required: true
-  type: release_group
-- name: decibeL
-  negate: true
-  pattern: decibeL
-  required: true
-  type: release_group
-- name: FoRM
-  negate: true
-  pattern: FoRM
-  required: true
-  type: release_group
-- name: HiDt
-  negate: true
-  pattern: HiDt
-  required: true
-  type: release_group
-- name: HiP
-  negate: true
-  pattern: HiP
-  required: true
-  type: release_group
-- name: iFT
-  negate: true
-  pattern: iFT
-  required: true
-  type: release_group
-- name: SA89
-  negate: true
-  pattern: SA89
-  required: true
-  type: release_group
-- name: WMING
-  negate: true
-  pattern: WMING
+  pattern: AJP69
   required: true
   type: release_group
 - name: BMF
@@ -109,44 +19,14 @@ conditions:
   pattern: BMF
   required: true
   type: release_group
-- name: de[42]
-  negate: true
-  pattern: de[42]
-  required: true
-  type: release_group
-- name: HDMaNiAcS
-  negate: true
-  pattern: HDMaNiAcS
-  required: true
-  type: release_group
-- name: IDE
-  negate: true
-  pattern: IDE
-  required: true
-  type: release_group
-- name: LolHD
-  negate: true
-  pattern: LolHD
-  required: true
-  type: release_group
-- name: NCmt
-  negate: true
-  pattern: NCmt
-  required: true
-  type: release_group
-- name: NTb
-  negate: true
-  pattern: NTb
-  required: true
-  type: release_group
-- name: AJP69
-  negate: true
-  pattern: AJP69
-  required: true
-  type: release_group
 - name: BV
   negate: true
   pattern: BV
+  required: true
+  type: release_group
+- name: c0kE
+  negate: true
+  pattern: c0kE
   required: true
   type: release_group
 - name: Chotab
@@ -159,9 +39,19 @@ conditions:
   pattern: CJ
   required: true
   type: release_group
+- name: CRiSC
+  negate: true
+  pattern: CRiSC
+  required: true
+  type: release_group
 - name: CRX
   negate: true
   pattern: CRX
+  required: true
+  type: release_group
+- name: CtrlHD
+  negate: true
+  pattern: CtrlHD
   required: true
   type: release_group
 - name: Dariush
@@ -169,9 +59,24 @@ conditions:
   pattern: Dariush
   required: true
   type: release_group
-- name: E.N.D
+- name: de[42]
   negate: true
-  pattern: E.N.D
+  pattern: de[42]
+  required: true
+  type: release_group
+- name: decibeL
+  negate: true
+  pattern: decibeL
+  required: true
+  type: release_group
+- name: DON
+  negate: true
+  pattern: DON
+  required: true
+  type: release_group
+- name: D-Z0N3
+  negate: true
+  pattern: D-Z0N3
   required: true
   type: release_group
 - name: E1
@@ -179,9 +84,19 @@ conditions:
   pattern: E1
   required: true
   type: release_group
+- name: EbP
+  negate: true
+  pattern: EbP
+  required: true
+  type: release_group
 - name: EDPH
   negate: true
   pattern: EDPH
+  required: true
+  type: release_group
+- name: E.N.D
+  negate: true
+  pattern: E.N.D
   required: true
   type: release_group
 - name: ESiR
@@ -199,6 +114,11 @@ conditions:
   pattern: FilmHD
   required: true
   type: release_group
+- name: FoRM
+  negate: true
+  pattern: FoRM
+  required: true
+  type: release_group
 - name: FraMeSToR
   negate: true
   pattern: FraMeSToR
@@ -214,6 +134,11 @@ conditions:
   pattern: GALAXY
   required: true
   type: release_group
+- name: Geek
+  negate: true
+  pattern: Geek
+  required: true
+  type: release_group
 - name: GS88
   negate: true
   pattern: GS88
@@ -227,6 +152,36 @@ conditions:
 - name: hdalx
   negate: true
   pattern: hdalx
+  required: true
+  type: release_group
+- name: HDMaNiAcS
+  negate: true
+  pattern: HDMaNiAcS
+  required: true
+  type: release_group
+- name: HiDt
+  negate: true
+  pattern: HiDt
+  required: true
+  type: release_group
+- name: HiFi
+  negate: true
+  pattern: HiFi
+  required: true
+  type: release_group
+- name: HiP
+  negate: true
+  pattern: HiP
+  required: true
+  type: release_group
+- name: IDE
+  negate: true
+  pattern: IDE
+  required: true
+  type: release_group
+- name: iFT
+  negate: true
+  pattern: iFT
   required: true
   type: release_group
 - name: iON
@@ -249,6 +204,11 @@ conditions:
   pattern: LiNG
   required: true
   type: release_group
+- name: LolHD
+  negate: true
+  pattern: LolHD
+  required: true
+  type: release_group
 - name: LoRD
   negate: true
   pattern: LoRD
@@ -264,9 +224,19 @@ conditions:
   pattern: MTeam
   required: true
   type: release_group
+- name: NCmt
+  negate: true
+  pattern: NCmt
+  required: true
+  type: release_group
 - name: nmd
   negate: true
   pattern: nmd
+  required: true
+  type: release_group
+- name: NTb
+  negate: true
+  pattern: NTb
   required: true
   type: release_group
 - name: NyHD
@@ -314,6 +284,11 @@ conditions:
   pattern: rttr
   required: true
   type: release_group
+- name: SA89
+  negate: true
+  pattern: SA89
+  required: true
+  type: release_group
 - name: SaNcTi
   negate: true
   pattern: SaNcTi
@@ -334,6 +309,11 @@ conditions:
   pattern: SOP
   required: true
   type: release_group
+- name: TayTo
+  negate: true
+  pattern: TayTo
+  required: true
+  type: release_group
 - name: TBB
   negate: true
   pattern: TBB
@@ -342,6 +322,11 @@ conditions:
 - name: TDD
   negate: true
   pattern: TDD
+  required: true
+  type: release_group
+- name: VietHD
+  negate: true
+  pattern: VietHD
   required: true
   type: release_group
 - name: VLAD
@@ -354,6 +339,11 @@ conditions:
   pattern: W4NK3R
   required: true
   type: release_group
+- name: WMING
+  negate: true
+  pattern: WMING
+  required: true
+  type: release_group
 - name: xander
   negate: true
   pattern: xander
@@ -362,6 +352,16 @@ conditions:
 - name: ZIMBO
   negate: true
   pattern: ZIMBO
+  required: true
+  type: release_group
+- name: ZQ
+  negate: true
+  pattern: ZQ
+  required: true
+  type: release_group
+- name: ZoroSenpai
+  negate: true
+  pattern: ZoroSenpai
   required: true
   type: release_group
 tests: []
