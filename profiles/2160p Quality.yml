@@ -26,29 +26,29 @@ custom_formats:
 - name: 1080p WEB-DL
   score: 900
 - name: 1080p Bluray
-  score: 710
+  score: 700
 - name: 1080p WEBRip
   score: 700
 - name: 720p WEB-DL
   score: 500
 - name: 2160p Quality Tier 1
-  score: 410
-- name: 720p Bluray
-  score: 410
+  score: 430
 - name: 2160p Quality Tier 2
+  score: 420
+- name: 2160p Quality Tier 3
+  score: 410
+- name: 2160p Quality Tier 4
+  score: 400
+- name: 720p Bluray
   score: 400
 - name: 720p WEBRip
   score: 400
-- name: 2160p Quality Tier 3
-  score: 390
-- name: 2160p Quality Tier 4
-  score: 380
 - name: 2160p Quality Tier 5
-  score: 370
+  score: 390
 - name: 2160p Quality Tier 6
-  score: 360
+  score: 380
 - name: 2160p Balanced Tier 1
-  score: 330
+  score: 340
 - name: 2160p Balanced Tier 2
   score: 320
 - name: 1080p Quality Tier 1
@@ -62,9 +62,9 @@ custom_formats:
 - name: 1080p Quality Tier 5
   score: 260
 - name: 1080p Balanced Tier 1
-  score: 220
+  score: 230
 - name: 1080p Balanced Tier 2
-  score: 210
+  score: 220
 - name: 480p WEB-DL
   score: 200
 - name: 720p Quality Tier 1
@@ -177,19 +177,21 @@ custom_formats:
   score: -9999
 - name: UHDBits
   score: -9999
+- name: Unwanted WEBRip
+  score: -9999
 - name: Unwanted x265 Groups
   score: -9999
 - name: Upscaled
   score: -9999
 - name: VVC
   score: -9999
-- name: x265 (WEB-DL)
-  score: -9999
 - name: x264 (2160p)
   score: -9999
 - name: x265 (1080p)
   score: -9999
 - name: x265 (Missing)
+  score: -9999
+- name: x265 (WEB-DL)
   score: -9999
 qualities:
 - id: -1

@@ -30,7 +30,7 @@ custom_formats:
 - name: 720p WEB-DL
   score: 500
 - name: 720p Bluray
-  score: 410
+  score: 400
 - name: 720p WEBRip
   score: 400
 - name: 480p WEB-DL
@@ -131,15 +131,17 @@ custom_formats:
   score: -9999
 - name: Remux
   score: -9999
+- name: Unwanted WEBRip
+  score: -9999
 - name: Upscaled
   score: -9999
 - name: VVC
   score: -9999
-- name: x265 (WEB-DL)
-  score: -9999
 - name: x265
   score: -9999
 - name: x265 (Missing)
+  score: -9999
+- name: x265 (WEB-DL)
   score: -9999
 qualities:
 - id: -1
