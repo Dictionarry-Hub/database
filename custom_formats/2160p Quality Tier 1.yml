@@ -15,21 +15,6 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: DON
-  negate: false
-  pattern: DON
-  required: false
-  type: release_group
-- name: DEPTH
-  negate: false
-  pattern: DEPTH
-  required: false
-  type: release_group
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
 - name: b0mbardiers
   negate: false
   pattern: b0mbardiers
@@ -38,6 +23,21 @@ conditions:
 - name: CtrlHD
   negate: false
   pattern: CtrlHD
+  required: false
+  type: release_group
+- name: DEPTH
+  negate: false
+  pattern: DEPTH
+  required: false
+  type: release_group
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
   required: false
   type: release_group
 - name: PTer

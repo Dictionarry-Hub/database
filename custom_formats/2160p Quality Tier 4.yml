@@ -20,14 +20,9 @@ conditions:
   pattern: 4KDVS
   required: false
   type: release_group
-- name: TDD
+- name: BlzT
   negate: false
-  pattern: TDD
-  required: false
-  type: release_group
-- name: NCmt
-  negate: false
-  pattern: NCmt
+  pattern: BlzT
   required: false
   type: release_group
 - name: IAMABLE
@@ -35,19 +30,24 @@ conditions:
   pattern: IAMABLE
   required: false
   type: release_group
-- name: BlzT
+- name: iFT
   negate: false
-  pattern: BlzT
+  pattern: iFT
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: TDD
+  negate: false
+  pattern: TDD
   required: false
   type: release_group
 - name: WATCHABLE
   negate: false
   pattern: WATCHABLE
-  required: false
-  type: release_group
-- name: iFT
-  negate: false
-  pattern: iFT
   required: false
   type: release_group
 tests: []

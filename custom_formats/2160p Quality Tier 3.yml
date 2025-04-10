@@ -15,9 +15,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: JustWatch
+- name: Chotab
   negate: false
-  pattern: JustWatch
+  pattern: Chotab
   required: false
   type: release_group
 - name: DEFLATE
@@ -25,19 +25,19 @@ conditions:
   pattern: DEFLATE
   required: false
   type: release_group
+- name: JustWatch
+  negate: false
+  pattern: JustWatch
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
 - name: REBORN
   negate: false
   pattern: REBORN
-  required: false
-  type: release_group
-- name: SURCODE
-  negate: false
-  pattern: SURCODE
-  required: false
-  type: release_group
-- name: Chotab
-  negate: false
-  pattern: Chotab
   required: false
   type: release_group
 - name: SPHD
@@ -45,9 +45,9 @@ conditions:
   pattern: SPHD
   required: false
   type: release_group
-- name: Kitsune
+- name: SURCODE
   negate: false
-  pattern: Kitsune
+  pattern: SURCODE
   required: false
   type: release_group
 - name: TnP
