@@ -1,5 +1,5 @@
-name: LAMA
-pattern: (?<=^|[\s.-])LAMA\b
+name: BOLS
+pattern: (?<=^|[\s.-])BOLS\b
 description: Banned for Retagging
 tags:
 - Release Group

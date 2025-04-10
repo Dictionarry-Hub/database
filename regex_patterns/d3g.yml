@@ -1,6 +1,6 @@
 name: d3g
 pattern: (?<=^|[\s.-])d3g\b
-description: ''
+description: Banned for LQ and various encode issues.
 tags:
 - Release Group
-tests: null
+tests: []

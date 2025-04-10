@@ -3,6 +3,7 @@ pattern: \b(LEGi0N|FGT|RARBG)\b
 description: Matches groups that add multiple audio tracks to remuxes
 tags:
 - Release Group
+- Unwanted
 tests:
 - expected: true
   id: 3

@@ -4,14 +4,59 @@ tags:
 - Release Group
 - Unwanted
 conditions:
+- name: AROMA
+  negate: false
+  pattern: AROMA
+  required: false
+  type: release_group
+- name: BOLS
+  negate: false
+  pattern: BOLS
+  required: false
+  type: release_group
 - name: d3g
   negate: false
   pattern: d3g
-  required: true
+  required: false
+  type: release_group
+- name: DepraveD
+  type: release_group
+  required: false
+  negate: false
+  pattern: DepraveD
+- name: edge2020
+  negate: false
+  pattern: edge2020
+  required: false
+  type: release_group
+- name: FGT
+  negate: false
+  pattern: FGT
+  required: false
+  type: release_group
+- name: LAMA
+  negate: false
+  pattern: LAMA
+  required: false
+  type: release_group
+- name: OEPlus
+  negate: false
+  pattern: OEPlus
+  required: false
   type: release_group
 - name: PiRaTeS
-  type: release_group
-  required: true
   negate: false
   pattern: PiRaTeS
+  required: false
+  type: release_group
+- name: TEKNO3D
+  negate: false
+  pattern: TEKNO3D
+  required: false
+  type: release_group
+- name: Telly
+  negate: false
+  pattern: Telly
+  required: false
+  type: release_group
 tests: []
