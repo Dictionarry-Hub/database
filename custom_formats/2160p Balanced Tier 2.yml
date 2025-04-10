@@ -15,14 +15,14 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: hallowed
-  negate: false
-  pattern: hallowed
-  required: false
-  type: release_group
 - name: BHDStudio
   negate: false
   pattern: BHDStudio
+  required: false
+  type: release_group
+- name: hallowed
+  negate: false
+  pattern: hallowed
   required: false
   type: release_group
 tests:
