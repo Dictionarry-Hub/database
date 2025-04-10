@@ -16,9 +16,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: HiDt
+- name: CRiSC
   negate: false
-  pattern: HiDt
+  pattern: CRiSC
   required: false
   type: release_group
 - name: CtrlHD
@@ -26,24 +26,9 @@ conditions:
   pattern: CtrlHD
   required: false
   type: release_group
-- name: VietHD
+- name: HiDt
   negate: false
-  pattern: VietHD
-  required: false
-  type: release_group
-- name: CRiSC
-  negate: false
-  pattern: CRiSC
-  required: false
-  type: release_group
-- name: TayTo
-  negate: false
-  pattern: TayTo
-  required: false
-  type: release_group
-- name: SbR
-  negate: false
-  pattern: SbR
+  pattern: HiDt
   required: false
   type: release_group
 - name: HiFi
@@ -54,6 +39,21 @@ conditions:
 - name: IDE
   negate: false
   pattern: IDE
+  required: false
+  type: release_group
+- name: SbR
+  negate: false
+  pattern: SbR
+  required: false
+  type: release_group
+- name: TayTo
+  negate: false
+  pattern: TayTo
+  required: false
+  type: release_group
+- name: VietHD
+  negate: false
+  pattern: VietHD
   required: false
   type: release_group
 - name: ZQ

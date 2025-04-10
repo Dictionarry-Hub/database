@@ -16,11 +16,36 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: Dariush
+  type: release_group
+  required: false
+  negate: false
+  pattern: Dariush
+- name: D-ZON3
+  type: release_group
+  required: false
+  negate: false
+  pattern: D-Z0N3
 - name: EA
   negate: false
   pattern: EA
   required: false
   type: release_group
+- name: FoRM
+  type: release_group
+  required: false
+  negate: false
+  pattern: FoRM
+- name: NTb
+  type: release_group
+  required: false
+  negate: false
+  pattern: NTb
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
 - name: TDD
   negate: false
   pattern: TDD

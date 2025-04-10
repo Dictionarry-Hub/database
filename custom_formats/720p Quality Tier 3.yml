@@ -16,11 +16,6 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: TBB
-  negate: false
-  pattern: TBB
-  required: false
-  type: release_group
 - name: BMF
   negate: false
   pattern: BMF
@@ -31,19 +26,24 @@ conditions:
   pattern: Geek
   required: false
   type: release_group
-- name: NCmt
-  negate: false
-  pattern: NCmt
-  required: false
-  type: release_group
 - name: LolHD
   negate: false
   pattern: LolHD
   required: false
   type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
 - name: Positive
   negate: false
   pattern: Positive
+  required: false
+  type: release_group
+- name: TBB
+  negate: false
+  pattern: TBB
   required: false
   type: release_group
 tests: []

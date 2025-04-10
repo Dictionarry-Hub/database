@@ -16,14 +16,14 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: EbP
-  negate: false
-  pattern: EbP
-  required: false
-  type: release_group
 - name: DON
   negate: false
   pattern: DON
+  required: false
+  type: release_group
+- name: EbP
+  negate: false
+  pattern: EbP
   required: false
   type: release_group
 tests: []
