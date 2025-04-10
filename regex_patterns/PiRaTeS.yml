@@ -1,6 +1,7 @@
 name: PiRaTeS
 pattern: (?<=^|[\s.-])PiRaTeS\b
-description: Banned for mislabeling WEB-DLs as WEBRips
+description: Banned for Mislabeling WEB-DLs as WEBRips
 tags:
 - Release Group
+- Unwanted
 tests: []

@@ -1,6 +1,7 @@
 name: edge2020
 pattern: (?<=^|[\s.-])edge2020\b
-description: ''
+description: Banned for LQ, Mislabeling, and Upscale
 tags:
 - Release Group
-tests: null
+- Unwanted
+tests: []

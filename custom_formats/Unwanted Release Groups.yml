@@ -9,6 +9,11 @@ conditions:
   pattern: AROMA
   required: false
   type: release_group
+- name: BiTOR
+  type: release_group
+  required: false
+  negate: false
+  pattern: BiTOR
 - name: BOLS
   negate: false
   pattern: BOLS
@@ -20,10 +25,10 @@ conditions:
   required: false
   type: release_group
 - name: DepraveD
-  type: release_group
-  required: false
   negate: false
   pattern: DepraveD
+  required: false
+  type: release_group
 - name: edge2020
   negate: false
   pattern: edge2020
@@ -34,6 +39,16 @@ conditions:
   pattern: FGT
   required: false
   type: release_group
+- name: Flights
+  type: release_group
+  required: false
+  negate: false
+  pattern: Flights
+- name: jennaortegaUHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: jennaortegaUHD
 - name: LAMA
   negate: false
   pattern: LAMA
@@ -49,6 +64,16 @@ conditions:
   pattern: PiRaTeS
   required: false
   type: release_group
+- name: SasukeducK
+  type: release_group
+  required: false
+  negate: false
+  pattern: SasukeducK
+- name: tarunk9c
+  type: release_group
+  required: false
+  negate: false
+  pattern: tarunk9c
 - name: TEKNO3D
   negate: false
   pattern: TEKNO3D
@@ -59,4 +84,14 @@ conditions:
   pattern: Telly
   required: false
   type: release_group
+- name: VECTOR
+  type: release_group
+  required: false
+  negate: false
+  pattern: VECTOR
+- name: VisionXpert
+  type: release_group
+  required: false
+  negate: false
+  pattern: VisionXpert
 tests: []

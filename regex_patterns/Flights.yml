@@ -1,5 +1,5 @@
-name: DepraveD
-pattern: (?<=^|[\s.-])DepraveD\b
+name: Flights
+pattern: (?<=^|[\s.-])Flights\b
 description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
