@@ -124,8 +124,6 @@ custom_formats:
   score: -9999
 - name: x265
   score: -9999
-- name: x265 (WEB-DL)
-  score: -9999
 qualities:
 - id: 8
   name: Remux-1080p
