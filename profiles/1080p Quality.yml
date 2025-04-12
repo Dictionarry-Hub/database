@@ -127,8 +127,6 @@ custom_formats:
   score: -9999
 - name: h265
   score: -9999
-- name: h265 (Missing)
-  score: -9999
 - name: HDR
   score: -9999
 - name: HDR10
