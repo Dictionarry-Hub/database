@@ -20,9 +20,9 @@ upgradeUntilScore: 1400
 minScoreIncrement: 1
 custom_formats:
 - name: UHD Bluray
-  score: 1200
+  score: 1100
 - name: UHD Bluray (Missing)
-  score: 1200
+  score: 1100
 - name: 1080p WEB-DL
   score: 900
 - name: 1080p Bluray
