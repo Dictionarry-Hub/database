@@ -1,0 +1,166 @@
+name: 720p Quality
+description: "720p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/GPPi)\
+  \ to target **transparent** x264 720p encodes. \n- 5 Quality tiers prioritise encodes\
+  \ with high 720p GPPi scores, with fallback to 720p WEB-DLs\n- If no 720p release\
+  \ can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**"
+tags:
+- 720p
+- Quality Focused
+- Lossy Audio
+- x264
+- h264
+upgradesAllowed: true
+minCustomFormatScore: 100
+upgradeUntilScore: 800
+minScoreIncrement: 1
+custom_formats:
+- name: 720p WEB-DL
+  score: 500
+- name: 720p Bluray
+  score: 400
+- name: 720p WEBRip
+  score: 400
+- name: 720p Quality Tier 1
+  score: 210
+- name: 480p WEB-DL
+  score: 200
+- name: 720p Quality Tier 2
+  score: 200
+- name: 720p Quality Tier 3
+  score: 190
+- name: 720p Quality Tier 4
+  score: 180
+- name: 720p Quality Tier 5
+  score: 170
+- name: DVD Remux
+  score: 130
+- name: DVD
+  score: 120
+- name: 480p WEBRip
+  score: 100
+- name: 720p Golden Popcorn
+  score: 60
+- name: MA
+  score: 50
+- name: AMZN
+  score: 40
+- name: ATVP
+  score: 40
+- name: DSNP
+  score: 40
+- name: SD Golden Popcorn
+  score: 40
+- name: CRIT
+  score: 30
+- name: HMAX
+  score: 30
+- name: MAX
+  score: 30
+- name: NF
+  score: 30
+- name: PCOK
+  score: 30
+- name: PMTP
+  score: 30
+- name: SD Quality Tier 1
+  score: 30
+- name: STAN
+  score: 30
+- name: HULU
+  score: 20
+- name: iT
+  score: 20
+- name: ROKU
+  score: 20
+- name: SD Quality Tier 2
+  score: 20
+- name: Atmos
+  score: 10
+- name: Atmos (Missing)
+  score: 10
+- name: Special Edition
+  score: 10
+- name: Repack3
+  score: 8
+- name: Repack2
+  score: 7
+- name: Repack1
+  score: 6
+- name: 3D
+  score: -9999
+- name: AV1
+  score: -9999
+- name: B&W
+  score: -9999
+- name: Dolby Vision
+  score: -9999
+- name: Extras
+  score: -9999
+- name: Full Disc
+  score: -9999
+- name: Full Disc (Quality Match)
+  score: -9999
+- name: h265
+  score: -9999
+- name: HDR
+  score: -9999
+- name: HDR10
+  score: -9999
+- name: HDR10 (Missing)
+  score: -9999
+- name: HDR10 (Missing) (1080p)
+  score: -9999
+- name: HDR10+
+  score: -9999
+- name: Remux
+  score: -9999
+- name: Unwanted Release Groups
+  score: -9999
+- name: Unwanted WEBRip
+  score: -9999
+- name: Upscaled
+  score: -9999
+- name: VVC
+  score: -9999
+- name: x265
+  score: -9999
+- name: x265 (Missing)
+  score: -9999
+qualities:
+- id: -1
+  name: Transparent Capable
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+- id: -2
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: -3
+  name: SD Fallback
+  description: Standard Definition Fallbacks
+  qualities:
+  - id: 22
+    name: DVD
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+upgrade_until:
+  id: -1
+  name: Transparent Capable
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
+language: must_original
