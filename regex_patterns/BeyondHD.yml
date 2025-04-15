@@ -1,6 +1,6 @@
 name: BeyondHD
 pattern: (?<=^|[\s.-])BeyondHD\b
-description: ''
+description: Banned Due to only doing Full Discs
 tags:
 - Release Group
 tests:
