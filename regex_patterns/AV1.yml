@@ -1,5 +1,5 @@
 name: AV1
-pattern: \bAV1\b
+pattern: \b(AV1)\b
 description: AV1, or AOMedia Video 1, is a video coding format that compresses video
   files and streams while maintaining high quality.
 tags:
@@ -8,20 +8,22 @@ tests:
 - expected: true
   id: 1
   input: Arcane S01 2160p UHD BluRay DD 5.1 DV HDR AV1-TiZU
-  lastRun: '2024-12-13T07:04:08.442964'
+  lastRun: '2025-04-15T14:50:05.552676'
   matchSpan:
     end: 45
     start: 42
   matchedContent: AV1
-  matchedGroups: []
+  matchedGroups:
+  - AV1
   passes: true
 - expected: true
   id: 2
   input: Up.2009.2160p.Bluray.AC3.HDR.DV.AV1-TiZU.mkv
-  lastRun: '2024-12-13T07:04:08.442964'
+  lastRun: '2025-04-15T14:50:05.552676'
   matchSpan:
     end: 35
     start: 32
   matchedContent: AV1
-  matchedGroups: []
+  matchedGroups:
+  - AV1
   passes: true
