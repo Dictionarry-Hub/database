@@ -1,0 +1,6 @@
+name: VP9
+pattern: \bVP9\b
+description: VP9 is an open and royalty-free video coding format developed by Google
+tags:
+- Codec
+tests: []
