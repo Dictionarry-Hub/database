@@ -50,12 +50,14 @@ custom_formats:
   score: 50
 - name: AMZN
   score: 40
+- name: ATVP
+  score: 40
 - name: DSNP
   score: 40
 - name: HMAX
   score: 40
-- name: ATVP
-  score: 30
+- name: iT
+  score: 40
 - name: CRIT
   score: 30
 - name: Dolby Vision
@@ -70,15 +72,13 @@ custom_formats:
   score: 30
 - name: PMTP
   score: 30
-- name: STAN
-  score: 30
 - name: HDR10+
   score: 20
 - name: HULU
   score: 20
-- name: iT
-  score: 20
 - name: ROKU
+  score: 20
+- name: STAN
   score: 20
 - name: Atmos
   score: 10
