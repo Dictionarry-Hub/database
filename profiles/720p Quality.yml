@@ -132,23 +132,13 @@ qualities:
   description: All capable of being indistinguishable from source. WEB-DL included
     to not allow unknown encode to trump known WEB-DL.
   qualities:
-  - id: 10
-    name: Bluray-1080p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-- id: -2
-  name: 720p Fallback
-  description: Fallback to 720p when 1080p cannot be found.
-  qualities:
   - id: 13
     name: Bluray-720p
   - id: 14
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: -3
+- id: -2
   name: SD Fallback
   description: Standard Definition Fallbacks
   qualities:
