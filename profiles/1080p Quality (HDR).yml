@@ -20,17 +20,17 @@ upgradeUntilScore: 1400
 minScoreIncrement: 1
 custom_formats:
 - name: UHD Bluray
-  score: 1100
+  score: 1200
 - name: UHD Bluray (Missing)
-  score: 1100
+  score: 1200
 - name: 1080p WEB-DL
-  score: 900
+  score: 1000
 - name: 1080p Bluray
-  score: 700
+  score: 800
 - name: 1080p WEBRip
-  score: 700
+  score: 800
 - name: 720p WEB-DL
-  score: 500
+  score: 600
 - name: 720p Bluray
   score: 400
 - name: 720p WEBRip
@@ -49,26 +49,24 @@ custom_formats:
   score: 230
 - name: 1080p Balanced Tier 2
   score: 220
-- name: 720p Quality Tier 1
-  score: 210
 - name: 480p WEB-DL
   score: 200
-- name: 720p Quality Tier 2
-  score: 200
-- name: 720p Quality Tier 3
-  score: 190
-- name: 720p Quality Tier 4
-  score: 180
-- name: 720p Quality Tier 5
-  score: 170
 - name: DVD Remux
-  score: 130
-- name: DVD
-  score: 120
-- name: 480p WEBRip
+  score: 200
+- name: 720p Quality Tier 1
+  score: 110
+- name: 720p Quality Tier 2
   score: 100
+- name: DVD
+  score: 100
+- name: 720p Quality Tier 3
+  score: 90
 - name: 1080p Golden Popcorn
   score: 80
+- name: 720p Quality Tier 4
+  score: 80
+- name: 720p Quality Tier 5
+  score: 70
 - name: 720p Golden Popcorn
   score: 60
 - name: MA
@@ -128,7 +126,7 @@ custom_formats:
 - name: Repack1
   score: 6
 - name: x265
-  score: -800
+  score: -900
 - name: 2160p
   score: -9999
 - name: 3D
