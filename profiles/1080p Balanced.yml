@@ -166,6 +166,8 @@ qualities:
   qualities:
   - id: 22
     name: DVD
+  - id: 18
+    name: Bluray-480p
   - id: 19
     name: WEBDL-480p
   - id: 20
