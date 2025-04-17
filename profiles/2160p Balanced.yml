@@ -14,18 +14,18 @@ tags:
 - x264
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 100
-upgradeUntilScore: 1400
+minCustomFormatScore: 200
+upgradeUntilScore: 1600
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Balanced Tier 1
-  score: 1240
+  score: 1340
 - name: 2160p Balanced Tier 2
-  score: 1220
+  score: 1320
 - name: 2160p WEB-DL
-  score: 1200
+  score: 1300
 - name: 1080p WEB-DL
-  score: 1000
+  score: 1100
 - name: 1080p Bluray
   score: 800
 - name: 1080p WEBRip
@@ -33,39 +33,39 @@ custom_formats:
 - name: 720p WEB-DL
   score: 600
 - name: 720p Bluray
-  score: 400
+  score: 500
 - name: 720p WEBRip
-  score: 400
+  score: 500
 - name: 1080p Quality Tier 1
-  score: 310
+  score: 410
 - name: 1080p Quality Tier 2
-  score: 300
+  score: 400
 - name: 1080p Quality Tier 3
-  score: 290
+  score: 390
 - name: 1080p Quality Tier 4
-  score: 280
+  score: 380
 - name: 1080p Quality Tier 5
-  score: 270
+  score: 370
 - name: 1080p Balanced Tier 1
-  score: 230
+  score: 330
 - name: 1080p Balanced Tier 2
-  score: 220
+  score: 320
 - name: 480p WEB-DL
+  score: 300
+- name: 720p Quality Tier 1
+  score: 210
+- name: 720p Quality Tier 2
+  score: 200
+- name: DVD
   score: 200
 - name: DVD Remux
   score: 200
-- name: 720p Quality Tier 1
-  score: 110
-- name: 720p Quality Tier 2
-  score: 100
-- name: DVD
-  score: 100
 - name: 720p Quality Tier 3
-  score: 90
+  score: 190
 - name: 720p Quality Tier 4
-  score: 80
+  score: 180
 - name: 720p Quality Tier 5
-  score: 70
+  score: 170
 - name: MA
   score: 50
 - name: AMZN
