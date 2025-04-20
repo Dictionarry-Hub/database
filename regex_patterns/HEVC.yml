@@ -1,0 +1,46 @@
+name: HEVC
+pattern: \b(HEVC)\b
+description: 'An open source encoder that produces HEVC videos. '
+tags:
+- Encoder
+- Codec
+tests:
+- expected: true
+  id: 1
+  input: Aqua Teen Hunger Force (2000) S00E13 (480p DVD x265 SDR AAC 2.0 English -
+    r00t QxR)
+  lastRun: '2025-01-14T10:24:52.457470'
+  matchSpan:
+    end: 83
+    start: 0
+  matchedContent: Aqua Teen Hunger Force (2000) S00E13 (480p DVD x265 SDR AAC 2.0
+    English - r00t QxR)
+  matchedGroups:
+  - x265
+  - '265'
+  passes: true
+- expected: true
+  id: 2
+  input: Planet Earth II S01 REPACK UHD BluRay 2160p DD5.1 HDR x265-BHDStudio
+  lastRun: '2025-01-14T10:24:52.457470'
+  matchSpan:
+    end: 68
+    start: 0
+  matchedContent: Planet Earth II S01 REPACK UHD BluRay 2160p DD5.1 HDR x265-BHDStudio
+  matchedGroups:
+  - x265
+  - '265'
+  passes: true
+- expected: true
+  id: 3
+  input: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1 DoVi HDR10x265-c0kE
+  lastRun: '2025-01-14T10:24:52.457470'
+  matchSpan:
+    end: 83
+    start: 0
+  matchedContent: Spider-Man Across the Spider-Verse 2023 1080p UHD BluRay DDP7 1
+    DoVi HDR10x265-c0kE
+  matchedGroups:
+  - x265
+  - '265'
+  passes: true

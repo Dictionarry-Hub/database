@@ -1,8 +1,13 @@
-name: h265
+name: h265 (1080p)
 description: Matches 'h265' regex pattern.
 tags:
 - Codec
 conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
 - name: h265
   negate: false
   pattern: h265

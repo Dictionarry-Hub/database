@@ -125,6 +125,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: HEVC
+  score: -900
 - name: x265
   score: -900
 - name: 2160p
@@ -158,8 +160,6 @@ custom_formats:
 - name: VP9
   score: -9999
 - name: VVC
-  score: -9999
-- name: x265 (Missing)
   score: -9999
 qualities:
 - id: -1

@@ -108,6 +108,8 @@ custom_formats:
   score: -9999
 - name: HDR10+
   score: -9999
+- name: HEVC
+  score: -9999
 - name: UHDBits
   score: -9999
 - name: Unwanted Release Groups
