@@ -1,5 +1,5 @@
 name: STAN
-description: Matches 'Amazon Prime' WEB-DLs. Negates any encodes.
+description: Matches 'STAN' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
@@ -22,38 +22,19 @@ conditions:
 tests:
 - conditionResults:
   - matches: true
-    name: AMZN Regex
+    name: STAN Regex
     negate: false
-    pattern: Amazon Prime
-    required: true
-    type: release_title
-  - matches: true
-    name: x265
-    negate: true
-    pattern: x265
+    pattern: Stan
     required: false
     type: release_title
-  expected: false
+  - matches: false
+    name: STAN Rename Regex
+    negate: false
+    pattern: Stan Rename
+    required: false
+    type: release_title
+  expected: true
   id: 1
-  input: The Bad Guys (2022) (1080p AMZN Webrip x265 10bit EAC3 5 1 - ArcX)[TAoE]
-  lastRun: '2025-01-14T09:45:16.007149'
-  passes: true
-- conditionResults:
-  - matches: true
-    name: AMZN Regex
-    negate: false
-    pattern: Amazon Prime
-    required: true
-    type: release_title
-  - matches: true
-    name: x265
-    negate: true
-    pattern: x265
-    required: false
-    type: release_title
-  expected: false
-  id: 2
-  input: Top Gun Maverick (2022) IMAX (1080p AMZN WEB-DL x265 SDR DDP Atmos 5.1 English
-    - Goki TAoE)
-  lastRun: '2025-01-14T09:45:16.007149'
+  input: Scrublands S02 2160p STAN WEB-DL DD+ 5.1 Atmos H.265-RAWR
+  lastRun: '2025-04-21T20:26:28.890603'
   passes: true
