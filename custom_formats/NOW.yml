@@ -1,0 +1,40 @@
+name: NOW
+description: Matches 'Now' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: NOW Regex
+  negate: false
+  pattern: Now
+  required: false
+  type: release_title
+- name: NOW Rename Regex
+  negate: false
+  pattern: Now Rename
+  required: false
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests:
+- conditionResults:
+  - matches: true
+    name: NOW Regex
+    negate: false
+    pattern: Now
+    required: false
+    type: release_title
+  - matches: false
+    name: NOW Rename Regex
+    negate: false
+    pattern: Now Rename
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Aisha 2022 1080p NOW WEB-DL DD+ 5.1 H.264-SMURF
+  lastRun: '2025-04-21T20:24:08.521814'
+  passes: true
