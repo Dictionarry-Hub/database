@@ -1,0 +1,29 @@
+name: HTSR
+description: Matches 'Hotstar' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: HTSR Regex
+  negate: false
+  pattern: Hotstar
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests:
+- conditionResults:
+  - matches: true
+    name: HTSR Regex
+    negate: false
+    pattern: Hotstar
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Bheeshma Parvam 2022 2160p HTSR WEB-DL DD+ 5.1 H.265-NOSiViD
+  lastRun: '2025-04-21T20:09:07.037575'
+  passes: true
