@@ -1,0 +1,88 @@
+name: 2160p WEB-DL Tier 3
+description: Matches release groups who fall under 2160p WEB-DL Tier 3
+tags:
+- Release Group Tier
+- 2160p
+- WEB-DL
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: ABBIE
+  negate: false
+  pattern: ABBIE
+  required: false
+  type: release_group
+- name: AJP69
+  negate: false
+  pattern: AJP69
+  required: false
+  type: release_group
+- name: APEX
+  type: release_group
+  required: false
+  negate: false
+  pattern: APEX
+- name: BLUTONiUM
+  negate: false
+  pattern: BLUTONiUM
+  required: false
+  type: release_group
+- name: CRFW
+  negate: false
+  pattern: CRFW
+  required: false
+  type: release_group
+- name: KiNGS
+  negate: false
+  pattern: KiNGS
+  required: false
+  type: release_group
+- name: MZABI
+  negate: false
+  pattern: MZABI
+  required: false
+  type: release_group
+- name: NOSiViD
+  negate: false
+  pattern: NOSiViD
+  required: false
+  type: release_group
+- name: NTG
+  negate: false
+  pattern: NTG
+  required: false
+  type: release_group
+- name: playWEB
+  negate: false
+  pattern: playWEB
+  required: false
+  type: release_group
+- name: SiC
+  negate: false
+  pattern: SiC
+  required: false
+  type: release_group
+- name: SMURF
+  negate: false
+  pattern: SMURF
+  required: false
+  type: release_group
+- name: TOMMY
+  type: release_group
+  required: false
+  negate: false
+  pattern: TOMMY
+- name: XEBEC
+  negate: false
+  pattern: XEBEC
+  required: false
+  type: release_group
+tests: []

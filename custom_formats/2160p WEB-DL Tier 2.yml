@@ -1,0 +1,43 @@
+name: 2160p WEB-DL Tier 2
+description: Matches release groups who fall under 2160p WEB-DL Tier 2
+tags:
+- Release Group Tier
+- 2160p
+- WEB-DL
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: CMRG
+  negate: false
+  pattern: CMRG
+  required: false
+  type: release_group
+- name: HHWEB
+  negate: false
+  pattern: HHWEB
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
+- name: TEPES
+  type: release_group
+  required: false
+  negate: false
+  pattern: TEPES
+tests: []
