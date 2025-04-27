@@ -10,10 +10,10 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Not WEB-DL
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: web_dl
+  source: bluray
   type: source
 - name: BHDStudio
   negate: false
