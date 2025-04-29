@@ -1,14 +1,13 @@
-name: 2160p WEB-DL Tier 2
-description: Matches release groups who fall under 2160p WEB-DL Tier 2
+name: WEB-DL Tier 2
+description: Matches release groups who fall under WEB-DL Tier 2
 tags:
 - Release Group Tier
-- 2160p
 - WEB-DL
 conditions:
-- name: 2160p
+- name: 1080p
   negate: false
   required: true
-  resolution: 2160p
+  resolution: 1080p
   type: resolution
 - name: WEB-DL
   negate: false
@@ -36,8 +35,8 @@ conditions:
   required: false
   type: release_group
 - name: TEPES
-  type: release_group
-  required: false
   negate: false
   pattern: TEPES
+  required: false
+  type: release_group
 tests: []

@@ -1,8 +1,7 @@
-name: 1080p WEB-DL Tier 1
-description: Matches release groups who fall under 1080p WEB-DL Tier 1
+name: WEB-DL Tier 1
+description: Matches release groups who fall under WEB-DL Tier 1
 tags:
 - Release Group Tier
-- 1080p
 - WEB-DL
 conditions:
 - name: 1080p

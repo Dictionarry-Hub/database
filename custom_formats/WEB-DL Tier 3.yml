@@ -1,14 +1,13 @@
-name: 2160p WEB-DL Tier 3
-description: Matches release groups who fall under 2160p WEB-DL Tier 3
+name: WEB-DL Tier 3
+description: Matches release groups who fall under WEB-DL Tier 3
 tags:
 - Release Group Tier
-- 2160p
 - WEB-DL
 conditions:
-- name: 2160p
+- name: 1080p
   negate: false
   required: true
-  resolution: 2160p
+  resolution: 1080p
   type: resolution
 - name: WEB-DL
   negate: false
@@ -26,13 +25,18 @@ conditions:
   required: false
   type: release_group
 - name: APEX
-  type: release_group
-  required: false
   negate: false
   pattern: APEX
+  required: false
+  type: release_group
 - name: BLUTONiUM
   negate: false
   pattern: BLUTONiUM
+  required: false
+  type: release_group
+- name: Cinefeel
+  negate: false
+  pattern: Cinefeel
   required: false
   type: release_group
 - name: CRFW
@@ -43,6 +47,11 @@ conditions:
 - name: KiNGS
   negate: false
   pattern: KiNGS
+  required: false
+  type: release_group
+- name: LAZY
+  negate: false
+  pattern: LAZY
   required: false
   type: release_group
 - name: MZABI
@@ -65,6 +74,16 @@ conditions:
   pattern: playWEB
   required: false
   type: release_group
+- name: QOQ
+  negate: false
+  pattern: QOQ
+  required: false
+  type: release_group
+- name: SbR
+  negate: false
+  pattern: SbR
+  required: false
+  type: release_group
 - name: SiC
   negate: false
   pattern: SiC
@@ -76,10 +95,10 @@ conditions:
   required: false
   type: release_group
 - name: TOMMY
-  type: release_group
-  required: false
   negate: false
   pattern: TOMMY
+  required: false
+  type: release_group
 - name: XEBEC
   negate: false
   pattern: XEBEC
