@@ -1,7 +1,7 @@
 name: WEB-DL Tier 3
 description: Matches release groups who fall under WEB-DL Tier 3
 tags:
-- Release Group Tier
+- Release Groups
 - WEB-DL
 conditions:
 - name: WEB-DL
