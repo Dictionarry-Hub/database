@@ -4,11 +4,6 @@ tags:
 - Release Group Tier
 - WEB-DL
 conditions:
-- name: 1080p
-  negate: false
-  required: true
-  resolution: 1080p
-  type: resolution
 - name: WEB-DL
   negate: false
   required: true
