@@ -10,74 +10,80 @@ tags:
 - x264
 - h264
 upgradesAllowed: true
-minCustomFormatScore: 200
-upgradeUntilScore: 800
+minCustomFormatScore: 2000
+upgradeUntilScore: 8000
 minScoreIncrement: 1
 custom_formats:
 - name: 720p WEB-DL
-  score: 600
+  score: 6000
 - name: 720p Bluray
-  score: 500
+  score: 5000
 - name: 720p WEBRip
-  score: 500
+  score: 5000
 - name: 480p WEB-DL
-  score: 300
+  score: 3000
 - name: 720p Quality Tier 1
-  score: 210
+  score: 2100
 - name: 720p Quality Tier 2
-  score: 200
+  score: 2000
 - name: DVD
-  score: 200
+  score: 2000
 - name: DVD Remux
-  score: 200
+  score: 2000
 - name: 720p Quality Tier 3
-  score: 190
+  score: 1900
 - name: 720p Quality Tier 4
-  score: 180
+  score: 1800
 - name: 720p Quality Tier 5
-  score: 170
+  score: 1700
 - name: 720p Golden Popcorn
-  score: 60
+  score: 600
 - name: MA
-  score: 50
+  score: 500
 - name: AMZN
-  score: 40
+  score: 400
 - name: ATVP
-  score: 40
+  score: 400
 - name: DSNP
-  score: 40
+  score: 400
 - name: SD Golden Popcorn
-  score: 40
+  score: 400
 - name: CRIT
-  score: 30
+  score: 300
 - name: HMAX
-  score: 30
+  score: 300
 - name: MAX
-  score: 30
+  score: 300
 - name: NF
-  score: 30
+  score: 300
 - name: PCOK
-  score: 30
+  score: 300
 - name: PMTP
-  score: 30
+  score: 300
 - name: SD Quality Tier 1
-  score: 30
+  score: 300
 - name: STAN
-  score: 30
+  score: 300
 - name: HULU
-  score: 20
+  score: 200
 - name: iT
-  score: 20
+  score: 200
 - name: ROKU
-  score: 20
+  score: 200
 - name: SD Quality Tier 2
-  score: 20
+  score: 200
 - name: Atmos
-  score: 10
+  score: 100
 - name: Atmos (Missing)
-  score: 10
+  score: 100
 - name: Special Edition
-  score: 10
+  score: 100
+- name: WEB-DL Tier 1
+  score: 80
+- name: WEB-DL Tier 2
+  score: 70
+- name: WEB-DL Tier 3
+  score: 60
 - name: Repack3
   score: 8
 - name: Repack2
@@ -85,47 +91,47 @@ custom_formats:
 - name: Repack1
   score: 6
 - name: 3D
-  score: -9999
+  score: -99999
 - name: AV1
-  score: -9999
+  score: -99999
 - name: B&W
-  score: -9999
+  score: -99999
 - name: Dolby Vision
-  score: -9999
+  score: -99999
 - name: Extras
-  score: -9999
+  score: -99999
 - name: Full Disc
-  score: -9999
+  score: -99999
 - name: Full Disc (Quality Match)
-  score: -9999
+  score: -99999
 - name: h265
-  score: -9999
+  score: -99999
 - name: HDR
-  score: -9999
+  score: -99999
 - name: HDR10
-  score: -9999
+  score: -99999
 - name: HDR10 (Missing)
-  score: -9999
+  score: -99999
 - name: HDR10 (Missing) (1080p)
-  score: -9999
+  score: -99999
 - name: HDR10+
-  score: -9999
+  score: -99999
 - name: HEVC
-  score: -9999
+  score: -99999
 - name: Remux
-  score: -9999
+  score: -99999
 - name: Unwanted Release Groups
-  score: -9999
+  score: -99999
 - name: Unwanted WEBRip
-  score: -9999
+  score: -99999
 - name: Upscaled
-  score: -9999
+  score: -99999
 - name: VP9
-  score: -9999
+  score: -99999
 - name: VVC
-  score: -9999
+  score: -99999
 - name: x265
-  score: -9999
+  score: -99999
 qualities:
 - id: -1
   name: Transparent Capable
