@@ -56,7 +56,7 @@ conditions:
   type: release_group
 - name: jennaortegaUHD
   negate: false
-  pattern: jennaortega
+  pattern: jennaortegaUHD
   required: false
   type: release_group
 - name: LAMA
