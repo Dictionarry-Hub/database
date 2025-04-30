@@ -1,0 +1,6 @@
+name: NoGroup
+pattern: (?<=^|[\s.-])NoGr(ou)?p\b
+description: ''
+tags:
+- Release Group
+tests: []
