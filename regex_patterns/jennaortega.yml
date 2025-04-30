@@ -1,5 +1,5 @@
-name: jennaortegaUHD
-pattern: (?<=^|[\s.-])jennaortegaUHD\b
+name: jennaortega
+pattern: (?<=^|[\s.-])jennaortega(UHD)?\b
 description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
