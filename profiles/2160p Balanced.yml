@@ -168,8 +168,6 @@ custom_formats:
   score: -99999
 - name: Unwanted WEBRip
   score: -99999
-- name: Unwanted x265 Groups
-  score: -99999
 - name: Upscaled
   score: -99999
 - name: VP9

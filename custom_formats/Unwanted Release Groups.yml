@@ -64,11 +64,21 @@ conditions:
   pattern: LAMA
   required: false
   type: release_group
-- name: NoGroup
+- name: MALUS
   type: release_group
   required: false
   negate: false
+  pattern: MALUS
+- name: MovieMan
+  type: release_group
+  required: false
+  negate: false
+  pattern: MovieMan
+- name: NoGroup
+  negate: false
   pattern: NoGroup
+  required: false
+  type: release_group
 - name: OEPlus
   negate: false
   pattern: OEPlus
@@ -84,6 +94,11 @@ conditions:
   pattern: SasukeducK
   required: false
   type: release_group
+- name: SM737
+  type: release_group
+  required: false
+  negate: false
+  pattern: SM737
 - name: tarunk9c
   negate: false
   pattern: tarunk9c
@@ -109,4 +124,9 @@ conditions:
   pattern: VisionXpert
   required: false
   type: release_group
+- name: WOU
+  type: release_group
+  required: false
+  negate: false
+  pattern: WOU
 tests: []
