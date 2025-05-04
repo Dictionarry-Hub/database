@@ -111,6 +111,8 @@ custom_formats:
   score: 200
 - name: SD Quality Tier 2
   score: 200
+- name: SHO
+  score: 200
 - name: Atmos
   score: 100
 - name: Atmos (Missing)

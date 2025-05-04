@@ -82,6 +82,8 @@ custom_formats:
   score: 200
 - name: ROKU
   score: 200
+- name: SHO
+  score: 200
 - name: STAN
   score: 200
 - name: Atmos
