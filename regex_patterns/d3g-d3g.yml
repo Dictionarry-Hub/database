@@ -1,6 +1,0 @@
-name: d3g-d3g
-pattern: (?<=^|[\s.-])d3g-d3g\b
-description: ''
-tags:
-- Release Group
-tests: null
