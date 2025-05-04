@@ -66,6 +66,8 @@ custom_formats:
   score: 300
 - name: STAN
   score: 300
+- name: HTSR
+  score: 200
 - name: HULU
   score: 200
 - name: iT

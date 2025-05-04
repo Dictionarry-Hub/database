@@ -76,6 +76,8 @@ custom_formats:
   score: 300
 - name: HDR10+
   score: 200
+- name: HTSR
+  score: 200
 - name: HULU
   score: 200
 - name: ROKU
