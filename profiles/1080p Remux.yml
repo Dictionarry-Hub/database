@@ -56,6 +56,8 @@ custom_formats:
   score: 300
 - name: NF
   score: 300
+- name: NOW
+  score: 300
 - name: PCOK
   score: 300
 - name: PMTP
