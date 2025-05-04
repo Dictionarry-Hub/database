@@ -29,6 +29,16 @@ conditions:
   pattern: SDR
   required: true
   type: release_title
+- name: Not PQ
+  type: release_title
+  required: true
+  negate: true
+  pattern: PQ
+- name: Not HLG
+  type: release_title
+  required: true
+  negate: true
+  pattern: HLG
 - name: Not HDR
   negate: true
   pattern: HDR
