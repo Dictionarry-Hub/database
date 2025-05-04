@@ -195,7 +195,7 @@ custom_formats:
   score: -99999
 - name: x265 (1080p)
   score: -99999
-- name: x265 (Missing 2160p)
+- name: x265 (Missing)
   score: -99999
 qualities:
 - id: -1
