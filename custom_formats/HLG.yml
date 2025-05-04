@@ -1,0 +1,12 @@
+name: HLG
+description: Matches the 'HLG' Regex Pattern
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: HLG
+  negate: false
+  pattern: HLG
+  required: true
+  type: release_title
+tests: []

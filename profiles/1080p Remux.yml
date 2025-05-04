@@ -116,6 +116,10 @@ custom_formats:
   score: -99999
 - name: HEVC
   score: -99999
+- name: HLG
+  score: -99999
+- name: PQ
+  score: -99999
 - name: UHDBits
   score: -99999
 - name: Unwanted Release Groups

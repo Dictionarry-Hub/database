@@ -1,0 +1,12 @@
+name: PQ
+description: Matches the 'PQ' Regex Pattern
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: PQ
+  negate: false
+  pattern: PQ
+  required: true
+  type: release_title
+tests: []

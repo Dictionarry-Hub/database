@@ -117,6 +117,10 @@ custom_formats:
   score: 100
 - name: HDR10 (Missing) (1080p)
   score: 100
+- name: HLG
+  score: 100
+- name: PQ
+  score: 100
 - name: Special Edition
   score: 100
 - name: WEB-DL Tier 1

@@ -125,6 +125,10 @@ custom_formats:
   score: 100
 - name: HDR10 (Missing)
   score: 100
+- name: HLG
+  score: 100
+- name: PQ
+  score: 100
 - name: Special Edition
   score: 100
 - name: TrueHD
