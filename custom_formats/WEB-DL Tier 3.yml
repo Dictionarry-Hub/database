@@ -29,6 +29,11 @@ conditions:
   pattern: BLUTONiUM
   required: false
   type: release_group
+- name: BTN
+  type: release_group
+  required: false
+  negate: false
+  pattern: BTN
 - name: Cinefeel
   negate: false
   pattern: Cinefeel
