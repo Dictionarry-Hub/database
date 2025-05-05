@@ -59,11 +59,6 @@ conditions:
   pattern: NTG
   required: false
   type: release_group
-- name: playWEB
-  negate: false
-  pattern: playWEB
-  required: false
-  type: release_group
 - name: QOQ
   negate: false
   pattern: QOQ

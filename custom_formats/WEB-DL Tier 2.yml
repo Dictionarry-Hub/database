@@ -29,6 +29,11 @@ conditions:
   pattern: Kitsune
   required: false
   type: release_group
+- name: playWEB
+  type: release_group
+  required: false
+  negate: false
+  pattern: playWEB
 - name: TEPES
   negate: false
   pattern: TEPES
