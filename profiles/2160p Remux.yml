@@ -105,11 +105,13 @@ custom_formats:
 - name: WEB-DL Tier 1
   score: 80
 - name: WEB-DL Tier 2
-  score: 70
-- name: WEB-DL Tier 3
   score: 60
 - name: Unknown Lossless Audio
   score: 50
+- name: WEB-DL Tier 3
+  score: 40
+- name: WEB-DL Tier 4
+  score: 20
 - name: Repack3
   score: 8
 - name: Repack2

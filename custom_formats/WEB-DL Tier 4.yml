@@ -1,0 +1,27 @@
+name: WEB-DL Tier 4
+description: Matches release groups who fall under WEB-DL Tier 4
+tags:
+- Release Groups
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: Cinefeel
+  negate: false
+  pattern: Cinefeel
+  required: false
+  type: release_group
+- name: LAZY
+  type: release_group
+  required: false
+  negate: false
+  pattern: LAZY
+tests: []
