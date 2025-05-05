@@ -134,8 +134,6 @@ custom_formats:
   score: -99999
 - name: h265 (1080p)
   score: -99999
-- name: HEVC
-  score: -99999
 - name: UHDBits
   score: -99999
 - name: Unwanted Release Groups

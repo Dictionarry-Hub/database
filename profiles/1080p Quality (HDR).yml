@@ -143,8 +143,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: HEVC
-  score: -9000
 - name: x265
   score: -9000
 - name: 2160p

@@ -181,8 +181,6 @@ custom_formats:
   score: -99999
 - name: h265 (1080p)
   score: -99999
-- name: HEVC
-  score: -99999
 - name: Lossless Audio (1080p)
   score: -99999
 - name: Remux

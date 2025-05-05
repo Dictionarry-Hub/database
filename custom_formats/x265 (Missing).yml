@@ -20,11 +20,6 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-- name: Not HEVC
-  negate: true
-  pattern: HEVC
-  required: true
-  type: release_title
 - name: Not x264
   negate: true
   pattern: x264
