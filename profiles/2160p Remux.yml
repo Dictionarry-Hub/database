@@ -18,25 +18,25 @@ tags:
 - Lossless Audio
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 1000
-upgradeUntilScore: 14000
+minCustomFormatScore: 2000
+upgradeUntilScore: 16000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
-  score: 12000
+  score: 14000
 - name: 2160p WEB-DL
-  score: 10000
-- name: 1080p Remux
-  score: 8000
+  score: 12000
 - name: 1080p WEB-DL
-  score: 6000
+  score: 8000
 - name: 720p WEB-DL
-  score: 4000
+  score: 6000
 - name: 480p WEB-DL
+  score: 3000
+- name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: DVD
+- name: 1080p Remux
   score: 1000
 - name: DTS-X
   score: 600

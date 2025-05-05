@@ -14,22 +14,22 @@ tags:
 - Lossless Audio
 - h264
 upgradesAllowed: true
-minCustomFormatScore: 1000
-upgradeUntilScore: 10000
+minCustomFormatScore: 2000
+upgradeUntilScore: 12000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Remux
-  score: 8000
+  score: 10000
 - name: 1080p WEB-DL
-  score: 6000
+  score: 8000
 - name: 720p WEB-DL
-  score: 4000
+  score: 6000
 - name: 480p WEB-DL
+  score: 3000
+- name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: DVD
-  score: 1000
 - name: DTS-X
   score: 600
 - name: DTS-HD MA
