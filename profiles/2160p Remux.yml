@@ -26,6 +26,8 @@ custom_formats:
   score: 14000
 - name: 2160p WEB-DL
   score: 12000
+- name: 1080p Remux
+  score: 10000
 - name: 1080p WEB-DL
   score: 8000
 - name: 720p WEB-DL
@@ -36,8 +38,6 @@ custom_formats:
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: 1080p Remux
-  score: 1000
 - name: DTS-X
   score: 600
 - name: DTS-HD MA
