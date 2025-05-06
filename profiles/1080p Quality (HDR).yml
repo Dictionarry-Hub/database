@@ -145,7 +145,7 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: x265
+- name: x265 (Bluray)
   score: -9000
 - name: 2160p
   score: -99999
@@ -176,6 +176,8 @@ custom_formats:
 - name: VP9
   score: -99999
 - name: VVC
+  score: -99999
+- name: x265 (WEB)
   score: -99999
 qualities:
 - id: -1

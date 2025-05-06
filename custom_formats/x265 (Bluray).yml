@@ -1,0 +1,16 @@
+name: x265 (Bluray)
+description: Matches 'x265' regex pattern.
+tags:
+- Codec
+conditions:
+- name: x265
+  negate: false
+  pattern: x265
+  required: true
+  type: release_title
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
+tests: []
