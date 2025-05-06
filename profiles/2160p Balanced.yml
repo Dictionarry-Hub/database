@@ -166,7 +166,7 @@ custom_formats:
   score: -99999
 - name: Full Disc (Quality Match)
   score: -99999
-- name: h265 (1080p)
+- name: h265
   score: -99999
 - name: Lossless Audio (1080p)
   score: -99999
@@ -186,7 +186,7 @@ custom_formats:
   score: -99999
 - name: x264 (2160p)
   score: -99999
-- name: x265 (1080p)
+- name: x265
   score: -99999
 - name: x265 (Missing)
   score: -99999
