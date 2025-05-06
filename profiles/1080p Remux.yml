@@ -138,8 +138,6 @@ custom_formats:
   score: -99999
 - name: VVC
   score: -99999
-- name: x264
-  score: -99999
 - name: x265
   score: -99999
 qualities:
