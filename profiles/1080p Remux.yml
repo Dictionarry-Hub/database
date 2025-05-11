@@ -159,4 +159,4 @@ upgrade_until:
   id: 8
   name: Remux-1080p
   description: 1080p Blu-ray disc content remuxed into a playable file format
-language: must_original
+language: original
