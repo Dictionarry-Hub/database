@@ -7,8 +7,13 @@ conditions:
 - name: HMAX Regex
   negate: false
   pattern: HBO Max
-  required: true
+  required: false
   type: release_title
+- name: HMAX Rename Regex
+  type: release_title
+  required: false
+  negate: false
+  pattern: HBO Max Rename
 - name: WEB-DL
   negate: false
   required: true

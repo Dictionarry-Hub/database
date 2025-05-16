@@ -1,5 +1,5 @@
-name: HBO Max
-pattern: \b(hmax|hbom|hbo[ ._-]?max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+name: HBO Max Rename
+pattern: \[(HMAX)\b|\b(HMAX)\]
 description: HBO Max is an American subscription video-on-demand streaming service
   that offers a range of original programming and content from WarnerMedia's vast
   library, encompassing brands such as Warner Bros., CNN, Cartoon Network, TBS, and
@@ -7,6 +7,7 @@ description: HBO Max is an American subscription video-on-demand streaming servi
 tags:
 - Streaming Service
 - WEB-DL
+- WEBRip
 tests:
 - expected: true
   id: 1
