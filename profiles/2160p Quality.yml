@@ -205,6 +205,8 @@ custom_formats:
   score: -99999
 - name: x265 (Missing)
   score: -99999
+- name: x265 (WEB-DL)
+  score: -99999
 qualities:
 - id: -1
   name: 2160p Transparent
