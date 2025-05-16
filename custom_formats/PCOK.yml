@@ -7,8 +7,13 @@ conditions:
 - name: PCOK Regex
   negate: false
   pattern: Peacock TV
-  required: true
+  required: false
   type: release_title
+- name: PCOK Rename Regex
+  type: release_title
+  required: false
+  negate: false
+  pattern: Peacock TV Rename
 - name: WEB-DL
   negate: false
   required: true
