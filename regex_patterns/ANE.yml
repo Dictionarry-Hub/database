@@ -1,0 +1,6 @@
+name: ANE
+pattern: (?<=^|[\s.-])ANE\b
+description: ''
+tags:
+- Release Group
+tests: []

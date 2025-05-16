@@ -1,0 +1,6 @@
+name: pog42
+pattern: (?<=^|[\s.-])pog42\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: CBT
+pattern: (?<=^|[\s.-])CBT\b
+description: ''
+tags:
+- Release Group
+tests: []

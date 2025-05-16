@@ -1,0 +1,6 @@
+name: Tsundere
+pattern: (?<=^|[\s.-])Tsundere\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: Yuki
+pattern: (?<=^|[\s.-])Yuki\b
+description: ''
+tags:
+- Release Group
+tests: []

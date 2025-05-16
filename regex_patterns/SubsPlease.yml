@@ -1,0 +1,6 @@
+name: SubsPlease
+pattern: (?<=^|[\s.-])SubsPlease\b
+description: ''
+tags:
+- Release Group
+tests: []

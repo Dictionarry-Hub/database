@@ -1,0 +1,6 @@
+name: Asakura
+pattern: (?<=^|[\s.-])Asakura\b
+description: ''
+tags:
+- Release Group
+tests: []

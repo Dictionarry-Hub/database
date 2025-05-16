@@ -1,0 +1,6 @@
+name: Vodes
+pattern: (?<=^|[\s.-])Vodes\b
+description: ''
+tags:
+- Release Group
+tests: []

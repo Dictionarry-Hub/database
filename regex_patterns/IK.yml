@@ -1,0 +1,6 @@
+name: IK
+pattern: (?<=^|[\s.-])IK\b
+description: ''
+tags:
+- Release Group
+tests: []

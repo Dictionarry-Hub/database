@@ -1,0 +1,6 @@
+name: OZR
+pattern: (?<=^|[\s.-])OZR\b
+description: ''
+tags:
+- Release Group
+tests: []

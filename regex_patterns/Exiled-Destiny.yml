@@ -1,0 +1,6 @@
+name: Exiled-Destiny
+pattern: (?<=^|[\s.-])Exiled-Destiny\b
+description: ''
+tags:
+- Release Group
+tests: []

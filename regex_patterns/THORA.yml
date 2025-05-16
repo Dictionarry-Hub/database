@@ -1,0 +1,6 @@
+name: THORA
+pattern: (?<=^|[\s.-])THORA\b
+description: ''
+tags:
+- Release Group
+tests: []

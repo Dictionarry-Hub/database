@@ -1,0 +1,6 @@
+name: Lulu
+pattern: (?<=^|[\s.-])Lulu\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: FFF
+pattern: (?<=^|[\s.-])FFF\b
+description: ''
+tags:
+- Release Group
+tests: []

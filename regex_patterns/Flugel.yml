@@ -1,0 +1,6 @@
+name: Flugel
+pattern: (?<=^|[\s.-])Flugel\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: KH
+pattern: (?<=^|[\s.-])KH\b
+description: ''
+tags:
+- Release Group
+tests: []

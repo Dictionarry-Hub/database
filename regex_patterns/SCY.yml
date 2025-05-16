@@ -1,0 +1,6 @@
+name: SCY
+pattern: (?<=^|[\s.-])SCY\b
+description: ''
+tags:
+- Release Group
+tests: []
