@@ -4,7 +4,7 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: Roku Regex
+- name: ROKU Regex
   negate: false
   pattern: Roku
   required: true
