@@ -59,21 +59,26 @@ conditions:
   pattern: jennaortegaUHD
   required: false
   type: release_group
+- name: KC
+  type: release_group
+  required: false
+  negate: false
+  pattern: KC
 - name: LAMA
   negate: false
   pattern: LAMA
   required: false
   type: release_group
 - name: MALUS
-  type: release_group
-  required: false
   negate: false
   pattern: MALUS
-- name: MovieMan
-  type: release_group
   required: false
+  type: release_group
+- name: MovieMan
   negate: false
   pattern: MovieMan
+  required: false
+  type: release_group
 - name: NoGroup
   negate: false
   pattern: NoGroup
@@ -95,10 +100,10 @@ conditions:
   required: false
   type: release_group
 - name: SM737
-  type: release_group
-  required: false
   negate: false
   pattern: SM737
+  required: false
+  type: release_group
 - name: tarunk9c
   negate: false
   pattern: tarunk9c
@@ -125,8 +130,8 @@ conditions:
   required: false
   type: release_group
 - name: WOU
-  type: release_group
-  required: false
   negate: false
   pattern: WOU
+  required: false
+  type: release_group
 tests: []
