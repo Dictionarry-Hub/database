@@ -1,8 +1,8 @@
 name: Unwanted WEBRip Groups
 description: Matches WEBRip releases that are not from a quality tier
 tags:
-- Release Group
 - Unwanted
+- Release Group
 conditions:
 - name: WEBRip
   negate: false

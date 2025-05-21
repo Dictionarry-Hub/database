@@ -191,7 +191,7 @@ custom_formats:
   score: -99999
 - name: Unwanted Release Groups
   score: -99999
-- name: Unwanted WEBRip
+- name: Unwanted WEBRip Groups
   score: -99999
 - name: Upscaled
   score: -99999
