@@ -6,8 +6,8 @@ description: 'Matches Special Edition only for specific movies where the theatri
   - **Note:** This custom format doesn''t work because release titles only match after
   the parsed movie title: https://github.com/Radarr/Radarr/issues/4859'
 tags:
-- Edition
 - Unwanted
+- Edition
 conditions:
 - name: Special Edition
   negate: false

@@ -2,12 +2,12 @@ name: Unwanted Remux Groups
 description: Matches otherwise unfavourable remux groups - bloated audio tracks, fake
   HDR, etc.
 tags:
-- Release Group
 - Unwanted
+- Release Group
 conditions:
 - name: Bloated Remux Groups
-  type: release_title
-  required: false
   negate: false
   pattern: Bloated Remux Groups
+  required: false
+  type: release_title
 tests: []

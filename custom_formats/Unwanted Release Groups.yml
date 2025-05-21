@@ -1,8 +1,8 @@
 name: Unwanted Release Groups
 description: Matches Release Groups that are Banned
 tags:
-- Release Group
 - Unwanted
+- Release Group
 conditions:
 - name: Release Group (Missing)
   negate: true
@@ -60,10 +60,10 @@ conditions:
   required: false
   type: release_group
 - name: KC
-  type: release_group
-  required: false
   negate: false
   pattern: KC
+  required: false
+  type: release_group
 - name: LAMA
   negate: false
   pattern: LAMA
