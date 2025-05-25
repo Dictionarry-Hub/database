@@ -239,4 +239,4 @@ upgrade_until:
   description: Balanced capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
-language: original
+language: must_original
