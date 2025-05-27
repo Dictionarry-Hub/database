@@ -1,0 +1,6 @@
+name: RARGB
+pattern: (?<=^|[\s.-])RARGB\b
+description: ''
+tags:
+- Release Group
+tests: []
