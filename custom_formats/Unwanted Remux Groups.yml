@@ -10,11 +10,11 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-- name: Bluray
-  type: source
+- name: Not DVD
+  negate: true
   required: true
-  negate: false
-  source: bluray
+  source: dvd
+  type: source
 - name: LEGi0N
   negate: false
   pattern: LEGi0N
