@@ -5,9 +5,19 @@ tags:
 - Unwanted
 - Release Group
 conditions:
-- name: Bloated Remux Groups
+- name: Remux
   negate: false
-  pattern: Bloated Remux Groups
-  required: false
+  pattern: Remux
+  required: true
   type: release_title
+- name: LEGi0N
+  type: release_group
+  required: false
+  negate: false
+  pattern: LEGi0N
+- name: RARGB
+  negate: false
+  pattern: RARGB
+  required: false
+  type: release_group
 tests: []
