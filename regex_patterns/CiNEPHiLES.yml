@@ -1,0 +1,6 @@
+name: CiNEPHiLES
+pattern: (?<=^|[\s.-])CiNEPHiLES\b
+description: ''
+tags:
+- Release Group
+tests: []

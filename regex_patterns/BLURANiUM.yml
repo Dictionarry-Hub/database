@@ -1,0 +1,6 @@
+name: BLURANiUM
+pattern: (?<=^|[\s.-])BLURANiUM\b
+description: ''
+tags:
+- Release Group
+tests: []
