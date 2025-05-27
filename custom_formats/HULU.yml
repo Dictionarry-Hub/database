@@ -4,7 +4,7 @@ tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: Hulu Regex
+- name: HULU Regex
   negate: false
   pattern: Hulu
   required: true
