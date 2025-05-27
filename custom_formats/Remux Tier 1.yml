@@ -1,0 +1,32 @@
+name: Remux Tier 1
+description: Matches release groups who fall under Remux Tier 1
+tags:
+- Release Groups
+- Remux
+conditions:
+- name: Remux
+  type: release_title
+  required: true
+  negate: false
+  pattern: Remux
+- name: 3L
+  negate: false
+  pattern: 3L
+  required: false
+  type: release_group
+- name: BLURANiUM
+  negate: false
+  pattern: BLURANiUM
+  required: false
+  type: release_group
+- name: CiNEPHiLES
+  type: release_group
+  required: false
+  negate: false
+  pattern: CiNEPHiLES
+- name: WiLDCAT
+  type: release_group
+  required: false
+  negate: false
+  pattern: WiLDCAT
+tests: []
