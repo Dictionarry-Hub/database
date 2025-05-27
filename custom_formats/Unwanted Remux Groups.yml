@@ -10,11 +10,16 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
+- name: Bluray
+  type: source
+  required: true
+  negate: false
+  source: bluray
 - name: LEGi0N
-  type: release_group
-  required: false
   negate: false
   pattern: LEGi0N
+  required: false
+  type: release_group
 - name: RARGB
   negate: false
   pattern: RARGB

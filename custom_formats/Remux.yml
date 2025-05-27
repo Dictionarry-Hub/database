@@ -8,9 +8,9 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-- name: Not DVD
-  type: source
+- name: Bluray
+  negate: false
   required: true
-  negate: true
-  source: dvd
+  source: bluray
+  type: source
 tests: []
