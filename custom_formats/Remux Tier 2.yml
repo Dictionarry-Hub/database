@@ -1,4 +1,4 @@
-name: Remux Tier 1
+name: Remux Tier 2
 description: Matches release groups who fall under Remux Tier 1
 tags:
 - Release Groups
@@ -14,29 +14,29 @@ conditions:
   required: true
   source: dvd
   type: source
-- name: 3L
+- name: BMF
   negate: false
-  pattern: 3L
+  pattern: BMF
   required: false
   type: release_group
-- name: BiZKiT
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: false
+  type: release_group
+- name: LM
   type: release_group
   required: false
   negate: false
-  pattern: BiZKiT
-- name: BLURANiUM
+  pattern: LM
+- name: PmP
   negate: false
-  pattern: BLURANiUM
+  pattern: PmP
   required: false
   type: release_group
-- name: CiNEPHiLES
+- name: ZQ
   negate: false
-  pattern: CiNEPHiLES
-  required: false
-  type: release_group
-- name: WiLDCAT
-  negate: false
-  pattern: WiLDCAT
+  pattern: ZQ
   required: false
   type: release_group
 tests: []
