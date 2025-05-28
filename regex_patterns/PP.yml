@@ -1,0 +1,6 @@
+name: PP
+pattern: (?<=^|[\s.-])PP\b
+description: ''
+tags:
+- Release Group
+tests: []

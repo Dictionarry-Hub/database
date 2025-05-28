@@ -25,15 +25,20 @@ conditions:
   required: false
   type: release_group
 - name: LM
-  type: release_group
-  required: false
   negate: false
   pattern: LM
+  required: false
+  type: release_group
 - name: PmP
   negate: false
   pattern: PmP
   required: false
   type: release_group
+- name: PP
+  type: release_group
+  required: false
+  negate: false
+  pattern: PP
 - name: ZQ
   negate: false
   pattern: ZQ
