@@ -1,0 +1,22 @@
+name: Remux Tier 4
+description: Matches release groups who fall under Remux Tier 4
+tags:
+- Release Groups
+- Remux
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: playBD
+  negate: false
+  pattern: playBD
+  required: false
+  type: release_group
+tests: []

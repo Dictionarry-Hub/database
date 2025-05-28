@@ -1,0 +1,27 @@
+name: Remux Tier 3
+description: Matches release groups who fall under Remux Tier 3
+tags:
+- Release Groups
+- Remux
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: TEPES
+  type: release_group
+  required: false
+  negate: false
+  pattern: TEPES
+tests: []

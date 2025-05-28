@@ -1,5 +1,5 @@
 name: Remux Tier 2
-description: Matches release groups who fall under Remux Tier 1
+description: Matches release groups who fall under Remux Tier 2
 tags:
 - Release Groups
 - Remux
@@ -35,10 +35,10 @@ conditions:
   required: false
   type: release_group
 - name: PP
-  type: release_group
-  required: false
   negate: false
   pattern: PP
+  required: false
+  type: release_group
 - name: ZQ
   negate: false
   pattern: ZQ
