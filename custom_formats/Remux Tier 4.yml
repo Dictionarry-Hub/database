@@ -14,9 +14,34 @@ conditions:
   required: true
   source: dvd
   type: source
+- name: BTN
+  type: release_group
+  required: false
+  negate: false
+  pattern: BTN
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: KRaLiMaRKo
+  negate: false
+  pattern: KRaLiMaRKo
+  required: false
+  type: release_group
 - name: playBD
   negate: false
   pattern: playBD
+  required: false
+  type: release_group
+- name: PTP
+  negate: false
+  pattern: PTP
+  required: false
+  type: release_group
+- name: TRiToN
+  negate: false
+  pattern: TRiToN
   required: false
   type: release_group
 tests: []

@@ -14,14 +14,29 @@ conditions:
   required: true
   source: dvd
   type: source
+- name: decibeL
+  type: release_group
+  required: false
+  negate: false
+  pattern: decibeL
+- name: EPSiLON
+  type: release_group
+  required: false
+  negate: false
+  pattern: EPSiLON
+- name: HiFi
+  type: release_group
+  required: false
+  negate: false
+  pattern: HiFi
 - name: NCmt
   negate: false
   pattern: NCmt
   required: false
   type: release_group
 - name: TEPES
-  type: release_group
-  required: false
   negate: false
   pattern: TEPES
+  required: false
+  type: release_group
 tests: []
