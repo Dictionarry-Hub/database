@@ -80,14 +80,22 @@ custom_formats:
   score: 100
 - name: Special Edition
   score: 100
+- name: Remux Tier 1
+  score: 80
 - name: WEB-DL Tier 1
   score: 80
+- name: Remux Tier 2
+  score: 60
 - name: WEB-DL Tier 2
   score: 60
 - name: Unknown Lossless Audio
   score: 50
+- name: Remux Tier 3
+  score: 40
 - name: WEB-DL Tier 3
   score: 40
+- name: Remux Tier 4
+  score: 20
 - name: WEB-DL Tier 4
   score: 20
 - name: Season Pack
