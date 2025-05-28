@@ -1,0 +1,6 @@
+name: LM
+pattern: (?<=^|[\s.-])LM\b
+description: ''
+tags:
+- Release Group
+tests: []
