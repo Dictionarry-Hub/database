@@ -1,0 +1,6 @@
+name: Pookie
+pattern: (?<=^|[\s.-])Pookie\b
+description: ''
+tags:
+- Release Group
+tests: []

@@ -1,0 +1,6 @@
+name: hchcsen
+pattern: (?<=^|[\s.-])hchcsen\b
+description: ''
+tags:
+- Release Group
+tests: []

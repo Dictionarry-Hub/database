@@ -1,0 +1,6 @@
+name: SubsPlus+
+pattern: (?<=^|[\s.-])SubsPlus+\b
+description: ''
+tags:
+- Release Group
+tests: []
