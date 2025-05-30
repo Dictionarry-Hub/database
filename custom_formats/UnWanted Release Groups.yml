@@ -1,7 +1,7 @@
 name: UnWanted Release Groups
 description: Matches Release Groups that are Banned
 tags:
-- Unwanted
+- UnWanted
 - Release Group
 conditions:
 - name: Release Group (Missing)
