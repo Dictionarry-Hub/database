@@ -79,6 +79,11 @@ conditions:
   pattern: MovieMan
   required: false
   type: release_group
+- name: NAHOM
+  type: release_group
+  required: false
+  negate: false
+  pattern: NAHOM
 - name: NoGroup
   negate: false
   pattern: NoGroup
