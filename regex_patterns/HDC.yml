@@ -1,6 +1,0 @@
-name: HDC
-pattern: (?<=^|[\s.-])HDC\b
-description: ''
-tags:
-- Release Group
-tests: null

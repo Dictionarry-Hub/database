@@ -1,6 +1,0 @@
-name: UNK
-pattern: (?<=^|[\s.-])UNK\b
-description: ''
-tags:
-- Release Group
-tests: null

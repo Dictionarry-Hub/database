@@ -1,6 +1,0 @@
-name: PRiSTiNE
-pattern: (?<=^|[\s.-])PRiSTiNE\b
-description: ''
-tags:
-- Release Group
-tests: null

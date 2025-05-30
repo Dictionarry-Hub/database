@@ -1,6 +1,0 @@
-name: EX-R
-pattern: (?<=^|[\s.-])EX-R\b
-description: ''
-tags:
-- Release Group
-tests: null

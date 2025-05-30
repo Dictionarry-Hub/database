@@ -1,6 +1,0 @@
-name: Verus
-pattern: (?<=^|[\s.-])Verus\b
-description: ''
-tags:
-- Release Group
-tests: null
