@@ -3,4 +3,6 @@ pattern: (?<=^|[\s.-])RARGB\b
 description: ''
 tags:
 - Release Group
+- Remux
+- Bluray
 tests: []

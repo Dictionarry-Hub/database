@@ -3,4 +3,6 @@ pattern: (?<=^|[\s.-])NCmt\b
 description: ''
 tags:
 - Release Group
+- Remux
+- Bluray
 tests: []

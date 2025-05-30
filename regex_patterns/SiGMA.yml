@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])SiGMA\b
 description: ''
 tags:
 - Release Group
+- WEB-DL
 tests: []

@@ -3,4 +3,6 @@ pattern: (?<=^|[\s.-])HANDJOB\b
 description: ''
 tags:
 - Release Group
+- Bluray
+- DVD
 tests: []

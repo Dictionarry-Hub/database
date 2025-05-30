@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])k00kie\b
 description: ''
 tags:
 - Release Group
-- Anime
+- Bluray
 tests: []

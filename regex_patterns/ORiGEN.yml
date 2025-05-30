@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])ORiGEN\b
 description: ''
 tags:
 - Release Group
+- Bluray
 tests: []
