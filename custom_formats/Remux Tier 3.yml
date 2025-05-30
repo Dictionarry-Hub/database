@@ -15,25 +15,30 @@ conditions:
   source: dvd
   type: source
 - name: decibeL
-  type: release_group
-  required: false
   negate: false
   pattern: decibeL
-- name: EPSiLON
-  type: release_group
   required: false
+  type: release_group
+- name: EPSiLON
   negate: false
   pattern: EPSiLON
-- name: HiFi
-  type: release_group
   required: false
+  type: release_group
+- name: HiFi
   negate: false
   pattern: HiFi
+  required: false
+  type: release_group
 - name: NCmt
   negate: false
   pattern: NCmt
   required: false
   type: release_group
+- name: SiCFoI
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiCFoI
 - name: TEPES
   negate: false
   pattern: TEPES
