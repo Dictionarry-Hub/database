@@ -1,5 +1,5 @@
-name: PHOCiS
-pattern: (?<=^|[\s.-])PHOCiS\b
+name: YAWNiX
+pattern: (?<=^|[\s.-])YAWNiX\b
 description: ''
 tags:
 - Release Group

@@ -1,5 +1,5 @@
-name: PHOCiS
-pattern: (?<=^|[\s.-])PHOCiS\b
+name: DarQ
+pattern: (?<=^|[\s.-])DarQ\b
 description: ''
 tags:
 - Release Group

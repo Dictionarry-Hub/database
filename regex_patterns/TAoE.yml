@@ -1,0 +1,7 @@
+name: TAoE
+pattern: (?<=^|[\s.-])TAoE|Goki|Frys|JBENT|DNU|Ainz|TheSickle|ANONAZ|Species180|r0b0t|xtrem3x|HxD|ArcX|WEM|Nostradamus|Erie|DUHIT|jb2049|DrainedDay|AJJMIN\b
+description: ''
+tags:
+- Release Group
+- HEVC
+tests: []

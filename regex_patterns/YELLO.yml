@@ -1,5 +1,5 @@
-name: PHOCiS
-pattern: (?<=^|[\s.-])PHOCiS\b
+name: YELLO
+pattern: (?<=^|[\s.-])YELLO\b
 description: ''
 tags:
 - Release Group
