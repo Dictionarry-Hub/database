@@ -1,7 +1,7 @@
 name: Upscaled
 description: Matches the 'Upscaled' regex pattern
 tags:
-- Unwanted
+- UnWanted
 - Enhancement
 conditions:
 - name: Upscaled

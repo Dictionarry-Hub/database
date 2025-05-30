@@ -1,4 +1,4 @@
-name: Unwanted Remux Groups
+name: UnWanted Remux Groups
 description: Matches otherwise unfavourable remux groups - bloated audio tracks, fake
   HDR, etc.
 tags:

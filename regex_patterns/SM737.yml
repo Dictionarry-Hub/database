@@ -3,7 +3,7 @@ pattern: (?<=^|[\s.-])SM737\b
 description: ''
 tags:
 - Release Group
-- Unwanted
+- UnWanted
 tests:
 - expected: true
   id: 1

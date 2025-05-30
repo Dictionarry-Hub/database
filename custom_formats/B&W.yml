@@ -1,7 +1,7 @@
 name: B&W
 description: Matches the 'B&W' and 'Colour' Regex Pattern
 tags:
-- Unwanted
+- UnWanted
 - Colour Grade
 - Enhancement
 conditions:

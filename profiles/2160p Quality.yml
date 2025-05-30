@@ -189,9 +189,9 @@ custom_formats:
   score: -99999
 - name: UHDBits
   score: -99999
-- name: Unwanted Release Groups
+- name: UnWanted Release Groups
   score: -99999
-- name: Unwanted WEBRip Groups
+- name: UnWanted WEBRip Groups
   score: -99999
 - name: Upscaled
   score: -99999

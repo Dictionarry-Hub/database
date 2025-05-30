@@ -1,4 +1,4 @@
-name: Unwanted Release Groups
+name: UnWanted Release Groups
 description: Matches Release Groups that are Banned
 tags:
 - Unwanted
@@ -105,10 +105,10 @@ conditions:
   required: false
   type: release_group
 - name: ShieldBearer
-  type: release_group
-  required: false
   negate: false
   pattern: ShieldBearer
+  required: false
+  type: release_group
 - name: SM737
   negate: false
   pattern: SM737
