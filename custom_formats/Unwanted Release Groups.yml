@@ -80,10 +80,10 @@ conditions:
   required: false
   type: release_group
 - name: NAHOM
-  type: release_group
-  required: false
   negate: false
   pattern: NAHOM
+  required: false
+  type: release_group
 - name: NoGroup
   negate: false
   pattern: NoGroup
@@ -104,6 +104,11 @@ conditions:
   pattern: SasukeducK
   required: false
   type: release_group
+- name: ShieldBearer
+  type: release_group
+  required: false
+  negate: false
+  pattern: ShieldBearer
 - name: SM737
   negate: false
   pattern: SM737
