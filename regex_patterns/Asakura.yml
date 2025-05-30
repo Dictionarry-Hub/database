@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])Asakura\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

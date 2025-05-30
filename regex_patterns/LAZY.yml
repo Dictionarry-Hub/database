@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])LAZY\b
 description: Matches "LAZY" when preceded by whitespace, a hyphen or dot
 tags:
 - Release Group
+- WEB-DL
 tests: []

@@ -3,6 +3,7 @@ pattern: (?<=^|[\s.-])BeyondHD\b
 description: Banned Due to only doing Full Discs
 tags:
 - Release Group
+- Unwanted
 tests:
 - expected: true
   id: 1

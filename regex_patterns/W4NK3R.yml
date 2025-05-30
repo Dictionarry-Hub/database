@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])W4NK3R\b
 description: ''
 tags:
 - Release Group
+- Bluray
 tests: []

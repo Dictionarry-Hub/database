@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])CMCT\b
 description: ''
 tags:
 - Release Group
-tests: null
+- Anime
+tests: []

@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])Drag\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

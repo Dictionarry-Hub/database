@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])9volt\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []

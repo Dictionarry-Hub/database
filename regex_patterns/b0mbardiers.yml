@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])b0mbardiers\b
 description: ''
 tags:
 - Release Group
-tests: null
+- Bluray
+tests: []

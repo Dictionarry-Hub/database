@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])Raizel\b
 description: ''
 tags:
 - Release Group
+- Anime
 tests: []
