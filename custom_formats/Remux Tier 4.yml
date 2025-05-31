@@ -15,10 +15,10 @@ conditions:
   source: dvd
   type: source
 - name: BTN
-  type: release_group
-  required: false
   negate: false
   pattern: BTN
+  required: false
+  type: release_group
 - name: iFT
   negate: false
   pattern: iFT
@@ -44,4 +44,9 @@ conditions:
   pattern: TRiToN
   required: false
   type: release_group
+- name: ZoroSenpai
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZoroSenpai
 tests: []
