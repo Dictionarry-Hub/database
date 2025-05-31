@@ -60,8 +60,6 @@ custom_formats:
   score: 300
 - name: PCOK
   score: 300
-- name: PMTP
-  score: 300
 - name: STAN
   score: 300
 - name: HTSR
@@ -69,6 +67,8 @@ custom_formats:
 - name: HULU
   score: 200
 - name: iT
+  score: 200
+- name: PMTP
   score: 200
 - name: ROKU
   score: 200

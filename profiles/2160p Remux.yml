@@ -72,13 +72,13 @@ custom_formats:
   score: 300
 - name: PCOK
   score: 300
-- name: PMTP
-  score: 300
 - name: HDR10+
   score: 200
 - name: HTSR
   score: 200
 - name: HULU
+  score: 200
+- name: PMTP
   score: 200
 - name: ROKU
   score: 200

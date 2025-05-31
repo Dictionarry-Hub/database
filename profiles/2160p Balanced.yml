@@ -90,8 +90,6 @@ custom_formats:
   score: 300
 - name: PCOK
   score: 300
-- name: PMTP
-  score: 300
 - name: SD Quality Tier 1
   score: 300
 - name: HDR10+
@@ -99,6 +97,8 @@ custom_formats:
 - name: HTSR
   score: 200
 - name: HULU
+  score: 200
+- name: PMTP
   score: 200
 - name: ROKU
   score: 200
