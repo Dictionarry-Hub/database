@@ -75,6 +75,8 @@ custom_formats:
   score: 300
 - name: HMAX
   score: 300
+- name: iT
+  score: 300
 - name: MAX
   score: 300
 - name: NF
@@ -85,13 +87,9 @@ custom_formats:
   score: 300
 - name: SD Quality Tier 1
   score: 300
-- name: STAN
-  score: 300
 - name: HTSR
   score: 200
 - name: HULU
-  score: 200
-- name: iT
   score: 200
 - name: PMTP
   score: 200
@@ -100,6 +98,8 @@ custom_formats:
 - name: SD Quality Tier 2
   score: 200
 - name: SHO
+  score: 200
+- name: STAN
   score: 200
 - name: Atmos
   score: 100
