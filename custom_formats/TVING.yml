@@ -1,0 +1,35 @@
+name: TVING
+description: Matches 'TVING' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: TVING Regex
+  negate: false
+  pattern: TVING
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests:
+- conditionResults:
+  - matches: true
+    name: SHO Regex
+    negate: false
+    pattern: Showtime
+    required: false
+    type: release_title
+  - matches: false
+    name: SHO Rename Regex
+    negate: false
+    pattern: Showtime Rename
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Billions S06 2160p SHO WEB-DL DD+ 5.1 H.265-NTb
+  lastRun: '2025-04-21T20:33:55.371437'
+  passes: true
