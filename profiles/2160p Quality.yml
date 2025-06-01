@@ -39,14 +39,14 @@ custom_formats:
   score: 6000
 - name: 2160p Quality Tier 4
   score: 5900
+- name: 2160p Quality Tier 5
+  score: 5800
+- name: 2160p Quality Tier 6
+  score: 5700
 - name: 2160p Balanced Tier 1
   score: 5400
 - name: 2160p Balanced Tier 2
   score: 5200
-- name: 2160p Quality Tier 5
-  score: 5100
-- name: 2160p Quality Tier 6
-  score: 5000
 - name: 720p Bluray
   score: 5000
 - name: 720p WEBRip
