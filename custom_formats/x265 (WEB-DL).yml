@@ -14,123 +14,279 @@ conditions:
   source: web_dl
   type: source
 - name: ABBIE
-  type: release_group
-  required: false
   negate: true
   pattern: ABBIE
-- name: AJP69
+  required: true
   type: release_group
-  required: false
+- name: AJP69
   negate: true
   pattern: AJP69
-- name: APEX
+  required: true
   type: release_group
-  required: false
+- name: APEX
   negate: true
   pattern: APEX
-- name: BLUTONIUM
+  required: true
   type: release_group
-  required: false
+- name: BLUTONIUM
   negate: true
   pattern: BLUTONiUM
-- name: BTN
+  required: true
   type: release_group
-  required: false
+- name: BTN
   negate: true
   pattern: BTN
-- name: CMRG
+  required: true
   type: release_group
-  required: false
+- name: CMRG
   negate: true
   pattern: CMRG
-- name: CRFW
+  required: true
   type: release_group
-  required: false
+- name: CRFW
   negate: true
   pattern: CRFW
+  required: true
+  type: release_group
 - name: FLUX
   negate: true
   pattern: FLUX
-  required: false
+  required: true
   type: release_group
 - name: HHWEB
-  type: release_group
-  required: false
   negate: true
   pattern: HHWEB
-- name: HONE
+  required: true
   type: release_group
-  required: false
+- name: HONE
   negate: true
   pattern: HONE
-- name: KiNGS
+  required: true
   type: release_group
-  required: false
+- name: KiNGS
   negate: true
   pattern: KiNGS
-- name: Kitsune
+  required: true
   type: release_group
-  required: false
+- name: Kitsune
   negate: true
   pattern: Kitsune
-- name: MZABI
+  required: true
   type: release_group
-  required: false
+- name: MZABI
   negate: true
   pattern: MZABI
-- name: NOSiViD
+  required: true
   type: release_group
-  required: false
+- name: NOSiViD
   negate: true
   pattern: NOSiViD
-- name: NTb
+  required: true
   type: release_group
-  required: false
+- name: NTb
   negate: true
   pattern: NTb
-- name: NTG
+  required: true
   type: release_group
-  required: false
+- name: NTG
   negate: true
   pattern: NTG
-- name: playWEB
+  required: true
   type: release_group
-  required: false
+- name: playWEB
   negate: true
   pattern: playWEB
-- name: QOQ
+  required: true
   type: release_group
-  required: false
+- name: QOQ
   negate: true
   pattern: QOQ
-- name: SbR
+  required: true
   type: release_group
-  required: false
+- name: SbR
   negate: true
   pattern: SbR
-- name: SiC
+  required: true
   type: release_group
-  required: false
+- name: SiC
   negate: true
   pattern: SiC
-- name: SMURF
+  required: true
   type: release_group
-  required: false
+- name: SMURF
   negate: true
   pattern: SMURF
-- name: TEPES
+  required: true
   type: release_group
-  required: false
+- name: TEPES
   negate: true
   pattern: TEPES
-- name: TOMMY
+  required: true
   type: release_group
-  required: false
+- name: TOMMY
   negate: true
   pattern: TOMMY
-- name: XEBEC
+  required: true
   type: release_group
-  required: false
+- name: XEBEC
   negate: true
   pattern: XEBEC
-tests: []
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: x265
+    negate: false
+    pattern: x265
+    required: true
+    type: release_title
+  - matches: false
+    name: ABBIE
+    negate: true
+    pattern: ABBIE
+    required: true
+    type: release_group
+  - matches: false
+    name: AJP69
+    negate: true
+    pattern: AJP69
+    required: true
+    type: release_group
+  - matches: false
+    name: APEX
+    negate: true
+    pattern: APEX
+    required: true
+    type: release_group
+  - matches: false
+    name: BLUTONIUM
+    negate: true
+    pattern: BLUTONiUM
+    required: true
+    type: release_group
+  - matches: false
+    name: BTN
+    negate: true
+    pattern: BTN
+    required: true
+    type: release_group
+  - matches: false
+    name: CMRG
+    negate: true
+    pattern: CMRG
+    required: true
+    type: release_group
+  - matches: false
+    name: CRFW
+    negate: true
+    pattern: CRFW
+    required: true
+    type: release_group
+  - matches: false
+    name: FLUX
+    negate: true
+    pattern: FLUX
+    required: true
+    type: release_group
+  - matches: false
+    name: HHWEB
+    negate: true
+    pattern: HHWEB
+    required: true
+    type: release_group
+  - matches: false
+    name: HONE
+    negate: true
+    pattern: HONE
+    required: true
+    type: release_group
+  - matches: false
+    name: KiNGS
+    negate: true
+    pattern: KiNGS
+    required: true
+    type: release_group
+  - matches: false
+    name: Kitsune
+    negate: true
+    pattern: Kitsune
+    required: true
+    type: release_group
+  - matches: false
+    name: MZABI
+    negate: true
+    pattern: MZABI
+    required: true
+    type: release_group
+  - matches: false
+    name: NOSiViD
+    negate: true
+    pattern: NOSiViD
+    required: true
+    type: release_group
+  - matches: false
+    name: NTb
+    negate: true
+    pattern: NTb
+    required: true
+    type: release_group
+  - matches: false
+    name: NTG
+    negate: true
+    pattern: NTG
+    required: true
+    type: release_group
+  - matches: false
+    name: playWEB
+    negate: true
+    pattern: playWEB
+    required: true
+    type: release_group
+  - matches: false
+    name: QOQ
+    negate: true
+    pattern: QOQ
+    required: true
+    type: release_group
+  - matches: false
+    name: SbR
+    negate: true
+    pattern: SbR
+    required: true
+    type: release_group
+  - matches: false
+    name: SiC
+    negate: true
+    pattern: SiC
+    required: true
+    type: release_group
+  - matches: false
+    name: SMURF
+    negate: true
+    pattern: SMURF
+    required: true
+    type: release_group
+  - matches: false
+    name: TEPES
+    negate: true
+    pattern: TEPES
+    required: true
+    type: release_group
+  - matches: false
+    name: TOMMY
+    negate: true
+    pattern: TOMMY
+    required: true
+    type: release_group
+  - matches: true
+    name: XEBEC
+    negate: true
+    pattern: XEBEC
+    required: true
+    type: release_group
+  expected: false
+  id: 1
+  input: 'Avatar: The Way of Water 2022 2160p MAX WEB-DL DDP5.1 Atmos DV HDR x265-XEBEC'
+  lastRun: '2025-06-01T13:52:35.810829'
+  passes: true
