@@ -10,10 +10,10 @@ conditions:
   required: false
   type: release_group
 - name: 4K4U
-  type: release_group
-  required: false
   negate: false
   pattern: 4K4U
+  required: false
+  type: release_group
 - name: AROMA
   negate: false
   pattern: AROMA
@@ -34,6 +34,11 @@ conditions:
   pattern: BOLS
   required: false
   type: release_group
+- name: CREATiVE24
+  type: release_group
+  required: false
+  negate: false
+  pattern: CREATiVE24
 - name: d3g
   negate: false
   pattern: d3g
