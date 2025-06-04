@@ -114,6 +114,11 @@ conditions:
   pattern: SM737
   required: false
   type: release_group
+- name: STUTTERSHIT
+  type: release_group
+  required: false
+  negate: false
+  pattern: STUTTERSHIT
 - name: tarunk9c
   negate: false
   pattern: tarunk9c
