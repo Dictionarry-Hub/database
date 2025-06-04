@@ -9,6 +9,11 @@ conditions:
   pattern: Release Group (Missing)
   required: false
   type: release_group
+- name: 4K4U
+  type: release_group
+  required: false
+  negate: false
+  pattern: 4K4U
 - name: AROMA
   negate: false
   pattern: AROMA
@@ -115,10 +120,10 @@ conditions:
   required: false
   type: release_group
 - name: STUTTERSHIT
-  type: release_group
-  required: false
   negate: false
   pattern: STUTTERSHIT
+  required: false
+  type: release_group
 - name: tarunk9c
   negate: false
   pattern: tarunk9c
