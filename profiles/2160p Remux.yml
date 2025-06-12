@@ -54,8 +54,6 @@ custom_formats:
   score: 400
 - name: DSNP
   score: 400
-- name: HMAX
-  score: 400
 - name: iT
   score: 400
 - name: CRIT
@@ -63,6 +61,8 @@ custom_formats:
 - name: Dolby Vision
   score: 300
 - name: FLAC
+  score: 300
+- name: HMAX
   score: 300
 - name: MAX
   score: 300
