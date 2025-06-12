@@ -15,11 +15,6 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: b0mbardiers
-  negate: false
-  pattern: b0mbardiers
-  required: false
-  type: release_group
 - name: CtrlHD
   negate: false
   pattern: CtrlHD

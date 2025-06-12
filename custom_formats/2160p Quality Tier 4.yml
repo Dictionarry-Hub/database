@@ -20,9 +20,19 @@ conditions:
   pattern: 4KDVS
   required: false
   type: release_group
+- name: b0mbardiers
+  negate: false
+  pattern: b0mbardiers
+  required: false
+  type: release_group
 - name: BlzT
   negate: false
   pattern: BlzT
+  required: false
+  type: release_group
+- name: BSTD
+  negate: false
+  pattern: BSTD
   required: false
   type: release_group
 - name: IAMABLE
@@ -35,6 +45,11 @@ conditions:
   pattern: iFT
   required: false
   type: release_group
+- name: JustWatch
+  negate: false
+  pattern: JustWatch
+  required: false
+  type: release_group
 - name: NCmt
   negate: false
   pattern: NCmt
@@ -45,6 +60,11 @@ conditions:
   pattern: TDD
   required: false
   type: release_group
+- name: TnP
+  type: release_group
+  required: false
+  negate: false
+  pattern: TnP
 - name: WATCHABLE
   negate: false
   pattern: WATCHABLE

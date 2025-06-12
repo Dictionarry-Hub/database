@@ -25,11 +25,6 @@ conditions:
   pattern: DEFLATE
   required: false
   type: release_group
-- name: JustWatch
-  negate: false
-  pattern: JustWatch
-  required: false
-  type: release_group
 - name: Kitsune
   negate: false
   pattern: Kitsune
@@ -48,11 +43,6 @@ conditions:
 - name: SURCODE
   negate: false
   pattern: SURCODE
-  required: false
-  type: release_group
-- name: TnP
-  negate: false
-  pattern: TnP
   required: false
   type: release_group
 tests: []

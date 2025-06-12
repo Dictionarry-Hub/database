@@ -15,11 +15,6 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: BSTD
-  negate: false
-  pattern: BSTD
-  required: false
-  type: release_group
 - name: c0kE
   negate: false
   pattern: c0kE
