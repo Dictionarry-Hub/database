@@ -19,9 +19,19 @@ minCustomFormatScore: 2000
 upgradeUntilScore: 20000
 minScoreIncrement: 1
 custom_formats:
+- name: 2160p Quality Tier 1
+  score: 19200
+- name: 2160p Quality Tier 2
+  score: 19100
+- name: 2160p Quality Tier 3
+  score: 19000
+- name: 2160p Quality Tier 4
+  score: 18900
+- name: 2160p Quality Tier 5
+  score: 18800
+- name: 2160p Quality Tier 6
+  score: 18700
 - name: 2160p WEB-DL
-  score: 18000
-- name: 2160p Bluray
   score: 13000
 - name: 1080p WEB-DL
   score: 11000
@@ -29,20 +39,8 @@ custom_formats:
   score: 8000
 - name: 1080p WEBRip
   score: 8000
-- name: 2160p Quality Tier 1
-  score: 6200
-- name: 2160p Quality Tier 2
-  score: 6100
-- name: 2160p Quality Tier 3
-  score: 6000
 - name: 720p WEB-DL
   score: 6000
-- name: 2160p Quality Tier 4
-  score: 5900
-- name: 2160p Quality Tier 5
-  score: 5800
-- name: 2160p Quality Tier 6
-  score: 5700
 - name: 2160p Balanced Tier 1
   score: 5400
 - name: 2160p Balanced Tier 2
