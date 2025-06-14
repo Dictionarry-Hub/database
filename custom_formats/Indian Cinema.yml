@@ -1,0 +1,93 @@
+name: Indian Cinema
+description: Comprehensive filter for all Indian movies - Bollywood, Tollywood, Kollywood, and all regional cinema
+tags:
+- Language
+- Unwanted
+- Regional
+conditions:
+- exceptLanguage: false
+  language: hindi
+  name: Hindi Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: tamil
+  name: Tamil Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: telugu
+  name: Telugu Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: bengali
+  name: Bengali Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: malayalam
+  name: Malayalam Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: kannada
+  name: Kannada Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: marathi
+  name: Marathi Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: punjabi
+  name: Punjabi Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: gujarati
+  name: Gujarati Language
+  negate: false
+  required: false
+  type: language
+- exceptLanguage: false
+  language: urdu
+  name: Urdu Language
+  negate: false
+  required: false
+  type: language
+- name: Indian Cinema Terms
+  negate: false
+  required: false
+  type: releaseTitle
+  value: \b(hindi|bollywood|tollywood|kollywood|mollywood|sandalwood|bengali|tamil|telugu|malayalam|kannada|marathi|punjabi|urdu|gujarati|bhojpuri|odia|oriya|assamese|tulu|konkani|manipuri|nepali|sindhi)\b
+- name: Indian Production Houses
+  negate: false
+  required: false
+  type: releaseTitle  
+  value: \b(yrf|yash.raj|dharma|eros|t-series|tseries|balaji|reliance|excel|red.chillies|redchillies|viacom18|zee|star|sony|fox.star|disney.hotstar|amazon.prime|netflix.india|alt.balaji|mx.player|sun.pictures|lyca|studio.green|dil.raju|mythri|geetha.arts|hombale|kgf|rrr|baahubali|aascar|shankar|mani.ratnam|rajamouli|vetrimaaran|lokesh|trivikram|koratala|prashanth.neel)\b
+- name: Indian Movie Patterns
+  negate: false
+  required: false
+  type: releaseTitle
+  value: \b(dub|dubbed|multi|multilingual|pan.india|south|regional|indian|india|mumbai|chennai|hyderabad|bangalore|kolkata|delhi|punjab|gujarat|maharashtra|andhra|telangana|karnataka|kerala|tamilnadu|west.bengal)\b
+- name: Indian Release Patterns
+  negate: false
+  required: false
+  type: releaseTitle
+  value: \.(hin|tam|tel|mal|kan|ben|mar|pun|guj|urd|bho|ori|ass|tul|kok|man|nep|sin)\.|(\[|\()(hin|tam|tel|mal|kan|ben|mar|pun|guj|urd|bho|ori|ass|tul|kok|man|nep|sin)(\]|\))
+- name: Specific Indian Films
+  negate: false
+  required: false
+  type: releaseTitle
+  value: \b(baahubali|bahubali|rrr|kgf|pushpa|arjun.reddy|kabir.singh|dangal|sultan|pk|3.idiots|zindagi|sholay|mughal|raj|singh|kumar|khan|chopra|kapoor|sharma|agarwal|gupta|joshi|patel|shah|mehta|nair|menon|reddy|rao|krishna|devi|lakshmi|saraswati|ganga|yamuna|himalaya|bollywood|tollywood|kollywood|mollywood|sandalwood)\b
+tests: []
