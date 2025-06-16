@@ -1,5 +1,5 @@
 name: Remux
-pattern: remux
+pattern: Remux
 description: A remux is a digital video file that maintains the exact quality of the
   original source (like a Blu-ray or DVD) by copying the video and audio streams without
   re-encoding them, essentially creating a perfect 1:1 copy. Think of it like carefully
@@ -15,7 +15,7 @@ tests:
 - expected: true
   id: 1
   input: 1917 (2019) 2160p UHD BluRay REMUX HEVC DV HDR10+ TrueHD Atmos 7.1 English-FraMeSToR
-  lastRun: '2024-12-07T00:09:00.820662'
+  lastRun: '2025-06-16T08:17:22.781547'
   matchSpan:
     end: 34
     start: 29
