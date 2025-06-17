@@ -35,11 +35,11 @@ conditions:
   pattern: BSTD
   required: false
   type: release_group
-- name: IAMABLE
-  negate: false
-  pattern: IAMABLE
-  required: false
+- name: DEFLATE
   type: release_group
+  required: false
+  negate: false
+  pattern: DEFLATE
 - name: iFT
   negate: false
   pattern: iFT
@@ -56,10 +56,10 @@ conditions:
   required: false
   type: release_group
 - name: SPHD
-  type: release_group
-  required: false
   negate: false
   pattern: SPHD
+  required: false
+  type: release_group
 - name: TDD
   negate: false
   pattern: TDD

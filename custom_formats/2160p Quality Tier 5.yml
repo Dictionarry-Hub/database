@@ -110,6 +110,11 @@ conditions:
   pattern: HypStu
   required: false
   type: release_group
+- name: IAMABLE
+  type: release_group
+  required: false
+  negate: false
+  pattern: IAMABLE
 - name: iCandy
   negate: false
   pattern: iCandy
