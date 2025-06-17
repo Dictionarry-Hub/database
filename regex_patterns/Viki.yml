@@ -1,5 +1,5 @@
 name: Viki
-pattern: (?<=\b[12]\d{3}\b).*\b(Viki)\b
+pattern: \b(Viki)\b
 description: Rakuten Viki is an American over-the-top subscription video on-demand
   streaming service. It streams videos similar to other services, but also allows
   users to subtitle content available in 200 languages as well as providing original
