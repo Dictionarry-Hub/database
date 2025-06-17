@@ -14,7 +14,7 @@ tests:
 - expected: true
   id: 1
   input: The Zone of Interest 2023 PROPER2 2160p UHD BluRay TrueHD 7.1 Atmos HDR x265-MainFrame
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan:
     end: 33
     start: 26
@@ -29,7 +29,7 @@ tests:
 - expected: false
   id: 2
   input: Proper.Pronouns.2020.720p.WEB-DL.AAC2.0.x264-ZTR.mkv
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -37,7 +37,7 @@ tests:
 - expected: true
   id: 3
   input: Proper.Pronouns.2020.720p.PROPER2.WEB-DL.AAC2.0.x264-ZTR.mkv
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan:
     end: 33
     start: 26
@@ -52,7 +52,7 @@ tests:
 - expected: true
   id: 4
   input: Sonic.the.Hedgehog.3.2024.REPACK2.2160p.WEB-DL.DDP5.1.Atmos.DoVi.HDR.H.265-FLUX
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan:
     end: 33
     start: 26
@@ -67,7 +67,7 @@ tests:
 - expected: true
   id: 5
   input: roommate.wanted.2015.rerip2.720p.bluray.x264-rusted.mkv
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan:
     end: 27
     start: 21
@@ -82,7 +82,7 @@ tests:
 - expected: false
   id: 6
   input: The Zone of Interest 2023 PROPER 2160p UHD BluRay TrueHD 7.1 Atmos HDR x265-MainFrame
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -90,7 +90,7 @@ tests:
 - expected: false
   id: 7
   input: Sonic.the.Hedgehog.3.2024.REPACK.2160p.WEB-DL.DDP5.1.Atmos.DoVi.HDR.H.265-FLUX
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan: null
   matchedContent: null
   matchedGroups: []
@@ -98,7 +98,7 @@ tests:
 - expected: true
   id: 8
   input: Yo-Kai Watch S02E17 DUBBED REAL REPACK HDTV x264-W4F
-  lastRun: '2025-02-06T07:10:05.298113'
+  lastRun: '2025-06-17T18:46:34.789609'
   matchSpan:
     end: 38
     start: 27
@@ -109,4 +109,19 @@ tests:
   - PACK
   - null
   - null
+  passes: true
+- expected: true
+  id: 9
+  input: Game of Thrones S01 REPACK2 2160p MAX WEB-DL TrueHD 7.1 Atmos DV HDR H.265-Kitsune
+  lastRun: '2025-06-17T18:46:34.789609'
+  matchSpan:
+    end: 27
+    start: 20
+  matchedContent: REPACK2
+  matchedGroups:
+  - REPACK2
+  - null
+  - null
+  - REPACK
+  - PACK
   passes: true
