@@ -55,16 +55,21 @@ conditions:
   pattern: NCmt
   required: false
   type: release_group
+- name: SPHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SPHD
 - name: TDD
   negate: false
   pattern: TDD
   required: false
   type: release_group
 - name: TnP
-  type: release_group
-  required: false
   negate: false
   pattern: TnP
+  required: false
+  type: release_group
 - name: WATCHABLE
   negate: false
   pattern: WATCHABLE
