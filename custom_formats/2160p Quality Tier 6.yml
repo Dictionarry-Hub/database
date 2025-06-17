@@ -85,11 +85,6 @@ conditions:
   pattern: HDChina
   required: false
   type: release_group
-- name: HDS
-  negate: false
-  pattern: HDS
-  required: false
-  type: release_group
 - name: HDmux
   negate: false
   pattern: HDmux
