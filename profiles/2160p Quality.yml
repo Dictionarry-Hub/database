@@ -16,26 +16,28 @@ tags:
 - h265
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 20000
+upgradeUntilScore: 22000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Quality Tier 1
-  score: 19200
+  score: 20200
 - name: 2160p Quality Tier 2
-  score: 19100
+  score: 20100
 - name: 2160p Quality Tier 3
-  score: 19000
+  score: 20000
 - name: 2160p Quality Tier 4
-  score: 18900
-- name: 2160p Quality Tier 6
-  score: 18800
-- name: 2160p Quality Tier 7
-  score: 18700
+  score: 19900
+- name: 2160p Quality Tier 5
+  score: 19800
 - name: 2160p Balanced Tier 1
-  score: 13400
+  score: 14400
 - name: 2160p Balanced Tier 2
-  score: 13200
+  score: 14200
 - name: 2160p WEB-DL
+  score: 14000
+- name: 2160p Quality Tier 6
+  score: 13100
+- name: 2160p Quality Tier 7
   score: 13000
 - name: 1080p WEB-DL
   score: 11000
