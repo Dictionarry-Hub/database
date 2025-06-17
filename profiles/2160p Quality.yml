@@ -27,9 +27,9 @@ custom_formats:
   score: 19000
 - name: 2160p Quality Tier 4
   score: 18900
-- name: 2160p Quality Tier 5
-  score: 18800
 - name: 2160p Quality Tier 6
+  score: 18800
+- name: 2160p Quality Tier 7
   score: 18700
 - name: 2160p Balanced Tier 1
   score: 13400
