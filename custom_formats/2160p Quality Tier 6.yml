@@ -40,11 +40,6 @@ conditions:
   pattern: beAst
   required: false
   type: release_group
-- name: BiTOR
-  negate: false
-  pattern: BiTOR
-  required: false
-  type: release_group
 - name: CHD
   negate: false
   pattern: CHD
