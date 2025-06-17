@@ -15,4 +15,39 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: 4KDVS
+  negate: false
+  pattern: 4KDVS
+  required: false
+  type: release_group
+- name: BlzT
+  negate: false
+  pattern: BlzT
+  required: false
+  type: release_group
+- name: BSTD
+  negate: false
+  pattern: BSTD
+  required: false
+  type: release_group
+- name: DEFLATE
+  negate: false
+  pattern: DEFLATE
+  required: false
+  type: release_group
+- name: JustWatch
+  negate: false
+  pattern: JustWatch
+  required: false
+  type: release_group
+- name: TnP
+  negate: false
+  pattern: TnP
+  required: false
+  type: release_group
+- name: WATCHABLE
+  type: release_group
+  required: false
+  negate: false
+  pattern: WATCHABLE
 tests: []
