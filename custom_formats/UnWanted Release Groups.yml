@@ -35,10 +35,10 @@ conditions:
   required: false
   type: release_group
 - name: CREATiVE24
-  type: release_group
-  required: false
   negate: false
   pattern: CREATiVE24
+  required: false
+  type: release_group
 - name: d3g
   negate: false
   pattern: d3g
@@ -64,6 +64,11 @@ conditions:
   pattern: Flights
   required: false
   type: release_group
+- name: HDS
+  type: release_group
+  required: false
+  negate: false
+  pattern: HDS
 - name: jennaortegaUHD
   negate: false
   pattern: jennaortegaUHD
