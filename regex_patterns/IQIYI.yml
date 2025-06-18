@@ -1,0 +1,9 @@
+name: IQIYI
+pattern: \b(IQIYI|IQ)\b
+description: IQIYI is a Chinese subscription video on-demand over-the-top streaming
+  service owned by Baidu. Headquartered in Beijing, IQIYI primarily produces and distributes
+  films and television series.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

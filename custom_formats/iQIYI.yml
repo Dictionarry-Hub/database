@@ -6,7 +6,7 @@ tags:
 conditions:
 - name: iQIYI Regex
   negate: false
-  pattern: iQIYI
+  pattern: IQIYI
   required: true
   type: release_title
 - name: WEB-DL
