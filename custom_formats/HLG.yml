@@ -9,4 +9,14 @@ conditions:
   pattern: HLG
   required: true
   type: release_title
+- name: Not SDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: SDR
+- name: Not PQ
+  type: release_title
+  required: true
+  negate: true
+  pattern: PQ
 tests: []
