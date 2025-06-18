@@ -1,10 +1,10 @@
-name: iQIYI
-description: Matches 'iQIYI' WEB-DLs. Negates any encodes.
+name: IQIYI
+description: Matches 'IQIYI' WEB-DLs. Negates any encodes.
 tags:
 - Streaming Service
 - WEB-DL
 conditions:
-- name: iQIYI Regex
+- name: IQIYI Regex
   negate: false
   pattern: IQIYI
   required: true
