@@ -10,18 +10,23 @@ conditions:
   required: true
   type: release_title
 - name: Not SDR
-  type: release_title
-  required: true
   negate: true
   pattern: SDR
-- name: Not PQ
-  type: release_title
   required: true
+  type: release_title
+- name: Not PQ
   negate: true
   pattern: PQ
+  required: true
+  type: release_title
 - name: Not HLG
+  negate: true
+  pattern: HLG
+  required: true
+  type: release_title
+- name: Not HDR10
   type: release_title
   required: true
   negate: true
-  pattern: HLG
+  pattern: HDR10
 tests: []
