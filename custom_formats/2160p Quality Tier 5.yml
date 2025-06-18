@@ -40,14 +40,19 @@ conditions:
   pattern: JustWatch
   required: false
   type: release_group
+- name: SURCODE
+  type: release_group
+  required: false
+  negate: false
+  pattern: SURCODE
 - name: TnP
   negate: false
   pattern: TnP
   required: false
   type: release_group
 - name: WATCHABLE
-  type: release_group
-  required: false
   negate: false
   pattern: WATCHABLE
+  required: false
+  type: release_group
 tests: []
