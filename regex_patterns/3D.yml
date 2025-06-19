@@ -9,7 +9,7 @@ description: 'Matches terms related to 3D video formats:
   - `half ou` or `half sbs` with space (` `), dot (`.`), or hyphen (`-`) as separators.'
 tags:
 - Enhancement
-- UnWanted
+- Banned
 tests:
 - expected: true
   id: 1

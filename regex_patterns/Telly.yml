@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])Telly\b
 description: Banned for Retagging
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

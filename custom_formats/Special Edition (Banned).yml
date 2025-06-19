@@ -1,4 +1,4 @@
-name: Special Edition (UnWanted)
+name: Special Edition (Banned)
 description: 'Matches Special Edition only for specific movies where the theatrical
   edition is preferred.
 
@@ -6,7 +6,7 @@ description: 'Matches Special Edition only for specific movies where the theatri
   - **Note:** This custom format doesn''t work because release titles only match after
   the parsed movie title: https://github.com/Radarr/Radarr/issues/4859'
 tags:
-- UnWanted
+- Banned
 - Edition
 conditions:
 - name: Special Edition

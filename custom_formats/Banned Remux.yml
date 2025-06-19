@@ -1,8 +1,8 @@
-name: UnWanted Remux Groups
+name: Banned Remux
 description: Matches otherwise unfavourable remux groups - bloated audio tracks, fake
   HDR, etc.
 tags:
-- UnWanted
+- Banned
 - Release Group
 conditions:
 - name: Remux

@@ -3,7 +3,7 @@ pattern: (Up[-\.\s]?scale|Re[-\.\s]?Grade|\bAIUS\b|AI[-\.\s]?enhanced)
 description: 'Matches upscales, regrades, AI Enhancements, etc. '
 tags:
 - Enhancement
-- UnWanted
+- Banned
 tests:
 - expected: true
   id: 1

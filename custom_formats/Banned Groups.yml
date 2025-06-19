@@ -1,7 +1,7 @@
-name: UnWanted Release Groups
+name: Banned Groups
 description: Matches Release Groups that are Banned
 tags:
-- UnWanted
+- Banned
 - Release Group
 conditions:
 - name: Release Group (Missing)
@@ -65,10 +65,10 @@ conditions:
   required: false
   type: release_group
 - name: HDS
-  type: release_group
-  required: false
   negate: false
   pattern: HDS
+  required: false
+  type: release_group
 - name: jennaortegaUHD
   negate: false
   pattern: jennaortegaUHD

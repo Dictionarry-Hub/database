@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])NoGr(ou)?p\b
 description: ''
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

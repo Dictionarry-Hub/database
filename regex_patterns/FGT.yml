@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])FGT\b
 description: Banned for Retagging
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

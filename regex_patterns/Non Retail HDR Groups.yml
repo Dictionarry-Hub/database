@@ -4,7 +4,7 @@ description: Matches groups that produce non retail HDR.
 tags:
 - Release Group
 - HDR
-- UnWanted
+- Banned
 tests:
 - expected: true
   id: 1

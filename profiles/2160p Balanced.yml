@@ -174,9 +174,9 @@ custom_formats:
   score: -99999
 - name: UHDBits
   score: -99999
-- name: UnWanted Release Groups
+- name: Banned Groups
   score: -99999
-- name: UnWanted WEBRip Groups
+- name: Banned WEBRip
   score: -99999
 - name: Upscaled
   score: -99999
@@ -188,7 +188,7 @@ custom_formats:
   score: -99999
 - name: x265
   score: -99999
-- name: x265 (WEB-DL)
+- name: Banned WEB-DL (x265)
   score: -99999
 qualities:
 - id: -1
