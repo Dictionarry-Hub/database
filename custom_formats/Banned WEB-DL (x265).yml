@@ -1,7 +1,8 @@
 name: Banned WEB-DL (x265)
 description: ''
 tags:
-- Codec
+- Banned
+- Release Group
 conditions:
 - name: x265
   negate: false
