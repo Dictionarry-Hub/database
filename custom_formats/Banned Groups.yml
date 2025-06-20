@@ -14,6 +14,11 @@ conditions:
   pattern: 4K4U
   required: false
   type: release_group
+- name: AOC
+  type: release_group
+  required: false
+  negate: false
+  pattern: AOC
 - name: AROMA
   negate: false
   pattern: AROMA
