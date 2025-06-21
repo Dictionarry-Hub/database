@@ -15,10 +15,10 @@ conditions:
   required: false
   type: release_group
 - name: AOC
-  type: release_group
-  required: false
   negate: false
   pattern: AOC
+  required: false
+  type: release_group
 - name: AROMA
   negate: false
   pattern: AROMA
@@ -169,4 +169,14 @@ conditions:
   pattern: WOU
   required: false
   type: release_group
+- name: YIFY
+  type: release_group
+  required: false
+  negate: false
+  pattern: YIFY
+- name: YTS
+  type: release_group
+  required: false
+  negate: false
+  pattern: YTS
 tests: []
