@@ -124,6 +124,11 @@ conditions:
   pattern: SasukeducK
   required: false
   type: release_group
+- name: SHD
+  type: release_group
+  required: false
+  negate: false
+  pattern: SHD
 - name: ShieldBearer
   negate: false
   pattern: ShieldBearer
@@ -170,13 +175,13 @@ conditions:
   required: false
   type: release_group
 - name: YIFY
-  type: release_group
-  required: false
   negate: false
   pattern: YIFY
-- name: YTS
-  type: release_group
   required: false
+  type: release_group
+- name: YTS
   negate: false
   pattern: YTS
+  required: false
+  type: release_group
 tests: []
