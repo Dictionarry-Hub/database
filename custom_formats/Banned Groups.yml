@@ -104,6 +104,11 @@ conditions:
   pattern: NAHOM
   required: false
   type: release_group
+- name: NhaNc3
+  type: release_group
+  required: false
+  negate: false
+  pattern: NhaNc3
 - name: NoGroup
   negate: false
   pattern: NoGroup
@@ -125,10 +130,10 @@ conditions:
   required: false
   type: release_group
 - name: SHD
-  type: release_group
-  required: false
   negate: false
   pattern: SHD
+  required: false
+  type: release_group
 - name: ShieldBearer
   negate: false
   pattern: ShieldBearer

@@ -1,0 +1,7 @@
+name: NhaNc3
+pattern: (?<=^|[\s.-])NhaNc3\b
+description: Banned for Low Mixed Quality Releases
+tags:
+- Release Group
+- Bluray
+tests: []
