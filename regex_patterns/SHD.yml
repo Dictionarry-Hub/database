@@ -1,6 +1,6 @@
 name: SHD
 pattern: (?<=^|[\s.-])SHD\b
-description: ''
+description: Banned for Retagging
 tags:
 - Release Group
 - WEB-DL
