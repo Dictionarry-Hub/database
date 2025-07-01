@@ -24,9 +24,4 @@ conditions:
   pattern: HLG
   required: true
   type: release_title
-- name: Not HDR10
-  type: release_title
-  required: true
-  negate: true
-  pattern: HDR10
 tests: []
