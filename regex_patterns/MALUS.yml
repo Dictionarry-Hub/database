@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])MALUS\b
 description: ''
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

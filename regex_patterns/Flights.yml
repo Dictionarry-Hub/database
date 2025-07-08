@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])Flights\b
 description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

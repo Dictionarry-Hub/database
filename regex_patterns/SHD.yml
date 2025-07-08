@@ -1,7 +1,7 @@
-name: Telly
-pattern: (?<=^|[\s.-])Telly\b
+name: SHD
+pattern: (?<=^|[\s.-])SHD\b
 description: Banned for Retagging
 tags:
 - Release Group
-- Banned
+- WEB-DL
 tests: []

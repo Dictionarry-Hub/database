@@ -3,7 +3,7 @@ pattern: \b(extended.?clip)\b
 description: Matches preview releases labelled as `Extended Clip`
 tags:
 - Preview
-- UnWanted
+- Banned
 tests:
 - expected: true
   id: 1

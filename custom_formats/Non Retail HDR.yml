@@ -1,7 +1,7 @@
 name: Non Retail HDR
 description: 'Matches groups who produce non-retail HDR10+ or Dolby Vision. '
 tags:
-- UnWanted
+- Banned
 - HDR
 conditions:
 - name: HDR10+ or DoVi

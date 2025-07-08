@@ -134,6 +134,12 @@ custom_formats:
   score: -99999
 - name: B&W
   score: -99999
+- name: Banned Groups
+  score: -99999
+- name: Banned Remux
+  score: -99999
+- name: Banned WEB-DL (x265)
+  score: -99999
 - name: Dolby Vision (Without Fallback)
   score: -99999
 - name: Extras
@@ -144,11 +150,9 @@ custom_formats:
   score: -99999
 - name: h265
   score: -99999
+- name: Sing Along
+  score: -99999
 - name: UHDBits
-  score: -99999
-- name: UnWanted Release Groups
-  score: -99999
-- name: UnWanted Remux Groups
   score: -99999
 - name: Upscaled
   score: -99999
@@ -159,8 +163,6 @@ custom_formats:
 - name: x264 (2160p)
   score: -99999
 - name: x265
-  score: -99999
-- name: x265 (WEB-DL)
   score: -99999
 qualities:
 - id: 3

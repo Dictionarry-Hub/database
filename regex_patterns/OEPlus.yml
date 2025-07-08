@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])OEPlus\b
 description: Banned for Automated Encodes
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

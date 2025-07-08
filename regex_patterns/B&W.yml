@@ -8,7 +8,7 @@ description: Black and White colour grading. This regex matches a 4-digit number
 tags:
 - Enhancement
 - Colour Grade
-- UnWanted
+- Banned
 tests:
 - expected: true
   id: 1

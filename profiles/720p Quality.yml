@@ -106,6 +106,10 @@ custom_formats:
   score: -99999
 - name: B&W
   score: -99999
+- name: Banned Groups
+  score: -99999
+- name: Banned WEBRip
+  score: -99999
 - name: Dolby Vision
   score: -99999
 - name: Extras
@@ -128,9 +132,7 @@ custom_formats:
   score: -99999
 - name: Remux
   score: -99999
-- name: UnWanted Release Groups
-  score: -99999
-- name: UnWanted WEBRip Groups
+- name: Sing Along
   score: -99999
 - name: Upscaled
   score: -99999

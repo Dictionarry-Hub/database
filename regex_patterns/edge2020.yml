@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])edge2020\b
 description: Banned for LQ, Mislabeling, and Upscale
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

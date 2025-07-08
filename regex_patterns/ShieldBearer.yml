@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])ShieldBearer\b
 description: Banned For AI Upscale
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])PiRaTeS\b
 description: Banned for Mislabeling WEB-DLs as WEBRips
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

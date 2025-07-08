@@ -1,0 +1,7 @@
+name: AOC
+pattern: (?<=^|[\s.-])AOC\b
+description: Banned for Excessive Audio Streams
+tags:
+- Release Group
+- WEB-DL
+tests: []

@@ -112,6 +112,10 @@ custom_formats:
   score: -99999
 - name: B&W
   score: -99999
+- name: Banned Groups
+  score: -99999
+- name: Banned Remux
+  score: -99999
 - name: Dolby Vision
   score: -99999
 - name: Dolby Vision (Without Fallback)
@@ -134,11 +138,9 @@ custom_formats:
   score: -99999
 - name: PQ
   score: -99999
+- name: Sing Along
+  score: -99999
 - name: UHDBits
-  score: -99999
-- name: UnWanted Release Groups
-  score: -99999
-- name: UnWanted Remux Groups
   score: -99999
 - name: Upscaled
   score: -99999

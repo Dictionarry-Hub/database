@@ -1,7 +1,7 @@
-name: UnWanted Release Groups
+name: Banned Groups
 description: Matches Release Groups that are Banned
 tags:
-- UnWanted
+- Banned
 - Release Group
 conditions:
 - name: Release Group (Missing)
@@ -12,6 +12,11 @@ conditions:
 - name: 4K4U
   negate: false
   pattern: 4K4U
+  required: false
+  type: release_group
+- name: AOC
+  negate: false
+  pattern: AOC
   required: false
   type: release_group
 - name: AROMA
@@ -65,10 +70,10 @@ conditions:
   required: false
   type: release_group
 - name: HDS
-  type: release_group
-  required: false
   negate: false
   pattern: HDS
+  required: false
+  type: release_group
 - name: jennaortegaUHD
   negate: false
   pattern: jennaortegaUHD
@@ -99,6 +104,11 @@ conditions:
   pattern: NAHOM
   required: false
   type: release_group
+- name: NhaNc3
+  negate: false
+  pattern: NhaNc3
+  required: false
+  type: release_group
 - name: NoGroup
   negate: false
   pattern: NoGroup
@@ -117,6 +127,11 @@ conditions:
 - name: SasukeducK
   negate: false
   pattern: SasukeducK
+  required: false
+  type: release_group
+- name: SHD
+  negate: false
+  pattern: SHD
   required: false
   type: release_group
 - name: ShieldBearer
@@ -159,9 +174,24 @@ conditions:
   pattern: VisionXpert
   required: false
   type: release_group
+- name: WiKi
+  type: release_group
+  required: false
+  negate: false
+  pattern: WiKi
 - name: WOU
   negate: false
   pattern: WOU
+  required: false
+  type: release_group
+- name: YIFY
+  negate: false
+  pattern: YIFY
+  required: false
+  type: release_group
+- name: YTS
+  negate: false
+  pattern: YTS
   required: false
   type: release_group
 tests: []

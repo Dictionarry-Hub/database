@@ -215,9 +215,4 @@ conditions:
   pattern: WhiteRhino
   required: false
   type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
 tests: []

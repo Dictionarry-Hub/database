@@ -1,0 +1,16 @@
+name: IMAX
+description: ''
+tags:
+- Edition
+conditions:
+- name: IMAX
+  type: release_title
+  required: true
+  negate: false
+  pattern: IMAX
+- name: Not IMAX Enhanced
+  type: release_title
+  required: true
+  negate: true
+  pattern: IMAX Enhanced
+tests: []

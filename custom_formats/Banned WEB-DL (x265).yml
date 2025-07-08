@@ -1,18 +1,19 @@
-name: x265 (WEB-DL)
+name: Banned WEB-DL (x265)
 description: ''
 tags:
-- Codec
+- Banned
+- Release Group
 conditions:
-- name: x265
-  negate: false
-  pattern: x265
-  required: true
-  type: release_title
 - name: WEB-DL
   negate: false
   required: true
   source: web_dl
   type: source
+- name: x265
+  negate: false
+  pattern: x265
+  required: true
+  type: release_title
 - name: ABBIE
   negate: true
   pattern: ABBIE

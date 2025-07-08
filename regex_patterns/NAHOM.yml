@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])NAHOM\b
 description: Banned for Poor Quality Multi
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

@@ -3,5 +3,5 @@ pattern: (?<=^|[\s.-])d3g\b
 description: Banned for LQ and various Encode Issues.
 tags:
 - Release Group
-- UnWanted
+- Banned
 tests: []

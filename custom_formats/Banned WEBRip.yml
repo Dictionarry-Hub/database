@@ -1,7 +1,7 @@
-name: UnWanted WEBRip Groups
+name: Banned WEBRip
 description: Matches WEBRip releases that are not from a quality tier
 tags:
-- UnWanted
+- Banned
 - Release Group
 conditions:
 - name: WEBRip

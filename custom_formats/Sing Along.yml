@@ -1,12 +1,12 @@
-name: Upscaled
-description: Matches the 'Upscaled' regex pattern
+name: Sing Along
+description: ''
 tags:
 - Banned
 - Enhancement
 conditions:
-- name: Upscaled
+- name: Sing Along
   negate: false
-  pattern: Upscaled
+  pattern: Sing Along
   required: true
   type: release_title
 tests: []
