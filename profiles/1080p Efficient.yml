@@ -21,17 +21,17 @@ custom_formats:
   score: 11500
 - name: 1080p Efficient Bluray Tier 3 (Radarr)
   score: 11400
-- name: 1080p Efficient WEB Tier 1 (Radarr)
-  score: 11300
-- name: 1080p Efficient WEB Tier 2 (Radarr)
-  score: 11200
 - name: 1080p Efficient Bluray Tier 4 (Radarr)
-  score: 11100
-- name: 1080p Efficient WEB Tier 3 (Radarr)
-  score: 11000
-- name: 1080p Efficient WEB Tier 4 (Radarr)
-  score: 10900
+  score: 11300
 - name: 1080p Efficient Bluray Tier 5 (Radarr)
+  score: 11200
+- name: 1080p Efficient WEB Tier 1 (Radarr)
+  score: 11100
+- name: 1080p Efficient WEB Tier 2 (Radarr)
+  score: 11000
+- name: 1080p Efficient WEB Tier 3 (Radarr)
+  score: 10900
+- name: 1080p Efficient WEB Tier 4 (Radarr)
   score: 10800
 - name: 1080p Efficient WEB Tier 5 (Radarr)
   score: 10700
