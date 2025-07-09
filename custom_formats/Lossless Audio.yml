@@ -1,12 +1,12 @@
-name: Lossless Audio (1080p)
-description: Matches any lossless audio track in a 1080p release.
+name: Lossless Audio
+description: Matches any Lossless Audio Track not in a 2160p Release.
 tags:
 - Audio
 conditions:
-- name: 1080p
-  negate: false
+- name: Not 2160p
+  negate: true
   required: true
-  resolution: 1080p
+  resolution: 2160p
   type: resolution
 - name: DTS-HD MA
   negate: false

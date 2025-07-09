@@ -89,6 +89,8 @@ custom_formats:
   score: 100
 - name: CRIT
   score: 100
+- name: DS4K
+  score: 100
 - name: HDR
   score: 100
 - name: HDR10
@@ -158,6 +160,8 @@ custom_formats:
 - name: Full Disc (Quality Match)
   score: -99999
 - name: h265 (Efficient)
+  score: -99999
+- name: Lossless Audio
   score: -99999
 - name: Remux
   score: -99999
