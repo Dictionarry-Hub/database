@@ -1,5 +1,5 @@
-name: dkore
-pattern: (?<=^|[\s.-])dkore\b
+name: NiCEHEVC
+pattern: (?<=^|[\s.-])NiCEHEVC\b
 description: ''
 tags:
 - Release Group
