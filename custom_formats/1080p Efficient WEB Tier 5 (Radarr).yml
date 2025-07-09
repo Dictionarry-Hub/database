@@ -12,10 +12,10 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: x265
-  type: release_title
-  required: true
   negate: false
   pattern: x265 (Efficient)
+  required: true
+  type: release_title
 - name: WEB-DL
   negate: false
   required: false
@@ -26,6 +26,21 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: iVy
+  negate: false
+  pattern: iVy
+  required: false
+  type: release_group
+- name: PHOCiS
+  negate: false
+  pattern: PHOCiS
+  required: false
+  type: release_group
+- name: YAWNiX
+  type: release_group
+  required: false
+  negate: false
+  pattern: YAWNiX
 tests:
 - conditionResults:
   - matches: true
