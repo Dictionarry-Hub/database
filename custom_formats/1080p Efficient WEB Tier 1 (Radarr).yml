@@ -17,10 +17,30 @@ conditions:
   source: web_dl
   type: source
 - name: WEBRip
+  negate: false
+  required: false
+  source: webrip
   type: source
+- name: LSt
+  type: release_group
   required: false
   negate: false
-  source: webrip
+  pattern: LSt
+- name: QxR
+  negate: false
+  pattern: QxR
+  required: false
+  type: release_group
+- name: TAoE
+  negate: false
+  pattern: TAoE
+  required: false
+  type: release_group
+- name: TimeDistortion
+  type: release_group
+  required: false
+  negate: false
+  pattern: TimeDistortion
 tests:
 - conditionResults:
   - matches: true
