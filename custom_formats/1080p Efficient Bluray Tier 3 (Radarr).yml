@@ -17,10 +17,25 @@ conditions:
   source: bluray
   type: source
 - name: x265
-  type: release_title
-  required: true
   negate: false
   pattern: x265 (Efficient)
+  required: true
+  type: release_title
+- name: dkore
+  type: release_group
+  required: false
+  negate: false
+  pattern: dkore
+- name: GRiMM
+  type: release_group
+  required: false
+  negate: false
+  pattern: GRiMM
+- name: TimeDistortion
+  type: release_group
+  required: false
+  negate: false
+  pattern: TimeDistortion
 tests:
 - conditionResults:
   - matches: true
