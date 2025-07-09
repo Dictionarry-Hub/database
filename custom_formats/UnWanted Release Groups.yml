@@ -14,11 +14,6 @@ conditions:
   pattern: 4K4U
   required: false
   type: release_group
-- name: AOC
-  negate: false
-  pattern: AOC
-  required: false
-  type: release_group  
 - name: AROMA
   negate: false
   pattern: AROMA
@@ -164,39 +159,14 @@ conditions:
   pattern: VisionXpert
   required: false
   type: release_group
-- name: WiKi
-  type: release_group
-  required: false
-  negate: false
-  pattern: WiKi  
 - name: WOU
   negate: false
   pattern: WOU
   required: false
   type: release_group
-- name: YIFY
-  negate: false
-  pattern: YIFY
-  required: false
-  type: release_group
-- name: YTS
-  negate: false
-  pattern: YTS
-  required: false
-  type: release_group  
 - name: B0MBARDiERS
   negate: false
   pattern: B0MBARDiERS
   required: false
   type: release_group
-- name: SHD
-  negate: false
-  pattern: SHD
-  required: false
-  type: release_group
-- name: NhaNc3
-  negate: false
-  pattern: NhaNc3
-  required: false
-  type: release_group    
 tests: []
