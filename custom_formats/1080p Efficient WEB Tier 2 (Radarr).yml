@@ -33,7 +33,7 @@ conditions:
   type: release_group
 - name: D0ct0rLew
   negate: false
-  pattern: D0ct0rLew
+  pattern: SEV
   required: false
   type: release_group
 - name: NiCEHEVC

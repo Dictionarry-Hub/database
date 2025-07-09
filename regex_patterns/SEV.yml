@@ -1,5 +1,5 @@
-name: D0ct0rLew
-pattern: (?<=^|[\s.-])D0ct0rLew\b
+name: SEV
+pattern: (?<=^|[\s.-])SEV|D0ct0rLew|Kira\b
 description: ''
 tags:
 - Release Group
