@@ -17,10 +17,40 @@ conditions:
   source: bluray
   type: source
 - name: x265
-  type: release_title
-  required: true
   negate: false
   pattern: x265 (Efficient)
+  required: true
+  type: release_title
+- name: Chivaman
+  type: release_group
+  required: false
+  negate: false
+  pattern: Chivaman
+- name: R1GY3B
+  type: release_group
+  required: false
+  negate: false
+  pattern: R1GY3B
+- name: Ralphy
+  type: release_group
+  required: false
+  negate: false
+  pattern: Ralphy
+- name: ToNaTo
+  type: release_group
+  required: false
+  negate: false
+  pattern: ToNaTo
+- name: Vyndros
+  type: release_group
+  required: false
+  negate: false
+  pattern: Vyndros
+- name: YELLO
+  type: release_group
+  required: false
+  negate: false
+  pattern: YELLO
 tests:
 - conditionResults:
   - matches: true
