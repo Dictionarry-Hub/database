@@ -21,6 +21,26 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: dkore
+  type: release_group
+  required: false
+  negate: false
+  pattern: dkore
+- name: D0ct0rLew
+  type: release_group
+  required: false
+  negate: false
+  pattern: D0ct0rLew
+- name: NiCEHEVC
+  type: release_group
+  required: false
+  negate: false
+  pattern: NiCEHEVC
+- name: R1GY3B
+  type: release_group
+  required: false
+  negate: false
+  pattern: R1GY3B
 tests:
 - conditionResults:
   - matches: true
