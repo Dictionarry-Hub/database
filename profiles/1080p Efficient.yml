@@ -8,9 +8,33 @@ tags:
 - x265
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 10000
+upgradeUntilScore: 20000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Efficient NF WEB-DL (Radarr)
+  score: 12800
+- name: 1080p Efficient WEB-DL Tier 1 (Radarr)
+  score: 12700
+- name: 1080p Efficient Bluray Tier 1 (Radarr)
+  score: 11500
+- name: 1080p Efficient Bluray Tier 2 (Radarr)
+  score: 11400
+- name: 1080p Efficient Bluray Tier 3 (Radarr)
+  score: 11300
+- name: 1080p Efficient Bluray Tier 4 (Radarr)
+  score: 11200
+- name: 1080p Efficient Bluray Tier 5 (Radarr)
+  score: 11100
+- name: 1080p Efficient WEB Tier 1 (Radarr)
+  score: 11000
+- name: 1080p Efficient WEB Tier 2 (Radarr)
+  score: 10900
+- name: 1080p Efficient WEB Tier 3 (Radarr)
+  score: 10900
+- name: 1080p Efficient WEB Tier 4 (Radarr)
+  score: 10800
+- name: 1080p Efficient WEB Tier 5 (Radarr)
+  score: 10700
 - name: 1080p Balanced Tier 1
   score: 8300
 - name: 1080p Balanced Tier 2
