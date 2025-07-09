@@ -13,7 +13,7 @@ tags:
 conditions:
 - name: UHD Bluray
   negate: false
-  pattern: UHD Blu-ray
+  pattern: UHD Bluray
   required: true
   type: release_title
 - name: HDR
@@ -21,6 +21,11 @@ conditions:
   pattern: Basic HDR Formats
   required: true
   type: release_title
+- name: Release Groups
+  negate: true
+  pattern: UHD Bluray (Negated Groups)
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: false

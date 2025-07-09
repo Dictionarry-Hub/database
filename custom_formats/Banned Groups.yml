@@ -89,16 +89,6 @@ conditions:
   pattern: LAMA
   required: false
   type: release_group
-- name: MALUS
-  negate: false
-  pattern: MALUS
-  required: false
-  type: release_group
-- name: MovieMan
-  negate: false
-  pattern: MovieMan
-  required: false
-  type: release_group
 - name: NAHOM
   negate: false
   pattern: NAHOM
@@ -139,11 +129,6 @@ conditions:
   pattern: ShieldBearer
   required: false
   type: release_group
-- name: SM737
-  negate: false
-  pattern: SM737
-  required: false
-  type: release_group
 - name: STUTTERSHIT
   negate: false
   pattern: STUTTERSHIT
@@ -175,13 +160,8 @@ conditions:
   required: false
   type: release_group
 - name: WiKi
-  type: release_group
-  required: false
   negate: false
   pattern: WiKi
-- name: WOU
-  negate: false
-  pattern: WOU
   required: false
   type: release_group
 - name: YIFY
