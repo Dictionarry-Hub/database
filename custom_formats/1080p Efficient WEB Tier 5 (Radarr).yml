@@ -11,6 +11,11 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
+- name: x265
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265 (Efficient)
 - name: WEB-DL
   negate: false
   required: false

@@ -11,6 +11,11 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
+- name: x265
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265 (Efficient)
 - name: WEB-DL
   negate: false
   required: false
@@ -22,10 +27,10 @@ conditions:
   source: webrip
   type: source
 - name: LSt
-  type: release_group
-  required: false
   negate: false
   pattern: LSt
+  required: false
+  type: release_group
 - name: QxR
   negate: false
   pattern: QxR
@@ -37,10 +42,10 @@ conditions:
   required: false
   type: release_group
 - name: TimeDistortion
-  type: release_group
-  required: false
   negate: false
   pattern: TimeDistortion
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

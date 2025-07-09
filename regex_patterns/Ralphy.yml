@@ -1,0 +1,7 @@
+name: Ralphy
+pattern: (?<=^|[\s.-])Ralphy\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

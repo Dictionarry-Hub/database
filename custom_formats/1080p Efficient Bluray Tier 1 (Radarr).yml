@@ -12,10 +12,15 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: Bluray
+  negate: false
+  required: true
+  source: bluray
   type: source
+- name: x265
+  type: release_title
   required: true
   negate: false
-  source: bluray
+  pattern: x265 (Efficient)
 tests:
 - conditionResults:
   - matches: true

@@ -11,6 +11,11 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
+- name: x265
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265 (Efficient)
 - name: WEB-DL
   negate: false
   required: false
@@ -21,6 +26,21 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: SiGMA
+  negate: false
+  pattern: SiGMA
+  required: false
+  type: release_group
+- name: ToNaTo
+  negate: false
+  pattern: ToNaTo
+  required: false
+  type: release_group
+- name: Vyndros
+  negate: false
+  pattern: Vyndros
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

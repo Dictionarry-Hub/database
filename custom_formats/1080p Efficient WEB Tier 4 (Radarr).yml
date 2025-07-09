@@ -11,6 +11,11 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
+- name: x265
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265 (Efficient)
 - name: WEB-DL
   negate: false
   required: false
@@ -21,6 +26,26 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: SARTRE
+  negate: false
+  pattern: SARTRE
+  required: false
+  type: release_group
+- name: SM737
+  negate: false
+  pattern: SM737
+  required: false
+  type: release_group
+- name: Ralphy
+  negate: false
+  pattern: Ralphy
+  required: false
+  type: release_group
+- name: YELLO
+  negate: false
+  pattern: YELLO
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

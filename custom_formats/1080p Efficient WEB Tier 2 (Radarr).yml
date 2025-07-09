@@ -11,6 +11,11 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
+- name: x265
+  negate: false
+  pattern: x265 (Efficient)
+  required: true
+  type: release_title
 - name: WEB-DL
   negate: false
   required: false
@@ -22,25 +27,25 @@ conditions:
   source: webrip
   type: source
 - name: dkore
-  type: release_group
-  required: false
   negate: false
   pattern: dkore
-- name: D0ct0rLew
-  type: release_group
   required: false
+  type: release_group
+- name: D0ct0rLew
   negate: false
   pattern: D0ct0rLew
-- name: NiCEHEVC
-  type: release_group
   required: false
+  type: release_group
+- name: NiCEHEVC
   negate: false
   pattern: NiCEHEVC
-- name: R1GY3B
-  type: release_group
   required: false
+  type: release_group
+- name: R1GY3B
   negate: false
   pattern: R1GY3B
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

@@ -16,6 +16,11 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: x265
+  type: release_title
+  required: true
+  negate: false
+  pattern: x265 (Efficient)
 tests:
 - conditionResults:
   - matches: true
