@@ -26,6 +26,16 @@ conditions:
   pattern: h265
   required: true
   type: release_title
+- name: DV
+  negate: false
+  pattern: Dolby Vision
+  required: false
+  type: release_title
+- name: HDR
+  negate: false
+  pattern: HDR
+  required: false
+  type: release_title
 tests:
 - conditionResults:
   - matches: true
