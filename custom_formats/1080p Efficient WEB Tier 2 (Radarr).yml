@@ -31,7 +31,7 @@ conditions:
   pattern: dkore
   required: false
   type: release_group
-- name: D0ct0rLew
+- name: SEV
   negate: false
   pattern: SEV
   required: false
