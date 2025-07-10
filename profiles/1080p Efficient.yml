@@ -11,10 +11,8 @@ minCustomFormatScore: 2000
 upgradeUntilScore: 20000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Efficient NF WEB-DL (Radarr)
-  score: 12800
-- name: 1080p Efficient WEB-DL Tier 1 (Radarr)
-  score: 12700
+- name: 1080p WEB-DL (h265)
+  score: 13000
 - name: 1080p Efficient Bluray Tier 1 (Radarr)
   score: 11600
 - name: 1080p Efficient Bluray Tier 2 (Radarr)
