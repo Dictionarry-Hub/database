@@ -1,5 +1,5 @@
 name: SEV
-pattern: (?<=^|[\s.-])SEV|D0ct0rLew|Kira\b
+pattern: (?<=^|[\s.-])SEV\b|D0ct0rLew\b|Kira\b
 description: ''
 tags:
 - Release Group
