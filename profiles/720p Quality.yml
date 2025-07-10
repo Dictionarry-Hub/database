@@ -23,19 +23,19 @@ custom_formats:
 - name: 480p WEB-DL
   score: 3000
 - name: 720p Quality Tier 1
-  score: 2100
+  score: 2200
 - name: 720p Quality Tier 2
+  score: 2100
+- name: 720p Quality Tier 3
   score: 2000
 - name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: 720p Quality Tier 3
-  score: 1900
 - name: 720p Quality Tier 4
-  score: 1800
+  score: 1900
 - name: 720p Quality Tier 5
-  score: 1700
+  score: 1800
 - name: 720p Golden Popcorn
   score: 600
 - name: MA

@@ -28,15 +28,15 @@ custom_formats:
 - name: 720p WEBRip
   score: 5000
 - name: 1080p Quality Tier 1
-  score: 4100
+  score: 4200
 - name: 1080p Quality Tier 2
-  score: 4000
+  score: 4100
 - name: 1080p Quality Tier 3
-  score: 3900
+  score: 4000
 - name: 1080p Quality Tier 4
-  score: 3800
+  score: 3900
 - name: 1080p Quality Tier 5
-  score: 3700
+  score: 3800
 - name: 1080p Balanced Tier 1
   score: 3300
 - name: 1080p Balanced Tier 2
@@ -44,19 +44,19 @@ custom_formats:
 - name: 480p WEB-DL
   score: 3000
 - name: 720p Quality Tier 1
-  score: 2100
+  score: 2200
 - name: 720p Quality Tier 2
+  score: 2100
+- name: 720p Quality Tier 3
   score: 2000
 - name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: 720p Quality Tier 3
-  score: 1900
 - name: 720p Quality Tier 4
-  score: 1800
+  score: 1900
 - name: 720p Quality Tier 5
-  score: 1700
+  score: 1800
 - name: 1080p Golden Popcorn
   score: 800
 - name: 720p Golden Popcorn
