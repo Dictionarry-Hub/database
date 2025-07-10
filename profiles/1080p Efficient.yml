@@ -14,15 +14,15 @@ custom_formats:
 - name: 1080p WEB-DL (h265)
   score: 13000
 - name: 1080p Efficient Bluray Tier 1 (Radarr)
-  score: 11600
+  score: 12100
 - name: 1080p Efficient Bluray Tier 2 (Radarr)
-  score: 11500
+  score: 12000
 - name: 1080p Efficient Bluray Tier 3 (Radarr)
-  score: 11400
+  score: 11900
 - name: 1080p Efficient Bluray Tier 4 (Radarr)
-  score: 11300
+  score: 11800
 - name: 1080p Efficient Bluray Tier 5 (Radarr)
-  score: 11200
+  score: 11700
 - name: 1080p Efficient WEB Tier 1 (Radarr)
   score: 11100
 - name: 1080p Efficient WEB Tier 2 (Radarr)
