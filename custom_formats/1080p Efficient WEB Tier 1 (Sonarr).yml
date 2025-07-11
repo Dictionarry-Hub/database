@@ -26,11 +26,6 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: LSt
-  negate: false
-  pattern: LSt
-  required: false
-  type: release_group
 - name: QxR
   negate: false
   pattern: QxR

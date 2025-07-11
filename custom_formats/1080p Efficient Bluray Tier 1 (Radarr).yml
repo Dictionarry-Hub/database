@@ -22,20 +22,15 @@ conditions:
   required: true
   type: release_title
 - name: QxR
-  type: release_group
-  required: false
   negate: false
   pattern: QxR
-- name: SQS
-  type: release_group
   required: false
-  negate: false
-  pattern: SQS
+  type: release_group
 - name: TAoE
-  type: release_group
-  required: false
   negate: false
   pattern: TAoE
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

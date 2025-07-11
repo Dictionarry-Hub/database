@@ -27,15 +27,20 @@ conditions:
   source: webrip
   type: source
 - name: edge2020
-  type: release_group
-  required: false
   negate: false
   pattern: edge2020
-- name: ToNaTo
+  required: false
+  type: release_group
+- name: LSt
   type: release_group
   required: false
   negate: false
+  pattern: LSt
+- name: ToNaTo
+  negate: false
   pattern: ToNaTo
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

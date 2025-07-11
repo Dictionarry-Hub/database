@@ -22,20 +22,25 @@ conditions:
   required: true
   type: release_title
 - name: dkore
-  type: release_group
-  required: false
   negate: false
   pattern: dkore
-- name: GRiMM
-  type: release_group
   required: false
+  type: release_group
+- name: GRiMM
   negate: false
   pattern: GRiMM
-- name: SEV
+  required: false
+  type: release_group
+- name: MNHD
   type: release_group
   required: false
   negate: false
+  pattern: MNHD
+- name: SEV
+  negate: false
   pattern: SEV
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

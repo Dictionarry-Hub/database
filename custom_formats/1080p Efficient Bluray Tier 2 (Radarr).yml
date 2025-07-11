@@ -32,10 +32,10 @@ conditions:
   required: false
   type: release_group
 - name: MNHD
-  type: release_group
-  required: false
   negate: false
   pattern: MNHD
+  required: false
+  type: release_group
 - name: NiCEHEVC
   negate: false
   pattern: Honeyvera
@@ -46,6 +46,11 @@ conditions:
   pattern: SARTRE
   required: false
   type: release_group
+- name: SQS
+  type: release_group
+  required: false
+  negate: false
+  pattern: SQS
 tests:
 - conditionResults:
   - matches: true
