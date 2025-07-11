@@ -12,10 +12,10 @@ conditions:
   resolution: 1080p
   type: resolution
 - name: x265
-  type: release_title
-  required: true
   negate: false
   pattern: x265 (Efficient)
+  required: true
+  type: release_title
 - name: WEB-DL
   negate: false
   required: false
@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: edge2020
+  type: release_group
+  required: false
+  negate: false
+  pattern: edge2020
 - name: SiGMA
   negate: false
   pattern: SiGMA

@@ -22,35 +22,40 @@ conditions:
   required: true
   type: release_title
 - name: Chivaman
-  type: release_group
-  required: false
   negate: false
   pattern: Chivaman
-- name: R1GY3B
+  required: false
+  type: release_group
+- name: edge2020
   type: release_group
   required: false
+  negate: false
+  pattern: edge2020
+- name: R1GY3B
   negate: false
   pattern: R1GY3B
-- name: Ralphy
-  type: release_group
   required: false
+  type: release_group
+- name: Ralphy
   negate: false
   pattern: Ralphy
-- name: ToNaTo
-  type: release_group
   required: false
+  type: release_group
+- name: ToNaTo
   negate: false
   pattern: ToNaTo
-- name: Vyndros
-  type: release_group
   required: false
+  type: release_group
+- name: Vyndros
   negate: false
   pattern: Vyndros
-- name: YELLO
-  type: release_group
   required: false
+  type: release_group
+- name: YELLO
   negate: false
   pattern: YELLO
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

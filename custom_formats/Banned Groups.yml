@@ -54,11 +54,6 @@ conditions:
   pattern: DepraveD
   required: false
   type: release_group
-- name: edge2020
-  negate: false
-  pattern: edge2020
-  required: false
-  type: release_group
 - name: FGT
   negate: false
   pattern: FGT
