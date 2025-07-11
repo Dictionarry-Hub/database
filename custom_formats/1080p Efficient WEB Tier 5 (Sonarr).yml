@@ -27,25 +27,20 @@ conditions:
   source: webrip
   type: source
 - name: iVy
-  type: release_group
-  required: false
   negate: false
   pattern: iVy
-- name: TimeDistortion
-  type: release_group
   required: false
-  negate: false
-  pattern: TimeDistortion
+  type: release_group
 - name: PHOCiS
-  type: release_group
-  required: false
   negate: false
   pattern: PHOCiS
-- name: YAWNiX
-  type: release_group
   required: false
+  type: release_group
+- name: YAWNiX
   negate: false
   pattern: YAWNiX
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

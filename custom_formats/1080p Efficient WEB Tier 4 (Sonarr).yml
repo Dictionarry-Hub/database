@@ -27,10 +27,10 @@ conditions:
   source: webrip
   type: source
 - name: bluespots
-  type: release_group
-  required: false
   negate: false
   pattern: bluespots
+  required: false
+  type: release_group
 - name: dkore
   negate: false
   pattern: dkore
@@ -46,6 +46,11 @@ conditions:
   pattern: SM737
   required: false
   type: release_group
+- name: TimeDistortion
+  type: release_group
+  required: false
+  negate: false
+  pattern: TimeDistortion
 - name: Vyndros
   negate: false
   pattern: Vyndros
