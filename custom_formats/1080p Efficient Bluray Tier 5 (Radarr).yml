@@ -21,16 +21,6 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: iVy
-  negate: false
-  pattern: iVy
-  required: false
-  type: release_group
-- name: PHOCiS
-  type: release_group
-  required: false
-  negate: false
-  pattern: PHOCiS
 - name: SM737
   negate: false
   pattern: SM737
