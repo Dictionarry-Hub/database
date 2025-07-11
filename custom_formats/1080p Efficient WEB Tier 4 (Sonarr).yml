@@ -26,6 +26,31 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: bluespots
+  type: release_group
+  required: false
+  negate: false
+  pattern: bluespots
+- name: dkore
+  negate: false
+  pattern: dkore
+  required: false
+  type: release_group
+- name: Ralphy
+  negate: false
+  pattern: Ralphy
+  required: false
+  type: release_group
+- name: SM737
+  negate: false
+  pattern: SM737
+  required: false
+  type: release_group
+- name: Vyndros
+  negate: false
+  pattern: Vyndros
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

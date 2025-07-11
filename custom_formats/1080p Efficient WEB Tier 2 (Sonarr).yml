@@ -26,6 +26,16 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: edge2020
+  type: release_group
+  required: false
+  negate: false
+  pattern: edge2020
+- name: ToNaTo
+  type: release_group
+  required: false
+  negate: false
+  pattern: ToNaTo
 tests:
 - conditionResults:
   - matches: true

@@ -26,6 +26,26 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: iVy
+  type: release_group
+  required: false
+  negate: false
+  pattern: iVy
+- name: TimeDistortion
+  type: release_group
+  required: false
+  negate: false
+  pattern: TimeDistortion
+- name: PHOCiS
+  type: release_group
+  required: false
+  negate: false
+  pattern: PHOCiS
+- name: YAWNiX
+  type: release_group
+  required: false
+  negate: false
+  pattern: YAWNiX
 tests:
 - conditionResults:
   - matches: true
