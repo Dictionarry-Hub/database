@@ -29,14 +29,14 @@ conditions:
   pattern: DTS-X
   required: true
   type: release_title
-- name: Not TrueHD
-  negate: true
-  pattern: TrueHD
-  required: true
-  type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
   required: true
   type: release_title
 tests: []
