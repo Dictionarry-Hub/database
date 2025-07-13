@@ -125,6 +125,8 @@ custom_formats:
   score: 200
 - name: DTS-X
   score: 150
+- name: DTS-HD MA
+  score: 100
 - name: HDR
   score: 100
 - name: HDR10
@@ -148,8 +150,6 @@ custom_formats:
 - name: Atmos
   score: 50
 - name: Atmos (Missing)
-  score: 50
-- name: DTS-HD MA
   score: 50
 - name: FLAC
   score: 50
