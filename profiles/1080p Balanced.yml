@@ -18,7 +18,7 @@ tags:
 - h264
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 10000
+upgradeUntilScore: 20000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Balanced Tier 1

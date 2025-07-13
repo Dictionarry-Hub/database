@@ -15,15 +15,15 @@ tags:
 - h265
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 16000
+upgradeUntilScore: 20000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Balanced Tier 1
-  score: 13400
+  score: 14400
 - name: 2160p Balanced Tier 2
-  score: 13200
+  score: 14200
 - name: 2160p WEB-DL
-  score: 13000
+  score: 14000
 - name: 1080p WEB-DL
   score: 11000
 - name: 1080p Bluray
