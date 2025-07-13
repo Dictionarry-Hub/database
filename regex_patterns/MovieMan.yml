@@ -3,7 +3,6 @@ pattern: (?<=^|[\s.-])MovieMan\b
 description: ''
 tags:
 - Release Group
-- Banned
 tests:
 - expected: true
   id: 1
