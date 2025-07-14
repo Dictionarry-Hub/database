@@ -21,6 +21,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
+- name: NAN0
+  type: release_group
+  required: false
+  negate: false
+  pattern: NAN0
 - name: QxR
   negate: false
   pattern: QxR
