@@ -26,11 +26,6 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: SEV
-  negate: false
-  pattern: SEV
-  required: false
-  type: release_group
 - name: YELLO
   negate: false
   pattern: YELLO

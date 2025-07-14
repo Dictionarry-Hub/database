@@ -1,7 +1,0 @@
-name: SEV
-pattern: (?<=^|[\s.-])SEV\b|D0ct0rLew\b|Kira\b
-description: ''
-tags:
-- Release Group
-- WEB-DL
-tests: []

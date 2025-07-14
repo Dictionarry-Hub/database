@@ -32,13 +32,8 @@ conditions:
   required: false
   type: release_group
 - name: MNHD
-  type: release_group
-  required: false
   negate: false
   pattern: MNHD
-- name: SEV
-  negate: false
-  pattern: SEV
   required: false
   type: release_group
 tests:
