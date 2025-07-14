@@ -9,6 +9,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: BYNDR
+  type: release_group
+  required: false
+  negate: false
+  pattern: BYNDR
 - name: CMRG
   negate: false
   pattern: CMRG
@@ -30,10 +35,10 @@ conditions:
   required: false
   type: release_group
 - name: playWEB
-  type: release_group
-  required: false
   negate: false
   pattern: playWEB
+  required: false
+  type: release_group
 - name: TEPES
   negate: false
   pattern: TEPES
