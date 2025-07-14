@@ -36,16 +36,6 @@ conditions:
   pattern: LSt
   required: false
   type: release_group
-- name: SEV
-  negate: false
-  pattern: SEV
-  required: false
-  type: release_group
-- name: R1GY3B
-  negate: false
-  pattern: R1GY3B
-  required: false
-  type: release_group
 - name: TimeDistortion
   negate: false
   pattern: TimeDistortion

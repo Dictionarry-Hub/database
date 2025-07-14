@@ -31,6 +31,11 @@ conditions:
   pattern: edge2020
   required: false
   type: release_group
+- name: R1GY3B
+  type: release_group
+  required: false
+  negate: false
+  pattern: R1GY3B
 - name: ToNaTo
   negate: false
   pattern: ToNaTo
