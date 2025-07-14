@@ -22,35 +22,30 @@ conditions:
   required: true
   type: release_title
 - name: cXcY
-  type: release_group
-  required: false
   negate: false
   pattern: cXcY
-- name: edge2020
-  type: release_group
   required: false
+  type: release_group
+- name: edge2020
   negate: false
   pattern: edge2020
-- name: Ralphy
-  type: release_group
   required: false
+  type: release_group
+- name: Ralphy
   negate: false
   pattern: Ralphy
-- name: SM737
-  type: release_group
   required: false
-  negate: false
-  pattern: SM737
+  type: release_group
 - name: TimeDistortion
-  type: release_group
-  required: false
   negate: false
   pattern: TimeDistortion
-- name: YELLO
-  type: release_group
   required: false
+  type: release_group
+- name: YELLO
   negate: false
   pattern: YELLO
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

@@ -41,16 +41,11 @@ conditions:
   pattern: Ralphy
   required: false
   type: release_group
-- name: SM737
-  negate: false
-  pattern: SM737
-  required: false
-  type: release_group
 - name: TimeDistortion
-  type: release_group
-  required: false
   negate: false
   pattern: TimeDistortion
+  required: false
+  type: release_group
 - name: Vyndros
   negate: false
   pattern: Vyndros
