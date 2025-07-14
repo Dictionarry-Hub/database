@@ -26,16 +26,6 @@ conditions:
   pattern: LSt
   required: false
   type: release_group
-- name: R1GY3B
-  negate: false
-  pattern: R1GY3B
-  required: false
-  type: release_group
-- name: ToNaTo
-  negate: false
-  pattern: ToNaTo
-  required: false
-  type: release_group
 tests:
 - conditionResults:
   - matches: true
