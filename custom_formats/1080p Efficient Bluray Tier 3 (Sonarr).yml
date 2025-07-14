@@ -21,26 +21,21 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: NiCEHEVC
-  negate: false
-  pattern: NiCEHEVC
-  required: false
-  type: release_group
 - name: LSt
   negate: false
   pattern: LSt
   required: false
   type: release_group
 - name: R1GY3B
-  type: release_group
-  required: false
   negate: false
   pattern: R1GY3B
-- name: ToNaTo
-  type: release_group
   required: false
+  type: release_group
+- name: ToNaTo
   negate: false
   pattern: ToNaTo
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

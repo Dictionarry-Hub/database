@@ -41,21 +41,16 @@ conditions:
   pattern: SEV
   required: false
   type: release_group
-- name: NiCEHEVC
-  negate: false
-  pattern: NiCEHEVC
-  required: false
-  type: release_group
 - name: R1GY3B
   negate: false
   pattern: R1GY3B
   required: false
   type: release_group
 - name: TimeDistortion
-  type: release_group
-  required: false
   negate: false
   pattern: TimeDistortion
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

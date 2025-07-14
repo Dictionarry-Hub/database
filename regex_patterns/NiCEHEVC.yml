@@ -1,7 +1,0 @@
-name: NiCEHEVC
-pattern: (?<=^|[\s.-])NiCEHEVC\b
-description: ''
-tags:
-- Release Group
-- WEB-DL
-tests: []

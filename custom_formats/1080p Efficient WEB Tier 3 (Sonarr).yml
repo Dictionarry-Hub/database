@@ -26,21 +26,16 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: NiCEHEVC
-  type: release_group
-  required: false
-  negate: false
-  pattern: NiCEHEVC
 - name: SEV
-  type: release_group
-  required: false
   negate: false
   pattern: SEV
-- name: YELLO
-  type: release_group
   required: false
+  type: release_group
+- name: YELLO
   negate: false
   pattern: YELLO
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true
