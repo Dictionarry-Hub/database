@@ -13,7 +13,7 @@ conditions:
   type: release_group
   required: true
   negate: true
-  pattern: OPUS Negation
+  pattern: Opus (Negation)
 tests:
 - conditionResults:
   - matches: false

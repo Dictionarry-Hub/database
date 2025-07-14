@@ -1,4 +1,4 @@
-name: UHD Bluray (Negated Groups)
+name: UHD Bluray (Negation)
 pattern: (?<=^|[\s.-])D0ct0rLew|MALUS|MovieMan|SM737|SQS|WOU\b
 description: Match release groups who should not be categorized as UHD Bluray
 tags: []

@@ -1,4 +1,4 @@
-name: OPUS Negation
+name: Opus (Negation)
 pattern: (?<=^|[\s.-])OPUS\b
 description: ''
 tags:
