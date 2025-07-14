@@ -1,0 +1,7 @@
+name: NAN0
+pattern: (?<=^|[\s.-])NAN0\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []
