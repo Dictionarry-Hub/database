@@ -39,6 +39,11 @@ conditions:
   pattern: BTN
   required: true
   type: release_group
+- name: BYNDR
+  type: release_group
+  required: true
+  negate: true
+  pattern: BYNDR
 - name: CMRG
   negate: true
   pattern: CMRG
