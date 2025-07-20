@@ -39,11 +39,16 @@ conditions:
   pattern: BOLS
   required: false
   type: release_group
-- name: CLASSiCALHD
+- name: BTM
   type: release_group
   required: false
   negate: false
+  pattern: BTM
+- name: CLASSiCALHD
+  negate: false
   pattern: CLASSiCALHD
+  required: false
+  type: release_group
 - name: CREATiVE24
   negate: false
   pattern: CREATiVE24
