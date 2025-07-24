@@ -73,6 +73,8 @@ custom_formats:
   score: 500
 - name: AMZN
   score: 400
+- name: ATV
+  score: 400
 - name: ATVP
   score: 400
 - name: DSNP
