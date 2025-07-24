@@ -1,4 +1,4 @@
-name: 1080p WEB-DL (h265)
+name: 1080p Efficient WEB-DL Tier 2
 description: Matches 1080p WEB-DLs.
 tags:
 - Resolution
@@ -15,7 +15,12 @@ conditions:
   type: source
 - name: h265
   negate: false
-  pattern: h265
+  pattern: HEVC
   required: true
   type: release_title
+- name: SiGMA
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiGMA
 tests: []
