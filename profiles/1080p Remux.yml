@@ -42,12 +42,12 @@ custom_formats:
   score: 500
 - name: AMZN
   score: 400
-- name: ATV
-  score: 400
 - name: ATVP
   score: 400
 - name: DSNP
   score: 400
+- name: ATV
+  score: 300
 - name: CRIT
   score: 300
 - name: FLAC

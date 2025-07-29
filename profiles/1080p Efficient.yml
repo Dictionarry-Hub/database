@@ -73,8 +73,6 @@ custom_formats:
   score: 300
 - name: AMZN
   score: 200
-- name: ATV
-  score: 200
 - name: ATVP
   score: 200
 - name: DSNP
@@ -86,6 +84,8 @@ custom_formats:
 - name: Atmos
   score: 100
 - name: Atmos (Missing)
+  score: 100
+- name: ATV
   score: 100
 - name: CRIT
   score: 100
