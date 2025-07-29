@@ -19,15 +19,20 @@ conditions:
   required: true
   type: release_title
 - name: AnoZu
-  type: release_group
-  required: false
   negate: false
   pattern: AnoZu
+  required: false
+  type: release_group
 - name: ARCADE
   negate: false
   pattern: ARCADE
   required: false
   type: release_group
+- name: DarQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: DarQ
 - name: SiGMA
   negate: false
   pattern: SiGMA
