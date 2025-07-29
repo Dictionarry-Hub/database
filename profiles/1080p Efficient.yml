@@ -25,6 +25,8 @@ custom_formats:
   score: 11900
 - name: 1080p Efficient Bluray Tier 5 (Radarr)
   score: 11800
+- name: 1080p Efficient WEB-DL Tier 3
+  score: 11500
 - name: 1080p Efficient WEB Tier 1 (Radarr)
   score: 11200
 - name: 1080p Efficient WEB Tier 2 (Radarr)
