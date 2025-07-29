@@ -11,6 +11,8 @@ minCustomFormatScore: 2000
 upgradeUntilScore: 20000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Efficient Bluray Tier 0 (Radarr)
+  score: 14800
 - name: 1080p Efficient WEB-DL Tier 1
   score: 13800
 - name: 1080p Efficient WEB-DL Tier 2
