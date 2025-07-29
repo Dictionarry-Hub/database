@@ -29,13 +29,18 @@ conditions:
   required: false
   type: release_group
 - name: DarQ
-  type: release_group
-  required: false
   negate: false
   pattern: DarQ
+  required: false
+  type: release_group
 - name: SiGMA
   negate: false
   pattern: SiGMA
   required: false
   type: release_group
+- name: Yoyo
+  type: release_group
+  required: false
+  negate: false
+  pattern: Yoyo
 tests: []
