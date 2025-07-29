@@ -18,11 +18,16 @@ conditions:
   pattern: HEVC
   required: true
   type: release_title
-- name: ARCADE
+- name: AnoZu
   type: release_group
   required: false
   negate: false
+  pattern: AnoZu
+- name: ARCADE
+  negate: false
   pattern: ARCADE
+  required: false
+  type: release_group
 - name: SiGMA
   negate: false
   pattern: SiGMA
