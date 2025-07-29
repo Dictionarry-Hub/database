@@ -1,7 +1,9 @@
 name: 1080p Efficient WEB-DL Tier 3
 description: Matches 1080p WEB-DLs.
 tags:
-- Resolution
+- Release Group Tier
+- 1080p
+- Efficient
 conditions:
 - name: 1080p
   negate: false
@@ -24,8 +26,8 @@ conditions:
   required: false
   type: release_group
 - name: OnlyWeb
-  type: release_group
-  required: false
   negate: false
   pattern: OnlyWeb
+  required: false
+  type: release_group
 tests: []

@@ -1,7 +1,9 @@
 name: 1080p Efficient WEB-DL Tier 2
 description: Matches 1080p WEB-DLs.
 tags:
-- Resolution
+- Release Group Tier
+- 1080p
+- Efficient
 conditions:
 - name: 1080p
   negate: false
@@ -39,8 +41,8 @@ conditions:
   required: false
   type: release_group
 - name: Yoyo
-  type: release_group
-  required: false
   negate: false
   pattern: Yoyo
+  required: false
+  type: release_group
 tests: []

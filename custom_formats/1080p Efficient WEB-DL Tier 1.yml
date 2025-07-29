@@ -1,7 +1,9 @@
 name: 1080p Efficient WEB-DL Tier 1
 description: Matches 1080p WEB-DLs.
 tags:
-- Resolution
+- Release Group Tier
+- 1080p
+- Efficient
 conditions:
 - name: 1080p
   negate: false
@@ -64,10 +66,10 @@ conditions:
   required: false
   type: release_group
 - name: SMURF
-  type: release_group
-  required: false
   negate: false
   pattern: SMURF
+  required: false
+  type: release_group
 - name: TEPES
   negate: false
   pattern: TEPES
