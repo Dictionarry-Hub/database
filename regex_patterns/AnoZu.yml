@@ -1,7 +1,0 @@
-name: AnoZu
-pattern: (?<=^|[\s.-])AnoZu\b
-description: ''
-tags:
-- Release Group
-- WEB-DL
-tests: []
