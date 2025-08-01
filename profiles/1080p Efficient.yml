@@ -8,65 +8,69 @@ tags:
 - x265
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 20000
+upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Efficient Bluray Tier 0 (Radarr)
-  score: 14800
+  score: 24000
 - name: 1080p Efficient WEB-DL Tier 1
-  score: 13800
+  score: 22000
 - name: 1080p Efficient WEB-DL Tier 2
-  score: 12800
+  score: 20000
 - name: 1080p Efficient Bluray Tier 1 (Radarr)
-  score: 12200
+  score: 18400
 - name: 1080p Efficient Bluray Tier 2 (Radarr)
-  score: 12100
+  score: 18300
 - name: 1080p Efficient Bluray Tier 3 (Radarr)
-  score: 12000
+  score: 18200
 - name: 1080p Efficient Bluray Tier 4 (Radarr)
-  score: 11900
+  score: 18100
 - name: 1080p Efficient Bluray Tier 5 (Radarr)
-  score: 11800
+  score: 18000
 - name: 1080p Efficient WEB-DL Tier 3
-  score: 11500
+  score: 17000
 - name: 1080p Efficient WEB Tier 1 (Radarr)
-  score: 11200
+  score: 16400
 - name: 1080p Efficient WEB Tier 2 (Radarr)
-  score: 11100
+  score: 16300
 - name: 1080p Efficient WEB Tier 3 (Radarr)
-  score: 11000
+  score: 16200
 - name: 1080p Efficient WEB Tier 4 (Radarr)
-  score: 10900
+  score: 16100
 - name: 1080p Efficient WEB Tier 5 (Radarr)
-  score: 10800
+  score: 16000
 - name: 1080p Balanced Tier 1
-  score: 8300
+  score: 14300
 - name: 1080p Balanced Tier 2
-  score: 8200
+  score: 14200
 - name: 1080p WEB-DL (h264)
-  score: 8000
+  score: 14000
 - name: 720p WEB-DL
-  score: 6000
+  score: 10000
 - name: 720p Bluray
-  score: 5000
+  score: 8000
 - name: 720p WEBRip
-  score: 5000
+  score: 8000
 - name: 480p WEB-DL
-  score: 3000
+  score: 6000
 - name: 720p Quality Tier 1
-  score: 2200
+  score: 4400
 - name: 720p Quality Tier 2
-  score: 2100
+  score: 4300
 - name: 720p Quality Tier 3
-  score: 2000
+  score: 4200
+- name: 720p Quality Tier 4
+  score: 4100
+- name: 720p Quality Tier 5
+  score: 4000
 - name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: 720p Quality Tier 4
-  score: 1900
-- name: 720p Quality Tier 5
-  score: 1800
+- name: SD Quality Tier 1
+  score: 1100
+- name: SD Quality Tier 2
+  score: 1000
 - name: 720p Golden Popcorn
   score: 600
 - name: SD Golden Popcorn
@@ -75,8 +79,6 @@ custom_formats:
   score: 300
 - name: MA
   score: 300
-- name: SD Quality Tier 1
-  score: 300
 - name: AMZN
   score: 200
 - name: ATVP
@@ -84,8 +86,6 @@ custom_formats:
 - name: DSNP
   score: 200
 - name: HDR10+
-  score: 200
-- name: SD Quality Tier 2
   score: 200
 - name: Atmos
   score: 100
