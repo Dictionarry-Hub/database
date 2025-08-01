@@ -16,71 +16,75 @@ tags:
 - h265
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 20000
+upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Quality Tier 1
-  score: 18200
+  score: 30400
 - name: 2160p Quality Tier 2
-  score: 18100
+  score: 30300
 - name: 2160p Quality Tier 3
-  score: 18000
+  score: 30200
 - name: 2160p Quality Tier 4
-  score: 17900
+  score: 30100
 - name: 2160p Quality Tier 5
-  score: 17800
+  score: 30000
 - name: 2160p Balanced Tier 1
-  score: 14400
+  score: 28400
 - name: 2160p Balanced Tier 2
-  score: 14200
+  score: 28200
 - name: 2160p WEB-DL
-  score: 14000
+  score: 28000
 - name: 2160p Quality Tier 6
-  score: 13100
+  score: 26100
 - name: 2160p Quality Tier 7
-  score: 13000
+  score: 26000
 - name: 1080p WEB-DL
-  score: 11000
+  score: 20000
 - name: 1080p Bluray
-  score: 8000
+  score: 14000
 - name: 1080p WEBRip
-  score: 8000
+  score: 14000
 - name: 720p WEB-DL
-  score: 6000
-- name: 720p Bluray
-  score: 5000
-- name: 720p WEBRip
-  score: 5000
+  score: 10000
 - name: 1080p Quality Tier 1
-  score: 4200
+  score: 8400
 - name: 1080p Quality Tier 2
-  score: 4100
+  score: 8300
 - name: 1080p Quality Tier 3
-  score: 4000
+  score: 8200
 - name: 1080p Quality Tier 4
-  score: 3900
+  score: 8100
 - name: 1080p Quality Tier 5
-  score: 3800
+  score: 8000
+- name: 720p Bluray
+  score: 8000
+- name: 720p WEBRip
+  score: 8000
 - name: 1080p Balanced Tier 1
-  score: 3300
+  score: 6300
 - name: 1080p Balanced Tier 2
-  score: 3200
+  score: 6200
 - name: 480p WEB-DL
-  score: 3000
+  score: 6000
 - name: 720p Quality Tier 1
-  score: 2200
+  score: 4400
 - name: 720p Quality Tier 2
-  score: 2100
+  score: 4300
 - name: 720p Quality Tier 3
-  score: 2000
+  score: 4200
+- name: 720p Quality Tier 4
+  score: 4100
+- name: 720p Quality Tier 5
+  score: 4000
 - name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
-- name: 720p Quality Tier 4
-  score: 1900
-- name: 720p Quality Tier 5
-  score: 1800
+- name: SD Quality Tier 1
+  score: 1100
+- name: SD Quality Tier 2
+  score: 1000
 - name: MA
   score: 500
 - name: AMZN
@@ -107,8 +111,6 @@ custom_formats:
   score: 300
 - name: PCOK
   score: 300
-- name: SD Quality Tier 1
-  score: 300
 - name: HDR10+
   score: 200
 - name: HTSR
@@ -118,8 +120,6 @@ custom_formats:
 - name: PMTP
   score: 200
 - name: ROKU
-  score: 200
-- name: SD Quality Tier 2
   score: 200
 - name: SHO
   score: 200

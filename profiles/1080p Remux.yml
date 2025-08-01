@@ -15,21 +15,25 @@ tags:
 - h264
 upgradesAllowed: true
 minCustomFormatScore: 2000
-upgradeUntilScore: 20000
+upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Remux
-  score: 10000
+  score: 12000
 - name: 1080p WEB-DL
-  score: 8000
+  score: 10000
 - name: 720p WEB-DL
-  score: 6000
+  score: 8000
 - name: 480p WEB-DL
-  score: 3000
+  score: 6000
 - name: DVD
   score: 2000
 - name: DVD Remux
   score: 2000
+- name: SD Quality Tier 1
+  score: 1100
+- name: SD Quality Tier 2
+  score: 1000
 - name: DTS-X
   score: 600
 - name: DTS-HD MA
