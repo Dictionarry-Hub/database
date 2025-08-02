@@ -70,6 +70,10 @@ custom_formats:
   score: 1100
 - name: SD Quality Tier 2
   score: 1000
+- name: 1080p Golden Popcorn
+  score: 800
+- name: 720p Golden Popcorn
+  score: 600
 - name: MA
   score: 500
 - name: AMZN
@@ -79,6 +83,8 @@ custom_formats:
 - name: DSNP
   score: 400
 - name: iT
+  score: 400
+- name: SD Golden Popcorn
   score: 400
 - name: ATV
   score: 300
