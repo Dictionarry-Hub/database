@@ -20,9 +20,9 @@ upgradeUntilScore: 40000
 minScoreIncrement: 1
 custom_formats:
 - name: UHD Bluray
-  score: 22000
+  score: 24000
 - name: UHD Bluray (Missing)
-  score: 22000
+  score: 24000
 - name: 1080p WEB-DL
   score: 20000
 - name: 1080p Bluray
@@ -148,7 +148,7 @@ custom_formats:
 - name: Repack1
   score: 6
 - name: x265 (Bluray)
-  score: -15000
+  score: -22000
 - name: 3D
   score: -99999
 - name: AV1
