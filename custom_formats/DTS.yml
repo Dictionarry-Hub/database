@@ -12,47 +12,47 @@ conditions:
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital
   negate: true
   pattern: Dolby Digital
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital +
   negate: true
   pattern: Dolby Digital +
-  required: false
+  required: true
   type: release_title
 - name: Not DTS-HD
   negate: true
   pattern: DTS-HD
-  required: false
+  required: true
   type: release_title
 - name: Not DTS-HD HRA ES
   negate: true
   pattern: DTS-HD HRA ES
-  required: false
+  required: true
   type: release_title
 - name: Not DTS-X
   negate: true
   pattern: DTS-X
-  required: false
+  required: true
   type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
-  required: false
+  required: true
   type: release_title
 - name: Not PCM
   negate: true
   pattern: PCM
-  required: false
+  required: true
   type: release_title
 - name: Not TrueHD
   negate: true
   pattern: TrueHD
-  required: false
+  required: true
   type: release_title
 tests:
 - conditionResults:

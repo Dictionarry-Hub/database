@@ -12,47 +12,47 @@ conditions:
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital
   negate: true
   pattern: Dolby Digital
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital +
   negate: true
   pattern: Dolby Digital +
-  required: false
+  required: true
   type: release_title
 - name: Not DTS
   negate: true
   pattern: DTS Basic
-  required: false
+  required: true
   type: release_title
 - name: Not DTS-ES
-  type: release_title
-  required: false
   negate: true
   pattern: DTS-ES
+  required: true
+  type: release_title
 - name: Not DTS-X
   negate: true
   pattern: DTS-X
-  required: false
+  required: true
   type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
-  required: false
+  required: true
   type: release_title
 - name: Not PCM
   negate: true
   pattern: PCM
-  required: false
+  required: true
   type: release_title
 - name: Not TrueHD
   negate: true
   pattern: TrueHD
-  required: false
+  required: true
   type: release_title
 tests:
 - conditionResults:
@@ -235,15 +235,15 @@ tests:
   input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS 7.1 H.264-TiTTE
   lastRun: '2025-07-13T16:08:50.669281'
   passes: true
-- id: 6
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-ES 7.1 H.264-TiTTE
+- conditionResults: []
   expected: false
-  passes: false
+  id: 6
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-ES 7.1 H.264-TiTTE
   lastRun: null
-  conditionResults: []
-- id: 7
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-HD HRA 7.1 H.264-TiTTE
+  passes: false
+- conditionResults: []
   expected: true
-  passes: false
+  id: 7
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-HD HRA 7.1 H.264-TiTTE
   lastRun: null
-  conditionResults: []
+  passes: false

@@ -12,27 +12,27 @@ conditions:
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: false
+  required: true
   type: release_title
 - name: Not DTS
   negate: true
   pattern: DTS
-  required: false
+  required: true
   type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
-  required: false
+  required: true
   type: release_title
 - name: Not PCM
   negate: true
   pattern: PCM
-  required: false
+  required: true
   type: release_title
 - name: Not TrueHD
   negate: true
   pattern: TrueHD
-  required: false
+  required: true
   type: release_title
 tests:
 - conditionResults:
