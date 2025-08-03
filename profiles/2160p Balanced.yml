@@ -24,6 +24,10 @@ custom_formats:
   score: 28200
 - name: 2160p WEB-DL
   score: 28000
+- name: UHD Bluray
+  score: 24000
+- name: UHD Bluray (Missing)
+  score: 24000
 - name: 1080p WEB-DL
   score: 20000
 - name: 1080p Bluray
@@ -160,6 +164,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: x265 (Bluray)
+  score: -22000
 - name: 3D
   score: -99999
 - name: AV1
@@ -198,7 +204,7 @@ custom_formats:
   score: -99999
 - name: x264 (2160p)
   score: -99999
-- name: x265
+- name: x265 (WEB)
   score: -99999
 qualities:
 - id: -1
