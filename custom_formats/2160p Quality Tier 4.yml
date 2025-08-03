@@ -20,6 +20,11 @@ conditions:
   pattern: b0mbardiers
   required: false
   type: release_group
+- name: DEPTH
+  type: release_group
+  required: false
+  negate: false
+  pattern: DEPTH
 - name: iFT
   negate: false
   pattern: iFT
