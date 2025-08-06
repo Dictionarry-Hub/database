@@ -17,87 +17,89 @@ tags:
 - x264
 - h264
 upgradesAllowed: true
-minCustomFormatScore: 2000
-upgradeUntilScore: 40000
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
 - name: 1080p Balanced Tier 1
-  score: 14300
+  score: 143000
 - name: 1080p Balanced Tier 2
-  score: 14200
+  score: 142000
 - name: 1080p WEB-DL
-  score: 14000
+  score: 140000
 - name: 720p WEB-DL
-  score: 10000
+  score: 100000
 - name: 720p Bluray
-  score: 8000
+  score: 80000
 - name: 720p WEBRip
-  score: 8000
+  score: 80000
 - name: 480p WEB-DL
-  score: 6000
+  score: 60000
 - name: 720p Quality Tier 1
-  score: 4400
+  score: 44000
 - name: 720p Quality Tier 2
-  score: 4300
+  score: 43000
 - name: 720p Quality Tier 3
-  score: 4200
+  score: 42000
 - name: 720p Quality Tier 4
-  score: 4100
+  score: 41000
 - name: 720p Quality Tier 5
-  score: 4000
+  score: 40000
 - name: DVD
-  score: 2000
+  score: 20000
 - name: DVD Remux
-  score: 2000
+  score: 20000
 - name: SD Quality Tier 1
-  score: 1100
+  score: 11000
 - name: SD Quality Tier 2
-  score: 1000
+  score: 10000
 - name: 720p Golden Popcorn
-  score: 600
+  score: 6000
 - name: MA
-  score: 500
+  score: 5000
 - name: AMZN
-  score: 400
+  score: 4000
 - name: ATVP
-  score: 400
+  score: 4000
 - name: DSNP
-  score: 400
+  score: 4000
 - name: SD Golden Popcorn
-  score: 400
+  score: 4000
 - name: ATV
-  score: 300
+  score: 3000
 - name: CRIT
-  score: 300
+  score: 3000
 - name: HMAX
-  score: 300
+  score: 3000
 - name: iT
-  score: 300
+  score: 3000
 - name: MAX
-  score: 300
+  score: 3000
 - name: NF
-  score: 300
+  score: 3000
 - name: NOW
-  score: 300
+  score: 3000
 - name: PCOK
-  score: 300
+  score: 3000
 - name: HTSR
-  score: 200
+  score: 2000
 - name: HULU
-  score: 200
+  score: 2000
 - name: PMTP
-  score: 200
+  score: 2000
 - name: ROKU
-  score: 200
+  score: 2000
 - name: SHO
-  score: 200
+  score: 2000
 - name: STAN
-  score: 200
+  score: 2000
+- name: Special Edition
+  score: 1000
 - name: Atmos
   score: 100
 - name: Atmos (Missing)
   score: 100
-- name: Special Edition
+- name: Season Pack
   score: 100
 - name: WEB-DL Tier 1
   score: 80
@@ -107,8 +109,6 @@ custom_formats:
   score: 40
 - name: WEB-DL Tier 4
   score: 20
-- name: Season Pack
-  score: 10
 - name: Repack3
   score: 8
 - name: Repack2
@@ -116,49 +116,49 @@ custom_formats:
 - name: Repack1
   score: 6
 - name: 3D
-  score: -99999
+  score: -999999
 - name: AV1
-  score: -99999
+  score: -999999
 - name: B&W
-  score: -99999
+  score: -999999
 - name: Banned Groups
-  score: -99999
+  score: -999999
 - name: Banned Groups (Title)
-  score: -99999
+  score: -999999
 - name: Banned WEBRip
-  score: -99999
+  score: -999999
 - name: Dolby Vision
-  score: -99999
+  score: -999999
 - name: Extras
-  score: -99999
+  score: -999999
 - name: Full Disc
-  score: -99999
+  score: -999999
 - name: Full Disc (Quality Match)
-  score: -99999
+  score: -999999
 - name: h265
-  score: -99999
+  score: -999999
 - name: HDR
-  score: -99999
+  score: -999999
 - name: HDR10
-  score: -99999
+  score: -999999
 - name: HDR10+
-  score: -99999
+  score: -999999
 - name: HLG
-  score: -99999
+  score: -999999
 - name: PQ
-  score: -99999
+  score: -999999
 - name: Remux
-  score: -99999
+  score: -999999
 - name: Sing Along
-  score: -99999
+  score: -999999
 - name: Upscaled
-  score: -99999
+  score: -999999
 - name: VP9
-  score: -99999
+  score: -999999
 - name: VVC
-  score: -99999
+  score: -999999
 - name: x265
-  score: -99999
+  score: -999999
 qualities:
 - id: -1
   name: Balanced Capable
