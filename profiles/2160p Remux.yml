@@ -108,8 +108,6 @@ custom_formats:
   score: 100
 - name: Atmos (Missing)
   score: 100
-- name: Season Pack
-  score: 100
 - name: Remux Tier 1
   score: 80
 - name: WEB-DL Tier 1
@@ -128,6 +126,8 @@ custom_formats:
   score: 20
 - name: WEB-DL Tier 4
   score: 20
+- name: Season Pack
+  score: 10
 - name: Repack3
   score: 8
 - name: Repack2
