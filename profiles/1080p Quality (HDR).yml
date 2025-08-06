@@ -46,9 +46,9 @@ custom_formats:
 - name: 720p WEBRip
   score: 80000
 - name: 1080p Balanced Tier 1
-  score: 63000
+  score: 61000
 - name: 1080p Balanced Tier 2
-  score: 62000
+  score: 60000
 - name: 480p WEB-DL
   score: 60000
 - name: 720p Quality Tier 1
@@ -74,47 +74,23 @@ custom_formats:
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
-  score: 5000
-- name: AMZN
-  score: 4000
-- name: ATVP
-  score: 4000
-- name: DSNP
   score: 4000
 - name: SD Golden Popcorn
   score: 4000
-- name: ATV
-  score: 3000
-- name: CRIT
-  score: 3000
 - name: Dolby Vision
   score: 3000
-- name: HMAX
-  score: 3000
-- name: iT
-  score: 3000
-- name: MAX
-  score: 3000
-- name: NF
-  score: 3000
-- name: NOW
-  score: 3000
-- name: PCOK
-  score: 3000
+- name: AMZN
+  score: 2000
+- name: ATVP
+  score: 2000
+- name: DSNP
+  score: 2000
 - name: HDR10+
   score: 2000
-- name: HTSR
-  score: 2000
-- name: HULU
-  score: 2000
-- name: PMTP
-  score: 2000
-- name: ROKU
-  score: 2000
-- name: SHO
-  score: 2000
-- name: STAN
-  score: 2000
+- name: ATV
+  score: 1000
+- name: CRIT
+  score: 1000
 - name: HDR
   score: 1000
 - name: HDR10
@@ -122,6 +98,18 @@ custom_formats:
 - name: HDR10 (Missing) (1080p)
   score: 1000
 - name: HLG
+  score: 1000
+- name: HMAX
+  score: 1000
+- name: iT
+  score: 1000
+- name: MAX
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
   score: 1000
 - name: PQ
   score: 1000
@@ -147,6 +135,18 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
 - name: x265 (Bluray)
   score: -220000
 - name: 3D

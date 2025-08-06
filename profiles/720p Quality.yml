@@ -43,43 +43,31 @@ custom_formats:
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
-  score: 5000
-- name: AMZN
-  score: 4000
-- name: ATVP
-  score: 4000
-- name: DSNP
   score: 4000
 - name: SD Golden Popcorn
   score: 4000
+- name: AMZN
+  score: 2000
+- name: ATVP
+  score: 2000
+- name: DSNP
+  score: 2000
 - name: ATV
-  score: 3000
+  score: 1000
 - name: CRIT
-  score: 3000
+  score: 1000
 - name: HMAX
-  score: 3000
+  score: 1000
 - name: iT
-  score: 3000
+  score: 1000
 - name: MAX
-  score: 3000
+  score: 1000
 - name: NF
-  score: 3000
+  score: 1000
 - name: NOW
-  score: 3000
+  score: 1000
 - name: PCOK
-  score: 3000
-- name: HTSR
-  score: 2000
-- name: HULU
-  score: 2000
-- name: PMTP
-  score: 2000
-- name: ROKU
-  score: 2000
-- name: SHO
-  score: 2000
-- name: STAN
-  score: 2000
+  score: 1000
 - name: Special Edition
   score: 1000
 - name: Atmos
@@ -102,6 +90,18 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
 - name: 3D
   score: -999999
 - name: AV1
