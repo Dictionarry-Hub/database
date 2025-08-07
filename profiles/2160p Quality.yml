@@ -141,8 +141,6 @@ custom_formats:
   score: 800
 - name: TrueHD
   score: 800
-- name: TrueHD (Missing)
-  score: 800
 - name: FLAC
   score: 700
 - name: PCM
