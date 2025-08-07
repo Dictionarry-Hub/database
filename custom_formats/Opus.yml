@@ -10,278 +10,80 @@ conditions:
   required: true
   type: release_title
 - name: Not OPUS Release Group
-  type: release_group
-  required: true
   negate: true
   pattern: Opus (Negation)
+  required: true
+  type: release_group
 tests:
 - conditionResults:
-  - matches: false
-    name: DTS-X
+  - matches: true
+    name: Opus
     negate: false
-    pattern: DTS-X
+    pattern: Opus
     required: true
     type: release_title
-  - matches: false
-    name: Not AAC
-    negate: true
-    pattern: AAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital
-    negate: true
-    pattern: Dolby Digital
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital +
-    negate: true
-    pattern: Dolby Digital +
-    required: false
-    type: release_title
   - matches: true
-    name: Not DTS
+    name: Not OPUS Release Group
     negate: true
-    pattern: DTS Basic
+    pattern: Opus (Negation)
     required: false
-    type: release_title
-  - matches: false
-    name: Not FLAC
-    negate: true
-    pattern: FLAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not PCM
-    negate: true
-    pattern: PCM
-    required: false
-    type: release_title
-  - matches: false
-    name: Not TrueHD
-    negate: true
-    pattern: TrueHD
-    required: false
-    type: release_title
+    type: release_group
   expected: false
   id: 1
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS 7.1 H.264-TiTTE
-  lastRun: '2025-07-13T15:29:58.584796'
+  input: The Booksellers 2020 1080p WEB-DL DD+ 2.0 H.264-OPUS
+  lastRun: '2025-08-07T03:36:12.364522'
   passes: true
 - conditionResults:
   - matches: false
-    name: DTS-X
+    name: Opus
     negate: false
-    pattern: DTS-X
+    pattern: Opus
     required: true
     type: release_title
-  - matches: false
-    name: Not AAC
+  - matches: true
+    name: Not OPUS Release Group
     negate: true
-    pattern: AAC
+    pattern: Opus (Negation)
     required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital
-    negate: true
-    pattern: Dolby Digital
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital +
-    negate: true
-    pattern: Dolby Digital +
-    required: false
-    type: release_title
-  - matches: false
-    name: Not DTS
-    negate: true
-    pattern: DTS Basic
-    required: false
-    type: release_title
-  - matches: false
-    name: Not FLAC
-    negate: true
-    pattern: FLAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not PCM
-    negate: true
-    pattern: PCM
-    required: false
-    type: release_title
-  - matches: false
-    name: Not TrueHD
-    negate: true
-    pattern: TrueHD
-    required: false
-    type: release_title
+    type: release_group
   expected: false
   id: 2
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-HD MA 7.1 H.264-TiTTE
-  lastRun: '2025-07-13T15:29:58.584796'
-  passes: true
-- conditionResults:
-  - matches: false
-    name: DTS-X
-    negate: false
-    pattern: DTS-X
-    required: true
-    type: release_title
-  - matches: false
-    name: Not AAC
-    negate: true
-    pattern: AAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital
-    negate: true
-    pattern: Dolby Digital
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital +
-    negate: true
-    pattern: Dolby Digital +
-    required: false
-    type: release_title
-  - matches: false
-    name: Not DTS
-    negate: true
-    pattern: DTS Basic
-    required: false
-    type: release_title
-  - matches: false
-    name: Not FLAC
-    negate: true
-    pattern: FLAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not PCM
-    negate: true
-    pattern: PCM
-    required: false
-    type: release_title
-  - matches: false
-    name: Not TrueHD
-    negate: true
-    pattern: TrueHD
-    required: false
-    type: release_title
-  expected: false
-  id: 3
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-ES 7.1 H.264-TiTTE
-  lastRun: '2025-07-13T15:29:58.584796'
-  passes: true
-- conditionResults:
-  - matches: false
-    name: DTS-X
-    negate: false
-    pattern: DTS-X
-    required: true
-    type: release_title
-  - matches: false
-    name: Not AAC
-    negate: true
-    pattern: AAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital
-    negate: true
-    pattern: Dolby Digital
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital +
-    negate: true
-    pattern: Dolby Digital +
-    required: false
-    type: release_title
-  - matches: false
-    name: Not DTS
-    negate: true
-    pattern: DTS Basic
-    required: false
-    type: release_title
-  - matches: false
-    name: Not FLAC
-    negate: true
-    pattern: FLAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not PCM
-    negate: true
-    pattern: PCM
-    required: false
-    type: release_title
-  - matches: false
-    name: Not TrueHD
-    negate: true
-    pattern: TrueHD
-    required: false
-    type: release_title
-  expected: false
-  id: 4
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-HD HRA 7.1 H.264-TiTTE
-  lastRun: '2025-07-13T15:29:58.584796'
+  input: Opus 2025 Hybrid 2160p iT WEB-DL DD+ 5.1 Atmos DV HDR10+ H.265-BYNDR
+  lastRun: '2025-08-07T03:36:12.364522'
   passes: true
 - conditionResults:
   - matches: true
-    name: DTS-X
+    name: Opus
     negate: false
-    pattern: DTS-X
+    pattern: Opus
     required: true
     type: release_title
-  - matches: false
-    name: Not AAC
+  - matches: true
+    name: Not OPUS Release Group
     negate: true
-    pattern: AAC
+    pattern: Opus (Negation)
     required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital
-    negate: true
-    pattern: Dolby Digital
-    required: false
-    type: release_title
-  - matches: false
-    name: Not Dolby Digital +
-    negate: true
-    pattern: Dolby Digital +
-    required: false
-    type: release_title
-  - matches: false
-    name: Not DTS
-    negate: true
-    pattern: DTS Basic
-    required: false
-    type: release_title
-  - matches: false
-    name: Not FLAC
-    negate: true
-    pattern: FLAC
-    required: false
-    type: release_title
-  - matches: false
-    name: Not PCM
-    negate: true
-    pattern: PCM
-    required: false
-    type: release_title
-  - matches: false
-    name: Not TrueHD
-    negate: true
-    pattern: TrueHD
-    required: false
-    type: release_title
+    type: release_group
   expected: true
-  id: 5
-  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS:X 7.1 H.264-TiTTE
-  lastRun: '2025-07-13T15:29:58.584796'
-  passes: true
+  id: 3
+  input: Convicted 1950 1080p BluRay Opus 1.0 x264-MiRAGE
+  lastRun: '2025-08-07T03:36:12.364522'
+  passes: false
+- conditionResults:
+  - matches: true
+    name: Opus
+    negate: false
+    pattern: Opus
+    required: true
+    type: release_title
+  - matches: true
+    name: Not OPUS Release Group
+    negate: true
+    pattern: Opus (Negation)
+    required: false
+    type: release_group
+  expected: true
+  id: 4
+  input: Fate/Zero 2011 S01 1080p BluRay Dual-Audio Opus 2.0 x265-LYS1TH3A
+  lastRun: '2025-08-07T03:36:12.364522'
+  passes: false
