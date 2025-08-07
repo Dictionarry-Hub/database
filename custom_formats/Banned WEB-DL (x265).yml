@@ -109,6 +109,11 @@ conditions:
   pattern: playWEB
   required: true
   type: release_group
+- name: ROCCaT
+  type: release_group
+  required: true
+  negate: true
+  pattern: ROCCaT
 - name: SiC
   negate: true
   pattern: SiC
@@ -135,10 +140,10 @@ conditions:
   required: true
   type: release_group
 - name: WELP
-  type: release_group
-  required: true
   negate: true
   pattern: WELP
+  required: true
+  type: release_group
 - name: XEBEC
   negate: true
   pattern: XEBEC
