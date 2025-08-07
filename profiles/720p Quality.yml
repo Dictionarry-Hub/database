@@ -72,6 +72,8 @@ custom_formats:
   score: 1000
 - name: DTS-HD HRA
   score: 800
+- name: Opus
+  score: 800
 - name: Dolby Digital +
   score: 600
 - name: Dolby Atmos
