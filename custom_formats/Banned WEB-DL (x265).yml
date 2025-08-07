@@ -104,16 +104,21 @@ conditions:
   pattern: NTG
   required: true
   type: release_group
+- name: PHOENiX
+  type: release_group
+  required: true
+  negate: true
+  pattern: PHOENiX
 - name: playWEB
   negate: true
   pattern: playWEB
   required: true
   type: release_group
 - name: ROCCaT
-  type: release_group
-  required: true
   negate: true
   pattern: ROCCaT
+  required: true
+  type: release_group
 - name: SiC
   negate: true
   pattern: SiC
