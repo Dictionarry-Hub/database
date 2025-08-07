@@ -130,10 +130,15 @@ conditions:
   required: true
   type: release_group
 - name: VD0N
+  negate: true
+  pattern: VD0N
+  required: true
+  type: release_group
+- name: WELP
   type: release_group
   required: true
   negate: true
-  pattern: VD0N
+  pattern: WELP
 - name: XEBEC
   negate: true
   pattern: XEBEC

@@ -1,0 +1,7 @@
+name: WELP
+pattern: (?<=^|[\s.-])WELP\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []
