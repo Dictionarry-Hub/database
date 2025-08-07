@@ -40,10 +40,10 @@ conditions:
   required: true
   type: release_group
 - name: BYNDR
-  type: release_group
-  required: true
   negate: true
   pattern: BYNDR
+  required: true
+  type: release_group
 - name: CMRG
   negate: true
   pattern: CMRG
@@ -102,16 +102,6 @@ conditions:
 - name: playWEB
   negate: true
   pattern: playWEB
-  required: true
-  type: release_group
-- name: QOQ
-  negate: true
-  pattern: QOQ
-  required: true
-  type: release_group
-- name: SbR
-  negate: true
-  pattern: SbR
   required: true
   type: release_group
 - name: SiC
