@@ -59,6 +59,11 @@ conditions:
   pattern: FLUX
   required: true
   type: release_group
+- name: GNOMiSSiON
+  negate: true
+  pattern: GNOMiSSiON
+  required: true
+  type: release_group
 - name: HHWEB
   negate: true
   pattern: HHWEB
@@ -124,6 +129,11 @@ conditions:
   pattern: TOMMY
   required: true
   type: release_group
+- name: VD0N
+  type: release_group
+  required: true
+  negate: true
+  pattern: VD0N
 - name: XEBEC
   negate: true
   pattern: XEBEC
