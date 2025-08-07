@@ -40,10 +40,10 @@ conditions:
   required: false
   type: release_group
 - name: BTM
-  type: release_group
-  required: false
   negate: false
   pattern: BTM
+  required: false
+  type: release_group
 - name: CLASSiCALHD
   negate: false
   pattern: CLASSiCALHD
@@ -94,6 +94,11 @@ conditions:
   pattern: LAMA
   required: false
   type: release_group
+- name: MgB
+  type: release_group
+  required: false
+  negate: false
+  pattern: MgB
 - name: NAHOM
   negate: false
   pattern: NAHOM
