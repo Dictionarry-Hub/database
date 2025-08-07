@@ -165,8 +165,6 @@ custom_formats:
   score: 80
 - name: WEB-DL Tier 2
   score: 60
-- name: Unknown Lossless Audio
-  score: 50
 - name: WEB-DL Tier 3
   score: 40
 - name: WEB-DL Tier 4
