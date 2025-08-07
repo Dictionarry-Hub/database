@@ -19,6 +19,11 @@ conditions:
   pattern: ABBIE
   required: true
   type: release_group
+- name: AjA
+  type: release_group
+  required: true
+  negate: true
+  pattern: AjA
 - name: AJP69
   negate: true
   pattern: AJP69
@@ -105,10 +110,10 @@ conditions:
   required: true
   type: release_group
 - name: PHOENiX
-  type: release_group
-  required: true
   negate: true
   pattern: PHOENiX
+  required: true
+  type: release_group
 - name: playWEB
   negate: true
   pattern: playWEB
