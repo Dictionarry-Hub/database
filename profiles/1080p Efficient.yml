@@ -115,9 +115,17 @@ custom_formats:
   score: 1000
 - name: Special Edition
   score: 1000
-- name: Atmos
-  score: 100
-- name: Atmos (Missing)
+- name: DTS-HD HRA
+  score: 800
+- name: Dolby Digital +
+  score: 600
+- name: Dolby Atmos
+  score: 400
+- name: DTS-ES
+  score: 400
+- name: DTS
+  score: 200
+- name: Dolby Digital
   score: 100
 - name: WEB-DL Tier 1
   score: 80
@@ -135,6 +143,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: AAC
+  score: 0
 - name: HTSR
   score: 0
 - name: HULU

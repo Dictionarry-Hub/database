@@ -113,6 +113,8 @@ custom_formats:
   score: 1000
 - name: CRIT
   score: 1000
+- name: DTS-X
+  score: 1000
 - name: HDR
   score: 1000
 - name: HDR10
@@ -135,24 +137,34 @@ custom_formats:
   score: 1000
 - name: Special Edition
   score: 1000
-- name: DTS-X
-  score: 150
 - name: DTS-HD MA
-  score: 100
+  score: 800
 - name: TrueHD
-  score: 100
+  score: 800
 - name: TrueHD (Missing)
+  score: 800
+- name: FLAC
+  score: 700
+- name: PCM
+  score: 700
+- name: DTS-HD HRA
+  score: 500
+- name: Dolby Digital +
+  score: 400
+- name: DTS-ES
+  score: 300
+- name: Atmos
+  score: 200
+- name: Atmos (Missing)
+  score: 200
+- name: DTS
+  score: 200
+- name: Dolby Digital
   score: 100
 - name: WEB-DL Tier 1
   score: 80
 - name: WEB-DL Tier 2
   score: 60
-- name: Atmos
-  score: 50
-- name: Atmos (Missing)
-  score: 50
-- name: FLAC
-  score: 50
 - name: Unknown Lossless Audio
   score: 50
 - name: WEB-DL Tier 3
@@ -167,6 +179,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: AAC
+  score: 0
 - name: HTSR
   score: 0
 - name: HULU
