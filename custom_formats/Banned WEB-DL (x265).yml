@@ -60,10 +60,15 @@ conditions:
   required: true
   type: release_group
 - name: DEFLATE
+  negate: true
+  pattern: DEFLATE
+  required: true
+  type: release_group
+- name: EVO
   type: release_group
   required: true
   negate: true
-  pattern: DEFLATE
+  pattern: EVO
 - name: FLUX
   negate: true
   pattern: FLUX
