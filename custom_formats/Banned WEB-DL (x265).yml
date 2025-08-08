@@ -65,10 +65,10 @@ conditions:
   required: true
   type: release_group
 - name: EVO
-  type: release_group
-  required: true
   negate: true
   pattern: EVO
+  required: true
+  type: release_group
 - name: FLUX
   negate: true
   pattern: FLUX
@@ -159,6 +159,11 @@ conditions:
   pattern: VD0N
   required: true
   type: release_group
+- name: VoX
+  type: release_group
+  required: true
+  negate: true
+  pattern: VoX
 - name: WELP
   negate: true
   pattern: WELP
