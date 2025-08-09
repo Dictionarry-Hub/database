@@ -4,6 +4,11 @@ tags:
 - Banned
 - Release Group
 conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
 - name: WEB-DL
   negate: false
   required: true
@@ -160,10 +165,10 @@ conditions:
   required: true
   type: release_group
 - name: VoX
-  type: release_group
-  required: true
   negate: true
   pattern: VoX
+  required: true
+  type: release_group
 - name: WELP
   negate: true
   pattern: WELP
