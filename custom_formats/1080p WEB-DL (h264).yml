@@ -15,7 +15,7 @@ conditions:
   type: source
 - name: h264
   negate: false
-  pattern: h264
+  pattern: AVC
   required: true
   type: release_title
 tests: []
