@@ -11,34 +11,6 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Efficient Bluray Tier 0 (Radarr)
-  score: 240000
-- name: 1080p Efficient WEB-DL Tier 1
-  score: 220000
-- name: 1080p Efficient WEB-DL Tier 2
-  score: 200000
-- name: 1080p Efficient Bluray Tier 1 (Radarr)
-  score: 184000
-- name: 1080p Efficient Bluray Tier 2 (Radarr)
-  score: 183000
-- name: 1080p Efficient Bluray Tier 3 (Radarr)
-  score: 182000
-- name: 1080p Efficient Bluray Tier 4 (Radarr)
-  score: 181000
-- name: 1080p Efficient Bluray Tier 5 (Radarr)
-  score: 180000
-- name: 1080p Efficient WEB-DL Tier 3
-  score: 170000
-- name: 1080p Efficient WEB Tier 1 (Radarr)
-  score: 164000
-- name: 1080p Efficient WEB Tier 2 (Radarr)
-  score: 163000
-- name: 1080p Efficient WEB Tier 3 (Radarr)
-  score: 162000
-- name: 1080p Efficient WEB Tier 4 (Radarr)
-  score: 161000
-- name: 1080p Efficient WEB Tier 5 (Radarr)
-  score: 160000
 - name: 1080p Balanced Tier 1
   score: 141000
 - name: 1080p Balanced Tier 2
@@ -152,6 +124,34 @@ custom_formats:
 - name: x265 (Efficient)
   score: -999999
 custom_formats_radarr:
+- name: 1080p Efficient Bluray Tier 0 (Radarr)
+  score: 240000
+- name: 1080p Efficient WEB-DL Tier 1
+  score: 220000
+- name: 1080p Efficient WEB-DL Tier 2
+  score: 200000
+- name: 1080p Efficient Bluray Tier 1 (Radarr)
+  score: 184000
+- name: 1080p Efficient Bluray Tier 2 (Radarr)
+  score: 183000
+- name: 1080p Efficient Bluray Tier 3 (Radarr)
+  score: 182000
+- name: 1080p Efficient Bluray Tier 4 (Radarr)
+  score: 181000
+- name: 1080p Efficient Bluray Tier 5 (Radarr)
+  score: 180000
+- name: 1080p Efficient WEB-DL Tier 3
+  score: 170000
+- name: 1080p Efficient WEB Tier 1 (Radarr)
+  score: 164000
+- name: 1080p Efficient WEB Tier 2 (Radarr)
+  score: 163000
+- name: 1080p Efficient WEB Tier 3 (Radarr)
+  score: 162000
+- name: 1080p Efficient WEB Tier 4 (Radarr)
+  score: 161000
+- name: 1080p Efficient WEB Tier 5 (Radarr)
+  score: 160000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
@@ -180,23 +180,39 @@ custom_formats_radarr:
   score: 1000
 - name: NOW
   score: 1000
-- name: HULU
-  score: 0
-- name: PCOK
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 - name: 3D
   score: -999999
 - name: Full Disc (Quality Match)
   score: -999999
 custom_formats_sonarr:
+- name: 1080p Efficient Bluray Tier 0 (Sonarr)
+  score: 240000
+- name: 1080p Efficient WEB-DL Tier 1
+  score: 220000
+- name: 1080p Efficient WEB-DL Tier 2
+  score: 200000
+- name: 1080p Efficient Bluray Tier 1 (Sonarr)
+  score: 184000
+- name: 1080p Efficient Bluray Tier 2 (Sonarr)
+  score: 183000
+- name: 1080p Efficient Bluray Tier 3 (Sonarr)
+  score: 182000
+- name: 1080p Efficient Bluray Tier 4 (Sonarr)
+  score: 181000
+- name: 1080p Efficient Bluray Tier 5 (Sonarr)
+  score: 180000
+- name: 1080p Efficient WEB-DL Tier 3
+  score: 170000
+- name: 1080p Efficient WEB Tier 1 (Sonarr)
+  score: 164000
+- name: 1080p Efficient WEB Tier 2 (Sonarr)
+  score: 163000
+- name: 1080p Efficient WEB Tier 3 (Sonarr)
+  score: 162000
+- name: 1080p Efficient WEB Tier 4 (Sonarr)
+  score: 161000
+- name: 1080p Efficient WEB Tier 5 (Sonarr)
+  score: 160000
 - name: AMZN
   score: 3000
 - name: ATVP
@@ -219,18 +235,6 @@ custom_formats_sonarr:
   score: 1000
 - name: Season Pack
   score: 10
-- name: HTSR
-  score: 0
-- name: HULU
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 qualities:
 - id: -1
   name: Efficient Capable
