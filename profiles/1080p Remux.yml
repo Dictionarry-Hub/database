@@ -104,16 +104,12 @@ custom_formats:
   score: 20
 - name: WEB-DL Tier 4
   score: 20
-- name: Season Pack
-  score: 10
 - name: Repack3
   score: 8
 - name: Repack2
   score: 7
 - name: Repack1
   score: 6
-- name: AAC
-  score: 0
 - name: HTSR
   score: 0
 - name: HULU
@@ -126,8 +122,6 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
-- name: 3D
-  score: -999999
 - name: AV1
   score: -999999
 - name: B&W
@@ -145,8 +139,6 @@ custom_formats:
 - name: Extras
   score: -999999
 - name: Full Disc
-  score: -999999
-- name: Full Disc (Quality Match)
   score: -999999
 - name: h265
   score: -999999
@@ -172,6 +164,38 @@ custom_formats:
   score: -999999
 - name: x265
   score: -999999
+custom_formats_radarr:
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
+- name: 3D
+  score: -999999
+- name: Full Disc (Quality Match)
+  score: -999999
+custom_formats_sonarr:
+- name: Season Pack
+  score: 10
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
 qualities:
 - id: 8
   name: Remux-1080p
