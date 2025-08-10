@@ -71,22 +71,10 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
-- name: MA
-  score: 4000
 - name: Dolby Vision
   score: 3000
-- name: AMZN
-  score: 2000
-- name: ATVP
-  score: 2000
-- name: DSNP
-  score: 2000
 - name: HDR10+
   score: 2000
-- name: ATV
-  score: 1000
-- name: CRIT
-  score: 1000
 - name: DS4K
   score: 1000
 - name: HDR
@@ -94,18 +82,6 @@ custom_formats:
 - name: HDR10
   score: 1000
 - name: HLG
-  score: 1000
-- name: HMAX
-  score: 1000
-- name: iT
-  score: 1000
-- name: MAX
-  score: 1000
-- name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
   score: 1000
 - name: PQ
   score: 1000
@@ -139,18 +115,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: HTSR
-  score: 0
-- name: HULU
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 - name: AV1
   score: -999999
 - name: B&W
@@ -190,11 +154,35 @@ custom_formats:
 custom_formats_radarr:
 - name: 720p Golden Popcorn
   score: 6000
+- name: MA
+  score: 4000
 - name: SD Golden Popcorn
   score: 4000
+- name: AMZN
+  score: 2000
+- name: ATVP
+  score: 2000
+- name: DSNP
+  score: 2000
+- name: ATV
+  score: 1000
+- name: CRIT
+  score: 1000
+- name: HMAX
+  score: 1000
 - name: HTSR
-  score: 0
+  score: 1000
+- name: iT
+  score: 1000
+- name: MAX
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
 - name: HULU
+  score: 0
+- name: PCOK
   score: 0
 - name: PMTP
   score: 0
@@ -209,6 +197,26 @@ custom_formats_radarr:
 - name: Full Disc (Quality Match)
   score: -999999
 custom_formats_sonarr:
+- name: AMZN
+  score: 3000
+- name: ATVP
+  score: 3000
+- name: DSNP
+  score: 3000
+- name: HMAX
+  score: 2000
+- name: MAX
+  score: 2000
+- name: ATV
+  score: 1000
+- name: iT
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
+  score: 1000
 - name: Season Pack
   score: 10
 - name: HTSR
