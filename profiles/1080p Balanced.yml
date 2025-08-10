@@ -83,18 +83,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: HULU
-  score: 0
-- name: PCOK
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 - name: AV1
   score: -999999
 - name: B&W
