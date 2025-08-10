@@ -193,6 +193,8 @@ custom_formats_sonarr:
   score: 2000
 - name: ATV
   score: 1000
+- name: iT
+  score: 1000
 - name: NF
   score: 1000
 - name: NOW
@@ -201,20 +203,6 @@ custom_formats_sonarr:
   score: 1000
 - name: Season Pack
   score: 10
-- name: HTSR
-  score: 0
-- name: HULU
-  score: 0
-- name: iT
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 qualities:
 - id: -1
   name: Transparent Capable
