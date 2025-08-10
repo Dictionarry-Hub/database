@@ -118,8 +118,6 @@ custom_formats:
   score: -999999
 - name: Sing Along
   score: -999999
-- name: UHDBits
-  score: -999999
 - name: Upscaled
   score: -999999
 - name: VP9
@@ -153,18 +151,6 @@ custom_formats_radarr:
   score: 1000
 - name: PCOK
   score: 1000
-- name: HTSR
-  score: 0
-- name: HULU
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 - name: 3D
   score: -999999
 - name: Full Disc (Quality Match)
@@ -192,18 +178,6 @@ custom_formats_sonarr:
   score: 1000
 - name: Season Pack
   score: 10
-- name: HTSR
-  score: 0
-- name: HULU
-  score: 0
-- name: PMTP
-  score: 0
-- name: ROKU
-  score: 0
-- name: SHO
-  score: 0
-- name: STAN
-  score: 0
 qualities:
 - id: 8
   name: Remux-1080p
