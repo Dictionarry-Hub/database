@@ -39,6 +39,16 @@ conditions:
   pattern: BOLS
   required: false
   type: release_group
+- name: BTM
+  negate: false
+  pattern: BTM
+  required: false
+  type: release_group
+- name: CLASSiCALHD
+  negate: false
+  pattern: CLASSiCALHD
+  required: false
+  type: release_group
 - name: CREATiVE24
   negate: false
   pattern: CREATiVE24
@@ -52,11 +62,6 @@ conditions:
 - name: DepraveD
   negate: false
   pattern: DepraveD
-  required: false
-  type: release_group
-- name: edge2020
-  negate: false
-  pattern: edge2020
   required: false
   type: release_group
 - name: FGT
@@ -89,16 +94,11 @@ conditions:
   pattern: LAMA
   required: false
   type: release_group
-- name: MALUS
-  negate: false
-  pattern: MALUS
-  required: false
+- name: MgB
   type: release_group
-- name: MovieMan
-  negate: false
-  pattern: MovieMan
   required: false
-  type: release_group
+  negate: false
+  pattern: MgB
 - name: NAHOM
   negate: false
   pattern: NAHOM
@@ -139,11 +139,6 @@ conditions:
   pattern: ShieldBearer
   required: false
   type: release_group
-- name: SM737
-  negate: false
-  pattern: SM737
-  required: false
-  type: release_group
 - name: STUTTERSHIT
   negate: false
   pattern: STUTTERSHIT
@@ -175,13 +170,8 @@ conditions:
   required: false
   type: release_group
 - name: WiKi
-  type: release_group
-  required: false
   negate: false
   pattern: WiKi
-- name: WOU
-  negate: false
-  pattern: WOU
   required: false
   type: release_group
 - name: YIFY

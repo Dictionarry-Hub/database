@@ -1,5 +1,5 @@
 name: QxR
-pattern: (?<=^|[\s.-])QxR|Tigole|FreetheFish|SAMPA|afm72|Silence|r00t|YOGI|MONOLITH|Panda|Kappa|t3nzin|RCVR|ImE|RZeroX|Garshasp|Ghost|Bandi|Natty\b
+pattern: (?<=^|[\s.-])(QxR|afm72|Bandi|FreetheFish|Garshasp|Ghost|Ime|Kappa|Langbard|LION|Panda|MONOLITH|Natty|r00t|RCVR|RZeroX|SAMPA|Silence|t3nzin|Tigole|YOGI)\b
 description: ''
 tags:
 - Release Group

@@ -1,0 +1,10 @@
+name: Apple TV
+pattern: \b(ATV)\b
+description: 'Apple TV channels offer a curated selection of content from various
+  streaming services and providers, allowing users to subscribe and access content
+  directly within the Apple TV app. These channels provide a centralized platform
+  for accessing a wide range of movies, TV shows, live sports, and more. '
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

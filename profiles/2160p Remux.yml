@@ -18,90 +18,98 @@ tags:
 - Lossless Audio
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 2000
-upgradeUntilScore: 16000
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
-  score: 14000
+  score: 160000
 - name: 2160p WEB-DL
-  score: 12000
+  score: 140000
 - name: 1080p Remux
-  score: 10000
+  score: 120000
 - name: 1080p WEB-DL
-  score: 8000
+  score: 100000
 - name: 720p WEB-DL
-  score: 6000
+  score: 80000
 - name: 480p WEB-DL
-  score: 3000
+  score: 60000
 - name: DVD
-  score: 2000
+  score: 20000
 - name: DVD Remux
-  score: 2000
+  score: 20000
+- name: SD Quality Tier 1
+  score: 11000
 - name: DTS-X
-  score: 600
+  score: 10000
+- name: SD Quality Tier 2
+  score: 10000
 - name: DTS-HD MA
-  score: 500
-- name: MA
-  score: 500
+  score: 8000
 - name: TrueHD
-  score: 500
+  score: 8000
 - name: TrueHD (Missing)
-  score: 500
-- name: AMZN
-  score: 400
-- name: ATVP
-  score: 400
-- name: DSNP
-  score: 400
-- name: iT
-  score: 400
-- name: CRIT
-  score: 300
-- name: Dolby Vision
-  score: 300
+  score: 8000
 - name: FLAC
-  score: 300
-- name: HMAX
-  score: 300
-- name: MAX
-  score: 300
-- name: NF
-  score: 300
-- name: NOW
-  score: 300
-- name: PCOK
-  score: 300
-- name: HDR10+
-  score: 200
-- name: HTSR
-  score: 200
-- name: HULU
-  score: 200
-- name: PMTP
-  score: 200
-- name: ROKU
-  score: 200
-- name: SHO
-  score: 200
-- name: STAN
-  score: 200
+  score: 7000
+- name: PCM
+  score: 7000
+- name: DTS-HD HRA
+  score: 5000
+- name: Opus
+  score: 5000
+- name: Dolby Digital +
+  score: 4000
+- name: MA
+  score: 4000
+- name: Dolby Vision
+  score: 3000
+- name: DTS-ES
+  score: 3000
+- name: AMZN
+  score: 2000
 - name: Atmos
-  score: 100
+  score: 2000
 - name: Atmos (Missing)
-  score: 100
+  score: 2000
+- name: ATVP
+  score: 2000
+- name: DSNP
+  score: 2000
+- name: DTS
+  score: 2000
+- name: HDR10+
+  score: 2000
+- name: iT
+  score: 2000
+- name: ATV
+  score: 1000
+- name: CRIT
+  score: 1000
+- name: Dolby Digital
+  score: 1000
 - name: HDR
-  score: 100
+  score: 1000
 - name: HDR10
-  score: 100
+  score: 1000
 - name: HDR10 (Missing)
-  score: 100
+  score: 1000
 - name: HLG
-  score: 100
+  score: 1000
+- name: HMAX
+  score: 1000
+- name: MAX
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
+  score: 1000
 - name: PQ
-  score: 100
+  score: 1000
 - name: Special Edition
-  score: 100
+  score: 1000
 - name: Remux Tier 1
   score: 80
 - name: WEB-DL Tier 1
@@ -110,8 +118,6 @@ custom_formats:
   score: 60
 - name: WEB-DL Tier 2
   score: 60
-- name: Unknown Lossless Audio
-  score: 50
 - name: Remux Tier 3
   score: 40
 - name: WEB-DL Tier 3
@@ -128,42 +134,58 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: AAC
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
 - name: 3D
-  score: -99999
+  score: -999999
 - name: AV1
-  score: -99999
+  score: -999999
 - name: B&W
-  score: -99999
+  score: -999999
 - name: Banned Groups
-  score: -99999
+  score: -999999
+- name: Banned Groups (Title)
+  score: -999999
 - name: Banned Remux
-  score: -99999
+  score: -999999
 - name: Banned WEB-DL (x265)
-  score: -99999
+  score: -999999
 - name: Dolby Vision (Without Fallback)
-  score: -99999
+  score: -999999
 - name: Extras
-  score: -99999
+  score: -999999
 - name: Full Disc
-  score: -99999
+  score: -999999
 - name: Full Disc (Quality Match)
-  score: -99999
+  score: -999999
 - name: h265
-  score: -99999
+  score: -999999
 - name: Sing Along
-  score: -99999
+  score: -999999
 - name: UHDBits
-  score: -99999
+  score: -999999
 - name: Upscaled
-  score: -99999
+  score: -999999
 - name: VP9
-  score: -99999
+  score: -999999
 - name: VVC
-  score: -99999
+  score: -999999
 - name: x264 (2160p)
-  score: -99999
+  score: -999999
 - name: x265
-  score: -99999
+  score: -999999
 qualities:
 - id: 3
   name: Remux-2160p

@@ -1,0 +1,352 @@
+name: DTS-ES
+description: Matches 'DTS-ES' Regex Pattern and negates any other audio types that
+  might conflict.
+tags:
+- Audio
+conditions:
+- name: DTS-ES
+  negate: false
+  pattern: DTS-ES
+  required: true
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: AAC
+  required: true
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: true
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: true
+  type: release_title
+- name: Not DTS
+  negate: true
+  pattern: DTS Basic
+  required: true
+  type: release_title
+- name: Not DTS-X
+  negate: true
+  pattern: DTS-X
+  required: true
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: DTS-ES
+    negate: false
+    pattern: DTS-ES
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS Basic
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-X
+    negate: true
+    pattern: DTS-X
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-HD MA 7.1 H.264-TiTTE
+  lastRun: '2025-07-13T16:08:50.669281'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: DTS-ES
+    negate: false
+    pattern: DTS-ES
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS Basic
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-X
+    negate: true
+    pattern: DTS-X
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: false
+  id: 3
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-HD HRA 7.1 H.264-TiTTE
+  lastRun: '2025-07-13T16:08:50.669281'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: DTS-ES
+    negate: false
+    pattern: DTS-ES
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS Basic
+    required: false
+    type: release_title
+  - matches: true
+    name: Not DTS-X
+    negate: true
+    pattern: DTS-X
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: false
+  id: 4
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS:X 7.1 H.264-TiTTE
+  lastRun: '2025-07-13T16:08:50.669281'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: DTS-ES
+    negate: false
+    pattern: DTS-ES
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: true
+    name: Not DTS
+    negate: true
+    pattern: DTS Basic
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-X
+    negate: true
+    pattern: DTS-X
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: false
+  id: 5
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS 7.1 H.264-TiTTE
+  lastRun: '2025-07-13T16:08:50.669281'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: DTS-ES
+    negate: false
+    pattern: DTS-ES
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital
+    negate: true
+    pattern: Dolby Digital
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS Basic
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS-X
+    negate: true
+    pattern: DTS-X
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: true
+  id: 6
+  input: 8 Mile 2002 Open Matte 1080p WEB-DL DTS-ES 7.1 H.264-TiTTE
+  lastRun: '2025-07-13T16:08:50.669281'
+  passes: true

@@ -11,9 +11,14 @@ tags:
 - 2160p
 - Storage
 conditions:
+- name: 1080p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 1080p
 - name: UHD Bluray
   negate: false
-  pattern: UHD Blu-ray
+  pattern: UHD Bluray
   required: true
   type: release_title
 - name: HDR
@@ -21,6 +26,11 @@ conditions:
   pattern: Basic HDR Formats
   required: true
   type: release_title
+- name: Release Groups
+  negate: true
+  pattern: UHD Bluray (Negation)
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: false

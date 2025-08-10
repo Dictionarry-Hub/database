@@ -1,0 +1,7 @@
+name: iVy
+pattern: (?<=^|[\s.-])iVy\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

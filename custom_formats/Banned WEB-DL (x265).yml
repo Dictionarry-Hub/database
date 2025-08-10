@@ -4,6 +4,11 @@ tags:
 - Banned
 - Release Group
 conditions:
+- name: 2160p
+  type: resolution
+  required: true
+  negate: false
+  resolution: 2160p
 - name: WEB-DL
   negate: false
   required: true
@@ -17,6 +22,11 @@ conditions:
 - name: ABBIE
   negate: true
   pattern: ABBIE
+  required: true
+  type: release_group
+- name: AjA
+  negate: true
+  pattern: AjA
   required: true
   type: release_group
 - name: AJP69
@@ -39,6 +49,11 @@ conditions:
   pattern: BTN
   required: true
   type: release_group
+- name: BYNDR
+  negate: true
+  pattern: BYNDR
+  required: true
+  type: release_group
 - name: CMRG
   negate: true
   pattern: CMRG
@@ -49,9 +64,24 @@ conditions:
   pattern: CRFW
   required: true
   type: release_group
+- name: DEFLATE
+  negate: true
+  pattern: DEFLATE
+  required: true
+  type: release_group
+- name: EVO
+  negate: true
+  pattern: EVO
+  required: true
+  type: release_group
 - name: FLUX
   negate: true
   pattern: FLUX
+  required: true
+  type: release_group
+- name: GNOMiSSiON
+  negate: true
+  pattern: GNOMiSSiON
   required: true
   type: release_group
 - name: HHWEB
@@ -94,19 +124,19 @@ conditions:
   pattern: NTG
   required: true
   type: release_group
+- name: PHOENiX
+  negate: true
+  pattern: PHOENiX
+  required: true
+  type: release_group
 - name: playWEB
   negate: true
   pattern: playWEB
   required: true
   type: release_group
-- name: QOQ
+- name: ROCCaT
   negate: true
-  pattern: QOQ
-  required: true
-  type: release_group
-- name: SbR
-  negate: true
-  pattern: SbR
+  pattern: ROCCaT
   required: true
   type: release_group
 - name: SiC
@@ -127,6 +157,21 @@ conditions:
 - name: TOMMY
   negate: true
   pattern: TOMMY
+  required: true
+  type: release_group
+- name: VD0N
+  negate: true
+  pattern: VD0N
+  required: true
+  type: release_group
+- name: VoX
+  negate: true
+  pattern: VoX
+  required: true
+  type: release_group
+- name: WELP
+  negate: true
+  pattern: WELP
   required: true
   type: release_group
 - name: XEBEC

@@ -1,0 +1,7 @@
+name: GNOMiSSiON
+pattern: (?<=^|[\s.-])GNOMiSSiON\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

@@ -3,7 +3,6 @@ pattern: (?<=^|[\s.-])SM737\b
 description: ''
 tags:
 - Release Group
-- Banned
 tests:
 - expected: true
   id: 1

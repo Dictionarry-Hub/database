@@ -9,34 +9,130 @@ conditions:
   pattern: Dolby Digital
   required: true
   type: release_title
-- name: Not PCM
-  negate: true
-  pattern: PCM
-  required: false
-  type: release_title
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: false
+  required: true
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: true
   type: release_title
 - name: Not DTS
   negate: true
   pattern: DTS
-  required: false
-  type: release_title
-- name: Not TrueHD + Atmos
-  negate: true
-  pattern: TrueHD + Atmos
-  required: false
+  required: true
   type: release_title
 - name: Not FLAC
   negate: true
   pattern: FLAC
-  required: false
+  required: true
   type: release_title
-- name: Not Dolby Digital +
-  type: release_title
-  required: false
+- name: Not PCM
   negate: true
-  pattern: Dolby Digital +
-tests: []
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Dolby Digital
+    negate: false
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Un-Ex You 2025 1080p NF WEB-DL DD 5.1 H.264-FLUX
+  lastRun: '2025-07-13T15:09:35.674140'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Dolby Digital
+    negate: false
+    pattern: Dolby Digital
+    required: true
+    type: release_title
+  - matches: false
+    name: Not AAC
+    negate: true
+    pattern: AAC
+    required: false
+    type: release_title
+  - matches: true
+    name: Not Dolby Digital +
+    negate: true
+    pattern: Dolby Digital +
+    required: false
+    type: release_title
+  - matches: false
+    name: Not DTS
+    negate: true
+    pattern: DTS
+    required: false
+    type: release_title
+  - matches: false
+    name: Not FLAC
+    negate: true
+    pattern: FLAC
+    required: false
+    type: release_title
+  - matches: false
+    name: Not PCM
+    negate: true
+    pattern: PCM
+    required: false
+    type: release_title
+  - matches: false
+    name: Not TrueHD
+    negate: true
+    pattern: TrueHD
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Un-Ex You 2025 1080p NF WEB-DL DD+ 5.1 H.264-FLUX
+  lastRun: '2025-07-13T15:09:35.674140'
+  passes: true

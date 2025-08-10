@@ -10,15 +10,20 @@ conditions:
   required: false
   type: release_title
 - name: iT Rename Regex
-  type: release_title
-  required: false
   negate: false
   pattern: iTunes Rename
+  required: false
+  type: release_title
 - name: WEB-DL
   negate: false
-  required: true
+  required: false
   source: web_dl
   type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
 tests:
 - conditionResults:
   - matches: true

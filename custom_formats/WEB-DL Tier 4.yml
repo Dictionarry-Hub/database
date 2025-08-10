@@ -9,19 +9,14 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: BYNDR
-  negate: false
-  pattern: BYNDR
-  required: false
-  type: release_group
 - name: Cinefeel
   negate: false
   pattern: Cinefeel
   required: false
   type: release_group
 - name: LAZY
-  type: release_group
-  required: false
   negate: false
   pattern: LAZY
+  required: false
+  type: release_group
 tests: []

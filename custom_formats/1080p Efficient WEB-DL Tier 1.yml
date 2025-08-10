@@ -1,0 +1,78 @@
+name: 1080p Efficient WEB-DL Tier 1
+description: Matches 1080p WEB-DLs.
+tags:
+- Release Group Tier
+- 1080p
+- Efficient
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: h265
+  negate: false
+  pattern: HEVC
+  required: true
+  type: release_title
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: CMRG
+  negate: false
+  pattern: CMRG
+  required: false
+  type: release_group
+- name: FLUX
+  negate: false
+  pattern: FLUX
+  required: false
+  type: release_group
+- name: HHWEB
+  negate: false
+  pattern: HHWEB
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+- name: MZABI
+  negate: false
+  pattern: MZABI
+  required: false
+  type: release_group
+- name: playWEB
+  negate: false
+  pattern: playWEB
+  required: false
+  type: release_group
+- name: SMURF
+  negate: false
+  pattern: SMURF
+  required: false
+  type: release_group
+- name: TEPES
+  negate: false
+  pattern: TEPES
+  required: false
+  type: release_group
+tests: []

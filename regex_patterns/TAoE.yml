@@ -1,5 +1,5 @@
 name: TAoE
-pattern: (?<=^|[\s.-])TAoE|Goki|Frys|JBENT|DNU|Ainz|TheSickle|ANONAZ|Species180|r0b0t|xtrem3x|HxD|ArcX|WEM|Nostradamus|Erie|DUHIT|jb2049|DrainedDay|AJJMIN\b
+pattern: (?<=^|[\s.-])(TAoE|Ainz|AJJMIN|ANONAZ|ArcX|bccornfo|DNU|DrainedDay|DUHIT|Erie|Frys|Goki|HxD|jb2049|JBENT|Nostradamus|r0b0t|Species180|TheSickle|xtrem3x|WEM)\b
 description: ''
 tags:
 - Release Group

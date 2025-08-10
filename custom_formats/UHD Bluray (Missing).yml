@@ -22,7 +22,7 @@ conditions:
   type: release_group
 - name: Not UHD Bluray
   negate: true
-  pattern: UHD Blu-ray
+  pattern: UHD Bluray
   required: true
   type: release_title
 tests:

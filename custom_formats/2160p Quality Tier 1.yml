@@ -20,11 +20,6 @@ conditions:
   pattern: CtrlHD
   required: false
   type: release_group
-- name: DEPTH
-  negate: false
-  pattern: DEPTH
-  required: false
-  type: release_group
 - name: DON
   negate: false
   pattern: DON

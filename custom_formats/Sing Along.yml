@@ -2,7 +2,7 @@ name: Sing Along
 description: ''
 tags:
 - Banned
-- Enhancement
+- Edition
 conditions:
 - name: Sing Along
   negate: false

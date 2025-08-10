@@ -1,0 +1,16 @@
+name: h265 (Efficient)
+description: Matches 'h265' regex pattern.
+tags:
+- Codec
+conditions:
+- name: h265
+  negate: false
+  pattern: h265
+  required: true
+  type: release_title
+- name: Not 1080p
+  negate: true
+  required: true
+  resolution: 1080p
+  type: resolution
+tests: []

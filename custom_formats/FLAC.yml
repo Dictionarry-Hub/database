@@ -9,34 +9,34 @@ conditions:
   pattern: FLAC
   required: true
   type: release_title
-- name: Not PCM
-  negate: true
-  pattern: PCM
-  required: false
-  type: release_title
 - name: Not AAC
   negate: true
   pattern: AAC
-  required: false
-  type: release_title
-- name: Not DTS
-  negate: true
-  pattern: DTS
-  required: false
-  type: release_title
-- name: Not TrueHD + Atmos
-  negate: true
-  pattern: TrueHD + Atmos
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital
   negate: true
   pattern: Dolby Digital
-  required: false
+  required: true
   type: release_title
 - name: Not Dolby Digital +
   negate: true
   pattern: Dolby Digital +
-  required: false
+  required: true
+  type: release_title
+- name: Not DTS
+  negate: true
+  pattern: DTS
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
   type: release_title
 tests: []
