@@ -248,6 +248,8 @@ qualities:
     name: Bluray-1080p
   - id: 9
     name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
 - id: -2
   name: 720p Fallback
   description: Fallback to 720p when 1080p cannot be found.
