@@ -94,6 +94,11 @@ conditions:
   pattern: LAMA
   required: false
   type: release_group
+- name: MeGusta
+  type: release_group
+  required: false
+  negate: false
+  pattern: MeGusta
 - name: MgB
   negate: false
   pattern: MgB
@@ -125,10 +130,10 @@ conditions:
   required: false
   type: release_group
 - name: RARGB
-  type: release_group
-  required: false
   negate: false
   pattern: RARGB
+  required: false
+  type: release_group
 - name: SasukeducK
   negate: false
   pattern: SasukeducK
