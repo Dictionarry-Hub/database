@@ -95,10 +95,10 @@ conditions:
   required: false
   type: release_group
 - name: MeGusta
-  type: release_group
-  required: false
   negate: false
   pattern: MeGusta
+  required: false
+  type: release_group
 - name: MgB
   negate: false
   pattern: MgB
@@ -129,6 +129,11 @@ conditions:
   pattern: PiRaTeS
   required: false
   type: release_group
+- name: PSA
+  type: release_group
+  required: false
+  negate: false
+  pattern: PSA
 - name: RARGB
   negate: false
   pattern: RARGB
