@@ -26,21 +26,16 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: iVy
-  negate: false
-  pattern: iVy
-  required: false
-  type: release_group
 - name: PHOCiS
   negate: false
   pattern: PHOCiS
   required: false
   type: release_group
 - name: YAWNiX
-  type: release_group
-  required: false
   negate: false
   pattern: YAWNiX
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true
