@@ -118,8 +118,6 @@ custom_formats:
   score: -999999
 - name: Banned Remux
   score: -999999
-- name: Banned WEB-DL (x265)
-  score: -999999
 - name: Dolby Vision (Without Fallback)
   score: -999999
 - name: Extras
