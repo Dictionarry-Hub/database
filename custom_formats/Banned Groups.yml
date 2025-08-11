@@ -95,10 +95,10 @@ conditions:
   required: false
   type: release_group
 - name: MgB
-  type: release_group
-  required: false
   negate: false
   pattern: MgB
+  required: false
+  type: release_group
 - name: NAHOM
   negate: false
   pattern: NAHOM
@@ -124,6 +124,11 @@ conditions:
   pattern: PiRaTeS
   required: false
   type: release_group
+- name: RARGB
+  type: release_group
+  required: false
+  negate: false
+  pattern: RARGB
 - name: SasukeducK
   negate: false
   pattern: SasukeducK

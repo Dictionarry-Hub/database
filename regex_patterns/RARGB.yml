@@ -1,6 +1,6 @@
 name: RARGB
 pattern: (?<=^|[\s.-])RARGB\b
-description: ''
+description: Banned for Low Quality
 tags:
 - Release Group
 - Remux
