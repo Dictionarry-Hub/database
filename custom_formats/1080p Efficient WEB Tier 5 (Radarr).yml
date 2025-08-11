@@ -26,11 +26,6 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: YAWNiX
-  negate: false
-  pattern: YAWNiX
-  required: false
-  type: release_group
 tests:
 - conditionResults:
   - matches: true
