@@ -145,13 +145,13 @@ custom_formats_radarr:
 - name: 1080p Efficient WEB-DL Tier 3
   score: 170000
 - name: 1080p Efficient WEB Tier 1 (Radarr)
-  score: 164000
-- name: 1080p Efficient WEB Tier 2 (Radarr)
   score: 163000
-- name: 1080p Efficient WEB Tier 3 (Radarr)
+- name: 1080p Efficient WEB Tier 2 (Radarr)
   score: 162000
-- name: 1080p Efficient WEB Tier 4 (Radarr)
+- name: 1080p Efficient WEB Tier 3 (Radarr)
   score: 161000
+- name: 1080p Efficient WEB Tier 4 (Radarr)
+  score: 160000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
@@ -204,12 +204,14 @@ custom_formats_sonarr:
 - name: 1080p Efficient WEB-DL Tier 3
   score: 170000
 - name: 1080p Efficient WEB Tier 1 (Sonarr)
-  score: 164000
+  score: 165000
 - name: 1080p Efficient WEB Tier 2 (Sonarr)
-  score: 163000
+  score: 164000
 - name: 1080p Efficient WEB Tier 3 (Sonarr)
-  score: 162000
+  score: 163000
 - name: 1080p Efficient WEB Tier 4 (Sonarr)
+  score: 162000
+- name: 1080p Efficient Bluray Tier 6 (Sonarr)
   score: 161000
 - name: 1080p Efficient WEB Tier 5 (Sonarr)
   score: 160000
