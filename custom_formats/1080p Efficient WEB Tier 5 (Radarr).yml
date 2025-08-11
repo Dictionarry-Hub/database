@@ -26,11 +26,6 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: PHOCiS
-  negate: false
-  pattern: PHOCiS
-  required: false
-  type: release_group
 - name: YAWNiX
   negate: false
   pattern: YAWNiX
