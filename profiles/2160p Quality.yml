@@ -81,6 +81,8 @@ custom_formats:
   score: 41000
 - name: 720p Quality Tier 5
   score: 40000
+- name: 720p Balanced Tier 1
+  score: 20000
 - name: DVD
   score: 20000
 - name: DVD Remux
