@@ -20,9 +20,4 @@ conditions:
   pattern: LEGi0N
   required: false
   type: release_group
-- name: RARGB
-  negate: false
-  pattern: RARGB
-  required: false
-  type: release_group
 tests: []
