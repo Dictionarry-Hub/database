@@ -130,10 +130,10 @@ conditions:
   required: false
   type: release_group
 - name: PSA
-  type: release_group
-  required: false
   negate: false
   pattern: PSA
+  required: false
+  type: release_group
 - name: RARGB
   negate: false
   pattern: RARGB
@@ -189,6 +189,11 @@ conditions:
   pattern: WiKi
   required: false
   type: release_group
+- name: x0r
+  type: release_group
+  required: false
+  negate: false
+  pattern: x0r
 - name: YIFY
   negate: false
   pattern: YIFY
