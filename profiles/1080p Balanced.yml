@@ -55,8 +55,6 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
-- name: Special Edition
-  score: 1000
 - name: DTS-HD HRA
   score: 800
 - name: Opus
@@ -115,8 +113,6 @@ custom_formats:
   score: -999999
 - name: Remux
   score: -999999
-- name: Sing Along
-  score: -999999
 - name: Upscaled
   score: -999999
 - name: VP9
@@ -154,9 +150,13 @@ custom_formats_radarr:
   score: 1000
 - name: PCOK
   score: 1000
+- name: Special Edition
+  score: 1000
 - name: 3D
   score: -999999
 - name: Full Disc (Quality Match)
+  score: -999999
+- name: Sing Along
   score: -999999
 custom_formats_sonarr:
 - name: AMZN

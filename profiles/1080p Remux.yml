@@ -62,8 +62,6 @@ custom_formats:
   score: 2000
 - name: Dolby Digital
   score: 1000
-- name: Special Edition
-  score: 1000
 - name: Remux Tier 1
   score: 80
 - name: WEB-DL Tier 1
@@ -116,8 +114,6 @@ custom_formats:
   score: -999999
 - name: PQ
   score: -999999
-- name: Sing Along
-  score: -999999
 - name: Upscaled
   score: -999999
 - name: VP9
@@ -151,9 +147,13 @@ custom_formats_radarr:
   score: 1000
 - name: PCOK
   score: 1000
+- name: Special Edition
+  score: 1000
 - name: 3D
   score: -999999
 - name: Full Disc (Quality Match)
+  score: -999999
+- name: Sing Along
   score: -999999
 custom_formats_sonarr:
 - name: AMZN
