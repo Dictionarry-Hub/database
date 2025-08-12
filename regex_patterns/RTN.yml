@@ -1,0 +1,7 @@
+name: RTN
+pattern: (?<=^|[\s.-])RTN\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

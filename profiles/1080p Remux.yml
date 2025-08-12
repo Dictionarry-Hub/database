@@ -62,21 +62,23 @@ custom_formats:
   score: 2000
 - name: Dolby Digital
   score: 1000
+- name: WEB-DL Tier 1
+  score: 100
 - name: Remux Tier 1
   score: 80
-- name: WEB-DL Tier 1
+- name: WEB-DL Tier 2
   score: 80
 - name: Remux Tier 2
   score: 60
-- name: WEB-DL Tier 2
+- name: WEB-DL Tier 3
   score: 60
 - name: Remux Tier 3
   score: 40
-- name: WEB-DL Tier 3
+- name: WEB-DL Tier 4
   score: 40
 - name: Remux Tier 4
   score: 20
-- name: WEB-DL Tier 4
+- name: WEB-DL Tier 5
   score: 20
 - name: Repack3
   score: 8

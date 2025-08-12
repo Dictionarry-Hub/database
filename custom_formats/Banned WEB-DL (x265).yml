@@ -5,10 +5,10 @@ tags:
 - Release Group
 conditions:
 - name: 2160p
-  type: resolution
-  required: true
   negate: false
+  required: true
   resolution: 2160p
+  type: resolution
 - name: WEB-DL
   negate: false
   required: true
@@ -19,11 +19,6 @@ conditions:
   pattern: x265
   required: true
   type: release_title
-- name: ABBIE
-  negate: true
-  pattern: ABBIE
-  required: true
-  type: release_group
 - name: AjA
   negate: true
   pattern: AjA

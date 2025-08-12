@@ -100,12 +100,14 @@ custom_formats:
 - name: Dolby Digital
   score: 100
 - name: WEB-DL Tier 1
-  score: 80
+  score: 100
 - name: WEB-DL Tier 2
-  score: 60
+  score: 80
 - name: WEB-DL Tier 3
-  score: 40
+  score: 60
 - name: WEB-DL Tier 4
+  score: 40
+- name: WEB-DL Tier 5
   score: 20
 - name: Repack3
   score: 8
