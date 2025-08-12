@@ -1,0 +1,27 @@
+name: WEB-DL Tier 5
+description: Matches release groups who fall under WEB-DL Tier 5
+tags:
+- Release Groups
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: SiGMA
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiGMA
+tests: []

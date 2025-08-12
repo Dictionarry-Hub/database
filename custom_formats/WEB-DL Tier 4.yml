@@ -9,14 +9,69 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: Cinefeel
+- name: APEX
   negate: false
-  pattern: Cinefeel
+  pattern: APEX
   required: false
   type: release_group
-- name: LAZY
+- name: CRUD
   negate: false
-  pattern: LAZY
+  pattern: CRUD
+  required: false
+  type: release_group
+- name: dB
+  negate: false
+  pattern: dB
+  required: false
+  type: release_group
+- name: GNOME
+  negate: false
+  pattern: GNOME
+  required: false
+  type: release_group
+- name: KHN
+  negate: false
+  pattern: KHN
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
+  required: false
+  type: release_group
+- name: PHOENiX
+  negate: false
+  pattern: PHOENiX
+  required: false
+  type: release_group
+- name: RTN
+  negate: false
+  pattern: RTN
+  required: false
+  type: release_group
+- name: SiC
+  negate: false
+  pattern: SiC
+  required: false
+  type: release_group
+- name: SPiRiT
+  negate: false
+  pattern: SPiRiT
+  required: false
+  type: release_group
+- name: ViSUM
+  negate: false
+  pattern: ViSUM
+  required: false
+  type: release_group
+- name: WELP
+  type: release_group
+  required: false
+  negate: false
+  pattern: WELP
+- name: XEBEC
+  negate: false
+  pattern: XEBEC
   required: false
   type: release_group
 tests: []

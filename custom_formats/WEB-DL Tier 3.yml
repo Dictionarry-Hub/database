@@ -9,19 +9,9 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: ABBIE
-  negate: false
-  pattern: ABBIE
-  required: false
-  type: release_group
 - name: AJP69
   negate: false
   pattern: AJP69
-  required: false
-  type: release_group
-- name: APEX
-  negate: false
-  pattern: APEX
   required: false
   type: release_group
 - name: BLUTONiUM
@@ -29,9 +19,19 @@ conditions:
   pattern: BLUTONiUM
   required: false
   type: release_group
-- name: BTN
+- name: BTW
   negate: false
-  pattern: BTN
+  pattern: BTW
+  required: false
+  type: release_group
+- name: CasStudio
+  negate: false
+  pattern: CasStudio
+  required: false
+  type: release_group
+- name: Cinefeel
+  negate: false
+  pattern: Cinefeel
   required: false
   type: release_group
 - name: CRFW
@@ -39,9 +39,24 @@ conditions:
   pattern: CRFW
   required: false
   type: release_group
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
 - name: KiNGS
   negate: false
   pattern: KiNGS
+  required: false
+  type: release_group
+- name: LAZY
+  negate: false
+  pattern: LAZY
+  required: false
+  type: release_group
+- name: monkee
+  negate: false
+  pattern: monkee
   required: false
   type: release_group
 - name: MZABI
@@ -64,14 +79,19 @@ conditions:
   pattern: QOQ
   required: false
   type: release_group
+- name: RAWR
+  negate: false
+  pattern: RAWR
+  required: false
+  type: release_group
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
 - name: SbR
   negate: false
   pattern: SbR
-  required: false
-  type: release_group
-- name: SiC
-  negate: false
-  pattern: SiC
   required: false
   type: release_group
 - name: SMURF
@@ -84,9 +104,14 @@ conditions:
   pattern: TOMMY
   required: false
   type: release_group
-- name: XEBEC
+- name: TVSmash
+  type: release_group
+  required: false
   negate: false
-  pattern: XEBEC
+  pattern: TVSmash
+- name: ZoroSenpai
+  negate: false
+  pattern: ZoroSenpai
   required: false
   type: release_group
 tests: []

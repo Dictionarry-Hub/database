@@ -1,0 +1,7 @@
+name: SPiRiT
+pattern: (?<=^|[\s.-])SPiRiT\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []
