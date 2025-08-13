@@ -9,19 +9,39 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: CRUD
+  negate: false
+  pattern: CRUD
+  required: false
+  type: release_group
+- name: dB
+  negate: false
+  pattern: dB
+  required: false
+  type: release_group
+- name: GNOME
+  negate: false
+  pattern: GNOME
+  required: false
+  type: release_group
 - name: NINJACENTRAL
   negate: false
   pattern: NINJACENTRAL
   required: false
   type: release_group
+- name: PHOENiX
+  type: release_group
+  required: false
+  negate: false
+  pattern: PHOENiX
 - name: ROCCaT
   negate: false
   pattern: ROCCaT
   required: false
   type: release_group
 - name: SiGMA
-  type: release_group
-  required: false
   negate: false
   pattern: SiGMA
+  required: false
+  type: release_group
 tests: []

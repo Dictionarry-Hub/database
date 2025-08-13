@@ -14,21 +14,6 @@ conditions:
   pattern: APEX
   required: false
   type: release_group
-- name: CRUD
-  negate: false
-  pattern: CRUD
-  required: false
-  type: release_group
-- name: dB
-  negate: false
-  pattern: dB
-  required: false
-  type: release_group
-- name: GNOME
-  negate: false
-  pattern: GNOME
-  required: false
-  type: release_group
 - name: KHN
   negate: false
   pattern: KHN
@@ -37,11 +22,6 @@ conditions:
 - name: NPMS
   negate: false
   pattern: NPMS
-  required: false
-  type: release_group
-- name: PHOENiX
-  negate: false
-  pattern: PHOENiX
   required: false
   type: release_group
 - name: RTN
@@ -65,10 +45,10 @@ conditions:
   required: false
   type: release_group
 - name: WELP
-  type: release_group
-  required: false
   negate: false
   pattern: WELP
+  required: false
+  type: release_group
 - name: XEBEC
   negate: false
   pattern: XEBEC
