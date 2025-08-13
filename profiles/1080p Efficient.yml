@@ -11,6 +11,12 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Efficient WEB-DL Tier 1
+  score: 220000
+- name: 1080p Efficient WEB-DL Tier 2
+  score: 200000
+- name: 1080p Efficient WEB-DL Tier 3
+  score: 170000
 - name: 1080p Balanced Tier 1
   score: 141000
 - name: 1080p Balanced Tier 2
@@ -49,6 +55,8 @@ custom_formats:
   score: 3000
 - name: HDR10+
   score: 2000
+- name: ATV
+  score: 1000
 - name: DS4K
   score: 1000
 - name: HDR
@@ -56,6 +64,14 @@ custom_formats:
 - name: HDR10
   score: 1000
 - name: HLG
+  score: 1000
+- name: iT
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
   score: 1000
 - name: PQ
   score: 1000
@@ -89,6 +105,22 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: AAC
+  score: 0
+- name: BCORE
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
 - name: AV1
   score: -999999
 - name: B&W
@@ -126,10 +158,6 @@ custom_formats:
 custom_formats_radarr:
 - name: 1080p Efficient Bluray Tier 0 (Radarr)
   score: 240000
-- name: 1080p Efficient WEB-DL Tier 1
-  score: 220000
-- name: 1080p Efficient WEB-DL Tier 2
-  score: 200000
 - name: 1080p Efficient Bluray Tier 1 (Radarr)
   score: 184000
 - name: 1080p Efficient Bluray Tier 2 (Radarr)
@@ -140,8 +168,6 @@ custom_formats_radarr:
   score: 181000
 - name: 1080p Efficient Bluray Tier 5 (Radarr)
   score: 180000
-- name: 1080p Efficient WEB-DL Tier 3
-  score: 170000
 - name: 1080p Efficient WEB Tier 1 (Radarr)
   score: 163000
 - name: 1080p Efficient WEB Tier 2 (Radarr)
@@ -162,21 +188,11 @@ custom_formats_radarr:
   score: 2000
 - name: DSNP
   score: 2000
-- name: ATV
-  score: 1000
 - name: CRIT
   score: 1000
 - name: HMAX
   score: 1000
-- name: iT
-  score: 1000
 - name: MAX
-  score: 1000
-- name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
   score: 1000
 - name: Special Edition
   score: 1000
@@ -189,10 +205,6 @@ custom_formats_radarr:
 custom_formats_sonarr:
 - name: 1080p Efficient Bluray Tier 0 (Sonarr)
   score: 240000
-- name: 1080p Efficient WEB-DL Tier 1
-  score: 220000
-- name: 1080p Efficient WEB-DL Tier 2
-  score: 200000
 - name: 1080p Efficient Bluray Tier 1 (Sonarr)
   score: 184000
 - name: 1080p Efficient Bluray Tier 2 (Sonarr)
@@ -203,8 +215,6 @@ custom_formats_sonarr:
   score: 181000
 - name: 1080p Efficient Bluray Tier 5 (Sonarr)
   score: 180000
-- name: 1080p Efficient WEB-DL Tier 3
-  score: 170000
 - name: 1080p Efficient WEB Tier 1 (Sonarr)
   score: 165000
 - name: 1080p Efficient WEB Tier 2 (Sonarr)
@@ -227,16 +237,6 @@ custom_formats_sonarr:
   score: 2000
 - name: MAX
   score: 2000
-- name: ATV
-  score: 1000
-- name: iT
-  score: 1000
-- name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
-  score: 1000
 - name: Season Pack
   score: 10
 qualities:
