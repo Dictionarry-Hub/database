@@ -42,6 +42,16 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
+- name: ATV
+  score: 1000
+- name: iT
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
+  score: 1000
 - name: DTS-HD HRA
   score: 800
 - name: Opus
@@ -72,6 +82,22 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+- name: AAC
+  score: 0
+- name: BCORE
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
 - name: AV1
   score: -999999
 - name: B&W
@@ -123,21 +149,11 @@ custom_formats_radarr:
   score: 2000
 - name: DSNP
   score: 2000
-- name: ATV
-  score: 1000
 - name: CRIT
   score: 1000
 - name: HMAX
   score: 1000
-- name: iT
-  score: 1000
 - name: MAX
-  score: 1000
-- name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
   score: 1000
 - name: Special Edition
   score: 1000
@@ -158,16 +174,6 @@ custom_formats_sonarr:
   score: 2000
 - name: MAX
   score: 2000
-- name: ATV
-  score: 1000
-- name: iT
-  score: 1000
-- name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
-  score: 1000
 - name: Season Pack
   score: 10
 qualities:
