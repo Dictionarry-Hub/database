@@ -1,5 +1,5 @@
 name: Roku
-pattern: (?<=\b[12]\d{3}\b).*\b(ROKU)\b
+pattern: \b(ROKU)\b
 description: The Roku Channel is an over-the-top video streaming service available
   in the U.S., Canada, Mexico and the U.K. Launched in September 2017. The Roku Channel
   offers over 400 free live linear TV channels, more than 80,000 free movies and shows,
