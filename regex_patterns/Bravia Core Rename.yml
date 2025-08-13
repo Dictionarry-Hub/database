@@ -1,5 +1,5 @@
-name: Bravia Core
-pattern: \b(BCORE|CORE)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+name: Bravia Core Rename
+pattern: \[(BCORE)\b|\b(BCORE)\]
 description: Sony Pictures Core (formerly known as Bravia Core) is a video on demand
   service from Sony for its televisions and smartphones, launched in April 2021. The
   service offers the streaming of movies at up to 4K resolution provided by Sony Pictures

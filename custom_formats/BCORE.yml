@@ -7,16 +7,21 @@ conditions:
 - name: BCORE Regex
   negate: false
   pattern: Bravia Core
-  required: true
+  required: false
   type: release_title
+- name: BCORE Rename Regex
+  type: release_title
+  required: false
+  negate: false
+  pattern: Bravia Core Rename
 - name: WEB-DL
   negate: false
   required: false
   source: web_dl
   type: source
 - name: WEBRip
-  type: source
-  required: false
   negate: false
+  required: false
   source: webrip
+  type: source
 tests: []
