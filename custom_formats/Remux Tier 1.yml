@@ -1,8 +1,8 @@
 name: Remux Tier 1
 description: Matches release groups who fall under Remux Tier 1
 tags:
-- Release Groups
 - Remux
+- Release Group Tier
 conditions:
 - name: Remux
   negate: false
@@ -20,10 +20,10 @@ conditions:
   required: false
   type: release_group
 - name: BiZKiT
-  type: release_group
-  required: false
   negate: false
   pattern: BiZKiT
+  required: false
+  type: release_group
 - name: BLURANiUM
   negate: false
   pattern: BLURANiUM

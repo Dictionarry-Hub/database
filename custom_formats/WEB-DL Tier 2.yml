@@ -1,8 +1,8 @@
 name: WEB-DL Tier 2
 description: Matches release groups who fall under WEB-DL Tier 2
 tags:
-- Release Groups
 - WEB-DL
+- Release Group Tier
 conditions:
 - name: WEB-DL
   negate: false
@@ -10,10 +10,10 @@ conditions:
   source: web_dl
   type: source
 - name: BYNDR
-  type: release_group
-  required: false
   negate: false
   pattern: BYNDR
+  required: false
+  type: release_group
 - name: CMRG
   negate: false
   pattern: CMRG

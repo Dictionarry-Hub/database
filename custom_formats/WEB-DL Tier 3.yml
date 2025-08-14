@@ -1,8 +1,8 @@
 name: WEB-DL Tier 3
 description: Matches release groups who fall under WEB-DL Tier 3
 tags:
-- Release Groups
 - WEB-DL
+- Release Group Tier
 conditions:
 - name: WEB-DL
   negate: false
@@ -105,10 +105,10 @@ conditions:
   required: false
   type: release_group
 - name: TVSmash
-  type: release_group
-  required: false
   negate: false
   pattern: TVSmash
+  required: false
+  type: release_group
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai

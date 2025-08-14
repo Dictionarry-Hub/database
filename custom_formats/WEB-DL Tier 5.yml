@@ -1,8 +1,8 @@
 name: WEB-DL Tier 5
 description: Matches release groups who fall under WEB-DL Tier 5
 tags:
-- Release Groups
 - WEB-DL
+- Release Group Tier
 conditions:
 - name: WEB-DL
   negate: false
@@ -30,10 +30,10 @@ conditions:
   required: false
   type: release_group
 - name: PHOENiX
-  type: release_group
-  required: false
   negate: false
   pattern: PHOENiX
+  required: false
+  type: release_group
 - name: ROCCaT
   negate: false
   pattern: ROCCaT

@@ -1,8 +1,8 @@
 name: WEB-DL Tier 1
 description: Matches release groups who fall under WEB-DL Tier 1
 tags:
-- Release Groups
 - WEB-DL
+- Release Group Tier
 conditions:
 - name: WEB-DL
   negate: false

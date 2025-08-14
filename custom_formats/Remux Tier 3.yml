@@ -1,8 +1,8 @@
 name: Remux Tier 3
 description: Matches release groups who fall under Remux Tier 3
 tags:
-- Release Groups
 - Remux
+- Release Group Tier
 conditions:
 - name: Remux
   negate: false
@@ -35,10 +35,10 @@ conditions:
   required: false
   type: release_group
 - name: SiCFoI
-  type: release_group
-  required: false
   negate: false
   pattern: SiCFoI
+  required: false
+  type: release_group
 - name: TEPES
   negate: false
   pattern: TEPES
