@@ -1,7 +1,7 @@
 name: 2160p Remux
 description: Matches 2160p Remux
 tags:
-- Resolution
+- Source
 conditions:
 - name: 2160p
   negate: false

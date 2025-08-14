@@ -1,7 +1,7 @@
 name: 1080p Bluray
 description: Matches 1080p Blurays that are NOT remuxes
 tags:
-- Resolution
+- Source
 conditions:
 - name: 1080p
   negate: false

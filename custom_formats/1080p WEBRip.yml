@@ -1,7 +1,7 @@
 name: 1080p WEBRip
 description: Matches 1080p WEBRips.
 tags:
-- Resolution
+- Source
 conditions:
 - name: 1080p
   negate: false

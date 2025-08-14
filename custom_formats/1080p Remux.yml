@@ -1,7 +1,7 @@
 name: 1080p Remux
 description: Matches 1080p Remux
 tags:
-- Resolution
+- Source
 conditions:
 - name: 1080p
   negate: false

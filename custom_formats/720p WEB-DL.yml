@@ -1,7 +1,7 @@
 name: 720p WEB-DL
 description: Matches 720p WEB-DLs.
 tags:
-- Resolution
+- Source
 conditions:
 - name: 720p
   negate: false

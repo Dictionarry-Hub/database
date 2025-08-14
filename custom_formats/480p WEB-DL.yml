@@ -1,7 +1,7 @@
 name: 480p WEB-DL
 description: Matches 480p WEB-DLs.
 tags:
-- Resolution
+- Source
 conditions:
 - name: 480p
   negate: false

@@ -1,7 +1,7 @@
 name: 2160p Bluray
 description: Matches 2160p Blurays that are NOT remuxes
 tags:
-- Resolution
+- Source
 conditions:
 - name: 2160p
   negate: false

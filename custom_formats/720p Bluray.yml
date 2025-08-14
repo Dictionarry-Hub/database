@@ -1,7 +1,7 @@
 name: 720p Bluray
 description: Matches 720p Blurays that are NOT remuxes
 tags:
-- Resolution
+- Source
 conditions:
 - name: 720p
   negate: false
