@@ -1,8 +1,8 @@
 name: WEB-DL Tier 4
 description: Matches release groups who fall under WEB-DL Tier 4
 tags:
-- WEB-DL
 - Release Group Tier
+- WEB-DL
 conditions:
 - name: WEB-DL
   negate: false
