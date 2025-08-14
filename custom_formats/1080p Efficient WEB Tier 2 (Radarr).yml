@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: DarQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: DarQ
 - name: dkore
   negate: false
   pattern: dkore

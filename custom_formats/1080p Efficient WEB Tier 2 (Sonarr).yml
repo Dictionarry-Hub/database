@@ -26,16 +26,21 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: DarQ
+  type: release_group
+  required: false
+  negate: false
+  pattern: DarQ
 - name: edge2020
   negate: false
   pattern: edge2020
   required: false
   type: release_group
 - name: LSt
-  type: release_group
-  required: false
   negate: false
   pattern: LSt
+  required: false
+  type: release_group
 - name: ToNaTo
   negate: false
   pattern: ToNaTo

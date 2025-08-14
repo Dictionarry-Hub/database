@@ -25,11 +25,6 @@ conditions:
   pattern: ARCADE
   required: false
   type: release_group
-- name: DarQ
-  negate: false
-  pattern: DarQ
-  required: false
-  type: release_group
 - name: SiGMA
   negate: false
   pattern: SiGMA
