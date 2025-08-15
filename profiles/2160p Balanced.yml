@@ -51,8 +51,6 @@ custom_formats:
 - name: 720p WEBRip
   score: 80000
 - name: 1080p Balanced Tier 1
-  score: 61000
-- name: 1080p Balanced Tier 2
   score: 60000
 - name: 480p WEB-DL
   score: 60000

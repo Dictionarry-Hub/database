@@ -20,6 +20,11 @@ conditions:
   pattern: BHDStudio
   required: false
   type: release_group
+- name: hallowed
+  type: release_group
+  required: false
+  negate: false
+  pattern: hallowed
 tests:
 - conditionResults:
   - matches: true
