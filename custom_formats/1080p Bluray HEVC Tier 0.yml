@@ -1,10 +1,11 @@
-name: 1080p Efficient Bluray Tier 0 (Radarr)
+name: 1080p Bluray HEVC Tier 0
 description: Matches release groups who fall under 1080p Efficient Bluray Tier 0
 tags:
 - Release Group Tier
 - 1080p
-- Efficient
+- HEVC
 - Movie
+- TV
 conditions:
 - name: 1080p
   negate: false

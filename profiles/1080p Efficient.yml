@@ -11,6 +11,8 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Bluray HEVC Tier 0
+  score: 240000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 220000
 - name: 1080p WEB-DL HEVC Tier 2
@@ -154,8 +156,6 @@ custom_formats:
 - name: x265 (Efficient)
   score: -999999
 custom_formats_radarr:
-- name: 1080p Efficient Bluray Tier 0 (Radarr)
-  score: 240000
 - name: 1080p Efficient Bluray Tier 1 (Radarr)
   score: 184000
 - name: 1080p Efficient Bluray Tier 2 (Radarr)
@@ -201,8 +201,6 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
-- name: 1080p Efficient Bluray Tier 0 (Sonarr)
-  score: 240000
 - name: 1080p Efficient Bluray Tier 1 (Sonarr)
   score: 184000
 - name: 1080p Efficient Bluray Tier 2 (Sonarr)

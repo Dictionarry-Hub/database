@@ -18,6 +18,8 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
+- name: 1080p Bluray HEVC Tier 0
+  score: 180000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 160000
 - name: 1080p Balanced Tier 1
@@ -149,8 +151,6 @@ custom_formats:
 - name: x265 (Efficient)
   score: -999999
 custom_formats_radarr:
-- name: 1080p Efficient Bluray Tier 0 (Radarr)
-  score: 180000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
@@ -178,8 +178,6 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
-- name: 1080p Efficient Bluray Tier 0 (Sonarr)
-  score: 180000
 - name: AMZN
   score: 3000
 - name: ATVP
