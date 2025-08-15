@@ -11,11 +11,11 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Efficient WEB-DL Tier 1
+- name: 1080p WEB-DL HEVC Tier 1
   score: 220000
-- name: 1080p Efficient WEB-DL Tier 2
+- name: 1080p WEB-DL HEVC Tier 2
   score: 200000
-- name: 1080p Efficient WEB-DL Tier 3
+- name: 1080p WEB-DL HEVC Tier 3
   score: 170000
 - name: 1080p Balanced Tier 1
   score: 140000
