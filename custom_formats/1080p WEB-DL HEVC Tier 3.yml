@@ -3,7 +3,7 @@ description: Matches 1080p WEB-DLs.
 tags:
 - Release Group Tier
 - 1080p
-- Efficient
+- HEVC
 conditions:
 - name: 1080p
   negate: false
