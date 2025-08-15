@@ -1,0 +1,234 @@
+name: 1080p Balanced+
+description: "1080p Balanced targets consistent & immutable 1080p **WEB-DLs** with\
+  \ fallback to transparent x264 encodes, prioritised using the **Golden Popcorn Performance\
+  \ Index**.\n\n- Special considerations are given to **Balanced** groups who prioritize\
+  \ **streaming optimisation** over quality, falling somewhere around a tier 2 WEB-DL.\
+  \ This includes groups like **BHDStudio** and **hallowed**.\n- If no 1080p release\
+  \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes.\
+  \ \n\n- Balanced+ adds another layer on top that includes H265 WEB-DLs from isolated\
+  \ groups as well as HONE Blurays."
+tags:
+- 1080p
+- Balanced Focused
+- Lossy Audio
+- x264
+- h264
+upgradesAllowed: true
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
+minScoreIncrement: 1
+custom_formats:
+- name: 1080p WEB-DL HEVC Tier 1
+  score: 160000
+- name: 1080p Balanced Tier 1
+  score: 140000
+- name: 1080p WEB-DL (h264)
+  score: 140000
+- name: 720p WEB-DL
+  score: 100000
+- name: 720p Bluray
+  score: 80000
+- name: 720p WEBRip
+  score: 80000
+- name: 480p WEB-DL
+  score: 60000
+- name: 720p Quality Tier 1
+  score: 44000
+- name: 720p Quality Tier 2
+  score: 43000
+- name: 720p Quality Tier 3
+  score: 42000
+- name: 720p Quality Tier 4
+  score: 41000
+- name: 720p Quality Tier 5
+  score: 40000
+- name: 720p Balanced Tier 1
+  score: 20000
+- name: DVD
+  score: 20000
+- name: DVD Remux
+  score: 20000
+- name: SD Quality Tier 1
+  score: 11000
+- name: SD Quality Tier 2
+  score: 10000
+- name: Dolby Vision
+  score: 3000
+- name: HDR10+
+  score: 2000
+- name: ATV
+  score: 1000
+- name: HDR
+  score: 1000
+- name: HDR10
+  score: 1000
+- name: HLG
+  score: 1000
+- name: iT
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
+  score: 1000
+- name: PQ
+  score: 1000
+- name: DTS-HD HRA
+  score: 800
+- name: Opus
+  score: 800
+- name: Dolby Digital +
+  score: 600
+- name: Dolby Atmos
+  score: 400
+- name: DTS-ES
+  score: 400
+- name: DTS
+  score: 200
+- name: Dolby Digital
+  score: 100
+- name: WEB-DL Tier 1
+  score: 100
+- name: WEB-DL Tier 2
+  score: 80
+- name: WEB-DL Tier 3
+  score: 60
+- name: WEB-DL Tier 4
+  score: 40
+- name: WEB-DL Tier 5
+  score: 20
+- name: Repack3
+  score: 8
+- name: Repack2
+  score: 7
+- name: Repack1
+  score: 6
+- name: AAC
+  score: 0
+- name: BCORE
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
+- name: AV1
+  score: -999999
+- name: B&W
+  score: -999999
+- name: Banned Groups
+  score: -999999
+- name: Banned Groups (Title)
+  score: -999999
+- name: Banned WEBRip
+  score: -999999
+- name: Dolby Vision (Without Fallback)
+  score: -999999
+- name: Extras
+  score: -999999
+- name: Full Disc
+  score: -999999
+- name: h265 (Efficient)
+  score: -999999
+- name: Remux
+  score: -999999
+- name: Upscaled
+  score: -999999
+- name: VP9
+  score: -999999
+- name: VVC
+  score: -999999
+- name: x265 (Efficient)
+  score: -999999
+custom_formats_radarr:
+- name: 1080p Efficient Bluray Tier 0 (Radarr)
+  score: 180000
+- name: 720p Golden Popcorn
+  score: 6000
+- name: MA
+  score: 4000
+- name: SD Golden Popcorn
+  score: 4000
+- name: AMZN
+  score: 2000
+- name: ATVP
+  score: 2000
+- name: DSNP
+  score: 2000
+- name: CRIT
+  score: 1000
+- name: HMAX
+  score: 1000
+- name: MAX
+  score: 1000
+- name: Special Edition
+  score: 1000
+- name: 3D
+  score: -999999
+- name: Full Disc (Quality Match)
+  score: -999999
+- name: Sing Along
+  score: -999999
+custom_formats_sonarr:
+- name: 1080p Efficient Bluray Tier 0 (Sonarr)
+  score: 180000
+- name: AMZN
+  score: 3000
+- name: ATVP
+  score: 3000
+- name: DSNP
+  score: 3000
+- name: HMAX
+  score: 2000
+- name: MAX
+  score: 2000
+- name: Season Pack
+  score: 10
+qualities:
+- id: -1
+  name: Balanced Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+- id: -2
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: -3
+  name: SD Fallback
+  description: Standard Definition Fallbacks
+  qualities:
+  - id: 18
+    name: Bluray-480p
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 22
+    name: DVD
+upgrade_until:
+  id: -1
+  name: Balanced Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
+language: must_original
