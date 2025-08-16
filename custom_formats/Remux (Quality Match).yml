@@ -6,6 +6,6 @@ conditions:
 - name: Remux
   negate: false
   qualityModifier: remux
-  required: false
+  required: true
   type: quality_modifier
 tests: []
