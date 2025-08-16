@@ -1,0 +1,11 @@
+name: Remux (Quality Match)
+description: Matches Remux as a codec, not a source. Either h265 or h264.
+tags:
+- Storage
+conditions:
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: false
+  type: quality_modifier
+tests: []

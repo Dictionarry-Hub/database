@@ -196,6 +196,8 @@ custom_formats_radarr:
   score: -999999
 - name: Full Disc (Quality Match)
   score: -999999
+- name: Remux (Quality Match)
+  score: -999999
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:

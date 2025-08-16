@@ -1,7 +1,7 @@
 name: Remux
 description: Matches Remux as a codec, not a source. Either h265 or h264.
 tags:
-- Codec
+- Storage
 conditions:
 - name: Remux
   negate: false
