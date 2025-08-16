@@ -52,6 +52,12 @@ custom_formats:
   score: 5000
 - name: Dolby Digital +
   score: 4000
+- name: AMZN
+  score: 3000
+- name: ATVP
+  score: 3000
+- name: DSNP
+  score: 3000
 - name: DTS-ES
   score: 3000
 - name: Atmos
@@ -59,6 +65,10 @@ custom_formats:
 - name: Atmos (Missing)
   score: 2000
 - name: DTS
+  score: 2000
+- name: HMAX
+  score: 2000
+- name: MAX
   score: 2000
 - name: ATV
   score: 1000
@@ -152,18 +162,8 @@ custom_formats:
   score: -999999
 custom_formats_radarr:
 - name: MA
-  score: 4000
-- name: AMZN
-  score: 2000
-- name: ATVP
-  score: 2000
-- name: DSNP
-  score: 2000
+  score: 5000
 - name: CRIT
-  score: 1000
-- name: HMAX
-  score: 1000
-- name: MAX
   score: 1000
 - name: Special Edition
   score: 1000
@@ -174,16 +174,6 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
-- name: AMZN
-  score: 3000
-- name: ATVP
-  score: 3000
-- name: DSNP
-  score: 3000
-- name: HMAX
-  score: 2000
-- name: MAX
-  score: 2000
 - name: Season Pack
   score: 10
 qualities:

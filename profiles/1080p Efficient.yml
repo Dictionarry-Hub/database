@@ -51,9 +51,19 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
+- name: AMZN
+  score: 3000
+- name: ATVP
+  score: 3000
 - name: Dolby Vision
   score: 3000
+- name: DSNP
+  score: 3000
 - name: HDR10+
+  score: 2000
+- name: HMAX
+  score: 2000
+- name: MAX
   score: 2000
 - name: ATV
   score: 1000
@@ -177,20 +187,10 @@ custom_formats_radarr:
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
-  score: 4000
+  score: 5000
 - name: SD Golden Popcorn
   score: 4000
-- name: AMZN
-  score: 2000
-- name: ATVP
-  score: 2000
-- name: DSNP
-  score: 2000
 - name: CRIT
-  score: 1000
-- name: HMAX
-  score: 1000
-- name: MAX
   score: 1000
 - name: Special Edition
   score: 1000
@@ -223,16 +223,6 @@ custom_formats_sonarr:
   score: 161000
 - name: 1080p Efficient WEB Tier 5 (Sonarr)
   score: 160000
-- name: AMZN
-  score: 3000
-- name: ATVP
-  score: 3000
-- name: DSNP
-  score: 3000
-- name: HMAX
-  score: 2000
-- name: MAX
-  score: 2000
 - name: Season Pack
   score: 10
 qualities:
