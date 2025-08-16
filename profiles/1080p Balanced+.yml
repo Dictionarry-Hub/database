@@ -182,6 +182,8 @@ custom_formats_radarr:
 custom_formats_sonarr:
 - name: Season Pack
   score: 10
+- name: Full Disc (Source)
+  score: -999999
 qualities:
 - id: -1
   name: Balanced Capable

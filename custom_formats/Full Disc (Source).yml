@@ -1,0 +1,11 @@
+name: Full Disc (Source)
+description: Matches Full Discs using a Sonarr Source
+tags:
+- Storage
+conditions:
+- name: BRDISK
+  negate: false
+  required: true
+  source: bluray_raw
+  type: source
+tests: []

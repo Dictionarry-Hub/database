@@ -196,6 +196,8 @@ custom_formats_sonarr:
   score: 1000
 - name: Season Pack
   score: 10
+- name: Full Disc (Source)
+  score: -999999
 qualities:
 - id: 3
   name: Remux-2160p
