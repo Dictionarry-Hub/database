@@ -25,11 +25,6 @@ conditions:
   pattern: ARCADE
   required: false
   type: release_group
-- name: SiGMA
-  negate: false
-  pattern: SiGMA
-  required: false
-  type: release_group
 - name: Yoyo
   negate: false
   pattern: Yoyo
