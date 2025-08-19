@@ -14,36 +14,32 @@ tests:
 - expected: true
   id: 1
   input: Universal.Soldier.Day.of.Reckoning.2012.1080p.BluRay.3D.H-SBS.DTS.x264-BluRay3D
-  lastRun: '2025-04-25T14:15:46.876957'
+  lastRun: '2025-08-18T23:32:02.252678'
   matchSpan:
-    end: 55
-    start: 53
-  matchedContent: 3D
+    end: 79
+    start: 39
+  matchedContent: .1080p.BluRay.3D.H-SBS.DTS.x264-BluRay3D
   matchedGroups:
-  - 3D
-  - null
+  - BluRay3D
+  - BluRay
   passes: true
 - expected: true
   id: 2
   input: Justin.And.The.Knights.Of.Valour.3D.2013.1080p.BluRay.Half-SBS.x264-BluRay3D
-  lastRun: '2025-04-25T14:15:46.876957'
+  lastRun: '2025-08-18T23:32:02.252678'
   matchSpan:
-    end: 35
-    start: 33
-  matchedContent: 3D
+    end: 76
+    start: 40
+  matchedContent: .1080p.BluRay.Half-SBS.x264-BluRay3D
   matchedGroups:
-  - 3D
-  - null
+  - BluRay3D
+  - BluRay
   passes: true
 - expected: false
   id: 3
   input: Step Up 3D 2010 1080p BluRay DTS-ES 6.1 x264-xander
-  lastRun: '2025-04-25T14:15:46.876957'
-  matchSpan:
-    end: 10
-    start: 8
-  matchedContent: 3D
-  matchedGroups:
-  - 3D
-  - null
-  passes: false
+  lastRun: '2025-08-18T23:32:02.252678'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
