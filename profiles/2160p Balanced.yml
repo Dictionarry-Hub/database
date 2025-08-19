@@ -160,8 +160,6 @@ custom_formats:
   score: -999999
 - name: Dolby Vision (Without Fallback)
   score: -999999
-- name: Extras
-  score: -999999
 - name: Full Disc
   score: -999999
 - name: h265
@@ -201,6 +199,8 @@ custom_formats_radarr:
   score: 1000
 - name: 3D
   score: -999999
+- name: Extras
+  score: -999999
 - name: Full Disc (Quality Match)
   score: -999999
 - name: Remux (Quality Match)
@@ -219,6 +219,8 @@ custom_formats_sonarr:
 - name: Season Pack
   score: 10
 - name: Full Disc (Source)
+  score: -999999
+- name: TV Extras
   score: -999999
 qualities:
 - id: -1
