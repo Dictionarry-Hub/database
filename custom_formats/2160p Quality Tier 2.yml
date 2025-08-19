@@ -30,4 +30,9 @@ conditions:
   pattern: MainFrame
   required: false
   type: release_group
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
 tests: []

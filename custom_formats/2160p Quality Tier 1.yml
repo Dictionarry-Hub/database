@@ -30,11 +30,6 @@ conditions:
   pattern: HQMUX
   required: false
   type: release_group
-- name: PTer
-  negate: false
-  pattern: PTer
-  required: false
-  type: release_group
 - name: SA89
   negate: false
   pattern: SA89
