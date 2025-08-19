@@ -1,9 +1,9 @@
-name: Full Disc (Source)
-description: Matches Full Discs using a Sonarr Source
+name: Remux (Source)
+description: Matches Remux using a Sonarr Source
 tags:
 - Storage
 conditions:
-- name: BRDISK
+- name: Remux
   negate: false
   required: true
   source: bluray_raw

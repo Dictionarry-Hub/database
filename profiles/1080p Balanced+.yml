@@ -182,7 +182,7 @@ custom_formats_radarr:
 custom_formats_sonarr:
 - name: Season Pack
   score: 10
-- name: Full Disc (Source)
+- name: Remux (Source)
   score: -999999
 - name: TV Extras
   score: -999999
