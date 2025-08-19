@@ -1,0 +1,7 @@
+name: TvR
+pattern: (?<=^|[\s.-])TvR\b
+description: Banned for Mislabeling WEB-DL with Remux
+tags:
+- Release Group
+- WEB-DL
+tests: []
