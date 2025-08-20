@@ -214,16 +214,20 @@ custom_formats_sonarr:
 - name: 1080p Efficient Bluray Tier 5 (Sonarr)
   score: 180000
 - name: 1080p Efficient WEB Tier 1 (Sonarr)
-  score: 165000
+  score: 167000
 - name: 1080p Efficient WEB Tier 2 (Sonarr)
-  score: 164000
+  score: 166000
 - name: 1080p Efficient WEB Tier 3 (Sonarr)
-  score: 163000
+  score: 165000
 - name: 1080p Efficient WEB Tier 4 (Sonarr)
-  score: 162000
+  score: 164000
 - name: 1080p Efficient Bluray Tier 6 (Sonarr)
-  score: 161000
+  score: 163000
+- name: 1080p Efficient Bluray Tier 7 (Sonarr)
+  score: 162000
 - name: 1080p Efficient WEB Tier 5 (Sonarr)
+  score: 161000
+- name: 1080p Efficient WEB Tier 6 (Sonarr)
   score: 160000
 - name: Season Pack
   score: 10

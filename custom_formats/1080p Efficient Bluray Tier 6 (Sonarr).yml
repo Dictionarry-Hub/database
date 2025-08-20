@@ -21,24 +21,9 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: iVy
-  negate: false
-  pattern: iVy
-  required: false
-  type: release_group
 - name: KONTRAST
   negate: false
   pattern: KONTRAST
-  required: false
-  type: release_group
-- name: PHOCiS
-  negate: false
-  pattern: PHOCiS
-  required: false
-  type: release_group
-- name: YAWNiX
-  negate: false
-  pattern: YAWNiX
   required: false
   type: release_group
 tests:

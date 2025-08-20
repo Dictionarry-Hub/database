@@ -1,5 +1,5 @@
-name: 1080p Efficient WEB Tier 5 (Sonarr)
-description: Matches release groups who fall under 1080p Efficient WEB Tier 5
+name: 1080p Efficient WEB Tier 6 (Sonarr)
+description: Matches release groups who fall under 1080p Efficient WEB Tier 6
 tags:
 - Release Group Tier
 - 1080p
@@ -26,9 +26,19 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: KONTRAST
+- name: iVy
   negate: false
-  pattern: KONTRAST
+  pattern: iVy
+  required: false
+  type: release_group
+- name: PHOCiS
+  negate: false
+  pattern: PHOCiS
+  required: false
+  type: release_group
+- name: YAWNiX
+  negate: false
+  pattern: YAWNiX
   required: false
   type: release_group
 tests:
