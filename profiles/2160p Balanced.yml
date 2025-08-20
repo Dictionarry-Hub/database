@@ -74,14 +74,8 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
-- name: ATVP
-  score: 3000
 - name: Dolby Vision
   score: 3000
-- name: DSNP
-  score: 3000
-- name: AMZN
-  score: 2000
 - name: HDR10+
   score: 2000
 - name: ATV
@@ -95,10 +89,6 @@ custom_formats:
 - name: HLG
   score: 1000
 - name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
   score: 1000
 - name: PQ
   score: 1000
@@ -184,19 +174,29 @@ custom_formats_radarr:
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
-  score: 5000
-- name: SD Golden Popcorn
+  score: 6000
+- name: ATVP
+  score: 4000
+- name: DSNP
   score: 4000
 - name: iT
-  score: 3000
+  score: 4000
+- name: SD Golden Popcorn
+  score: 4000
 - name: HMAX
   score: 2000
 - name: MAX
   score: 2000
+- name: AMZN
+  score: 1000
 - name: CRIT
   score: 1000
 - name: Special Edition
   score: 1000
+- name: NOW
+  score: 0
+- name: PCOK
+  score: 0
 - name: 3D
   score: -999999
 - name: Extras
@@ -208,11 +208,21 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
+- name: ATVP
+  score: 3000
+- name: DSNP
+  score: 3000
 - name: HMAX
   score: 3000
 - name: MAX
   score: 3000
+- name: AMZN
+  score: 2000
 - name: iT
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
   score: 1000
 - name: Season Pack
   score: 10
