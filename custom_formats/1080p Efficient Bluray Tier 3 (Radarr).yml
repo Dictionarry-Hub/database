@@ -22,25 +22,30 @@ conditions:
   required: true
   type: release_title
 - name: honeyvera
-  type: release_group
-  required: false
   negate: false
   pattern: Honeyvera
-- name: LSt
-  type: release_group
   required: false
+  type: release_group
+- name: LSt
   negate: false
   pattern: LSt
-- name: MNHD
-  type: release_group
   required: false
+  type: release_group
+- name: MNHD
   negate: false
   pattern: MNHD
+  required: false
+  type: release_group
 - name: SARTRE
+  negate: false
+  pattern: SARTRE
+  required: false
+  type: release_group
+- name: Vialle
   type: release_group
   required: false
   negate: false
-  pattern: SARTRE
+  pattern: Vialle
 tests:
 - conditionResults:
   - matches: true

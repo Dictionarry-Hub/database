@@ -22,10 +22,10 @@ conditions:
   required: true
   type: release_title
 - name: DarQ
-  type: release_group
-  required: false
   negate: false
   pattern: DarQ
+  required: false
+  type: release_group
 - name: dkore
   negate: false
   pattern: dkore
@@ -41,6 +41,11 @@ conditions:
   pattern: MNHD
   required: false
   type: release_group
+- name: Vialle
+  type: release_group
+  required: false
+  negate: false
+  pattern: Vialle
 tests:
 - conditionResults:
   - matches: true

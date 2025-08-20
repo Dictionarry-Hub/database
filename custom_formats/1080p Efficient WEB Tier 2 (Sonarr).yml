@@ -27,10 +27,10 @@ conditions:
   source: webrip
   type: source
 - name: DarQ
-  type: release_group
-  required: false
   negate: false
   pattern: DarQ
+  required: false
+  type: release_group
 - name: edge2020
   negate: false
   pattern: edge2020
@@ -46,6 +46,11 @@ conditions:
   pattern: ToNaTo
   required: false
   type: release_group
+- name: Vialle
+  type: release_group
+  required: false
+  negate: false
+  pattern: Vialle
 tests:
 - conditionResults:
   - matches: true
