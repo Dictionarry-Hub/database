@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: HODL
+  type: release_group
+  required: false
+  negate: false
+  pattern: HODL
 - name: iVy
   negate: false
   pattern: iVy
