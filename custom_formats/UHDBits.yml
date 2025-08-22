@@ -3,7 +3,7 @@ description: Matches patterns unique to the UHDBits indexer. Needed to remove re
   based releases due to bad parsing
 tags:
 - Private Tracker
-- Enhancements
+- Enhancement
 conditions:
 - name: Year in Brackets
   negate: false

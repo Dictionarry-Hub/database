@@ -187,6 +187,8 @@ custom_formats_radarr:
   score: 4000
 - name: SD Golden Popcorn
   score: 4000
+- name: Amazon Enhancement
+  score: 3000
 - name: HMAX
   score: 2000
 - name: MAX
@@ -197,6 +199,8 @@ custom_formats_radarr:
   score: 1000
 - name: Special Edition
   score: 1000
+- name: iTunes Enhancement
+  score: -3000
 - name: 3D
   score: -999999
 - name: Extras
@@ -218,10 +222,14 @@ custom_formats_sonarr:
   score: 3000
 - name: AMZN
   score: 2000
+- name: Amazon Enhancement
+  score: 1000
 - name: iT
   score: 1000
 - name: Season Pack
   score: 10
+- name: HBO Max Enhancement
+  score: -1000
 - name: Remux (Source)
   score: -999999
 - name: TV Extras

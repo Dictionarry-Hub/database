@@ -1,0 +1,16 @@
+name: Amazon Enhancement
+description: ''
+tags:
+- Enhancement
+conditions:
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: AMZN
+  negate: false
+  pattern: Amazon Prime
+  required: false
+  type: release_title
+tests: []

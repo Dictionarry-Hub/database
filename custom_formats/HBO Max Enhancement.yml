@@ -1,0 +1,21 @@
+name: HBO Max Enhancement
+description: ''
+tags:
+- Enhancement
+conditions:
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: HMAX
+  negate: false
+  pattern: HBO Max
+  required: false
+  type: release_title
+- name: MAX
+  negate: false
+  pattern: Max
+  required: false
+  type: release_title
+tests: []
