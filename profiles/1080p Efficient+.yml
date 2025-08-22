@@ -131,7 +131,7 @@ custom_formats:
   score: -999999
 - name: B&W
   score: -999999
-- name: Banned Groups
+- name: Banned Groups (Efficient)
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
