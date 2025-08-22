@@ -120,6 +120,10 @@ custom_formats:
   score: 0
 - name: HULU
   score: 0
+- name: NOW
+  score: 0
+- name: PCOK
+  score: 0
 - name: PMTP
   score: 0
 - name: ROKU
@@ -173,10 +177,6 @@ custom_formats_radarr:
   score: 1000
 - name: Special Edition
   score: 1000
-- name: NOW
-  score: 0
-- name: PCOK
-  score: 0
 - name: 3D
   score: -999999
 - name: Extras
@@ -197,10 +197,6 @@ custom_formats_sonarr:
 - name: AMZN
   score: 2000
 - name: iT
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
   score: 1000
 - name: Season Pack
   score: 10
