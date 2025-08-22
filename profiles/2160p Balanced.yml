@@ -19,7 +19,7 @@ upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Balanced Tier 1
-  score: 284000
+  score: 285000
 - name: 2160p Balanced Tier 2
   score: 280000
 - name: 2160p WEB-DL

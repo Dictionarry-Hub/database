@@ -30,7 +30,7 @@ custom_formats:
 - name: 2160p Quality Tier 5
   score: 300000
 - name: 2160p Balanced Tier 1
-  score: 284000
+  score: 285000
 - name: 2160p Balanced Tier 2
   score: 280000
 - name: 2160p WEB-DL
@@ -251,9 +251,9 @@ custom_formats_sonarr:
   score: 3000
 - name: AMZN
   score: 2000
-- name: iT
-  score: 1000
 - name: Amazon Enhancement
+  score: 1000
+- name: iT
   score: 1000
 - name: Season Pack
   score: 10
