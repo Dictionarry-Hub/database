@@ -71,13 +71,11 @@ custom_formats:
   score: 2000
 - name: MAX
   score: 2000
+- name: ATV
+  score: 1000
 - name: iT
   score: 1000
 - name: NF
-  score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
   score: 1000
 - name: DTS-HD HRA
   score: 800
@@ -116,6 +114,10 @@ custom_formats:
 - name: HTSR
   score: 0
 - name: HULU
+  score: 0
+- name: NOW
+  score: 0
+- name: PCOK
   score: 0
 - name: PMTP
   score: 0
@@ -167,11 +169,9 @@ custom_formats_radarr:
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
-  score: 5000
+  score: 4000
 - name: SD Golden Popcorn
   score: 4000
-- name: ATV
-  score: 1000
 - name: CRIT
   score: 1000
 - name: Special Edition

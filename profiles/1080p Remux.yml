@@ -78,10 +78,6 @@ custom_formats:
   score: 1000
 - name: NF
   score: 1000
-- name: NOW
-  score: 1000
-- name: PCOK
-  score: 1000
 - name: WEB-DL Tier 1
   score: 100
 - name: Remux Tier 1
@@ -113,6 +109,10 @@ custom_formats:
 - name: HTSR
   score: 0
 - name: HULU
+  score: 0
+- name: NOW
+  score: 0
+- name: PCOK
   score: 0
 - name: PMTP
   score: 0
@@ -160,7 +160,7 @@ custom_formats:
   score: -999999
 custom_formats_radarr:
 - name: MA
-  score: 5000
+  score: 4000
 - name: CRIT
   score: 1000
 - name: Special Edition
