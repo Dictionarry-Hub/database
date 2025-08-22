@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: ARCADE
+  type: release_group
+  required: false
+  negate: false
+  pattern: ARCADE
 - name: DarQ
   negate: false
   pattern: DarQ

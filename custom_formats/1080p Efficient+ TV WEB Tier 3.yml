@@ -26,6 +26,16 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: Grimm
+  type: release_group
+  required: false
+  negate: false
+  pattern: GRiMM
+- name: OnlyWeb
+  type: release_group
+  required: false
+  negate: false
+  pattern: OnlyWeb
 - name: YELLO
   negate: false
   pattern: YELLO
