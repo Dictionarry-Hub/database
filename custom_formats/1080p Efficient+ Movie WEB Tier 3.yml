@@ -1,4 +1,4 @@
-name: 1080p Efficient WEB Tier 3 (Radarr)
+name: 1080p Efficient+ Movie WEB Tier 3
 description: Matches release groups who fall under 1080p Efficient WEB Tier 3
 tags:
 - Release Group Tier
@@ -32,10 +32,10 @@ conditions:
   required: false
   type: release_group
 - name: R1GY3B
-  type: release_group
-  required: false
   negate: false
   pattern: R1GY3B
+  required: false
+  type: release_group
 - name: ToNaTo
   negate: false
   pattern: ToNaTo

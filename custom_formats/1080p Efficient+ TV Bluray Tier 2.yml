@@ -1,10 +1,10 @@
-name: 1080p Efficient Bluray Tier 2 (Radarr)
+name: 1080p Efficient+ TV Bluray Tier 2
 description: Matches release groups who fall under 1080p Efficient Bluray Tier 2
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- Movie
+- TV
 conditions:
 - name: 1080p
   negate: false
@@ -22,13 +22,28 @@ conditions:
   required: true
   type: release_title
 - name: DarQ
-  type: release_group
-  required: false
   negate: false
   pattern: DarQ
-- name: SQS
+  required: false
+  type: release_group
+- name: dkore
   negate: false
-  pattern: SQS
+  pattern: dkore
+  required: false
+  type: release_group
+- name: GRiMM
+  negate: false
+  pattern: GRiMM
+  required: false
+  type: release_group
+- name: MNHD
+  negate: false
+  pattern: MNHD
+  required: false
+  type: release_group
+- name: Vialle
+  negate: false
+  pattern: Vialle
   required: false
   type: release_group
 tests:

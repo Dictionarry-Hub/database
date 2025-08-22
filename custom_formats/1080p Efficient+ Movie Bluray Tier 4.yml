@@ -1,5 +1,5 @@
-name: 1080p Efficient WEB Tier 2 (Radarr)
-description: Matches release groups who fall under 1080p Efficient WEB Tier 2
+name: 1080p Efficient+ Movie Bluray Tier 4
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 4
 tags:
 - Release Group Tier
 - 1080p
@@ -11,34 +11,24 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
 - name: x265
   negate: false
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: WEB-DL
-  negate: false
-  required: false
-  source: web_dl
-  type: source
-- name: WEBRip
-  negate: false
-  required: false
-  source: webrip
-  type: source
-- name: DarQ
-  type: release_group
-  required: false
-  negate: false
-  pattern: DarQ
 - name: dkore
   negate: false
   pattern: dkore
   required: false
   type: release_group
-- name: LSt
+- name: GRiMM
   negate: false
-  pattern: LSt
+  pattern: GRiMM
   required: false
   type: release_group
 - name: TimeDistortion

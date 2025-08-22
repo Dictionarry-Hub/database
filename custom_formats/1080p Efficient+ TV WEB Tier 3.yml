@@ -1,5 +1,5 @@
-name: 1080p Efficient WEB Tier 4 (Sonarr)
-description: Matches release groups who fall under 1080p Efficient WEB Tier 4
+name: 1080p Efficient+ TV WEB Tier 3
+description: Matches release groups who fall under 1080p Efficient WEB Tier 3
 tags:
 - Release Group Tier
 - 1080p
@@ -26,29 +26,9 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: bluespots
+- name: YELLO
   negate: false
-  pattern: bluespots
-  required: false
-  type: release_group
-- name: dkore
-  negate: false
-  pattern: dkore
-  required: false
-  type: release_group
-- name: Ralphy
-  negate: false
-  pattern: Ralphy
-  required: false
-  type: release_group
-- name: TimeDistortion
-  negate: false
-  pattern: TimeDistortion
-  required: false
-  type: release_group
-- name: Vyndros
-  negate: false
-  pattern: Vyndros
+  pattern: YELLO
   required: false
   type: release_group
 tests:

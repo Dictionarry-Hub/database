@@ -1,10 +1,10 @@
-name: 1080p Efficient Bluray Tier 1 (Radarr)
-description: Matches release groups who fall under 1080p Efficient Bluray Tier 1
+name: 1080p Efficient+ TV Bluray Tier 5
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 5
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- Movie
+- TV
 conditions:
 - name: 1080p
   negate: false
@@ -21,19 +21,9 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: NAN0
-  type: release_group
-  required: false
+- name: Vyndros
   negate: false
-  pattern: NAN0
-- name: QxR
-  negate: false
-  pattern: QxR
-  required: false
-  type: release_group
-- name: TAoE
-  negate: false
-  pattern: TAoE
+  pattern: Vyndros
   required: false
   type: release_group
 tests:

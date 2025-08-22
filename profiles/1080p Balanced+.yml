@@ -19,7 +19,7 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Bluray HEVC Tier 0
+- name: 1080p Bluray HEVC Tier 1
   score: 180000
 - name: 1080p WEB-DL HEVC Tier 1
   score: 160000

@@ -1,10 +1,10 @@
-name: 1080p Efficient Bluray Tier 3 (Radarr)
-description: Matches release groups who fall under 1080p Efficient Bluray Tier 3
+name: 1080p Efficient+ TV Bluray Tier 7
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 7
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- Movie
+- TV
 conditions:
 - name: 1080p
   negate: false
@@ -21,31 +21,21 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: honeyvera
+- name: iVy
   negate: false
-  pattern: Honeyvera
+  pattern: iVy
   required: false
   type: release_group
-- name: LSt
+- name: PHOCiS
   negate: false
-  pattern: LSt
+  pattern: PHOCiS
   required: false
   type: release_group
-- name: MNHD
+- name: YAWNiX
   negate: false
-  pattern: MNHD
+  pattern: YAWNiX
   required: false
   type: release_group
-- name: SARTRE
-  negate: false
-  pattern: SARTRE
-  required: false
-  type: release_group
-- name: Vialle
-  type: release_group
-  required: false
-  negate: false
-  pattern: Vialle
 tests:
 - conditionResults:
   - matches: true

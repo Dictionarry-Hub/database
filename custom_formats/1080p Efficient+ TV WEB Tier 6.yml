@@ -1,5 +1,5 @@
-name: 1080p Efficient Bluray Tier 1 (Sonarr)
-description: Matches release groups who fall under 1080p Efficient Bluray Tier 1
+name: 1080p Efficient+ TV WEB Tier 6
+description: Matches release groups who fall under 1080p Efficient WEB Tier 6
 tags:
 - Release Group Tier
 - 1080p
@@ -11,29 +11,39 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Bluray
-  negate: false
-  required: true
-  source: bluray
-  type: source
 - name: x265
   negate: false
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: NAN0
-  type: release_group
+- name: WEB-DL
+  negate: false
   required: false
+  source: web_dl
+  type: source
+- name: WEBRip
   negate: false
-  pattern: NAN0
-- name: QxR
+  required: false
+  source: webrip
+  type: source
+- name: HODL
   negate: false
-  pattern: QxR
+  pattern: HODL
   required: false
   type: release_group
-- name: TAoE
+- name: iVy
   negate: false
-  pattern: TAoE
+  pattern: iVy
+  required: false
+  type: release_group
+- name: PHOCiS
+  negate: false
+  pattern: PHOCiS
+  required: false
+  type: release_group
+- name: YAWNiX
+  negate: false
+  pattern: YAWNiX
   required: false
   type: release_group
 tests:

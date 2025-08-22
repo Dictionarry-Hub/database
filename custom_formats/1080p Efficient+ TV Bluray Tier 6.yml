@@ -1,10 +1,10 @@
-name: 1080p Efficient Bluray Tier 5 (Radarr)
-description: Matches release groups who fall under 1080p Efficient Bluray Tier 4
+name: 1080p Efficient+ TV Bluray Tier 6
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 6
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- Movie
+- TV
 conditions:
 - name: 1080p
   negate: false
@@ -21,41 +21,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: Chivaman
-  type: release_group
-  required: false
+- name: KONTRAST
   negate: false
-  pattern: Chivaman
-- name: edge2020
-  type: release_group
+  pattern: KONTRAST
   required: false
-  negate: false
-  pattern: edge2020
-- name: R1GY3B
   type: release_group
-  required: false
-  negate: false
-  pattern: R1GY3B
-- name: Ralphy
-  type: release_group
-  required: false
-  negate: false
-  pattern: Ralphy
-- name: ToNaTo
-  type: release_group
-  required: false
-  negate: false
-  pattern: ToNaTo
-- name: Vyndros
-  type: release_group
-  required: false
-  negate: false
-  pattern: Vyndros
-- name: YELLO
-  type: release_group
-  required: false
-  negate: false
-  pattern: YELLO
 tests:
 - conditionResults:
   - matches: true

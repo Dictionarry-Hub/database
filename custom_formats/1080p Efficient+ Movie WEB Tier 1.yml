@@ -1,5 +1,5 @@
-name: 1080p Efficient WEB Tier 4 (Radarr)
-description: Matches release groups who fall under 1080p Efficient WEB Tier 3
+name: 1080p Efficient+ Movie WEB Tier 1
+description: Matches release groups who fall under 1080p Efficient WEB Tier 1
 tags:
 - Release Group Tier
 - 1080p
@@ -26,19 +26,14 @@ conditions:
   required: false
   source: webrip
   type: source
-- name: SARTRE
+- name: QxR
   negate: false
-  pattern: SARTRE
+  pattern: QxR
   required: false
   type: release_group
-- name: Ralphy
+- name: TAoE
   negate: false
-  pattern: Ralphy
-  required: false
-  type: release_group
-- name: YELLO
-  negate: false
-  pattern: YELLO
+  pattern: TAoE
   required: false
   type: release_group
 tests:

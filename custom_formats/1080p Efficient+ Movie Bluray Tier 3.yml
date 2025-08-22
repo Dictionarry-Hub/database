@@ -1,34 +1,49 @@
-name: 1080p Efficient WEB Tier 3 (Sonarr)
-description: Matches release groups who fall under 1080p Efficient WEB Tier 3
+name: 1080p Efficient+ Movie Bluray Tier 3
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 3
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- TV
+- Movie
 conditions:
 - name: 1080p
   negate: false
   required: true
   resolution: 1080p
   type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
 - name: x265
   negate: false
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: WEB-DL
+- name: honeyvera
   negate: false
+  pattern: Honeyvera
   required: false
-  source: web_dl
-  type: source
-- name: WEBRip
+  type: release_group
+- name: LSt
   negate: false
+  pattern: LSt
   required: false
-  source: webrip
-  type: source
-- name: YELLO
+  type: release_group
+- name: MNHD
   negate: false
-  pattern: YELLO
+  pattern: MNHD
+  required: false
+  type: release_group
+- name: SARTRE
+  negate: false
+  pattern: SARTRE
+  required: false
+  type: release_group
+- name: Vialle
+  negate: false
+  pattern: Vialle
   required: false
   type: release_group
 tests:

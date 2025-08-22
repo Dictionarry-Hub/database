@@ -1,10 +1,10 @@
-name: 1080p Efficient Bluray Tier 4 (Radarr)
-description: Matches release groups who fall under 1080p Efficient Bluray Tier 4
+name: 1080p Efficient+ TV Bluray Tier 3
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 3
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- Movie
+- TV
 conditions:
 - name: 1080p
   negate: false
@@ -21,21 +21,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: dkore
-  type: release_group
-  required: false
+- name: LSt
   negate: false
-  pattern: dkore
-- name: GRiMM
-  type: release_group
+  pattern: LSt
   required: false
-  negate: false
-  pattern: GRiMM
-- name: TimeDistortion
   type: release_group
-  required: false
-  negate: false
-  pattern: TimeDistortion
 tests:
 - conditionResults:
   - matches: true

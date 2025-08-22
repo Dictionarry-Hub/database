@@ -1,4 +1,4 @@
-name: 1080p Efficient WEB Tier 2 (Sonarr)
+name: 1080p Efficient+ TV WEB Tier 2
 description: Matches release groups who fall under 1080p Efficient WEB Tier 2
 tags:
 - Release Group Tier
@@ -47,10 +47,10 @@ conditions:
   required: false
   type: release_group
 - name: Vialle
-  type: release_group
-  required: false
   negate: false
   pattern: Vialle
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

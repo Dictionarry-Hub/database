@@ -11,14 +11,10 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p Bluray HEVC Tier 0
-  score: 240000
-- name: 1080p WEB-DL HEVC Tier 1
+- name: 1080p Bluray HEVC Tier 1
   score: 220000
-- name: 1080p WEB-DL HEVC Tier 2
+- name: 1080p WEB-DL HEVC Tier 1
   score: 200000
-- name: 1080p WEB-DL HEVC Tier 3
-  score: 170000
 - name: 1080p Balanced Tier 1
   score: 140000
 - name: 1080p WEB-DL (h264)
@@ -164,23 +160,23 @@ custom_formats:
 - name: x265 (Efficient)
   score: -999999
 custom_formats_radarr:
-- name: 1080p Efficient Bluray Tier 1 (Radarr)
+- name: 1080p Efficient+ Movie Bluray Tier 1
   score: 184000
-- name: 1080p Efficient Bluray Tier 2 (Radarr)
+- name: 1080p Efficient+ Movie Bluray Tier 2
   score: 183000
-- name: 1080p Efficient Bluray Tier 3 (Radarr)
+- name: 1080p Efficient+ Movie Bluray Tier 3
   score: 182000
-- name: 1080p Efficient Bluray Tier 4 (Radarr)
+- name: 1080p Efficient+ Movie Bluray Tier 4
   score: 181000
-- name: 1080p Efficient Bluray Tier 5 (Radarr)
+- name: 1080p Efficient+ Movie Bluray Tier 5
   score: 180000
-- name: 1080p Efficient WEB Tier 1 (Radarr)
+- name: 1080p Efficient+ Movie WEB Tier 1
   score: 163000
-- name: 1080p Efficient WEB Tier 2 (Radarr)
+- name: 1080p Efficient+ Movie WEB Tier 2
   score: 162000
-- name: 1080p Efficient WEB Tier 3 (Radarr)
+- name: 1080p Efficient+ Movie WEB Tier 3
   score: 161000
-- name: 1080p Efficient WEB Tier 4 (Radarr)
+- name: 1080p Efficient+ Movie WEB Tier 4
   score: 160000
 - name: 720p Golden Popcorn
   score: 6000
@@ -203,31 +199,31 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
-- name: 1080p Efficient Bluray Tier 1 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 1
   score: 184000
-- name: 1080p Efficient Bluray Tier 2 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 2
   score: 183000
-- name: 1080p Efficient Bluray Tier 3 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 3
   score: 182000
-- name: 1080p Efficient Bluray Tier 4 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 4
   score: 181000
-- name: 1080p Efficient Bluray Tier 5 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 5
   score: 180000
-- name: 1080p Efficient WEB Tier 1 (Sonarr)
+- name: 1080p Efficient+ TV WEB Tier 1
   score: 167000
-- name: 1080p Efficient WEB Tier 2 (Sonarr)
+- name: 1080p Efficient+ TV WEB Tier 2
   score: 166000
-- name: 1080p Efficient WEB Tier 3 (Sonarr)
+- name: 1080p Efficient+ TV WEB Tier 3
   score: 165000
-- name: 1080p Efficient WEB Tier 4 (Sonarr)
+- name: 1080p Efficient+ TV WEB Tier 4
   score: 164000
-- name: 1080p Efficient Bluray Tier 6 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 6
   score: 163000
-- name: 1080p Efficient Bluray Tier 7 (Sonarr)
+- name: 1080p Efficient+ TV Bluray Tier 7
   score: 162000
-- name: 1080p Efficient WEB Tier 5 (Sonarr)
+- name: 1080p Efficient+ TV WEB Tier 5
   score: 161000
-- name: 1080p Efficient WEB Tier 6 (Sonarr)
+- name: 1080p Efficient+ TV WEB Tier 6
   score: 160000
 - name: Season Pack
   score: 10

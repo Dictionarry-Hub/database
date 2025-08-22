@@ -1,10 +1,10 @@
-name: 1080p Efficient Bluray Tier 5 (Sonarr)
-description: Matches release groups who fall under 1080p Efficient Bluray Tier 5
+name: 1080p Efficient+ Movie Bluray Tier 2
+description: Matches release groups who fall under 1080p Efficient Bluray Tier 2
 tags:
 - Release Group Tier
 - 1080p
 - Efficient
-- TV
+- Movie
 conditions:
 - name: 1080p
   negate: false
@@ -21,11 +21,16 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
-- name: Vyndros
-  type: release_group
-  required: false
+- name: DarQ
   negate: false
-  pattern: Vyndros
+  pattern: DarQ
+  required: false
+  type: release_group
+- name: SQS
+  negate: false
+  pattern: SQS
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true
