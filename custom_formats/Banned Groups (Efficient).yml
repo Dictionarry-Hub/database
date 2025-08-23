@@ -64,6 +64,11 @@ conditions:
   pattern: DepraveD
   required: false
   type: release_group
+- name: DRX
+  type: release_group
+  required: false
+  negate: false
+  pattern: DRX
 - name: FGT
   negate: false
   pattern: FGT
