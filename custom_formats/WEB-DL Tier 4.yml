@@ -14,14 +14,9 @@ conditions:
   pattern: APEX
   required: false
   type: release_group
-- name: KHN
+- name: dB
   negate: false
-  pattern: KHN
-  required: false
-  type: release_group
-- name: NPMS
-  negate: false
-  pattern: NPMS
+  pattern: dB
   required: false
   type: release_group
 - name: RTN
@@ -39,19 +34,14 @@ conditions:
   pattern: SPiRiT
   required: false
   type: release_group
+- name: TheFarm
+  type: release_group
+  required: false
+  negate: false
+  pattern: TheFarm
 - name: ViSUM
   negate: false
   pattern: ViSUM
-  required: false
-  type: release_group
-- name: WELP
-  negate: false
-  pattern: WELP
-  required: false
-  type: release_group
-- name: XEBEC
-  negate: false
-  pattern: XEBEC
   required: false
   type: release_group
 tests: []

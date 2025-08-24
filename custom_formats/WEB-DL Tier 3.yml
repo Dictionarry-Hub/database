@@ -44,6 +44,11 @@ conditions:
   pattern: CtrlHD
   required: false
   type: release_group
+- name: KHN
+  negate: false
+  pattern: KHN
+  required: false
+  type: release_group
 - name: KiNGS
   negate: false
   pattern: KiNGS
@@ -67,6 +72,11 @@ conditions:
 - name: NOSiViD
   negate: false
   pattern: NOSiViD
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
   required: false
   type: release_group
 - name: NTG
@@ -109,6 +119,16 @@ conditions:
   pattern: TVSmash
   required: false
   type: release_group
+- name: WELP
+  negate: false
+  pattern: WELP
+  required: false
+  type: release_group
+- name: XEBEC
+  type: release_group
+  required: false
+  negate: false
+  pattern: XEBEC
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai

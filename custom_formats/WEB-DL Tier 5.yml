@@ -14,11 +14,6 @@ conditions:
   pattern: CRUD
   required: false
   type: release_group
-- name: dB
-  negate: false
-  pattern: dB
-  required: false
-  type: release_group
 - name: GNOME
   negate: false
   pattern: GNOME
@@ -39,9 +34,19 @@ conditions:
   pattern: ROCCaT
   required: false
   type: release_group
+- name: SiGLA
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiGLA
 - name: SiGMA
   negate: false
   pattern: SiGMA
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
   required: false
   type: release_group
 tests: []
