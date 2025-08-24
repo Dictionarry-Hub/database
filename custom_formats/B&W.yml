@@ -3,7 +3,7 @@ description: Matches the 'B&W' and 'Colour' Regex Pattern
 tags:
 - Banned
 - Colour Grade
-- Enhancements
+- Enhancement
 conditions:
 - name: B&W
   negate: false

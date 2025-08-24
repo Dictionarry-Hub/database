@@ -1,7 +1,7 @@
 name: iTunes Enhancement
 description: ''
 tags:
-- Enhancements
+- Enhancement
 conditions:
 - name: Not 2160p
   negate: true

@@ -2,7 +2,7 @@ name: Upscaled
 description: Matches the 'Upscaled' regex pattern
 tags:
 - Banned
-- Enhancements
+- Enhancement
 conditions:
 - name: Upscaled
   negate: false
