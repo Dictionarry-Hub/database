@@ -5,9 +5,8 @@ description: "1080p Balanced targets consistent & immutable 1080p **WEB-DLs** wi
   \ **streaming optimisation** over quality, falling somewhere around a tier 2 WEB-DL.\
   \ This includes groups like **BHDStudio** and **hallowed**.\n- If no 1080p release\
   \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes.\
-  \ \n\n- Balanced+ adds another layer on top that includes H265 WEB-DLs from isolated\
-  \ groups as well as HONE Blurays.\n\n- Usenet Indexers have limited amounts of 1080p\
-  \ H265. Results may be limited for Usenet Users."
+  \ \n\n- Includes HEVC Hone WEB-DLs and Bluray as top scored.\n\n- Usenet Indexers\
+  \ have limited amounts of 1080p H265. Results may be limited for Usenet Users."
 tags:
 - 1080p
 - Balanced Focused

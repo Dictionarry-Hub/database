@@ -1,5 +1,15 @@
 name: 1080p Efficient+
-description: Efficient+ Profile Beta Testing Radarr and Sonarr
+description: 'Efficient+ Profile Beta Testing Radarr and Sonarr
+
+
+  - Includes HEVC Blurays and WEB-DLs
+
+
+  - High Bitrate Focused Profile
+
+
+  - Usenet Indexers have limited amounts of 1080p HEVC. Results may be limited for
+  Usenet Users.'
 tags:
 - 1080p
 - Efficient Focused
