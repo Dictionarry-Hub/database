@@ -9,6 +9,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: ABM
+  type: release_group
+  required: false
+  negate: false
+  pattern: ABM
 - name: AJP69
   negate: false
   pattern: AJP69
@@ -125,10 +130,10 @@ conditions:
   required: false
   type: release_group
 - name: XEBEC
-  type: release_group
-  required: false
   negate: false
   pattern: XEBEC
+  required: false
+  type: release_group
 - name: ZoroSenpai
   negate: false
   pattern: ZoroSenpai
