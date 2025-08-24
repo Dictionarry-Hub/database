@@ -1,6 +1,6 @@
 name: DRX
 pattern: (?<=^|[\s.-])DRX\b
-description: ''
+description: Banned for Non Retail Audio
 tags:
 - Release Group
 - WEB-DL
