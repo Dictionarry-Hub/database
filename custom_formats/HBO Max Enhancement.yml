@@ -1,7 +1,7 @@
 name: HBO Max Enhancement
 description: ''
 tags:
-- Enhancement
+- Enhancements
 conditions:
 - name: Not 2160p
   negate: true

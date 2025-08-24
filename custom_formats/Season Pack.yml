@@ -1,7 +1,7 @@
 name: Season Pack
 description: Matches Season Pack Release Type on Sonarr
 tags:
-- Enhancement
+- Enhancements
 conditions:
 - name: Season Pack
   negate: false

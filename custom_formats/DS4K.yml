@@ -1,7 +1,6 @@
 name: DS4K
 description: ''
-tags:
-- Enhancement
+tags: []
 conditions:
 - name: DS4K
   negate: false

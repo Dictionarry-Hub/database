@@ -2,7 +2,7 @@ name: Extras
 description: Matches the 'Extras' Regex Pattern
 tags:
 - Banned
-- Enhancement
+- Enhancements
 conditions:
 - name: Extras
   negate: false

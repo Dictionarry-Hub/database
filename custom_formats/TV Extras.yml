@@ -2,7 +2,7 @@ name: TV Extras
 description: Matches the 'Extras' Regex Pattern
 tags:
 - Banned
-- Enhancement
+- Enhancements
 conditions:
 - name: TV Extras
   negate: false
