@@ -200,12 +200,14 @@ custom_formats_sonarr:
   score: 3000
 - name: AMZN
   score: 2000
-- name: iT
-  score: 1000
 - name: Amazon Enhancement
+  score: 1000
+- name: iT
   score: 1000
 - name: Season Pack
   score: 10
+- name: HBO Max Enhancement
+  score: -1000
 - name: TV Extras
   score: -999999
 qualities:

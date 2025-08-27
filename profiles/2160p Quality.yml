@@ -257,6 +257,8 @@ custom_formats_sonarr:
   score: 1000
 - name: Season Pack
   score: 10
+- name: HBO Max Enhancement
+  score: -1000
 - name: Remux (Source)
   score: -999999
 - name: TV Extras
