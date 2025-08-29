@@ -1,15 +1,5 @@
 name: UHD Bluray (Negation)
-pattern: (?<=^|[\s.-])D0ct0rLew|MALUS|MovieMan|SM737|SQS|WOU\b
+pattern: (?<=^|[\s.-])(D0ct0rLew|MALUS|MovieMan|SM737|SQS|WOU)\b
 description: Match release groups who should not be categorized as UHD Bluray
 tags: []
-tests:
-- expected: true
-  id: 1
-  input: Training Day 2001 1080p BluRay DDP 7 1 HDR x265-LEGi0N
-  lastRun: '2025-01-14T09:31:15.526804'
-  matchSpan:
-    end: 54
-    start: 48
-  matchedContent: LEGi0N
-  matchedGroups: []
-  passes: true
+tests: []
