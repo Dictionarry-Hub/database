@@ -190,7 +190,7 @@ custom_formats_radarr:
 - name: SD Golden Popcorn
   score: 4000
 - name: Amazon Enhancement
-  score: 3000
+  score: 2000
 - name: HMAX
   score: 2000
 - name: MAX

@@ -170,7 +170,7 @@ custom_formats_radarr:
 - name: iT
   score: 4000
 - name: Amazon Enhancement
-  score: 3000
+  score: 2000
 - name: HMAX
   score: 2000
 - name: MAX
