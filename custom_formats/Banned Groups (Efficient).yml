@@ -64,11 +64,16 @@ conditions:
   pattern: DepraveD
   required: false
   type: release_group
-- name: DRX
+- name: DeViSiVE
   type: release_group
   required: false
   negate: false
+  pattern: DeViSiVE
+- name: DRX
+  negate: false
   pattern: DRX
+  required: false
+  type: release_group
 - name: FGT
   negate: false
   pattern: FGT

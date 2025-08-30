@@ -35,10 +35,10 @@ conditions:
   required: false
   type: release_group
 - name: BLASPHEMY
-  type: release_group
-  required: false
   negate: false
   pattern: BLASPHEMY
+  required: false
+  type: release_group
 - name: BOLS
   negate: false
   pattern: BOLS
@@ -69,6 +69,11 @@ conditions:
   pattern: DepraveD
   required: false
   type: release_group
+- name: DeViSiVE
+  type: release_group
+  required: false
+  negate: false
+  pattern: DeViSiVE
 - name: DRX
   negate: false
   pattern: DRX
