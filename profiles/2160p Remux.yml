@@ -68,13 +68,13 @@ custom_formats:
   score: 2000
 - name: Atmos (Missing)
   score: 2000
-- name: DTS
+- name: Dolby Digital
   score: 2000
 - name: HDR10+
   score: 2000
 - name: ATV
   score: 1000
-- name: Dolby Digital
+- name: DTS
   score: 1000
 - name: HDR
   score: 1000

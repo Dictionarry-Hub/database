@@ -91,9 +91,9 @@ custom_formats:
   score: 400
 - name: DTS-ES
   score: 400
-- name: DTS
-  score: 200
 - name: Dolby Digital
+  score: 200
+- name: DTS
   score: 100
 - name: WEB-DL Tier 1
   score: 100

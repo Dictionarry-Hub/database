@@ -64,7 +64,7 @@ custom_formats:
   score: 2000
 - name: Atmos (Missing)
   score: 2000
-- name: DTS
+- name: Dolby Digital
   score: 2000
 - name: HMAX
   score: 2000
@@ -72,7 +72,7 @@ custom_formats:
   score: 2000
 - name: ATV
   score: 1000
-- name: Dolby Digital
+- name: DTS
   score: 1000
 - name: iT
   score: 1000
