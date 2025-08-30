@@ -76,6 +76,8 @@ custom_formats:
   score: 10000
 - name: Dolby Vision
   score: 3000
+- name: AMZN
+  score: 2000
 - name: HDR10+
   score: 2000
 - name: ATV
@@ -193,8 +195,6 @@ custom_formats_radarr:
   score: 2000
 - name: MAX
   score: 2000
-- name: AMZN
-  score: 1000
 - name: CRIT
   score: 1000
 - name: Special Edition
@@ -220,8 +220,6 @@ custom_formats_sonarr:
   score: 3000
 - name: MAX
   score: 3000
-- name: AMZN
-  score: 2000
 - name: Amazon Enhancement
   score: 1000
 - name: iT

@@ -64,6 +64,8 @@ custom_formats:
   score: 3000
 - name: DTS-ES
   score: 3000
+- name: AMZN
+  score: 2000
 - name: Atmos
   score: 2000
 - name: Atmos (Missing)
@@ -173,8 +175,6 @@ custom_formats_radarr:
   score: 2000
 - name: MAX
   score: 2000
-- name: AMZN
-  score: 1000
 - name: CRIT
   score: 1000
 - name: Special Edition
@@ -198,8 +198,6 @@ custom_formats_sonarr:
   score: 3000
 - name: MAX
   score: 3000
-- name: AMZN
-  score: 2000
 - name: Amazon Enhancement
   score: 1000
 - name: iT
