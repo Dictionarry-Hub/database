@@ -32,13 +32,8 @@ conditions:
   required: true
   type: release_title
 - name: Not Special Edition
-  type: release_title
-  required: true
   negate: true
   pattern: Special Edition
-- name: Not Theatrical Edition
-  negate: true
-  pattern: Theatrical Edition
   required: true
   type: release_title
 tests:

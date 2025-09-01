@@ -24,10 +24,10 @@ tags:
 - Edition
 conditions:
 - name: Better Theatricals
-  type: release_title
-  required: true
   negate: false
   pattern: Better Theatricals
+  required: true
+  type: release_title
 - name: Theatrical
   negate: false
   pattern: Theatrical Edition
@@ -56,11 +56,6 @@ conditions:
 - name: Not Special Edition
   negate: true
   pattern: Special Edition
-  required: true
-  type: release_title
-- name: Not Theatrical Edition
-  negate: true
-  pattern: Theatrical Edition
   required: true
   type: release_title
 tests:
