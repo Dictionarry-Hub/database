@@ -1,16 +1,19 @@
-name: Special Edition
-description: "Special editions are modified versions of movies released after the\
-  \ original theatrical version.\n\n\u2022 They exist because filmmakers want to present\
-  \ their `true vision`, `fix problems`, or because studios want to make more money\n\
-  \u2022 You'll see them with names like `Director's Cut`, `Extended Edition`, or\
-  \ creative marketing labels like `Ultimate Cut`\n\u2022 A single film can have `multiple\
-  \ special editions` as technology improves or different creative perspectives emerge"
+name: Theatrical
+description: 'Matches any type of theatrical edition.
+
+  - Ensures that `Theatrical` comes after the year so that movies with ''Theatrical`
+  in the title are not matched'
 tags:
 - Edition
 conditions:
-- name: Special Edition
+- name: Theatrical
   negate: false
-  pattern: Special Edition
+  pattern: Theatrical Edition
+  required: true
+  type: release_title
+- name: Not Extended Clip
+  negate: true
+  pattern: Extended Clip
   required: true
   type: release_title
 - name: Not IMAX
@@ -23,19 +26,19 @@ conditions:
   pattern: Open Matte
   required: true
   type: release_title
-- name: Not Theatrical Edition
-  negate: true
-  pattern: Theatrical Edition
-  required: true
-  type: release_title
-- name: Not Extended Clip
-  negate: true
-  pattern: Extended Clip
-  required: true
-  type: release_title
 - name: Not Sing Along
   negate: true
   pattern: Sing Along
+  required: true
+  type: release_title
+- name: Not Special Edition
+  type: release_title
+  required: true
+  negate: true
+  pattern: Special Edition
+- name: Not Theatrical Edition
+  negate: true
+  pattern: Theatrical Edition
   required: true
   type: release_title
 tests:
