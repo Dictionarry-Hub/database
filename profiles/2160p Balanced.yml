@@ -195,6 +195,8 @@ custom_formats_radarr:
   score: 2000
 - name: MAX
   score: 2000
+- name: Better Theatricals
+  score: 1000
 - name: CRIT
   score: 1000
 - name: Special Edition

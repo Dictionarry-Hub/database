@@ -165,6 +165,8 @@ custom_formats_radarr:
   score: 4000
 - name: SD Golden Popcorn
   score: 4000
+- name: Better Theatricals
+  score: 1000
 - name: CRIT
   score: 1000
 - name: Special Edition
