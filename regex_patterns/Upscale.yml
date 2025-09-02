@@ -1,0 +1,7 @@
+name: Upscale
+pattern: (?<=\b[12]\d{3}\b).*(Up[-\.\s]?scale|Re[-\.\s]?Grade|\bAIUS\b|AI[-\.\s]?enhanced|\bAI\b)
+description: "Matches upscales, regrades, AI Enhancements, etc. \n\nRadarr Version"
+tags:
+- Enhancement
+- Banned
+tests: []
