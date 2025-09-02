@@ -1,5 +1,5 @@
-name: Upscaled
-pattern: (Up[-\.\s]?scale|Re[-\.\s]?Grade|\bAIUS\b|AI[-\.\s]?enhanced)
+name: AI TV
+pattern: (?<=\bS\d+\b).*(\b(AI)\b)
 description: 'Matches upscales, regrades, AI Enhancements, etc. '
 tags:
 - Enhancement

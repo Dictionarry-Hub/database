@@ -9,7 +9,12 @@ tags:
 conditions:
 - name: Upscale
   negate: false
-  pattern: Upscale
-  required: true
+  pattern: AI Movies
+  required: false
+  type: release_title
+- name: AI Movies
+  negate: false
+  pattern: AI Movies
+  required: false
   type: release_title
 tests: []

@@ -10,6 +10,11 @@ conditions:
 - name: Upscaled
   negate: false
   pattern: Upscaled
-  required: true
+  required: false
+  type: release_title
+- name: AI TV
+  negate: false
+  pattern: AI TV
+  required: false
   type: release_title
 tests: []
