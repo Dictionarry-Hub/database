@@ -1,0 +1,15 @@
+name: Upscale
+description: 'Matches the ''Upscale'' regex pattern
+
+
+  Radarr Version'
+tags:
+- Banned
+- Enhancement
+conditions:
+- name: Upscale
+  negate: false
+  pattern: Upscale
+  required: true
+  type: release_title
+tests: []

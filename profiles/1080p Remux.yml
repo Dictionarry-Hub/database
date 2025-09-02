@@ -150,8 +150,6 @@ custom_formats:
   score: -999999
 - name: PQ
   score: -999999
-- name: Upscaled
-  score: -999999
 - name: VP9
   score: -999999
 - name: VVC
@@ -175,10 +173,14 @@ custom_formats_radarr:
   score: -999999
 - name: Sing Along
   score: -999999
+- name: Upscale
+  score: -999999
 custom_formats_sonarr:
 - name: Season Pack
   score: 10
 - name: TV Extras
+  score: -999999
+- name: Upscaled
   score: -999999
 qualities:
 - id: 8
