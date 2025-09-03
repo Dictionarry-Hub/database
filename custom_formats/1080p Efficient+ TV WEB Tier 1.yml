@@ -36,6 +36,16 @@ conditions:
   pattern: TAoE
   required: false
   type: release_group
+- name: QxR Release Title
+  type: release_title
+  required: false
+  negate: false
+  pattern: QxR (Title)
+- name: TAoE Release Title
+  type: release_title
+  required: false
+  negate: false
+  pattern: TAoE (Title)
 tests:
 - conditionResults:
   - matches: true

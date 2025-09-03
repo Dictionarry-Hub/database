@@ -1,0 +1,7 @@
+name: TAoE (Title)
+pattern: \b(TAoE)\b
+description: ''
+tags:
+- Release Group
+- HEVC
+tests: []

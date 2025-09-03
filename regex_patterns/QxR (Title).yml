@@ -1,0 +1,7 @@
+name: QxR (Title)
+pattern: \b(QxR)\b
+description: ''
+tags:
+- Release Group
+- HEVC
+tests: []

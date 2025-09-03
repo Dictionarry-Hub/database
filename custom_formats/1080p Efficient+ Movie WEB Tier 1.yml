@@ -31,11 +31,21 @@ conditions:
   pattern: QxR
   required: false
   type: release_group
+- name: QxR Release Title
+  negate: false
+  pattern: QxR (Title)
+  required: false
+  type: release_title
 - name: TAoE
   negate: false
   pattern: TAoE
   required: false
   type: release_group
+- name: TAoE Release Title
+  negate: false
+  pattern: TAoE (Title)
+  required: false
+  type: release_title
 tests:
 - conditionResults:
   - matches: true
