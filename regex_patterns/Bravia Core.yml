@@ -1,5 +1,5 @@
 name: Bravia Core
-pattern: \b(BCORE|CORE)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+pattern: \b(?:BCORE|(?:CORE)(?=\s*.(?:WEB-?DL|WEBRIP|WEB)))\b
 description: Sony Pictures Core (formerly known as Bravia Core) is a video on demand
   service from Sony for its televisions and smartphones, launched in April 2021. The
   service offers the streaming of movies at up to 4K resolution provided by Sony Pictures
@@ -7,4 +7,28 @@ description: Sony Pictures Core (formerly known as Bravia Core) is a video on de
 tags:
 - Streaming Service
 - WEB-DL
-tests: []
+tests:
+- id: 1
+  input: The CORE Accountant 2 2025 2160p BCORE WEB-DL DD+ 5.1 Atmos DV H.265-FLUX
+  expected: true
+- id: 2
+  input: The CORE Accountant 2 2025 2160p CORE WEBRIP DD+ 5.1 Atmos DV H.265-FLUX
+  expected: true
+- id: 3
+  input: The.CORE.Accountant.2.2025.2160p.CORE.WEB-DL.DD+.5.1.Atmos.DV.H.265-FLUX
+  expected: true
+- id: 4
+  input: 'Star Trek: Picard CORE S03 2160p BCORE WEB-DL DTS-HD MA 5.1 H.265-FLUX'
+  expected: true
+- id: 5
+  input: 'Star Trek: Picard CORE S03 2160p CORE WEBRIP DTS-HD MA 5.1 H.265-FLUX'
+  expected: true
+- id: 6
+  input: The.Terminal.List.Dark.CORE.S01E04.THE.SOUND.OF.CORE.2160p.BCORE.WEB-DL.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
+- id: 7
+  input: The.Terminal.List.Dark.CORE.S01E04.THE.SOUND.OF.CORE.2160p.CORE.WEBRIP.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
+- id: 8
+  input: The.Terminal.List.Dark.CORE.S01E04.THE.SOUND.OF.CORE.2160p.CORE.WEB.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
