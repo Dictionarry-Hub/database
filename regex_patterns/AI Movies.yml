@@ -1,7 +1,0 @@
-name: AI Movies
-pattern: (?<=\b[12]\d{3}\b).*(\b(AI)\b)
-description: Matches AI Movies
-tags:
-- Enhancement
-- Banned
-tests: []

@@ -14,7 +14,7 @@ conditions:
   type: release_title
 - name: AI TV
   negate: false
-  pattern: AI TV
+  pattern: AI Upscale
   required: false
   type: release_title
 tests: []
