@@ -1,7 +1,0 @@
-name: AI Upscale
-pattern: \b(?:[12]\d{3}|S\d{1,2}(?:E\d{1,2})?)\b.*?\b(AI)\b
-description: Matches AI Upscales
-tags:
-- Enhancement
-- Banned
-tests: []
