@@ -7,12 +7,7 @@ conditions:
 - name: PCOK Regex
   negate: false
   pattern: Peacock TV
-  required: false
-  type: release_title
-- name: PCOK Rename Regex
-  negate: false
-  pattern: Peacock TV Rename
-  required: false
+  required: true
   type: release_title
 - name: WEB-DL
   negate: false
@@ -20,10 +15,10 @@ conditions:
   source: web_dl
   type: source
 - name: WEBRip
-  type: source
-  required: false
   negate: false
+  required: false
   source: webrip
+  type: source
 tests:
 - conditionResults:
   - matches: true

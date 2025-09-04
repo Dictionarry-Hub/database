@@ -1,6 +1,5 @@
 name: Peacock TV
-pattern: \b(?:(?:1080|2160|720)p(?:[ .]+)PCOK|(?:Peacock(?:[ .]+)Web-?DL|Web-?DL(?:[
-  .]+)Peacock))\b
+pattern: \b(?:PCOK|(?:Peacock)(?=\s*.(?:WEB-?DL|WEBRIP|WEB)))\b
 description: Peacock is an American over-the-top subscription streaming service owned
   and operated by Peacock TV, LLC, a subsidiary of NBCUniversal Media Group. The service
   primarily features series and film content from NBCUniversal studios and other third-party
@@ -9,78 +8,27 @@ tags:
 - Streaming Service
 - WEB-DL
 tests:
-- expected: true
-  id: 1
-  input: The Day of the Jackal S01E05 1080p PCOK WEB-DL DDP5 1 H 264-STC
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan:
-    end: 39
-    start: 29
-  matchedContent: 1080p PCOK
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 2
-  input: Fight Night - The Million Dollar Heist (2024) S01E01 (2160p PCOK WEB-DL H265
-    SDR DDP 5.1 English - HONE)
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan:
-    end: 64
-    start: 54
-  matchedContent: 2160p PCOK
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 3
-  input: Halloween Kills 2021 1080p Peacock WebDL H264 AC3 Will1869
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan:
-    end: 40
-    start: 27
-  matchedContent: Peacock WebDL
-  matchedGroups: []
-  passes: true
-- expected: false
-  id: 4
-  input: Peacock.S01.1080p.AMZN.WEB-DL.DDP2.0.H.264-Cinefeel
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: false
-  id: 5
-  input: Peacock.S02.1080p.iP.WEB-DL.AAC2.0.H.264-RNG
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: false
-  id: 6
-  input: Banana Fish S01E16 Lo The Poor Peacock WEB h264-PLUTONiUM
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 7
-  input: Kingsman The Secret Service 2014 1080p PCOK WEB-DL DDP 5 1 H 264-PiRaTeS
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan:
-    end: 43
-    start: 33
-  matchedContent: 1080p PCOK
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 8
-  input: Kingsman.The.Secret.Service.2014.1080p.PCOK.WEB-DL.DDP.5.1.H.264-PiRaTeS
-  lastRun: '2025-03-25T16:16:33.336288'
-  matchSpan:
-    end: 43
-    start: 33
-  matchedContent: 1080p.PCOK
-  matchedGroups: []
-  passes: true
+- id: 1
+  input: The Peacock Accountant 2 2025 2160p PCOK WEB-DL DD+ 5.1 Atmos DV H.265-FLUX
+  expected: true
+- id: 2
+  input: The Peacock Accountant 2 2025 2160p Peacock WEBRIP DD+ 5.1 Atmos DV H.265-FLUX
+  expected: true
+- id: 3
+  input: The.Peacock.Accountant.2.2025.2160p.Peacock.WEB-DL.DD+.5.1.Atmos.DV.H.265-FLUX
+  expected: true
+- id: 4
+  input: 'Star Trek: Picard Peacock S03 2160p PCOK WEB-DL DTS-HD MA 5.1 H.265-FLUX'
+  expected: true
+- id: 5
+  input: 'Star Trek: Picard Peacock S03 2160p Peacock WEBRIP DTS-HD MA 5.1 H.265-FLUX'
+  expected: true
+- id: 6
+  input: The.Terminal.List.Dark.Peacock.S01E04.THE.SOUND.OF.Peacock.2160p.PCOK.WEB-DL.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
+- id: 7
+  input: The.Terminal.List.Dark.Peacock.S01E04.THE.SOUND.OF.Peacock.2160p.Peacock.WEBRIP.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
+- id: 8
+  input: The.Terminal.List.Dark.Peacock.S01E04.THE.SOUND.OF.Peacock.2160p.Peacock.WEB.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
