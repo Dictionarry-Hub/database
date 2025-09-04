@@ -1,5 +1,5 @@
 name: Amazon Prime
-pattern: \b(?:AMZN|(?:AMAZON)(?=\s*.(?:WEB-?DL|WEBRIP|WEB)))\b
+pattern: \b(?:AMZN|(?:AMAZON)(?=\s*.(?:WEB-?DL|WEBRIP)))\b
 description: Amazon Prime Video, or simply Prime Video, is an American subscription
   video on-demand over-the-top streaming and rental service of Amazon offered both
   as a stand-alone service and as part of Amazon's Prime subscription.
@@ -14,7 +14,7 @@ tests:
   input: The Amazon Accountant 2 2025 2160p Amazon WEBRIP DD+ 5.1 Atmos DV H.265-FLUX
   expected: true
 - id: 4
-  input: The.Amazon.Accountant.2.2025.2160p.Amazon.WEB.DD+.5.1.Atmos.DV.H.265-FLUX
+  input: The.Amazon.Accountant.2.2025.2160p.Amazon.WEBDL.DD+.5.1.Atmos.DV.H.265-FLUX
   expected: true
 - id: 5
   input: 'Star Trek: Picard Amazon S03 2160p AMZN WEB-DL DTS-HD MA 5.1 H.265-FLUX'
@@ -29,5 +29,5 @@ tests:
   input: The.Terminal.List.Dark.Amazon.S01E04.THE.SOUND.OF.AMAZON.2160p.Amazon.WEBRIP.DDP5.1.HDR.H.265-FLUX.mkv
   expected: true
 - id: 9
-  input: The.Terminal.List.Dark.Amazon.S01E04.THE.SOUND.OF.AMAZON.2160p.Amazon.WEB.DDP5.1.HDR.H.265-FLUX.mkv
+  input: The.Terminal.List.Dark.Amazon.S01E04.THE.SOUND.OF.AMAZON.2160p.Amazon.WEBDL.DDP5.1.HDR.H.265-FLUX.mkv
   expected: true

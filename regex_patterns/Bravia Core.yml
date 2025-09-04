@@ -1,5 +1,5 @@
 name: Bravia Core
-pattern: \b(?:BCORE|(?:CORE)(?=\s*.(?:WEB-?DL|WEBRIP|WEB)))\b
+pattern: \b(?:BCORE|(?:CORE)(?=\s*.(?:WEB-?DL|WEBRIP)))\b
 description: Sony Pictures Core (formerly known as Bravia Core) is a video on demand
   service from Sony for its televisions and smartphones, launched in April 2021. The
   service offers the streaming of movies at up to 4K resolution provided by Sony Pictures
@@ -30,5 +30,5 @@ tests:
   input: The.Terminal.List.Dark.CORE.S01E04.THE.SOUND.OF.CORE.2160p.CORE.WEBRIP.DDP5.1.HDR.H.265-FLUX.mkv
   expected: true
 - id: 8
-  input: The.Terminal.List.Dark.CORE.S01E04.THE.SOUND.OF.CORE.2160p.CORE.WEB.DDP5.1.HDR.H.265-FLUX.mkv
+  input: The.Terminal.List.Dark.CORE.S01E04.THE.SOUND.OF.CORE.2160p.CORE.WEBDL.DDP5.1.HDR.H.265-FLUX.mkv
   expected: true
