@@ -4,11 +4,6 @@ tags:
 - Banned
 - Release Group
 conditions:
-- name: Release Group (Missing)
-  negate: true
-  pattern: Release Group (Missing)
-  required: false
-  type: release_group
 - name: 4K4U
   negate: false
   pattern: 4K4U
@@ -65,10 +60,10 @@ conditions:
   required: false
   type: release_group
 - name: DeViSiVE
-  type: release_group
-  required: false
   negate: false
   pattern: DeViSiVE
+  required: false
+  type: release_group
 - name: DRX
   negate: false
   pattern: DRX
