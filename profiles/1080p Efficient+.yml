@@ -157,9 +157,7 @@ custom_formats:
   score: -999999
 - name: Remux
   score: -999999
-- name: UHD Bluray
-  score: -999999
-- name: UHD Bluray (Missing)
+- name: UHD Bluray (Efficient)
   score: -999999
 - name: VP9
   score: -999999

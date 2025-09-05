@@ -1,0 +1,83 @@
+name: UHD Bluray (Efficient)
+description: UHD Blu-ray is a digital optical disc format released in 2016. It stores
+  66GB on triple-layer discs or 100GB on quad-layer discs, compared to standard Blu-ray's
+  25GB/50GB capacity. The format delivers 3840x2160 (4K) resolution video using HEVC
+  (H.265) encoding at bitrates up to 128Mbps. All UHD Blu-rays include HDR10 support,
+  with some releases adding Dolby Vision or HDR10+. The format uses the BT.2020 color
+  space and 10-bit color depth, while supporting audio formats like Dolby Atmos, DTS:X,
+  DTS-HD MA, and Dolby TrueHD. UHD Blu-ray players require HDMI 2.0a and HDCP 2.2
+  compliant displays to show 4K HDR content.
+tags:
+- 2160p
+- Storage
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: UHD Bluray
+  negate: false
+  pattern: UHD Bluray (Efficient)
+  required: true
+  type: release_title
+- name: HDR
+  negate: false
+  pattern: Basic HDR Formats
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: false
+    name: UHD Blu-ray
+    negate: false
+    pattern: UHD Blu-ray
+    required: true
+    type: release_title
+  - matches: true
+    name: HDR
+    negate: false
+    pattern: Basic HDR Formats
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: 'Avatar: The Way of Water [2022] 2160p HEVC WEB-DL HDR10+ -CMRG'
+  lastRun: '2025-01-13T08:53:49.334557'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: UHD Blu-ray
+    negate: false
+    pattern: UHD Blu-ray
+    required: true
+    type: release_title
+  - matches: true
+    name: HDR
+    negate: false
+    pattern: Basic HDR Formats
+    required: true
+    type: release_title
+  expected: true
+  id: 3
+  input: Avatar.The.Way.of.Water.2022.1080p.UHD.BluRay.DDP7.1.HDR10.x265-GALAXY
+  lastRun: '2025-01-13T08:53:49.334557'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: UHD Blu-ray
+    negate: false
+    pattern: UHD Blu-ray
+    required: true
+    type: release_title
+  - matches: true
+    name: HDR
+    negate: false
+    pattern: Basic HDR Formats
+    required: true
+    type: release_title
+  expected: true
+  id: 4
+  input: Blade Runner 2049 2017 1080p UHD BluRay DTS HDR x265 D-Z0N3
+  lastRun: '2025-01-13T08:53:49.334557'
+  passes: true

@@ -1,0 +1,9 @@
+name: UHD Bluray (Efficient)
+pattern: \b(UHD[-_.\s]?Blu[-]?Ray)|(UHD[-_.\s]?BD?Rip)\b
+description: Matches "UHD Bluray" or "UHD Blu-Ray" with a hyphen, space, dot or underscore
+  between them
+tags: []
+tests:
+- id: 1
+  input: 'Avatar: The Way of Water 2022 1080p UHD BluRay DDP 7.1 HDR10 x265-GALAXY'
+  expected: true
