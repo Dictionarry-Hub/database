@@ -1,5 +1,5 @@
 name: TAoE (Title)
-pattern: \b(TAoE)\b
+pattern: TAoE
 description: ''
 tags:
 - Release Group

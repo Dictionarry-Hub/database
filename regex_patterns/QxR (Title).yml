@@ -1,5 +1,5 @@
 name: QxR (Title)
-pattern: \b(QxR)\b
+pattern: QxR
 description: ''
 tags:
 - Release Group

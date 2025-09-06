@@ -166,6 +166,10 @@ custom_formats_radarr:
   score: 200000
 - name: 1080p Efficient Movie Bluray Tier 1
   score: 183000
+- name: QxR Bluray
+  score: 183000
+- name: TAoE Bluray
+  score: 183000
 - name: 1080p Efficient Movie Bluray Tier 2
   score: 182000
 - name: 1080p Efficient Movie Bluray Tier 3
@@ -173,6 +177,10 @@ custom_formats_radarr:
 - name: 1080p Efficient Movie Bluray Tier 4
   score: 180000
 - name: 1080p Efficient Movie WEB Tier 1
+  score: 163000
+- name: QxR WEB
+  score: 163000
+- name: TAoE WEB
   score: 163000
 - name: 1080p Efficient Movie WEB Tier 2
   score: 162000
@@ -209,6 +217,10 @@ custom_formats_radarr:
 custom_formats_sonarr:
 - name: 1080p Efficient TV Bluray Tier 1
   score: 184000
+- name: QxR Bluray
+  score: 184000
+- name: TAoE Bluray
+  score: 184000
 - name: 1080p Efficient TV Bluray Tier 2
   score: 183000
 - name: 1080p Efficient TV Bluray Tier 3
@@ -218,6 +230,10 @@ custom_formats_sonarr:
 - name: 1080p Efficient TV Bluray Tier 5
   score: 180000
 - name: 1080p Efficient TV WEB Tier 1
+  score: 169000
+- name: QxR WEB
+  score: 169000
+- name: TAoE WEB
   score: 169000
 - name: 1080p Efficient TV WEB Tier 2
   score: 168000
