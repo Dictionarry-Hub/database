@@ -21,6 +21,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
+- name: Not HONE
+  negate: true
+  pattern: HONE
+  required: true
+  type: release_title
 - name: DarQ
   negate: false
   pattern: DarQ

@@ -16,6 +16,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
+- name: Not HONE
+  type: release_title
+  required: true
+  negate: true
+  pattern: HONE
 - name: WEB-DL
   negate: false
   required: false
