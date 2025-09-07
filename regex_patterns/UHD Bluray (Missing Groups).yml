@@ -7,10 +7,18 @@ tests:
 - expected: true
   id: 1
   input: Training Day 2001 1080p BluRay DDP 7 1 HDR x265-LEGi0N
-  lastRun: '2025-01-14T09:31:15.526804'
+  lastRun: '2025-09-07T16:14:21.589752'
   matchSpan:
     end: 54
     start: 48
   matchedContent: LEGi0N
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: "\t Ahsoka.S01.2160p.UHD.BluRay.TrueHDA7.1.x265-SEGMENT"
+  lastRun: '2025-09-07T16:14:21.589752'
+  matchSpan: null
+  matchedContent: null
   matchedGroups: []
   passes: true
