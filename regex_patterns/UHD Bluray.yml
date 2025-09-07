@@ -7,10 +7,20 @@ tests:
 - expected: true
   id: 1
   input: 'Avatar: The Way of Water 2022 1080p UHD BluRay DDP 7.1 HDR10 x265-GALAXY'
-  lastRun: '2025-01-13T06:32:22.686039'
+  lastRun: '2025-09-07T16:09:35.283452'
   matchSpan:
     end: 46
     start: 36
   matchedContent: UHD BluRay
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Ahsoka.S01E01.2160p.UHD.BluRay.x265-SEGMENT
+  lastRun: '2025-09-07T16:09:35.283452'
+  matchSpan:
+    end: 30
+    start: 20
+  matchedContent: UHD.BluRay
   matchedGroups: []
   passes: true
