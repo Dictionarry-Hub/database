@@ -27,10 +27,10 @@ conditions:
   source: webrip
   type: source
 - name: ARCADE
-  type: release_group
-  required: false
   negate: false
   pattern: ARCADE
+  required: false
+  type: release_group
 - name: DarQ
   negate: false
   pattern: DarQ
@@ -46,6 +46,11 @@ conditions:
   pattern: LSt
   required: false
   type: release_group
+- name: TAoE
+  type: release_title
+  required: false
+  negate: false
+  pattern: TAoE
 - name: ToNaTo
   negate: false
   pattern: ToNaTo

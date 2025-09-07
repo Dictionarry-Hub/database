@@ -46,6 +46,11 @@ conditions:
   pattern: LSt
   required: false
   type: release_group
+- name: TAoE
+  type: release_group
+  required: false
+  negate: false
+  pattern: TAoE
 - name: ToNaTo
   negate: false
   pattern: ToNaTo
