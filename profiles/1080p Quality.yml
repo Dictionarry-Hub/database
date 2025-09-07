@@ -139,8 +139,6 @@ custom_formats:
   score: -999999
 - name: Full Disc
   score: -999999
-- name: h265
-  score: -999999
 - name: HDR
   score: -999999
 - name: HDR10
@@ -158,8 +156,6 @@ custom_formats:
 - name: VP9
   score: -999999
 - name: VVC
-  score: -999999
-- name: x265
   score: -999999
 custom_formats_radarr:
 - name: 1080p Golden Popcorn
