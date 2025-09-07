@@ -2,7 +2,7 @@ radarr:
   rename: true
   movieFormat: '{Movie CleanTitle} {(Release Year)} {tmdb-{TmdbId}} {edition-{Edition Tags}} {[Custom Formats]}{[Quality Full]}{[MediaInfo 3D]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[Mediainfo VideoCodec]}{-Release Group}'
   movieFolderFormat: '{Movie CleanTitle} ({Release Year}) {tmdb-{TmdbId}}'
-  replaceIllegalCharacters: false
+  replaceIllegalCharacters: true
   colonReplacementFormat: smart
 sonarr:
   rename: true
@@ -11,7 +11,7 @@ sonarr:
   animeEpisodeFormat: '{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} - {Episode CleanTitle} {[Custom Formats]}{[Quality Full]}{[MediaInfo VideoDynamicRangeType]}[{MediaInfo VideoBitDepth}bit]{[MediaInfo VideoCodec]}[{Mediainfo AudioCodec} { Mediainfo AudioChannels}]{MediaInfo AudioLanguages}{-Release Group}'
   seriesFolderFormat: '{Series TitleYear} {tvdb-{TvdbId}}'
   seasonFolderFormat: Season {season:00}
-  replaceIllegalCharacters: false
+  replaceIllegalCharacters: true
   colonReplacementFormat: 4
   customColonReplacementFormat: ''
   multiEpisodeStyle: 5
