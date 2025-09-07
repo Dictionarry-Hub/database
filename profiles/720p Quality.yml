@@ -14,9 +14,9 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 720p WEB-DL
-  score: 100000
 - name: 720p Bluray
+  score: 100000
+- name: 720p WEB-DL
   score: 80000
 - name: 720p WEBRip
   score: 80000

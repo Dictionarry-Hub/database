@@ -15,13 +15,13 @@ minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 1080p WEB-DL
-  score: 200000
 - name: 1080p Bluray
+  score: 200000
+- name: 1080p WEB-DL
   score: 140000
 - name: 1080p WEBRip
   score: 140000
-- name: 720p WEB-DL
+- name: 720p Bluray
   score: 100000
 - name: 1080p Quality Tier 1
   score: 84000
@@ -33,7 +33,7 @@ custom_formats:
   score: 81000
 - name: 1080p Quality Tier 5
   score: 80000
-- name: 720p Bluray
+- name: 720p WEB-DL
   score: 80000
 - name: 720p WEBRip
   score: 80000
