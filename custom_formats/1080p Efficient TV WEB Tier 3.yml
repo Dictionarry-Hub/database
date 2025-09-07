@@ -36,6 +36,11 @@ conditions:
   pattern: OnlyWeb
   required: false
   type: release_group
+- name: TAoE
+  type: release_group
+  required: false
+  negate: false
+  pattern: TAoE
 - name: YELLO
   negate: false
   pattern: YELLO

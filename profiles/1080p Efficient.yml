@@ -235,9 +235,9 @@ custom_formats_sonarr:
   score: 169000
 - name: 1080p Efficient TV WEB Tier 2
   score: 168000
-- name: TAoE WEB
-  score: 168000
 - name: 1080p Efficient TV WEB Tier 3
+  score: 167000
+- name: TAoE WEB
   score: 167000
 - name: 1080p Efficient TV WEB Tier 4
   score: 166000

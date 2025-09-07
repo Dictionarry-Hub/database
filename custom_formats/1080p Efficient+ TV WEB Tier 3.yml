@@ -27,15 +27,20 @@ conditions:
   source: webrip
   type: source
 - name: Grimm
-  type: release_group
-  required: false
   negate: false
   pattern: GRiMM
+  required: false
+  type: release_group
 - name: OnlyWeb
+  negate: false
+  pattern: OnlyWeb
+  required: false
+  type: release_group
+- name: TAoE
   type: release_group
   required: false
   negate: false
-  pattern: OnlyWeb
+  pattern: TAoE
 - name: YELLO
   negate: false
   pattern: YELLO
