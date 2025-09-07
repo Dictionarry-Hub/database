@@ -1,0 +1,231 @@
+name: 2160p Remux (Prefer Theatrical)
+description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
+  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
+  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
+  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
+  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
+  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
+  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
+  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
+  \ which are fairly common on quite a few trackers who often have the best remux\
+  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
+  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
+  \ **1080p Remux** profile. "
+tags:
+- 2160p
+- Remux
+- HDR
+- Lossless Audio
+- h265
+upgradesAllowed: true
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
+minScoreIncrement: 1
+custom_formats:
+- name: 2160p Remux
+  score: 160000
+- name: 2160p WEB-DL
+  score: 140000
+- name: 1080p Remux
+  score: 120000
+- name: 1080p WEB-DL
+  score: 100000
+- name: 720p WEB-DL
+  score: 80000
+- name: 480p WEB-DL
+  score: 60000
+- name: DVD
+  score: 20000
+- name: DVD Remux
+  score: 20000
+- name: SD Quality Tier 1
+  score: 11000
+- name: DTS-X
+  score: 10000
+- name: SD Quality Tier 2
+  score: 10000
+- name: DTS-HD MA
+  score: 8000
+- name: TrueHD
+  score: 8000
+- name: TrueHD (Missing)
+  score: 8000
+- name: FLAC
+  score: 7000
+- name: PCM
+  score: 7000
+- name: DTS-HD HRA
+  score: 5000
+- name: Opus
+  score: 5000
+- name: Dolby Digital +
+  score: 4000
+- name: ATVP
+  score: 3000
+- name: Dolby Vision
+  score: 3000
+- name: DSNP
+  score: 3000
+- name: DTS-ES
+  score: 3000
+- name: Atmos
+  score: 2000
+- name: Atmos (Missing)
+  score: 2000
+- name: DTS
+  score: 2000
+- name: HDR10+
+  score: 2000
+- name: ATV
+  score: 1000
+- name: Dolby Digital
+  score: 1000
+- name: HDR
+  score: 1000
+- name: HDR10
+  score: 1000
+- name: HDR10 (Missing)
+  score: 1000
+- name: HLG
+  score: 1000
+- name: NF
+  score: 1000
+- name: NOW
+  score: 1000
+- name: PCOK
+  score: 1000
+- name: PQ
+  score: 1000
+- name: WEB-DL Tier 1
+  score: 100
+- name: Remux Tier 1
+  score: 80
+- name: WEB-DL Tier 2
+  score: 80
+- name: Remux Tier 2
+  score: 60
+- name: WEB-DL Tier 3
+  score: 60
+- name: Remux Tier 3
+  score: 40
+- name: WEB-DL Tier 4
+  score: 40
+- name: Remux Tier 4
+  score: 20
+- name: WEB-DL Tier 5
+  score: 20
+- name: Repack3
+  score: 8
+- name: Repack2
+  score: 7
+- name: Repack1
+  score: 6
+- name: AAC
+  score: 0
+- name: BCORE
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
+- name: AV1
+  score: -999999
+- name: B&W
+  score: -999999
+- name: Banned Groups
+  score: -999999
+- name: Banned Groups (Title)
+  score: -999999
+- name: Banned Remux
+  score: -999999
+- name: Dolby Vision (Without Fallback)
+  score: -999999
+- name: Full Disc
+  score: -999999
+- name: h265
+  score: -999999
+- name: Upscaled
+  score: -999999
+- name: VP9
+  score: -999999
+- name: VVC
+  score: -999999
+- name: x264 (2160p)
+  score: -999999
+- name: x265
+  score: -999999
+custom_formats_radarr:
+- name: IMAX
+  score: 40000
+- name: IMAX Enhanced
+  score: 40000
+- name: MA
+  score: 5000
+- name: AMZN
+  score: 3000
+- name: iT
+  score: 3000
+- name: HMAX
+  score: 2000
+- name: MAX
+  score: 2000
+- name: CRIT
+  score: 1000
+- name: Special Edition
+  score: -40000
+- name: 3D
+  score: -999999
+- name: Extras
+  score: -999999
+- name: Full Disc (Quality Match)
+  score: -999999
+- name: Sing Along
+  score: -999999
+custom_formats_sonarr:
+- name: HMAX
+  score: 3000
+- name: MAX
+  score: 3000
+- name: AMZN
+  score: 2000
+- name: iT
+  score: 1000
+- name: Season Pack
+  score: 10
+- name: TV Extras
+  score: -999999
+qualities:
+- id: -2
+  name: 2160p Formats
+  description: ''
+  qualities:
+  - id: 3
+    name: Remux-2160p
+  - id: 5
+    name: WEBDL-2160p
+- id: 8
+  name: Remux-1080p
+- id: 9
+  name: WEBDL-1080p
+- id: 14
+  name: WEBDL-720p
+- id: -1
+  name: SD Fallback
+  description: Standard Definition Fallbacks
+  qualities:
+  - id: 22
+    name: DVD
+  - id: 19
+    name: WEBDL-480p
+upgrade_until:
+  id: -2
+  name: 2160p Formats
+language: must_original
