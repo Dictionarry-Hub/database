@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: edge2020
+  type: release_group
+  required: false
+  negate: false
+  pattern: edge2020
 - name: Grimm
   negate: false
   pattern: GRiMM
@@ -37,10 +42,10 @@ conditions:
   required: false
   type: release_group
 - name: TAoE
-  type: release_group
-  required: false
   negate: false
   pattern: TAoE
+  required: false
+  type: release_group
 - name: YELLO
   negate: false
   pattern: YELLO

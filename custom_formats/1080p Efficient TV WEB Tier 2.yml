@@ -36,11 +36,6 @@ conditions:
   pattern: DarQ
   required: false
   type: release_group
-- name: edge2020
-  negate: false
-  pattern: edge2020
-  required: false
-  type: release_group
 - name: LSt
   negate: false
   pattern: LSt
