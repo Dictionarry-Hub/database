@@ -10,10 +10,10 @@ conditions:
   source: web_dl
   type: source
 - name: ABM
-  type: release_group
-  required: false
   negate: false
   pattern: ABM
+  required: false
+  type: release_group
 - name: AJP69
   negate: false
   pattern: AJP69
@@ -114,6 +114,11 @@ conditions:
   pattern: SMURF
   required: false
   type: release_group
+- name: TheFarm
+  type: release_group
+  required: false
+  negate: false
+  pattern: TheFarm
 - name: TOMMY
   negate: false
   pattern: TOMMY

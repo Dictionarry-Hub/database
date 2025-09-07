@@ -14,11 +14,21 @@ conditions:
   pattern: APEX
   required: false
   type: release_group
+- name: BTN
+  negate: false
+  pattern: BTN
+  required: false
+  type: release_group
 - name: dB
   negate: false
   pattern: dB
   required: false
   type: release_group
+- name: PTP
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTP
 - name: RTN
   negate: false
   pattern: RTN
@@ -34,11 +44,6 @@ conditions:
   pattern: SPiRiT
   required: false
   type: release_group
-- name: TheFarm
-  type: release_group
-  required: false
-  negate: false
-  pattern: TheFarm
 - name: ViSUM
   negate: false
   pattern: ViSUM
