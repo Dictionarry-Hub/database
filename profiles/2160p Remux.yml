@@ -163,6 +163,10 @@ custom_formats:
 - name: x265
   score: -999999
 custom_formats_radarr:
+- name: IMAX
+  score: 40000
+- name: IMAX Enhanced
+  score: 40000
 - name: MA
   score: 5000
 - name: AMZN
@@ -199,10 +203,14 @@ custom_formats_sonarr:
 - name: TV Extras
   score: -999999
 qualities:
-- id: 3
-  name: Remux-2160p
-- id: 5
-  name: WEBDL-2160p
+- id: -2
+  name: 2160p Formats
+  description: ''
+  qualities:
+  - id: 3
+    name: Remux-2160p
+  - id: 5
+    name: WEBDL-2160p
 - id: 8
   name: Remux-1080p
 - id: 9
@@ -218,7 +226,6 @@ qualities:
   - id: 19
     name: WEBDL-480p
 upgrade_until:
-  id: 3
-  name: Remux-2160p
-  description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
+  id: -2
+  name: 2160p Formats
 language: must_original
