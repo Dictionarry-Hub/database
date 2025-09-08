@@ -175,10 +175,10 @@ conditions:
   required: false
   type: release_group
 - name: TvR
-  type: release_group
-  required: false
   negate: false
   pattern: TvR
+  required: false
+  type: release_group
 - name: VECTOR
   negate: false
   pattern: VECTOR
@@ -207,6 +207,11 @@ conditions:
 - name: YTS
   negate: false
   pattern: YTS
+  required: false
+  type: release_group
+- name: 4REMUX
+  negate: false
+  pattern: 4REMUX
   required: false
   type: release_group
 tests: []

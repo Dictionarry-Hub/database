@@ -1,17 +1,16 @@
-name: Release Group (Missing)
-pattern: .
-description: ''
+name: 4REMUX
+pattern: 4REMUX
+description: Release group 4REMUX
 tags:
 - Release Group
-- Banned
 tests:
 - expected: true
   id: 1
   input: Overlord.2018.2160p.WEB-DL.DD+.5.1.Atmos.HDR10Plus.HEVC-4REMUX.mkv
-  lastRun: '2025-09-07T23:10:41.377558'
+  lastRun: '2025-09-07T23:08:02.992798'
   matchSpan:
-    end: 1
-    start: 0
-  matchedContent: O
+    end: 62
+    start: 56
+  matchedContent: 4REMUX
   matchedGroups: []
   passes: true

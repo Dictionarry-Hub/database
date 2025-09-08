@@ -13,4 +13,16 @@ conditions:
   required: true
   source: dvd
   type: source
-tests: []
+tests:
+- conditionResults:
+  - matches: false
+    name: Remux
+    negate: false
+    pattern: Remux
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: Overlord.2018.2160p.WEB-DL.DD+.5.1.Atmos.HDR10Plus.HEVC-4REMUX.mkv
+  lastRun: '2025-09-07T22:43:20.902293'
+  passes: true
