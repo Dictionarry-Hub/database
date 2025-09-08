@@ -41,6 +41,8 @@ custom_formats:
   score: 261000
 - name: 2160p Quality Tier 7
   score: 260000
+- name: 2160p Bluray
+  score: 250000
 - name: 2160p WEB-DL
   score: 240000
 - name: 1080p Bluray

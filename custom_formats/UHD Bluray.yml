@@ -11,10 +11,10 @@ tags:
 - 2160p
 - Storage
 conditions:
-- name: 2160p
+- name: 1080p
   negate: false
   required: true
-  resolution: 2160p
+  resolution: 1080p
   type: resolution
 - name: UHD Bluray
   negate: false
