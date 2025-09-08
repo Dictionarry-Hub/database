@@ -9,4 +9,16 @@ conditions:
   pattern: Dolby Vision (Without Fallback)
   required: true
   type: release_title
-tests: []
+tests:
+- conditionResults:
+  - matches: false
+    name: Dolby Vision (Without Fallback)
+    negate: false
+    pattern: Dolby Vision (Without Fallback)
+    required: true
+    type: release_title
+  expected: false
+  id: 1
+  input: Togo (2019) {tmdb-606856} [WEBDL-2160p][DV HDR10][EAC3 Atmos 5.1][HEVC]-SiC.mkv
+  lastRun: '2025-09-07T20:47:35.280458'
+  passes: true
