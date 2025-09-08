@@ -13,4 +13,21 @@ conditions:
   required: true
   source: bluray
   type: source
-tests: []
+- name: Not Remux
+  type: release_title
+  required: false
+  negate: true
+  pattern: Remux
+tests:
+- conditionResults:
+  - matches: true
+    name: Not Remux
+    negate: true
+    pattern: Remux
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Conclave (2024) {tmdb-974576} [Remux-2160p Proper][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv
+  lastRun: '2025-09-07T20:22:13.403550'
+  passes: true

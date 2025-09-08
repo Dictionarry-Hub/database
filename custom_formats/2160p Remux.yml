@@ -13,4 +13,16 @@ conditions:
   pattern: Remux
   required: true
   type: release_title
-tests: []
+tests:
+- conditionResults:
+  - matches: true
+    name: Remux
+    negate: false
+    pattern: Remux
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Conclave (2024) {tmdb-974576} [Remux-2160p Proper][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv
+  lastRun: '2025-09-07T20:21:25.546302'
+  passes: true
