@@ -35,8 +35,6 @@ custom_formats:
   score: 60000
 - name: DVD
   score: 20000
-- name: DVD Remux
-  score: 20000
 - name: SD Quality Tier 1
   score: 11000
 - name: DTS-X
@@ -146,6 +144,8 @@ custom_formats:
 - name: Banned Remux
   score: -999999
 - name: Dolby Vision (Without Fallback)
+  score: -999999
+- name: DVD Remux
   score: -999999
 - name: Full Disc
   score: -999999

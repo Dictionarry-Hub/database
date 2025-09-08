@@ -30,16 +30,20 @@ custom_formats:
   score: 120000
 - name: 1080p WEB-DL
   score: 100000
+- name: 2160p WEBRip
+  score: 90000
 - name: 720p WEB-DL
   score: 80000
 - name: 480p WEB-DL
   score: 60000
+- name: 720p WEBRip
+  score: 50000
 - name: DVD
-  score: 20000
-- name: DVD Remux
   score: 20000
 - name: SD Quality Tier 1
   score: 11000
+- name: 480p WEBRip
+  score: 10000
 - name: DTS-X
   score: 10000
 - name: SD Quality Tier 2
@@ -148,6 +152,8 @@ custom_formats:
   score: -999999
 - name: Dolby Vision (Without Fallback)
   score: -999999
+- name: DVD Remux
+  score: -999999
 - name: Full Disc
   score: -999999
 - name: Upscaled
@@ -159,6 +165,8 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
+- name: 1080p WEBRip
+  score: 70000
 - name: IMAX
   score: 40000
 - name: IMAX Enhanced
@@ -186,6 +194,8 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
+- name: 1080p WEBRip
+  score: 90000
 - name: HMAX
   score: 3000
 - name: MAX

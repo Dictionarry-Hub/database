@@ -30,16 +30,22 @@ custom_formats:
   score: 120000
 - name: 1080p WEB-DL
   score: 100000
+- name: 2160p WEBRip
+  score: 90000
+- name: 1080p WEBRip
+  score: 85000
 - name: 720p WEB-DL
   score: 80000
 - name: 480p WEB-DL
   score: 60000
+- name: 720p WEBRip
+  score: 50000
 - name: DVD
-  score: 20000
-- name: DVD Remux
   score: 20000
 - name: SD Quality Tier 1
   score: 11000
+- name: 480p WEBRip
+  score: 10000
 - name: DTS-X
   score: 10000
 - name: SD Quality Tier 2
@@ -147,6 +153,8 @@ custom_formats:
 - name: Banned Remux
   score: -999999
 - name: Dolby Vision (Without Fallback)
+  score: -999999
+- name: DVD Remux
   score: -999999
 - name: Full Disc
   score: -999999
