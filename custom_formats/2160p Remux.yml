@@ -24,5 +24,17 @@ tests:
   expected: true
   id: 1
   input: Conclave (2024) {tmdb-974576} [Remux-2160p Proper][HDR10][TrueHD Atmos 7.1][HEVC]-FraMeSToR.mkv
-  lastRun: '2025-09-07T20:21:25.546302'
+  lastRun: '2025-09-07T22:36:20.803901'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Remux
+    negate: false
+    pattern: Remux
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Overlord.2018.2160p.WEB-DL.DD+.5.1.Atmos.HDR10Plus.HEVC-4REMUX.mkv
+  lastRun: '2025-09-07T22:36:20.803901'
   passes: true

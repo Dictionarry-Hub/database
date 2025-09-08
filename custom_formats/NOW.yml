@@ -20,10 +20,10 @@ conditions:
   source: web_dl
   type: source
 - name: WEBRip
-  type: source
-  required: false
   negate: false
+  required: false
   source: webrip
+  type: source
 tests:
 - conditionResults:
   - matches: true

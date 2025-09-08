@@ -10,10 +10,10 @@ conditions:
   required: false
   type: release_title
 - name: BCORE Rename Regex
-  type: release_title
-  required: false
   negate: false
   pattern: Bravia Core Rename
+  required: false
+  type: release_title
 - name: WEB-DL
   negate: false
   required: false
