@@ -67,6 +67,14 @@ custom_formats:
   score: 2000
 - name: MAX
   score: 2000
+- name: Dolby Vision
+  score: 1000
+- name: HDR
+  score: 1000
+- name: HDR10
+  score: 1000
+- name: HDR10+
+  score: 1000
 - name: iT
   score: 1000
 - name: NF
@@ -131,17 +139,9 @@ custom_formats:
   score: -999999
 - name: Banned WEBRip
   score: -999999
-- name: Dolby Vision
-  score: -999999
 - name: DVD Remux
   score: -999999
 - name: Full Disc
-  score: -999999
-- name: HDR
-  score: -999999
-- name: HDR10
-  score: -999999
-- name: HDR10+
   score: -999999
 - name: HLG
   score: -999999

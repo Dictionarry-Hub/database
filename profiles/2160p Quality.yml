@@ -89,8 +89,6 @@ custom_formats:
   score: 3000
 - name: DSNP
   score: 3000
-- name: HDR10+
-  score: 2000
 - name: ATV
   score: 1000
 - name: DTS-X
@@ -100,6 +98,8 @@ custom_formats:
 - name: HDR10
   score: 1000
 - name: HDR10 (Missing)
+  score: 1000
+- name: HDR10+
   score: 1000
 - name: HLG
   score: 1000
