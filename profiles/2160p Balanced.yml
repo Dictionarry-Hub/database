@@ -38,16 +38,6 @@ custom_formats:
   score: 140000
 - name: 720p Bluray
   score: 100000
-- name: 1080p Quality Tier 1
-  score: 84000
-- name: 1080p Quality Tier 2
-  score: 83000
-- name: 1080p Quality Tier 3
-  score: 82000
-- name: 1080p Quality Tier 4
-  score: 81000
-- name: 1080p Quality Tier 5
-  score: 80000
 - name: 720p WEB-DL
   score: 80000
 - name: 720p WEBRip
@@ -56,16 +46,6 @@ custom_formats:
   score: 60000
 - name: 480p WEB-DL
   score: 60000
-- name: 720p Quality Tier 1
-  score: 44000
-- name: 720p Quality Tier 2
-  score: 43000
-- name: 720p Quality Tier 3
-  score: 42000
-- name: 720p Quality Tier 4
-  score: 41000
-- name: 720p Quality Tier 5
-  score: 40000
 - name: 720p Balanced Tier 1
   score: 20000
 - name: DVD
@@ -74,14 +54,48 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
+- name: 2160p Quality Tier 1
+  score: 7000
+- name: 2160p Quality Tier 2
+  score: 6000
+- name: 1080p Quality Tier 1
+  score: 5000
+- name: 2160p Quality Tier 3
+  score: 5000
+- name: 720p Quality Tier 1
+  score: 5000
+- name: 1080p Quality Tier 2
+  score: 4000
+- name: 2160p Quality Tier 4
+  score: 4000
+- name: 720p Quality Tier 2
+  score: 4000
+- name: 1080p Quality Tier 3
+  score: 3000
+- name: 2160p Quality Tier 5
+  score: 3000
+- name: 720p Quality Tier 3
+  score: 3000
 - name: ATVP
   score: 3000
 - name: Dolby Vision
   score: 3000
 - name: DSNP
   score: 3000
+- name: 1080p Quality Tier 4
+  score: 2000
+- name: 2160p Quality Tier 6
+  score: 2000
+- name: 720p Quality Tier 4
+  score: 2000
 - name: HDR10+
   score: 2000
+- name: 1080p Quality Tier 5
+  score: 1000
+- name: 2160p Quality Tier 7
+  score: 1000
+- name: 720p Quality Tier 5
+  score: 1000
 - name: ATV
   score: 1000
 - name: HDR
