@@ -1,6 +1,0 @@
-description: ''
-name: PTP
-pattern: ^(PTP)$
-tags:
-- Radarr
-tests: []

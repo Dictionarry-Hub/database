@@ -1,6 +1,0 @@
-description: ''
-name: AOC
-pattern: ^(AOC)$
-tags:
-- Radarr
-tests: []

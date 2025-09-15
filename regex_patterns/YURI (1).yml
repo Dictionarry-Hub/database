@@ -1,7 +1,0 @@
-description: ''
-name: YURI
-pattern: \[YURI\]|-YURI\b
-tags:
-- Radarr
-- Sonarr
-tests: []

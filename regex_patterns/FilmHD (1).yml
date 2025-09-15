@@ -1,7 +1,0 @@
-description: ''
-name: FilmHD
-pattern: (?<=^|[\s.-])FilmHD\b
-tags:
-- Release Group
-- Bluray
-tests: []

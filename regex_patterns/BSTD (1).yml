@@ -1,7 +1,0 @@
-description: ''
-name: BSTD
-pattern: (?<=^|[\s.-])BSTD\b
-tags:
-- Release Group
-- Bluray
-tests: []

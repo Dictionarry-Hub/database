@@ -1,7 +1,0 @@
-description: ''
-name: ULTRAHDCLUB
-pattern: (?<=^|[\s.-])ULTRAHDCLUB\b
-tags:
-- Release Group
-- Bluray
-tests: []

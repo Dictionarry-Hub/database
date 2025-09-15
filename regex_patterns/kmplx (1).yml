@@ -1,7 +1,0 @@
-description: ''
-name: kmplx
-pattern: \b(kmplx)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

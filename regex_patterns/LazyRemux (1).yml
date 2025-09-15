@@ -1,7 +1,0 @@
-description: ''
-name: LazyRemux
-pattern: \b(LazyRemux)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

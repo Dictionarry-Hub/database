@@ -1,7 +1,0 @@
-description: ''
-name: PSA
-pattern: ^(PSA)$
-tags:
-- Radarr
-- Sonarr
-tests: []

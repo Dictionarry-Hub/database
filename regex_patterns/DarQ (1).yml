@@ -1,7 +1,0 @@
-description: ''
-name: DarQ
-pattern: (?<=^|[\s.-])DarQ\b
-tags:
-- Release Group
-- HEVC
-tests: []

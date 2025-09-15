@@ -1,7 +1,0 @@
-description: ''
-name: DepraveD
-pattern: ^(DepraveD)$
-tags:
-- Radarr
-- Sonarr
-tests: []

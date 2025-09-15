@@ -1,7 +1,0 @@
-description: ''
-name: KC
-pattern: ^(KC)$
-tags:
-- Radarr
-- Sonarr
-tests: []

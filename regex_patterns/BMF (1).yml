@@ -1,7 +1,0 @@
-description: ''
-name: BMF
-pattern: ^(BMF)$
-tags:
-- Radarr
-- Sonarr
-tests: []

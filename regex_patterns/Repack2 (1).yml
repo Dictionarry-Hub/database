@@ -1,6 +1,0 @@
-description: ''
-name: Repack2
-pattern: \b(Repack2)\b
-tags:
-- Radarr
-tests: []

@@ -1,6 +1,0 @@
-description: ''
-name: TDD
-pattern: ^(TDD)$
-tags:
-- Radarr
-tests: []

@@ -1,7 +1,0 @@
-description: ''
-name: d3g
-pattern: ^(d3g)$
-tags:
-- Radarr
-- Sonarr
-tests: []

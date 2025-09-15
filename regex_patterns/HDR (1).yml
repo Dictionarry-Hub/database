@@ -1,7 +1,0 @@
-description: ''
-name: HDR
-pattern: \b(HDR)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

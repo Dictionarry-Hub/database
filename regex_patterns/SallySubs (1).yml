@@ -1,7 +1,0 @@
-description: ''
-name: SallySubs
-pattern: \b(SallySubs)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

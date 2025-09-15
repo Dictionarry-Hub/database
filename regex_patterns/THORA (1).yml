@@ -1,7 +1,0 @@
-description: ''
-name: THORA
-pattern: \b(THORA)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

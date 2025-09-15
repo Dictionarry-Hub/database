@@ -1,8 +1,0 @@
-description: ''
-name: dB
-pattern: \[dB\]
-tags:
-- Radarr
-- Sonarr
-- Anime
-tests: []

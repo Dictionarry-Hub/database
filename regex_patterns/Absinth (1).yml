@@ -1,7 +1,0 @@
-description: ''
-name: Absinth
-pattern: (?<=^|[\s.-])Absinth\b
-tags:
-- Release Group
-- Bluray
-tests: []

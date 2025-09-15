@@ -1,8 +1,0 @@
-description: ''
-name: SA89
-pattern: ^(SA89)$
-tags:
-- Radarr
-- Sonarr
-- Sonarr
-tests: []

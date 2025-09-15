@@ -1,7 +1,0 @@
-description: ''
-name: BLUTONiUM
-pattern: ^(BLUTONiUM)$
-tags:
-- Radarr
-- Sonarr
-tests: []

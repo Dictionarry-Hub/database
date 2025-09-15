@@ -1,7 +1,0 @@
-description: ''
-name: BlurayDesuYo
-pattern: \b(BlurayDesuYo)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

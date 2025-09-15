@@ -1,7 +1,0 @@
-description: ''
-name: MeGusta
-pattern: ^(MeGusta)$
-tags:
-- Radarr
-- Sonarr
-tests: []

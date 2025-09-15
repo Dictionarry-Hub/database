@@ -1,6 +1,0 @@
-description: ''
-name: MALUS
-pattern: (?<=^|[\s.-])MALUS\b
-tags:
-- Release Group
-tests: []

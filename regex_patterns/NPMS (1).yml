@@ -1,7 +1,0 @@
-description: ''
-name: NPMS
-pattern: ^(NPMS)$
-tags:
-- Radarr
-- Sonarr
-tests: []

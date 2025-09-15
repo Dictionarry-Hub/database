@@ -1,7 +1,0 @@
-description: ''
-name: BLUEBIRD
-pattern: (?<=^|[\s.-])BLUEBIRD\b
-tags:
-- Release Group
-- Bluray
-tests: []

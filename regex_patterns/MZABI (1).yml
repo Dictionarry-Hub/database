@@ -1,7 +1,0 @@
-description: ''
-name: MZABI
-pattern: ^(MZABI)$
-tags:
-- Radarr
-- Sonarr
-tests: []

@@ -1,7 +1,0 @@
-description: ''
-name: NAN0
-pattern: (?<=remux).*\b(NAN0)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

@@ -1,7 +1,0 @@
-description: ''
-name: WATCHABLE
-pattern: ^(WATCHABLE)$
-tags:
-- Radarr
-- Sonarr
-tests: []

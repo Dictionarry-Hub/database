@@ -1,7 +1,0 @@
-description: ''
-name: TOMBCRUISE
-pattern: (?<=^|[\s.-])TOMBCRUISE\b
-tags:
-- Release Group
-- Bluray
-tests: []

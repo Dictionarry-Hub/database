@@ -1,8 +1,0 @@
-description: ''
-name: Kaleido
-pattern: \b(Kaleido)\b
-tags:
-- Radarr
-- Sonarr
-- Sonarr
-tests: []

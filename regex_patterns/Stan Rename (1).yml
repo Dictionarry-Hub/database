@@ -1,7 +1,0 @@
-description: ''
-name: Stan Rename
-pattern: \[(STAN)\b|\b(STAN)\]
-tags:
-- Radarr
-- Sonarr
-tests: []

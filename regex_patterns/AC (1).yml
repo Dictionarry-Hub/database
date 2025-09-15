@@ -1,7 +1,0 @@
-description: ''
-name: AC
-pattern: \[AC\]|-AC$
-tags:
-- Radarr
-- Sonarr
-tests: []

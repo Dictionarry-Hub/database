@@ -1,7 +1,0 @@
-description: ''
-name: IMAX Enhanced
-pattern: ^(?=.*\b((DSNP|Disney\+|BC|B?CORE)(?=[ ._-]web[ ._-]?(dl|rip)\b)))(?=.*\b((?<!NON[
-  ._-])IMAX)\b)|^(?=.*\b(IMAX[ ._-]Enhanced)\b)
-tags:
-- Radarr
-tests: []

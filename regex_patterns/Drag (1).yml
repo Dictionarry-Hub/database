@@ -1,7 +1,0 @@
-description: ''
-name: Drag
-pattern: \[Drag\]|-Drag\b
-tags:
-- Radarr
-- Sonarr
-tests: []

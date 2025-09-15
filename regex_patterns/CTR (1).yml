@@ -1,7 +1,0 @@
-description: ''
-name: CTR
-pattern: \b(CTR)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

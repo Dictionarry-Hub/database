@@ -1,6 +1,0 @@
-description: ''
-name: Extras
-pattern: (?<=\b[12]\d{3}\b).*\b(Extras|Bonus|Extended[ ._-]Clip)\b
-tags:
-- Radarr
-tests: []

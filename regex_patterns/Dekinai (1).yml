@@ -1,7 +1,0 @@
-description: ''
-name: Dekinai
-pattern: \[Dekinai\]|-Dekinai\b
-tags:
-- Radarr
-- Sonarr
-tests: []

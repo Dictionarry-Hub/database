@@ -1,7 +1,0 @@
-description: ''
-name: PmP
-pattern: ^(PmP)$
-tags:
-- Radarr
-- Sonarr
-tests: []

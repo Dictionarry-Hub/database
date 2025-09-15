@@ -1,6 +1,0 @@
-description: ''
-name: AROMA
-pattern: ^(AROMA)$
-tags:
-- Radarr
-tests: []

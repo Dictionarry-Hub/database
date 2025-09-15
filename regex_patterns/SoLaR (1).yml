@@ -1,7 +1,0 @@
-description: ''
-name: SoLaR
-pattern: (?<=^|[\s.-])SoLaR\b
-tags:
-- Release Group
-- Bluray
-tests: []

@@ -1,6 +1,0 @@
-description: ''
-name: SPiRiT
-pattern: ^(SPiRiT)$
-tags:
-- Sonarr
-tests: []

@@ -1,6 +1,0 @@
-description: ''
-name: 3D
-pattern: (?<=\b[12]\d{3}\b).*\b(3d|sbs|half[ .-]ou|half[ .-]sbs)\b
-tags:
-- Radarr
-tests: []

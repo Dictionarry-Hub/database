@@ -1,7 +1,0 @@
-description: ''
-name: Lulu
-pattern: \[Lulu\]|-Lulu\b
-tags:
-- Radarr
-- Sonarr
-tests: []

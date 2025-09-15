@@ -1,7 +1,0 @@
-description: ''
-name: ANE
-pattern: \[ANE\]|-ANE$
-tags:
-- Radarr
-- Sonarr
-tests: []

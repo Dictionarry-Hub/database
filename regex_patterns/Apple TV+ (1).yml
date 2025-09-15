@@ -1,7 +1,0 @@
-description: ''
-name: Apple TV+
-pattern: \b(atvp|aptv|Apple TV\+)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

@@ -1,7 +1,0 @@
-description: ''
-name: Flights
-pattern: ^(Flights)$
-tags:
-- Radarr
-- Sonarr
-tests: []

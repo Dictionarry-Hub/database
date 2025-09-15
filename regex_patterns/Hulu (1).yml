@@ -1,9 +1,0 @@
-description: ''
-name: Hulu
-pattern: \b(hulu)\b
-tags:
-- Radarr
-- Sonarr
-- Sonarr
-- Sonarr
-tests: []

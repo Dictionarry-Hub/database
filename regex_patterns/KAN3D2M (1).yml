@@ -1,7 +1,0 @@
-description: ''
-name: KAN3D2M
-pattern: \b(KAN3D2M)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

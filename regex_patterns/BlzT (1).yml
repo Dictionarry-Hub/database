@@ -1,7 +1,0 @@
-description: ''
-name: BlzT
-pattern: (?<=^|[\s.-])BlzT\b
-tags:
-- Release Group
-- Bluray
-tests: []

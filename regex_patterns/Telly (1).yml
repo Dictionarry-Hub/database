@@ -1,7 +1,0 @@
-description: Banned for Retagging
-name: Telly
-pattern: (?<=^|[\s.-])Telly\b
-tags:
-- Release Group
-- Banned
-tests: []

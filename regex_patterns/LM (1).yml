@@ -1,7 +1,0 @@
-description: ''
-name: LM
-pattern: (?<=^|[\s.-])LM\b
-tags:
-- Release Group
-- Remux
-tests: []

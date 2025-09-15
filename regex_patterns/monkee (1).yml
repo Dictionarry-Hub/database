@@ -1,7 +1,0 @@
-description: ''
-name: monkee
-pattern: ^(monkee)$
-tags:
-- Radarr
-- Sonarr
-tests: []

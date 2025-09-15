@@ -1,7 +1,0 @@
-description: ''
-name: FraMeSToR
-pattern: \b(FraMeSToR)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

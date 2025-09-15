@@ -1,6 +1,0 @@
-description: ''
-name: iFT
-pattern: ^(iFT)$
-tags:
-- Radarr
-tests: []

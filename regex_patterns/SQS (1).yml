@@ -1,7 +1,0 @@
-description: ''
-name: SQS
-pattern: (?<=^|[\s.-])SQS\b
-tags:
-- Release Group
-- Bluray
-tests: []

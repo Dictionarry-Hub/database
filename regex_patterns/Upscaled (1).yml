@@ -1,6 +1,0 @@
-description: ''
-name: Upscaled
-pattern: (?<=\b[12]\d{3}\b).*\b(UPS|Up(s(caled?|UHD)|(Rez)))\b
-tags:
-- Radarr
-tests: []

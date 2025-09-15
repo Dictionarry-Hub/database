@@ -1,7 +1,0 @@
-description: ''
-name: Yuki
-pattern: \[Yuki\]|-Yuki\b
-tags:
-- Radarr
-- Sonarr
-tests: []

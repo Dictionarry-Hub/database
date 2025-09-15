@@ -1,7 +1,0 @@
-description: ''
-name: ZIMBO
-pattern: (?<=^|[\s.-])ZIMBO\b
-tags:
-- Release Group
-- Bluray
-tests: []

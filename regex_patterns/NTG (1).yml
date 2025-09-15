@@ -1,7 +1,0 @@
-description: ''
-name: NTG
-pattern: ^(NTG)$
-tags:
-- Radarr
-- Sonarr
-tests: []

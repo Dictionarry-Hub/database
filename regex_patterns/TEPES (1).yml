@@ -1,7 +1,0 @@
-description: ''
-name: TEPES
-pattern: ^(TEPES)$
-tags:
-- Radarr
-- Sonarr
-tests: []

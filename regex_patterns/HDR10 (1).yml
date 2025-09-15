@@ -1,7 +1,0 @@
-description: ''
-name: HDR10
-pattern: \b(HDR10(?![+]|P(lus)?))
-tags:
-- Radarr
-- Sonarr
-tests: []

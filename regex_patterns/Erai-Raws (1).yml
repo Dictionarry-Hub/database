@@ -1,7 +1,0 @@
-description: ''
-name: Erai-Raws
-pattern: \b(Erai-raws)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

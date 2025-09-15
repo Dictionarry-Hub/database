@@ -1,7 +1,0 @@
-description: ''
-name: Iznjie Biznjie
-pattern: \b(Iznjie[ .-]Biznjie)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

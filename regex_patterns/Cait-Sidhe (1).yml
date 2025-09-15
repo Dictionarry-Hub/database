@@ -1,7 +1,0 @@
-description: ''
-name: Cait-Sidhe
-pattern: \b(Cait-Sidhe)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

@@ -1,7 +1,0 @@
-description: ''
-name: Netflix
-pattern: \b(nf|netflix(u?hd)?)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

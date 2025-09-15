@@ -1,7 +1,0 @@
-description: ''
-name: BTM
-pattern: ^(BTM)$
-tags:
-- Radarr
-- Sonarr
-tests: []

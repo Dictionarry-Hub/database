@@ -1,3 +1,9 @@
+name: Anime BD Tier 01 (Top SeaDex Muxers)
+description: Modified [Custom format from TRaSH-Guides.]
+tags:
+- Release Title
+- Source
+- TRaSH
 conditions:
 - name: Bluray
   negate: false
@@ -74,10 +80,9 @@ conditions:
   pattern: ZeroBuild
   required: false
   type: release_group
-description: '[Custom format from TRaSH-Guides.]'
-name: Anime BD Tier 01 (Top SeaDex Muxers)
-tags:
-- Release Title
-- Source
-- TRaSH
+- name: CRUCiBLE
+  type: release_group
+  required: false
+  negate: false
+  pattern: CRUCiBLE
 tests: []

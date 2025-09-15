@@ -1,8 +1,0 @@
-description: ''
-name: Okay-Subs
-pattern: \b(Okay-Subs)\b
-tags:
-- Radarr
-- Sonarr
-- Sonarr
-tests: []

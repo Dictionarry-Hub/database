@@ -1,7 +1,0 @@
-description: ''
-name: HHWEB
-pattern: (?<=^|[\s.-])HHWEB\b
-tags:
-- Release Group
-- WEB-DL
-tests: []

@@ -1,0 +1,21 @@
+name: CRUCiBLE
+pattern: (?<=^|[\s.-])CRUCiBLE\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests:
+- id: 1
+  input: Problem Children Are Coming from Another World, Aren't They? S00E01 1080p
+    BluRay REMUX AVC Dual-Audio FLAC 2.0-CRUCiBLE
+  expected: true
+- id: 2
+  input: ' Problem.Children.Are.Coming.from.Another.World.Aren''t.They.S00E01.1080p.BluRay.Remux.Dual-Audio.FLAC2.0.H.264-CRUCiBLE.mkv'
+  expected: true
+- id: 3
+  input: The Ones Within AKA Naka no Hito Genome [Jikkyouchuu] S01 1080p BluRay REMUX
+    AVC Dual-Audio FLAC 2.0-CRUCiBLE
+  expected: true
+- id: 4
+  input: The.Ones.Within.S01E01.1080p.BluRay.Remux.Dual-Audio.FLAC2.0.H.264-CRUCiBLE.mkv
+  expected: true

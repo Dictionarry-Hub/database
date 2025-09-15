@@ -1,7 +1,0 @@
-description: ''
-name: ESiR
-pattern: (?<=^|[\s.-])ESiR\b
-tags:
-- Release Group
-- Bluray
-tests: []

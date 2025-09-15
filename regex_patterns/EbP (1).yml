@@ -1,7 +1,0 @@
-description: ''
-name: EbP
-pattern: ^(EbP)$
-tags:
-- Radarr
-- Sonarr
-tests: []

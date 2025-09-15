@@ -1,7 +1,0 @@
-description: ''
-name: ROCCaT
-pattern: ^(ROCCaT)$
-tags:
-- Radarr
-- Sonarr
-tests: []

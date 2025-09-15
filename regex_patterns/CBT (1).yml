@@ -1,7 +1,0 @@
-description: ''
-name: CBT
-pattern: \b(CBT)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

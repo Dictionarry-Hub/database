@@ -1,7 +1,0 @@
-description: ''
-name: hchcsen
-pattern: \b(hchcsen)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

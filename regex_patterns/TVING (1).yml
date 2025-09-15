@@ -1,7 +1,0 @@
-description: ''
-name: TVING
-pattern: \b(tving)\b[ ._-]web[ ._-]?(dl|rip)?\b
-tags:
-- Radarr
-- Sonarr
-tests: []

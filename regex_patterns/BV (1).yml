@@ -1,7 +1,0 @@
-description: ''
-name: BV
-pattern: (?<=^|[\s.-])BV\b
-tags:
-- Release Group
-- Bluray
-tests: []

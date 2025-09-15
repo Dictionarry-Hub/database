@@ -1,8 +1,0 @@
-description: ''
-name: Tsundere
-pattern: \[Tsundere\]|-Tsundere(?!-)\b
-tags:
-- Radarr
-- Sonarr
-- Sonarr
-tests: []

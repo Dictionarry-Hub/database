@@ -1,7 +1,0 @@
-description: ''
-name: pog42
-pattern: \b(pog42)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

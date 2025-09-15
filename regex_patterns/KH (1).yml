@@ -1,7 +1,0 @@
-description: ''
-name: KH
-pattern: \b(KH)\b
-tags:
-- Radarr
-- Sonarr
-tests: []

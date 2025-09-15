@@ -1,7 +1,0 @@
-description: ''
-name: MiMiC
-pattern: (?<=^|[\s.-])MiMiC\b
-tags:
-- Release Group
-- Bluray
-tests: []

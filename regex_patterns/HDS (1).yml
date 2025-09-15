@@ -1,6 +1,0 @@
-description: ''
-name: HDS
-pattern: ^(HDS)$
-tags:
-- Radarr
-tests: []
