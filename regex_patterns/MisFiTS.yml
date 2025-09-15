@@ -1,0 +1,7 @@
+description: ''
+name: MisFiTS
+pattern: ^(MisFiTS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

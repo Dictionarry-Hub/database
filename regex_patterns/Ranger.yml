@@ -1,0 +1,7 @@
+description: ''
+name: Ranger
+pattern: \[Ranger\]|-Ranger\b
+tags:
+- Radarr
+- Sonarr
+tests: []

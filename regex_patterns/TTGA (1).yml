@@ -1,0 +1,7 @@
+description: ''
+name: TTGA
+pattern: \b(TTGA)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

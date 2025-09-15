@@ -1,0 +1,7 @@
+description: ''
+name: ARCADE
+pattern: (?<=^|[\s.-])ARCADE\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

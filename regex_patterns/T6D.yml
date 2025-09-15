@@ -1,0 +1,6 @@
+description: ''
+name: T6D
+pattern: ^(T6D)$
+tags:
+- Sonarr
+tests: []

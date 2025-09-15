@@ -1,0 +1,7 @@
+description: ''
+name: SUPPLY
+pattern: ^(SUPPLY)$
+tags:
+- Radarr
+- Sonarr
+tests: []

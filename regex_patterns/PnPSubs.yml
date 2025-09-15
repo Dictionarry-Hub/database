@@ -1,0 +1,7 @@
+description: ''
+name: PnPSubs
+pattern: \b(PnPSubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

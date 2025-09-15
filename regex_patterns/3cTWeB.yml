@@ -1,0 +1,6 @@
+description: ''
+name: 3cTWeB
+pattern: ^(3cTWeB)$
+tags:
+- Sonarr
+tests: []

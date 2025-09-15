@@ -1,0 +1,7 @@
+description: ''
+name: iAHD
+pattern: \b(iAHD)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

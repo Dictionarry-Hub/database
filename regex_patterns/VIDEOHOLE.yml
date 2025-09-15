@@ -1,0 +1,6 @@
+description: ''
+name: VIDEOHOLE
+pattern: ^(VIDEOHOLE)$
+tags:
+- Sonarr
+tests: []

@@ -1,0 +1,19 @@
+conditions:
+- exceptLanguage: false
+  language: english
+  name: Includes English
+  negate: false
+  required: true
+  type: language
+- name: Dual Audio Regex
+  negate: false
+  pattern: Dual Audio
+  required: true
+  type: release_title
+description: "Attempts to matches releases with mutliple audio tracks but are not\
+  \ parsed as \"Multi Langauge\". Instead, attempts to find regular expressions which\
+  \ imply the release has dual audio. \n "
+name: Not Only English (Missing)
+tags:
+- Language
+tests: []

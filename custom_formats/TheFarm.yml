@@ -1,0 +1,12 @@
+conditions:
+- name: TheFarm
+  negate: false
+  pattern: TheFarm
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: TheFarm
+tags:
+- Release Group
+- TRaSH
+tests: []

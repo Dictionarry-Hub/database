@@ -1,0 +1,7 @@
+description: ''
+name: youshikibi
+pattern: \b(youshikibi)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

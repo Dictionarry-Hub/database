@@ -1,0 +1,7 @@
+description: ''
+name: Some-Stuffs
+pattern: \b(Some-Stuffs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

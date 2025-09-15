@@ -1,0 +1,7 @@
+description: ''
+name: CH
+pattern: \[CH\]|-CH\b
+tags:
+- Radarr
+- Sonarr
+tests: []

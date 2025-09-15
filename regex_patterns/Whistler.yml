@@ -1,0 +1,6 @@
+description: ''
+name: Whistler
+pattern: (Whistler)$
+tags:
+- Radarr
+tests: []

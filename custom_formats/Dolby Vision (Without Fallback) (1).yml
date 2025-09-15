@@ -1,0 +1,12 @@
+conditions:
+- name: Dolby Vision (Without Fallback)
+  negate: false
+  pattern: Dolby Vision (Without Fallback)
+  required: true
+  type: release_title
+description: Matches the 'Dolby Vision (Without Fallback) Regex Pattern
+name: Dolby Vision (Without Fallback)
+tags:
+- Colour Grade
+- HDR
+tests: []

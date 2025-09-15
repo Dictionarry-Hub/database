@@ -1,0 +1,7 @@
+description: ''
+name: Johnny-englishsubs
+pattern: \b(Johnny-englishsubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

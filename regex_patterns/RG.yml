@@ -1,0 +1,7 @@
+description: ''
+name: RG
+pattern: ^(RG)$
+tags:
+- Radarr
+- Sonarr
+tests: []

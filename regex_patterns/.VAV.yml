@@ -1,0 +1,6 @@
+description: ''
+name: .VAV
+pattern: '[.]VAV\b'
+tags:
+- Radarr
+tests: []

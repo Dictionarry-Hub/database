@@ -1,0 +1,12 @@
+conditions:
+- language: english
+  name: Not English Language
+  negate: true
+  required: false
+  type: language
+description: '[Custom format from TRaSH-Guides.]'
+name: Language Not English
+tags:
+- Language
+- TRaSH
+tests: []

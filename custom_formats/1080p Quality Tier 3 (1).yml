@@ -1,0 +1,59 @@
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: CRiSC
+  negate: false
+  pattern: CRiSC
+  required: false
+  type: release_group
+- name: decibeL
+  negate: false
+  pattern: decibeL
+  required: false
+  type: release_group
+- name: FoRM
+  negate: false
+  pattern: FoRM
+  required: false
+  type: release_group
+- name: HiDt
+  negate: false
+  pattern: HiDt
+  required: false
+  type: release_group
+- name: HiP
+  negate: false
+  pattern: HiP
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+- name: WMING
+  negate: false
+  pattern: WMING
+  required: false
+  type: release_group
+description: Matches release groups who fall under 1080p GPPi Tier 2
+name: 1080p Quality Tier 3
+tags:
+- GPPi
+- Release Group Tier
+- 1080p
+- Quality
+tests: []

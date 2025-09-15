@@ -1,0 +1,7 @@
+description: ''
+name: Crow
+pattern: \[Crow\]|-Crow\b
+tags:
+- Radarr
+- Sonarr
+tests: []

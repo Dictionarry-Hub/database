@@ -1,0 +1,7 @@
+description: ''
+name: Both VFF and VFQ
+pattern: \b(VF(F|Q)[ .]VF(F|Q))\b
+tags:
+- Radarr
+- Sonarr
+tests: []

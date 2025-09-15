@@ -1,0 +1,6 @@
+description: ''
+name: Bravia Core
+pattern: \b(BCORE)\b
+tags:
+- Radarr
+tests: []

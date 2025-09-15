@@ -1,0 +1,6 @@
+description: ''
+name: SWTYBLZ
+pattern: \b(SWTYBLZ)\b
+tags:
+- Radarr
+tests: []

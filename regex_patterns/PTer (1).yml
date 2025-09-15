@@ -1,0 +1,8 @@
+description: ''
+name: PTer
+pattern: ^(PTer)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

@@ -1,0 +1,12 @@
+conditions:
+- name: FLUX
+  negate: false
+  pattern: FLUX
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: FLUX
+tags:
+- Release Group
+- TRaSH
+tests: []

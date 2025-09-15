@@ -1,0 +1,7 @@
+description: ''
+name: ReinForce
+pattern: \b(ReinForce)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

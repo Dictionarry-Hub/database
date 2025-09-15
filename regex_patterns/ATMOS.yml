@@ -1,0 +1,9 @@
+description: ''
+name: ATMOS
+pattern: \bATMOS(\b|\d)
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

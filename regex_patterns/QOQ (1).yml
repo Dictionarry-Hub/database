@@ -1,0 +1,7 @@
+description: ''
+name: QOQ
+pattern: ^(QOQ)$
+tags:
+- Radarr
+- Sonarr
+tests: []

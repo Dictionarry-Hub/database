@@ -1,0 +1,6 @@
+description: ''
+name: Proper3
+pattern: \b(Proper3)\b
+tags:
+- Radarr
+tests: []

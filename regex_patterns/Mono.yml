@@ -1,0 +1,6 @@
+description: ''
+name: Mono
+pattern: '[^0-9]1[ .]0|\bMono\b|\[PCM \]'
+tags:
+- Sonarr
+tests: []

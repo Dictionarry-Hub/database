@@ -1,0 +1,7 @@
+description: ''
+name: Not OPUS Release Group
+pattern: OPUS
+tags:
+- Radarr
+- Sonarr
+tests: []

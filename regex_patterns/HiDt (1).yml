@@ -1,0 +1,6 @@
+description: ''
+name: HiDt
+pattern: ^(HiDt)$
+tags:
+- Radarr
+tests: []

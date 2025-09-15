@@ -1,0 +1,34 @@
+conditions:
+- name: SiC
+  negate: false
+  pattern: SiC
+  required: true
+  type: release_title
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEBDL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: HDR
+  negate: false
+  pattern: HDR
+  required: true
+  type: release_title
+- name: DV
+  negate: false
+  pattern: Dolby Vision
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: SiC
+tags:
+- Release Title
+- Resolution
+- Source
+- TRaSH
+tests: []

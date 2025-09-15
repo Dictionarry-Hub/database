@@ -1,0 +1,7 @@
+description: ''
+name: EMERALD
+pattern: (?<=^|[\s.-])EMERALD\b
+tags:
+- Release Group
+- Bluray
+tests: []

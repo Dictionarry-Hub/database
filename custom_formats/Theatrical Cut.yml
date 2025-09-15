@@ -1,0 +1,12 @@
+conditions:
+- name: Theatrical
+  negate: false
+  pattern: Theatrical
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Theatrical Cut
+tags:
+- Release Title
+- TRaSH
+tests: []

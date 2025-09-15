@@ -1,0 +1,7 @@
+description: ''
+name: D
+pattern: ^(D4KiD|DEAL|DiEBEX|DUPLI|DUSS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

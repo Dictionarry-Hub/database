@@ -1,0 +1,8 @@
+description: ''
+name: Commie
+pattern: \b(Commie)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

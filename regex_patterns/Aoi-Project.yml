@@ -1,0 +1,7 @@
+description: ''
+name: Aoi-Project
+pattern: \b(Aoi[ .-]?Project)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

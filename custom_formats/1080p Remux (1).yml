@@ -1,0 +1,16 @@
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+description: Matches 1080p Remux
+name: 1080p Remux
+tags:
+- Source
+tests: []

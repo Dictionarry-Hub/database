@@ -1,0 +1,7 @@
+description: ''
+name: Lucifer
+pattern: (?<=^|[\s.-])Lucifer\b
+tags:
+- Release Group
+- Bluray
+tests: []

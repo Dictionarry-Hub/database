@@ -1,0 +1,7 @@
+description: ''
+name: SRLS
+pattern: \b(SRLS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

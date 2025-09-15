@@ -1,0 +1,12 @@
+conditions:
+- name: hallowed
+  negate: false
+  pattern: hallowed
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: hallowed
+tags:
+- Release Group
+- TRaSH
+tests: []

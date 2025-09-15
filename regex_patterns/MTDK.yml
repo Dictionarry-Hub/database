@@ -1,0 +1,7 @@
+description: ''
+name: MTDK
+pattern: ^(MTDK)$
+tags:
+- Radarr
+- Sonarr
+tests: []

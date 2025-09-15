@@ -1,0 +1,7 @@
+description: ''
+name: Metal
+pattern: \[Metal\]|-Metal\b
+tags:
+- Radarr
+- Sonarr
+tests: []

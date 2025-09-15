@@ -1,0 +1,6 @@
+description: ''
+name: HDHUB4U
+pattern: ^(HDHUB4U)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,45 @@
+description: 'Matches any type of theatrical edition.
+
+  - Ensures that `Theatrical` comes after the year so that movies with ''Theatrical`
+  in the title are not matched'
+name: Theatrical Edition
+pattern: ^(.*?)(\d{4})(.*?)\b(theatrical)\b
+tags:
+- Edition
+tests:
+- expected: true
+  id: 1
+  input: Zodiac.2007.Theatrical.UHD.BluRay.2160p.TrueHD.5.1.DV.HEVC.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-25T22:15:43.307902'
+  matchSpan:
+    end: 22
+    start: 0
+  matchedContent: Zodiac.2007.Theatrical
+  matchedGroups:
+  - Zodiac.
+  - '2007'
+  - .
+  - Theatrical
+  passes: true
+- expected: true
+  id: 2
+  input: Theatrical.Movie.2007.Theatrical.UHD.BluRay.2160p.TrueHD.5.1.DV.HEVC.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-25T22:15:43.307902'
+  matchSpan:
+    end: 32
+    start: 0
+  matchedContent: Theatrical.Movie.2007.Theatrical
+  matchedGroups:
+  - Theatrical.Movie.
+  - '2007'
+  - .
+  - Theatrical
+  passes: true
+- expected: false
+  id: 3
+  input: Theatrical.Movie.2007.UHD.BluRay.2160p.TrueHD.5.1.DV.HEVC.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-25T22:15:43.307902'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

@@ -1,0 +1,330 @@
+description: 'Matches movies where the `Theatrical` cut is considered the better version.
+  Subjectively chosen, based on Dictionarry''s personal preferences and major opinion.
+  Needed to override the default special edition preference. Matches:
+
+  - Terminator 2: Judgement Day (1991)
+
+  - Alien (1979)
+
+  - Star Wars OT (1977-1983)
+
+  - Apocalypse Now (1979)
+
+  - The Exorcist (1973)
+
+  - Donnie Darko (2001)
+
+  - Amadeus (1984)
+
+  - Payback (1999)
+
+  - Almost Famous (2000)'
+name: Better Theatricals
+pattern: ^\b(terminator.?2|alien[^s].*?1979|star.wars.*?(4k|19)(77)|.*?\bempire.strikes.back|.*?\breturn.of.the.jedi|apocalypse.now|the.exorcist.*?1973|donnie.darko|amadeus|payback.*?1999|payback.straight.up.*?2006|almost.famous)\b
+tags:
+- Edition
+tests:
+- expected: true
+  id: 1
+  input: Terminator.2.Judgment.Day.Theatrical.Cut.1991.1080p.BluRay.DTS.x264.D-Z0N3
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 12
+    start: 0
+  matchedContent: Terminator.2
+  matchedGroups:
+  - Terminator.2
+  - null
+  - null
+  passes: true
+- expected: false
+  id: 2
+  input: ' Aliens.1986.Special.Edition.1080p.BluRay.DTS.x264-Geek.mkv'
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: Alien.1979.Directors.Cut.2in1.BluRay.1080p.AVC.DTS-HD.MA5.1-CHDBits
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 10
+    start: 0
+  matchedContent: Alien.1979
+  matchedGroups:
+  - Alien.1979
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 4
+  input: star.wars.4K77.2160p.UHD.No-DNR.35mm.x265-v1.4.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 14
+    start: 0
+  matchedContent: star.wars.4K77
+  matchedGroups:
+  - star.wars.4K77
+  - 4K
+  - '77'
+  passes: true
+- expected: true
+  id: 5
+  input: Star.Wars.Episode.IV.A.New.Hope.1977.COMPLETE.UHD.BLURAY-DIZZKNEE
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 36
+    start: 0
+  matchedContent: Star.Wars.Episode.IV.A.New.Hope.1977
+  matchedGroups:
+  - Star.Wars.Episode.IV.A.New.Hope.1977
+  - '19'
+  - '77'
+  passes: true
+- expected: true
+  id: 6
+  input: Star.Wars.1977.Theatrical.Cut.DVDRip.AC3.x264.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 14
+    start: 0
+  matchedContent: Star.Wars.1977
+  matchedGroups:
+  - Star.Wars.1977
+  - '19'
+  - '77'
+  passes: true
+- expected: true
+  id: 7
+  input: 03 Empire.Strikes.Back.4K80.2160p.UHD.no-DNR.35mm.x265-v1.0.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 22
+    start: 0
+  matchedContent: 03 Empire.Strikes.Back
+  matchedGroups:
+  - 03 Empire.Strikes.Back
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 8
+  input: Star.Wars.Episode.V.The.Empire.Strikes.Back.1980.2160p.UHD.BluRay.Remux.HDR.HEVC.Atmos-PmP.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 43
+    start: 0
+  matchedContent: Star.Wars.Episode.V.The.Empire.Strikes.Back
+  matchedGroups:
+  - Star.Wars.Episode.V.The.Empire.Strikes.Back
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 9
+  input: Empire.Strikes.Back.1980.35mm.Renegade.Grindhouse.Scan.480p.DD2.0.x264.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 19
+    start: 0
+  matchedContent: Empire.Strikes.Back
+  matchedGroups:
+  - Empire.Strikes.Back
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 10
+  input: Return.of.the.Jedi.4K83.2160p.UHD.35mm.x265-v1.1.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 18
+    start: 0
+  matchedContent: Return.of.the.Jedi
+  matchedGroups:
+  - Return.of.the.Jedi
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 11
+  input: Star Wars Episode VI - Return of the Jedi (1983) 2160p UHD BluRay TrueHD
+    7.1 HDR x265-Chotab.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 41
+    start: 0
+  matchedContent: Star Wars Episode VI - Return of the Jedi
+  matchedGroups:
+  - Star Wars Episode VI - Return of the Jedi
+  - null
+  - null
+  passes: true
+- expected: false
+  id: 12
+  input: Star.Wars.Episode.IX.The.Rise.of.Skywalker.2019.UHD.BluRay.2160p.TrueHD.Atmos.7.1.HEVC.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 13
+  input: Apocalypse.Now.1979.Final.Cut.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 14
+    start: 0
+  matchedContent: Apocalypse.Now
+  matchedGroups:
+  - Apocalypse.Now
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 14
+  input: The.Exorcist.1973.2160p.UHD.Blu-ray.Remux.HDR.HEVC.TrueHD.7.1.Atmos-CiNEPHiLES.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 17
+    start: 0
+  matchedContent: The.Exorcist.1973
+  matchedGroups:
+  - The.Exorcist.1973
+  - null
+  - null
+  passes: true
+- expected: false
+  id: 15
+  input: The Pope's Exorcist 2023 1080p WEBRip DD+5.1 x264-HiDt.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 16
+  input: The Exorcist III 1990 Theatrical 1080p BluRay DTS x264-VietHD.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 17
+  input: Donnie.Darko.2001.2160p.UHD.Blu-ray.Remux.HEVC.HDR.DoVi.DTS-HD.MA.5.1-ARROW4KDV.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 12
+    start: 0
+  matchedContent: Donnie.Darko
+  matchedGroups:
+  - Donnie.Darko
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 18
+  input: Amadeus.1984.Blu-Ray.1080p.DTSHD-MA.VC-1.Remux-HiFi.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 7
+    start: 0
+  matchedContent: Amadeus
+  matchedGroups:
+  - Amadeus
+  - null
+  - null
+  passes: true
+- expected: false
+  id: 19
+  input: National Theatre Live- Amadeus (2017).mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 20
+  input: Payback.Straight.Up.Directors.Cut.1999.Bluray-PTP
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 38
+    start: 0
+  matchedContent: Payback.Straight.Up.Directors.Cut.1999
+  matchedGroups:
+  - Payback.Straight.Up.Directors.Cut.1999
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 21
+  input: Payback.1999.Theatrical.Cut.BluRay.1080p.TrueHD.5.1.VC-1.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 12
+    start: 0
+  matchedContent: Payback.1999
+  matchedGroups:
+  - Payback.1999
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 22
+  input: Payback Straight Up 2006 DC 1080p HDDVD DD5.1 x264-RightSiZE.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 24
+    start: 0
+  matchedContent: Payback Straight Up 2006
+  matchedGroups:
+  - Payback Straight Up 2006
+  - null
+  - null
+  passes: true
+- expected: true
+  id: 23
+  input: Payback.Theatrical.Cut.1999.1080p.BluRay.DD5.1.x264-REPTiLE.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 27
+    start: 0
+  matchedContent: Payback.Theatrical.Cut.1999
+  matchedGroups:
+  - Payback.Theatrical.Cut.1999
+  - null
+  - null
+  passes: true
+- expected: false
+  id: 24
+  input: ' Payback.2021.1080p.WEB.h264-RUMOUR.mkv'
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 25
+  input: Payback.DVDRip.AVC.AC3.(1995).mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 26
+  input: Almost.Famous.2000.Bootleg.Cut.UHD.BluRay.2160p.DTS-HD.MA.5.1.DV.HEVC.HYBRID.REMUX-FraMeSToR.mkv
+  lastRun: '2025-02-24T21:16:01.912349'
+  matchSpan:
+    end: 13
+    start: 0
+  matchedContent: Almost.Famous
+  matchedGroups:
+  - Almost.Famous
+  - null
+  - null
+  passes: true

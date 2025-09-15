@@ -1,0 +1,12 @@
+conditions:
+- name: Multi
+  negate: false
+  pattern: MULTi
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: MULTi
+tags:
+- Release Title
+- TRaSH
+tests: []

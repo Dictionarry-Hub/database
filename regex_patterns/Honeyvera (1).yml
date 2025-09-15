@@ -1,0 +1,7 @@
+description: ''
+name: Honeyvera
+pattern: (?<=^|[\s.-])Honeyvera\b
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Shimatta
+pattern: \b(Shimatta)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

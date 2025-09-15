@@ -1,0 +1,7 @@
+description: Release group that does fansubs based on Manga
+name: KawaSubs
+pattern: \b(KawaSubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

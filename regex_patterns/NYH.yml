@@ -1,0 +1,6 @@
+description: ''
+name: NYH
+pattern: ^(NYH)$
+tags:
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: DDR
+pattern: ^(DDR)$
+tags:
+- Radarr
+tests: []

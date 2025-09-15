@@ -1,0 +1,7 @@
+description: ''
+name: MiniFreeza
+pattern: \b(MiniFreeza)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: phazer11
+pattern: \b(phazer11)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: DHD
+pattern: \b(DHD)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

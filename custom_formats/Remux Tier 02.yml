@@ -1,0 +1,53 @@
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: decibeL
+  negate: false
+  pattern: decibeL
+  required: false
+  type: release_group
+- name: EPSiLON
+  negate: false
+  pattern: EPSiLON
+  required: false
+  type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
+- name: KRaLiMaRKo
+  negate: false
+  pattern: KRaLiMaRKo
+  required: false
+  type: release_group
+- name: playBD
+  negate: false
+  pattern: playBD
+  required: false
+  type: release_group
+- name: PTer
+  negate: false
+  pattern: PTer
+  required: false
+  type: release_group
+- name: SiCFoI
+  negate: false
+  pattern: SiCFoI
+  required: false
+  type: release_group
+- name: TRiToN
+  negate: false
+  pattern: TRiToN
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: Remux Tier 02
+tags:
+- Release Group
+- Source
+- TRaSH
+tests: []

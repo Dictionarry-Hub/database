@@ -1,0 +1,7 @@
+description: ''
+name: AV1
+pattern: \bAV1\b
+tags:
+- Radarr
+- Sonarr
+tests: []

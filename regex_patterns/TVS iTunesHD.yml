@@ -1,0 +1,7 @@
+description: ''
+name: TVS iTunesHD
+pattern: ([._-])iTunes(?:HD|SD)?\1.+?-TVS$
+tags:
+- Radarr
+- Sonarr
+tests: []

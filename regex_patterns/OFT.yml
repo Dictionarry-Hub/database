@@ -1,0 +1,7 @@
+description: ''
+name: OFT
+pattern: ^(OFT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

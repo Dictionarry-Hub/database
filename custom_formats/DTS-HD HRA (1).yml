@@ -1,0 +1,62 @@
+conditions:
+- name: DTS-HD HRA
+  negate: false
+  pattern: DTS-HD HRA
+  required: true
+  type: release_title
+- name: Not TrueHD-ATMOS
+  negate: true
+  pattern: Not TrueHD-ATMOS
+  required: true
+  type: release_title
+- name: Not Dolby Digital Plus
+  negate: true
+  pattern: Not Dolby Digital Plus
+  required: true
+  type: release_title
+- name: Not Basic DTS
+  negate: true
+  pattern: Not Basic DTS
+  required: true
+  type: release_title
+- name: 'Not Basic Dolby Digital '
+  negate: true
+  pattern: Not Basic Dolby Digital
+  required: true
+  type: release_title
+- name: Not DTS X
+  negate: true
+  pattern: Not DTS X
+  required: true
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: Not FLAC
+  required: true
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: Not AAC
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not DTS-ES
+  negate: true
+  pattern: DTS-ES
+  required: true
+  type: release_title
+- name: Not 6.1 Surround
+  negate: true
+  pattern: 6.1 Surround
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: DTS-HD HRA
+tags:
+- Release Title
+- TRaSH
+tests: []

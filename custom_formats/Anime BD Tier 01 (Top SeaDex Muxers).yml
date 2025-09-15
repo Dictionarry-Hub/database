@@ -1,0 +1,83 @@
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: false
+  type: release_title
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: Aergia
+  negate: false
+  pattern: Aergia
+  required: false
+  type: release_group
+- name: Arg0
+  negate: false
+  pattern: Arg0
+  required: false
+  type: release_group
+- name: Legion
+  negate: false
+  pattern: Legion
+  required: false
+  type: release_group
+- name: LYS1TH3A
+  negate: false
+  pattern: LYS1TH3A
+  required: false
+  type: release_group
+- name: OZR
+  negate: false
+  pattern: OZR
+  required: false
+  type: release_group
+- name: sam
+  negate: false
+  pattern: sam
+  required: false
+  type: release_group
+- name: SCY
+  negate: false
+  pattern: SCY
+  required: false
+  type: release_group
+- name: smol
+  negate: false
+  pattern: smol
+  required: false
+  type: release_group
+- name: SoM
+  negate: false
+  pattern: SoM
+  required: false
+  type: release_group
+- name: Vanilla
+  negate: false
+  pattern: Vanilla
+  required: false
+  type: release_group
+- name: Vodes
+  negate: false
+  pattern: Vodes
+  required: false
+  type: release_group
+- name: ZeroBuild
+  negate: false
+  pattern: ZeroBuild
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime BD Tier 01 (Top SeaDex Muxers)
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

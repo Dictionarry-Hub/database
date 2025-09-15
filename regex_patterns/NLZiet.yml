@@ -1,0 +1,6 @@
+description: ''
+name: NLZiet
+pattern: \b(nlz|NLZiet)\b
+tags:
+- Sonarr
+tests: []

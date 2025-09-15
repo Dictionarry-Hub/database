@@ -1,0 +1,8 @@
+description: ''
+name: HANDJOB
+pattern: (?<=^|[\s.-])HANDJOB\b
+tags:
+- Release Group
+- Bluray
+- DVD
+tests: []

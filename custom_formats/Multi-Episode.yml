@@ -1,0 +1,12 @@
+conditions:
+- name: Multi-Episode
+  negate: false
+  releaseType: multi_episode
+  required: false
+  type: release_type
+description: '[Custom format from TRaSH-Guides.]'
+name: Multi-Episode
+tags:
+- Release Type
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: LAZY
+pattern: ^(LAZY)$
+tags:
+- Sonarr
+tests: []

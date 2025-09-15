@@ -1,0 +1,7 @@
+description: ''
+name: CoalGirls
+pattern: \b(CoalGirls)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

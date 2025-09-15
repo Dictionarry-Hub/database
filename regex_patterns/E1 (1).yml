@@ -1,0 +1,7 @@
+description: ''
+name: E1
+pattern: (?<=^|[\s.-])E1\b
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,42 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: TrueHD Missing Groups
+  negate: false
+  pattern: TrueHD (Missing Groups)
+  required: true
+  type: release_title
+- name: Not DTS-HD
+  negate: true
+  pattern: DTS-HD
+  required: true
+  type: release_title
+- name: Not DTS-X
+  negate: true
+  pattern: DTS-X
+  required: true
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+description: Attempts to match TrueHD releases which are not labelled correctly (TRiTON,
+  EPSiLON groups)
+name: TrueHD (Missing)
+tags:
+- Audio
+tests: []

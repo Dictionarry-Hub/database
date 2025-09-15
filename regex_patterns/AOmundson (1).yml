@@ -1,0 +1,7 @@
+description: ''
+name: AOmundson
+pattern: \b(AOmundson)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

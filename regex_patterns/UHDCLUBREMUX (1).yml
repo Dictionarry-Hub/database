@@ -1,0 +1,7 @@
+description: ''
+name: UHDCLUBREMUX
+pattern: (?<=^|[\s.-])UHDCLUBREMUX\b
+tags:
+- Release Group
+- Bluray
+tests: []

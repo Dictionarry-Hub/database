@@ -1,0 +1,10 @@
+description: ''
+name: Not High Channel Count
+pattern: '[^0-9][5-9][ .][0-1]\b'
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

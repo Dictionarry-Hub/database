@@ -1,0 +1,42 @@
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: 3L
+  negate: false
+  pattern: 3L
+  required: false
+  type: release_group
+- name: BiZKiT
+  negate: false
+  pattern: BiZKiT
+  required: false
+  type: release_group
+- name: BLURANiUM
+  negate: false
+  pattern: BLURANiUM
+  required: false
+  type: release_group
+- name: CiNEPHiLES
+  negate: false
+  pattern: CiNEPHiLES
+  required: false
+  type: release_group
+- name: WiLDCAT
+  negate: false
+  pattern: WiLDCAT
+  required: false
+  type: release_group
+description: Matches release groups who fall under Remux Tier 1
+name: Remux Tier 1
+tags:
+- Release Group Tier
+- Remux
+tests: []

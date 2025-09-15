@@ -1,0 +1,7 @@
+description: ''
+name: INTERNAL
+pattern: \b(INTERNAL)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

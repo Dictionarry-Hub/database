@@ -1,0 +1,7 @@
+description: ''
+name: JySzE
+pattern: \b(JySzE)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Coo7
+pattern: ^(Coo7)$
+tags:
+- Sonarr
+tests: []

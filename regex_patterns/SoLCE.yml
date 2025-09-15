@@ -1,0 +1,7 @@
+description: ''
+name: SoLCE
+pattern: \b(SoLCE)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

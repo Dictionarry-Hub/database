@@ -1,0 +1,12 @@
+conditions:
+- name: INTERNAL
+  negate: false
+  pattern: INTERNAL
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: INTERNAL
+tags:
+- Release Title
+- TRaSH
+tests: []

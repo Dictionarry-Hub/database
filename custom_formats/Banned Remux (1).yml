@@ -1,0 +1,23 @@
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: LEGi0N
+  negate: false
+  pattern: LEGi0N
+  required: false
+  type: release_group
+description: Matches otherwise unfavourable remux groups - bloated audio tracks, fake
+  HDR, etc.
+name: Banned Remux
+tags:
+- Banned
+- Release Group
+tests: []

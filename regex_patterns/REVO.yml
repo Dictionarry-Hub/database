@@ -1,0 +1,7 @@
+description: ''
+name: REVO
+pattern: \b(REVO)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

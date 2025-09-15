@@ -1,0 +1,6 @@
+description: ''
+name: GETB8
+pattern: (GETB8)$
+tags:
+- Radarr
+tests: []

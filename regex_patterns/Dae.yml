@@ -1,0 +1,7 @@
+description: ''
+name: Dae
+pattern: \b(Dae)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

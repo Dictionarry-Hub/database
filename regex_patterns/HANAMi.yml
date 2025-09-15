@@ -1,0 +1,7 @@
+description: ''
+name: HANAMi
+pattern: \b(HANAMi)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

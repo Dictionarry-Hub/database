@@ -1,0 +1,6 @@
+description: ''
+name: UTT
+pattern: ^(UTT)$
+tags:
+- Radarr
+tests: []

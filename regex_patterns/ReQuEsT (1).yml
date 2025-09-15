@@ -1,0 +1,7 @@
+description: ''
+name: ReQuEsT
+pattern: (?<=^|[\s.-])ReQuEsT\b
+tags:
+- Release Group
+- Bluray
+tests: []

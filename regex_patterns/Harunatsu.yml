@@ -1,0 +1,7 @@
+description: ''
+name: Harunatsu
+pattern: \[Harunatsu\]|-Harunatsu\b
+tags:
+- Radarr
+- Sonarr
+tests: []

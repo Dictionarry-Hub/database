@@ -1,0 +1,7 @@
+description: ''
+name: NoobSubs
+pattern: \b(N[eo][wo]b[ ._-]?Subs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

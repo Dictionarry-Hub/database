@@ -1,0 +1,7 @@
+description: ''
+name: FoRM
+pattern: (?<=^|[\s.-])FoRM\b
+tags:
+- Release Group
+- Bluray
+tests: []

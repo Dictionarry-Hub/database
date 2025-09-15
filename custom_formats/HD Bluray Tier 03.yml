@@ -1,0 +1,70 @@
+conditions:
+- name: BLURAY
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not REMUX
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: ATELiER
+  negate: false
+  pattern: ATELiER
+  required: false
+  type: release_group
+- name: BHDStudio
+  negate: false
+  pattern: BHDStudio
+  required: false
+  type: release_group
+- name: hallowed
+  negate: false
+  pattern: hallowed
+  required: false
+  type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
+- name: LoRD
+  negate: false
+  pattern: LoRD
+  required: false
+  type: release_group
+- name: playHD
+  negate: false
+  pattern: playHD
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: W4NK3R
+  negate: false
+  pattern: W4NK3R
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: HD Bluray Tier 03
+tags:
+- Quality Modifier
+- Release Group
+- Resolution
+- Source
+- TRaSH
+tests: []

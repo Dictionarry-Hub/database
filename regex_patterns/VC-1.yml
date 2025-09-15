@@ -1,0 +1,7 @@
+description: ''
+name: VC-1
+pattern: \bVC[-_. ]?1\b
+tags:
+- Radarr
+- Sonarr
+tests: []

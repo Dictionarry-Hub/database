@@ -1,0 +1,54 @@
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: BMF
+  negate: false
+  pattern: BMF
+  required: false
+  type: release_group
+- name: de[42]
+  negate: false
+  pattern: de[42]
+  required: false
+  type: release_group
+- name: HDMaNiAcS
+  negate: false
+  pattern: HDMaNiAcS
+  required: false
+  type: release_group
+- name: IDE
+  negate: false
+  pattern: IDE
+  required: false
+  type: release_group
+- name: LolHD
+  negate: false
+  pattern: LolHD
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+description: Matches release groups who fall under 1080p GPPi Tier 4
+name: 1080p Quality Tier 4
+tags:
+- GPPi
+- Release Group Tier
+- 1080p
+- Quality
+tests: []

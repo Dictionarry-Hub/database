@@ -1,0 +1,18 @@
+description: ''
+name: PCM
+pattern: \b(l?)PCM(\b|\d)
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

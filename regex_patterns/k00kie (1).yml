@@ -1,0 +1,7 @@
+description: ''
+name: k00kie
+pattern: (?<=^|[\s.-])k00kie\b
+tags:
+- Release Group
+- Bluray
+tests: []

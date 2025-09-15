@@ -1,0 +1,7 @@
+description: ''
+name: w00t
+pattern: ^(w00t)$
+tags:
+- Radarr
+- Sonarr
+tests: []

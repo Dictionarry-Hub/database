@@ -1,0 +1,16 @@
+description: ''
+name: SM737
+pattern: (?<=^|[\s.-])SM737\b
+tags:
+- Release Group
+tests:
+- expected: true
+  id: 1
+  input: Training.Day.2001.UHD.BluRay.1080p.DD+Atmos.5.1.DoVi.HDR10.x265-SM737
+  lastRun: '2025-01-13T07:59:06.177271'
+  matchSpan:
+    end: 69
+    start: 64
+  matchedContent: SM737
+  matchedGroups: []
+  passes: true

@@ -1,0 +1,16 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+description: Matches 2160p Blurays that are NOT remuxes
+name: 2160p Bluray
+tags:
+- Source
+tests: []

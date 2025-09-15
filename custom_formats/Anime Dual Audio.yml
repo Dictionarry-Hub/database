@@ -1,0 +1,33 @@
+conditions:
+- name: Dual Audio
+  negate: false
+  pattern: Dual Audio
+  required: true
+  type: release_title
+- name: Not Single Language Only
+  negate: true
+  pattern: Not Single Language Only
+  required: true
+  type: release_title
+- language: japanese
+  name: Japanese Language
+  negate: false
+  required: false
+  type: language
+- language: chinese
+  name: Chinese Language
+  negate: false
+  required: false
+  type: language
+- language: korean
+  name: Korean Language
+  negate: false
+  required: false
+  type: language
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime Dual Audio
+tags:
+- Language
+- Release Title
+- TRaSH
+tests: []

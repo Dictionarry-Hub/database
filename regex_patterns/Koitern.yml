@@ -1,0 +1,7 @@
+description: ''
+name: Koitern
+pattern: \b(Koitern)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

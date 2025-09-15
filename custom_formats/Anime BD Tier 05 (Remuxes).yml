@@ -1,0 +1,68 @@
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: false
+  type: release_title
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: BluDragon
+  negate: false
+  pattern: BluDragon
+  required: false
+  type: release_title
+- name: D4C
+  negate: false
+  pattern: D4C
+  required: false
+  type: release_title
+- name: E.N.D
+  negate: false
+  pattern: E.N.D
+  required: false
+  type: release_title
+- name: PMR
+  negate: false
+  pattern: PMR
+  required: false
+  type: release_title
+- name: Raizel
+  negate: false
+  pattern: Raizel
+  required: false
+  type: release_title
+- name: REVO
+  negate: false
+  pattern: REVO
+  required: false
+  type: release_title
+- name: SRLS
+  negate: false
+  pattern: SRLS
+  required: false
+  type: release_title
+- name: TTGA
+  negate: false
+  pattern: TTGA
+  required: false
+  type: release_title
+- name: VULCAN
+  negate: false
+  pattern: VULCAN
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime BD Tier 05 (Remuxes)
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: ATELiER
+pattern: ^(ATELiER)$
+tags:
+- Radarr
+tests: []

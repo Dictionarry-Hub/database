@@ -1,0 +1,7 @@
+description: ''
+name: $tore-Chill
+pattern: \b(\$tore-Chill)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

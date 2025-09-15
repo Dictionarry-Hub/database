@@ -1,0 +1,7 @@
+description: ''
+name: Regrade
+pattern: \b((Upscale)?Re-?graded?)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

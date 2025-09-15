@@ -1,0 +1,7 @@
+description: ''
+name: Tenshi
+pattern: \[tenshi\]|-tenshi$
+tags:
+- Radarr
+- Sonarr
+tests: []

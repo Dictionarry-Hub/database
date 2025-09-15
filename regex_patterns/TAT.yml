@@ -1,0 +1,6 @@
+description: ''
+name: TAT
+pattern: ^(TAT)$
+tags:
+- Sonarr
+tests: []

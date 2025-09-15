@@ -1,0 +1,12 @@
+conditions:
+- flag: freeleech
+  name: FreeLeech
+  negate: false
+  required: false
+  type: indexer_flag
+description: '[Custom format from TRaSH-Guides.]'
+name: FreeLeech
+tags:
+- Indexer Flag
+- TRaSH
+tests: []

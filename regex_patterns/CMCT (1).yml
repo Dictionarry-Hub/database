@@ -1,0 +1,7 @@
+description: ''
+name: CMCT
+pattern: (?<=^|[\s.-])CMCT\b
+tags:
+- Release Group
+- Anime
+tests: []

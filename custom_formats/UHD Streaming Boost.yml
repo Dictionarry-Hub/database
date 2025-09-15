@@ -1,0 +1,39 @@
+conditions:
+- name: Peacock TV
+  negate: false
+  pattern: Peacock TV
+  required: false
+  type: release_title
+- name: Paramount+
+  negate: false
+  pattern: Paramount+
+  required: false
+  type: release_title
+- name: Hulu
+  negate: false
+  pattern: Hulu
+  required: false
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+description: '[Custom format from TRaSH-Guides.]'
+name: UHD Streaming Boost
+tags:
+- Release Title
+- Resolution
+- Source
+- TRaSH
+tests: []

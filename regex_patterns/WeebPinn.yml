@@ -1,0 +1,8 @@
+description: ''
+name: WeebPinn
+pattern: ^(WeebPinn)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

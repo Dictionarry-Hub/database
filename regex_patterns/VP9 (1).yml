@@ -1,0 +1,7 @@
+description: ''
+name: VP9
+pattern: \bVP9\b
+tags:
+- Radarr
+- Sonarr
+tests: []

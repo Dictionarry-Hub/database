@@ -1,0 +1,7 @@
+description: ''
+name: AViATOR
+pattern: (?<=^|[\s.-])AViATOR\b
+tags:
+- Release Group
+- Bluray
+tests: []

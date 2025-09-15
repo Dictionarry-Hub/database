@@ -1,0 +1,7 @@
+description: ''
+name: AAAUHD
+pattern: (?<=^|[\s.-])AAAUHD\b
+tags:
+- Release Group
+- Bluray
+tests: []

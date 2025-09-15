@@ -1,0 +1,8 @@
+description: ''
+name: SDR
+pattern: \bSDR\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

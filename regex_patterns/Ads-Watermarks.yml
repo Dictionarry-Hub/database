@@ -1,0 +1,8 @@
+description: ''
+name: Ads-Watermarks
+pattern: "\\b(Bandix|CZ\\d+|EXTREME|GA(\xCF|I)A|HMiDiMADRiDi|Hush|KILLERMIX|LiBERTAD|LTa?TM|MONiCO|NEWCINE|R(PZ|ZP)|ShowFR|VERCLAM|ViKi47|Wawa-?(city|mania|porno)?|ZW)\\\
+  b"
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: POTO
+pattern: ^(POTO)$
+tags:
+- Radarr
+- Sonarr
+tests: []

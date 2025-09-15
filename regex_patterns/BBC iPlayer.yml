@@ -1,0 +1,7 @@
+description: ''
+name: BBC iPlayer
+pattern: \b(ip|iplayer)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

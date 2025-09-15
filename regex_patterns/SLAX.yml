@@ -1,0 +1,7 @@
+description: ''
+name: SLAX
+pattern: \b(SLAX)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

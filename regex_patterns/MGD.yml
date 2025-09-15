@@ -1,0 +1,7 @@
+description: ''
+name: MGD
+pattern: \b(MGD)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

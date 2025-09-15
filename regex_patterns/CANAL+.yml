@@ -1,0 +1,6 @@
+description: ''
+name: CANAL+
+pattern: \b(C(?:anal)?[ .-]?(Plus|\+))[ .]
+tags:
+- Sonarr
+tests: []

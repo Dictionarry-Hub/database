@@ -1,0 +1,12 @@
+conditions:
+- name: v2
+  negate: false
+  pattern: v2
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: v2
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Scene
+pattern: ^(Scene)$
+tags:
+- Radarr
+tests: []

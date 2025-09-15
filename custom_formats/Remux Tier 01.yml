@@ -1,0 +1,58 @@
+conditions:
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: 3L
+  negate: false
+  pattern: 3L
+  required: false
+  type: release_group
+- name: BiZKiT
+  negate: false
+  pattern: BiZKiT
+  required: false
+  type: release_group
+- name: BLURANiUM
+  negate: false
+  pattern: BLURANiUM
+  required: false
+  type: release_group
+- name: BMF
+  negate: false
+  pattern: BMF
+  required: false
+  type: release_group
+- name: CiNEPHiLES
+  negate: false
+  pattern: CiNEPHiLES
+  required: false
+  type: release_group
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: false
+  type: release_group
+- name: PmP
+  negate: false
+  pattern: PmP
+  required: false
+  type: release_group
+- name: WiLDCAT
+  negate: false
+  pattern: WiLDCAT
+  required: false
+  type: release_group
+- name: ZQ
+  negate: false
+  pattern: ZQ
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: Remux Tier 01
+tags:
+- Quality Modifier
+- Release Group
+- TRaSH
+tests: []

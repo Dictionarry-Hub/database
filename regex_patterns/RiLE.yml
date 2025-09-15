@@ -1,0 +1,6 @@
+description: ''
+name: RiLE
+pattern: ^(RiLE)$
+tags:
+- Radarr
+tests: []

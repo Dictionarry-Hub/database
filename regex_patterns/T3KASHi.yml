@@ -1,0 +1,7 @@
+description: ''
+name: T3KASHi
+pattern: \b(T3KASHi)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

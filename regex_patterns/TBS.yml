@@ -1,0 +1,7 @@
+description: ''
+name: TBS
+pattern: ^(TBS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

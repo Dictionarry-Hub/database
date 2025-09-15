@@ -1,0 +1,6 @@
+description: ''
+name: "Radio T\xE9l\xE9vision Belge Francophone"
+pattern: \b(RTBF)\b
+tags:
+- Sonarr
+tests: []

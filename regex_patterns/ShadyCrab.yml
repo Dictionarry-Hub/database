@@ -1,0 +1,7 @@
+description: ''
+name: ShadyCrab
+pattern: \b(ShadyCrab)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

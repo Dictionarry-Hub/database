@@ -1,0 +1,7 @@
+description: ''
+name: SaNcTi
+pattern: (?<=^|[\s.-])SaNcTi\b
+tags:
+- Release Group
+- Bluray
+tests: []

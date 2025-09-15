@@ -1,0 +1,6 @@
+description: ''
+name: MARBLECAKE
+pattern: ^(MARBLECAKE)$
+tags:
+- Radarr
+tests: []

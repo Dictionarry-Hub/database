@@ -1,0 +1,8 @@
+description: ''
+name: 9volt
+pattern: \b(9volt)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

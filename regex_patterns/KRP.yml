@@ -1,0 +1,7 @@
+description: ''
+name: KRP
+pattern: \b(KRP)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

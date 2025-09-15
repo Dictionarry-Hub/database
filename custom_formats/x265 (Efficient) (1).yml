@@ -1,0 +1,16 @@
+conditions:
+- name: x265
+  negate: false
+  pattern: x265
+  required: true
+  type: release_title
+- name: Not 1080p
+  negate: true
+  required: true
+  resolution: 1080p
+  type: resolution
+description: Matches 'x265' regex pattern.
+name: x265 (Efficient)
+tags:
+- Codec
+tests: []

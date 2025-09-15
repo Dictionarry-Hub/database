@@ -1,0 +1,6 @@
+description: ''
+name: DTS-HD
+pattern: \b(dts[-_. ]?(ma|hd([-_. ]?ma)?|xll))\b
+tags:
+- Audio
+tests: []

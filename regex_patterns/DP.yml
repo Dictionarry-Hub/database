@@ -1,0 +1,7 @@
+description: ''
+name: DP
+pattern: \b(DP)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

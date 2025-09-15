@@ -1,0 +1,7 @@
+description: ''
+name: Team Arcedo
+pattern: \b((Team[ .-])?Arcedo)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

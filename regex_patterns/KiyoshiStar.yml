@@ -1,0 +1,8 @@
+description: ''
+name: KiyoshiStar
+pattern: \b(KS|KiyoshiStar)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Mysteria
+pattern: \[Mysteria\]|-Mysteria\b
+tags:
+- Radarr
+- Sonarr
+tests: []

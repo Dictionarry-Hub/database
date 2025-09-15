@@ -1,0 +1,7 @@
+description: Banned for Fake DV/HDR Layer
+name: VisionXpert
+pattern: (?<=^|[\s.-])VisionXpert\b
+tags:
+- Release Group
+- Banned
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Showtime
+pattern: \b(sho|showtime)\b[ ._-]web[ ._-]?(dl|rip)?\b
+tags:
+- Sonarr
+tests: []

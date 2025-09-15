@@ -1,0 +1,47 @@
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: BMF
+  negate: false
+  pattern: BMF
+  required: false
+  type: release_group
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: false
+  type: release_group
+- name: LM
+  negate: false
+  pattern: LM
+  required: false
+  type: release_group
+- name: PmP
+  negate: false
+  pattern: PmP
+  required: false
+  type: release_group
+- name: PP
+  negate: false
+  pattern: PP
+  required: false
+  type: release_group
+- name: ZQ
+  negate: false
+  pattern: ZQ
+  required: false
+  type: release_group
+description: Matches release groups who fall under Remux Tier 2
+name: Remux Tier 2
+tags:
+- Release Group Tier
+- Remux
+tests: []

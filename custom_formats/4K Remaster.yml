@@ -1,0 +1,23 @@
+conditions:
+- name: Remaster
+  negate: false
+  pattern: Remaster
+  required: true
+  type: release_title
+- name: 4K
+  negate: false
+  pattern: 4K
+  required: true
+  type: release_title
+- name: Not 4K Resolution
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+description: '[Custom format from TRaSH-Guides.]'
+name: 4K Remaster
+tags:
+- Release Title
+- Resolution
+- TRaSH
+tests: []

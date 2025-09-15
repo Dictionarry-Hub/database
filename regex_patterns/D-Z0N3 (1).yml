@@ -1,0 +1,7 @@
+description: ''
+name: D-Z0N3
+pattern: \b(D-Z0N3)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

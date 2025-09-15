@@ -1,0 +1,7 @@
+description: ''
+name: inid4c
+pattern: \b(inid4c)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

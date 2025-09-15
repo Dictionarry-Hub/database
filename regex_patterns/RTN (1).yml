@@ -1,0 +1,6 @@
+description: ''
+name: RTN
+pattern: ^(RTN)$
+tags:
+- Sonarr
+tests: []

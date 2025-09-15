@@ -1,0 +1,7 @@
+description: ''
+name: ZOIO
+pattern: \b(ZOIO)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

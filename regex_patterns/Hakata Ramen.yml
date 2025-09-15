@@ -1,0 +1,7 @@
+description: ''
+name: Hakata Ramen
+pattern: \b(Hakata[ .-]?Ramen)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

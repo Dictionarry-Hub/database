@@ -1,0 +1,7 @@
+description: ''
+name: TVING Rename
+pattern: \[(TVING)\b|\b(TVING)\]
+tags:
+- Radarr
+- Sonarr
+tests: []

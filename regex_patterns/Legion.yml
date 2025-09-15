@@ -1,0 +1,7 @@
+description: ''
+name: Legion
+pattern: \[Legion\]|-Legion\b
+tags:
+- Radarr
+- Sonarr
+tests: []

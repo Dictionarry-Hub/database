@@ -1,0 +1,13 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+description: Ultra high definition resolution offering maximum detail and clarity
+name: 2160p
+tags:
+- Ultra High Definition
+- 4K
+- Resolution
+tests: []

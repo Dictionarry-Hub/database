@@ -1,0 +1,7 @@
+description: ''
+name: Davinci
+pattern: \[Davinci\]|-Davinci\b
+tags:
+- Radarr
+- Sonarr
+tests: []

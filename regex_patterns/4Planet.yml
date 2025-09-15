@@ -1,0 +1,7 @@
+description: ''
+name: 4Planet
+pattern: -4Planet\b
+tags:
+- Radarr
+- Sonarr
+tests: []

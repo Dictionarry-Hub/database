@@ -1,0 +1,6 @@
+description: ''
+name: PATOMiEL
+pattern: ^(PATOMiEL)$
+tags:
+- Radarr
+tests: []

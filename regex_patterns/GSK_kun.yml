@@ -1,0 +1,8 @@
+description: ''
+name: GSK_kun
+pattern: \b(GSK[._-]kun)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

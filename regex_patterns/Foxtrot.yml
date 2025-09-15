@@ -1,0 +1,8 @@
+description: ''
+name: Foxtrot
+pattern: \[Foxtrot\]|-Foxtrot\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

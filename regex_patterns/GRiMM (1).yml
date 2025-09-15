@@ -1,0 +1,7 @@
+description: ''
+name: GRiMM
+pattern: (?<=^|[\s.-])GRiMM\b
+tags:
+- Release Group
+- HEVC
+tests: []

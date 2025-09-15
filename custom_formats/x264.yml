@@ -1,0 +1,18 @@
+conditions:
+- name: x|h264
+  negate: false
+  pattern: x|h264
+  required: true
+  type: release_title
+- name: Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+description: '[Custom format from TRaSH-Guides.]'
+name: x264
+tags:
+- Quality Modifier
+- Release Title
+- TRaSH
+tests: []

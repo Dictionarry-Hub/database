@@ -1,0 +1,13 @@
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+description: High definition resolution offering improved clarity over standard definition
+  formats
+name: 720p
+tags:
+- High Definition
+- Resolution
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Pendeti
+pattern: (Pendeti)$
+tags:
+- Radarr
+tests: []

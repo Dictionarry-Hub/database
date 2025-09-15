@@ -1,0 +1,17 @@
+conditions:
+- name: DEFLATE
+  negate: false
+  pattern: DEFLATE
+  required: false
+  type: release_group
+- name: INFLATE
+  negate: false
+  pattern: INFLATE
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: WEB Scene
+tags:
+- Release Group
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: RAWR
+pattern: ^(RAWR)$
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: CBB
+pattern: \b(CBB)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

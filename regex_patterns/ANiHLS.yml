@@ -1,0 +1,7 @@
+description: ''
+name: ANiHLS
+pattern: \b(ANiHLS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

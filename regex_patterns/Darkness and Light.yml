@@ -1,0 +1,6 @@
+description: ''
+name: Darkness and Light
+pattern: (?<=\b[12]\d{3}\b).*\b(Darkness?[ ._-]?(and|&)[ ._-]?(Light))\b(?!$)
+tags:
+- Radarr
+tests: []

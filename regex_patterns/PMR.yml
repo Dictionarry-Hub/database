@@ -1,0 +1,7 @@
+description: ''
+name: PMR
+pattern: ^(?=.*\b(PMR)\b)(?=.*\b(Remux)\b)
+tags:
+- Radarr
+- Sonarr
+tests: []

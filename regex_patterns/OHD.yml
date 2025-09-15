@@ -1,0 +1,7 @@
+description: ''
+name: OHD
+pattern: ^(OHD)$
+tags:
+- Radarr
+- Sonarr
+tests: []

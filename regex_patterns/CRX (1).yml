@@ -1,0 +1,7 @@
+description: ''
+name: CRX
+pattern: (?<=^|[\s.-])CRX\b
+tags:
+- Release Group
+- Bluray
+tests: []

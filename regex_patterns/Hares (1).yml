@@ -1,0 +1,7 @@
+description: ''
+name: Hares
+pattern: (?<=^|[\s.-])Hares\b
+tags:
+- Release Group
+- Bluray
+tests: []

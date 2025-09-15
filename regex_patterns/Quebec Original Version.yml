@@ -1,0 +1,7 @@
+description: ''
+name: Quebec Original Version
+pattern: \b(VOQ)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

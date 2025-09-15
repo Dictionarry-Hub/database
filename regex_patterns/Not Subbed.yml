@@ -1,0 +1,7 @@
+description: ''
+name: Not Subbed
+pattern: (?=.*(German|Ger))(?=.*(Sub|Multi(ple)?Sub))
+tags:
+- Radarr
+- Sonarr
+tests: []

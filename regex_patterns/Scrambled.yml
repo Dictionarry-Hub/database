@@ -1,0 +1,6 @@
+description: ''
+name: Scrambled
+pattern: (?<=\b[12]\d{3}\b).*(Scrambled)\b
+tags:
+- Radarr
+tests: []

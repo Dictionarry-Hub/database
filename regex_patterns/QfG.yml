@@ -1,0 +1,8 @@
+description: ''
+name: QfG
+pattern: (QfG)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

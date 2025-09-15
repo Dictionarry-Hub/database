@@ -1,0 +1,7 @@
+description: ''
+name: xpost
+pattern: -xpost\b
+tags:
+- Radarr
+- Sonarr
+tests: []

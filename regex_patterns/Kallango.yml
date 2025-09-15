@@ -1,0 +1,7 @@
+description: ''
+name: Kallango
+pattern: \[Kallango\]|-Kallango\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Thighs
+pattern: \[Thighs\]|-Thighs\b
+tags:
+- Radarr
+- Sonarr
+tests: []

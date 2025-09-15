@@ -1,0 +1,7 @@
+description: ''
+name: HypStu
+pattern: (?<=^|[\s.-])HypStu\b
+tags:
+- Release Group
+- Bluray
+tests: []

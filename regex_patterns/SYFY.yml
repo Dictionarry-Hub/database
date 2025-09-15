@@ -1,0 +1,6 @@
+description: ''
+name: SYFY
+pattern: \b(SYFY)\b
+tags:
+- Sonarr
+tests: []

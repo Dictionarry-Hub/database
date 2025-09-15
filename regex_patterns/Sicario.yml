@@ -1,0 +1,6 @@
+description: ''
+name: Sicario
+pattern: ^(Sicario)$
+tags:
+- Radarr
+tests: []

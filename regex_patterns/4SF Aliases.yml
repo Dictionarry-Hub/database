@@ -1,0 +1,6 @@
+description: ''
+name: 4SF Aliases
+pattern: \b(4SJ)\b
+tags:
+- Sonarr
+tests: []

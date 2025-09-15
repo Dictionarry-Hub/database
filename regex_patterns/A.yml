@@ -1,0 +1,6 @@
+description: ''
+name: A
+pattern: ^(AiR3D|AiRDOCS|AiRFORCE|AiRLiNE|AiRTV|AKLHD|AMB3R|ANMWR|AVON|AYMO|AZR)$
+tags:
+- Radarr
+tests: []

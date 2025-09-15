@@ -1,0 +1,7 @@
+description: ''
+name: WSE
+pattern: \b(WSE)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

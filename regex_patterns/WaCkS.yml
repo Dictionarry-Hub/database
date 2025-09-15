@@ -1,0 +1,7 @@
+description: ''
+name: WaCkS
+pattern: ^(WaCkS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

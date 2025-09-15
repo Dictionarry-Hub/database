@@ -1,0 +1,13 @@
+conditions:
+- name: 576p
+  negate: false
+  required: true
+  resolution: 576p
+  type: resolution
+description: PAL standard definition resolution found in European DVD releases and
+  compressed Blu-ray encodes optimized for legacy display compatibility
+name: 576p
+tags:
+- Standard Definition
+- Resolution
+tests: []

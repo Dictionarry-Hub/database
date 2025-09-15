@@ -1,0 +1,7 @@
+description: ''
+name: N3G4N
+pattern: ^(N3G4N)$
+tags:
+- Radarr
+- Sonarr
+tests: []

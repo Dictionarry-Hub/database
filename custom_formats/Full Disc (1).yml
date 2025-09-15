@@ -1,0 +1,66 @@
+conditions:
+- name: Full Disc
+  negate: false
+  pattern: Full Disc
+  required: true
+  type: release_title
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Not WEBRip
+  negate: true
+  required: true
+  source: webrip
+  type: source
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not x264
+  negate: true
+  pattern: x264
+  required: true
+  type: release_title
+- name: Not x265
+  negate: true
+  pattern: x265
+  required: true
+  type: release_title
+description: 'Matches the ''Full Disc'' regex pattern and negates any remuxes / encodes. '
+name: Full Disc
+tags:
+- Storage
+tests:
+- conditionResults:
+  - matches: true
+    name: Full Disc
+    negate: false
+    pattern: Full Disc
+    required: true
+    type: release_title
+  - matches: false
+    name: x264
+    negate: true
+    pattern: x264
+    required: false
+    type: release_title
+  - matches: false
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  - matches: true
+    name: Remux
+    negate: true
+    pattern: Remux
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Isolani 2017 1080p BluRay REMUX AVC DTS-HD MA 5.1-Parapluie
+  lastRun: '2024-12-08T22:57:56.281360'
+  passes: true

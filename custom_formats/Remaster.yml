@@ -1,0 +1,17 @@
+conditions:
+- name: Remaster
+  negate: false
+  pattern: Remaster
+  required: true
+  type: release_title
+- name: Not 4K Remaster
+  negate: true
+  pattern: Not 4K Remaster
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Remaster
+tags:
+- Release Title
+- TRaSH
+tests: []

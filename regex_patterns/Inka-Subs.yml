@@ -1,0 +1,7 @@
+description: ''
+name: Inka-Subs
+pattern: \b(Inka-Subs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

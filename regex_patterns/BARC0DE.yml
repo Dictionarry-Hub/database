@@ -1,0 +1,6 @@
+description: ''
+name: BARC0DE
+pattern: ^(BARC0DE)$
+tags:
+- Radarr
+tests: []

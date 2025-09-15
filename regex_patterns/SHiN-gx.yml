@@ -1,0 +1,7 @@
+description: ''
+name: SHiN-gx
+pattern: \b(SHiN-gx)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

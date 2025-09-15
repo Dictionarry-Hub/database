@@ -1,0 +1,7 @@
+description: ''
+name: x|h266
+pattern: '[xh][ ._-]?266|\bVVC(\b|\d)'
+tags:
+- Radarr
+- Sonarr
+tests: []

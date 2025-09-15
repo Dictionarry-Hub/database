@@ -1,0 +1,12 @@
+conditions:
+- name: Uncensored
+  negate: false
+  pattern: Uncensored
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Uncensored
+tags:
+- Release Title
+- TRaSH
+tests: []

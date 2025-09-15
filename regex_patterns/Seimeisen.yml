@@ -1,0 +1,7 @@
+description: ''
+name: Seimeisen
+pattern: \b(Seimeisen)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

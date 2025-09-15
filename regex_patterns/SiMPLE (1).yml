@@ -1,0 +1,7 @@
+description: ''
+name: SiMPLE
+pattern: (?<=^|[\s.-])SiMPLE\b
+tags:
+- Release Group
+- Bluray
+tests: []

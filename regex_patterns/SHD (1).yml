@@ -1,0 +1,7 @@
+description: ''
+name: SHD
+pattern: ^(SHD)$
+tags:
+- Radarr
+- Sonarr
+tests: []

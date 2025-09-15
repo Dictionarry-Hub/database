@@ -1,0 +1,7 @@
+description: ''
+name: rightSIZE
+pattern: (?<=^|[\s.-])rightSIZE\b
+tags:
+- Release Group
+- Bluray
+tests: []

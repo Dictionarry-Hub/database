@@ -1,0 +1,6 @@
+description: ''
+name: KiMCHI
+pattern: ^(KiMCHI)$
+tags:
+- Sonarr
+tests: []

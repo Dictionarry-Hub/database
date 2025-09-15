@@ -1,0 +1,7 @@
+description: ''
+name: Holomux
+pattern: \b(Holomux)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

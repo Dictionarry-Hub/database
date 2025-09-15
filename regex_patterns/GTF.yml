@@ -1,0 +1,7 @@
+description: ''
+name: GTF
+pattern: ^(GTF)$
+tags:
+- Radarr
+- Sonarr
+tests: []

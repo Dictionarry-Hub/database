@@ -1,0 +1,78 @@
+conditions:
+- name: Arg0
+  negate: false
+  pattern: Arg0
+  required: false
+  type: release_title
+- name: Arid
+  negate: false
+  pattern: Arid
+  required: false
+  type: release_title
+- name: Baws
+  negate: false
+  pattern: Baws
+  required: false
+  type: release_title
+- name: LostYears
+  negate: false
+  pattern: LostYears
+  required: false
+  type: release_title
+- name: LYS1TH3A
+  negate: false
+  pattern: LYS1TH3A
+  required: false
+  type: release_title
+- name: McBalls
+  negate: false
+  pattern: McBalls
+  required: false
+  type: release_title
+- name: sam
+  negate: false
+  pattern: sam
+  required: false
+  type: release_title
+- name: SCY
+  negate: false
+  pattern: SCY
+  required: false
+  type: release_title
+- name: Setsugen
+  negate: false
+  pattern: Setsugen
+  required: false
+  type: release_title
+- name: smol
+  negate: false
+  pattern: smol
+  required: false
+  type: release_title
+- name: SoM
+  negate: false
+  pattern: SoM
+  required: false
+  type: release_title
+- name: Vodes
+  negate: false
+  pattern: Vodes
+  required: false
+  type: release_title
+- name: Z4ST1N
+  negate: false
+  pattern: Z4ST1N
+  required: false
+  type: release_title
+- name: ZeroBuild
+  negate: false
+  pattern: ZeroBuild
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime Web Tier 01 (Muxers)
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

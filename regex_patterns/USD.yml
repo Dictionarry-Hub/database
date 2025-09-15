@@ -1,0 +1,7 @@
+description: ''
+name: USD
+pattern: \[USD\]|-USD\b
+tags:
+- Radarr
+- Sonarr
+tests: []

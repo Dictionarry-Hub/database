@@ -1,0 +1,6 @@
+description: ''
+name: DSCP Rename
+pattern: \[(DSCP)\b|\b(DSCP)\]
+tags:
+- Sonarr
+tests: []

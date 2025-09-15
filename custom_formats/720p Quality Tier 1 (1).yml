@@ -1,0 +1,29 @@
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: EbP
+  negate: false
+  pattern: EbP
+  required: false
+  type: release_group
+description: Matches release groups who fall under 720p Quality Tier 1
+name: 720p Quality Tier 1
+tags:
+- GPPi
+- Release Group Tier
+- 720p
+- Quality
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: LAZARUS
+pattern: ^(LAZARUS)$
+tags:
+- Sonarr
+tests: []

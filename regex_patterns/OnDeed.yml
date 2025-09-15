@@ -1,0 +1,7 @@
+description: ''
+name: OnDeed
+pattern: \b(OnDeed)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

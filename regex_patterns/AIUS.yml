@@ -1,0 +1,7 @@
+description: ''
+name: AIUS
+pattern: \b(AIUS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

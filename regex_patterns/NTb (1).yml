@@ -1,0 +1,8 @@
+description: ''
+name: NTb
+pattern: ^(NTb)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

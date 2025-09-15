@@ -1,0 +1,7 @@
+description: ''
+name: NemDiggers
+pattern: \b(NemDiggers)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

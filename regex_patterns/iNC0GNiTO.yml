@@ -1,0 +1,7 @@
+description: ''
+name: iNC0GNiTO
+pattern: -iNC0GNiTO\b
+tags:
+- Radarr
+- Sonarr
+tests: []

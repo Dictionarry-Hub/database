@@ -1,0 +1,16 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+description: Matches 2160p WEB-DLs.
+name: 2160p WEB-DL
+tags:
+- Source
+tests: []

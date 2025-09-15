@@ -1,0 +1,7 @@
+description: ''
+name: Dragon-Releases
+pattern: \b(Dragon-Releases)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,23 @@
+conditions:
+- name: "Path\xE9"
+  negate: false
+  pattern: "Path\xE9"
+  required: true
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: Pathe
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

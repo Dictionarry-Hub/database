@@ -1,0 +1,6 @@
+description: ''
+name: C4K
+pattern: ^(C4K)$
+tags:
+- Radarr
+tests: []

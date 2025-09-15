@@ -1,0 +1,7 @@
+description: ''
+name: Zurako
+pattern: \b(Zurako)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: VULCAN
+pattern: \[VULCAN\]|-VULCAN\b
+tags:
+- Radarr
+tests: []

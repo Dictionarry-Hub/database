@@ -1,0 +1,7 @@
+description: ''
+name: VALiS
+pattern: (?<=^|[\s.-])VALiS\b
+tags:
+- Release Group
+- Bluray
+tests: []

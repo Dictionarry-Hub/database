@@ -1,0 +1,7 @@
+description: ''
+name: Orphan
+pattern: \[Orphan\]|-Orphan\b
+tags:
+- Radarr
+- Sonarr
+tests: []

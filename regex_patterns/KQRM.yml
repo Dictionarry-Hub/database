@@ -1,0 +1,7 @@
+description: ''
+name: KQRM
+pattern: \b(KQRM)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

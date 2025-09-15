@@ -1,0 +1,7 @@
+description: ''
+name: LoliHouse
+pattern: \b(LoliHouse)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

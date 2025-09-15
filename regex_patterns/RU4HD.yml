@@ -1,0 +1,6 @@
+description: ''
+name: RU4HD
+pattern: ^(RU4HD)$
+tags:
+- Radarr
+tests: []

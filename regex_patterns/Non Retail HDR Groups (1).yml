@@ -1,0 +1,28 @@
+description: Matches groups that produce non retail HDR.
+name: Non Retail HDR Groups
+pattern: (?<=^|[\s.-])VECTOR|BiTOR|DepraveD|SasukeducK|tarunk9c|jennaortegaUHD|VisionXpert|Flights\b
+tags:
+- Release Group
+- HDR
+- Banned
+tests:
+- expected: true
+  id: 1
+  input: Longlegs 2024 2160p BluRay REMUX DTS-HD MA 5 1 DV HDR H 265-SasukeducK
+  lastRun: '2025-01-11T05:45:15.414689'
+  matchSpan:
+    end: 70
+    start: 60
+  matchedContent: SasukeducK
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Blade Runner 2049 2017 2160p REMUX HEVC DV HDR10+ TrueHD 7.1 Atmos-jennaortegaUHD
+  lastRun: '2025-01-11T05:45:15.414689'
+  matchSpan:
+    end: 81
+    start: 67
+  matchedContent: jennaortegaUHD
+  matchedGroups: []
+  passes: true

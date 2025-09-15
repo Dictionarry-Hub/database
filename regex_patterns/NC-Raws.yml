@@ -1,0 +1,7 @@
+description: ''
+name: NC-Raws
+pattern: NC[ ._-]?(Raws)
+tags:
+- Radarr
+- Sonarr
+tests: []

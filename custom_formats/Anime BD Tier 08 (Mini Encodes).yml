@@ -1,0 +1,78 @@
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: false
+  type: release_title
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: AkihitoSubs
+  negate: false
+  pattern: AkihitoSubs
+  required: false
+  type: release_title
+- name: Arukoru
+  negate: false
+  pattern: Arukoru
+  required: false
+  type: release_title
+- name: EDGE
+  negate: false
+  pattern: EDGE
+  required: false
+  type: release_title
+- name: EMBER
+  negate: false
+  pattern: EMBER
+  required: false
+  type: release_title
+- name: GHOST
+  negate: false
+  pattern: GHOST
+  required: false
+  type: release_title
+- name: Judas
+  negate: false
+  pattern: Judas
+  required: false
+  type: release_title
+- name: naiyas
+  negate: false
+  pattern: naiyas
+  required: false
+  type: release_title
+- name: Nep_Blanc
+  negate: false
+  pattern: Nep_Blanc
+  required: false
+  type: release_title
+- name: Prof
+  negate: false
+  pattern: Prof
+  required: false
+  type: release_title
+- name: "Shir\u03C3"
+  negate: false
+  pattern: "Shir\u03C3"
+  required: false
+  type: release_title
+- name: YURASAKA
+  negate: false
+  pattern: YURASAKA
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime BD Tier 08 (Mini Encodes)
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

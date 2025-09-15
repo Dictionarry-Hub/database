@@ -1,0 +1,7 @@
+description: ''
+name: Anime-Heart
+pattern: \b(Anime[ .-]?Heart)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

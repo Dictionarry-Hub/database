@@ -1,0 +1,7 @@
+description: ''
+name: iNCEPTION
+pattern: ^(iNCEPTION)$
+tags:
+- Radarr
+- Sonarr
+tests: []

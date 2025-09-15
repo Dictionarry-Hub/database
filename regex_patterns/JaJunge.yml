@@ -1,0 +1,7 @@
+description: ''
+name: JaJunge
+pattern: ^(JaJunge)$
+tags:
+- Radarr
+- Sonarr
+tests: []

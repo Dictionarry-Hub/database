@@ -1,0 +1,7 @@
+description: ''
+name: Raw Files
+pattern: \b(M2TS|BDMV|BDVD)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Dolby Vision
+pattern: \b(dv|dovi|dolby[ .]?v(ision)?)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

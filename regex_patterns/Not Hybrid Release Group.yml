@@ -1,0 +1,7 @@
+description: ''
+name: Not Hybrid Release Group
+pattern: -HYBRID
+tags:
+- Radarr
+- Sonarr
+tests: []

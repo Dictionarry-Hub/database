@@ -1,0 +1,7 @@
+description: ''
+name: OCA
+pattern: ^(OCA)$
+tags:
+- Radarr
+- Sonarr
+tests: []

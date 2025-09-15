@@ -1,0 +1,7 @@
+description: ''
+name: Slyfox
+pattern: \b(Slyfox)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

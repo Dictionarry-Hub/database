@@ -1,0 +1,7 @@
+description: ''
+name: naiyas
+pattern: \[naiyas\]|-naiyas\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: nmd
+pattern: (?<=^|[\s.-])nmd\b
+tags:
+- Release Group
+- Bluray
+tests: []

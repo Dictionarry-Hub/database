@@ -1,0 +1,7 @@
+description: ''
+name: SURCODE
+pattern: (?<=^|[\s.-])SURCODE\b
+tags:
+- Release Group
+- Bluray
+tests: []

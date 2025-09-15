@@ -1,0 +1,11 @@
+conditions:
+- name: Xvid
+  negate: false
+  pattern: Xvid
+  required: true
+  type: release_title
+description: Matches 'Xvid' regex pattern.
+name: Xvid
+tags:
+- Codec
+tests: []

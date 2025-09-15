@@ -1,0 +1,7 @@
+description: ''
+name: AVTOMAT
+pattern: ^(AVTOMAT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

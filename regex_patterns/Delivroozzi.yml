@@ -1,0 +1,7 @@
+description: ''
+name: Delivroozzi
+pattern: \b(Delivroozzi)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

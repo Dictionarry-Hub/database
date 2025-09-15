@@ -1,0 +1,12 @@
+conditions:
+- name: BHDStudio
+  negate: false
+  pattern: BHDStudio
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: BHDStudio
+tags:
+- Release Group
+- TRaSH
+tests: []

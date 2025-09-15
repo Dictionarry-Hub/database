@@ -1,0 +1,7 @@
+description: ''
+name: VF2
+pattern: \b(VF2)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

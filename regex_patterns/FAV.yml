@@ -1,0 +1,7 @@
+description: ''
+name: FAV
+pattern: \[FAV\]|-FAV\b
+tags:
+- Radarr
+- Sonarr
+tests: []

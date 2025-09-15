@@ -1,0 +1,8 @@
+description: ''
+name: Arg0
+pattern: \b(Arg0)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

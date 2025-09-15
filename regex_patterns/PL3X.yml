@@ -1,0 +1,7 @@
+description: ''
+name: PL3X
+pattern: ^(PL3X)$
+tags:
+- Radarr
+- Sonarr
+tests: []

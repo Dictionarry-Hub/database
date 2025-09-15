@@ -1,0 +1,7 @@
+description: ''
+name: iVy
+pattern: ^(iVy)$
+tags:
+- Radarr
+- Sonarr
+tests: []

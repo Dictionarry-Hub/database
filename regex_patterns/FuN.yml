@@ -1,0 +1,7 @@
+description: ''
+name: FuN
+pattern: ^(FuN)$
+tags:
+- Radarr
+- Sonarr
+tests: []

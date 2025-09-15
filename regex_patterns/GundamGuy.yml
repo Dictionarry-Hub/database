@@ -1,0 +1,7 @@
+description: ''
+name: GundamGuy
+pattern: \b(GundamGuy)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: HiFi
+pattern: ^(HiFi)$
+tags:
+- Radarr
+- Sonarr
+tests: []

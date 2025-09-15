@@ -1,0 +1,6 @@
+description: ''
+name: KIRA
+pattern: ^(KIRA)$
+tags:
+- Radarr
+tests: []

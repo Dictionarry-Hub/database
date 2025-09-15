@@ -1,0 +1,6 @@
+description: ''
+name: MOONLY
+pattern: ^(MOONLY)$
+tags:
+- Radarr
+tests: []

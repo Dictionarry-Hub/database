@@ -1,0 +1,7 @@
+description: ''
+name: HBO Rename
+pattern: \[(HBO)\b|\b(HBO)\]
+tags:
+- Radarr
+- Sonarr
+tests: []

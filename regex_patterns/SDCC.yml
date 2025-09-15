@@ -1,0 +1,6 @@
+description: ''
+name: SDCC
+pattern: ^(SDCC)$
+tags:
+- Sonarr
+tests: []

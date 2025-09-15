@@ -1,0 +1,7 @@
+description: ''
+name: ReaLHD
+pattern: (?<=^|[\s.-])ReaLHD\b
+tags:
+- Release Group
+- Bluray
+tests: []

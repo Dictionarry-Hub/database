@@ -1,0 +1,6 @@
+description: ''
+name: Scaph
+pattern: ^(Scaph)$
+tags:
+- Sonarr
+tests: []

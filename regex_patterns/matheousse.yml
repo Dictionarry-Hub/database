@@ -1,0 +1,7 @@
+description: ''
+name: matheousse
+pattern: \b(matheousse)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

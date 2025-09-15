@@ -1,0 +1,7 @@
+description: ''
+name: SOLA
+pattern: \[SOLA\]|-SOLA\b
+tags:
+- Radarr
+- Sonarr
+tests: []

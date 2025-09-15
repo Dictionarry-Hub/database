@@ -1,0 +1,7 @@
+description: ''
+name: peachflavored
+pattern: \b(peachflavored)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

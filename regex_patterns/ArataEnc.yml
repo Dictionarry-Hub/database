@@ -1,0 +1,7 @@
+description: ''
+name: ArataEnc
+pattern: \b(ArataEnc)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

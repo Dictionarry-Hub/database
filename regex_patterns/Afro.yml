@@ -1,0 +1,7 @@
+description: ''
+name: Afro
+pattern: \[Afro\]|-Afro\b
+tags:
+- Radarr
+- Sonarr
+tests: []

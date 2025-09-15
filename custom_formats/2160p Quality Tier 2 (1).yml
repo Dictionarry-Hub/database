@@ -1,0 +1,38 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: c0kE
+  negate: false
+  pattern: c0kE
+  required: false
+  type: release_group
+- name: D-Z0N3
+  negate: false
+  pattern: D-Z0N3
+  required: false
+  type: release_group
+- name: MainFrame
+  negate: false
+  pattern: MainFrame
+  required: false
+  type: release_group
+- name: PTer
+  negate: false
+  pattern: PTer
+  required: false
+  type: release_group
+description: Matches release groups who fall under 2160p Quality Tier 2
+name: 2160p Quality Tier 2
+tags:
+- Release Group Tier
+- 2160p
+- Quality
+tests: []

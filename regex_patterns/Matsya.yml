@@ -1,0 +1,7 @@
+description: ''
+name: Matsya
+pattern: \b(Matsya)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

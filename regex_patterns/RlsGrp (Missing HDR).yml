@@ -1,0 +1,7 @@
+description: ''
+name: RlsGrp (Missing HDR)
+pattern: ^(?=.*\b(FraMeSToR|HQMUX|SiCFoI)\b)(?=.*\b(2160p)\b)(?!.*\b(HDR10([+]|P(lus)?)))(?!.*\b(SDR)\b).*
+tags:
+- Radarr
+- Sonarr
+tests: []

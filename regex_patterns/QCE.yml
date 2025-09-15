@@ -1,0 +1,7 @@
+description: ''
+name: QCE
+pattern: \b(QCE)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

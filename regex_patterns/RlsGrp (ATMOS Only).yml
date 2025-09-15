@@ -1,0 +1,6 @@
+description: ''
+name: RlsGrp (ATMOS Only)
+pattern: \b(W4NK3R|HQMUX)\b
+tags:
+- Radarr
+tests: []

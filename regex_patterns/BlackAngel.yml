@@ -1,0 +1,6 @@
+description: ''
+name: BlackAngel
+pattern: ^(BlackAngel)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: WiKi
+pattern: ^(WiKi)$
+tags:
+- Radarr
+tests: []

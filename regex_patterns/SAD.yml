@@ -1,0 +1,7 @@
+description: ''
+name: SAD
+pattern: \[SAD\]|-SAD\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: omikron
+pattern: (omikron)$
+tags:
+- Radarr
+tests: []

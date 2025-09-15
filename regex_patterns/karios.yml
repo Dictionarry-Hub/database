@@ -1,0 +1,7 @@
+description: ''
+name: karios
+pattern: \b(karios)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

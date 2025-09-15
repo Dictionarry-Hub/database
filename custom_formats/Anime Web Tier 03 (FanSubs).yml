@@ -1,0 +1,13 @@
+conditions:
+- name: KawaSubs
+  negate: false
+  pattern: KawaSubs
+  required: false
+  type: release_group
+description: ''
+name: Anime Web Tier 03 (FanSubs)
+tags:
+- Release Title
+- Source
+- NukeZone
+tests: []

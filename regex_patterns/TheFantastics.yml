@@ -1,0 +1,7 @@
+description: ''
+name: TheFantastics
+pattern: \b(TheFantastics)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

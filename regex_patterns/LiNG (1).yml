@@ -1,0 +1,7 @@
+description: ''
+name: LiNG
+pattern: (?<=^|[\s.-])LiNG\b
+tags:
+- Release Group
+- Bluray
+tests: []

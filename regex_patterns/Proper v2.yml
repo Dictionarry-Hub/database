@@ -1,0 +1,6 @@
+description: ''
+name: Proper v2
+pattern: \b(proper2)\b
+tags:
+- Sonarr
+tests: []

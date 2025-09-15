@@ -1,0 +1,6 @@
+description: ''
+name: PS
+pattern: (PS)$
+tags:
+- Radarr
+tests: []

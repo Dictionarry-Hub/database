@@ -1,0 +1,7 @@
+description: ''
+name: 10bit
+pattern: 10[.-]?bit
+tags:
+- Radarr
+- Sonarr
+tests: []

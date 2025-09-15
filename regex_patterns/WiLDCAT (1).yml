@@ -1,0 +1,6 @@
+description: ''
+name: WiLDCAT
+pattern: ^(WiLDCAT)$
+tags:
+- Radarr
+tests: []

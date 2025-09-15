@@ -1,0 +1,7 @@
+description: ''
+name: A-L
+pattern: \b(A-L)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

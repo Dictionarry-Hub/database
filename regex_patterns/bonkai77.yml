@@ -1,0 +1,7 @@
+description: ''
+name: bonkai77
+pattern: \b(bonkai77)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

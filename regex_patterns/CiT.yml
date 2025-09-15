@@ -1,0 +1,6 @@
+description: ''
+name: CiT
+pattern: ^(CiT)$
+tags:
+- Sonarr
+tests: []

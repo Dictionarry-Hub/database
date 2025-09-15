@@ -1,0 +1,7 @@
+description: ''
+name: VARYG
+pattern: \b(VARYG)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

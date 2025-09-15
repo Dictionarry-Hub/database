@@ -1,0 +1,6 @@
+description: ''
+name: BluRay3D
+pattern: \b(BluRay3D)\b
+tags:
+- Radarr
+tests: []

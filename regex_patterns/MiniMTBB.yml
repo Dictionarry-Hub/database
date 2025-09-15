@@ -1,0 +1,7 @@
+description: ''
+name: MiniMTBB
+pattern: \b(MiniMTBB)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

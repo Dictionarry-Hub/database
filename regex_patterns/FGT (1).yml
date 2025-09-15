@@ -1,0 +1,7 @@
+description: ''
+name: FGT
+pattern: ^(FGT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

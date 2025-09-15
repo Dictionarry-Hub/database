@@ -1,0 +1,9 @@
+description: ''
+name: Not Basic DTS
+pattern: DTS[ .]?[1-9]
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

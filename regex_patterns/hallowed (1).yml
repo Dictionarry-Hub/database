@@ -1,0 +1,6 @@
+description: ''
+name: hallowed
+pattern: ^(hallowed)$
+tags:
+- Radarr
+tests: []

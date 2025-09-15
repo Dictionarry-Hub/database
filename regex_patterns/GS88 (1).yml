@@ -1,0 +1,7 @@
+description: ''
+name: GS88
+pattern: (?<=^|[\s.-])GS88\b
+tags:
+- Release Group
+- Bluray
+tests: []

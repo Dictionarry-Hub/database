@@ -1,0 +1,7 @@
+description: ''
+name: CyC
+pattern: \b(CyC)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

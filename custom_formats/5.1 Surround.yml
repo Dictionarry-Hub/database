@@ -1,0 +1,27 @@
+conditions:
+- name: 5.1 Surround
+  negate: false
+  pattern: 5.1 Surround
+  required: true
+  type: release_title
+- name: 6.1 Surround
+  negate: true
+  pattern: 6.1 Surround
+  required: true
+  type: release_title
+- name: Not 7.1 Surround
+  negate: true
+  pattern: 7.1 Surround
+  required: true
+  type: release_title
+- name: Not Low Channel Count
+  negate: true
+  pattern: Not Low Channel Count
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: 5.1 Surround
+tags:
+- Release Title
+- TRaSH
+tests: []

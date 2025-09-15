@@ -1,0 +1,6 @@
+description: Matches groups who mislabel TrueHD
+name: TrueHD (Missing Groups)
+pattern: (?<=^|[\s.-])TRiToN|EPSiLON|NoGroup|PmP\b
+tags:
+- Audio
+tests: []

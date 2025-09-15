@@ -1,0 +1,28 @@
+conditions:
+- name: ITVX
+  negate: false
+  pattern: ITVX
+  required: false
+  type: release_title
+- name: ITVX Rename
+  negate: false
+  pattern: ITVX Rename
+  required: false
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: ITVX
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

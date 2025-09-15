@@ -1,0 +1,70 @@
+conditions:
+- name: BLURAY
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not REMUX
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: EA
+  negate: false
+  pattern: EA
+  required: false
+  type: release_group
+- name: HiDt
+  negate: false
+  pattern: HiDt
+  required: false
+  type: release_group
+- name: HiSD
+  negate: false
+  pattern: HiSD
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+- name: QOQ
+  negate: false
+  pattern: QOQ
+  required: false
+  type: release_group
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+- name: sbR
+  negate: false
+  pattern: SbR
+  required: false
+  type: release_group
+- name: EXCiSiON
+  negate: false
+  pattern: EXCiSION
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: HD Bluray Tier 02
+tags:
+- Quality Modifier
+- Release Group
+- Resolution
+- Source
+- TRaSH
+tests: []

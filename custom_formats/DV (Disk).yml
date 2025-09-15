@@ -1,0 +1,33 @@
+conditions:
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: true
+  type: release_group
+- name: DV
+  negate: false
+  pattern: Dolby Vision
+  required: true
+  type: release_title
+- name: No FANRES
+  negate: true
+  pattern: No FANRES
+  required: true
+  type: release_title
+- name: Not Hybrid
+  negate: true
+  pattern: Hybrid
+  required: true
+  type: release_title
+- name: Not Hybrid Release Group
+  negate: true
+  pattern: Not Hybrid Release Group
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: DV (Disk)
+tags:
+- Release Group
+- Release Title
+- TRaSH
+tests: []

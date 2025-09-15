@@ -1,0 +1,17 @@
+conditions:
+- name: Line Dubbed
+  negate: false
+  pattern: Line Dubbed
+  required: false
+  type: release_title
+- name: Mic Dubbed
+  negate: false
+  pattern: Mic Dubbed
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Line-Mic Dubbed
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: AnimeRG
+pattern: \b(AnimeRG)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

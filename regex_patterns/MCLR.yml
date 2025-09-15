@@ -1,0 +1,7 @@
+description: ''
+name: MCLR
+pattern: \b(MCLR)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

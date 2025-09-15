@@ -1,0 +1,6 @@
+description: ''
+name: D02KU
+pattern: ^(D02KU)$
+tags:
+- Radarr
+tests: []

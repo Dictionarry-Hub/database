@@ -1,0 +1,7 @@
+description: ''
+name: Dubbed
+pattern: ^(?!.*(Dual|Multi)[-_. ]?Audio).*((?<!multi-)\b(dub(bed)?)\b|(funi|eng(lish)?)_?dub)
+tags:
+- Radarr
+- Sonarr
+tests: []

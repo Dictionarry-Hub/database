@@ -1,0 +1,30 @@
+conditions:
+- name: Repack1
+  negate: false
+  pattern: Repack1
+  required: true
+  type: release_title
+description: 'Release groups use specific terms to indicate when they''re fixing issues
+  in releases:
+
+  In Scene releases, groups can only occupy one release slot, which leads to two different
+  terms:
+
+  - PROPER is used when a different group fixes issues in another group''s release
+
+  - REPACK is used when a group fixes issues in their own release
+
+
+  P2P releases are simpler - REPACK is typically used whenever a group releases a
+  fixed version.
+
+
+  REAL / RERIP indicate similar things but their specific meaning / origin is unclear.
+
+
+  This custom format will catch basic level fixes (no number suffixes).'
+name: Repack1
+tags:
+- Flag
+- Repack
+tests: []

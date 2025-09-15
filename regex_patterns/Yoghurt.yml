@@ -1,0 +1,7 @@
+description: ''
+name: Yoghurt
+pattern: \b(Yoghurt)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

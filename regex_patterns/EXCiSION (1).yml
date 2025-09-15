@@ -1,0 +1,7 @@
+description: ''
+name: EXCiSION
+pattern: (?<=^|[\s.-])EXCiSION\b
+tags:
+- Release Group
+- Bluray
+tests: []

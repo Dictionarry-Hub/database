@@ -1,0 +1,12 @@
+conditions:
+- name: Dutch Groups
+  negate: false
+  pattern: Dutch Groups
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Dutch Groups
+tags:
+- Release Title
+- TRaSH
+tests: []

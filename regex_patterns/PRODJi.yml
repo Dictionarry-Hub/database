@@ -1,0 +1,6 @@
+description: ''
+name: PRODJi
+pattern: ^(PRODJi)$
+tags:
+- Radarr
+tests: []

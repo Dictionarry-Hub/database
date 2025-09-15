@@ -1,0 +1,7 @@
+description: ''
+name: de[42]
+pattern: (?<=^|[\s.-])de[42]\b
+tags:
+- Release Group
+- Bluray
+tests: []

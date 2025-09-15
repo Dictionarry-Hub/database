@@ -1,0 +1,7 @@
+description: ''
+name: QxR
+pattern: (?<=^|[\s.-])(QxR|afm72|Bandi|FreetheFish|Garshasp|Ghost|Ime|Kappa|Langbard|LION|Panda|MONOLITH|Natty|r00t|RCVR|RZeroX|SAMPA|Silence|t3nzin|Tigole|YOGI)\b
+tags:
+- Release Group
+- HEVC
+tests: []

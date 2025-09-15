@@ -1,0 +1,12 @@
+conditions:
+- name: MPEG2
+  negate: false
+  pattern: MPEG2
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: MPEG2
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Setsugen
+pattern: \b(Setsugen)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

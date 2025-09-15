@@ -1,0 +1,12 @@
+description: ''
+name: Not DTS X
+pattern: '\b(dts[-_.: ]?x7?)\b(?![-_. ]?(26[456]))'
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

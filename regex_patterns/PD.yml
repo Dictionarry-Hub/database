@@ -1,0 +1,7 @@
+description: ''
+name: PD
+pattern: ^(PD)$
+tags:
+- Radarr
+- Sonarr
+tests: []

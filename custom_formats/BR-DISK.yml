@@ -1,0 +1,12 @@
+conditions:
+- name: BR-DISK
+  negate: false
+  pattern: BR-DISK
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: BR-DISK
+tags:
+- Release Title
+- TRaSH
+tests: []

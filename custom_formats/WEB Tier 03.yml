@@ -1,0 +1,53 @@
+conditions:
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: GNOMiSSiON
+  negate: false
+  pattern: GNOMiSSiON
+  required: false
+  type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
+  required: false
+  type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: SiGMA
+  negate: false
+  pattern: SiGMA
+  required: false
+  type: release_group
+- name: SLiGNOME
+  negate: false
+  pattern: SLiGNOME
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: WEB Tier 03
+tags:
+- Release Group
+- Source
+- TRaSH
+tests: []

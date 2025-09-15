@@ -1,0 +1,6 @@
+description: ''
+name: ViSiON
+pattern: ^(ViSiON)$
+tags:
+- Sonarr
+tests: []

@@ -1,0 +1,8 @@
+description: ''
+name: '0x539'
+pattern: \b(0x539)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

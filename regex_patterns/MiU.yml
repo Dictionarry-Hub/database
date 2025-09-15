@@ -1,0 +1,7 @@
+description: ''
+name: MiU
+pattern: ^(MiU)$
+tags:
+- Radarr
+- Sonarr
+tests: []

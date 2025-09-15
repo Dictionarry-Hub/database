@@ -1,0 +1,6 @@
+description: ''
+name: READ NOTE
+pattern: \b(READ(\s|\.)+NOTE)\b
+tags:
+- Radarr
+tests: []

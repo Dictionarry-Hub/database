@@ -1,0 +1,6 @@
+description: ''
+name: Bilibili
+pattern: \b(Bili(bili)?)\b
+tags:
+- Sonarr
+tests: []

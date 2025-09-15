@@ -1,0 +1,7 @@
+description: ''
+name: GHOST
+pattern: \[GHOST\]|-GHOST\b
+tags:
+- Radarr
+- Sonarr
+tests: []

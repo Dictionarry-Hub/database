@@ -1,0 +1,7 @@
+description: ''
+name: luvBB
+pattern: (?<=^|[\s.-])luvBB\b
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Galator
+pattern: \b(Galator)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

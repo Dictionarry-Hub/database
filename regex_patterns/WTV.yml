@@ -1,0 +1,7 @@
+description: ''
+name: WTV
+pattern: ^(WTV)$
+tags:
+- Radarr
+- Sonarr
+tests: []

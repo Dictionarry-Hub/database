@@ -1,0 +1,42 @@
+conditions:
+- name: Dubbed
+  negate: false
+  pattern: Dubbed
+  required: false
+  type: release_title
+- name: Golumpa
+  negate: false
+  pattern: Golumpa
+  required: false
+  type: release_title
+- name: KaiDubs (Not Dual Audio)
+  negate: false
+  pattern: KaiDubs (Not Dual Audio)
+  required: false
+  type: release_title
+- name: KamiFS
+  negate: false
+  pattern: KamiFS
+  required: false
+  type: release_title
+- name: KS (Not Dual Audio)
+  negate: false
+  pattern: KS (Not Dual Audio)
+  required: false
+  type: release_title
+- name: torenter69
+  negate: false
+  pattern: torenter69
+  required: false
+  type: release_title
+- name: Yameii
+  negate: false
+  pattern: Yameii
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Dubs Only
+tags:
+- Release Title
+- TRaSH
+tests: []

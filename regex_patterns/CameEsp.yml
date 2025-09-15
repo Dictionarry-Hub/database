@@ -1,0 +1,7 @@
+description: ''
+name: CameEsp
+pattern: \b(CameEsp)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

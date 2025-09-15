@@ -1,0 +1,7 @@
+description: ''
+name: Kulot
+pattern: \b(Kulot)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

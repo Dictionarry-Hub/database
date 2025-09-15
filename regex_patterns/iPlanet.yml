@@ -1,0 +1,6 @@
+description: ''
+name: iPlanet
+pattern: ^(iPlanet)$
+tags:
+- Radarr
+tests: []

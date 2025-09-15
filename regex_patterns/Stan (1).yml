@@ -1,0 +1,8 @@
+description: ''
+name: Stan
+pattern: \b(stan)\b[ ._-]web[ ._-]?(dl|rip)?\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

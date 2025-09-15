@@ -1,0 +1,7 @@
+description: ''
+name: DsunS
+pattern: \b(DsunS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

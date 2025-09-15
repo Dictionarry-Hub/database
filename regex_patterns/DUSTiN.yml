@@ -1,0 +1,6 @@
+description: ''
+name: DUSTiN
+pattern: ^(DUSTiN)$
+tags:
+- Radarr
+tests: []

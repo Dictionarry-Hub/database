@@ -1,0 +1,6 @@
+description: ''
+name: SUNSCREEN
+pattern: ^(SUNSCREEN)$
+tags:
+- Radarr
+tests: []

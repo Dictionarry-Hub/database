@@ -1,0 +1,6 @@
+description: ''
+name: playHD
+pattern: ^(playHD)$
+tags:
+- Radarr
+tests: []

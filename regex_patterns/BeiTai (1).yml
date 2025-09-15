@@ -1,0 +1,7 @@
+description: ''
+name: BeiTai
+pattern: (?<=^|[\s.-])BeiTai\b
+tags:
+- Release Group
+- Bluray
+tests: []

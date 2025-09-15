@@ -1,0 +1,48 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: b0mbardiers
+  negate: false
+  pattern: b0mbardiers
+  required: false
+  type: release_group
+- name: DEPTH
+  negate: false
+  pattern: DEPTH
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: TDD
+  negate: false
+  pattern: TDD
+  required: false
+  type: release_group
+description: Matches release groups who fall under 2160p Quality Tier 4
+name: 2160p Quality Tier 4
+tags:
+- Release Group Tier
+- 2160p
+- Quality
+tests: []

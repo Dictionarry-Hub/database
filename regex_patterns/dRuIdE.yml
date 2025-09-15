@@ -1,0 +1,6 @@
+description: ''
+name: dRuIdE
+pattern: ^(dRuIdE)$
+tags:
+- Sonarr
+tests: []

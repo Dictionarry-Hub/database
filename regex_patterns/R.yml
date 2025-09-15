@@ -1,0 +1,7 @@
+description: ''
+name: R
+pattern: ^(ROUGH|RUDE|Ryotox)$
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: AWARDS
+pattern: ^(AWARDS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

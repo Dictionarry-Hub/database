@@ -1,0 +1,7 @@
+description: ''
+name: TnF
+pattern: \b(TnF)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

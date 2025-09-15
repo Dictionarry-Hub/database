@@ -1,0 +1,7 @@
+description: ''
+name: NanDesuKa
+pattern: \b(NanDesuKa)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

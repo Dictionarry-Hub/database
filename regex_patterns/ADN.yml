@@ -1,0 +1,6 @@
+description: ''
+name: ADN
+pattern: \b(ADN)\b
+tags:
+- Sonarr
+tests: []

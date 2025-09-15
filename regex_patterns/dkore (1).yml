@@ -1,0 +1,7 @@
+description: ''
+name: dkore
+pattern: (?<=^|[\s.-])dkore\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

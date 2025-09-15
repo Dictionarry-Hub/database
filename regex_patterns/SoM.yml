@@ -1,0 +1,8 @@
+description: ''
+name: SoM
+pattern: \[SoM\]|-SoM\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

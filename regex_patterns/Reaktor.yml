@@ -1,0 +1,7 @@
+description: ''
+name: Reaktor
+pattern: \b(Reaktor)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,23 @@
+conditions:
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: Funimation
+  negate: false
+  pattern: Funimation
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: FUNi
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

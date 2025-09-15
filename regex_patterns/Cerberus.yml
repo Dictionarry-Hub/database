@@ -1,0 +1,7 @@
+description: ''
+name: Cerberus
+pattern: \[Cerberus\]|-Cerberus\b
+tags:
+- Radarr
+- Sonarr
+tests: []

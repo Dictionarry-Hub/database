@@ -1,0 +1,11 @@
+conditions:
+- name: Season Pack
+  negate: false
+  releaseType: season_pack
+  required: true
+  type: release_type
+description: Matches Season Pack Release Type on Sonarr
+name: Season Pack
+tags:
+- Enhancements
+tests: []

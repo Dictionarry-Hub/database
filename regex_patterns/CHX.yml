@@ -1,0 +1,6 @@
+description: ''
+name: CHX
+pattern: ^(CHX)$
+tags:
+- Sonarr
+tests: []

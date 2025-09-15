@@ -1,0 +1,7 @@
+description: ''
+name: Owlolf
+pattern: \b(Owlolf)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

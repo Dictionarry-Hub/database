@@ -1,0 +1,8 @@
+description: ''
+name: SCY
+pattern: \b(SCY)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

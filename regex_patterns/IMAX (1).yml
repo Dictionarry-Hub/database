@@ -1,0 +1,6 @@
+description: ''
+name: IMAX
+pattern: \b((?<!NON[ ._-])IMAX)\b
+tags:
+- Radarr
+tests: []

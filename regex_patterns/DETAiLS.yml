@@ -1,0 +1,7 @@
+description: ''
+name: DETAiLS
+pattern: ^(DETAiLS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

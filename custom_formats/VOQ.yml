@@ -1,0 +1,12 @@
+conditions:
+- name: Quebec Original Version
+  negate: false
+  pattern: Quebec Original Version
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: VOQ
+tags:
+- Release Title
+- TRaSH
+tests: []

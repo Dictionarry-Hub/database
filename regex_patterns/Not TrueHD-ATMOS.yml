@@ -1,0 +1,15 @@
+description: ''
+name: Not TrueHD-ATMOS
+pattern: True[ .-]?HD|\bATMOS(\b|\d)
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

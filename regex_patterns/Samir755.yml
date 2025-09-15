@@ -1,0 +1,7 @@
+description: ''
+name: Samir755
+pattern: \b(Samir755)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

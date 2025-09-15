@@ -1,0 +1,13 @@
+conditions:
+- name: Year in Brackets
+  negate: false
+  pattern: Bracketed Year
+  required: true
+  type: release_title
+description: Matches patterns unique to the UHDBits indexer. Needed to remove remux
+  based releases due to bad parsing
+name: UHDBits
+tags:
+- Private Tracker
+- Enhancements
+tests: []

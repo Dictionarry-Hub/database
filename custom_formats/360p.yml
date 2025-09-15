@@ -1,0 +1,15 @@
+conditions:
+- name: 360p
+  negate: false
+  required: true
+  resolution: 360p
+  type: resolution
+description: Low resolution video format typically used in older or highly compressed
+  content.
+name: 360p
+tags:
+- Standard Definition
+- Mobile
+- Legacy
+- Resolution
+tests: []

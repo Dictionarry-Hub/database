@@ -1,0 +1,18 @@
+description: ''
+name: Not AAC
+pattern: \bAAC(\b|\d)
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

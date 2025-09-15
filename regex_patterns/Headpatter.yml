@@ -1,0 +1,7 @@
+description: ''
+name: Headpatter
+pattern: \[Headpatter\]|-Headpatter\b
+tags:
+- Radarr
+- Sonarr
+tests: []

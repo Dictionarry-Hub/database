@@ -1,0 +1,17 @@
+conditions:
+- name: 10bit
+  negate: false
+  pattern: 10bit
+  required: false
+  type: release_title
+- name: hi10p
+  negate: false
+  pattern: hi10p
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: 10bit
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: uP
+pattern: \[uP\]
+tags:
+- Radarr
+- Sonarr
+tests: []

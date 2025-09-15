@@ -1,0 +1,6 @@
+description: ''
+name: Zero00
+pattern: ^(Zero00)$
+tags:
+- Sonarr
+tests: []

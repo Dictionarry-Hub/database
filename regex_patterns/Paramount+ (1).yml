@@ -1,0 +1,6 @@
+description: ''
+name: Paramount+
+pattern: \b(pmtp|Paramount Plus)\b
+tags:
+- Radarr
+tests: []

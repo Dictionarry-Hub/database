@@ -1,0 +1,6 @@
+description: ''
+name: DEEP
+pattern: ^(DEEP)$
+tags:
+- Sonarr
+tests: []

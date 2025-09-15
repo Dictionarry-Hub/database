@@ -1,0 +1,7 @@
+description: ''
+name: Natsumi-no-Sekai
+pattern: \b(Natsumi[ .-]?no[ .-]?Sekai)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

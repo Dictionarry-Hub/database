@@ -1,0 +1,7 @@
+description: ''
+name: cXcY
+pattern: (?<=^|[\s.-])cXcY\b
+tags:
+- Release Group
+- Bluray
+tests: []

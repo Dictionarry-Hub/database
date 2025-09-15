@@ -1,0 +1,7 @@
+description: ''
+name: TeeWee
+pattern: \b(TeeWee)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

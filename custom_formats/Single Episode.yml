@@ -1,0 +1,12 @@
+conditions:
+- name: Single Episode
+  negate: false
+  releaseType: single_episode
+  required: false
+  type: release_type
+description: '[Custom format from TRaSH-Guides.]'
+name: Single Episode
+tags:
+- Release Type
+- TRaSH
+tests: []

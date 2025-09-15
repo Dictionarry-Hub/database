@@ -1,0 +1,7 @@
+description: ''
+name: TENEIGHTY
+pattern: \b(TENEIGHTY)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

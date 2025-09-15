@@ -1,0 +1,12 @@
+conditions:
+- name: FastSUB
+  negate: false
+  pattern: FastSUB
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: FastSUB
+tags:
+- Release Title
+- TRaSH
+tests: []

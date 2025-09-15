@@ -1,0 +1,6 @@
+description: ''
+name: C1NEM4
+pattern: ^(C1NEM4)$
+tags:
+- Radarr
+tests: []

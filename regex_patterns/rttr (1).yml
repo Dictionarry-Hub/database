@@ -1,0 +1,7 @@
+description: ''
+name: rttr
+pattern: (?<=^|[\s.-])rttr\b
+tags:
+- Release Group
+- Bluray
+tests: []

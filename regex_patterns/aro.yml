@@ -1,0 +1,7 @@
+description: ''
+name: aro
+pattern: \b(aro)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

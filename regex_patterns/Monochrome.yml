@@ -1,0 +1,6 @@
+description: ''
+name: Monochrome
+pattern: (?<=\b[12]\d{3}\b).*\b(Monochrome)\b(?!$)
+tags:
+- Radarr
+tests: []

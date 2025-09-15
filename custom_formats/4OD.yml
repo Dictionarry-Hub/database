@@ -1,0 +1,23 @@
+conditions:
+- name: 4OD
+  negate: false
+  pattern: 4OD
+  required: true
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: 4OD
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

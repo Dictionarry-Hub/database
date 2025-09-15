@@ -1,0 +1,8 @@
+description: ''
+name: Baws
+pattern: \b(Baws)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

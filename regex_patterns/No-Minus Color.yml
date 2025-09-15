@@ -1,0 +1,6 @@
+description: ''
+name: No-Minus Color
+pattern: (?<=\b[12]\d{3}\b).*\b((No|Minus)[ ._-]?Colou?r)\b(?!$)
+tags:
+- Radarr
+tests: []

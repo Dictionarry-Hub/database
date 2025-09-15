@@ -1,0 +1,7 @@
+description: ''
+name: P0W4HD
+pattern: (?<=^|[\s.-])P0W4HD\b
+tags:
+- Release Group
+- Bluray
+tests: []

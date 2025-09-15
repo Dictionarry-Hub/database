@@ -1,0 +1,7 @@
+description: ''
+name: KushEnthusiast
+pattern: \b(KushEnthusiast)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Spirale
+pattern: \b(Spirale)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

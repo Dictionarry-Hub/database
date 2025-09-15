@@ -1,0 +1,6 @@
+description: ''
+name: DTS Basic
+pattern: DTS[ .]?[1-9]
+tags:
+- Audio
+tests: []

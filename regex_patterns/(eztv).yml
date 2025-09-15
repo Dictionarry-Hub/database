@@ -1,0 +1,7 @@
+description: ''
+name: (eztv)
+pattern: \[eztvx?[ ._-]?(io|re|to)?\]
+tags:
+- Radarr
+- Sonarr
+tests: []

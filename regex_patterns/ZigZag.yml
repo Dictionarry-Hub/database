@@ -1,0 +1,7 @@
+description: ''
+name: ZigZag
+pattern: "\\[ZigZag\\]|-ZigZab\b"
+tags:
+- Radarr
+- Sonarr
+tests: []

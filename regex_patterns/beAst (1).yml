@@ -1,0 +1,6 @@
+description: ''
+name: beAst
+pattern: ^(beAst)$
+tags:
+- Radarr
+tests: []

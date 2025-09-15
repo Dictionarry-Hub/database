@@ -1,0 +1,22 @@
+conditions:
+- name: MA Regex
+  negate: false
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: Matches 'Movies Anywhere' WEB-DLs. Negates any encodes.
+name: MA
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: N
+pattern: ^(NERDHD|NERO|NrZ|NTK)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: EDGE
+pattern: \[EDGE\]|-EDGE\b
+tags:
+- Radarr
+- Sonarr
+tests: []

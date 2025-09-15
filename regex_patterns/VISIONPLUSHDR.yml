@@ -1,0 +1,6 @@
+description: ''
+name: VISIONPLUSHDR
+pattern: ^(VISIONPLUSHDR(-X|1000)?)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,12 @@
+conditions:
+- name: HDR10+
+  negate: false
+  pattern: HDR10+
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: HDR10+ Boost
+tags:
+- Release Title
+- TRaSH
+tests: []

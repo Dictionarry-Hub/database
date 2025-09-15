@@ -1,0 +1,6 @@
+description: ''
+name: Not HDR
+pattern: \bHDR(\b|\d)
+tags:
+- TRaSH
+tests: []

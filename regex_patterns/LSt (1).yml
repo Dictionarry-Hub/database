@@ -1,0 +1,7 @@
+description: ''
+name: LSt
+pattern: (?<=^|[\s.-])LSt\b
+tags:
+- Release Group
+- HEVC
+tests: []

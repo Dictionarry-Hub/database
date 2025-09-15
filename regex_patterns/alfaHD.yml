@@ -1,0 +1,7 @@
+description: ''
+name: alfaHD
+pattern: ^(alfaHD.*)$
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: WMING
+pattern: (?<=^|[\s.-])WMING\b
+tags:
+- Release Group
+- Bluray
+tests: []

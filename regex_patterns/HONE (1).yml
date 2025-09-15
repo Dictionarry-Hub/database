@@ -1,0 +1,7 @@
+description: ''
+name: HONE
+pattern: ^(HONE)$
+tags:
+- Radarr
+- Sonarr
+tests: []

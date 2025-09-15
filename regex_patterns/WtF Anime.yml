@@ -1,0 +1,7 @@
+description: ''
+name: WtF Anime
+pattern: \b(WtF[ ._-]?Anime)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

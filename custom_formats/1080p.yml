@@ -1,0 +1,12 @@
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+description: Full high definition resolution providing sharp detail and clarity.
+name: 1080p
+tags:
+- Full High Definition
+- Resolution
+tests: []

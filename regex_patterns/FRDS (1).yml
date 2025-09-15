@@ -1,0 +1,6 @@
+description: ''
+name: FRDS
+pattern: ^(FRDS)$
+tags:
+- Radarr
+tests: []

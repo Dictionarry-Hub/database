@@ -1,0 +1,25 @@
+description: ''
+name: PTerWEB
+pattern: (?<=^|[\s.-])PTerWEB\b
+tags:
+- Release Group
+- WEB-DL
+tests:
+- expected: true
+  id: 1
+  input: "\u7BB1\u7537.Hako.otoko.2024.1080p.NF.WEB-DL.x264.DDP5.1-PTerWEB"
+  lastRun: '2025-02-09T03:36:19.441066'
+  matchSpan:
+    end: 54
+    start: 47
+  matchedContent: PTerWEB
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Ying.Hung.Boon.Sik.1986.REPACK.1080p.UHD.BluRay.DD+7.1.DoVi.HDR10.x265-PTer
+  lastRun: '2025-02-09T03:36:19.441066'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

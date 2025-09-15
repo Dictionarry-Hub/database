@@ -1,0 +1,7 @@
+description: ''
+name: DragsterPS
+pattern: \b(DragsterPS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

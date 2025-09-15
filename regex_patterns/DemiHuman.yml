@@ -1,0 +1,7 @@
+description: ''
+name: DemiHuman
+pattern: \[DemiHuman\]|-DemiHuman\b
+tags:
+- Radarr
+- Sonarr
+tests: []

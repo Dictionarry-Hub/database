@@ -1,0 +1,7 @@
+description: Banned for Poor Quality Multi
+name: NAHOM
+pattern: (?<=^|[\s.-])NAHOM\b
+tags:
+- Release Group
+- Banned
+tests: []

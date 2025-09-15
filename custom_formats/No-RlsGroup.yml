@@ -1,0 +1,12 @@
+conditions:
+- name: No Parsed Group
+  negate: true
+  pattern: No Parsed Group
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: No-RlsGroup
+tags:
+- Release Group
+- TRaSH
+tests: []

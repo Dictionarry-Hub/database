@@ -1,0 +1,7 @@
+description: ''
+name: ENDSTATiON
+pattern: ^(ENDSTATiON)$
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: hdalx
+pattern: (?<=^|[\s.-])hdalx\b
+tags:
+- Release Group
+- Bluray
+tests: []

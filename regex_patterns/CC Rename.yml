@@ -1,0 +1,6 @@
+description: ''
+name: CC Rename
+pattern: \[(CC)\b|\b(CC)\]
+tags:
+- Sonarr
+tests: []

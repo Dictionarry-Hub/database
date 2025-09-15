@@ -1,0 +1,68 @@
+conditions:
+- name: BlueLobster
+  negate: false
+  pattern: BlueLobster
+  required: false
+  type: release_title
+- name: Erai-Raws
+  negate: false
+  pattern: Erai-Raws
+  required: false
+  type: release_title
+- name: GST
+  negate: false
+  pattern: GST
+  required: false
+  type: release_title
+- name: HorribleRips
+  negate: false
+  pattern: HorribleRips
+  required: false
+  type: release_title
+- name: HorribleSubs
+  negate: false
+  pattern: HorribleSubs
+  required: false
+  type: release_title
+- name: KAN3D2M
+  negate: false
+  pattern: KAN3D2M
+  required: false
+  type: release_title
+- name: KiyoshiStar
+  negate: false
+  pattern: KiyoshiStar
+  required: false
+  type: release_title
+- name: Lia
+  negate: false
+  pattern: Lia
+  required: false
+  type: release_title
+- name: NanDesuKa
+  negate: false
+  pattern: NanDesuKa
+  required: false
+  type: release_title
+- name: URANIME
+  negate: false
+  pattern: URANIME
+  required: false
+  type: release_title
+- name: VARYG
+  negate: false
+  pattern: VARYG
+  required: false
+  type: release_title
+- name: ZigZag
+  negate: false
+  pattern: ZigZag
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime Web Tier 04 (Official Subs)
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

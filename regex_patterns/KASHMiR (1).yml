@@ -1,0 +1,7 @@
+description: ''
+name: KASHMiR
+pattern: (?<=^|[\s.-])KASHMiR\b
+tags:
+- Release Group
+- Bluray
+tests: []

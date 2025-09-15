@@ -1,0 +1,6 @@
+description: ''
+name: SAViOURHD
+pattern: ^(SAViOURHD)$
+tags:
+- Radarr
+tests: []

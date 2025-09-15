@@ -1,0 +1,7 @@
+description: ''
+name: Scriptum
+pattern: \b(Scriptum)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: MarkII
+pattern: ^(MarkII)$
+tags:
+- Radarr
+tests: []

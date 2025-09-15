@@ -1,0 +1,17 @@
+conditions:
+- name: x265
+  negate: false
+  pattern: x|h265
+  required: true
+  type: release_title
+- name: Dolby Vision with HDR10 Fallback
+  negate: false
+  pattern: DV With HDR10 fallback
+  required: true
+  type: release_title
+description: ''
+name: Dolby Vision with HDR10 Fallback
+tags:
+- Sonarr
+- Radarr
+tests: []

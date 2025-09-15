@@ -1,0 +1,6 @@
+description: ''
+name: RiffTrax
+pattern: ^(Rifftrax)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,149 @@
+custom_formats:
+- name: Anime BD Tier 01 (Top SeaDex Muxers)
+  score: 1400
+- name: Anime BD Tier 02 (SeaDex Muxers)
+  score: 1300
+- name: Anime BD Tier 03 (SeaDex Muxers)
+  score: 1200
+- name: Anime BD Tier 04 (SeaDex Muxers)
+  score: 1100
+- name: Remux Tier 01
+  score: 1050
+- name: Anime BD Tier 05 (Remuxes)
+  score: 1000
+- name: Remux Tier 02
+  score: 1000
+- name: Anime BD Tier 06 (FanSubs)
+  score: 900
+- name: Anime BD Tier 07 (P2P-Scene)
+  score: 800
+- name: Anime Web Tier 01 (Muxers)
+  score: 600
+- name: Anime Web Tier 02 (Top FanSubs)
+  score: 500
+- name: Anime Web Tier 03 (Official Subs)
+  score: 400
+- name: Anime Web Tier 03 (FanSubs)
+  score: 350
+- name: WEB Tier 01
+  score: 350
+- name: Anime Web Tier 04 (Official Subs)
+  score: 300
+- name: WEB Tier 02
+  score: 250
+- name: Anime Web Tier 05 (FanSubs)
+  score: 200
+- name: WEB Tier 03
+  score: 150
+- name: Anime Web Tier 06 (FanSubs)
+  score: 100
+- name: 10bit
+  score: 20
+- name: CR
+  score: 6
+- name: DSNP
+  score: 5
+- name: NF
+  score: 4
+- name: v4
+  score: 4
+- name: AMZN
+  score: 3
+- name: Repack3
+  score: 3
+- name: v3
+  score: 3
+- name: VRV
+  score: 3
+- name: FUNi
+  score: 2
+- name: Repack2
+  score: 2
+- name: v2
+  score: 2
+- name: ABEMA
+  score: 1
+- name: ADN
+  score: 1
+- name: Repack1
+  score: 1
+- name: v1
+  score: 1
+- name: Anime Dual Audio
+  score: 0
+- name: B-Global
+  score: 0
+- name: Bilibili
+  score: 0
+- name: HIDIVE
+  score: 0
+- name: Anime Raws
+  score: -500
+- name: Anime BD Tier 08 (Mini Encodes)
+  score: -100000
+- name: Anime LQ Groups
+  score: -100000
+custom_formats_radarr:
+- name: HD Bluray Tier 01
+  score: 850
+- name: HD Bluray Tier 02
+  score: 800
+- name: HD Bluray Tier 03
+  score: 750
+- name: 7.1 Surround
+  score: 75
+- name: 5.1 Surround
+  score: 50
+- name: Atmos
+  score: 30
+custom_formats_sonarr:
+- name: HD Bluray Tier 01
+  score: 0
+- name: HD Bluray Tier 02
+  score: 0
+- name: HD Bluray Tier 03
+  score: 0
+description: 'Choose this profile if:
+
+  - You want to watch Anime.'
+language: any
+minCustomFormatScore: 250
+minScoreIncrement: 1
+name: Anime
+qualities:
+- id: 10
+  name: Bluray-1080p
+- description: ''
+  id: -3
+  name: 1080p
+  qualities:
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+  - id: 12
+    name: HDTV-1080p
+- id: 13
+  name: Bluray-720p
+- description: ''
+  id: -2
+  name: 720p
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 16
+    name: HDTV-720p
+tags:
+- Sonarr
+- Anime
+- 1080p
+- Radarr
+- NukeZone
+upgradeUntilScore: 10000
+upgrade_until:
+  description: 1080p Blu-ray video encoded with lossy compression
+  id: 10
+  name: Bluray-1080p
+upgradesAllowed: true

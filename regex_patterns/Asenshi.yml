@@ -1,0 +1,8 @@
+description: ''
+name: Asenshi
+pattern: \b(Asenshi)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

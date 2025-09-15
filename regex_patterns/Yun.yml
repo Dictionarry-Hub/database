@@ -1,0 +1,7 @@
+description: ''
+name: Yun
+pattern: \[Yun\]|-Yun\b
+tags:
+- Radarr
+- Sonarr
+tests: []

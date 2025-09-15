@@ -1,0 +1,7 @@
+description: ''
+name: Almighty
+pattern: \[Almighty\]|-Almighty\b
+tags:
+- Radarr
+- Sonarr
+tests: []

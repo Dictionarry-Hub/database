@@ -1,0 +1,7 @@
+description: ''
+name: "Shir\u03C3"
+pattern: "\\b(Shir\u03C3)\\b"
+tags:
+- Radarr
+- Sonarr
+tests: []

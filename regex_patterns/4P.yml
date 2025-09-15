@@ -1,0 +1,7 @@
+description: ''
+name: 4P
+pattern: -4P\b
+tags:
+- Radarr
+- Sonarr
+tests: []

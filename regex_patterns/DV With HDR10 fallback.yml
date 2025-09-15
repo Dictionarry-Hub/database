@@ -1,0 +1,7 @@
+description: ''
+name: DV With HDR10 fallback
+pattern: ^(?=.*\b(dv|dovi|dolby[ .]?v(ision)?)\b)(?!(?=.*\b(WEB)\b)(?!.*\b(hulu)\b))
+tags:
+- Radarr
+- Sonarr
+tests: []

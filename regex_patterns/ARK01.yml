@@ -1,0 +1,8 @@
+description: ''
+name: ARK01
+pattern: ^(ARK01)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

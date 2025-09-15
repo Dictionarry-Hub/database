@@ -1,0 +1,42 @@
+conditions:
+- name: (rartv)
+  negate: false
+  pattern: (rartv)
+  required: false
+  type: release_title
+- name: (rarbg)
+  negate: false
+  pattern: (rarbg)
+  required: false
+  type: release_title
+- name: (eztv)
+  negate: false
+  pattern: (eztv)
+  required: false
+  type: release_title
+- name: (TGx)
+  negate: false
+  pattern: (TGx)
+  required: false
+  type: release_title
+- name: .VAV
+  negate: false
+  pattern: .VAV
+  required: false
+  type: release_title
+- name: .heb
+  negate: false
+  pattern: .heb
+  required: false
+  type: release_title
+- name: ORARBG
+  negate: false
+  pattern: ORARBG
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Retags
+tags:
+- Release Title
+- TRaSH
+tests: []

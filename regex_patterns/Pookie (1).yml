@@ -1,0 +1,7 @@
+description: ''
+name: Pookie
+pattern: \b(Pookie)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

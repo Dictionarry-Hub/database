@@ -1,0 +1,47 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: Not PQ
+  negate: true
+  pattern: PQ
+  required: true
+  type: release_title
+- name: Not HLG
+  negate: true
+  pattern: HLG
+  required: true
+  type: release_title
+- name: Not HDR
+  negate: true
+  pattern: HDR
+  required: true
+  type: release_title
+- name: Not HDR10
+  negate: true
+  pattern: HDR10
+  required: true
+  type: release_title
+- name: Not HDR10+
+  negate: true
+  pattern: HDR10+
+  required: true
+  type: release_title
+- name: Not Dolby Vision
+  negate: true
+  pattern: Dolby Vision
+  required: true
+  type: release_title
+description: Attempts to match Standard Dynamic Range by negating any known HDR formats
+name: SDR
+tags:
+- Colour Grade
+- HDR
+tests: []

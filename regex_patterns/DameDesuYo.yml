@@ -1,0 +1,7 @@
+description: ''
+name: DameDesuYo
+pattern: \b(DameDesuYo)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: WOMBAT
+pattern: ^(WOMBAT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

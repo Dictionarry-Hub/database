@@ -1,0 +1,7 @@
+description: ''
+name: ASO
+pattern: \b(ASO)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,22 @@
+conditions:
+- name: Scene Groups + Naming
+  negate: false
+  pattern: Scene Groups + Naming
+  required: true
+  type: release_title
+- name: Not INFLATE-DEFLATE
+  negate: true
+  pattern: INFLATE-DEFLATE
+  required: true
+  type: release_title
+- name: Not GERMAN
+  negate: true
+  pattern: GERMAN
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Scene
+tags:
+- Release Title
+- TRaSH
+tests: []

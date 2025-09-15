@@ -1,0 +1,7 @@
+description: ''
+name: Cunnysseur
+pattern: \b(Cunnysseur)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

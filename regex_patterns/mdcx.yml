@@ -1,0 +1,7 @@
+description: ''
+name: mdcx
+pattern: \b(mdcx)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

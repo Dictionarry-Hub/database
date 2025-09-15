@@ -1,0 +1,7 @@
+description: ''
+name: Pizza
+pattern: \[Pizza\]|-Pizza\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: TFA
+pattern: ^(TFA)$
+tags:
+- Radarr
+- Sonarr
+tests: []

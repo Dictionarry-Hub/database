@@ -1,0 +1,16 @@
+conditions:
+- name: 480p
+  negate: false
+  required: true
+  resolution: 480p
+  type: resolution
+- name: WEBRip
+  negate: false
+  required: true
+  source: webrip
+  type: source
+description: Matches 480p WEBRips.
+name: 480p WEBRip
+tags:
+- Source
+tests: []

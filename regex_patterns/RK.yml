@@ -1,0 +1,7 @@
+description: ''
+name: RK
+pattern: ^(RK)$
+tags:
+- Radarr
+- Sonarr
+tests: []

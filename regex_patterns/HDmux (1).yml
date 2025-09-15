@@ -1,0 +1,7 @@
+description: ''
+name: HDmux
+pattern: (?<=^|[\s.-])HDmux\b
+tags:
+- Release Group
+- Bluray
+tests: []

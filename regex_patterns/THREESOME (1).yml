@@ -1,0 +1,7 @@
+description: ''
+name: THREESOME
+pattern: (?<=^|[\s.-])THREESOME\b
+tags:
+- Release Group
+- Bluray
+tests: []

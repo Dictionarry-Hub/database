@@ -1,0 +1,23 @@
+conditions:
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: B-Global
+  negate: false
+  pattern: B-Global
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: B-Global
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Kanjouteki
+pattern: \b(Kanjouteki)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

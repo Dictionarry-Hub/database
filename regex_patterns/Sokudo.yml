@@ -1,0 +1,7 @@
+description: ''
+name: Sokudo
+pattern: \[Sokudo\]|-Sokudo\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: GHS
+pattern: \b(GHS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

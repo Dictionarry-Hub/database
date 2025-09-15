@@ -1,0 +1,6 @@
+description: ''
+name: 41RGB
+pattern: ^(41RGB)$
+tags:
+- Radarr
+tests: []

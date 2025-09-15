@@ -1,0 +1,7 @@
+description: ''
+name: JacobSwaggedUp
+pattern: \b(JacobSwaggedUp)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

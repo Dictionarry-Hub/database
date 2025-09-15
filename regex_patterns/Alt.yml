@@ -1,0 +1,7 @@
+description: ''
+name: Alt
+pattern: \[Alt\]|-Alt\b
+tags:
+- Radarr
+- Sonarr
+tests: []

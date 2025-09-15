@@ -1,0 +1,22 @@
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: FLUX
+  negate: false
+  pattern: FLUX
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+description: Matches release groups who fall under WEB-DL Tier 1
+name: WEB-DL Tier 1
+tags:
+- Release Group Tier
+- WEB-DL
+tests: []

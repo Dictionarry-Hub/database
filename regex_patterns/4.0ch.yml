@@ -1,0 +1,10 @@
+description: ''
+name: 4.0ch
+pattern: '[^0-9]4[ .]0\b'
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: SNSbu
+pattern: \b(SNSbu)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

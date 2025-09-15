@@ -1,0 +1,6 @@
+description: ''
+name: FiND
+pattern: ^(FiND)$
+tags:
+- Sonarr
+tests: []

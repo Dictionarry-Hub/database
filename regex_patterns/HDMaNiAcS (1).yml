@@ -1,0 +1,7 @@
+description: ''
+name: HDMaNiAcS
+pattern: (?<=^|[\s.-])HDMaNiAcS\b
+tags:
+- Release Group
+- Bluray
+tests: []

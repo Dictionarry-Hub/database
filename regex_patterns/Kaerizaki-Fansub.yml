@@ -1,0 +1,7 @@
+description: ''
+name: Kaerizaki-Fansub
+pattern: \b(Kaerizaki[ .-]?Fansub)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

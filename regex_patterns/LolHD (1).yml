@@ -1,0 +1,6 @@
+description: ''
+name: LolHD
+pattern: ^(LolHD)$
+tags:
+- Radarr
+tests: []

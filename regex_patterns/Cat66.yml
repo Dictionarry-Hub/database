@@ -1,0 +1,7 @@
+description: ''
+name: Cat66
+pattern: \b(Cat66)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

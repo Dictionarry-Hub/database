@@ -1,0 +1,6 @@
+description: ''
+name: HIDIVE
+pattern: \b(HIDI(VE)?)\b
+tags:
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Funimation
+pattern: \b(FUNi(mation)?)\b
+tags:
+- Sonarr
+tests: []

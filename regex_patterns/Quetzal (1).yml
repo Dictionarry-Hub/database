@@ -1,0 +1,7 @@
+description: ''
+name: Quetzal
+pattern: \b(Quetzal)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

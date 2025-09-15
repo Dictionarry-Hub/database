@@ -1,0 +1,7 @@
+description: ''
+name: SLiGNOME
+pattern: ^(SLiGNOME)$
+tags:
+- Radarr
+- Sonarr
+tests: []

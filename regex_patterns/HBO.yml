@@ -1,0 +1,7 @@
+description: ''
+name: HBO
+pattern: \b(hbo)(?![ ._-]max)\b(?=[ ._-]web[ ._-]?(dl|rip)\b)
+tags:
+- Radarr
+- Sonarr
+tests: []

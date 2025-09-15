@@ -1,0 +1,7 @@
+description: ''
+name: NZBGeek
+pattern: -NZBGeek\b
+tags:
+- Radarr
+- Sonarr
+tests: []

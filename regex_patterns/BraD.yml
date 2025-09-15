@@ -1,0 +1,6 @@
+description: ''
+name: BraD
+pattern: ^(BraD)$
+tags:
+- Sonarr
+tests: []

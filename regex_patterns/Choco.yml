@@ -1,0 +1,6 @@
+description: ''
+name: Choco
+pattern: ^(Choco)$
+tags:
+- Radarr
+tests: []

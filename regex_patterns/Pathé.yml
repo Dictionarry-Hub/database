@@ -1,0 +1,6 @@
+description: ''
+name: "Path\xE9"
+pattern: \b(Pathe)\b
+tags:
+- Radarr
+tests: []

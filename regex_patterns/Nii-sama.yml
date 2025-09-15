@@ -1,0 +1,7 @@
+description: ''
+name: Nii-sama
+pattern: \[Nii-sama\]|-Nii-sama\b
+tags:
+- Radarr
+- Sonarr
+tests: []

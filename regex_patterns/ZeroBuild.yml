@@ -1,0 +1,8 @@
+description: ''
+name: ZeroBuild
+pattern: \b(ZeroBuild)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

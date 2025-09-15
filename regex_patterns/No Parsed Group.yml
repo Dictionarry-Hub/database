@@ -1,0 +1,7 @@
+description: ''
+name: No Parsed Group
+pattern: .
+tags:
+- Radarr
+- Sonarr
+tests: []

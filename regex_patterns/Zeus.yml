@@ -1,0 +1,6 @@
+description: ''
+name: Zeus
+pattern: ^(Zeus)$
+tags:
+- Radarr
+tests: []

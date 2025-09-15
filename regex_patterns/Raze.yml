@@ -1,0 +1,7 @@
+description: ''
+name: Raze
+pattern: \[Raze\]|-Raze\b
+tags:
+- Radarr
+- Sonarr
+tests: []

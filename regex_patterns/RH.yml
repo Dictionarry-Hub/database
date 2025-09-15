@@ -1,0 +1,7 @@
+description: ''
+name: RH
+pattern: \b(RH)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

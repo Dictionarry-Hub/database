@@ -1,0 +1,38 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: CtrlHD
+  negate: false
+  pattern: CtrlHD
+  required: false
+  type: release_group
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
+  required: false
+  type: release_group
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+description: Matches release groups who fall under 2160p Quality Tier 1
+name: 2160p Quality Tier 1
+tags:
+- Release Group Tier
+- 2160p
+- Quality
+tests: []

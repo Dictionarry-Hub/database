@@ -1,0 +1,7 @@
+description: ''
+name: ENCOUNTERS
+pattern: ^(ENCOUNTERS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

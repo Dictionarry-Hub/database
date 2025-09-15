@@ -1,0 +1,7 @@
+description: ''
+name: PAS
+pattern: \b(PAS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

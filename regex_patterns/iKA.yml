@@ -1,0 +1,6 @@
+description: ''
+name: iKA
+pattern: ^(iKA)$
+tags:
+- Sonarr
+tests: []

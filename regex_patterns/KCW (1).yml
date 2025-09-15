@@ -1,0 +1,10 @@
+description: Kocowa is an American over-the-top streaming service headquartered in
+  Los Angeles as a joint venture between the top three Korean broadcast networks to
+  provide Korean entertainment including K-dramas, K-reality, K-variety, and K-pop
+  to the Americas and all with multi-language subtitles.
+name: KCW
+pattern: \b(KCW|Kocowa)\b
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

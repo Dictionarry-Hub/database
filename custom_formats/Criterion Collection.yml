@@ -1,0 +1,34 @@
+conditions:
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: DVD
+  negate: false
+  required: false
+  source: dvd
+  type: source
+- name: Criterion
+  negate: false
+  pattern: Criterion
+  required: false
+  type: release_title
+- name: CC
+  negate: false
+  pattern: CC
+  required: false
+  type: release_title
+- name: Not Criterion RlsGrp
+  negate: true
+  pattern: Criterion RlsGrp
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: Criterion Collection
+tags:
+- Release Group
+- Release Title
+- Source
+- TRaSH
+tests: []

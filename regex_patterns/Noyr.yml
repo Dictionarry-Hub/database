@@ -1,0 +1,7 @@
+description: ''
+name: Noyr
+pattern: \b(Noyr)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

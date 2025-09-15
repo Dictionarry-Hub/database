@@ -1,0 +1,6 @@
+description: ''
+name: Grayscale
+pattern: (?<=\b[12]\d{3}\b).*\b(Gr[ae]y([ ._-]?(scale))?)\b(?!$)
+tags:
+- Radarr
+tests: []

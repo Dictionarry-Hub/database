@@ -1,0 +1,7 @@
+description: ''
+name: MC
+pattern: \b(MC)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

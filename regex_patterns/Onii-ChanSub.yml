@@ -1,0 +1,7 @@
+description: ''
+name: Onii-ChanSub
+pattern: \b(Onii[ .-]?ChanSub)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

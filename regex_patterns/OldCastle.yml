@@ -1,0 +1,7 @@
+description: ''
+name: OldCastle
+pattern: \b(OldCastle)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

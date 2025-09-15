@@ -1,0 +1,42 @@
+conditions:
+- name: DV With HDR10 fallback
+  negate: false
+  pattern: DV With HDR10 fallback
+  required: false
+  type: release_title
+- name: HDR
+  negate: false
+  pattern: HDR
+  required: false
+  type: release_title
+- name: HDR10
+  negate: false
+  pattern: HDR10
+  required: false
+  type: release_title
+- name: HDR10+
+  negate: false
+  pattern: HDR10+
+  required: false
+  type: release_title
+- name: HLG
+  negate: false
+  pattern: HLG
+  required: false
+  type: release_title
+- name: PQ
+  negate: false
+  pattern: PQ
+  required: false
+  type: release_title
+- name: RlsGrp (Missing HDR)
+  negate: false
+  pattern: RlsGrp (Missing HDR)
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: HDR
+tags:
+- Release Title
+- TRaSH
+tests: []

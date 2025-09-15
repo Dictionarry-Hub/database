@@ -1,0 +1,6 @@
+description: ''
+name: POE
+pattern: (POE)$
+tags:
+- Radarr
+tests: []

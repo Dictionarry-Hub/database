@@ -1,0 +1,12 @@
+conditions:
+- name: Open Matte
+  negate: false
+  pattern: Open Matte
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Open Matte
+tags:
+- Release Title
+- TRaSH
+tests: []

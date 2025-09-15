@@ -1,0 +1,7 @@
+description: ''
+name: NINJACENTRAL
+pattern: ^(NINJACENTRAL)$
+tags:
+- Radarr
+- Sonarr
+tests: []

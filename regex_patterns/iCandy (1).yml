@@ -1,0 +1,7 @@
+description: ''
+name: iCandy
+pattern: (?<=^|[\s.-])iCandy\b
+tags:
+- Release Group
+- Bluray
+tests: []

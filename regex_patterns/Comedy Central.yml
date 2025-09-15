@@ -1,0 +1,6 @@
+description: ''
+name: Comedy Central
+pattern: \b(CC)\b[ ._-]web[ ._-]?(dl|rip)?\b
+tags:
+- Sonarr
+tests: []

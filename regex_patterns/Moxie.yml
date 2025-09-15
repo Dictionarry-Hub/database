@@ -1,0 +1,7 @@
+description: ''
+name: Moxie
+pattern: \[Moxie\]|-Moxie\b
+tags:
+- Radarr
+- Sonarr
+tests: []

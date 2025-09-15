@@ -1,0 +1,7 @@
+description: ''
+name: Rerip
+pattern: \b(Rerip)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

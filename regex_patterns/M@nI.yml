@@ -1,0 +1,7 @@
+description: ''
+name: M@nI
+pattern: \b(M@nI)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

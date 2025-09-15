@@ -1,0 +1,7 @@
+description: ''
+name: GJM
+pattern: \b(GJM)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

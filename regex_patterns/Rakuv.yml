@@ -1,0 +1,7 @@
+description: ''
+name: Rakuv
+pattern: -Rakuv\b
+tags:
+- Radarr
+- Sonarr
+tests: []

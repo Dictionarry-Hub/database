@@ -1,0 +1,7 @@
+description: ''
+name: AceAres
+pattern: \b(AceAres)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

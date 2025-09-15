@@ -1,0 +1,16 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEBRip
+  negate: false
+  required: true
+  source: webrip
+  type: source
+description: Matches 2160p WEBRips.
+name: 2160p WEBRip
+tags:
+- Source
+tests: []

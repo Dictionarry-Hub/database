@@ -1,0 +1,7 @@
+description: ''
+name: MD
+pattern: \[MD\]|-MD\b
+tags:
+- Radarr
+- Sonarr
+tests: []

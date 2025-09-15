@@ -1,0 +1,6 @@
+description: ''
+name: ROMKENT
+pattern: ^(ROMKENT)$
+tags:
+- Radarr
+tests: []

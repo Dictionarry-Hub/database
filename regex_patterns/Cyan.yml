@@ -1,0 +1,7 @@
+description: ''
+name: Cyan
+pattern: \[Cyan\]|-Cyan\b
+tags:
+- Radarr
+- Sonarr
+tests: []

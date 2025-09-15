@@ -1,0 +1,7 @@
+description: ''
+name: Exiled-Destiny
+pattern: \b(Exiled-Destiny|E-D)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

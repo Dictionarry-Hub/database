@@ -1,0 +1,7 @@
+description: ''
+name: Good Job! Alexis
+pattern: \b(Good[ .-]?(Job|Rip|Sub)!?[ .-]?Alexis)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

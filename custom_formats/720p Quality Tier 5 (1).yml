@@ -1,0 +1,89 @@
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Chotab
+  negate: false
+  pattern: Chotab
+  required: false
+  type: release_group
+- name: EDPH
+  negate: false
+  pattern: EDPH
+  required: false
+  type: release_group
+- name: E.N.D
+  negate: false
+  pattern: E.N.D
+  required: false
+  type: release_group
+- name: ESiR
+  negate: false
+  pattern: ESiR
+  required: false
+  type: release_group
+- name: HDMaNiAcS
+  negate: false
+  pattern: HDMaNiAcS
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: KASHMiR
+  negate: false
+  pattern: KASHMiR
+  required: false
+  type: release_group
+- name: MTeam
+  negate: false
+  pattern: MTeam
+  required: false
+  type: release_group
+- name: nmd
+  negate: false
+  pattern: nmd
+  required: false
+  type: release_group
+- name: NyHD
+  negate: false
+  pattern: NyHD
+  required: false
+  type: release_group
+- name: ORiGEN
+  negate: false
+  pattern: ORiGEN
+  required: false
+  type: release_group
+- name: playHD
+  negate: false
+  pattern: playHD
+  required: false
+  type: release_group
+- name: SA89
+  negate: false
+  pattern: SA89
+  required: false
+  type: release_group
+- name: SaNcTi
+  negate: false
+  pattern: SaNcTi
+  required: false
+  type: release_group
+description: Matches release groups who fall under 720p Quality Tier 5
+name: 720p Quality Tier 5
+tags:
+- GPPi
+- Release Group Tier
+- 720p
+- Quality
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: micius
+pattern: (?<=^|[\s.-])micius\b
+tags:
+- Release Group
+- Bluray
+tests: []

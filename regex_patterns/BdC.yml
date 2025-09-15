@@ -1,0 +1,6 @@
+description: ''
+name: BdC
+pattern: ^(BdC)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: xiao-av1
+pattern: \b(xiao-av1)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

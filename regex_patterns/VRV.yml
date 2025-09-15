@@ -1,0 +1,6 @@
+description: ''
+name: VRV
+pattern: \b(vrv)\b
+tags:
+- Radarr
+tests: []

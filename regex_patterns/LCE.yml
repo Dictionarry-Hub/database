@@ -1,0 +1,7 @@
+description: ''
+name: LCE
+pattern: \b(LCE)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

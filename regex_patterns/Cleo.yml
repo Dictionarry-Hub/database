@@ -1,0 +1,7 @@
+description: ''
+name: Cleo
+pattern: \[Cleo\]|-Cleo
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: CAPTCHA
+pattern: -CAPTCHA\b
+tags:
+- Radarr
+- Sonarr
+tests: []

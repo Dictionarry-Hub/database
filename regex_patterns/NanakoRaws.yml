@@ -1,0 +1,7 @@
+description: ''
+name: NanakoRaws
+pattern: Nanako[ ._-]?(Raws)
+tags:
+- Radarr
+- Sonarr
+tests: []

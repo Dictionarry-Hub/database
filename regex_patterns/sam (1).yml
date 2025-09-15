@@ -1,0 +1,8 @@
+description: ''
+name: sam
+pattern: \[sam\]|-sam\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

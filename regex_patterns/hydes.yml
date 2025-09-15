@@ -1,0 +1,7 @@
+description: ''
+name: hydes
+pattern: \b(hydes)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

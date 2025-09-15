@@ -1,0 +1,7 @@
+description: ''
+name: E.N.D
+pattern: \b(E[.-]N[.-]D)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

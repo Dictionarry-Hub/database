@@ -1,0 +1,7 @@
+description: ''
+name: Videoland
+pattern: \b(vdl|Videoland)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

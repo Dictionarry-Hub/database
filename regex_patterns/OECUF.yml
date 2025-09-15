@@ -1,0 +1,7 @@
+description: ''
+name: OECUF
+pattern: \b(OECUF)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

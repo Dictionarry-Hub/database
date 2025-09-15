@@ -1,0 +1,17 @@
+conditions:
+- name: IMAX
+  negate: false
+  pattern: IMAX
+  required: true
+  type: release_title
+- name: 'NOT: IMAX Enhanced'
+  negate: true
+  pattern: IMAX Enhanced
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: IMAX
+tags:
+- Release Title
+- TRaSH
+tests: []

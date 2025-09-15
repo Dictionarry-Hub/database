@@ -1,0 +1,7 @@
+description: ''
+name: BUYMORE
+pattern: -BUYMORE\b
+tags:
+- Radarr
+- Sonarr
+tests: []

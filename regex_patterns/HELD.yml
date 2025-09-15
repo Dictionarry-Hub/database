@@ -1,0 +1,6 @@
+description: ''
+name: HELD
+pattern: (HELD)$
+tags:
+- Radarr
+tests: []

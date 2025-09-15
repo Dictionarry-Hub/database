@@ -1,0 +1,7 @@
+description: ''
+name: Bunny-Apocalypse
+pattern: \b(Bunny-Apocalypse)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

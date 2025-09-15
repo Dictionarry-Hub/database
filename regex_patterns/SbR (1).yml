@@ -1,0 +1,7 @@
+description: ''
+name: SbR
+pattern: ^(SbR)$
+tags:
+- Radarr
+- Sonarr
+tests: []

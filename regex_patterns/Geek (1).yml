@@ -1,0 +1,6 @@
+description: ''
+name: Geek
+pattern: ^(Geek)$
+tags:
+- Radarr
+tests: []

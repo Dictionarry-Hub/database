@@ -1,0 +1,6 @@
+description: ''
+name: nSD
+pattern: ^(nSD)$
+tags:
+- Radarr
+tests: []

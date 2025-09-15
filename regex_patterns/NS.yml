@@ -1,0 +1,7 @@
+description: ''
+name: NS
+pattern: \b(NS)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

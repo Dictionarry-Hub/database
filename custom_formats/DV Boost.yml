@@ -1,0 +1,12 @@
+conditions:
+- name: DV
+  negate: false
+  pattern: Dolby Vision
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: DV Boost
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: NTRM
+pattern: \b(NTRM)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

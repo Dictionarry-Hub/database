@@ -1,0 +1,7 @@
+description: ''
+name: Not HDR-DV
+pattern: \b(dv|dovi|dolby[ .]?v(ision)?|hdr(10(P(lus)?)?)?|pq)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

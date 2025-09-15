@@ -1,0 +1,7 @@
+description: ''
+name: R1GY3B
+pattern: (?<=^|[\s.-])R1GY3B\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

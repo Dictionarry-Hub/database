@@ -1,0 +1,7 @@
+description: ''
+name: RiPER
+pattern: ^(RiPER)$
+tags:
+- Radarr
+- Sonarr
+tests: []

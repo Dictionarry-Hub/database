@@ -1,0 +1,7 @@
+description: ''
+name: Plex Friendly
+pattern: \b(Plex[ .-]?Friendly)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

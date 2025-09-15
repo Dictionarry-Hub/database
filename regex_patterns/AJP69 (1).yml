@@ -1,0 +1,7 @@
+description: ''
+name: AJP69
+pattern: ^(AJP69)$
+tags:
+- Radarr
+- Sonarr
+tests: []

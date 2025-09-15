@@ -1,0 +1,29 @@
+conditions:
+- name: CRiT
+  negate: false
+  pattern: CRiT
+  required: true
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: Not Criterion RlsGrp
+  negate: true
+  pattern: Criterion RlsGrp
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: CRiT
+tags:
+- Release Group
+- Release Title
+- Source
+- TRaSH
+tests: []

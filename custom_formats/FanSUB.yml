@@ -1,0 +1,12 @@
+conditions:
+- name: FanSUB
+  negate: false
+  pattern: FanSUB
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: FanSUB
+tags:
+- Release Title
+- TRaSH
+tests: []

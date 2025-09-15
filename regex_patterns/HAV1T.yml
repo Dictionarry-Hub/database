@@ -1,0 +1,7 @@
+description: ''
+name: HAV1T
+pattern: \b(HAV1T)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

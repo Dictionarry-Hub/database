@@ -1,0 +1,7 @@
+description: ''
+name: Proper
+pattern: \b(Proper)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

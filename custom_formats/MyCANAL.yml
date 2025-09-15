@@ -1,0 +1,34 @@
+conditions:
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: CANAL+
+  negate: false
+  pattern: CANAL+
+  required: false
+  type: release_title
+- name: MyCANAL
+  negate: false
+  pattern: MyCANAL
+  required: false
+  type: release_title
+- name: Not MyCanal RlsGrp
+  negate: true
+  pattern: MyCanal RlsGrp
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: MyCANAL
+tags:
+- Release Group
+- Release Title
+- Source
+- TRaSH
+tests: []

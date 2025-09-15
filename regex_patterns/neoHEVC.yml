@@ -1,0 +1,7 @@
+description: ''
+name: neoHEVC
+pattern: \b(neoHEVC)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: neko-raws
+pattern: neko[ ._-]?(raws)
+tags:
+- Radarr
+- Sonarr
+tests: []

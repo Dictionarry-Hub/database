@@ -1,0 +1,6 @@
+description: ''
+name: OJ
+pattern: (OJ)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,28 @@
+conditions:
+- name: Discovery+
+  negate: false
+  pattern: Discovery+
+  required: false
+  type: release_title
+- name: DSCP Rename
+  negate: false
+  pattern: DSCP Rename
+  required: false
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: DSCP
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

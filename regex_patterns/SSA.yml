@@ -1,0 +1,7 @@
+description: ''
+name: SSA
+pattern: \b(SSA)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

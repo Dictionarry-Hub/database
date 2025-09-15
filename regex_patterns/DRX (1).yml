@@ -1,0 +1,6 @@
+description: ''
+name: DRX
+pattern: ^(DRX)$
+tags:
+- Radarr
+tests: []

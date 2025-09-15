@@ -1,0 +1,7 @@
+description: ''
+name: SanKyuu
+pattern: \b(SanKyuu)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

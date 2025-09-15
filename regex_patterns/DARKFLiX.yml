@@ -1,0 +1,7 @@
+description: ''
+name: DARKFLiX
+pattern: \b(DARKFLiX)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

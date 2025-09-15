@@ -1,0 +1,7 @@
+description: ''
+name: Aergia
+pattern: \[Aergia\]|-Aergia(?!-raws)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

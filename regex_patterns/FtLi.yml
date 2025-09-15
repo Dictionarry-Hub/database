@@ -1,0 +1,7 @@
+description: ''
+name: FtLi
+pattern: ^(FtLi)$
+tags:
+- Radarr
+- Sonarr
+tests: []

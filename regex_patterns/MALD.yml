@@ -1,0 +1,7 @@
+description: ''
+name: MALD
+pattern: \b(MALD)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

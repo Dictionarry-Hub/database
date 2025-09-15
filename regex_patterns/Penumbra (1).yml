@@ -1,0 +1,7 @@
+description: ''
+name: Penumbra
+pattern: (?<=^|[\s.-])Penumbra\b
+tags:
+- Release Group
+- Bluray
+tests: []

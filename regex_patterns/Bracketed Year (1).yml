@@ -1,0 +1,15 @@
+description: Match a year moniker inside square brackets
+name: Bracketed Year
+pattern: \[\d{4}\]
+tags: []
+tests:
+- expected: true
+  id: 1
+  input: Loki S01 [2021] 2160p HEVC Blu-Ray Remux HDR10 -SiCFoI
+  lastRun: '2025-01-12T00:57:33.563808'
+  matchSpan:
+    end: 15
+    start: 9
+  matchedContent: '[2021]'
+  matchedGroups: []
+  passes: true

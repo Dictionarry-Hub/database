@@ -1,0 +1,6 @@
+description: ''
+name: DTS-HD HRA ES
+pattern: dts[-. ]?(es|(hd[. ]?)?(hr|hi))
+tags:
+- Audio
+tests: []

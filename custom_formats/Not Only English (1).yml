@@ -1,0 +1,19 @@
+conditions:
+- exceptLanguage: true
+  language: english
+  name: Not English
+  negate: false
+  required: true
+  type: language
+- exceptLanguage: false
+  language: english
+  name: Includes English
+  negate: false
+  required: true
+  type: language
+description: Matches releases that don't include an English language track. Dual audio
+  is NOT allowed.
+name: Not Only English
+tags:
+- Language
+tests: []

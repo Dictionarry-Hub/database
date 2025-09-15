@@ -1,0 +1,7 @@
+description: ''
+name: .heb
+pattern: '[.]heb\b'
+tags:
+- Radarr
+- Sonarr
+tests: []

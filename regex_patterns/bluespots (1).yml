@@ -1,0 +1,7 @@
+description: ''
+name: bluespots
+pattern: (?<=^|[\s.-])bluespots\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

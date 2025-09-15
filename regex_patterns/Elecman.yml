@@ -1,0 +1,7 @@
+description: ''
+name: Elecman
+pattern: \b(Elecman)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

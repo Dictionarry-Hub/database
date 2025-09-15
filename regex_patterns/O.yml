@@ -1,0 +1,7 @@
+description: ''
+name: O
+pattern: ^(OBSTACLE|OohLaLa|OOKAMI)$
+tags:
+- Radarr
+- Sonarr
+tests: []

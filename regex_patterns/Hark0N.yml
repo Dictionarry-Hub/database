@@ -1,0 +1,7 @@
+description: ''
+name: Hark0N
+pattern: \b(Hark0N)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

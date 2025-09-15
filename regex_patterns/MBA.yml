@@ -1,0 +1,6 @@
+description: ''
+name: MBA
+pattern: (MBA)$
+tags:
+- Radarr
+tests: []

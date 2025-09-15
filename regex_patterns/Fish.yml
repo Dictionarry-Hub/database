@@ -1,0 +1,7 @@
+description: ''
+name: Fish
+pattern: \b((Baked|Dead|Space)Fish)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

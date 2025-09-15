@@ -1,0 +1,28 @@
+conditions:
+- name: HBO
+  negate: false
+  pattern: HBO
+  required: false
+  type: release_title
+- name: HBO Rename
+  negate: false
+  pattern: HBO Rename
+  required: false
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: HBO
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Obi
+pattern: ^(Obi)$
+tags:
+- Radarr
+tests: []

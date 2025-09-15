@@ -1,0 +1,7 @@
+description: ''
+name: STRiFE
+pattern: \[STRiFE\]|-STRiFE\b
+tags:
+- Radarr
+- Sonarr
+tests: []

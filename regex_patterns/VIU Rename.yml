@@ -1,0 +1,7 @@
+description: ''
+name: VIU Rename
+pattern: \[(VIU)\b|\b(VIU)\]
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: FastSUB
+pattern: \b(FastSUB)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

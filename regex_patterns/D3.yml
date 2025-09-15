@@ -1,0 +1,7 @@
+description: ''
+name: D3
+pattern: \b(D3)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

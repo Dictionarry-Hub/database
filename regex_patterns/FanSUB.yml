@@ -1,0 +1,7 @@
+description: ''
+name: FanSUB
+pattern: \b(FanSUB)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

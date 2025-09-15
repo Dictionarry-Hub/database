@@ -1,0 +1,6 @@
+description: ''
+name: YouTube Red
+pattern: \b(red|youtube red)\b[ ._-]web[ ._-]?(dl|rip)?\b
+tags:
+- Sonarr
+tests: []

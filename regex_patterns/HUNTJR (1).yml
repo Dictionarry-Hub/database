@@ -1,0 +1,7 @@
+description: ''
+name: HUNTJR
+pattern: (?<=^|[\s.-])HUNTJR\b
+tags:
+- Release Group
+- Bluray
+tests: []

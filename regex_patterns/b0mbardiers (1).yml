@@ -1,0 +1,7 @@
+description: ''
+name: b0mbardiers
+pattern: (?<=^|[\s.-])b0mbardiers\b
+tags:
+- Release Group
+- Bluray
+tests: []

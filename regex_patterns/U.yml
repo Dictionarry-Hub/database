@@ -1,0 +1,6 @@
+description: ''
+name: U
+pattern: ^(UKDHD|UKDTV|ULSHD|Ulysse|(US)?UNSKiLLED|URY)$
+tags:
+- Radarr
+tests: []

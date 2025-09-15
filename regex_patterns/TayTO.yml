@@ -1,0 +1,6 @@
+description: ''
+name: TayTO
+pattern: ^(TayTO)$
+tags:
+- Radarr
+tests: []

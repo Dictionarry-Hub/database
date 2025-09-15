@@ -1,0 +1,42 @@
+conditions:
+- name: Blackout-B&W-Black&Chrome
+  negate: false
+  pattern: Blackout-B&W-Black&Chrome
+  required: false
+  type: release_title
+- name: Monochrome
+  negate: false
+  pattern: Monochrome
+  required: false
+  type: release_title
+- name: Noir
+  negate: false
+  pattern: Noir
+  required: false
+  type: release_title
+- name: Shush Cut
+  negate: false
+  pattern: Shush Cut
+  required: false
+  type: release_title
+- name: No-Minus Color
+  negate: false
+  pattern: No-Minus Color
+  required: false
+  type: release_title
+- name: Grayscale
+  negate: false
+  pattern: Grayscale
+  required: false
+  type: release_title
+- name: Darkness and Light
+  negate: false
+  pattern: Darkness and Light
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Black and White Editions
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,12 @@
+conditions:
+- name: MP3
+  negate: false
+  pattern: MP3
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: MP3
+tags:
+- Release Title
+- TRaSH
+tests: []

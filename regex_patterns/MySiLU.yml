@@ -1,0 +1,6 @@
+description: ''
+name: MySiLU
+pattern: ^(MySiLU)$
+tags:
+- Radarr
+tests: []

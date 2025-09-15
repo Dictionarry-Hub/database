@@ -1,0 +1,7 @@
+description: ''
+name: Rapta
+pattern: \[Rapta\]|-Rapta\b
+tags:
+- Radarr
+- Sonarr
+tests: []

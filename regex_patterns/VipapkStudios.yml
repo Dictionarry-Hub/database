@@ -1,0 +1,7 @@
+description: ''
+name: VipapkStudios
+pattern: \b(VipapkStudios)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

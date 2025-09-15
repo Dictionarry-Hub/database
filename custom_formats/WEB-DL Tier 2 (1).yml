@@ -1,0 +1,47 @@
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: BYNDR
+  negate: false
+  pattern: BYNDR
+  required: false
+  type: release_group
+- name: CMRG
+  negate: false
+  pattern: CMRG
+  required: false
+  type: release_group
+- name: HHWEB
+  negate: false
+  pattern: HHWEB
+  required: false
+  type: release_group
+- name: HONE
+  negate: false
+  pattern: HONE
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
+  required: false
+  type: release_group
+- name: playWEB
+  negate: false
+  pattern: playWEB
+  required: false
+  type: release_group
+- name: TEPES
+  negate: false
+  pattern: TEPES
+  required: false
+  type: release_group
+description: Matches release groups who fall under WEB-DL Tier 2
+name: WEB-DL Tier 2
+tags:
+- Release Group Tier
+- WEB-DL
+tests: []

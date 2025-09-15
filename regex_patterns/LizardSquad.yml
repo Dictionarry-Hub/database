@@ -1,0 +1,6 @@
+description: ''
+name: LizardSquad
+pattern: (LizardSquad)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Golumpa
+pattern: \b(Golumpa)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

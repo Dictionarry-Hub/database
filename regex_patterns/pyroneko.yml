@@ -1,0 +1,7 @@
+description: ''
+name: pyroneko
+pattern: \b(pyroneko)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

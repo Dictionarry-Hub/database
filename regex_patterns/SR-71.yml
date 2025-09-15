@@ -1,0 +1,7 @@
+description: ''
+name: SR-71
+pattern: \b(SR-71)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

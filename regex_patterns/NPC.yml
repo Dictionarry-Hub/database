@@ -1,0 +1,7 @@
+description: ''
+name: NPC
+pattern: \[NPC\]|-NPC\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: HiP
+pattern: (?<=^|[\s.-])HiP\b
+tags:
+- Release Group
+- Bluray
+tests: []

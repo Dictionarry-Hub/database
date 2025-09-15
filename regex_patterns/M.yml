@@ -1,0 +1,7 @@
+description: ''
+name: M
+pattern: ^(MAGiCAL|MANGACiTY|MAXAGAZ|MaxiBeNoul|McNULTY|MELBA|MiND|MORELAND|MUNSTER|MUxHD)$
+tags:
+- Radarr
+- Sonarr
+tests: []

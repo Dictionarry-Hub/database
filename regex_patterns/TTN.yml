@@ -1,0 +1,7 @@
+description: ''
+name: TTN
+pattern: \b(TTN)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

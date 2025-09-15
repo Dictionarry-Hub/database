@@ -1,0 +1,7 @@
+description: ''
+name: Nishi-Taku
+pattern: \b(Nishi-Taku)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

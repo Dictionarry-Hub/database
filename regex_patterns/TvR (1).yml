@@ -1,0 +1,9 @@
+description: ''
+name: TvR
+pattern: ^(TvR)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

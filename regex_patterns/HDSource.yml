@@ -1,0 +1,9 @@
+description: ''
+name: HDSource
+pattern: ^(HDSource)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

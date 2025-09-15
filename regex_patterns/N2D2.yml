@@ -1,0 +1,6 @@
+description: ''
+name: N2D2
+pattern: (N2D2)$
+tags:
+- Radarr
+tests: []

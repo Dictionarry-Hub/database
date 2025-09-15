@@ -1,0 +1,7 @@
+description: ''
+name: BJX
+pattern: \b(BJX)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

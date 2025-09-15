@@ -1,0 +1,8 @@
+description: ''
+name: TVS
+pattern: ^(TVS)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: DON
+pattern: ^(DON)$
+tags:
+- Radarr
+- Sonarr
+tests: []

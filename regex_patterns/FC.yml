@@ -1,0 +1,6 @@
+description: ''
+name: FC
+pattern: ^(FC)$
+tags:
+- Sonarr
+tests: []

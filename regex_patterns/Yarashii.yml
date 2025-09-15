@@ -1,0 +1,7 @@
+description: ''
+name: Yarashii
+pattern: \b(Yarashii)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

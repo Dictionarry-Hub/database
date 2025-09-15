@@ -1,0 +1,7 @@
+description: ''
+name: MiniTheatre
+pattern: \b(MiniTheatre)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

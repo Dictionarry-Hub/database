@@ -1,0 +1,6 @@
+description: ''
+name: W4K
+pattern: ^(W4K)$
+tags:
+- Radarr
+tests: []

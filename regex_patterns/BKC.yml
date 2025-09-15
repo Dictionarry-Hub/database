@@ -1,0 +1,7 @@
+description: ''
+name: BKC
+pattern: \b(BKC)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

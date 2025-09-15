@@ -1,0 +1,7 @@
+description: ''
+name: BlackBit
+pattern: ^(BlackBit)$
+tags:
+- Radarr
+- Sonarr
+tests: []

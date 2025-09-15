@@ -1,0 +1,12 @@
+conditions:
+- name: Dolby Vision
+  negate: false
+  pattern: Dolby Vision
+  required: true
+  type: release_title
+description: Matches the 'Dolby Vision' Regex Pattern
+name: Dolby Vision
+tags:
+- Colour Grade
+- HDR
+tests: []

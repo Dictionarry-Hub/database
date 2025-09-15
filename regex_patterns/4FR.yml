@@ -1,0 +1,7 @@
+description: ''
+name: 4FR
+pattern: ^(4FR)$
+tags:
+- Radarr
+- Sonarr
+tests: []

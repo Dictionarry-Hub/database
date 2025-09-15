@@ -1,0 +1,7 @@
+description: ''
+name: MEDiATHEK
+pattern: ^(MEDiATHEK)$
+tags:
+- Radarr
+- Sonarr
+tests: []

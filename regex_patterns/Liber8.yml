@@ -1,0 +1,6 @@
+description: ''
+name: Liber8
+pattern: ^(Liber8)$
+tags:
+- Radarr
+tests: []

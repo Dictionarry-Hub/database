@@ -1,0 +1,13 @@
+description: ''
+name: Kitsune
+pattern: ^(Kitsune)$|\b(Kitsune)\b
+tags:
+- Radarr
+- Sonarr
+tests:
+- expected: true
+  id: 1
+  input: Kitsune
+- expected: true
+  id: 2
+  input: Lucky.Strikes.2024.2160p.AMZN.WEB-DL.DDP5.1.HEVC-Kitsune

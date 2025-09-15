@@ -1,0 +1,7 @@
+description: ''
+name: DEPTH
+pattern: (?<=^|[\s.-])DEPTH\b
+tags:
+- Release Group
+- Bluray
+tests: []

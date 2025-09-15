@@ -1,0 +1,7 @@
+description: ''
+name: Man.K
+pattern: \b(Man\.K)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

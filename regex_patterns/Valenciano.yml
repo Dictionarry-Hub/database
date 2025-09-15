@@ -1,0 +1,7 @@
+description: ''
+name: Valenciano
+pattern: \b(Valenciano)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

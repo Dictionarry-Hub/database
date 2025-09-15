@@ -1,0 +1,7 @@
+description: ''
+name: ICEBLUE
+pattern: \b(ICEBLUE)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: SANTi
+pattern: ^(SANTi)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: AZAZE
+pattern: ^(AZAZE)$
+tags:
+- Radarr
+tests: []

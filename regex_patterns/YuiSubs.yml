@@ -1,0 +1,7 @@
+description: ''
+name: YuiSubs
+pattern: \b(YuiSubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

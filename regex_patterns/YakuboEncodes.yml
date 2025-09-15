@@ -1,0 +1,7 @@
+description: ''
+name: YakuboEncodes
+pattern: \b(YakuboEncodes)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

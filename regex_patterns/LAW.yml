@@ -1,0 +1,6 @@
+description: ''
+name: LAW
+pattern: (LAW)$
+tags:
+- Radarr
+tests: []

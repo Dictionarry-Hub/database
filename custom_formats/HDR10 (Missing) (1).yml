@@ -1,0 +1,140 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Not SDR
+  negate: true
+  pattern: SDR
+  required: true
+  type: release_title
+- name: Not PQ
+  negate: true
+  pattern: PQ
+  required: true
+  type: release_title
+- name: Not HLG
+  negate: true
+  pattern: HLG
+  required: true
+  type: release_title
+- name: Not HDR
+  negate: true
+  pattern: HDR
+  required: true
+  type: release_title
+- name: Not HDR10
+  negate: true
+  pattern: HDR10
+  required: true
+  type: release_title
+- name: Not HDR10+
+  negate: true
+  pattern: HDR10+
+  required: true
+  type: release_title
+description: Attempts to match HDR10 to groups that mislabel their releases. *This
+  does not work properly in sonarr.*
+name: HDR10 (Missing)
+tags:
+- Colour Grade
+- HDR
+tests:
+- conditionResults:
+  - matches: false
+    name: Not HDR10
+    negate: true
+    pattern: HDR10
+    required: true
+    type: release_title
+  - matches: false
+    name: Not HDR10+
+    negate: true
+    pattern: HDR10+
+    required: true
+    type: release_title
+  - matches: true
+    name: Missing Groups
+    negate: false
+    pattern: HDR10 (Missing Groups)
+    required: true
+    type: release_title
+  - matches: false
+    name: Not SDR
+    negate: true
+    pattern: SDR
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Barbie 2023 UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC HYBRID REMUX-FraMeSToR
+  lastRun: '2025-01-11T22:58:21.736014'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Not HDR10
+    negate: true
+    pattern: HDR10
+    required: true
+    type: release_title
+  - matches: false
+    name: Not HDR10+
+    negate: true
+    pattern: HDR10+
+    required: true
+    type: release_title
+  - matches: true
+    name: Missing Groups
+    negate: false
+    pattern: HDR10 (Missing Groups)
+    required: true
+    type: release_title
+  - matches: false
+    name: Not SDR
+    negate: true
+    pattern: SDR
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Barbie (2023) 2160p UHD BluRay Hybrid REMUX HEVC DV HDR TrueHD Atmos 7.1
+    English-FraMeSToR
+  lastRun: '2025-01-11T22:58:21.736014'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Not HDR10
+    negate: true
+    pattern: HDR10
+    required: true
+    type: release_title
+  - matches: false
+    name: Not HDR10+
+    negate: true
+    pattern: HDR10+
+    required: true
+    type: release_title
+  - matches: true
+    name: Missing Groups
+    negate: false
+    pattern: HDR10 (Missing Groups)
+    required: true
+    type: release_title
+  - matches: true
+    name: Not SDR
+    negate: true
+    pattern: SDR
+    required: true
+    type: release_title
+  expected: false
+  id: 3
+  input: "For a Few Dollars More aka Per qualche dollaro in pi\xF9 1965 UHD BluRay\
+    \ 2160p DTS-HD MA 5.1 SDR HEVC REMUX-FraMeSToR"
+  lastRun: '2025-01-11T22:58:21.736014'
+  passes: true

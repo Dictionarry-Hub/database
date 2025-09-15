@@ -1,0 +1,17 @@
+conditions:
+- name: Masters of Cinema
+  negate: false
+  pattern: Masters of Cinema
+  required: false
+  type: release_title
+- name: MoC
+  negate: false
+  pattern: MoC
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Masters of Cinema
+tags:
+- Release Title
+- TRaSH
+tests: []

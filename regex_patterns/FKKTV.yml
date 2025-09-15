@@ -1,0 +1,6 @@
+description: ''
+name: FKKTV
+pattern: ^(FKKTV)$
+tags:
+- Sonarr
+tests: []

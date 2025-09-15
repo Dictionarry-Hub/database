@@ -1,0 +1,7 @@
+description: ''
+name: Arukoru
+pattern: \b(Arukoru)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

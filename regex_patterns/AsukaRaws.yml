@@ -1,0 +1,7 @@
+description: ''
+name: AsukaRaws
+pattern: Asuka[ ._-]?(Raws)
+tags:
+- Radarr
+- Sonarr
+tests: []

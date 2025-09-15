@@ -1,0 +1,7 @@
+description: ''
+name: 4KCONNECTiON
+pattern: ^(4KCONNECTiON)$
+tags:
+- Radarr
+- Sonarr
+tests: []

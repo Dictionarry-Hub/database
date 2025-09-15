@@ -1,0 +1,7 @@
+description: ''
+name: VLAD
+pattern: (?<=^|[\s.-])VLAD\b
+tags:
+- Release Group
+- Bluray
+tests: []

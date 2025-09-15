@@ -1,0 +1,7 @@
+description: ''
+name: Obfuscated
+pattern: -Obfuscated\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Brrrrrrr
+pattern: \b(Brrrrrrr)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: WhiteRev
+pattern: -WhiteRev\b
+tags:
+- Radarr
+- Sonarr
+tests: []

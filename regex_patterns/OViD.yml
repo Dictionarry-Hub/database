@@ -1,0 +1,7 @@
+description: ''
+name: OViD
+pattern: \b(ovid)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

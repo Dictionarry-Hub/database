@@ -1,0 +1,27 @@
+conditions:
+- name: HDR10+
+  negate: false
+  pattern: HDR10+
+  required: true
+  type: release_title
+- name: Not SDR
+  negate: true
+  pattern: SDR
+  required: true
+  type: release_title
+- name: Not PQ
+  negate: true
+  pattern: PQ
+  required: true
+  type: release_title
+- name: Not HLG
+  negate: true
+  pattern: HLG
+  required: true
+  type: release_title
+description: Matches the 'HDR10+' Regex Pattern
+name: HDR10+
+tags:
+- Colour Grade
+- HDR
+tests: []

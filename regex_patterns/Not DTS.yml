@@ -1,0 +1,16 @@
+description: ''
+name: Not DTS
+pattern: \bDTS(\b|\d)
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: Mic Dubbed
+pattern: \b(MD|AC3MD|Mic[ .-]?Dubbed)\b
+tags:
+- Radarr
+tests: []

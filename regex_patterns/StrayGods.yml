@@ -1,0 +1,7 @@
+description: ''
+name: StrayGods
+pattern: \b(StrayGods)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Yangire-Raws
+pattern: \b(Yangire[ .-]?Raws)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

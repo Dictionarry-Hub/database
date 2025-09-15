@@ -1,0 +1,7 @@
+description: ''
+name: V
+pattern: ^(VENUE|VFC|VoMiT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

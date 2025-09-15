@@ -1,0 +1,7 @@
+description: ''
+name: kuchikirukia
+pattern: \b(kuchikirukia)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: SAUERKRAUT
+pattern: ^(SAUERKRAUT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

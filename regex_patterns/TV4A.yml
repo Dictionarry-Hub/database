@@ -1,0 +1,7 @@
+description: ''
+name: TV4A
+pattern: ^(TV4A)$
+tags:
+- Radarr
+- Sonarr
+tests: []

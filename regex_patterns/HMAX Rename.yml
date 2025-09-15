@@ -1,0 +1,7 @@
+description: ''
+name: HMAX Rename
+pattern: \[(HMAX)\b|\b(HMAX)\]
+tags:
+- Radarr
+- Sonarr
+tests: []

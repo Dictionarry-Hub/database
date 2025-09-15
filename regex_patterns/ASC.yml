@@ -1,0 +1,7 @@
+description: ''
+name: ASC
+pattern: \b(ASC)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

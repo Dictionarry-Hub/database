@@ -1,0 +1,7 @@
+description: ''
+name: PHOENiX
+pattern: ^(PHOENiX)$
+tags:
+- Radarr
+- Sonarr
+tests: []

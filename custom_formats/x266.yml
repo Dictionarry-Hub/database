@@ -1,0 +1,18 @@
+conditions:
+- name: x|h266
+  negate: false
+  pattern: x|h266
+  required: true
+  type: release_title
+- name: Not Remux
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+description: '[Custom format from TRaSH-Guides.]'
+name: x266
+tags:
+- Quality Modifier
+- Release Title
+- TRaSH
+tests: []

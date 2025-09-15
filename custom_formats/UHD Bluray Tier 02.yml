@@ -1,0 +1,35 @@
+conditions:
+- name: Not REMUX
+  negate: true
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: Not WEBDL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Not WEBRIP
+  negate: true
+  required: true
+  source: webrip
+  type: source
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: HQMUX
+  negate: false
+  pattern: HQMUX
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: UHD Bluray Tier 02
+tags:
+- Quality Modifier
+- Release Group
+- Resolution
+- Source
+- TRaSH
+tests: []

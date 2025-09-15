@@ -1,0 +1,6 @@
+description: ''
+name: HDT
+pattern: ^(HDT)$
+tags:
+- Radarr
+tests: []

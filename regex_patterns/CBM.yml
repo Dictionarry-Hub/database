@@ -1,0 +1,7 @@
+description: ''
+name: CBM
+pattern: \b(CBM)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Rasetsu
+pattern: \b(Rasetsu)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

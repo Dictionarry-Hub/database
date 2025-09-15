@@ -1,0 +1,7 @@
+description: ''
+name: BluDragon
+pattern: \b(BluDragon)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

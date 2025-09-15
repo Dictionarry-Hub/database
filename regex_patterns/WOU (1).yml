@@ -1,0 +1,7 @@
+description: ''
+name: WOU
+pattern: (?<=^|[\s.-])WOU\b
+tags:
+- Release Group
+- Banned
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Pn8
+pattern: \b(Pn8)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

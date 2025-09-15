@@ -1,0 +1,8 @@
+description: ''
+name: Not DTS-HD HRA-ES
+pattern: dts[-. ]?(es|(hd[. ]?)?(hr|hi))
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

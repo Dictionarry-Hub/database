@@ -1,0 +1,6 @@
+description: ''
+name: ABBiE
+pattern: ^(ABBiE)$
+tags:
+- Radarr
+tests: []

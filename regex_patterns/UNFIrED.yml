@@ -1,0 +1,6 @@
+description: ''
+name: UNFIrED
+pattern: ^(UNFIrED)$
+tags:
+- Radarr
+tests: []

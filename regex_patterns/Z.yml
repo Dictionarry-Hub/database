@@ -1,0 +1,7 @@
+description: ''
+name: Z
+pattern: ^(ZEST|ZiRCON)$
+tags:
+- Radarr
+- Sonarr
+tests: []

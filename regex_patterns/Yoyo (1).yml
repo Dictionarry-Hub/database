@@ -1,0 +1,7 @@
+description: ''
+name: Yoyo
+pattern: (?<=^|[\s.-])Yoyo\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

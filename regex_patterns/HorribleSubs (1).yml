@@ -1,0 +1,7 @@
+description: ''
+name: HorribleSubs
+pattern: \b(HorribleSubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

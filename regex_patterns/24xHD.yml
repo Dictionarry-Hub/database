@@ -1,0 +1,6 @@
+description: ''
+name: 24xHD
+pattern: \b(24xHD)\b
+tags:
+- Radarr
+tests: []

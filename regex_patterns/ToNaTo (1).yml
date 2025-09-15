@@ -1,0 +1,7 @@
+description: ''
+name: ToNaTo
+pattern: (?<=^|[\s.-])ToNaTo\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

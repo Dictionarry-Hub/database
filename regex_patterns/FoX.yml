@@ -1,0 +1,6 @@
+description: ''
+name: FoX
+pattern: ^(FoX)$
+tags:
+- Radarr
+tests: []

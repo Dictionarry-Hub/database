@@ -1,0 +1,6 @@
+description: ''
+name: GTVG
+pattern: ^(GTVG)$
+tags:
+- Sonarr
+tests: []

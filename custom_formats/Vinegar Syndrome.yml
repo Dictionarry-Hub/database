@@ -1,0 +1,22 @@
+conditions:
+- name: Vinegar Syndrome
+  negate: false
+  pattern: Vinegar Syndrome
+  required: false
+  type: release_title
+- name: VS
+  negate: false
+  pattern: VS
+  required: false
+  type: release_title
+- name: VinSyn
+  negate: false
+  pattern: VinSyn
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Vinegar Syndrome
+tags:
+- Release Title
+- TRaSH
+tests: []

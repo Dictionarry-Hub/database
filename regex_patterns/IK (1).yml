@@ -1,0 +1,7 @@
+description: ''
+name: IK
+pattern: \b(IK)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: SRW
+pattern: \b(SRW)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

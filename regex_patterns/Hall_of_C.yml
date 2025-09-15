@@ -1,0 +1,7 @@
+description: ''
+name: Hall_of_C
+pattern: \b(Hall_of_C)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

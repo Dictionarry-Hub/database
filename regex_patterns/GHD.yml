@@ -1,0 +1,6 @@
+description: ''
+name: GHD
+pattern: ^(GHD)$
+tags:
+- Radarr
+tests: []

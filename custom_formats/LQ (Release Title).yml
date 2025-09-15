@@ -1,0 +1,72 @@
+conditions:
+- name: 1XBET
+  negate: false
+  pattern: 1XBET
+  required: false
+  type: release_title
+- name: BEN THE MEN
+  negate: false
+  pattern: BEN THE MEN
+  required: false
+  type: release_title
+- name: D3US
+  negate: false
+  pattern: D3US
+  required: false
+  type: release_title
+- name: EVO (no WEBDL)
+  negate: false
+  pattern: EVO (no WEBDL)
+  required: false
+  type: release_title
+- name: Feranki1980
+  negate: false
+  pattern: Feranki1980
+  required: false
+  type: release_title
+- name: GalaxyRG
+  negate: false
+  pattern: GalaxyRG
+  required: false
+  type: release_title
+- name: jennaortega
+  negate: false
+  pattern: jennaortega
+  required: false
+  type: release_title
+- name: PiRaTeS (no WEBDL)
+  negate: false
+  pattern: PiRaTeS (no WEBDL)
+  required: false
+  type: release_title
+- name: READ NOTE
+  negate: false
+  pattern: READ NOTE
+  required: false
+  type: release_title
+- name: SWTYBLZ
+  negate: false
+  pattern: SWTYBLZ
+  required: false
+  type: release_title
+- name: TeeWee
+  negate: false
+  pattern: TeeWee
+  required: false
+  type: release_title
+- name: TEKNO3D
+  negate: false
+  pattern: TEKNO3D
+  required: false
+  type: release_title
+- name: Will1869
+  negate: false
+  pattern: Will1869
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: LQ (Release Title)
+tags:
+- Release Title
+- TRaSH
+tests: []

@@ -1,0 +1,38 @@
+conditions:
+- name: 9volt
+  negate: false
+  pattern: 9volt
+  required: false
+  type: release_title
+- name: GJM
+  negate: false
+  pattern: GJM
+  required: false
+  type: release_title
+- name: Kaleido
+  negate: false
+  pattern: Kaleido
+  required: false
+  type: release_title
+- name: Kantai
+  negate: false
+  pattern: Kantai
+  required: false
+  type: release_title
+- name: SobsPlease
+  negate: false
+  pattern: SobsPlease
+  required: false
+  type: release_title
+- name: Some-Stuffs
+  negate: false
+  pattern: Some-Stuffs
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: Anime Web Tier 05 (FanSubs)
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

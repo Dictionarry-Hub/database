@@ -1,0 +1,13 @@
+conditions:
+- name: 540p
+  negate: false
+  required: true
+  resolution: 540p
+  type: resolution
+description: Intermediate standard definition resolution commonly used in compressed
+  Blu-ray encodes to save space while maintaining acceptable quality.
+name: 540p
+tags:
+- Standard Definition
+- Resolution
+tests: []

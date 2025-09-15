@@ -1,0 +1,7 @@
+description: ''
+name: decibeL
+pattern: ^(decibeL)$
+tags:
+- Radarr
+- Sonarr
+tests: []

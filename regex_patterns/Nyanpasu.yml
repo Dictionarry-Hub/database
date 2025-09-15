@@ -1,0 +1,7 @@
+description: ''
+name: Nyanpasu
+pattern: \b(Nyanpasu)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

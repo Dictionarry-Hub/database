@@ -1,0 +1,11 @@
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+description: Matches Remux using a Sonarr Source
+name: Remux (Source)
+tags:
+- Storage
+tests: []

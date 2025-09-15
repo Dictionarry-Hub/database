@@ -1,0 +1,7 @@
+description: ''
+name: xander
+pattern: (?<=^|[\s.-])xander\b
+tags:
+- Release Group
+- Bluray
+tests: []

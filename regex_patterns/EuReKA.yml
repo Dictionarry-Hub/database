@@ -1,0 +1,6 @@
+description: ''
+name: EuReKA
+pattern: ^(EuReKA)$
+tags:
+- Radarr
+tests: []

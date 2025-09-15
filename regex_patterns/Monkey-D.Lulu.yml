@@ -1,0 +1,7 @@
+description: ''
+name: Monkey-D.Lulu
+pattern: \b(Monkey[ .-]?D[ .-]?Lulu)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

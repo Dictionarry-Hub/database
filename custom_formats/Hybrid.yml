@@ -1,0 +1,29 @@
+conditions:
+- name: Hybrid
+  negate: false
+  pattern: Hybrid
+  required: false
+  type: release_title
+- name: Not Hybrid Release Group
+  negate: true
+  pattern: Not Hybrid Release Group
+  required: true
+  type: release_group
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: false
+  type: release_title
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: Hybrid
+tags:
+- Release Group
+- Release Title
+- Source
+- TRaSH
+tests: []

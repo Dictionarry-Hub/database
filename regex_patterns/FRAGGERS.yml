@@ -1,0 +1,7 @@
+description: ''
+name: FRAGGERS
+pattern: ^(FRAGGERS)$
+tags:
+- Radarr
+- Sonarr
+tests: []

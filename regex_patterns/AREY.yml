@@ -1,0 +1,7 @@
+description: ''
+name: AREY
+pattern: \b(AREY)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

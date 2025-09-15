@@ -1,0 +1,7 @@
+description: ''
+name: AnimeKuro
+pattern: \b(AnimeKuro)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

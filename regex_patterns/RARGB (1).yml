@@ -1,0 +1,8 @@
+description: Banned for Low Quality
+name: RARGB
+pattern: (?<=^|[\s.-])RARGB\b
+tags:
+- Release Group
+- Remux
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: B
+pattern: ^(BANKAi|BAWLS|BiPOLAR|BLACKPANTERS|BODIE|BOOLZ|BRiNK|BTT)$
+tags:
+- Radarr
+- Sonarr
+tests: []

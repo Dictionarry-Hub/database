@@ -1,0 +1,8 @@
+description: ''
+name: Reza
+pattern: \b(Reza)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

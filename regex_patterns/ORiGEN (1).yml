@@ -1,0 +1,7 @@
+description: ''
+name: ORiGEN
+pattern: (?<=^|[\s.-])ORiGEN\b
+tags:
+- Release Group
+- Bluray
+tests: []

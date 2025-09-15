@@ -1,0 +1,7 @@
+description: ''
+name: Akai
+pattern: \[Akai\]|-Akai\b
+tags:
+- Radarr
+- Sonarr
+tests: []

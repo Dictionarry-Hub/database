@@ -1,0 +1,6 @@
+description: ''
+name: MyCanal RlsGrp
+pattern: \b(MyCanal)\b
+tags:
+- Sonarr
+tests: []

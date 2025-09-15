@@ -1,0 +1,7 @@
+description: ''
+name: RMX
+pattern: \b(RMX)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

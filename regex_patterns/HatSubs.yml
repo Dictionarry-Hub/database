@@ -1,0 +1,7 @@
+description: ''
+name: HatSubs
+pattern: \b(HatSubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

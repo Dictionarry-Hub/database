@@ -1,0 +1,7 @@
+description: ''
+name: AkihitoSubs
+pattern: \b(AkihitoSubs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

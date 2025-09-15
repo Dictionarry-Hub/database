@@ -1,0 +1,7 @@
+description: ''
+name: J
+pattern: ^(JMT|JoKeR|JUSTICELEAGUE)$
+tags:
+- Radarr
+- Sonarr
+tests: []

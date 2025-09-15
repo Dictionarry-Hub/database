@@ -1,0 +1,7 @@
+description: ''
+name: BTN
+pattern: (?<=^|[\s.-])BTN\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

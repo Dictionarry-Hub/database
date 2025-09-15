@@ -1,0 +1,7 @@
+description: ''
+name: kBaraka
+pattern: \b(kBaraka)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

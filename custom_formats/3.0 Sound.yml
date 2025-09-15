@@ -1,0 +1,32 @@
+conditions:
+- name: 3.0ch
+  negate: false
+  pattern: Not 3.0ch
+  required: true
+  type: release_title
+- name: Not Mono
+  negate: true
+  pattern: Not Mono
+  required: true
+  type: release_title
+- name: Not Stereo
+  negate: true
+  pattern: Not Stereo
+  required: true
+  type: release_title
+- name: Not 4.0ch
+  negate: true
+  pattern: 4.0ch
+  required: true
+  type: release_title
+- name: Not High Channel Count
+  negate: true
+  pattern: Not High Channel Count
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: 3.0 Sound
+tags:
+- Release Title
+- TRaSH
+tests: []

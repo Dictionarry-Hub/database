@@ -1,0 +1,18 @@
+conditions:
+- name: x265-HEVC
+  negate: false
+  pattern: x|h265
+  required: true
+  type: release_title
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+description: '[Custom format from TRaSH-Guides.]'
+name: x265 (HD)
+tags:
+- Release Title
+- Resolution
+- TRaSH
+tests: []

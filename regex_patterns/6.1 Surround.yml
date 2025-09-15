@@ -1,0 +1,8 @@
+description: ''
+name: 6.1 Surround
+pattern: '[^0-9]6[ .][0-1]\b'
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

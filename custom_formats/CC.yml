@@ -1,0 +1,28 @@
+conditions:
+- name: Comedy Central
+  negate: false
+  pattern: Comedy Central
+  required: false
+  type: release_title
+- name: CC Rename
+  negate: false
+  pattern: CC Rename
+  required: false
+  type: release_title
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+description: '[Custom format from TRaSH-Guides.]'
+name: CC
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: GHOSTS
+pattern: ^(GHOSTS)$
+tags:
+- Sonarr
+tests: []

@@ -1,0 +1,28 @@
+description: ''
+name: DTS-X
+pattern: \b(dts[-_. :]?x)\b(?!\d)
+tags:
+- Audio
+tests:
+- expected: true
+  id: 1
+  input: 2 Fast 2 Furious (2003) 2160p MA WEB-DL H265 HDR DTS:X 7.1 English-FLUX
+  lastRun: '2025-01-16T15:29:55.783259'
+  matchSpan:
+    end: 54
+    start: 49
+  matchedContent: DTS:X
+  matchedGroups:
+  - DTS:X
+  passes: true
+- expected: true
+  id: 2
+  input: 2.Fast.2.Furious.2003.2160p.MA.WEB-DL.DTS-X.7.1.H.265-FLUX.mkv
+  lastRun: '2025-01-16T15:29:55.783259'
+  matchSpan:
+    end: 43
+    start: 38
+  matchedContent: DTS-X
+  matchedGroups:
+  - DTS-X
+  passes: true

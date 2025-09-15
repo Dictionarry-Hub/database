@@ -1,0 +1,44 @@
+description: Matches groups who mislabel HDR10
+name: HDR10 (Missing Groups)
+pattern: \b(3L|CiNEPHiLES|c0kE|EDV|ElNeekster|FraMeSToR|HDH|HQMUX|Kenobi|mimic|NTb|playBD|RYU|SiCFoI|STRiKES|TekMUX|TRiToN|W4NK3R)\b
+tags:
+- Release Group
+- HDR
+tests:
+- expected: true
+  id: 1
+  input: Loki S01 2023 2160p UHD Blu-ray Remux HEVC TrueHD 7 1 Atmos-HDS
+  lastRun: '2025-01-12T01:22:17.490763'
+  matchSpan:
+    end: 63
+    start: 60
+  matchedContent: HDS
+  matchedGroups:
+  - HDS
+  - null
+  passes: true
+- expected: true
+  id: 2
+  input: "\t Loki S01 REPACK UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC HYBRID REMUX-FraMeSToR"
+  lastRun: '2025-01-12T01:22:17.490763'
+  matchSpan:
+    end: 82
+    start: 73
+  matchedContent: FraMeSToR
+  matchedGroups:
+  - FraMeSToR
+  - null
+  passes: true
+- expected: true
+  id: 3
+  input: Alien Romulus 2024 BluRay 2160p UHD REMUX HEVC (10bit) DV Atmos DTS-HD MA
+    7 1-Aisha@RFX
+  lastRun: '2025-01-12T01:22:17.490763'
+  matchSpan:
+    end: 87
+    start: 78
+  matchedContent: Aisha@RFX
+  matchedGroups:
+  - Aisha@RFX
+  - '@RFX'
+  passes: true

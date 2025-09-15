@@ -1,0 +1,6 @@
+description: ''
+name: CRUD
+pattern: ^(CRUD)$
+tags:
+- Radarr
+tests: []

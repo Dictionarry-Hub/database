@@ -1,0 +1,7 @@
+description: ''
+name: TimeDistortion
+pattern: (?<=^|[\s.-])TimeDistortion\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

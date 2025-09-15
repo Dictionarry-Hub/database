@@ -1,0 +1,7 @@
+description: ''
+name: Anitsu
+pattern: \b(Anitsu)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

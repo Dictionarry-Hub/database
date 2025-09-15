@@ -1,0 +1,7 @@
+description: ''
+name: Bolshevik
+pattern: \[Bolshevik\]|-Bolshevik\b
+tags:
+- Radarr
+- Sonarr
+tests: []

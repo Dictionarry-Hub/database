@@ -1,0 +1,7 @@
+description: ''
+name: BOREDOR
+pattern: (?<=^|[\s.-])BOREDOR\b
+tags:
+- Release Group
+- Bluray
+tests: []

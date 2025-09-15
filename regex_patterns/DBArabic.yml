@@ -1,0 +1,7 @@
+description: ''
+name: DBArabic
+pattern: \b(DBArabic)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

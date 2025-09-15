@@ -1,0 +1,9 @@
+description: ''
+name: HeavyWeight
+pattern: ^(HeavyWeight)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

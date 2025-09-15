@@ -1,0 +1,7 @@
+description: ''
+name: ONLY
+pattern: ^(ONLY)$
+tags:
+- Radarr
+- Sonarr
+tests: []

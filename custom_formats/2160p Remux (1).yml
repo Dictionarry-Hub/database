@@ -1,0 +1,16 @@
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+description: Matches 2160p Remux
+name: 2160p Remux
+tags:
+- Source
+tests: []

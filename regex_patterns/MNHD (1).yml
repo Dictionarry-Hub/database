@@ -1,0 +1,7 @@
+description: ''
+name: MNHD
+pattern: (?<=^|[\s.-])MNHD\b
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: IMAX Edition
+pattern: \b(IMAX[ ._-]Edition)\b
+tags:
+- Radarr
+tests: []

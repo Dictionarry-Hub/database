@@ -1,0 +1,6 @@
+description: ''
+name: END
+pattern: ^(END)$
+tags:
+- Sonarr
+tests: []

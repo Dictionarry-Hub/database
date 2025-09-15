@@ -1,0 +1,7 @@
+description: Banned for LQ Non English / RaR
+name: CLASSiCALHD
+pattern: (?<=^|[\s.-])CLASSiCALHD\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

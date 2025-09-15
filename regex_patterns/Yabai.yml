@@ -1,0 +1,7 @@
+description: ''
+name: Yabai
+pattern: \[Yabai\]|-Yabai\b
+tags:
+- Radarr
+- Sonarr
+tests: []

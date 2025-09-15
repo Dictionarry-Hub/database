@@ -1,0 +1,7 @@
+description: ''
+name: EXCiTED
+pattern: ^(EXCiTED)$
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: ETHiCS
+pattern: ^(ETHiCS)$
+tags:
+- Sonarr
+tests: []

@@ -1,0 +1,12 @@
+conditions:
+- name: FraMeSToR
+  negate: false
+  pattern: FraMeSToR
+  required: true
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: FraMeSToR
+tags:
+- Release Group
+- TRaSH
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: EPSiLON
+pattern: ^(EPSiLON)$
+tags:
+- Radarr
+- Sonarr
+tests: []

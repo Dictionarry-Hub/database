@@ -1,0 +1,6 @@
+description: ''
+name: VinSyn
+pattern: \b(VinSyn)\b
+tags:
+- Radarr
+tests: []

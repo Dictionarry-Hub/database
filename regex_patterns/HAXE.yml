@@ -1,0 +1,7 @@
+description: ''
+name: HAXE
+pattern: ^(HAXE)$
+tags:
+- Radarr
+- Sonarr
+tests: []

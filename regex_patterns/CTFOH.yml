@@ -1,0 +1,8 @@
+description: ''
+name: CTFOH
+pattern: (CTFOH)$
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

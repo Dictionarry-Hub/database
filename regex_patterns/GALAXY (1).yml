@@ -1,0 +1,7 @@
+description: ''
+name: GALAXY
+pattern: (?<=^|[\s.-])GALAXY\b
+tags:
+- Release Group
+- Bluray
+tests: []

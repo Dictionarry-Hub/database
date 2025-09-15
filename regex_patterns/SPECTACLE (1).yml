@@ -1,0 +1,7 @@
+description: ''
+name: SPECTACLE
+pattern: (?<=^|[\s.-])SPECTACLE\b
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: TeamTurquoize
+pattern: \b(TeamTurquoize)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

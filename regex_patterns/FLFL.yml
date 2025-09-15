@@ -1,0 +1,7 @@
+description: ''
+name: FLFL
+pattern: \b(FLFL)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

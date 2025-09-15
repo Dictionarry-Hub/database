@@ -1,0 +1,68 @@
+conditions:
+- name: Remux
+  negate: false
+  qualityModifier: remux
+  required: true
+  type: quality_modifier
+- name: ATELiER
+  negate: false
+  pattern: ATELiER
+  required: false
+  type: release_group
+- name: decibeL
+  negate: false
+  pattern: decibeL
+  required: false
+  type: release_group
+- name: EPSiLON
+  negate: false
+  pattern: EPSiLON
+  required: false
+  type: release_group
+- name: HiFi
+  negate: false
+  pattern: HiFi
+  required: false
+  type: release_group
+- name: iFT
+  negate: false
+  pattern: iFT
+  required: false
+  type: release_group
+- name: KRaLiMaRKo
+  negate: false
+  pattern: KRaLiMaRKo
+  required: false
+  type: release_group
+- name: NTb
+  negate: false
+  pattern: NTb
+  required: false
+  type: release_group
+- name: PTP
+  negate: false
+  pattern: PTP
+  required: false
+  type: release_group
+- name: SumVision
+  negate: false
+  pattern: SumVision
+  required: false
+  type: release_group
+- name: TOA
+  negate: false
+  pattern: TOA
+  required: false
+  type: release_group
+- name: TRiToN
+  negate: false
+  pattern: TRiToN
+  required: false
+  type: release_group
+description: '[Custom format from TRaSH-Guides.]'
+name: Remux Tier 03
+tags:
+- Quality Modifier
+- Release Group
+- TRaSH
+tests: []

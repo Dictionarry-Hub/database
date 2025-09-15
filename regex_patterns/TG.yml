@@ -1,0 +1,6 @@
+description: ''
+name: TG
+pattern: ^(TG)$
+tags:
+- Sonarr
+tests: []

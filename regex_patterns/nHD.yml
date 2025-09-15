@@ -1,0 +1,6 @@
+description: ''
+name: nHD
+pattern: ^(nHD)$
+tags:
+- Radarr
+tests: []

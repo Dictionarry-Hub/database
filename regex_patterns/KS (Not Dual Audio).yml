@@ -1,0 +1,7 @@
+description: ''
+name: KS (Not Dual Audio)
+pattern: ^(?!.*(dual[ ._-]?audio|[([]dual[])]|(JA|ZH|KO)\+EN|EN\+(JA|ZH|KO))).*\bKS\b
+tags:
+- Radarr
+- Sonarr
+tests: []

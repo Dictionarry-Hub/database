@@ -1,0 +1,7 @@
+description: ''
+name: zza
+pattern: \[zza\]|-zza\b
+tags:
+- Radarr
+- Sonarr
+tests: []

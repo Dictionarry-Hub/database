@@ -1,0 +1,7 @@
+description: ''
+name: LCD
+pattern: ^(LCD)$
+tags:
+- Radarr
+- Sonarr
+tests: []

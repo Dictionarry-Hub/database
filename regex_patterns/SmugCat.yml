@@ -1,0 +1,7 @@
+description: ''
+name: SmugCat
+pattern: \b(SmugCat)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

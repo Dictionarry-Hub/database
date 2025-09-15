@@ -1,0 +1,12 @@
+conditions:
+- name: BEN THE MEN
+  negate: false
+  pattern: BEN THE MEN
+  required: false
+  type: release_title
+description: Matches Grouos that are Banned via Release Title
+name: Banned Groups (Title)
+tags:
+- Banned
+- Release Group
+tests: []

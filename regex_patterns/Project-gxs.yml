@@ -1,0 +1,7 @@
+description: ''
+name: Project-gxs
+pattern: \b(Project-gxs)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

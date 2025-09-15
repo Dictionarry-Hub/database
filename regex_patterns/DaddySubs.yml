@@ -1,0 +1,7 @@
+description: ''
+name: DaddySubs
+pattern: \[Daddy(Subs)?\]|-Daddy(Subs)?\b
+tags:
+- Radarr
+- Sonarr
+tests: []

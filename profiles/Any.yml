@@ -1,0 +1,197 @@
+custom_formats:
+- name: HD Bluray Tier 01
+  score: 1800
+- name: UHD Bluray Tier 01
+  score: 1800
+- name: HD Bluray Tier 02
+  score: 1750
+- name: UHD Bluray Tier 02
+  score: 1750
+- name: HD Bluray Tier 03
+  score: 1700
+- name: UHD Bluray Tier 03
+  score: 1700
+- name: WEB Tier 01
+  score: 1700
+- name: WEB Tier 02
+  score: 1650
+- name: WEB Tier 03
+  score: 1600
+- name: 2160p
+  score: 1500
+- name: 1080p
+  score: 1000
+- name: MA
+  score: 1000
+- name: Dolby Vision with HDR10 Fallback
+  score: 750
+- name: HDR
+  score: 500
+- name: Remux
+  score: 200
+- name: 7.1 Surround
+  score: 55
+- name: 5.1 Surround
+  score: 50
+- name: Atmos
+  score: 50
+- name: CRiT
+  score: 20
+- name: BCORE
+  score: 15
+- name: Repack3
+  score: 3
+- name: Repack2
+  score: 2
+- name: Repack1
+  score: 1
+- name: AMZN
+  score: 0
+- name: ATV
+  score: 0
+- name: ATVP
+  score: 0
+- name: DSNP
+  score: 0
+- name: DV Boost
+  score: 0
+- name: HMAX
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: IQIYI
+  score: 0
+- name: iT
+  score: 0
+- name: iT (Missing)
+  score: 0
+- name: KCW
+  score: 0
+- name: MAX
+  score: 0
+- name: NF
+  score: 0
+- name: NOW
+  score: 0
+- name: PCOK
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
+- name: TVING
+  score: 0
+- name: VIKI
+  score: 0
+- name: VIU
+  score: 0
+- name: WAVVE
+  score: 0
+- name: WeTV
+  score: 0
+- name: 3D
+  score: -10000
+- name: AV1
+  score: -10000
+- name: BR-DISK
+  score: -10000
+- name: DV (WEBDL)
+  score: -10000
+- name: Extras
+  score: -10000
+- name: LQ
+  score: -10000
+- name: LQ (Release Title)
+  score: -10000
+- name: Sing-Along Versions
+  score: -10000
+- name: Upscaled
+  score: -10000
+- name: Dolby Vision (Without Fallback)
+  score: -100000
+custom_formats_radarr:
+- name: CRIT
+  score: 0
+custom_formats_sonarr: []
+description: 'Chose this profile if:
+
+  - You want up to 4K resolution.
+
+  - You use a dedicated streaming box (Apple TV, NVIDIA Shield,etc).
+
+  - You do not care about the file size.
+
+  - You want the highest-quality encode with no remuxes.
+
+  - You care about HD Audio (TrueHD, DTS-X, etc).
+
+  - You want Dolby Vision
+
+  - You want HDR
+
+  '
+language: original
+minCustomFormatScore: 0
+minScoreIncrement: 1
+name: Any
+qualities:
+- description: ''
+  id: -1
+  name: 2160p
+  qualities:
+  - id: 5
+    name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
+  - id: 4
+    name: Bluray-2160p
+  - id: 3
+    name: Remux-2160p
+  - id: 7
+    name: HDTV-2160p
+- description: ''
+  id: -3
+  name: 1080p
+  qualities:
+  - id: 11
+    name: WEBRip-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 8
+    name: Remux-1080p
+  - id: 10
+    name: Bluray-1080p
+  - id: 12
+    name: HDTV-1080p
+- description: ''
+  id: -2
+  name: 720p
+  qualities:
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 13
+    name: Bluray-720p
+- id: 17
+  name: Bluray-576p
+- id: 22
+  name: DVD
+- id: 24
+  name: SDTV
+tags:
+- Radarr
+- 2160p
+- Sonarr
+- NukeZone
+upgradeUntilScore: 3500
+upgrade_until:
+  id: -1
+  name: 2160p
+upgradesAllowed: true

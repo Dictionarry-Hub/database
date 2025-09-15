@@ -1,0 +1,6 @@
+description: ''
+name: HiSD
+pattern: ^(HiSD)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,24 @@
+conditions:
+- name: DVD
+  negate: false
+  required: true
+  source: dvd
+  type: source
+- name: TBB
+  negate: false
+  pattern: TBB
+  required: false
+  type: release_group
+- name: Dariush
+  negate: false
+  pattern: Dariush
+  required: false
+  type: release_group
+description: Matches release groups who fall under SD GPPi Tier 1
+name: SD Quality Tier 1
+tags:
+- GPPi
+- Release Group Tier
+- SD
+- Quality
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: FORMBA
+pattern: (FORMBA)$
+tags:
+- Radarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: Opus (Negation)
+pattern: (?<=^|[\s.-])OPUS\b
+tags:
+- Release Group
+- WEB-DL
+tests: []

@@ -1,0 +1,6 @@
+description: ''
+name: 3L
+pattern: ^(3L)$
+tags:
+- Radarr
+tests: []

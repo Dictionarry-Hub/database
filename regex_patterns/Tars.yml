@@ -1,0 +1,7 @@
+description: ''
+name: Tars
+pattern: ^(Tars)$
+tags:
+- Radarr
+- Sonarr
+tests: []

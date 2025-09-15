@@ -1,0 +1,9 @@
+description: ''
+name: Not Mono
+pattern: '[^0-9]1[ .]0\b|\bMono\b|\[PCM \]'
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

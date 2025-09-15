@@ -1,0 +1,42 @@
+conditions:
+- name: FLAC
+  negate: false
+  pattern: Not FLAC
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: Not AAC
+  required: true
+  type: release_title
+- name: Not DTS
+  negate: true
+  pattern: Not DTS
+  required: true
+  type: release_title
+- name: Not TrueHD-ATMOS
+  negate: true
+  pattern: Not TrueHD-ATMOS
+  required: true
+  type: release_title
+- name: Not Basic Dolby Digital
+  negate: true
+  pattern: Not Basic Dolby Digital
+  required: true
+  type: release_title
+- name: 'Not Dolby Digital Plus '
+  negate: true
+  pattern: Not Dolby Digital Plus
+  required: true
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: FLAC
+tags:
+- Release Title
+- TRaSH
+tests: []

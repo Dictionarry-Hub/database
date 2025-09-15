@@ -1,0 +1,10 @@
+description: ''
+name: TrueHD
+pattern: True[ .-]?HD
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+- Sonarr
+- Sonarr
+tests: []

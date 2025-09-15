@@ -1,0 +1,7 @@
+description: ''
+name: Ari
+pattern: \[Ari\]|-Ari\b
+tags:
+- Radarr
+- Sonarr
+tests: []

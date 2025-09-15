@@ -1,0 +1,7 @@
+description: ''
+name: Anime Chap
+pattern: \b(Anime[ .-]?Chap)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: XEBEC
+pattern: ^(XEBEC|4KBEC|CEBEX)$
+tags:
+- Radarr
+- Sonarr
+tests: []

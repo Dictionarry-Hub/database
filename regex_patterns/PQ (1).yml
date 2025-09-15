@@ -1,0 +1,7 @@
+description: ''
+name: PQ
+pattern: \b(PQ)\b
+tags:
+- Radarr
+- Sonarr
+tests: []

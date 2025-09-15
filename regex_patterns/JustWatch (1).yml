@@ -1,0 +1,7 @@
+description: ''
+name: JustWatch
+pattern: (?<=^|[\s.-])JustWatch\b
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+description: ''
+name: W
+pattern: ^(Wednesday29th)$
+tags:
+- Radarr
+- Sonarr
+tests: []

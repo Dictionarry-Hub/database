@@ -1,0 +1,6 @@
+description: ''
+name: PL
+pattern: (PL)$
+tags:
+- Radarr
+tests: []

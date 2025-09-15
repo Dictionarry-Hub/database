@@ -1,0 +1,6 @@
+description: ''
+name: FLAC
+pattern: \bFLAC(\b|\d)
+tags:
+- Audio
+tests: []

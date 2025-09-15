@@ -1,0 +1,6 @@
+description: ''
+name: QUEBEC63
+pattern: ^(Q(UEBE)?C63)$
+tags:
+- Radarr
+tests: []

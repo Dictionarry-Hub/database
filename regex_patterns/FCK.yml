@@ -1,0 +1,7 @@
+description: ''
+name: FCK
+pattern: ^(FCK)$
+tags:
+- Radarr
+- Sonarr
+tests: []

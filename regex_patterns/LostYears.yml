@@ -1,0 +1,8 @@
+description: ''
+name: LostYears
+pattern: \b(LostYears)\b
+tags:
+- Radarr
+- Sonarr
+- Sonarr
+tests: []

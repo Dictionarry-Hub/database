@@ -1,0 +1,28 @@
+conditions:
+- name: WEBDL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRIP
+  negate: false
+  required: false
+  source: webrip
+  type: source
+- name: AUViO
+  negate: false
+  pattern: AUViO
+  required: false
+  type: release_title
+- name: "Radio T\xE9l\xE9vision Belge Francophone"
+  negate: false
+  pattern: "Radio T\xE9l\xE9vision Belge Francophone"
+  required: false
+  type: release_title
+description: '[Custom format from TRaSH-Guides.]'
+name: AUViO
+tags:
+- Release Title
+- Source
+- TRaSH
+tests: []

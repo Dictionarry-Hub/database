@@ -1,0 +1,7 @@
+description: ''
+name: Disney+
+pattern: \b(dsnp|dsny|disney|Disney\+)\b
+tags:
+- Radarr
+- Sonarr
+tests: []
