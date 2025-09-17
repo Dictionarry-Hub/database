@@ -17,7 +17,7 @@ tags:
 - Lossless Audio
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 20000
+minCustomFormatScore: 0
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:

@@ -11,7 +11,7 @@ tags:
 - x264
 - h264
 upgradesAllowed: true
-minCustomFormatScore: 20000
+minCustomFormatScore: 0
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
@@ -209,6 +209,10 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
+- id: 12
+  name: HDTV-1080p
+- id: 16
+  name: HDTV-720p
 - id: -3
   name: SD Fallback
   description: Standard Definition Fallbacks
@@ -221,6 +225,8 @@ qualities:
     name: WEBRip-480p
   - id: 22
     name: DVD
+- id: 24
+  name: SDTV
 upgrade_until:
   id: -1
   name: Transparent Capable

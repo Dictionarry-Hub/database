@@ -18,7 +18,7 @@ tags:
 - Lossless Audio
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 20000
+minCustomFormatScore: 0
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
@@ -217,6 +217,10 @@ qualities:
   name: WEBDL-1080p
 - id: 14
   name: WEBDL-720p
+- id: 12
+  name: HDTV-1080p
+- id: 16
+  name: HDTV-720p
 - id: -1
   name: SD Fallback
   description: Standard Definition Fallbacks
@@ -225,6 +229,10 @@ qualities:
     name: DVD
   - id: 19
     name: WEBDL-480p
+- id: 20
+  name: WEBRip-480p
+- id: 24
+  name: SDTV
 upgrade_until:
   id: -2
   name: 2160p Formats

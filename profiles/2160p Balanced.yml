@@ -14,7 +14,7 @@ tags:
 - x264
 - h265
 upgradesAllowed: true
-minCustomFormatScore: 20000
+minCustomFormatScore: 0
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
@@ -239,6 +239,8 @@ qualities:
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
+- id: 6
+  name: WEBRip-2160p
 - id: -2
   name: 1080p Transparent
   description: Indistinguishable from source
@@ -259,6 +261,10 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
+- id: 12
+  name: HDTV-1080p
+- id: 16
+  name: HDTV-720p
 - id: -4
   name: SD Fallback
   description: Standard Definition Fallbacks
@@ -271,6 +277,8 @@ qualities:
     name: WEBRip-480p
   - id: 22
     name: DVD
+- id: 24
+  name: SDTV
 upgrade_until:
   id: -1
   name: 2160p Balanced
