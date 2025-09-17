@@ -1,26 +1,3 @@
-name: 2160p Remux
-description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
-  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
-  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
-  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
-  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
-  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
-  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
-  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
-  \ which are fairly common on quite a few trackers who often have the best remux\
-  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
-  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
-  \ **1080p Remux** profile. "
-tags:
-- 2160p
-- Remux
-- HDR
-- Lossless Audio
-- h265
-upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 400000
-minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
   score: 160000
@@ -202,10 +179,26 @@ custom_formats_sonarr:
   score: 10
 - name: TV Extras
   score: -999999
+description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
+  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
+  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
+  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
+  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
+  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
+  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
+  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
+  \ which are fairly common on quite a few trackers who often have the best remux\
+  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
+  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
+  \ **1080p Remux** profile. "
+language: must_original
+minCustomFormatScore: 0
+minScoreIncrement: 1
+name: 2160p Remux
 qualities:
-- id: -2
+- description: ''
+  id: -2
   name: 2160p Formats
-  description: ''
   qualities:
   - id: 3
     name: Remux-2160p
@@ -221,9 +214,9 @@ qualities:
   name: HDTV-1080p
 - id: 16
   name: HDTV-720p
-- id: -1
+- description: Standard Definition Fallbacks
+  id: -1
   name: SD Fallback
-  description: Standard Definition Fallbacks
   qualities:
   - id: 22
     name: DVD
@@ -233,7 +226,14 @@ qualities:
   name: WEBRip-480p
 - id: 24
   name: SDTV
+tags:
+- 2160p
+- Remux
+- HDR
+- Lossless Audio
+- h265
+upgradeUntilScore: 400000
 upgrade_until:
   id: -2
   name: 2160p Formats
-language: must_original
+upgradesAllowed: true

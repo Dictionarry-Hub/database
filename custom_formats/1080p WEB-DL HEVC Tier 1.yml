@@ -20,6 +20,11 @@ conditions:
   pattern: HEVC
   required: true
   type: release_title
+- name: Not Weasley
+  type: release_title
+  required: true
+  negate: true
+  pattern: Weasley
 - name: BYNDR
   negate: false
   pattern: BYNDR

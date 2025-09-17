@@ -15,6 +15,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: Release Groups
+  type: release_group
+  required: true
+  negate: true
+  pattern: HDR10 (Negation)
 - name: Not SDR
   negate: true
   pattern: SDR

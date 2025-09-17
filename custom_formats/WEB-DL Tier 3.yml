@@ -9,6 +9,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: ABM
+  negate: false
+  pattern: ABM
+  required: false
+  type: release_group
 - name: AJP69
   negate: false
   pattern: AJP69
@@ -44,6 +49,11 @@ conditions:
   pattern: CtrlHD
   required: false
   type: release_group
+- name: KHN
+  negate: false
+  pattern: KHN
+  required: false
+  type: release_group
 - name: KiNGS
   negate: false
   pattern: KiNGS
@@ -67,6 +77,11 @@ conditions:
 - name: NOSiViD
   negate: false
   pattern: NOSiViD
+  required: false
+  type: release_group
+- name: NPMS
+  negate: false
+  pattern: NPMS
   required: false
   type: release_group
 - name: NTG
@@ -99,6 +114,11 @@ conditions:
   pattern: SMURF
   required: false
   type: release_group
+- name: TheFarm
+  type: release_group
+  required: false
+  negate: false
+  pattern: TheFarm
 - name: TOMMY
   negate: false
   pattern: TOMMY
@@ -107,6 +127,16 @@ conditions:
 - name: TVSmash
   negate: false
   pattern: TVSmash
+  required: false
+  type: release_group
+- name: WELP
+  negate: false
+  pattern: WELP
+  required: false
+  type: release_group
+- name: XEBEC
+  negate: false
+  pattern: XEBEC
   required: false
   type: release_group
 - name: ZoroSenpai

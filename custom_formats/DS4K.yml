@@ -1,11 +1,10 @@
 name: DS4K
 description: ''
-tags:
-- Enhancements
+tags: []
 conditions:
 - name: DS4K
-  type: release_title
-  required: true
   negate: false
   pattern: DS4K
+  required: true
+  type: release_title
 tests: []

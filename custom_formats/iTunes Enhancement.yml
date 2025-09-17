@@ -1,0 +1,16 @@
+name: iTunes Enhancement
+description: ''
+tags:
+- Enhancement
+conditions:
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: iT
+  negate: false
+  pattern: iTunes
+  required: false
+  type: release_title
+tests: []

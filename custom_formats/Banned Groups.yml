@@ -34,6 +34,11 @@ conditions:
   pattern: BiTOR
   required: false
   type: release_group
+- name: BLASPHEMY
+  negate: false
+  pattern: BLASPHEMY
+  required: false
+  type: release_group
 - name: BOLS
   negate: false
   pattern: BOLS
@@ -64,6 +69,16 @@ conditions:
   pattern: DepraveD
   required: false
   type: release_group
+- name: DeViSiVE
+  type: release_group
+  required: false
+  negate: false
+  pattern: DeViSiVE
+- name: DRX
+  negate: false
+  pattern: DRX
+  required: false
+  type: release_group
 - name: FGT
   negate: false
   pattern: FGT
@@ -77,6 +92,11 @@ conditions:
 - name: HDS
   negate: false
   pattern: HDS
+  required: false
+  type: release_group
+- name: iVy
+  negate: false
+  pattern: iVy
   required: false
   type: release_group
 - name: jennaortegaUHD

@@ -1,5 +1,5 @@
 name: DarQ
-pattern: (?<=^|[\s.-])DarQ\b
+pattern: (?<=^|[\s.-])DarQ\b$
 description: ''
 tags:
 - Release Group

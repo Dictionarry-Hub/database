@@ -1,0 +1,303 @@
+name: 1080p Efficient+
+description: 'Efficient+ Profile Beta Testing Radarr and Sonarr
+
+
+  - Includes HEVC Blurays and WEB-DLs
+
+
+  - High Bitrate Focused Profile
+
+
+  - Usenet Indexers have limited amounts of 1080p HEVC. Results may be limited for
+  Usenet Users.'
+tags:
+- 1080p
+- Efficient Focused
+- Lossy Audio
+- h265
+- x265
+upgradesAllowed: true
+minCustomFormatScore: 20000
+upgradeUntilScore: 400000
+minScoreIncrement: 1
+custom_formats:
+- name: 1080p Bluray HEVC Tier 1
+  score: 220000
+- name: 1080p WEB-DL HEVC Tier 1
+  score: 200000
+- name: QxR Bluray
+  score: 184000
+- name: TAoE Bluray
+  score: 184000
+- name: 1080p Balanced Tier 1
+  score: 140000
+- name: 1080p WEB-DL (h264)
+  score: 140000
+- name: 720p WEB-DL
+  score: 100000
+- name: 720p Bluray
+  score: 80000
+- name: 720p WEBRip
+  score: 80000
+- name: 480p WEB-DL
+  score: 60000
+- name: 720p Quality Tier 1
+  score: 44000
+- name: 720p Quality Tier 2
+  score: 43000
+- name: 720p Quality Tier 3
+  score: 42000
+- name: 720p Quality Tier 4
+  score: 41000
+- name: 720p Quality Tier 5
+  score: 40000
+- name: 720p Balanced Tier 1
+  score: 20000
+- name: DVD
+  score: 20000
+- name: DVD Remux
+  score: 20000
+- name: SD Quality Tier 1
+  score: 11000
+- name: SD Quality Tier 2
+  score: 10000
+- name: AMZN
+  score: 3000
+- name: ATVP
+  score: 3000
+- name: Dolby Vision
+  score: 3000
+- name: DSNP
+  score: 3000
+- name: HDR10+
+  score: 2000
+- name: HMAX
+  score: 2000
+- name: MAX
+  score: 2000
+- name: ATV
+  score: 1000
+- name: DS4K
+  score: 1000
+- name: HDR
+  score: 1000
+- name: HDR10
+  score: 1000
+- name: HLG
+  score: 1000
+- name: iT
+  score: 1000
+- name: NF
+  score: 1000
+- name: PQ
+  score: 1000
+- name: DTS-HD HRA
+  score: 800
+- name: Opus
+  score: 800
+- name: Dolby Digital +
+  score: 600
+- name: Dolby Atmos
+  score: 400
+- name: DTS-ES
+  score: 400
+- name: Dolby Digital
+  score: 200
+- name: DTS
+  score: 100
+- name: WEB-DL Tier 1
+  score: 100
+- name: WEB-DL Tier 2
+  score: 80
+- name: WEB-DL Tier 3
+  score: 60
+- name: WEB-DL Tier 4
+  score: 40
+- name: WEB-DL Tier 5
+  score: 20
+- name: Repack3
+  score: 8
+- name: Repack2
+  score: 7
+- name: Repack1
+  score: 6
+- name: AAC
+  score: 0
+- name: BCORE
+  score: 0
+- name: HTSR
+  score: 0
+- name: HULU
+  score: 0
+- name: NOW
+  score: 0
+- name: PCOK
+  score: 0
+- name: PMTP
+  score: 0
+- name: ROKU
+  score: 0
+- name: SHO
+  score: 0
+- name: STAN
+  score: 0
+- name: AV1
+  score: -999999
+- name: B&W
+  score: -999999
+- name: Banned Groups (Efficient)
+  score: -999999
+- name: Banned Groups (Title)
+  score: -999999
+- name: Banned Scene
+  score: -999999
+- name: Banned WEBRip (Efficient)
+  score: -999999
+- name: Dolby Vision (Without Fallback)
+  score: -999999
+- name: Full Disc
+  score: -999999
+- name: h265 (Efficient)
+  score: -999999
+- name: Lossless Audio
+  score: -999999
+- name: Remux
+  score: -999999
+- name: UHD Bluray (Efficient)
+  score: -999999
+- name: VP9
+  score: -999999
+- name: VVC
+  score: -999999
+- name: x265 (Efficient)
+  score: -999999
+- name: Xvid
+  score: -999999
+custom_formats_radarr:
+- name: 1080p Efficient+ Movie Bluray Tier 1
+  score: 184000
+- name: 1080p Efficient+ Movie Bluray Tier 2
+  score: 183000
+- name: 1080p Efficient+ Movie Bluray Tier 3
+  score: 182000
+- name: 1080p Efficient+ Movie Bluray Tier 4
+  score: 181000
+- name: 1080p Efficient+ Movie Bluray Tier 5
+  score: 180000
+- name: 1080p Efficient+ Movie WEB Tier 1
+  score: 163000
+- name: QxR WEB
+  score: 163000
+- name: TAoE WEB
+  score: 163000
+- name: 1080p Efficient+ Movie WEB Tier 2
+  score: 162000
+- name: 1080p Efficient+ Movie WEB Tier 3
+  score: 161000
+- name: 1080p Efficient+ Movie WEB Tier 4
+  score: 160000
+- name: 720p Golden Popcorn
+  score: 6000
+- name: MA
+  score: 4000
+- name: SD Golden Popcorn
+  score: 4000
+- name: Better Theatricals
+  score: 1000
+- name: CRIT
+  score: 1000
+- name: Special Edition
+  score: 1000
+- name: 3D
+  score: -999999
+- name: Extras
+  score: -999999
+- name: Full Disc (Quality Match)
+  score: -999999
+- name: Remux (Quality Match)
+  score: -999999
+- name: Sing Along
+  score: -999999
+- name: Upscale
+  score: -999999
+custom_formats_sonarr:
+- name: 1080p Efficient+ TV Bluray Tier 1
+  score: 184000
+- name: 1080p Efficient+ TV Bluray Tier 2
+  score: 183000
+- name: 1080p Efficient+ TV Bluray Tier 3
+  score: 182000
+- name: 1080p Efficient+ TV Bluray Tier 4
+  score: 181000
+- name: 1080p Efficient+ TV Bluray Tier 5
+  score: 180000
+- name: 1080p Efficient+ TV WEB Tier 1
+  score: 167000
+- name: QxR WEB
+  score: 167000
+- name: 1080p Efficient+ TV WEB Tier 2
+  score: 166000
+- name: 1080p Efficient+ TV WEB Tier 3
+  score: 165000
+- name: TAoE WEB
+  score: 165000
+- name: 1080p Efficient+ TV WEB Tier 4
+  score: 164000
+- name: 1080p Efficient+ TV Bluray Tier 6
+  score: 163000
+- name: 1080p Efficient+ TV Bluray Tier 7
+  score: 162000
+- name: 1080p Efficient+ TV WEB Tier 5
+  score: 161000
+- name: 1080p Efficient+ TV WEB Tier 6
+  score: 160000
+- name: Season Pack
+  score: 10
+- name: Remux (Source)
+  score: -999999
+- name: TV Extras
+  score: -999999
+- name: Upscaled
+  score: -999999
+qualities:
+- id: -1
+  name: Efficient Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
+  qualities:
+  - id: 10
+    name: Bluray-1080p
+  - id: 9
+    name: WEBDL-1080p
+  - id: 11
+    name: WEBRip-1080p
+- id: -2
+  name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
+  qualities:
+  - id: 13
+    name: Bluray-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 15
+    name: WEBRip-720p
+- id: -3
+  name: SD Fallback
+  description: Standard Definition Fallbacks
+  qualities:
+  - id: 18
+    name: Bluray-480p
+  - id: 19
+    name: WEBDL-480p
+  - id: 20
+    name: WEBRip-480p
+  - id: 22
+    name: DVD
+upgrade_until:
+  id: -1
+  name: Efficient Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
+language: must_original
