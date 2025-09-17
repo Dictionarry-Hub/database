@@ -1,16 +1,5 @@
 name: 2160p Remux (Prefer Theatrical)
-description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
-  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
-  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
-  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
-  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
-  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
-  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
-  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
-  \ which are fairly common on quite a few trackers who often have the best remux\
-  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
-  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
-  \ **1080p Remux** profile. "
+description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000"
 tags:
 - 2160p
 - Remux
@@ -30,8 +19,8 @@ custom_formats:
   score: 120000
 - name: 1080p WEB-DL
   score: 100000
-- name: 2160p WEBRip
-  score: 90000
+- name: 1080p WEBRip
+  score: 85000
 - name: 720p WEB-DL
   score: 80000
 - name: 480p WEB-DL
@@ -42,8 +31,6 @@ custom_formats:
   score: 20000
 - name: SD Quality Tier 1
   score: 11000
-- name: 480p WEBRip
-  score: 10000
 - name: DTS-X
   score: 10000
 - name: SD Quality Tier 2
@@ -169,10 +156,6 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
-- name: 1080p WEBRip
-  score: 70000
-- name: IMAX
-  score: 40000
 - name: IMAX Enhanced
   score: 40000
 - name: MA
@@ -194,8 +177,6 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
-- name: 1080p WEBRip
-  score: 90000
 - name: MAX
   score: 3000
 - name: iT
