@@ -115,7 +115,7 @@ conditions:
   required: false
   type: release_group
 - name: NoGroup
-  negate: false
+  negate: true
   pattern: NoGroup
   required: false
   type: release_group
@@ -214,4 +214,262 @@ conditions:
   pattern: 4REMUX
   required: false
   type: release_group
-tests: []
+tests:
+- conditionResults:
+  - matches: true
+    name: Release Group (Missing)
+    negate: true
+    pattern: Release Group (Missing)
+    required: false
+    type: release_group
+  - matches: false
+    name: 4K4U
+    negate: false
+    pattern: 4K4U
+    required: false
+    type: release_group
+  - matches: false
+    name: AOC
+    negate: false
+    pattern: AOC
+    required: false
+    type: release_group
+  - matches: false
+    name: AROMA
+    negate: false
+    pattern: AROMA
+    required: false
+    type: release_group
+  - matches: false
+    name: BeyondHD
+    negate: false
+    pattern: BeyondHD
+    required: false
+    type: release_group
+  - matches: false
+    name: BiTOR
+    negate: false
+    pattern: BiTOR
+    required: false
+    type: release_group
+  - matches: false
+    name: BOLS
+    negate: false
+    pattern: BOLS
+    required: false
+    type: release_group
+  - matches: false
+    name: BTM
+    negate: false
+    pattern: BTM
+    required: false
+    type: release_group
+  - matches: false
+    name: CLASSiCALHD
+    negate: false
+    pattern: CLASSiCALHD
+    required: false
+    type: release_group
+  - matches: false
+    name: CREATiVE24
+    negate: false
+    pattern: CREATiVE24
+    required: false
+    type: release_group
+  - matches: false
+    name: d3g
+    negate: false
+    pattern: d3g
+    required: false
+    type: release_group
+  - matches: false
+    name: DepraveD
+    negate: false
+    pattern: DepraveD
+    required: false
+    type: release_group
+  - matches: false
+    name: FGT
+    negate: false
+    pattern: FGT
+    required: false
+    type: release_group
+  - matches: false
+    name: Flights
+    negate: false
+    pattern: Flights
+    required: false
+    type: release_group
+  - matches: false
+    name: HDS
+    negate: false
+    pattern: HDS
+    required: false
+    type: release_group
+  - matches: false
+    name: jennaortegaUHD
+    negate: false
+    pattern: jennaortegaUHD
+    required: false
+    type: release_group
+  - matches: false
+    name: KC
+    negate: false
+    pattern: KC
+    required: false
+    type: release_group
+  - matches: false
+    name: LAMA
+    negate: false
+    pattern: LAMA
+    required: false
+    type: release_group
+  - matches: false
+    name: MeGusta
+    negate: false
+    pattern: MeGusta
+    required: false
+    type: release_group
+  - matches: false
+    name: MgB
+    negate: false
+    pattern: MgB
+    required: false
+    type: release_group
+  - matches: false
+    name: NAHOM
+    negate: false
+    pattern: NAHOM
+    required: false
+    type: release_group
+  - matches: false
+    name: NhaNc3
+    negate: false
+    pattern: NhaNc3
+    required: false
+    type: release_group
+  - matches: true
+    name: NoGroup
+    negate: false
+    pattern: NoGroup
+    required: false
+    type: release_group
+  - matches: false
+    name: OEPlus
+    negate: false
+    pattern: OEPlus
+    required: false
+    type: release_group
+  - matches: false
+    name: PiRaTeS
+    negate: false
+    pattern: PiRaTeS
+    required: false
+    type: release_group
+  - matches: false
+    name: PSA
+    negate: false
+    pattern: PSA
+    required: false
+    type: release_group
+  - matches: false
+    name: RARGB
+    negate: false
+    pattern: RARGB
+    required: false
+    type: release_group
+  - matches: false
+    name: SasukeducK
+    negate: false
+    pattern: SasukeducK
+    required: false
+    type: release_group
+  - matches: false
+    name: SHD
+    negate: false
+    pattern: SHD
+    required: false
+    type: release_group
+  - matches: false
+    name: ShieldBearer
+    negate: false
+    pattern: ShieldBearer
+    required: false
+    type: release_group
+  - matches: false
+    name: STUTTERSHIT
+    negate: false
+    pattern: STUTTERSHIT
+    required: false
+    type: release_group
+  - matches: false
+    name: tarunk9c
+    negate: false
+    pattern: tarunk9c
+    required: false
+    type: release_group
+  - matches: false
+    name: TEKNO3D
+    negate: false
+    pattern: TEKNO3D
+    required: false
+    type: release_group
+  - matches: false
+    name: Telly
+    negate: false
+    pattern: Telly
+    required: false
+    type: release_group
+  - matches: false
+    name: TvR
+    negate: false
+    pattern: TvR
+    required: false
+    type: release_group
+  - matches: false
+    name: VECTOR
+    negate: false
+    pattern: VECTOR
+    required: false
+    type: release_group
+  - matches: false
+    name: VisionXpert
+    negate: false
+    pattern: VisionXpert
+    required: false
+    type: release_group
+  - matches: false
+    name: WiKi
+    negate: false
+    pattern: WiKi
+    required: false
+    type: release_group
+  - matches: false
+    name: x0r
+    negate: false
+    pattern: x0r
+    required: false
+    type: release_group
+  - matches: false
+    name: YIFY
+    negate: false
+    pattern: YIFY
+    required: false
+    type: release_group
+  - matches: false
+    name: YTS
+    negate: false
+    pattern: YTS
+    required: false
+    type: release_group
+  - matches: false
+    name: 4REMUX
+    negate: false
+    pattern: 4REMUX
+    required: false
+    type: release_group
+  expected: false
+  id: 1
+  input: SpongeBob.SquarePants.S16E03.Squidwards.Tough.Break.1080p.HDTV.AAC2.0.H.264-NOGRP
+  lastRun: '2025-09-16T23:21:31.695680'
+  passes: true
