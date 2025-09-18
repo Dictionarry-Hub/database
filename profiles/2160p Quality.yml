@@ -1,22 +1,28 @@
+name: 2160p Quality
+description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/EEi)\
+  \ metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\
+  \n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality\
+  \ WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below\
+  \ for further fallback. \n- Special considerations for both **HDR** and **Lossless\
+  \ Audio** formats help to push lower tiered encodes over higher tier ones in cases\
+  \ where better sources are used.\n- If no 2160p release can be found, the profile\
+  \ will fall back to the 1080p Quality Profile. "
+tags:
+- 2160p
+- Quality Focused
+- HDR
+- Lossless Audio
+- x265
+- h265
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
-- name: 2160p Quality Tier 1
-  score: 304000
-- name: 2160p Quality Tier 2
-  score: 303000
-- name: 2160p Quality Tier 3
-  score: 302000
-- name: 2160p Quality Tier 4
-  score: 301000
-- name: 2160p Quality Tier 5
-  score: 300000
 - name: UHD Bluray
   score: 280000
 - name: UHD Bluray (Missing)
   score: 280000
-- name: 2160p Quality Tier 6
-  score: 261000
-- name: 2160p Quality Tier 7
-  score: 260000
 - name: 2160p Bluray
   score: 250000
 - name: 2160p WEB-DL
@@ -45,6 +51,16 @@ custom_formats:
   score: 80000
 - name: 480p WEB-DL
   score: 60000
+- name: 2160p Quality Tier 1
+  score: 54000
+- name: 2160p Quality Tier 2
+  score: 53000
+- name: 2160p Quality Tier 3
+  score: 52000
+- name: 2160p Quality Tier 4
+  score: 51000
+- name: 2160p Quality Tier 5
+  score: 50000
 - name: 720p Quality Tier 1
   score: 44000
 - name: 720p Quality Tier 2
@@ -59,8 +75,12 @@ custom_formats:
   score: 20000
 - name: DVD
   score: 20000
+- name: 2160p Quality Tier 6
+  score: 11000
 - name: SD Quality Tier 1
   score: 11000
+- name: 2160p Quality Tier 7
+  score: 10000
 - name: SD Quality Tier 2
   score: 10000
 - name: ATVP
@@ -215,22 +235,10 @@ custom_formats_sonarr:
   score: -999999
 - name: TV Extras
   score: -999999
-description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/EEi)\
-  \ metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\
-  \n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality\
-  \ WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below\
-  \ for further fallback. \n- Special considerations for both **HDR** and **Lossless\
-  \ Audio** formats help to push lower tiered encodes over higher tier ones in cases\
-  \ where better sources are used.\n- If no 2160p release can be found, the profile\
-  \ will fall back to the 1080p Quality Profile. "
-language: must_original
-minCustomFormatScore: 0
-minScoreIncrement: 1
-name: 2160p Quality
 qualities:
-- description: Indistinguishable from source
-  id: -1
+- id: -1
   name: 2160p Transparent
+  description: Indistinguishable from source
   qualities:
   - id: 4
     name: Bluray-2160p
@@ -238,9 +246,9 @@ qualities:
     name: WEBDL-2160p
 - id: 6
   name: WEBRip-2160p
-- description: Indistinguishable from source
-  id: -2
+- id: -2
   name: 1080p Transparent
+  description: Indistinguishable from source
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -248,9 +256,9 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- description: Fallback to 720p when 1080p cannot be found.
-  id: -3
+- id: -3
   name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -262,9 +270,9 @@ qualities:
   name: HDTV-1080p
 - id: 16
   name: HDTV-720p
-- description: Standard Definition Fallbacks
-  id: -4
+- id: -4
   name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
@@ -276,16 +284,8 @@ qualities:
     name: DVD
 - id: 24
   name: SDTV
-tags:
-- 2160p
-- Quality Focused
-- HDR
-- Lossless Audio
-- x265
-- h265
-upgradeUntilScore: 400000
 upgrade_until:
-  description: Indistinguishable from source
   id: -1
   name: 2160p Transparent
-upgradesAllowed: true
+  description: Indistinguishable from source
+language: must_original
