@@ -1,74 +1,49 @@
-name: 2160p Quality
-description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
-  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
+name: 2160p Efficient
+description: '2160p Efficient targets consistent & immutable 2160p **WEB-DLs w/ Lossy
+  Audio**. Specialized Fallback to 1080p Efficient+
 
 
-  - 2160p Blurays
+  - 1080p Bluray and WEB x265
 
   - Fallbacks in Place for Proper Quality Progression
 
-  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
-  WEB-DL > 480p WEB-DL > DVD'
+  - 2160p WEB-DL > 1080p Bluray HEVC > 1080p WEB HEVC > 1080p WEB-DL > 720p Bluray
+  > 720p WEB-DL > 480p WEB-DL > DVD'
 tags:
 - 2160p
-- Quality Focused
-- HDR
-- Lossless Audio
-- x265
+- Efficient Focused
+- Lossy Audio
 - h265
+- x265
 upgradesAllowed: true
 minCustomFormatScore: 20000
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p Quality Tier 1
-  score: 304000
-- name: 2160p Quality Tier 2
-  score: 303000
-- name: 2160p Quality Tier 3
-  score: 302000
-- name: 2160p Quality Tier 4
-  score: 301000
-- name: 2160p Quality Tier 5
-  score: 300000
 - name: 2160p Balanced Tier 1
-  score: 284000
+  score: 244000
 - name: 2160p Balanced Tier 2
-  score: 280000
+  score: 240000
 - name: 2160p WEB-DL
-  score: 280000
-- name: 2160p Quality Tier 6
-  score: 261000
-- name: 2160p Quality Tier 7
-  score: 260000
-- name: UHD Bluray
   score: 240000
-- name: UHD Bluray (Missing)
-  score: 240000
-- name: 1080p WEB-DL
+- name: 1080p Bluray HEVC Tier 1
+  score: 220000
+- name: 1080p WEB-DL HEVC Tier 1
   score: 200000
-- name: 1080p Bluray
+- name: QxR Bluray
+  score: 184000
+- name: TAoE Bluray
+  score: 184000
+- name: 1080p Balanced Tier 1
   score: 140000
-- name: 1080p WEBRip
+- name: 1080p WEB-DL (h264)
   score: 140000
 - name: 720p WEB-DL
   score: 100000
-- name: 1080p Quality Tier 1
-  score: 84000
-- name: 1080p Quality Tier 2
-  score: 83000
-- name: 1080p Quality Tier 3
-  score: 82000
-- name: 1080p Quality Tier 4
-  score: 81000
-- name: 1080p Quality Tier 5
-  score: 80000
 - name: 720p Bluray
   score: 80000
 - name: 720p WEBRip
   score: 80000
-- name: 1080p Balanced Tier 1
-  score: 60000
 - name: 480p WEB-DL
   score: 60000
 - name: 720p Quality Tier 1
@@ -99,13 +74,11 @@ custom_formats:
   score: 2000
 - name: ATV
   score: 1000
-- name: DTS-X
+- name: DS4K
   score: 1000
 - name: HDR
   score: 1000
 - name: HDR10
-  score: 1000
-- name: HDR10 (Missing)
   score: 1000
 - name: HLG
   score: 1000
@@ -113,26 +86,16 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
-- name: DTS-HD MA
-  score: 800
-- name: TrueHD
-  score: 800
-- name: FLAC
-  score: 700
-- name: PCM
-  score: 700
 - name: DTS-HD HRA
-  score: 500
+  score: 800
 - name: Opus
-  score: 500
+  score: 800
 - name: Dolby Digital +
+  score: 600
+- name: Dolby Atmos
   score: 400
 - name: DTS-ES
-  score: 300
-- name: Atmos
-  score: 200
-- name: Atmos (Missing)
-  score: 200
+  score: 400
 - name: Dolby Digital
   score: 200
 - name: DTS
@@ -173,27 +136,29 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
-- name: x265 (Bluray)
-  score: -220000
 - name: AV1
   score: -999999
 - name: B&W
   score: -999999
-- name: Banned Groups
+- name: Banned Groups (Efficient)
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
 - name: Banned Scene
   score: -999999
-- name: Banned WEBRip
+- name: Banned WEBRip (Efficient)
   score: -999999
 - name: Dolby Vision (Without Fallback)
   score: -999999
 - name: Full Disc
   score: -999999
-- name: h265
+- name: h265 (Efficient)
+  score: -999999
+- name: Lossless Audio
   score: -999999
 - name: Remux
+  score: -999999
+- name: UHD Bluray (Efficient)
   score: -999999
 - name: VP9
   score: -999999
@@ -201,15 +166,33 @@ custom_formats:
   score: -999999
 - name: x264 (2160p)
   score: -999999
-- name: x265 (Missing)
-  score: -999999
-- name: x265 (WEB)
+- name: x265 (Efficient)
   score: -999999
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 1080p Golden Popcorn
-  score: 8000
+- name: 1080p Efficient+ Movie Bluray Tier 1
+  score: 184000
+- name: 1080p Efficient+ Movie Bluray Tier 2
+  score: 183000
+- name: 1080p Efficient+ Movie Bluray Tier 3
+  score: 182000
+- name: 1080p Efficient+ Movie Bluray Tier 4
+  score: 181000
+- name: 1080p Efficient+ Movie Bluray Tier 5
+  score: 180000
+- name: 1080p Efficient+ Movie WEB Tier 1
+  score: 163000
+- name: QxR WEB
+  score: 163000
+- name: TAoE WEB
+  score: 163000
+- name: 1080p Efficient+ Movie WEB Tier 2
+  score: 162000
+- name: 1080p Efficient+ Movie WEB Tier 3
+  score: 161000
+- name: 1080p Efficient+ Movie WEB Tier 4
+  score: 160000
 - name: 720p Golden Popcorn
   score: 6000
 - name: MA
@@ -249,6 +232,36 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
+- name: 1080p Efficient+ TV Bluray Tier 1
+  score: 184000
+- name: 1080p Efficient+ TV Bluray Tier 2
+  score: 183000
+- name: 1080p Efficient+ TV Bluray Tier 3
+  score: 182000
+- name: 1080p Efficient+ TV Bluray Tier 4
+  score: 181000
+- name: 1080p Efficient+ TV Bluray Tier 5
+  score: 180000
+- name: 1080p Efficient+ TV WEB Tier 1
+  score: 167000
+- name: QxR WEB
+  score: 167000
+- name: 1080p Efficient+ TV WEB Tier 2
+  score: 166000
+- name: 1080p Efficient+ TV WEB Tier 3
+  score: 165000
+- name: TAoE WEB
+  score: 165000
+- name: 1080p Efficient+ TV WEB Tier 4
+  score: 164000
+- name: 1080p Efficient+ TV Bluray Tier 6
+  score: 163000
+- name: 1080p Efficient+ TV Bluray Tier 7
+  score: 162000
+- name: 1080p Efficient+ TV WEB Tier 5
+  score: 161000
+- name: 1080p Efficient+ TV WEB Tier 6
+  score: 160000
 - name: ATVP
   score: 3000
 - name: DSNP
@@ -272,17 +285,19 @@ custom_formats_sonarr:
 - name: Upscaled
   score: -999999
 qualities:
-- id: -1
-  name: 2160p Transparent
-  description: Indistinguishable from source
+- id: -4
+  name: Balanced Capable
+  description: ''
   qualities:
   - id: 4
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
-- id: -2
-  name: 1080p Transparent
-  description: Indistinguishable from source
+- id: -1
+  name: Efficient Capable
+  description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
+    majority of releases, but there are occasional streaming optimised encodes that
+    should be preferred.
   qualities:
   - id: 10
     name: Bluray-1080p
@@ -290,7 +305,7 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: -3
+- id: -2
   name: 720p Fallback
   description: Fallback to 720p when 1080p cannot be found.
   qualities:
@@ -300,7 +315,7 @@ qualities:
     name: WEBDL-720p
   - id: 15
     name: WEBRip-720p
-- id: -4
+- id: -3
   name: SD Fallback
   description: Standard Definition Fallbacks
   qualities:
@@ -313,7 +328,6 @@ qualities:
   - id: 22
     name: DVD
 upgrade_until:
-  id: -1
-  name: 2160p Transparent
-  description: Indistinguishable from source
+  id: -4
+  name: Balanced Capable
 language: must_original

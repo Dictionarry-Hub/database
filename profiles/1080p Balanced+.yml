@@ -1,12 +1,17 @@
 name: 1080p Balanced+
-description: "1080p Balanced targets consistent & immutable 1080p **WEB-DLs** with\
-  \ fallback to transparent x264 encodes, prioritised using the **Golden Popcorn Performance\
-  \ Index**.\n\n- Special considerations are given to **Balanced** groups who prioritize\
-  \ **streaming optimisation** over quality, falling somewhere around a tier 2 WEB-DL.\
-  \ This includes groups like **BHDStudio** and **hallowed**.\n- If no 1080p release\
-  \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes.\
-  \ \n\n- Includes HEVC Hone WEB-DLs and Bluray as top scored.\n\n- Usenet Indexers\
-  \ have limited amounts of 1080p H265. Results may be limited for Usenet Users."
+description: '1080p Balanced+ targets consistent & immutable 1080p **WEB-DLs** using
+  exernal factors like Streaming Source and Audio Formats.  Quality and Compatibility
+  are increased with the inclusion of x265 HONE Bluray and WEB-DL releases
+
+
+  - 1080p WEB-DL
+
+  - Stream Optimized Encodes
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - HONE Bluray > HONE WEB-DL > 1080p WEB-DL > 720p Bluray > 720p WEB-DL > 480p WEB-DL
+  > DVD'
 tags:
 - 1080p
 - Balanced Focused

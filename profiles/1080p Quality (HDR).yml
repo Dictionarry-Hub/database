@@ -1,12 +1,8 @@
 name: 1080p Quality (HDR)
-description: "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/GPPi)\
-  \ to target **transparent x265 HDR** 1080p encodes. \n- 5 Quality tiers prioritise\
-  \ encodes with high 1080p GPPi scores, with fallback to the regular 1080p Quality\
-  \ profile (non HDR), then 1080p WEB-DLs and streaming optimised encodes (**BHDStudio\
-  \ & hallowed**).\n- **x265 is negated** but allowed, if and only if a reputable\
-  \ GPPi group has encoded it from a UHD Bluray source.\n- Non HDR x265 encodes are\
-  \ strictly forbidden in this profile\n- If no 1080p release can be found, the profile\
-  \ will fall back to SD releases - **DVD remuxes  / encodes**"
+description: "1080p Quality (HDR) utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+  \ to target **transparent x265 HDR** 1080p encodes. \n\n- 1080p HDR Blurays\n- Fallbacks\
+  \ in Place for Proper Quality Progression\n- 1080p HDR Bluray > 1080p Bluray > 1080p\
+  \ WEB-DL > 720p Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
 tags:
 - 1080p
 - Quality Focused
