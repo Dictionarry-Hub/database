@@ -1,13 +1,13 @@
 name: 1080p Remux
-description: "1080p Remux utilizes **audio tags** to prioritise high quality lossless\
-  \ copies of HD Blu-rays.\n\n- Unlike the encode profiles, which target releases\
-  \ based on a release group metric, 1080p Remux avoids this to stop *circular downloads*\
-  \ where no discernable upgrade is found. \n- Instead, audio metrics such TrueHD,\
-  \ Atmos, DTS-X, etc are used to indicate when a remux should be upgraded.\n- This\
-  \ also helps to grab non group tagged remuxes, which are fairly common on quite\
-  \ a few trackers who often have the best remux available. \n- If no 1080p Remux\
-  \ cannot be found, the profile falls back to **1080p WEB-DLs**.\n- If no 1080p release\
-  \ can be found, the profile will fall back to SD releases - DVD remuxes  / encodes. "
+description: '1080p Remux utilizes **Audio Formats** to prioritise high quality lossless
+  HD Blurays
+
+
+  - 1080p Remux
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 1080p Remux > 1080p WEB-DL > 720p WEB-DL > 480p WEB-DL > DVD'
 tags:
 - 1080p
 - Remux

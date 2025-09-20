@@ -1,8 +1,8 @@
 name: 720p Quality
-description: "720p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/GPPi)\
-  \ to target **transparent** x264 720p encodes. \n- 5 Quality tiers prioritise encodes\
-  \ with high 720p GPPi scores, with fallback to 720p WEB-DLs\n- If no 720p release\
-  \ can be found, the profile will fall back to SD releases - **DVD remuxes  / encodes**"
+description: "720p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+  \ to target **transparent** x264 720p encodes. \n\n- 720p Blurays\n- Fallbacks in\
+  \ Place for Proper Quality Progression\n- 720p Bluray > 720p WEB-DL > 480p WEB-DL\
+  \ > DVD"
 tags:
 - 720p
 - Quality Focused

@@ -1,15 +1,13 @@
 name: 1080p Efficient+
-description: 'Efficient+ Profile Beta Testing Radarr and Sonarr
+description: '1080p Efficient+ seeks to target high quality x265 Bluray and WEB encodes
 
 
-  - Includes HEVC Blurays and WEB-DLs
+  - 1080p Bluray and WEB x265
 
+  - Fallbacks in Place for Proper Quality Progression
 
-  - High Bitrate Focused Profile
-
-
-  - Usenet Indexers have limited amounts of 1080p HEVC. Results may be limited for
-  Usenet Users.'
+  - 1080p Bluray HEVC > 1080p WEB HEVC > 1080p WEB-DL > 720p Bluray > 720p WEB-DL
+  > 480p WEB-DL > DVD'
 tags:
 - 1080p
 - Efficient Focused

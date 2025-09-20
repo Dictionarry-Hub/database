@@ -1,16 +1,14 @@
 name: 2160p Remux
-description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
-  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
-  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
-  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
-  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
-  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
-  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
-  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
-  \ which are fairly common on quite a few trackers who often have the best remux\
-  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to **2160p\
-  \ WEB-DLs**.\n- If a 2160p WEB-DL cannot be found, the profile falls back to the\
-  \ **1080p Remux** profile. "
+description: '2160p Remux utilizes **Audio / Video Formats** to prioritise high quality
+  lossless copies of UHD Blurays.
+
+
+  - 2160p Remux
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 2160p Remux > 2160p WEB-DL > 1080p Remux > 1080p WEB-DL > 720p WEB-DL > 480p WEB-DL
+  > DVD'
 tags:
 - 2160p
 - Remux
