@@ -171,11 +171,10 @@ custom_formats_sonarr:
   score: -999999
 - name: TV Extras
   score: -999999
-description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/GPPi)\
-  \ to target **transparent** x264 1080p encodes. \n- 5 Quality tiers prioritise encodes\
-  \ with high 1080p GPPi scores, with fallback to 1080p WEB-DLs and streaming optimised\
-  \ encodes (**BHDStudio & hallowed**).\n- If no 1080p release can be found, the profile\
-  \ will fall back to SD releases - **DVD remuxes  / encodes**"
+description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+  \ to target **transparent** x264 1080p encodes. \n\n- 1080p Blurays\n- Fallbacks\
+  \ in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL > 720p\
+  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
 language: must_original
 minCustomFormatScore: 0
 minScoreIncrement: 1

@@ -1,11 +1,8 @@
 name: 2160p Balanced
-description: "2160p Balanced targets consistent & immutable 2160p **HDR WEB-DLs w/\
-  \ Lossy Audio**. \n- Special considerations are given to **Balanced** groups who\
-  \ prioritize **streaming optimisation** over quality, falling somewhere around a\
-  \ tier 2 WEB-DL. This includes groups like **BHDStudio**, **HONE** and **hallowed**.\n\
-  - If no 2160p WEB-DL can be found, the profile will fall back to the 1080p Quality\
-  \ Profile.\n- Transparent 2160p Encodes (\xE0 la  2160p Quality) are not allowed\
-  \ as fallback since they are comparatively much larger than 2160p WEB-DLs"
+description: "2160p Balanced targets consistent & immutable 2160p **WEB-DLs w/ Lossy\
+  \ Audio**. \n\n- 2160p WEB-DL\n- Fallbacks in Place for Proper Quality Progression\n\
+  - 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p WEB-DL > 480p\
+  \ WEB-DL > DVD"
 tags:
 - 2160p
 - Balanced Focused

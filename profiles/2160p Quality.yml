@@ -1,12 +1,14 @@
 name: 2160p Quality
-description: "2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/EEi)\
-  \ metric at a 55% target ratio to prioritize **transparent** x265 4k encodes. \n\
-  \n- 4 quality tiers prioritize encodes from reputable groups, with fallback to high-quality\
-  \ WEB-DLs and balanced tier groups. 2 additional quality tiers are placed below\
-  \ for further fallback. \n- Special considerations for both **HDR** and **Lossless\
-  \ Audio** formats help to push lower tiered encodes over higher tier ones in cases\
-  \ where better sources are used.\n- If no 2160p release can be found, the profile\
-  \ will fall back to the 1080p Quality Profile. "
+description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
+  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
+
+
+  - 2160p Blurays
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
+  WEB-DL > 480p WEB-DL > DVD'
 tags:
 - 2160p
 - Quality Focused
