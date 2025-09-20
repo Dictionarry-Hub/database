@@ -1,3 +1,16 @@
+name: 2160p Remux Only
+description: "Copied from 2160p Remux\n\nChanges: \n- Only allow 2160p and 1080p Remux\
+  \ qualities"
+tags:
+- 2160p
+- Remux
+- HDR
+- Lossless Audio
+- h265
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
   score: 160000
@@ -7,10 +20,14 @@ custom_formats:
   score: 120000
 - name: 1080p WEB-DL
   score: 100000
+- name: 1080p WEBRip
+  score: 85000
 - name: 720p WEB-DL
   score: 80000
 - name: 480p WEB-DL
   score: 60000
+- name: 720p WEBRip
+  score: 50000
 - name: DVD
   score: 20000
 - name: SD Quality Tier 1
@@ -43,11 +60,15 @@ custom_formats:
   score: 3000
 - name: DTS-ES
   score: 3000
+- name: AMZN
+  score: 2000
 - name: Atmos
   score: 2000
 - name: Atmos (Missing)
   score: 2000
 - name: DTS
+  score: 2000
+- name: HMAX
   score: 2000
 - name: ATV
   score: 1000
@@ -136,21 +157,15 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
+- name: IMAX Enhanced
+  score: 40000
 - name: MA
   score: 5000
-- name: AMZN
-  score: 3000
 - name: iT
   score: 3000
-- name: HMAX
-  score: 2000
 - name: MAX
   score: 2000
 - name: CRIT
-  score: 1000
-- name: IMAX
-  score: 1000
-- name: IMAX Enhanced
   score: 1000
 - name: Special Edition
   score: 1000
@@ -163,52 +178,21 @@ custom_formats_radarr:
 - name: Sing Along
   score: -999999
 custom_formats_sonarr:
-- name: HMAX
-  score: 3000
 - name: MAX
   score: 3000
-- name: AMZN
-  score: 2000
 - name: iT
   score: 1000
 - name: Season Pack
   score: 10
 - name: TV Extras
   score: -999999
-description: "2160p Remux utilizes **audio / video tags** to prioritise high quality\
-  \ lossless copies of UHD Blu-rays.\n\n- Unlike the encode profiles, which target\
-  \ releases based on a release group metric, 2160p Remux avoids this to stop *circular\
-  \ downloads* where no discernable upgrade is found. \n- Instead, audio / video metrics\
-  \ such Dolby Vision, TrueHD, Atmos, HDR10+, etc are used to indicate when a remux\
-  \ should be upgraded.\n- For instance, if a hybrid remux that includes some WEB\
-  \ DoVi layer is released, it will be upgraded over the standard non hybrid release,\
-  \ regardless of release group.\n- This also helps to grab non group tagged remuxes,\
-  \ which are fairly common on quite a few trackers who often have the best remux\
-  \ available. \n- If no 2160p Remux cannot be found, the profile falls back to the\
-  \ **1080p Remux** profile. \n- No non-remux fallback is allowed"
-language: must_original
-minCustomFormatScore: 0
-minScoreIncrement: 1
-name: 2160p Remux Only
 qualities:
-- description: ''
-  id: -2
-  name: 2160p Formats
-  qualities:
-  - id: 3
-    name: Remux-2160p
-  - id: 5
-    name: WEBDL-2160p
+- id: 3
+  name: Remux-2160p
 - id: 8
   name: Remux-1080p
-tags:
-- 2160p
-- Remux
-- HDR
-- Lossless Audio
-- h265
-upgradeUntilScore: 400000
 upgrade_until:
-  id: -2
-  name: 2160p Formats
-upgradesAllowed: true
+  id: 3
+  name: Remux-2160p
+  description: 4K Ultra HD Blu-ray disc content remuxed into a playable file format
+language: must_original
