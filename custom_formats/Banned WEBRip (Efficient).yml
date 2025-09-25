@@ -369,4 +369,9 @@ conditions:
   pattern: ZoroSenpai
   required: true
   type: release_group
+- name: BTN
+  type: release_group
+  required: true
+  negate: true
+  pattern: BTN
 tests: []
