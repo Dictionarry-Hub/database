@@ -1,3 +1,18 @@
+name: 720p Quality
+description: "720p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+  \ to target **transparent** x264 720p encodes. \n\n- 720p Blurays\n- Fallbacks in\
+  \ Place for Proper Quality Progression\n- 720p Bluray > 720p WEB-DL > 480p WEB-DL\
+  \ > DVD"
+tags:
+- 720p
+- Quality Focused
+- Lossy Audio
+- x264
+- h264
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
 - name: 720p Bluray
   score: 100000
@@ -153,19 +168,11 @@ custom_formats_sonarr:
   score: -999999
 - name: TV Extras
   score: -999999
-description: "720p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
-  \ to target **transparent** x264 720p encodes. \n\n- 720p Blurays\n- Fallbacks in\
-  \ Place for Proper Quality Progression\n- 720p Bluray > 720p WEB-DL > 480p WEB-DL\
-  \ > DVD"
-language: must_original
-minCustomFormatScore: 0
-minScoreIncrement: 1
-name: 720p Quality
 qualities:
-- description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
-  id: -1
+- id: -1
   name: Transparent Capable
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -175,9 +182,9 @@ qualities:
     name: WEBRip-720p
 - id: 16
   name: HDTV-720p
-- description: Standard Definition Fallbacks
-  id: -2
+- id: -2
   name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
@@ -187,16 +194,9 @@ qualities:
     name: WEBRip-480p
   - id: 22
     name: DVD
-tags:
-- 720p
-- Quality Focused
-- Lossy Audio
-- x264
-- h264
-upgradeUntilScore: 400000
 upgrade_until:
-  description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
   id: -1
   name: Transparent Capable
-upgradesAllowed: true
+  description: All capable of being indistinguishable from source. WEB-DL included
+    to not allow unknown encode to trump known WEB-DL.
+language: must_original

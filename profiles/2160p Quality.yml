@@ -248,12 +248,12 @@ qualities:
     name: WEBDL-2160p
 - id: 6
   name: WEBRip-2160p
+- id: 10
+  name: Bluray-1080p
 - id: -2
-  name: 1080p Transparent
-  description: Indistinguishable from source
+  name: 1080p Web
+  description: 1080 web source
   qualities:
-  - id: 10
-    name: Bluray-1080p
   - id: 9
     name: WEBDL-1080p
   - id: 11

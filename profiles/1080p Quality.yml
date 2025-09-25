@@ -1,3 +1,18 @@
+name: 1080p Quality
+description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
+  \ to target **transparent** x264 1080p encodes. \n\n- 1080p Blurays\n- Fallbacks\
+  \ in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL > 720p\
+  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
+tags:
+- 1080p
+- Quality Focused
+- Lossy Audio
+- x264
+- h264
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
 - name: 1080p Bluray
   score: 200000
@@ -171,29 +186,20 @@ custom_formats_sonarr:
   score: -999999
 - name: TV Extras
   score: -999999
-description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
-  \ to target **transparent** x264 1080p encodes. \n\n- 1080p Blurays\n- Fallbacks\
-  \ in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL > 720p\
-  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD"
-language: must_original
-minCustomFormatScore: 0
-minScoreIncrement: 1
-name: 1080p Quality
 qualities:
-- description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
-  id: -1
-  name: Transparent Capable
+- id: 10
+  name: Bluray-1080p
+- id: -1
+  name: 1080 web
+  description: 1080 web sources
   qualities:
-  - id: 10
-    name: Bluray-1080p
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- description: Fallback to 720p when 1080p cannot be found.
-  id: -2
+- id: -2
   name: 720p Fallback
+  description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -205,9 +211,9 @@ qualities:
   name: HDTV-1080p
 - id: 16
   name: HDTV-720p
-- description: Standard Definition Fallbacks
-  id: -3
+- id: -3
   name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
@@ -219,16 +225,8 @@ qualities:
     name: DVD
 - id: 24
   name: SDTV
-tags:
-- 1080p
-- Quality Focused
-- Lossy Audio
-- x264
-- h264
-upgradeUntilScore: 400000
 upgrade_until:
-  description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
-  id: -1
-  name: Transparent Capable
-upgradesAllowed: true
+  id: 10
+  name: Bluray-1080p
+  description: 1080p Blu-ray video encoded with lossy compression
+language: must_original
