@@ -52,6 +52,8 @@ custom_formats:
   score: 5000
 - name: Dolby Digital +
   score: 4000
+- name: Remux Tier 0
+  score: 3100
 - name: ATVP
   score: 3000
 - name: Dolby Vision
@@ -59,8 +61,6 @@ custom_formats:
 - name: DSNP
   score: 3000
 - name: DTS-ES
-  score: 3000
-- name: Remux Tier 0
   score: 3000
 - name: AMZN
   score: 2000
