@@ -68,6 +68,8 @@ custom_formats:
   score: 3000
 - name: DTS-ES
   score: 3000
+- name: Remux Tier 0
+  score: 3000
 - name: AMZN
   score: 2000
 - name: Atmos
@@ -100,8 +102,6 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
-- name: Remux Tier 0
-  score: 100
 - name: WEB-DL Tier 1
   score: 100
 - name: Remux Tier 1
