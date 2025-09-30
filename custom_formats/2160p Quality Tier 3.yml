@@ -15,19 +15,24 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: BV
+  negate: false
+  pattern: BV
+  required: false
+  type: release_group
 - name: Chotab
   negate: false
   pattern: Chotab
   required: false
   type: release_group
-- name: Kitsune
-  negate: false
-  pattern: Kitsune
-  required: false
-  type: release_group
 - name: REBORN
   negate: false
   pattern: REBORN
+  required: false
+  type: release_group
+- name: SoLaR
+  negate: false
+  pattern: SoLaR
   required: false
   type: release_group
 - name: W4NK3R

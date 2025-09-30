@@ -11,10 +11,15 @@ conditions:
   required: true
   resolution: 720p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
   type: source
 - name: CRiSC
   negate: false
@@ -56,6 +61,11 @@ conditions:
   pattern: VietHD
   required: false
   type: release_group
+- name: ZoroSenpai
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZoroSenpai
 - name: ZQ
   negate: false
   pattern: ZQ

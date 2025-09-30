@@ -1,5 +1,5 @@
-name: WiKi
-pattern: (?<=^|[\s.-])WiKi\b
+name: HDC
+pattern: (?<=^|[\s.-])HDC\b
 description: ''
 tags:
 - Release Group

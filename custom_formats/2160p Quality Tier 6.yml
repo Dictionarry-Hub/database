@@ -160,11 +160,6 @@ conditions:
   pattern: SMAHAWUG
   required: false
   type: release_group
-- name: SoLaR
-  negate: false
-  pattern: SoLaR
-  required: false
-  type: release_group
 - name: SPECTACLE
   negate: false
   pattern: SPECTACLE

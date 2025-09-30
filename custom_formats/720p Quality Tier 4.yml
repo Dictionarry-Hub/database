@@ -11,41 +11,46 @@ conditions:
   required: true
   resolution: 720p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
-  type: source
-- name: Dariush
-  type: release_group
+- name: Bluray
+  negate: false
   required: false
+  source: bluray
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: Dariush
   negate: false
   pattern: Dariush
-- name: D-ZON3
-  type: release_group
   required: false
+  type: release_group
+- name: D-ZON3
   negate: false
   pattern: D-Z0N3
+  required: false
+  type: release_group
 - name: EA
   negate: false
   pattern: EA
   required: false
   type: release_group
 - name: FoRM
-  type: release_group
-  required: false
   negate: false
   pattern: FoRM
-- name: NTb
-  type: release_group
   required: false
+  type: release_group
+- name: NTb
   negate: false
   pattern: NTb
-- name: PTer
-  type: release_group
   required: false
+  type: release_group
+- name: PTer
   negate: false
   pattern: PTer
+  required: false
+  type: release_group
 - name: TDD
   negate: false
   pattern: TDD

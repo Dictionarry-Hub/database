@@ -11,11 +11,16 @@ conditions:
   required: true
   resolution: 720p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
   type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
 - name: BMF
   negate: false
   pattern: BMF

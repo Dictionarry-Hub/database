@@ -27,9 +27,9 @@ conditions:
   required: true
   type: release_title
 - name: Release Groups
-  negate: true
-  pattern: UHD Bluray (Negation)
-  required: false
+  negate: false
+  pattern: UHD Bluray Release Groups
+  required: true
   type: release_group
 tests:
 - conditionResults:

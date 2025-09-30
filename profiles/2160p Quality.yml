@@ -1,25 +1,3 @@
-name: 2160p Quality
-description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
-  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
-
-
-  - 2160p Blurays
-
-  - Fallbacks in Place for Proper Quality Progression
-
-  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
-  WEB-DL > 480p WEB-DL > DVD'
-tags:
-- 2160p
-- Quality Focused
-- HDR
-- Lossless Audio
-- x265
-- h265
-upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 400000
-minScoreIncrement: 1
 custom_formats:
 - name: UHD Bluray
   score: 280000
@@ -237,10 +215,24 @@ custom_formats_sonarr:
   score: -999999
 - name: TV Extras
   score: -999999
+description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://dictionarry.dev/wiki/eei)
+  metric at a 55% target ratio to prioritize **transparent** x265 4k encodes
+
+
+  - 2160p Blurays
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
+  WEB-DL > 480p WEB-DL > DVD'
+language: must_original
+minCustomFormatScore: 0
+minScoreIncrement: 1
+name: 2160p Quality
 qualities:
-- id: -1
+- description: Indistinguishable from source
+  id: -1
   name: 2160p Transparent
-  description: Indistinguishable from source
   qualities:
   - id: 4
     name: Bluray-2160p
@@ -250,17 +242,17 @@ qualities:
   name: WEBRip-2160p
 - id: 10
   name: Bluray-1080p
-- id: -2
+- description: 1080 web source
+  id: -2
   name: 1080p Web
-  description: 1080 web source
   qualities:
   - id: 9
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: -3
+- description: Fallback to 720p when 1080p cannot be found.
+  id: -3
   name: 720p Fallback
-  description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
     name: Bluray-720p
@@ -272,9 +264,9 @@ qualities:
   name: HDTV-1080p
 - id: 16
   name: HDTV-720p
-- id: -4
+- description: Standard Definition Fallbacks
+  id: -4
   name: SD Fallback
-  description: Standard Definition Fallbacks
   qualities:
   - id: 18
     name: Bluray-480p
@@ -286,8 +278,16 @@ qualities:
     name: DVD
 - id: 24
   name: SDTV
+tags:
+- 2160p
+- Quality Focused
+- HDR
+- Lossless Audio
+- x265
+- h265
+upgradeUntilScore: 400000
 upgrade_until:
+  description: Indistinguishable from source
   id: -1
   name: 2160p Transparent
-  description: Indistinguishable from source
-language: must_original
+upgradesAllowed: true

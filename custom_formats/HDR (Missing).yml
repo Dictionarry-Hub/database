@@ -1,5 +1,5 @@
-name: HDR10 (Missing) (1080p)
-description: Attempts to match HDR10 in 1080p x265 Encodes labelled with x265
+name: HDR (Missing)
+description: Attempts to match HDR in 1080p x265 Encodes labelled with x265
 tags:
 - Colour Grade
 - HDR
@@ -30,15 +30,15 @@ conditions:
   required: true
   type: release_title
 - name: Not PQ
-  type: release_title
-  required: true
   negate: true
   pattern: PQ
-- name: Not HLG
-  type: release_title
   required: true
+  type: release_title
+- name: Not HLG
   negate: true
   pattern: HLG
+  required: true
+  type: release_title
 - name: Not HDR
   negate: true
   pattern: HDR

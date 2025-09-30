@@ -1,8 +1,3 @@
-name: Banned WEBRip (Efficient)
-description: Matches WEBRip releases that are not from a quality tier
-tags:
-- Banned
-- Release Group
 conditions:
 - name: WEBRip
   negate: false
@@ -370,8 +365,13 @@ conditions:
   required: true
   type: release_group
 - name: BTN
-  type: release_group
-  required: true
   negate: true
   pattern: BTN
+  required: true
+  type: release_group
+description: Matches WEBRip releases that are not from a quality tier
+name: Banned WEBRip (Efficient)
+tags:
+- Banned
+- Release Group
 tests: []

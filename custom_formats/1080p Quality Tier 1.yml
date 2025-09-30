@@ -11,11 +11,21 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Not WEB-DL
-  type: source
-  required: true
+- name: Not Remux
   negate: true
-  source: web_dl
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  type: source
+  required: false
+  negate: false
+  source: bluray
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
 - name: DON
   negate: false
   pattern: DON

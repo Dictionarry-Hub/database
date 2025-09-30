@@ -1,15 +1,3 @@
-name: 2160p Remux (Prefer Theatrical)
-description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000"
-tags:
-- 2160p
-- Remux
-- HDR
-- Lossless Audio
-- h265
-upgradesAllowed: true
-minCustomFormatScore: 0
-upgradeUntilScore: 400000
-minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
   score: 160000
@@ -187,10 +175,15 @@ custom_formats_sonarr:
   score: 10
 - name: TV Extras
   score: -999999
+description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000"
+language: must_original
+minCustomFormatScore: 0
+minScoreIncrement: 1
+name: 2160p Remux (Prefer Theatrical)
 qualities:
-- id: -2
+- description: ''
+  id: -2
   name: 2160p Formats
-  description: ''
   qualities:
   - id: 3
     name: Remux-2160p
@@ -206,9 +199,9 @@ qualities:
   name: HDTV-1080p
 - id: 16
   name: HDTV-720p
-- id: -1
+- description: Standard Definition Fallbacks
+  id: -1
   name: SD Fallback
-  description: Standard Definition Fallbacks
   qualities:
   - id: 22
     name: DVD
@@ -218,7 +211,14 @@ qualities:
   name: WEBRip-480p
 - id: 24
   name: SDTV
+tags:
+- 2160p
+- Remux
+- HDR
+- Lossless Audio
+- h265
+upgradeUntilScore: 400000
 upgrade_until:
   id: -2
   name: 2160p Formats
-language: must_original
+upgradesAllowed: true

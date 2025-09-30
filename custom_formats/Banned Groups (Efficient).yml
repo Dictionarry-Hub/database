@@ -184,11 +184,6 @@ conditions:
   pattern: VisionXpert
   required: false
   type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
-  required: false
-  type: release_group
 - name: x0r
   negate: false
   pattern: x0r

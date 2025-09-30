@@ -10,16 +10,16 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: Not WEB-DL
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: web_dl
+  source: bluray
   type: source
 - name: Release Groups
-  type: release_group
-  required: true
   negate: true
   pattern: HDR10 (Negation)
+  required: true
+  type: release_group
 - name: Not SDR
   negate: true
   pattern: SDR
