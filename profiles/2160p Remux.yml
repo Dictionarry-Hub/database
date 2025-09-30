@@ -1,3 +1,24 @@
+name: 2160p Remux
+description: '2160p Remux utilizes **Audio / Video Formats** to prioritise high quality
+  lossless copies of UHD Blurays.
+
+
+  - 2160p Remux
+
+  - Fallbacks in Place for Proper Quality Progression
+
+  - 2160p Remux > 2160p WEB-DL > 1080p Remux > 1080p WEB-DL > 720p WEB-DL > 480p WEB-DL
+  > DVD'
+tags:
+- 2160p
+- Remux
+- HDR
+- Lossless Audio
+- h265
+upgradesAllowed: true
+minCustomFormatScore: 0
+upgradeUntilScore: 400000
+minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
   score: 160000
@@ -7,8 +28,6 @@ custom_formats:
   score: 120000
 - name: 1080p WEB-DL
   score: 100000
-- name: 2160p WEBRip
-  score: 90000
 - name: 1080p WEBRip
   score: 85000
 - name: 720p WEB-DL
@@ -21,8 +40,6 @@ custom_formats:
   score: 20000
 - name: SD Quality Tier 1
   score: 11000
-- name: 480p WEBRip
-  score: 10000
 - name: DTS-X
   score: 10000
 - name: SD Quality Tier 2
@@ -83,6 +100,8 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
+- name: Remux Tier 0
+  score: 100
 - name: WEB-DL Tier 1
   score: 100
 - name: Remux Tier 1
@@ -148,8 +167,6 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
-- name: IMAX
-  score: 40000
 - name: IMAX Enhanced
   score: 40000
 - name: MA
@@ -179,24 +196,10 @@ custom_formats_sonarr:
   score: 10
 - name: TV Extras
   score: -999999
-description: '2160p Remux utilizes **Audio / Video Formats** to prioritise high quality
-  lossless copies of UHD Blurays.
-
-
-  - 2160p Remux
-
-  - Fallbacks in Place for Proper Quality Progression
-
-  - 2160p Remux > 2160p WEB-DL > 1080p Remux > 1080p WEB-DL > 720p WEB-DL > 480p WEB-DL
-  > DVD'
-language: must_original
-minCustomFormatScore: 0
-minScoreIncrement: 1
-name: 2160p Remux
 qualities:
-- description: ''
-  id: -2
+- id: -2
   name: 2160p Formats
+  description: ''
   qualities:
   - id: 3
     name: Remux-2160p
@@ -212,9 +215,9 @@ qualities:
   name: HDTV-1080p
 - id: 16
   name: HDTV-720p
-- description: Standard Definition Fallbacks
-  id: -1
+- id: -1
   name: SD Fallback
+  description: Standard Definition Fallbacks
   qualities:
   - id: 22
     name: DVD
@@ -224,14 +227,7 @@ qualities:
   name: WEBRip-480p
 - id: 24
   name: SDTV
-tags:
-- 2160p
-- Remux
-- HDR
-- Lossless Audio
-- h265
-upgradeUntilScore: 400000
 upgrade_until:
   id: -2
   name: 2160p Formats
-upgradesAllowed: true
+language: must_original

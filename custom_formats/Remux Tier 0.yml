@@ -1,0 +1,22 @@
+name: Remux Tier 0
+description: WiLDCAT
+tags:
+- Release Group Tier
+- Remux
+conditions:
+- name: Remux
+  negate: false
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: WiLDCAT
+  negate: false
+  pattern: WiLDCAT
+  required: false
+  type: release_group
+tests: []

@@ -92,6 +92,8 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
+- name: Remux Tier 0
+  score: 100
 - name: WEB-DL Tier 1
   score: 100
 - name: Remux Tier 1

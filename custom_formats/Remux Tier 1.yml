@@ -34,9 +34,4 @@ conditions:
   pattern: CiNEPHiLES
   required: false
   type: release_group
-- name: WiLDCAT
-  negate: false
-  pattern: WiLDCAT
-  required: false
-  type: release_group
 tests: []
