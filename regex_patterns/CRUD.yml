@@ -1,0 +1,7 @@
+name: CRUD
+pattern: (?<=^|[\s.-])CRUD\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

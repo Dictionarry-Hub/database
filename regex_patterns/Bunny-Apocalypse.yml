@@ -1,0 +1,7 @@
+name: Bunny-Apocalypse
+pattern: (?<=^|[\s.-])Bunny-Apocalypse\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

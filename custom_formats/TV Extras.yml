@@ -1,0 +1,12 @@
+name: TV Extras
+description: Matches the 'Extras' Regex Pattern
+tags:
+- Banned
+- Enhancement
+conditions:
+- name: TV Extras
+  negate: false
+  pattern: TV Extras
+  required: true
+  type: release_title
+tests: []

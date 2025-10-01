@@ -1,0 +1,45 @@
+name: HMAX
+description: Matches 'HBO Max' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: HMAX Regex
+  negate: false
+  pattern: HBO Max
+  required: false
+  type: release_title
+- name: HMAX Rename Regex
+  negate: false
+  pattern: HBO Max Rename
+  required: false
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: HMAX Regex
+    negate: false
+    pattern: HBO Max
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Young Justice S04 1080p HMAX WEBRip DD 5 1 x265-edge2020
+  lastRun: '2024-12-06T04:51:30.887518'
+  passes: true

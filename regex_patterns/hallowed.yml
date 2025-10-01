@@ -3,6 +3,7 @@ pattern: (?<=^|[\s.-])hallowed\b
 description: ''
 tags:
 - Release Group
+- Bluray
 tests:
 - expected: true
   id: 1

@@ -1,0 +1,7 @@
+name: AOmundson
+pattern: (?<=^|[\s.-])AOmundson\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

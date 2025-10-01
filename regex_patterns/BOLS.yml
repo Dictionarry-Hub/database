@@ -1,0 +1,7 @@
+name: BOLS
+pattern: (?<=^|[\s.-])BOLS\b
+description: Banned for Retagging
+tags:
+- Release Group
+- Banned
+tests: []

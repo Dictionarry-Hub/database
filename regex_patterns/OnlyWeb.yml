@@ -1,0 +1,7 @@
+name: OnlyWeb
+pattern: (?<=^|[\s.-])OnlyWeb\b
+description: ''
+tags:
+- Release Group
+- HEVC
+tests: []

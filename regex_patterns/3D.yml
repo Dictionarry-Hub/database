@@ -1,5 +1,5 @@
 name: 3D
-pattern: \b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\b
+pattern: (?<=\b[12]\d{3}\b).*\b((bluray|bd)?3d|sbs|half[ .-]ou|half[ .-]sbs)\b
 description: 'Matches terms related to 3D video formats:
 
   - `bluray3d` or `bd3d` (optional `bluray` or `bd` followed by `3d`).
@@ -9,29 +9,37 @@ description: 'Matches terms related to 3D video formats:
   - `half ou` or `half sbs` with space (` `), dot (`.`), or hyphen (`-`) as separators.'
 tags:
 - Enhancement
-- Unwanted
+- Banned
 tests:
 - expected: true
   id: 1
   input: Universal.Soldier.Day.of.Reckoning.2012.1080p.BluRay.3D.H-SBS.DTS.x264-BluRay3D
-  lastRun: '2024-12-13T06:50:15.135830'
+  lastRun: '2025-08-18T23:32:02.252678'
   matchSpan:
-    end: 55
-    start: 53
-  matchedContent: 3D
+    end: 79
+    start: 39
+  matchedContent: .1080p.BluRay.3D.H-SBS.DTS.x264-BluRay3D
   matchedGroups:
-  - 3D
-  - null
+  - BluRay3D
+  - BluRay
   passes: true
 - expected: true
   id: 2
   input: Justin.And.The.Knights.Of.Valour.3D.2013.1080p.BluRay.Half-SBS.x264-BluRay3D
-  lastRun: '2024-12-13T06:50:15.135830'
+  lastRun: '2025-08-18T23:32:02.252678'
   matchSpan:
-    end: 35
-    start: 33
-  matchedContent: 3D
+    end: 76
+    start: 40
+  matchedContent: .1080p.BluRay.Half-SBS.x264-BluRay3D
   matchedGroups:
-  - 3D
-  - null
+  - BluRay3D
+  - BluRay
+  passes: true
+- expected: false
+  id: 3
+  input: Step Up 3D 2010 1080p BluRay DTS-ES 6.1 x264-xander
+  lastRun: '2025-08-18T23:32:02.252678'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
   passes: true

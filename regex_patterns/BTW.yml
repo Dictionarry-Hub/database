@@ -1,0 +1,7 @@
+name: BTW
+pattern: (?<=^|[\s.-])BTW\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

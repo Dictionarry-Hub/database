@@ -1,0 +1,28 @@
+name: VP9
+pattern: \b(VP9)\b
+description: VP9 is an open and royalty-free video coding format developed by Google
+tags:
+- Codec
+tests:
+- expected: true
+  id: 1
+  input: Kedi 2016 REPACK 2160p WEB-DL DD+ 5.1 VP9-WiLDCAT
+  lastRun: '2025-04-15T14:48:20.729485'
+  matchSpan:
+    end: 41
+    start: 38
+  matchedContent: VP9
+  matchedGroups:
+  - VP9
+  passes: true
+- expected: true
+  id: 2
+  input: Kedi.2016.Repack.2160p.WEB-DL.DDP.5.1.VP9-WiLDCAT.mkv
+  lastRun: '2025-04-15T14:48:20.729485'
+  matchSpan:
+    end: 41
+    start: 38
+  matchedContent: VP9
+  matchedGroups:
+  - VP9
+  passes: true

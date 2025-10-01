@@ -3,27 +3,12 @@ description: Matches 'h265' regex pattern.
 tags:
 - Codec
 conditions:
-- name: WEB
-  type: source
-  required: true
-  negate: false
-  source: web_dl
 - name: h265
   negate: false
   pattern: h265
   required: true
   type: release_title
-- name: Not Full Disc
-  type: release_title
-  required: true
-  negate: true
-  pattern: Full Disc
-- name: Not Remux
-  type: release_title
-  required: true
-  negate: true
-  pattern: Remux
-- name: Not 4K
+- name: Not 2160p
   type: resolution
   required: true
   negate: true

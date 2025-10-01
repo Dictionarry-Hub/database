@@ -2,24 +2,19 @@ name: 2160p Quality Tier 2
 description: Matches release groups who fall under 2160p Quality Tier 2
 tags:
 - Release Group Tier
-- Quality
 - 2160p
+- Quality
 conditions:
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
-  type: source
-- name: BSTD
+- name: Bluray
   negate: false
-  pattern: BSTD
-  required: false
-  type: release_group
+  required: true
+  source: bluray
+  type: source
 - name: c0kE
   negate: false
   pattern: c0kE
@@ -35,4 +30,9 @@ conditions:
   pattern: MainFrame
   required: false
   type: release_group
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
 tests: []

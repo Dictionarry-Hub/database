@@ -1,0 +1,7 @@
+name: VARYG
+pattern: (?<=^|[\s.-])VARYG\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

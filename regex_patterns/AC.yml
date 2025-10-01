@@ -1,0 +1,7 @@
+name: AC
+pattern: (?<=^|[\s.-])AC\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,5 +1,25 @@
 name: Dolby Digital +
 pattern: \bDD[P+]|\b(e[-_. ]?ac3)\b
 description: ''
-tags: []
-tests: []
+tags:
+- Audio
+tests:
+- expected: false
+  id: 1
+  input: Un-Ex You 2025 1080p NF WEB-DL DD 5.1 H.264-FLUX
+  lastRun: '2025-07-13T14:55:44.265163'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Un-Ex You 2025 1080p NF WEB-DL DD+ 5.1 H.264-FLUX
+  lastRun: '2025-07-13T14:55:44.265163'
+  matchSpan:
+    end: 34
+    start: 31
+  matchedContent: DD+
+  matchedGroups:
+  - null
+  passes: true

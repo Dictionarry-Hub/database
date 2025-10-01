@@ -1,0 +1,11 @@
+name: Remux (Source)
+description: Matches Remux using a Sonarr Source
+tags:
+- Storage
+conditions:
+- name: Remux
+  negate: false
+  required: true
+  source: bluray_raw
+  type: source
+tests: []

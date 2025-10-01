@@ -1,6 +1,0 @@
-name: ThD
-pattern: (?<=^|[\s.-])ThD\b
-description: ''
-tags:
-- Release Group
-tests: []

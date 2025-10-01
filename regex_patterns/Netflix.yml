@@ -1,12 +1,11 @@
 name: Netflix
-pattern: \b(nf|netflix)\b
+pattern: \b(NF|Netflix)\b
 description: Netflix is an American subscription video on-demand over-the-top streaming
   service. The service primarily distributes original and acquired films and television
   shows from various genres, and it is available internationally in multiple languages.
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

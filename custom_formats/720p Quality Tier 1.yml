@@ -1,0 +1,34 @@
+name: 720p Quality Tier 1
+description: Matches release groups who fall under 720p Quality Tier 1
+tags:
+- GPPi
+- Release Group Tier
+- 720p
+- Quality
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: DON
+  negate: false
+  pattern: DON
+  required: false
+  type: release_group
+- name: EbP
+  negate: false
+  pattern: EbP
+  required: false
+  type: release_group
+tests: []

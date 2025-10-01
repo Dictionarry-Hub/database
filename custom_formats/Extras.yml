@@ -1,8 +1,7 @@
 name: Extras
 description: Matches the 'Extras' Regex Pattern
 tags:
-- Unwanted
-- Extras
+- Banned
 - Enhancement
 conditions:
 - name: Extras

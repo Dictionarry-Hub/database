@@ -1,5 +1,5 @@
 name: Scene
-pattern: (?<=^|[\s.-])SPARKS|DRONES|ROVERS|SPRINTER|GECKOS|SHORTBREHD|EDITH|FilmHD|POW4HD|HD4U|TENEIGHTY|ETHEL\b
+pattern: (?<=^|[\s.-])(SPARKS|DRONES|ROVERS|SPRINTER|GECKOS|SHORTBREHD|EDITH|FilmHD|POW4HD|HD4U|TENEIGHTY|ETHEL)\b
 description: Matches Scene Groups
 tags: []
 tests: []

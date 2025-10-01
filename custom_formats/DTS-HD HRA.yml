@@ -1,0 +1,57 @@
+name: DTS-HD HRA
+description: Matches 'DTS-HD HRA' Regex Pattern and negates any other audio types
+  that might conflict.
+tags:
+- Audio
+conditions:
+- name: DTS-HD HRA
+  negate: false
+  pattern: DTS-HD HRA
+  required: true
+  type: release_title
+- name: Not AAC
+  negate: true
+  pattern: AAC
+  required: true
+  type: release_title
+- name: Not Dolby Digital
+  negate: true
+  pattern: Dolby Digital
+  required: true
+  type: release_title
+- name: Not Dolby Digital +
+  negate: true
+  pattern: Dolby Digital +
+  required: true
+  type: release_title
+- name: Not DTS
+  negate: true
+  pattern: DTS Basic
+  required: true
+  type: release_title
+- name: Not DTS-ES
+  negate: true
+  pattern: DTS-ES
+  required: true
+  type: release_title
+- name: Not DTS-X
+  negate: true
+  pattern: DTS-X
+  required: true
+  type: release_title
+- name: Not FLAC
+  negate: true
+  pattern: FLAC
+  required: true
+  type: release_title
+- name: Not PCM
+  negate: true
+  pattern: PCM
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+tests: []

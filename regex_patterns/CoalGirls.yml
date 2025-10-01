@@ -1,0 +1,7 @@
+name: CoalGirls
+pattern: (?<=^|[\s.-])CoalGirls\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

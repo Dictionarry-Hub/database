@@ -1,0 +1,72 @@
+name: iTunes Rename
+pattern: \[(iT)\b|\b(iT)\]
+description: 'iTunes began offering video content in October 2005 with the release
+  of iTunes 6. At launch, the iTunes Store provided popular TV shows from ABC, Disney
+  Channel, and other networks. Users could purchase and view video content, such as
+  episodes of Desperate Housewives, Lost, That''s So Raven, and The Suite Life of
+  Zack & Cody.
+
+
+  In 2008, Apple introduced "iTunes Digital Copy," a feature on select DVDs and Blu-ray
+  discs that allowed users to obtain a digital copy of the video content in iTunes
+  and associated media players.
+
+
+  Over time, iTunes expanded its video offerings and became a significant platform
+  for purchasing, organizing, and viewing movies and TV shows.'
+tags:
+- Streaming Service
+- WEB-DL
+tests:
+- expected: false
+  id: 1
+  input: The 1975-iTunes Music Festival London (2013)-CONVERT-1080p-x264-2013-SRPx
+  lastRun: '2024-12-06T05:44:57.921957'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Armour of God 1987 iTunes WEB-DL 4k HEVC HDR AAC-AREY
+  lastRun: '2024-12-06T05:44:57.921957'
+  matchSpan:
+    end: 25
+    start: 19
+  matchedContent: iTunes
+  matchedGroups:
+  - iTunes
+  - DL
+  passes: true
+- expected: true
+  id: 3
+  input: The Celluloid Closet 1995 1080p iTunes WEB-DL H 264 AAC
+  lastRun: '2024-12-06T05:44:57.921957'
+  matchSpan:
+    end: 38
+    start: 32
+  matchedContent: iTunes
+  matchedGroups:
+  - iTunes
+  - DL
+  passes: true
+- expected: true
+  id: 4
+  input: 752.is.Not.A.Number.2022.2160p.iT.WEB-DL.DD5.1.HEVC-NTb.mkv
+  lastRun: '2024-12-06T05:44:57.921957'
+  matchSpan:
+    end: 33
+    start: 31
+  matchedContent: iT
+  matchedGroups:
+  - iT
+  - DL
+  passes: true
+- expected: false
+  id: 5
+  input: Bring It On All or Nothing 2006 1080p BluRay DDP 5 1 x265-edge2020
+  lastRun: '2024-12-06T05:44:57.921957'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

@@ -1,0 +1,7 @@
+name: Saizen
+pattern: (?<=^|[\s.-])Saizen\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

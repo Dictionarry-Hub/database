@@ -3,6 +3,7 @@ pattern: (?<=^|[\s.-])PTer\b
 description: ''
 tags:
 - Release Group
+- Bluray
 tests:
 - expected: false
   id: 1

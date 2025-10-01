@@ -1,0 +1,17 @@
+radarr:
+  rename: true
+  movieFormat: '{Movie CleanTitle} {(Release Year)} {tmdb-{TmdbId}} {edition-{Edition Tags}} {[Custom Formats]}{[Quality Full]}{[MediaInfo 3D]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[Mediainfo VideoCodec]}{-Release Group}'
+  movieFolderFormat: '{Movie CleanTitle} ({Release Year}) {tmdb-{TmdbId}}'
+  replaceIllegalCharacters: false
+  colonReplacementFormat: smart
+sonarr:
+  rename: true
+  standardEpisodeFormat: '{Series TitleYear} - S{season:00}E{episode:00} - {Episode CleanTitle} {[Custom Formats]}{[Quality Full]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo VideoCodec]}{-Release Group}'
+  dailyEpisodeFormat: '{Series TitleYear} - {Air-Date} - {Episode CleanTitle} {[Custom Formats]}{[Quality Full]}{[MediaInfo VideoDynamicRangeType]}{[Mediainfo AudioCodec}{ Mediainfo AudioChannels]}{[MediaInfo VideoCodec]}{-Release Group}'
+  animeEpisodeFormat: '{Series TitleYear} - S{season:00}E{episode:00} - {absolute:000} - {Episode CleanTitle} {[Custom Formats]}{[Quality Full]}{[MediaInfo VideoDynamicRangeType]}[{MediaInfo VideoBitDepth}bit]{[MediaInfo VideoCodec]}[{Mediainfo AudioCodec} { Mediainfo AudioChannels}]{MediaInfo AudioLanguages}{-Release Group}'
+  seriesFolderFormat: '{Series TitleYear} {tvdb-{TvdbId}}'
+  seasonFolderFormat: Season {season:00}
+  replaceIllegalCharacters: false
+  colonReplacementFormat: 4
+  customColonReplacementFormat: ''
+  multiEpisodeStyle: 5

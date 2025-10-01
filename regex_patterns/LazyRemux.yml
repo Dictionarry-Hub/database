@@ -1,0 +1,7 @@
+name: LazyRemux
+pattern: (?<=^|[\s.-])LazyRemux\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,12 @@
+name: Banned Scene
+description: Matches Scene Release Groups that are Banned
+tags:
+- Banned
+- Release Group
+conditions:
+- name: GGEZ
+  negate: false
+  pattern: GGEZ
+  required: false
+  type: release_group
+tests: []

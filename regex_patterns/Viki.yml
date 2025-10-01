@@ -1,7 +1,29 @@
 name: Viki
 pattern: \b(Viki)\b
-description: Rakuten Viki is an American over-the-top subscription video on-demand streaming service. It streams videos similar to other services, but also allows users to subtitle content available in 200 languages as well as providing original programming.
+description: Rakuten Viki is an American over-the-top subscription video on-demand
+  streaming service. It streams videos similar to other services, but also allows
+  users to subtitle content available in 200 languages as well as providing original
+  programming.
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
+tests:
+- expected: true
+  id: 1
+  input: Make Up with Mud 2024 S01E01 1080p VIKI WEB-DL AAC 2.0 H.264-DUSKLiGHT
+  lastRun: '2025-06-01T17:53:57.847362'
+  matchSpan:
+    end: 39
+    start: 21
+  matchedContent: ' S01E01 1080p VIKI'
+  matchedGroups:
+  - VIKI
+  passes: true
+- expected: false
+  id: 2
+  input: Vikings S06 Part 1 1080p Blu-ray AVC DTS-HD MA 5.1-SLIPSTREAM
+  lastRun: '2025-06-01T17:53:57.847362'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

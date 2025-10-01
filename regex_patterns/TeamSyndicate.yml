@@ -1,0 +1,7 @@
+name: TeamSyndicate
+pattern: (?<=^|[\s.-])TeamSyndicate\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

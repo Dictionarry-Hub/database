@@ -1,6 +1,0 @@
-name: ENDSTATiON
-pattern: (?<=^|[\s.-])ENDSTATiON\b
-description: ''
-tags:
-- Release Group
-tests: null

@@ -1,0 +1,184 @@
+name: Theatrical
+description: 'Matches any type of theatrical edition.
+
+  - Ensures that `Theatrical` comes after the year so that movies with ''Theatrical`
+  in the title are not matched'
+tags:
+- Edition
+conditions:
+- name: Theatrical
+  negate: false
+  pattern: Theatrical Edition
+  required: true
+  type: release_title
+- name: Not Extended Clip
+  negate: true
+  pattern: Extended Clip
+  required: true
+  type: release_title
+- name: Not IMAX
+  negate: true
+  pattern: IMAX
+  required: true
+  type: release_title
+- name: Not Open Matte
+  negate: true
+  pattern: Open Matte
+  required: true
+  type: release_title
+- name: Not Sing Along
+  negate: true
+  pattern: Sing Along
+  required: true
+  type: release_title
+- name: Not Special Edition
+  negate: true
+  pattern: Special Edition
+  required: true
+  type: release_title
+tests:
+- conditionResults:
+  - matches: true
+    name: Special Edition
+    negate: false
+    pattern: Special Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not IMAX
+    negate: true
+    pattern: IMAX
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Open Matte
+    negate: true
+    pattern: Open Matte
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Edition
+    negate: true
+    pattern: Theatrical Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Extended Clip
+    negate: true
+    pattern: Extended Clip
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Sing Along
+    negate: true
+    pattern: Sing Along
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Preferred
+    negate: true
+    pattern: Better Theatricals
+    required: true
+    type: release_title
+  expected: true
+  id: 1
+  input: Blade.Runner.The.Final.Cut.1982.BluRay.CEE.1080p.VC-1.TrueHD.5.1-Gazdi
+  lastRun: '2025-02-26T05:09:12.646645'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Special Edition
+    negate: false
+    pattern: Special Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not IMAX
+    negate: true
+    pattern: IMAX
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Open Matte
+    negate: true
+    pattern: Open Matte
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Edition
+    negate: true
+    pattern: Theatrical Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Extended Clip
+    negate: true
+    pattern: Extended Clip
+    required: true
+    type: release_title
+  - matches: true
+    name: Not Sing Along
+    negate: true
+    pattern: Sing Along
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Preferred
+    negate: true
+    pattern: Better Theatricals
+    required: true
+    type: release_title
+  expected: false
+  id: 2
+  input: Wicked 2024 Sing-Along Version 720p MA WEB-DL DDP 5.1 H.264-FLUX
+  lastRun: '2025-02-26T05:09:12.646645'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Special Edition
+    negate: false
+    pattern: Special Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not IMAX
+    negate: true
+    pattern: IMAX
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Open Matte
+    negate: true
+    pattern: Open Matte
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Theatrical Edition
+    negate: true
+    pattern: Theatrical Edition
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Extended Clip
+    negate: true
+    pattern: Extended Clip
+    required: true
+    type: release_title
+  - matches: false
+    name: Not Sing Along
+    negate: true
+    pattern: Sing Along
+    required: true
+    type: release_title
+  - matches: true
+    name: Not Theatrical Preferred
+    negate: true
+    pattern: Better Theatricals
+    required: true
+    type: release_title
+  expected: false
+  id: 3
+  input: Alien 1979 Directors Cut HYBRID 2160p BluRay REMUX HEVC DV-HDR10Plus DTS-HD
+    MA 5 1-Flights
+  lastRun: '2025-02-26T05:09:12.646645'
+  passes: true

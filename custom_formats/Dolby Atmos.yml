@@ -1,0 +1,17 @@
+name: Dolby Atmos
+description: Matches 'Atmos' Regex Pattern
+tags:
+- Audio
+- Dolby
+conditions:
+- name: Atmos
+  negate: false
+  pattern: Atmos
+  required: true
+  type: release_title
+- name: Not TrueHD
+  negate: true
+  pattern: TrueHD
+  required: true
+  type: release_title
+tests: []

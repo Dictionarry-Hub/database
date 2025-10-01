@@ -1,0 +1,7 @@
+name: Senjou
+pattern: (?<=^|[\s.-])Senjou\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

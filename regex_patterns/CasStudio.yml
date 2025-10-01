@@ -1,0 +1,7 @@
+name: CasStudio
+pattern: (?<=^|[\s.-])CasStudio\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

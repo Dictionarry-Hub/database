@@ -2,26 +2,35 @@ name: Full Disc
 description: 'Matches the ''Full Disc'' regex pattern and negates any remuxes / encodes. '
 tags:
 - Storage
-- Source
 conditions:
 - name: Full Disc
   negate: false
   pattern: Full Disc
   required: true
   type: release_title
-- name: x264
+- name: Not WEB-DL
+  negate: true
+  required: true
+  source: web_dl
+  type: source
+- name: Not WEBRip
+  negate: true
+  required: true
+  source: webrip
+  type: source
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not x264
   negate: true
   pattern: x264
   required: true
   type: release_title
-- name: x265
+- name: Not x265
   negate: true
   pattern: x265
-  required: true
-  type: release_title
-- name: Remux
-  negate: true
-  pattern: Remux
   required: true
   type: release_title
 tests:

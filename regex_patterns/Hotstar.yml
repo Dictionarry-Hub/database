@@ -1,0 +1,12 @@
+name: Hotstar
+pattern: \b(HTSR)\b
+description: Disney+ Hotstar, also known as JioHotstar or simply Hotstar, is an Indian
+  subscription video-on-demand over-the-top streaming service owned by Disney Star.
+  The brand was introduced as Hotstar for a streaming service carrying content from
+  Disney Star's (formerly Star India) local networks, including films, television
+  series, live sports, and original programming, as well as featuring content licensed
+  from third parties such as Showtime among others.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

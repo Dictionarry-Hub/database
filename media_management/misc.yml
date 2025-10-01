@@ -1,0 +1,6 @@
+radarr:
+  propersRepacks: doNotPrefer
+  enableMediaInfo: true
+sonarr:
+  propersRepacks: doNotPrefer
+  enableMediaInfo: true

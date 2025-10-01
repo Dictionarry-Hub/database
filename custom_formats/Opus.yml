@@ -1,0 +1,89 @@
+name: Opus
+description: Matches 'Opus' Regex Pattern and negates any other audio types that might
+  conflict.
+tags:
+- Audio
+conditions:
+- name: Opus
+  negate: false
+  pattern: Opus
+  required: true
+  type: release_title
+- name: Not OPUS Release Group
+  negate: true
+  pattern: Opus (Negation)
+  required: true
+  type: release_group
+tests:
+- conditionResults:
+  - matches: true
+    name: Opus
+    negate: false
+    pattern: Opus
+    required: true
+    type: release_title
+  - matches: true
+    name: Not OPUS Release Group
+    negate: true
+    pattern: Opus (Negation)
+    required: false
+    type: release_group
+  expected: false
+  id: 1
+  input: The Booksellers 2020 1080p WEB-DL DD+ 2.0 H.264-OPUS
+  lastRun: '2025-08-07T03:36:12.364522'
+  passes: true
+- conditionResults:
+  - matches: false
+    name: Opus
+    negate: false
+    pattern: Opus
+    required: true
+    type: release_title
+  - matches: true
+    name: Not OPUS Release Group
+    negate: true
+    pattern: Opus (Negation)
+    required: false
+    type: release_group
+  expected: false
+  id: 2
+  input: Opus 2025 Hybrid 2160p iT WEB-DL DD+ 5.1 Atmos DV HDR10+ H.265-BYNDR
+  lastRun: '2025-08-07T03:36:12.364522'
+  passes: true
+- conditionResults:
+  - matches: true
+    name: Opus
+    negate: false
+    pattern: Opus
+    required: true
+    type: release_title
+  - matches: true
+    name: Not OPUS Release Group
+    negate: true
+    pattern: Opus (Negation)
+    required: false
+    type: release_group
+  expected: true
+  id: 3
+  input: Convicted 1950 1080p BluRay Opus 1.0 x264-MiRAGE
+  lastRun: '2025-08-07T03:36:12.364522'
+  passes: false
+- conditionResults:
+  - matches: true
+    name: Opus
+    negate: false
+    pattern: Opus
+    required: true
+    type: release_title
+  - matches: true
+    name: Not OPUS Release Group
+    negate: true
+    pattern: Opus (Negation)
+    required: false
+    type: release_group
+  expected: true
+  id: 4
+  input: Fate/Zero 2011 S01 1080p BluRay Dual-Audio Opus 2.0 x265-LYS1TH3A
+  lastRun: '2025-08-07T03:36:12.364522'
+  passes: false

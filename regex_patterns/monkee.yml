@@ -1,0 +1,7 @@
+name: monkee
+pattern: (?<=^|[\s.-])monkee\b
+description: Matches "monkee" when preceded by whitespace, a hyphen or dot
+tags:
+- Release Group
+- WEB-DL
+tests: []

@@ -8,4 +8,9 @@ conditions:
   pattern: x265
   required: true
   type: release_title
+- name: Not 2160p
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
 tests: []

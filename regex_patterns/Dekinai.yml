@@ -1,0 +1,7 @@
+name: Dekinai
+pattern: (?<=^|[\s.-])Dekinai\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

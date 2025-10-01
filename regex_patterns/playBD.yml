@@ -1,0 +1,7 @@
+name: playBD
+pattern: (?<=^|[\s.-])playBD\b
+description: ''
+tags:
+- Release Group
+- Remux
+tests: []

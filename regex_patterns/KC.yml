@@ -1,0 +1,7 @@
+name: KC
+pattern: (?<=^|[\s.-])KC\b
+description: Banned for AI Upscales
+tags:
+- Release Group
+- Banned
+tests: []

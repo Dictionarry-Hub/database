@@ -1,0 +1,7 @@
+name: VD0N
+pattern: (?<=^|[\s.-])VD0N\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

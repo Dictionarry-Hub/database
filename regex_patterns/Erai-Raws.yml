@@ -1,0 +1,7 @@
+name: Erai-Raws
+pattern: (?<=^|[\s.-])Erai-Raws\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

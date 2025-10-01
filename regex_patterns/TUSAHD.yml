@@ -1,6 +1,0 @@
-name: TUSAHD
-pattern: (?<=^|[\s.-])TUSAHD\b
-description: ''
-tags:
-- Release Group
-tests: null

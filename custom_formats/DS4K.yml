@@ -1,0 +1,10 @@
+name: DS4K
+description: ''
+tags: []
+conditions:
+- name: DS4K
+  negate: false
+  pattern: DS4K
+  required: true
+  type: release_title
+tests: []

@@ -4,8 +4,7 @@ description: 'iPT Internal known for releasing pre-releases before anyone else. 
   releases encodes of varying quality. '
 tags:
 - Release Group
-- iPT
-- Disbanded
+- WEB-DL
 tests:
 - expected: true
   id: 1

@@ -1,0 +1,41 @@
+name: DSNP
+description: Matches 'Disney+' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: DNSP Regex
+  negate: false
+  pattern: Disney+
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: DNSP Regex
+    negate: false
+    pattern: Disney+
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: The Simpsons (1989) S36E05 Treehouse of Horror XXXV (1080p DSNP Webrip x265
+    10bit EAC3 5 1 - Goki)[TAoE]
+  lastRun: '2024-12-03T16:31:38.572151'
+  passes: true

@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])KiNGS\b
 description: ''
 tags:
 - Release Group
+- WEB-DL
 tests: []

@@ -1,0 +1,7 @@
+name: Final8
+pattern: (?<=^|[\s.-])Final8\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

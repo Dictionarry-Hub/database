@@ -1,7 +1,8 @@
 name: BTN Atmos
 pattern: \bTrue[ .-]?HDA[ .-]?[57]\.1|DDPA[57]\.1\b
 description: Matches BroadcastTheNet Atmos naming convention
-tags: []
+tags:
+- Audio
 tests:
 - expected: true
   id: 1

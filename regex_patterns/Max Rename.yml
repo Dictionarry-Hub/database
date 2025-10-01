@@ -1,0 +1,60 @@
+name: Max Rename
+pattern: \[(MAX)\b|\b(MAX)\]
+description: Max, formerly (and in some regions still) known as HBO Max, is an American
+  subscription video on-demand over-the-top streaming service. The platform offers
+  content from the libraries of Warner Bros., Discovery, HBO, CNN, Cartoon Network,
+  Adult Swim, Animal Planet, TBS, TNT, Eurosport, and their related brands.
+tags:
+- Streaming Service
+- WEB-DL
+tests:
+- expected: true
+  id: 1
+  input: Dune Prophecy S01E02 Two Wolves 1080p MAX WEB-DL DDP5 1 Atmos H 264-FLUX
+  lastRun: '2024-12-06T02:54:31.077207'
+  matchSpan:
+    end: 41
+    start: 38
+  matchedContent: MAX
+  matchedGroups:
+  - MAX
+  - DL
+  passes: true
+- expected: false
+  id: 2
+  input: Guardians of the Galaxy Vol. 3 (2023) IMAX (2160p MA WEB-DL Hybrid H265 DV
+    HDR DDP Atmos 5.1 English - HONE)
+  lastRun: '2024-12-06T02:54:31.077207'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: Max.Verstappen.Anatomy.of.a.Champion.S01E01.1080p.WEB.h264-B2B
+  lastRun: '2024-12-06T02:54:31.077207'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: Silicon Valley S06 1080p HMAX WEB-DL DD5 1 H 264-PHOENiX
+  lastRun: '2024-12-06T02:54:31.077207'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 5
+  input: Dune Prophecy S01E01 The Hidden Hand 2160p MAX WEB-DL DDP 5.1 Atmos DV HDR
+    H.265-FLUX
+  lastRun: '2024-12-06T02:54:31.077207'
+  matchSpan:
+    end: 46
+    start: 43
+  matchedContent: MAX
+  matchedGroups:
+  - MAX
+  - DL
+  passes: true

@@ -1,0 +1,10 @@
+name: Now
+pattern: \b(now)\b[ ._-]web[ ._-]?(dl|rip)?\b
+description: Now (formerly Now TV and often stylised as NOW) is a subscription over-the-top
+  streaming television service launched in the United Kingdom in 2012. It is operated
+  by Sky Group in Europe, and Xfinity in the US; both owned by the American media
+  conglomerate Comcast.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

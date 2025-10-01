@@ -1,0 +1,7 @@
+name: SallySubs
+pattern: (?<=^|[\s.-])SallySubs\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

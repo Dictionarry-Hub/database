@@ -1,0 +1,17 @@
+name: TV Extras
+pattern: (?<=\bS\d+\b).*\b(Extras|Bonus|Extended[ ._-]Clip)\b
+description: Extras, Special Features, Featurettes, etc
+tags:
+- Banned
+tests:
+- expected: true
+  id: 1
+  input: Game of Thrones S08 Extras The Game Revealed 1080p AMZN WEB-DL DD+ 2.0 H.264-NTG
+  lastRun: '2025-08-18T20:43:40.568644'
+  matchSpan:
+    end: 26
+    start: 19
+  matchedContent: ' Extras'
+  matchedGroups:
+  - Extras
+  passes: true

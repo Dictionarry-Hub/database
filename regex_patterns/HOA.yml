@@ -1,6 +1,0 @@
-name: HOA
-pattern: (?<=^|[\s.-])HOA\b
-description: ''
-tags:
-- Release Group
-tests: null

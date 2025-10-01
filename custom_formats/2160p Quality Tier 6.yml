@@ -1,83 +1,213 @@
 name: 2160p Quality Tier 6
-description: Matches release groups who fall under 2160p Quality Tier 6
+description: Matches release groups who fall under 2160p Quality Tier 5
 tags:
 - Release Group Tier
-- Quality
 - 2160p
+- Quality
 conditions:
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
-- name: Not WEB-DL
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: web_dl
+  source: bluray
   type: source
-- name: micius
+- name: AAAUHD
   negate: false
-  pattern: micius
+  pattern: AAAUHD
   required: false
   type: release_group
-- name: BOREDOR
+- name: Absinth
   negate: false
-  pattern: BOREDOR
+  pattern: Absinth
   required: false
   type: release_group
-- name: LittleBakas
+- name: ADE
   negate: false
-  pattern: LittleBakas
+  pattern: ADE
   required: false
   type: release_group
-- name: PTH
+- name: AViATOR
   negate: false
-  pattern: PTH
+  pattern: AViATOR
   required: false
   type: release_group
-- name: CHAOS
+- name: beAst
   negate: false
-  pattern: CHAOS
+  pattern: beAst
   required: false
   type: release_group
-- name: Hares
+- name: CHD
   negate: false
-  pattern: Hares
+  pattern: CHD
   required: false
   type: release_group
-- name: BLUEBIRD
+- name: CMCT
   negate: false
-  pattern: BLUEBIRD
+  pattern: CMCT
   required: false
   type: release_group
-- name: BeiTai
+- name: EDPH
   negate: false
-  pattern: BeiTai
+  pattern: EDPH
   required: false
   type: release_group
-- name: FLAME
+- name: EMERALD
   negate: false
-  pattern: FLAME
+  pattern: EMERALD
   required: false
   type: release_group
-- name: UHDCLUBREMUX
+- name: ESiR
   negate: false
-  pattern: UHDCLUBREMUX
+  pattern: ESiR
   required: false
   type: release_group
-- name: dkore
+- name: FRDS
   negate: false
-  pattern: dkore
+  pattern: FRDS
   required: false
   type: release_group
-- name: Lucifer
+- name: GUHZER
   negate: false
-  pattern: Lucifer
+  pattern: GUHZER
   required: false
   type: release_group
-- name: THREESOME
-  type: release_group
-  required: false
+- name: HD77
   negate: false
-  pattern: THREESOME
+  pattern: HD77
+  required: false
+  type: release_group
+- name: HDChina
+  negate: false
+  pattern: HDChina
+  required: false
+  type: release_group
+- name: HDmux
+  negate: false
+  pattern: HDmux
+  required: false
+  type: release_group
+- name: HUNTJR
+  negate: false
+  pattern: HUNTJR
+  required: false
+  type: release_group
+- name: HypStu
+  negate: false
+  pattern: HypStu
+  required: false
+  type: release_group
+- name: IAMABLE
+  negate: false
+  pattern: IAMABLE
+  required: false
+  type: release_group
+- name: iCandy
+  negate: false
+  pattern: iCandy
+  required: false
+  type: release_group
+- name: iNVANDRAREN
+  negate: false
+  pattern: iNVANDRAREN
+  required: false
+  type: release_group
+- name: k00kie
+  negate: false
+  pattern: k00kie
+  required: false
+  type: release_group
+- name: KAN3D2M
+  negate: false
+  pattern: KAN3D2M
+  required: false
+  type: release_group
+- name: KNiVES
+  negate: false
+  pattern: KNiVES
+  required: false
+  type: release_group
+- name: LAZARUS
+  negate: false
+  pattern: LAZARUS
+  required: false
+  type: release_group
+- name: MiMiC
+  negate: false
+  pattern: MiMiC
+  required: false
+  type: release_group
+- name: PussyFoot
+  negate: false
+  pattern: PussyFoot
+  required: false
+  type: release_group
+- name: ReaLHD
+  negate: false
+  pattern: ReaLHD
+  required: false
+  type: release_group
+- name: ReQuEsT
+  negate: false
+  pattern: ReQuEsT
+  required: false
+  type: release_group
+- name: SMAHAWUG
+  negate: false
+  pattern: SMAHAWUG
+  required: false
+  type: release_group
+- name: SPECTACLE
+  negate: false
+  pattern: SPECTACLE
+  required: false
+  type: release_group
+- name: STRiKES
+  negate: false
+  pattern: STRiKES
+  required: false
+  type: release_group
+- name: SWAGGERUHD
+  negate: false
+  pattern: SWAGGERUHD
+  required: false
+  type: release_group
+- name: SWTYBLZ
+  negate: false
+  pattern: SWTYBLZ
+  required: false
+  type: release_group
+- name: TERMiNAL
+  negate: false
+  pattern: TERMiNAL
+  required: false
+  type: release_group
+- name: TOMBCRUISE
+  negate: false
+  pattern: TOMBCRUISE
+  required: false
+  type: release_group
+- name: Tron
+  negate: false
+  pattern: Tron
+  required: false
+  type: release_group
+- name: ULTRAHDCLUB
+  negate: false
+  pattern: ULTRAHDCLUB
+  required: false
+  type: release_group
+- name: VALiS
+  negate: false
+  pattern: VALiS
+  required: false
+  type: release_group
+- name: Whiterhino
+  negate: false
+  pattern: WhiteRhino
+  required: false
+  type: release_group
 tests: []

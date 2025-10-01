@@ -38,11 +38,6 @@ conditions:
   pattern: Sing Along
   required: true
   type: release_title
-- name: Not Theatrical Preferred
-  negate: true
-  pattern: Better Theatricals
-  required: true
-  type: release_title
 tests:
 - conditionResults:
   - matches: true

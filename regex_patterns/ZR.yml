@@ -1,0 +1,7 @@
+name: ZR
+pattern: (?<=^|[\s.-])ZR\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

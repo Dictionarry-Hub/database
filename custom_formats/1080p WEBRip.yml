@@ -1,0 +1,16 @@
+name: 1080p WEBRip
+description: Matches 1080p WEBRips.
+tags:
+- Source
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: WEBRip
+  negate: false
+  required: true
+  source: webrip
+  type: source
+tests: []

@@ -3,17 +3,16 @@ description: Attempts to match releases which have Atmos (TrueHD 7.1) that don't
   it correctly.
 tags:
 - Audio
-- Enhancement
 - Dolby
 conditions:
-- name: 7.1 Surround
-  negate: false
-  pattern: 7.1 Surround
-  required: true
-  type: release_title
 - name: TrueHD
   negate: false
   pattern: TrueHD
+  required: true
+  type: release_title
+- name: 7.1 Surround
+  negate: false
+  pattern: 7.1 Surround
   required: true
   type: release_title
 - name: Not Atmos
