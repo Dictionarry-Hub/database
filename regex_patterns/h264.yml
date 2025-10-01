@@ -1,0 +1,65 @@
+name: h264
+pattern: (?i)h\s*\.?\s*264
+description: 'An open source encoder that produces H.264 videos. '
+tags:
+- Codec
+tests:
+- expected: false
+  id: 1
+  input: Dan Da Dan AKA Dandadan S01E10 1080p CR WEB-DL AAC 2.0 x264-SubsPlease
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Life of Pi 2012 1080p BluRay x264-SPARKS
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 3
+  input: Scrubs (2001) S04 REPACK (1080p AIUS DVDRip x265 10bit AC3 5 1 English -
+    JBENT)[TAoE]
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 4
+  input: Wallander UK S01-S04 DVDRip XviD BDRip x264-Scene (2008-2016)
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 5
+  input: Rugrats S05 480p DVDRip Opus 2.0 AV1-Jenkins
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 6
+  input: _Summer S00 JAPANESE 480p DVDRip DD 2.0 x264-Tsundere
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 7
+  input: Sinners (2025) (1080p MA WEB-DL H264 SDR DDP Atmos 5.1 English - PiracyIsASin)
+  lastRun: '2025-07-09T19:19:57.966625'
+  matchSpan:
+    end: 36
+    start: 32
+  matchedContent: H264
+  matchedGroups: []
+  passes: true

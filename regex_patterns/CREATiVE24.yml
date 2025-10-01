@@ -1,0 +1,7 @@
+name: CREATiVE24
+pattern: (?<=^|[\s.-])CREATiVE24\b
+description: Banned for Bloated Garbage
+tags:
+- Release Group
+- Bluray
+tests: []

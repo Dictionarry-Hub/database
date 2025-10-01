@@ -1,0 +1,7 @@
+name: TTGA
+pattern: (?<=^|[\s.-])TTGA\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

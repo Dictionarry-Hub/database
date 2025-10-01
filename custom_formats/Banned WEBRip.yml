@@ -1,0 +1,17 @@
+name: Banned WEBRip
+description: Matches WEBRip releases that are not from a quality tier
+tags:
+- Banned
+- Release Group
+conditions:
+- name: WEBRip
+  negate: false
+  required: true
+  source: webrip
+  type: source
+- name: Release Groups
+  type: release_group
+  required: true
+  negate: true
+  pattern: UHD Bluray Release Groups
+tests: []

@@ -1,0 +1,38 @@
+name: Opus
+pattern: \bOPUS(\b|\d)(?!.*[ ._-](\d{3,4}p))
+description: ''
+tags:
+- Audio
+tests:
+- expected: true
+  id: 1
+  input: Sakura Trick S01 1080p BluRay Opus 2.0 x265-smol
+  lastRun: '2025-07-14T01:46:59.723098'
+  matchSpan:
+    end: 34
+    start: 30
+  matchedContent: Opus
+  matchedGroups:
+  - ''
+  - null
+  passes: true
+- expected: true
+  id: 3
+  input: Arion 1986 1080p BluRay Opus 2.0 x265-Kitsune
+  lastRun: '2025-07-14T01:46:59.723098'
+  matchSpan:
+    end: 28
+    start: 24
+  matchedContent: Opus
+  matchedGroups:
+  - ''
+  - null
+  passes: true
+- expected: false
+  id: 4
+  input: Opus 2025 1080p AMZN WEB-DL DD+ 5.1 Atmos H.264-BYNDR
+  lastRun: '2025-07-14T01:46:59.723098'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

@@ -1,6 +1,0 @@
-name: SESKAPiLE
-pattern: (?<=^|[\s.-])SESKAPiLE\b
-description: ''
-tags:
-- Release Group
-tests: null

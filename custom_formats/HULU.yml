@@ -1,0 +1,40 @@
+name: HULU
+description: Matches 'Hulu' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: HULU Regex
+  negate: false
+  pattern: Hulu
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: Hulu Regex
+    negate: false
+    pattern: Hulu
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Beverly Hills Ninja (1996) 1080p HULU WEB-DL x265 HEVC DDP 5.1-PHOCiS
+  lastRun: '2024-12-06T05:29:49.598013'
+  passes: true

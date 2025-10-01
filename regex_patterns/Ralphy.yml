@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])Ralphy\b
 description: ''
 tags:
 - Release Group
-tests: null
+- WEB-DL
+tests: []

@@ -1,0 +1,18 @@
+name: Sync dev with stable
+on:
+  pull_request:
+    types: [closed]
+    branches: [stable]
+
+jobs:
+  sync:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: |
+          git checkout dev
+          git pull origin stable
+          git push origin dev

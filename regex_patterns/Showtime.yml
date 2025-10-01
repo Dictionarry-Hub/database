@@ -1,0 +1,13 @@
+name: Showtime
+pattern: \b(sho|showtime)\b[ ._-]web[ ._-]?(dl|rip)?\b
+description: Showtime (also known as Paramount+ with Showtime) is an American premium
+  television network and the flagship property of Showtime Networks, a sub-division
+  of the Paramount Media Networks division of Paramount Global. Showtime's programming
+  includes original television series produced exclusively for the linear network
+  and developed for the co-owned Paramount+ streaming service, theatrically released
+  and independent motion pictures, documentaries, and occasional stand-up comedy specials,
+  made-for-TV movies, and softcore adult programming.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

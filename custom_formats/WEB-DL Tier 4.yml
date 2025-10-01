@@ -1,0 +1,52 @@
+name: WEB-DL Tier 4
+description: Matches release groups who fall under WEB-DL Tier 4
+tags:
+- Release Group Tier
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: APEX
+  negate: false
+  pattern: APEX
+  required: false
+  type: release_group
+- name: BTN
+  negate: false
+  pattern: BTN
+  required: false
+  type: release_group
+- name: dB
+  negate: false
+  pattern: dB
+  required: false
+  type: release_group
+- name: PTP
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTP
+- name: RTN
+  negate: false
+  pattern: RTN
+  required: false
+  type: release_group
+- name: SiC
+  negate: false
+  pattern: SiC
+  required: false
+  type: release_group
+- name: SPiRiT
+  negate: false
+  pattern: SPiRiT
+  required: false
+  type: release_group
+- name: ViSUM
+  negate: false
+  pattern: ViSUM
+  required: false
+  type: release_group
+tests: []

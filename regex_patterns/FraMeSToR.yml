@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])FraMeSToR\b
 description: ''
 tags:
 - Release Group
+- Remux
 tests: []

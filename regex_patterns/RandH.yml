@@ -1,6 +1,0 @@
-name: RandH
-pattern: (?<=^|[\s.-])RandH\b
-description: ''
-tags:
-- Release Group
-tests: null

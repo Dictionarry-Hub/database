@@ -1,0 +1,7 @@
+name: NPMS
+pattern: (?<=^|[\s.-])NPMS\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

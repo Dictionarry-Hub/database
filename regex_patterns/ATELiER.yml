@@ -1,0 +1,7 @@
+name: ATELiER
+pattern: (?<=^|[\s.-])ATELiER\b
+description: Matches "ATELiER" when preceded by whitespace, a hyphen or dot
+tags:
+- Release Group
+- Bluray
+tests: []

@@ -1,0 +1,7 @@
+name: Kametsu
+pattern: (?<=^|[\s.-])Kametsu\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

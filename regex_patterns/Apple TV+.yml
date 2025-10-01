@@ -6,7 +6,6 @@ description: Apple TV+ is an American subscription OTT streaming service owned a
 tags:
 - Streaming Service
 - WEB-DL
-- WEBRip
 tests:
 - expected: true
   id: 1

@@ -1,0 +1,57 @@
+name: AVC
+pattern: '[xh][ ._-]?264|\bAVC(\b|\d)'
+description: 'An open source encoder that produces AVC videos. '
+tags:
+- Encoder
+- Codec
+tests:
+- expected: true
+  id: 1
+  input: Ballerina 2025 2160p iT WEB-DL DD+ 5.1 Atmos DV HDR10+ H.265-BYNDR
+  lastRun: '2025-07-24T17:37:44.747485'
+  matchSpan:
+    end: 60
+    start: 55
+  matchedContent: H.265
+  matchedGroups:
+  - null
+  passes: true
+- expected: true
+  id: 2
+  input: 'The Lord Of The Rings: The Two Towers 2002 Extended Edition 2160p UHD BluRay
+    TrueHD 7.1 DV HDR x265-DON'
+  lastRun: '2025-07-24T17:37:44.747485'
+  matchSpan:
+    end: 99
+    start: 95
+  matchedContent: x265
+  matchedGroups:
+  - null
+  passes: true
+- expected: true
+  id: 3
+  input: Suspiria 2018 2160p UHD BluRay REMUX HDR HEVC TrueHD 7.1 Atmos-BLURANiUM
+  lastRun: '2025-07-24T17:37:44.747485'
+  matchSpan:
+    end: 45
+    start: 41
+  matchedContent: HEVC
+  matchedGroups:
+  - ''
+  passes: true
+- expected: false
+  id: 4
+  input: Ballerina 2025 1080p AMZN WEB-DL DD+ 5.1 Atmos H.264-BYNDR
+  lastRun: '2025-07-24T17:37:44.747485'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 5
+  input: Thunderbolts* 2025 Hybrid 1080p BluRay DD+ 7.1 x264-ZoroSenpai
+  lastRun: '2025-07-24T17:37:44.747485'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true

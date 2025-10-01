@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])CRX\b
 description: ''
 tags:
 - Release Group
+- Bluray
 tests: []

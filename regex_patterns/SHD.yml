@@ -1,0 +1,7 @@
+name: SHD
+pattern: (?<=^|[\s.-])SHD\b
+description: Banned for Retagging
+tags:
+- Release Group
+- WEB-DL
+tests: []

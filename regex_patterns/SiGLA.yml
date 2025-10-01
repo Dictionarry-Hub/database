@@ -3,6 +3,7 @@ pattern: (?<=^|[\s.-])SiGLA\b
 description: ''
 tags:
 - Release Group
+- WEB-DL
 tests:
 - expected: true
   id: 1

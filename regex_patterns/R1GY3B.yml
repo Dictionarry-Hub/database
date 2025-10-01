@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])R1GY3B\b
 description: ''
 tags:
 - Release Group
-tests: null
+- WEB-DL
+tests: []

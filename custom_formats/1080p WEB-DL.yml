@@ -1,0 +1,16 @@
+name: 1080p WEB-DL
+description: Matches 1080p WEB-DLs.
+tags:
+- Source
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests: []

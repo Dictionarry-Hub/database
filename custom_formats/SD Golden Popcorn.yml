@@ -4,29 +4,24 @@ tags:
 - Flag
 - Golden Popcorn
 conditions:
-- name: 360p
-  negate: false
-  required: false
-  resolution: 360p
-  type: resolution
-- name: 480p
-  negate: false
-  required: false
-  resolution: 480p
-  type: resolution
-- name: 540p
-  negate: false
-  required: false
-  resolution: 540p
-  type: resolution
-- name: 576p
-  negate: false
-  required: false
-  resolution: 576p
-  type: resolution
 - flag: ptp_golden
   name: Golden Popcorn
   negate: false
   required: true
   type: indexer_flag
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Not 1080p
+  negate: true
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Not 720p
+  negate: true
+  required: true
+  resolution: 720p
+  type: resolution
 tests: []

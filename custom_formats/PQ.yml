@@ -1,0 +1,37 @@
+name: PQ
+description: Matches the 'PQ' Regex Pattern
+tags:
+- Colour Grade
+- HDR
+conditions:
+- name: PQ
+  negate: false
+  pattern: PQ
+  required: true
+  type: release_title
+- name: Not SDR
+  negate: true
+  pattern: SDR
+  required: true
+  type: release_title
+- name: Not HLG
+  negate: true
+  pattern: HLG
+  required: true
+  type: release_title
+- name: HDR
+  type: release_title
+  required: true
+  negate: true
+  pattern: HDR
+- name: Not HDR10
+  negate: true
+  pattern: HDR10
+  required: true
+  type: release_title
+- name: Not HDR10+
+  negate: true
+  pattern: HDR10+
+  required: true
+  type: release_title
+tests: []

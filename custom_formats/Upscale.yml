@@ -1,0 +1,20 @@
+name: Upscale
+description: 'Matches the ''Upscaled'' regex pattern
+
+
+  Radarr Version'
+tags:
+- Banned
+- Enhancement
+conditions:
+- name: Upscaled
+  negate: false
+  pattern: Upscaled
+  required: false
+  type: release_title
+- name: AI Movies
+  negate: false
+  pattern: AI Movies
+  required: false
+  type: release_title
+tests: []

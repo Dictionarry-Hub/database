@@ -1,6 +1,7 @@
 name: LAMA
 pattern: (?<=^|[\s.-])LAMA\b
-description: ''
+description: Banned for Retagging
 tags:
 - Release Group
-tests: null
+- Banned
+tests: []

@@ -1,6 +1,0 @@
-name: DESPACiTO
-pattern: (?<=^|[\s.-])DESPACiTO\b
-description: ''
-tags:
-- Release Group
-tests: null

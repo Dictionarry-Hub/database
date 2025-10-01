@@ -1,0 +1,7 @@
+name: STUTTERSHIT
+pattern: (?<=^|[\s.-])STUTTERSHIT\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

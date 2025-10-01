@@ -1,8 +1,8 @@
 name: 3D
 description: Matches the '3D' Regex Pattern
 tags:
+- Banned
 - Enhancement
-- Unwanted
 conditions:
 - name: 3D
   negate: false

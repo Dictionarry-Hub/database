@@ -1,0 +1,7 @@
+name: Rasetsu
+pattern: (?<=^|[\s.-])Rasetsu\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

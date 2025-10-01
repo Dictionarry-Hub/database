@@ -1,0 +1,43 @@
+name: DS4K
+pattern: \b(DS4K)\b
+description: ''
+tags:
+- Enhancements
+tests:
+- expected: false
+  id: 1
+  input: Aqua Teen Hunger Force (2000) S00E13 (480p DVD x265 SDR AAC 2.0 English -
+    r00t QxR)
+  lastRun: '2024-12-17T18:05:24.558038'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: false
+  id: 2
+  input: Planet Earth II S01 REPACK UHD BluRay 2160p DD5.1 HDR x265-BHDStudio
+  lastRun: '2024-12-17T18:05:24.558038'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: The Batman (2022) (1080p HMAX WEB-DL H265 SDR DDP Atmos 5.1 English - HONE)
+  lastRun: '2024-12-17T18:05:24.558038'
+  matchSpan:
+    end: 41
+    start: 37
+  matchedContent: H265
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 4
+  input: "\t The Batman (2022) 1080p AMZN WEB-DL H265 SDR DDP 5.1 English-DarQ"
+  lastRun: '2024-12-17T18:05:24.558038'
+  matchSpan:
+    end: 42
+    start: 38
+  matchedContent: H265
+  matchedGroups: []
+  passes: true

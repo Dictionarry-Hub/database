@@ -1,0 +1,17 @@
+name: HDR10 (Negation)
+pattern: (?<=^|[\s.-])BHDStudio\b
+description: Matches groups who mislabel HDR10
+tags:
+- Release Group
+- HDR
+tests:
+- id: 1
+  input: Loki S01 2023 2160p UHD Blu-ray Remux HEVC TrueHD 7 1 Atmos-HDS
+  expected: true
+- id: 2
+  input: "\t Loki S01 REPACK UHD BluRay 2160p TrueHD Atmos 7.1 DV HEVC HYBRID REMUX-FraMeSToR"
+  expected: true
+- id: 3
+  input: Alien Romulus 2024 BluRay 2160p UHD REMUX HEVC (10bit) DV Atmos DTS-HD MA
+    7 1-Aisha@RFX
+  expected: true

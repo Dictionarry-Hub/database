@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])Hares\b
 description: ''
 tags:
 - Release Group
-tests: null
+- Bluray
+tests: []

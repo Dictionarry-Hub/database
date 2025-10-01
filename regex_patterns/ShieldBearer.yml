@@ -1,0 +1,7 @@
+name: ShieldBearer
+pattern: (?<=^|[\s.-])ShieldBearer\b
+description: Banned For AI Upscale
+tags:
+- Release Group
+- Banned
+tests: []

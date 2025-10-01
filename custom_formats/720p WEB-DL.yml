@@ -1,0 +1,16 @@
+name: 720p WEB-DL
+description: Matches 720p WEB-DLs.
+tags:
+- Source
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+tests: []

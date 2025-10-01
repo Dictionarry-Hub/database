@@ -1,0 +1,83 @@
+name: 2160p Quality Tier 7
+description: Matches release groups who fall under 2160p Quality Tier 6
+tags:
+- Release Group Tier
+- 2160p
+- Quality
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: BeiTai
+  negate: false
+  pattern: BeiTai
+  required: false
+  type: release_group
+- name: BLUEBIRD
+  negate: false
+  pattern: BLUEBIRD
+  required: false
+  type: release_group
+- name: BOREDOR
+  negate: false
+  pattern: BOREDOR
+  required: false
+  type: release_group
+- name: CHAOS
+  negate: false
+  pattern: CHAOS
+  required: false
+  type: release_group
+- name: dkore
+  negate: false
+  pattern: dkore
+  required: false
+  type: release_group
+- name: FLAME
+  negate: false
+  pattern: FLAME
+  required: false
+  type: release_group
+- name: Hares
+  negate: false
+  pattern: Hares
+  required: false
+  type: release_group
+- name: LittleBakas
+  negate: false
+  pattern: LittleBakas
+  required: false
+  type: release_group
+- name: Lucifer
+  negate: false
+  pattern: Lucifer
+  required: false
+  type: release_group
+- name: micius
+  negate: false
+  pattern: micius
+  required: false
+  type: release_group
+- name: PTH
+  negate: false
+  pattern: PTH
+  required: false
+  type: release_group
+- name: THREESOME
+  negate: false
+  pattern: THREESOME
+  required: false
+  type: release_group
+- name: UHDCLUBREMUX
+  negate: false
+  pattern: UHDCLUBREMUX
+  required: false
+  type: release_group
+tests: []

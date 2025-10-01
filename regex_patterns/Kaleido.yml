@@ -1,0 +1,7 @@
+name: Kaleido
+pattern: (?<=^|[\s.-])Kaleido\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

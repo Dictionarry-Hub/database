@@ -1,0 +1,7 @@
+name: Zurako
+pattern: (?<=^|[\s.-])Zurako\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

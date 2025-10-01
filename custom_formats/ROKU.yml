@@ -1,0 +1,40 @@
+name: ROKU
+description: Matches 'Roku' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: ROKU Regex
+  negate: false
+  pattern: Roku
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: Roku Regex
+    negate: false
+    pattern: Roku
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Almost Heroes (1998) 1080p ROKU WEB-DL x265 HEVC AAC 2.0-PHOCiS
+  lastRun: '2024-12-06T05:41:18.535555'
+  passes: true

@@ -1,22 +1,27 @@
 name: x265 (Missing)
-description: 'Attempts to match 1080p x265 encodes that are mislabeled as h265. '
+description: 'Attempts to match 2160p x265 encodes that aren''t labelled with any
+  codec. '
 tags:
-- x265
 - Codec
 conditions:
-- name: 1080p
+- name: 2160p
   negate: false
   required: true
-  resolution: 1080p
+  resolution: 2160p
   type: resolution
 - name: Bluray
   negate: false
   required: true
   source: bluray
   type: source
-- name: h265
-  negate: false
-  pattern: h265
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Not x264
+  negate: true
+  pattern: x264
   required: true
   type: release_title
 - name: Not x265

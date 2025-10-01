@@ -1,6 +1,0 @@
-name: SP4K
-pattern: (?<=^|[\s.-])SP4K\b
-description: ''
-tags:
-- Release Group
-tests: null

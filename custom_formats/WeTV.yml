@@ -1,0 +1,40 @@
+name: WeTV
+description: Matches 'WeTV' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: WeTV Regex
+  negate: false
+  pattern: WeTV
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: SHO Regex
+    negate: false
+    pattern: Showtime
+    required: false
+    type: release_title
+  - matches: false
+    name: SHO Rename Regex
+    negate: false
+    pattern: Showtime Rename
+    required: false
+    type: release_title
+  expected: true
+  id: 1
+  input: Billions S06 2160p SHO WEB-DL DD+ 5.1 H.265-NTb
+  lastRun: '2025-04-21T20:33:55.371437'
+  passes: true

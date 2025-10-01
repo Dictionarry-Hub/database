@@ -1,0 +1,7 @@
+name: EPSiLON
+pattern: (?<=^|[\s.-])EPSiLON\b
+description: ''
+tags:
+- Release Group
+- Remux
+tests: []

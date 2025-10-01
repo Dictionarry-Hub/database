@@ -1,6 +1,0 @@
-name: FZHD
-pattern: (?<=^|[\s.-])FZHD\b
-description: ''
-tags:
-- Release Group
-tests: null

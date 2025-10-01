@@ -1,0 +1,46 @@
+name: MAX
+description: Matches 'Max' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: MAX Regex
+  negate: false
+  pattern: Max
+  required: false
+  type: release_title
+- name: MAX Rename Regex
+  negate: false
+  pattern: Max Rename
+  required: false
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: MAX Regex
+    negate: false
+    pattern: Max
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Dune Prophecy (2024) S01E02 Two Wolves (2160p HDR10 DV Hybrid MAX Webrip
+    x265 10bit EAC3 5 1 Atmos - Goki)[TAoE]
+  lastRun: '2024-12-06T02:59:11.931629'
+  passes: true

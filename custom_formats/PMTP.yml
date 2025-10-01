@@ -1,0 +1,40 @@
+name: PMTP
+description: Matches 'Paramount+' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: PMTP Regex
+  negate: false
+  pattern: Paramount+
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: PMTP Regex
+    negate: false
+    pattern: Paramount+
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Evil 2019 S04 1080p PMTP WEB-DL DDP 5 1 x265 - YELLO
+  lastRun: '2024-12-06T05:11:34.055223'
+  passes: true

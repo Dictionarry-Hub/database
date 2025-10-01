@@ -1,0 +1,52 @@
+name: WEB-DL Tier 5
+description: Matches release groups who fall under WEB-DL Tier 5
+tags:
+- Release Group Tier
+- WEB-DL
+conditions:
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: CRUD
+  negate: false
+  pattern: CRUD
+  required: false
+  type: release_group
+- name: GNOME
+  negate: false
+  pattern: GNOME
+  required: false
+  type: release_group
+- name: NINJACENTRAL
+  negate: false
+  pattern: NINJACENTRAL
+  required: false
+  type: release_group
+- name: PHOENiX
+  negate: false
+  pattern: PHOENiX
+  required: false
+  type: release_group
+- name: ROCCaT
+  negate: false
+  pattern: ROCCaT
+  required: false
+  type: release_group
+- name: SiGLA
+  type: release_group
+  required: false
+  negate: false
+  pattern: SiGLA
+- name: SiGMA
+  negate: false
+  pattern: SiGMA
+  required: false
+  type: release_group
+- name: SwAgLaNdEr
+  negate: false
+  pattern: SwAgLaNdEr
+  required: false
+  type: release_group
+tests: []

@@ -1,0 +1,54 @@
+name: 720p Quality Tier 3
+description: Matches release groups who fall under 720p Quality Tier 3
+tags:
+- GPPi
+- Release Group Tier
+- 720p
+- Quality
+conditions:
+- name: 720p
+  negate: false
+  required: true
+  resolution: 720p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+- name: BMF
+  negate: false
+  pattern: BMF
+  required: false
+  type: release_group
+- name: Geek
+  negate: false
+  pattern: Geek
+  required: false
+  type: release_group
+- name: LolHD
+  negate: false
+  pattern: LolHD
+  required: false
+  type: release_group
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: Positive
+  negate: false
+  pattern: Positive
+  required: false
+  type: release_group
+- name: TBB
+  negate: false
+  pattern: TBB
+  required: false
+  type: release_group
+tests: []

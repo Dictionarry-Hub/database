@@ -3,7 +3,7 @@ pattern: (?<=^|[\s.-])CM(a)?R(io)?G\b
 description: 'Prolific WEB-DL group. '
 tags:
 - Release Group
-- iPT
+- WEB-DL
 tests:
 - expected: true
   id: 1

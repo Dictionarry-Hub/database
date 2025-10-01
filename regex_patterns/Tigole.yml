@@ -1,6 +1,0 @@
-name: Tigole
-pattern: (?<=^|[\s.-])Tigole\b
-description: ''
-tags:
-- Release Group
-tests: null

@@ -2,27 +2,27 @@ name: 2160p Balanced Tier 2
 description: Matches release groups who fall under 2160p Balanced Tier 2
 tags:
 - Release Group Tier
-- Balanced
 - 2160p
+- Balanced
 conditions:
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
-- name: Not WEB-DL
-  negate: true
-  required: true
-  source: web_dl
-  type: source
-- name: hallowed
+- name: Bluray
   negate: false
-  pattern: hallowed
-  required: false
-  type: release_group
+  required: true
+  source: bluray
+  type: source
 - name: BHDStudio
   negate: false
   pattern: BHDStudio
+  required: false
+  type: release_group
+- name: hallowed
+  negate: false
+  pattern: hallowed
   required: false
   type: release_group
 tests:

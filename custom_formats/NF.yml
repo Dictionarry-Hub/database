@@ -1,0 +1,40 @@
+name: NF
+description: Matches 'Netflix' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: NF Regex
+  negate: false
+  pattern: Netflix
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: NF Regex
+    negate: false
+    pattern: Netflix
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Arcane (2021) S02 (1080p NF WEB-DL x265 HEVC 10bit DDP 5 1 Vyndros)
+  lastRun: '2024-12-06T05:05:09.422536'
+  passes: true

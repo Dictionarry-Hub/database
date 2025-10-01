@@ -7,8 +7,8 @@ description: Black and White colour grading. This regex matches a 4-digit number
   `BW` and `B&W`, while excluding invalid variations like `b w`, `b-w`, or `b/w`
 tags:
 - Enhancement
-- Unwanted
 - Colour Grade
+- Banned
 tests:
 - expected: true
   id: 1

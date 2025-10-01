@@ -1,11 +1,11 @@
 name: Full Disc (Quality Match)
-description: Matches full discs using a quality modifier
+description: Matches Full Discs using a Radarr Quality Match
 tags:
 - Storage
 conditions:
 - name: BRDISK
-  type: quality_modifier
-  required: true
   negate: false
   qualityModifier: brdisk
+  required: true
+  type: quality_modifier
 tests: []

@@ -1,0 +1,7 @@
+name: Flugel
+pattern: (?<=^|[\s.-])Flugel\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

@@ -1,0 +1,7 @@
+name: kmplx
+pattern: (?<=^|[\s.-])kmplx\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

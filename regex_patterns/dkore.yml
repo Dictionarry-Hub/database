@@ -3,4 +3,5 @@ pattern: (?<=^|[\s.-])dkore\b
 description: ''
 tags:
 - Release Group
-tests: null
+- WEB-DL
+tests: []

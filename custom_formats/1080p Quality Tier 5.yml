@@ -11,19 +11,29 @@ conditions:
   required: true
   resolution: 1080p
   type: resolution
-- name: Not WEB-DL
+- name: Not Remux
   negate: true
+  pattern: Remux
   required: true
-  source: web_dl
+  type: release_title
+- name: Bluray
+  negate: false
+  required: false
+  source: bluray
   type: source
-- name: Not DVD
-  negate: true
-  required: true
-  source: dvd
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
   type: source
 - name: AJP69
   negate: false
   pattern: AJP69
+  required: false
+  type: release_group
+- name: ATELiER
+  negate: false
+  pattern: ATELiER
   required: false
   type: release_group
 - name: BV
@@ -111,6 +121,11 @@ conditions:
   pattern: hdalx
   required: false
   type: release_group
+- name: HDC
+  negate: false
+  pattern: HDC
+  required: false
+  type: release_group
 - name: iON
   negate: false
   pattern: iON
@@ -119,6 +134,11 @@ conditions:
 - name: KASHMiR
   negate: false
   pattern: KASHMiR
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
   required: false
   type: release_group
 - name: LEGi0N
@@ -186,6 +206,11 @@ conditions:
   pattern: PTer
   required: false
   type: release_group
+- name: REBORN
+  negate: false
+  pattern: REBORN
+  required: false
+  type: release_group
 - name: rightSIZE
   negate: false
   pattern: rightSIZE
@@ -211,9 +236,19 @@ conditions:
   pattern: SiMPLE
   required: false
   type: release_group
+- name: SoLaR
+  negate: false
+  pattern: SoLaR
+  required: false
+  type: release_group
 - name: SOP
   negate: false
   pattern: SOP
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
   required: false
   type: release_group
 - name: TBB
@@ -226,6 +261,16 @@ conditions:
   pattern: TDD
   required: false
   type: release_group
+- name: TeamSyndicate
+  type: release_group
+  required: false
+  negate: false
+  pattern: TeamSyndicate
+- name: TnP
+  negate: false
+  pattern: TnP
+  required: false
+  type: release_group
 - name: VLAD
   negate: false
   pattern: VLAD
@@ -234,6 +279,11 @@ conditions:
 - name: W4NK3R
   negate: false
   pattern: W4NK3R
+  required: false
+  type: release_group
+- name: WiKi
+  negate: false
+  pattern: WiKi
   required: false
   type: release_group
 - name: xander

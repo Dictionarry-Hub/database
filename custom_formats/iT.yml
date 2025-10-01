@@ -1,0 +1,46 @@
+name: iT
+description: Matches 'iTunes' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: iT Regex
+  negate: false
+  pattern: iTunes
+  required: false
+  type: release_title
+- name: iT Rename Regex
+  negate: false
+  pattern: iTunes Rename
+  required: false
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  type: source
+  required: false
+  negate: false
+  source: webrip
+tests:
+- conditionResults:
+  - matches: true
+    name: iTunes Regex
+    negate: false
+    pattern: iTunes
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 1
+  input: Alien Romulus (2024) (1080p DS4K iT WEBRip x265 HEVC 10bit DDP Atmos 5 1
+    English - KaLLuKaLia)
+  lastRun: '2024-12-06T05:49:21.811162'
+  passes: true

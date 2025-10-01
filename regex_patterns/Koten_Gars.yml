@@ -1,0 +1,7 @@
+name: Koten_Gars
+pattern: (?<=^|[\s.-])Koten_Gars\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

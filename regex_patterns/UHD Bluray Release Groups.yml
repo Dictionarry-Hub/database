@@ -1,0 +1,6 @@
+name: UHD Bluray Release Groups
+pattern: (?<=^|[\s.-])(AJP69|ATELiER|BMF|BV|Chotab|CJ|c0kE|CRiSC|CRX|CtrlHD|Dariush|de[42]|
+  decibel|DON|D-Z0N3|E.N.D|E1|EDPH|EbP|ESiR|EXCiSION|FilmHD|FoRM|FraMeSToR|FTW-HD|GALAXY|Geek|GS88|HANDJOB|hdalx|HDC|HDMaNiAcS|HiDt|HiFi|HiP|IDE|iFT|iON|KASHMiR|Kitsune|LEGi0N|LiNG|LolHD|LoRD|luvBB|MTeam|NCmt|nmd|NTb|NyHD|ORiGEN|P0W4HD|Penumbra|playHD|Positive|PTer|REBORN|rightSIZE|rttr|SA89|SaNcTi|SbR|SiMPLE|SoLaR|SOP|SPHD|TayTo|TBB|TDD|TeamSyndicate|TnP|VLAD|VietHD|W4NK3R|WiKi|WMING|xander|ZIMBO|ZoroSenpai|ZQ)\b
+description: Match release groups who should not be categorized as UHD Bluray
+tags: []
+tests: []

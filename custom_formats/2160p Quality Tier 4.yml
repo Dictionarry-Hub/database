@@ -2,52 +2,57 @@ name: 2160p Quality Tier 4
 description: Matches release groups who fall under 2160p Quality Tier 4
 tags:
 - Release Group Tier
-- Quality
 - 2160p
+- Quality
 conditions:
 - name: 2160p
   negate: false
   required: true
   resolution: 2160p
   type: resolution
-- name: Not WEB-DL
-  negate: true
+- name: Bluray
+  negate: false
   required: true
-  source: web_dl
+  source: bluray
   type: source
-- name: 4KDVS
+- name: b0mbardiers
   negate: false
-  pattern: 4KDVS
+  pattern: b0mbardiers
   required: false
   type: release_group
-- name: TDD
+- name: DEPTH
   negate: false
-  pattern: TDD
+  pattern: DEPTH
   required: false
   type: release_group
-- name: NCmt
+- name: HiDt
   negate: false
-  pattern: NCmt
-  required: false
-  type: release_group
-- name: IAMABLE
-  negate: false
-  pattern: IAMABLE
-  required: false
-  type: release_group
-- name: BlzT
-  negate: false
-  pattern: BlzT
-  required: false
-  type: release_group
-- name: WATCHABLE
-  negate: false
-  pattern: WATCHABLE
+  pattern: HiDt
   required: false
   type: release_group
 - name: iFT
   negate: false
   pattern: iFT
+  required: false
+  type: release_group
+- name: Kitsune
+  type: release_group
+  required: false
+  negate: false
+  pattern: Kitsune
+- name: NCmt
+  negate: false
+  pattern: NCmt
+  required: false
+  type: release_group
+- name: SPHD
+  negate: false
+  pattern: SPHD
+  required: false
+  type: release_group
+- name: TDD
+  negate: false
+  pattern: TDD
   required: false
   type: release_group
 tests: []

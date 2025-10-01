@@ -1,0 +1,12 @@
+name: VP9
+description: Matches the 'VP9' Regex Pattern
+tags:
+- Codec
+- Bleeding Edge
+conditions:
+- name: VP9
+  negate: false
+  pattern: VP9
+  required: true
+  type: release_title
+tests: []

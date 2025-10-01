@@ -1,0 +1,7 @@
+name: EXP
+pattern: (?<=^|[\s.-])EXP\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

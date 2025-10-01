@@ -1,6 +1,7 @@
 name: BiTOR
 pattern: (?<=^|[\s.-])BiTOR\b
-description: ''
+description: Banned for Fake DV/HDR Layer
 tags:
 - Release Group
-tests: null
+- Banned
+tests: []

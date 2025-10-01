@@ -1,0 +1,12 @@
+name: Sing Along
+description: ''
+tags:
+- Banned
+- Edition
+conditions:
+- name: Sing Along
+  negate: false
+  pattern: Sing Along
+  required: true
+  type: release_title
+tests: []

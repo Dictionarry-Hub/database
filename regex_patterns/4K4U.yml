@@ -10,4 +10,5 @@ description: 'Matches the release group `4K4U` only if it is:
   of a longer word. '
 tags:
 - Release Group
+- Remux
 tests: []

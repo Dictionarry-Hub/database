@@ -9,7 +9,6 @@ description: The DVD format, or Digital Versatile Disc, is an optical disc stora
 tags:
 - Source
 - SD
-- Storage
 conditions:
 - name: DVD
   negate: false
