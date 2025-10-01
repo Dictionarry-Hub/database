@@ -1,6 +1,6 @@
 name: MZABI
 pattern: (?<=^|[\s.-])MZABI\b
-description: ''
+description: ""
 tags:
 - Release Group
 - WEB-DL

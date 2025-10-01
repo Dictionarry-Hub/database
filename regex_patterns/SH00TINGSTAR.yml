@@ -1,0 +1,6 @@
+name: SH00TINGSTAR
+pattern: (?<=^|[\s.-])SH00TINGSTAR\b
+description: ''
+tags:
+- Release Group
+tests: null

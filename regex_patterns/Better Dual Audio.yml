@@ -1,0 +1,28 @@
+name: Better Dual Audio
+pattern: (?i)(dual[ ._-]?(?:audio|dub)|multi[ ._-]?(?:audio|dub)|ubbed)
+description: ''
+tags:
+- Language
+- Anime
+tests:
+- expected: false
+  id: 1
+  input: '[naiyas] Demon Slayer - Kimetsu no Yaiba (Yuukaku-hen) - S03 (WEBDL 1080p
+    HEVC - 10 AAC Multiple Subtitle) batch'
+  lastRun: '2025-03-09T18:15:18.756503'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 2
+  input: Demon Slayer Kimetsu no Yaiba S05E04 To Bring a Smile to Ones Face 1080p
+    CR WEB-DL AAC2.0 H 264 DUAL-VARYG (Dual-Audio, Multi-Subs)
+  lastRun: '2025-03-09T18:15:18.756503'
+  matchSpan:
+    end: 118
+    start: 108
+  matchedContent: Dual-Audio
+  matchedGroups:
+  - Dual-Audio
+  passes: true

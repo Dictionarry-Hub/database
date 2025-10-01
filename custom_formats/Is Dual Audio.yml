@@ -1,0 +1,25 @@
+name: Is Dual Audio
+description: ''
+tags:
+- Language
+conditions:
+- name: Dual Audio Trash
+  negate: false
+  pattern: Dual Audio Trash
+  required: true
+  type: edition
+tests:
+- conditionResults: []
+  expected: true
+  id: 1
+  input: '[ToonsHub] Solo Leveling S02E08 1080p AMZN WEB-DL DDP2.0 H.264 (Ore dake
+    Level Up na Ken, Dual-Audio, Multi-Subs)'
+  lastRun: null
+  passes: false
+- id: 2
+  input: '[SanKyuu] Ore dake Level Up na Ken (Solo Leveling) - S02E10 [WEB][1080p][AV1][AAC][Multi-Sub]
+    (Weekly)'
+  expected: false
+  passes: false
+  lastRun: null
+  conditionResults: []

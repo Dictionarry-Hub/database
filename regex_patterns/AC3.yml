@@ -1,0 +1,6 @@
+name: AC3
+pattern: (?<=^|[\s.-])AC3\b
+description: ''
+tags:
+- Release Group
+tests: null

@@ -1,0 +1,6 @@
+name: PMZ
+pattern: (?<=^|[\s.-])PMZ\b
+description: ''
+tags:
+- Release Group
+tests: null

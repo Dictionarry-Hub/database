@@ -1,0 +1,11 @@
+name: Bettter Dual Audio Chec
+description: ''
+tags:
+- Language
+conditions:
+- name: Better dual check
+  type: release_title
+  required: true
+  negate: false
+  pattern: Better Dual Audio
+tests: []

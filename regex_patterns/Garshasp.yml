@@ -1,0 +1,6 @@
+name: Garshasp
+pattern: (?<=^|[\s.-])Garshasp\b
+description: ''
+tags:
+- Release Group
+tests: null

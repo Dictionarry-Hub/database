@@ -1,0 +1,6 @@
+name: DAA
+pattern: (?<=^|[\s.-])DAA\b
+description: ''
+tags:
+- Release Group
+tests: null

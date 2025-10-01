@@ -1,0 +1,6 @@
+name: ComPleX
+pattern: (?<=^|[\s.-])ComPleX\b
+description: ''
+tags:
+- Release Group
+tests: null

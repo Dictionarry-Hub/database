@@ -1,0 +1,6 @@
+name: Dual Audio Trash
+pattern: dual[ ._-]?(audio|varyg)|[([]dual[])]|(JA|ZH|KO)\\+EN|EN\\+(JA|ZH|KO)
+description: ''
+tags:
+- language
+tests: []

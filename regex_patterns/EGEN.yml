@@ -1,0 +1,6 @@
+name: EGEN
+pattern: (?<=^|[\s.-])EGEN\b
+description: ''
+tags:
+- Release Group
+tests: null

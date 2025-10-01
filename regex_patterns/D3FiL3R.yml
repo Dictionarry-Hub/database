@@ -1,0 +1,6 @@
+name: D3FiL3R
+pattern: (?<=^|[\s.-])D3FiL3R\b
+description: ''
+tags:
+- Release Group
+tests: null

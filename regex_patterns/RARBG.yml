@@ -1,0 +1,6 @@
+name: RARBG
+pattern: (?<=^|[\s.-])RARBG\b
+description: ''
+tags:
+- Release Group
+tests: null

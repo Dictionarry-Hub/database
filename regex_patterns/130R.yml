@@ -1,0 +1,6 @@
+name: 130R
+pattern: (?<=^|[\s.-])130R\b
+description: ''
+tags:
+- Release Group
+tests: null

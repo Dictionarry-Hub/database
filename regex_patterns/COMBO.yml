@@ -1,0 +1,6 @@
+name: COMBO
+pattern: (?<=^|[\s.-])COMBO\b
+description: ''
+tags:
+- Release Group
+tests: null

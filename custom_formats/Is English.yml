@@ -1,0 +1,12 @@
+name: Is English
+description: ''
+tags:
+- Language
+conditions:
+- exceptLanguage: false
+  language: english
+  name: English
+  negate: false
+  required: true
+  type: language
+tests: []
