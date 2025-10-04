@@ -1,5 +1,0 @@
-name: UHD Bluray (Negation)
-pattern: (?<=^|[\s.-])(D0ct0rLew|MALUS|MovieMan|SM737|SQS|WOU|Vialle)\b
-description: Match release groups who should not be categorized as UHD Bluray
-tags: []
-tests: []

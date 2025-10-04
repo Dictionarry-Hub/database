@@ -15,19 +15,44 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: b0mbardiers
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: BlzT
   negate: false
-  pattern: b0mbardiers
+  pattern: BlzT
   required: false
   type: release_group
-- name: DEPTH
-  type: release_group
-  required: false
+- name: BSTD
   negate: false
-  pattern: DEPTH
+  pattern: BSTD
+  required: false
+  type: release_group
+- name: EDPH
+  negate: false
+  pattern: EDPH
+  required: false
+  type: release_group
+- name: ESiR
+  negate: false
+  pattern: ESiR
+  required: false
+  type: release_group
+- name: HiDt
+  negate: false
+  pattern: HiDt
+  required: false
+  type: release_group
 - name: iFT
   negate: false
   pattern: iFT
+  required: false
+  type: release_group
+- name: Kitsune
+  negate: false
+  pattern: Kitsune
   required: false
   type: release_group
 - name: NCmt
@@ -35,6 +60,11 @@ conditions:
   pattern: NCmt
   required: false
   type: release_group
+- name: NTb
+  type: release_group
+  required: false
+  negate: false
+  pattern: NTb
 - name: SPHD
   negate: false
   pattern: SPHD

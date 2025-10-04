@@ -15,6 +15,11 @@ conditions:
   required: true
   source: bluray
   type: source
+- name: Not Remux
+  type: release_title
+  required: true
+  negate: true
+  pattern: Remux
 - name: c0kE
   negate: false
   pattern: c0kE
@@ -31,8 +36,8 @@ conditions:
   required: false
   type: release_group
 - name: PTer
-  type: release_group
-  required: false
   negate: false
   pattern: PTer
+  required: false
+  type: release_group
 tests: []

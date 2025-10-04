@@ -70,10 +70,10 @@ conditions:
   required: false
   type: release_group
 - name: DeViSiVE
-  type: release_group
-  required: false
   negate: false
   pattern: DeViSiVE
+  required: false
+  type: release_group
 - name: DRX
   negate: false
   pattern: DRX
@@ -199,6 +199,11 @@ conditions:
   pattern: TvR
   required: false
   type: release_group
+- name: VD0N
+  type: release_group
+  required: false
+  negate: false
+  pattern: VD0N
 - name: VECTOR
   negate: false
   pattern: VECTOR
@@ -207,11 +212,6 @@ conditions:
 - name: VisionXpert
   negate: false
   pattern: VisionXpert
-  required: false
-  type: release_group
-- name: WiKi
-  negate: false
-  pattern: WiKi
   required: false
   type: release_group
 - name: x0r

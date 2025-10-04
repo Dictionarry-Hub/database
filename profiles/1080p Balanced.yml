@@ -127,8 +127,6 @@ custom_formats:
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
-- name: Banned Scene
-  score: -999999
 - name: Banned WEBRip
   score: -999999
 - name: Dolby Vision

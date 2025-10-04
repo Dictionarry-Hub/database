@@ -81,9 +81,9 @@ custom_formats:
   score: 1000
 - name: HDR
   score: 1000
-- name: HDR10
+- name: HDR (Missing)
   score: 1000
-- name: HDR10 (Missing)
+- name: HDR10
   score: 1000
 - name: HLG
   score: 1000
@@ -151,7 +151,7 @@ custom_formats:
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
-- name: Banned Scene
+- name: Banned UHD Bluray
   score: -999999
 - name: Banned WEBRip
   score: -999999

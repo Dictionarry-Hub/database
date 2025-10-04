@@ -22,25 +22,23 @@ upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Quality Tier 1
-  score: 304000
-- name: 2160p Quality Tier 2
-  score: 303000
-- name: 2160p Quality Tier 3
-  score: 302000
-- name: 2160p Quality Tier 4
-  score: 301000
-- name: 2160p Quality Tier 5
-  score: 300000
-- name: 2160p Balanced Tier 1
   score: 284000
+- name: 2160p Quality Tier 2
+  score: 283000
+- name: 2160p Quality Tier 3
+  score: 282000
+- name: 2160p Quality Tier 4
+  score: 281000
+- name: 2160p Quality Tier 5
+  score: 280000
+- name: 2160p Balanced Tier 1
+  score: 264000
 - name: 2160p Balanced Tier 2
-  score: 280000
-- name: 2160p WEB-DL
-  score: 280000
-- name: 2160p Quality Tier 6
-  score: 261000
-- name: 2160p Quality Tier 7
   score: 260000
+- name: 2160p WEB-DL
+  score: 260000
+- name: 2160p Quality Tier 6
+  score: 259000
 - name: UHD Bluray
   score: 240000
 - name: UHD Bluray (Missing)
@@ -102,6 +100,8 @@ custom_formats:
 - name: DTS-X
   score: 1000
 - name: HDR
+  score: 1000
+- name: HDR (Missing)
   score: 1000
 - name: HDR10
   score: 1000
@@ -183,7 +183,7 @@ custom_formats:
   score: -999999
 - name: Banned Groups (Title)
   score: -999999
-- name: Banned Scene
+- name: Banned UHD Bluray
   score: -999999
 - name: Banned WEBRip
   score: -999999

@@ -1,6 +1,7 @@
-description: ''
 name: ATELiER
-pattern: ^(ATELiER)$
+pattern: (?<=^|[\s.-])ATELiER\b
+description: Matches "ATELiER" when preceded by whitespace, a hyphen or dot
 tags:
-- Radarr
+- Release Group
+- Bluray
 tests: []
