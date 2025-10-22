@@ -1,0 +1,7 @@
+name: Headpatter
+pattern: (?<=^|[\s.-])Headpatter\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

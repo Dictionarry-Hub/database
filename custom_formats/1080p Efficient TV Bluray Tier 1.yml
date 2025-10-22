@@ -26,11 +26,6 @@ conditions:
   pattern: QxR
   required: false
   type: release_group
-- name: TAoE
-  negate: false
-  pattern: TAoE
-  required: false
-  type: release_group
 tests:
 - conditionResults:
   - matches: true

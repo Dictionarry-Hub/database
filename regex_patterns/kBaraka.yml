@@ -1,0 +1,7 @@
+name: kBaraka
+pattern: (?<=^|[\s.-])kBaraka\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

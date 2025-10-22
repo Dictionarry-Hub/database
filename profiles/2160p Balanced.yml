@@ -13,6 +13,20 @@ custom_formats:
   score: 140000
 - name: 1080p WEBRip
   score: 140000
+- name: 720p WEB-DL
+  score: 100000
+- name: 1080p Quality Tier 1
+  score: 85000
+- name: 1080p Quality Tier 2
+  score: 84000
+- name: 1080p Quality Tier 3
+  score: 83000
+- name: 1080p Quality Tier 4
+  score: 82000
+- name: 1080p Quality Tier 5
+  score: 81000
+- name: 1080p Quality Tier 6
+  score: 80000
 - name: 720p Bluray
   score: 100000
 - name: 720p WEB-DL
@@ -23,6 +37,18 @@ custom_formats:
   score: 60000
 - name: 480p WEB-DL
   score: 60000
+- name: 720p Quality Tier 1
+  score: 45000
+- name: 720p Quality Tier 2
+  score: 44000
+- name: 720p Quality Tier 3
+  score: 43000
+- name: 720p Quality Tier 4
+  score: 42000
+- name: 720p Quality Tier 5
+  score: 41000
+- name: 720p Quality Tier 6
+  score: 40000
 - name: 2160p Balanced Tier 1
   score: 33000
 - name: 2160p Balanced Tier 2
@@ -133,6 +159,8 @@ custom_formats:
   score: 0
 - name: BCORE
   score: 0
+- name: CRAV
+  score: 0
 - name: HTSR
   score: 0
 - name: HULU
@@ -145,9 +173,11 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
+- name: Foreign Release Groups
+  score: -900
+- name: x265 (Bluray)
+  score: -220000
 - name: AV1
-  score: -999999
-- name: B&W
   score: -999999
 - name: Banned Groups
   score: -999999
@@ -172,16 +202,18 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
-- name: 1080p Golden Popcorn
-  score: 8000
-- name: 720p Golden Popcorn
-  score: 6000
 - name: MA
-  score: 5000
-- name: SD Golden Popcorn
+  score: 6000
+- name: ATVP
+  score: 4000
+- name: DSNP
   score: 4000
 - name: iT
-  score: 3000
+  score: 4000
+- name: Amazon Enhancement
+  score: 2000
+- name: HMAX
+  score: 2000
 - name: MAX
   score: 2000
 - name: CRIT
@@ -189,6 +221,8 @@ custom_formats_radarr:
 - name: Special Edition
   score: 1000
 - name: 3D
+  score: -999999
+- name: B&W
   score: -999999
 - name: Extras
   score: -999999

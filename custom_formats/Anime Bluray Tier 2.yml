@@ -1,0 +1,61 @@
+name: Anime Bluray Tier 2
+description: Do not use Testing Purposes Only
+tags:
+- Anime
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Arid
+  negate: false
+  pattern: Arid
+  required: false
+  type: release_group
+- name: Drag
+  negate: false
+  pattern: Drag
+  required: false
+  type: release_group
+- name: hydes
+  negate: false
+  pattern: hydes
+  required: false
+  type: release_group
+- name: Lulu
+  negate: false
+  pattern: Lulu
+  required: false
+  type: release_group
+- name: Okay-Subs
+  negate: false
+  pattern: Okay-Subs
+  required: false
+  type: release_group
+- name: pog42
+  negate: false
+  pattern: pog42
+  required: false
+  type: release_group
+- name: UDF
+  negate: false
+  pattern: UDF
+  required: false
+  type: release_group
+- name: YURI
+  negate: false
+  pattern: YURI
+  required: false
+  type: release_group
+- name: ZR
+  negate: false
+  pattern: ZR
+  required: false
+  type: release_group
+tests: []

@@ -14,6 +14,11 @@ conditions:
   required: true
   source: dvd
   type: source
+- name: ATELiER
+  negate: false
+  pattern: ATELiER
+  required: false
+  type: release_group
 - name: decibeL
   negate: false
   pattern: decibeL
@@ -44,4 +49,9 @@ conditions:
   pattern: TEPES
   required: false
   type: release_group
+- name: ZoroSenpai
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZoroSenpai
 tests: []

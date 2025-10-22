@@ -1,0 +1,51 @@
+name: Anime Bluray Tier 1
+description: Do not use Testing Purposes Only
+tags:
+- Anime
+conditions:
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: LYS1TH3A
+  negate: false
+  pattern: LYS1TH3A
+  required: false
+  type: release_group
+- name: MTBB
+  negate: false
+  pattern: MTBB
+  required: false
+  type: release_group
+- name: OZR
+  negate: false
+  pattern: OZR
+  required: false
+  type: release_group
+- name: sam
+  negate: false
+  pattern: sam
+  required: false
+  type: release_group
+- name: SCY
+  negate: false
+  pattern: SCY
+  required: false
+  type: release_group
+- name: smol
+  negate: false
+  pattern: smol
+  required: false
+  type: release_group
+- name: Vodes
+  negate: false
+  pattern: Vodes
+  required: false
+  type: release_group
+tests: []

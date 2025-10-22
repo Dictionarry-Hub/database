@@ -1,5 +1,5 @@
-name: FTW-HD
-pattern: (?<=^|[\s.-])FTW-HD\b
+name: EuReKA
+pattern: (?<=^|[\s.-])EuReKA\b
 description: ''
 tags:
 - Release Group

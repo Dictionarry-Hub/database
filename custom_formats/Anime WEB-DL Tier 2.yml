@@ -1,0 +1,36 @@
+name: Anime WEB-DL Tier 2
+description: Do not use Testing Purposes Only
+tags:
+- Anime
+conditions:
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEB
+  negate: false
+  required: false
+  source: television
+  type: source
+- name: Erai-Raws
+  negate: false
+  pattern: Erai-Raws
+  required: false
+  type: release_title
+- name: HorribleSubs
+  negate: false
+  pattern: HorribleSubs
+  required: false
+  type: release_title
+- name: Subsplus+
+  negate: false
+  pattern: SubsPlus+
+  required: false
+  type: release_title
+- name: VARYG
+  negate: false
+  pattern: VARYG
+  required: false
+  type: release_title
+tests: []

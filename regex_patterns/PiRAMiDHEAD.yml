@@ -1,0 +1,7 @@
+name: PiRAMiDHEAD
+pattern: (?<=^|[\s.-])PiRAMiDHEAD\b
+description: ''
+tags:
+- Release Group
+- Remux
+tests: []

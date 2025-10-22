@@ -1,0 +1,11 @@
+name: Foreign Release Groups
+description: Matches releases labeled Nordic for now
+tags:
+- Enhancement
+conditions:
+- name: Nordic
+  negate: false
+  pattern: Nordic
+  required: true
+  type: release_title
+tests: []

@@ -14,4 +14,9 @@ conditions:
   negate: false
   required: true
   type: indexer_flag
+- name: Release Groups
+  type: release_group
+  required: true
+  negate: true
+  pattern: Golden Popcorn Negation
 tests: []

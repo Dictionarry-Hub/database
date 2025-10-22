@@ -1,83 +1,89 @@
-name: 2160p Quality Tier 7
-description: Matches release groups who fall under 2160p Quality Tier 6
+name: 720p Quality Tier 6
+description: Matches release groups who fall under 720p Quality Tier 6
 tags:
+- GPPi
 - Release Group Tier
-- 2160p
+- 720p
 - Quality
 conditions:
-- name: 2160p
+- name: 720p
   negate: false
   required: true
-  resolution: 2160p
+  resolution: 720p
   type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
 - name: Bluray
   negate: false
-  required: true
+  required: false
   source: bluray
   type: source
-- name: BeiTai
+- name: WEBRip
   negate: false
-  pattern: BeiTai
+  required: false
+  source: webrip
+  type: source
+- name: EuReKA
+  negate: false
+  pattern: EuReKA
   required: false
   type: release_group
-- name: BLUEBIRD
+- name: HANDJOB
   negate: false
-  pattern: BLUEBIRD
+  pattern: HANDJOB
   required: false
   type: release_group
-- name: BOREDOR
+- name: Ivandro
   negate: false
-  pattern: BOREDOR
+  pattern: Ivandro
   required: false
   type: release_group
-- name: CHAOS
+- name: KnG
   negate: false
-  pattern: CHAOS
+  pattern: KnG
   required: false
   type: release_group
-- name: dkore
+- name: LEGi0N
   negate: false
-  pattern: dkore
+  pattern: LEGi0N
   required: false
   type: release_group
-- name: FLAME
+- name: Lulz
   negate: false
-  pattern: FLAME
+  pattern: Lulz
   required: false
   type: release_group
-- name: Hares
+- name: MaG
   negate: false
-  pattern: Hares
+  pattern: MaG
   required: false
   type: release_group
-- name: LittleBakas
+- name: MTeam
   negate: false
-  pattern: LittleBakas
+  pattern: MTeam
   required: false
   type: release_group
-- name: Lucifer
+- name: NiP
   negate: false
-  pattern: Lucifer
+  pattern: NiP
   required: false
   type: release_group
-- name: micius
+- name: PTP
   negate: false
-  pattern: micius
+  pattern: PTP
   required: false
   type: release_group
-- name: PTH
+- name: Slappy
   negate: false
-  pattern: PTH
+  pattern: Slappy
   required: false
   type: release_group
-- name: THREESOME
+- name: WiKi
   negate: false
-  pattern: THREESOME
-  required: false
-  type: release_group
-- name: UHDCLUBREMUX
-  negate: false
-  pattern: UHDCLUBREMUX
+  pattern: WiKi
   required: false
   type: release_group
 tests: []

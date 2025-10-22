@@ -1,0 +1,7 @@
+name: Orphan
+pattern: (?<=^|[\s.-])Orphan\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

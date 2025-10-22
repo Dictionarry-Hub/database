@@ -1,0 +1,30 @@
+name: Vialle WEB
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Vialle
+  negate: false
+  pattern: Vialle
+  required: true
+  type: release_title
+- name: Release Group
+  negate: true
+  pattern: Vialle
+  required: true
+  type: release_group
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+tests: []

@@ -11,19 +11,29 @@ conditions:
   required: true
   resolution: 720p
   type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
 - name: Bluray
   negate: false
   required: false
   source: bluray
   type: source
 - name: WEBRip
-  type: source
-  required: false
   negate: false
+  required: false
   source: webrip
+  type: source
 - name: Dariush
   negate: false
   pattern: Dariush
+  required: false
+  type: release_group
+- name: decibeL
+  negate: false
+  pattern: decibeL
   required: false
   type: release_group
 - name: D-ZON3
@@ -51,9 +61,19 @@ conditions:
   pattern: PTer
   required: false
   type: release_group
+- name: Skazhutin
+  negate: false
+  pattern: Skazhutin
+  required: false
+  type: release_group
 - name: TDD
   negate: false
   pattern: TDD
   required: false
   type: release_group
+- name: ThD
+  type: release_group
+  required: false
+  negate: false
+  pattern: ThD
 tests: []

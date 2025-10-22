@@ -1,52 +1,21 @@
 name: BTN Atmos
-pattern: \bTrue[ .-]?HDA[ .-]?[57]\.1|DDPA[57]\.1\b
+pattern: \bTrue[ .-]?HDA[ .-]?[57]\.1
 description: Matches BroadcastTheNet Atmos naming convention
 tags:
 - Audio
 tests:
-- expected: true
-  id: 1
+- id: 1
   input: The.Last.of.Us.S01.2160p.UHD.BluRay.Remux.TrueHDA7.1.H.265-PmP
-  lastRun: '2025-01-11T23:15:36.540509'
-  matchSpan:
-    end: 52
-    start: 42
-  matchedContent: TrueHDA7.1
-  matchedGroups: []
-  passes: true
-- expected: false
-  id: 2
+  expected: true
+- id: 2
   input: The.Last.of.Us.S01.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR
-  lastRun: '2025-01-11T23:15:36.540509'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: false
-  id: 3
+  expected: false
+- id: 3
   input: The Last of Us S01 2160p MAX WEB-DL DDP 5.1 Atmos DV HDR H.265-FLUX
-  lastRun: '2025-01-11T23:15:36.540509'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 4
+  expected: false
+- id: 4
   input: The.Last.of.Us.S01.DV.HDR.2160p.MAX.WEB-DL.DDPA5.1.H.265-FLUX
-  lastRun: '2025-01-11T23:15:36.540509'
-  matchSpan:
-    end: 50
-    start: 43
-  matchedContent: DDPA5.1
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 5
+  expected: false
+- id: 5
   input: Loki.S01.2160p.UHD.BluRay.Remux.TrueHDA.7.1.H.265-SiCFoI
-  lastRun: '2025-01-11T23:15:36.540509'
-  matchSpan:
-    end: 43
-    start: 32
-  matchedContent: TrueHDA.7.1
-  matchedGroups: []
-  passes: true
+  expected: true
