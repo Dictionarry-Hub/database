@@ -29,10 +29,6 @@ custom_formats:
   score: 82000
 - name: 1080p Quality Tier 5
   score: 81000
-- name: 1080p WEBRip
-  score: 85000
-- name: 720p WEB-DL
-  score: 81000
 - name: 1080p Quality Tier 6
   score: 80000
 - name: 480p WEB-DL
@@ -201,6 +197,8 @@ custom_formats_radarr:
 - name: Special Edition
   score: -40000
 - name: 3D
+  score: -999999
+- name: B&W
   score: -999999
 - name: Extras
   score: -999999

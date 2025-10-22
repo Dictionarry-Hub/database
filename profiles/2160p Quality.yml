@@ -3,10 +3,6 @@ custom_formats:
   score: 280000
 - name: UHD Bluray (Missing)
   score: 280000
-- name: 2160p Bluray
-  score: 250000
-- name: 2160p WEB-DL
-  score: 240000
 - name: 2160p Quality Tier 1
   score: 284000
 - name: 2160p Quality Tier 2
@@ -21,8 +17,12 @@ custom_formats:
   score: 264000
 - name: 2160p Balanced Tier 2
   score: 260000
+- name: 2160p WEB-DL
+  score: 260000
 - name: 2160p Quality Tier 6
   score: 259000
+- name: 2160p Bluray
+  score: 250000
 - name: 1080p Bluray
   score: 200000
 - name: 1080p WEB-DL
@@ -49,16 +49,6 @@ custom_formats:
   score: 80000
 - name: 480p WEB-DL
   score: 60000
-- name: 2160p Quality Tier 1
-  score: 54000
-- name: 2160p Quality Tier 2
-  score: 53000
-- name: 2160p Quality Tier 3
-  score: 52000
-- name: 2160p Quality Tier 4
-  score: 51000
-- name: 2160p Quality Tier 5
-  score: 50000
 - name: 720p Quality Tier 1
   score: 45000
 - name: 720p Quality Tier 2
@@ -75,12 +65,8 @@ custom_formats:
   score: 20000
 - name: DVD
   score: 20000
-- name: 2160p Quality Tier 6
-  score: 11000
 - name: SD Quality Tier 1
   score: 11000
-- name: 2160p Quality Tier 7
-  score: 10000
 - name: SD Quality Tier 2
   score: 10000
 - name: ATVP

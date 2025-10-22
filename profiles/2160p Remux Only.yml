@@ -178,8 +178,6 @@ custom_formats:
   score: -220000
 - name: AV1
   score: -999999
-- name: B&W
-  score: -999999
 - name: Banned Groups
   score: -999999
 - name: Banned Groups (Title)
@@ -212,6 +210,8 @@ custom_formats_radarr:
 - name: CRIT
   score: 1000
 - name: 3D
+  score: -999999
+- name: B&W
   score: -999999
 - name: Extras
   score: -999999
