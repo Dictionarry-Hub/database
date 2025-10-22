@@ -10,7 +10,7 @@ description: '2160p Remux utilizes **Audio / Video Formats** to prioritise high 
   - 2160p Remux > 2160p Bluray > 2160p WEB-DL > 1080p Remux > 1080p HDR Bluray > 1080p
   Bluray > 1080p WEB-DL > 720p Bluray > 720p WEB-DL > 480p WEB-DL > DVD
   
-  CUSTOM: Base remux profile with balanced Special Edition handling - neutral approach'
+  CUSTOM - Base remux profile with balanced Special Edition handling - neutral approach'
 tags:
 - 1080p
 - Remux
@@ -43,10 +43,10 @@ custom_formats:
   score: 279000
 - name: 1080p Remux
   score: 260000
-- name: UHD Bluray  # Set to 0, use 2160p Remux / Bluray instead
-  score: 0
-- name: UHD Bluray (Missing)  # Set to 0, use 2160p Remux / Bluray instead
-  score: 0
+- name: UHD Bluray
+  score: 240000
+- name: UHD Bluray (Missing)
+  score: 240000
 - name: 1080p WEB-DL
   score: 200000
 - name: 2160p Remux

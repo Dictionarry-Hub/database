@@ -1,5 +1,5 @@
 name: 2160p Remux (Prefer Theatrical)
-description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000\n- IMAX Enhanced set to +40000\n\nCUSTOM: This profile actively penalizes Special Editions to prefer theatrical releases"
+description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000\n- IMAX Enhanced set to +40000\n\nCUSTOM - This profile actively penalizes Special Editions to prefer theatrical releases"
 tags:
 - 2160p
 - Remux
@@ -31,10 +31,10 @@ custom_formats:
   score: 279000
 - name: 1080p Remux
   score: 260000
-- name: UHD Bluray  # Set to 0, use 2160p Remux / Bluray instead
-  score: 0
-- name: UHD Bluray (Missing)  # Set to 0, use 2160p Remux / Bluray instead
-  score: 0
+- name: UHD Bluray
+  score: 240000
+- name: UHD Bluray (Missing)
+  score: 240000
 - name: 1080p WEB-DL
   score: 200000
 - name: 2160p Remux

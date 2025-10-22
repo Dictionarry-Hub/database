@@ -1,5 +1,7 @@
 name: Banned Groups
-description: Matches Release Groups that are Banned
+description: 'Matches Release Groups that are Banned
+
+CUSTOM - NoGroup removed from banned list - acceptable as fallback when nothing else is available.'
 tags:
 - Banned
 - Release Group

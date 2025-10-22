@@ -1,23 +1,21 @@
-# Dictionarry Database
+# Dictionarry Database for The HTB
 
-[![Website](https://img.shields.io/badge/Website-dictionarry.dev-blue)](https://dictionarry.dev)
-[![Discord](https://img.shields.io/discord/1202375791556431892?color=blue&logo=discord&logoColor=white)](https://discord.com/invite/Y9TYP6jeYZ)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-Support-blue?logo=buy-me-a-coffee)](https://www.buymeacoffee.com/santiagosayshey)
-[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Support-blue?logo=github-sponsors)](https://github.com/sponsors/Dictionarry-Hub)
+## Key Changes from Upstream
 
-The database serves two main purposes:
+### Quality & Source Preferences
+- **Physical Media Prioritized**: Favor UHD Bluray sources over WEB in all cases
+- **IMAX Prioritized**: Prioritize full-screen IMAX releases over letterboxed theatrical versions, even if it means grabbing WEB instead of REMUX
+- **MA Prioritized**: Prefer Movies Anywhere releases more highly compared to other WEB sources
 
-1. Powers our [Documentation](https://dictionarry.dev/)
-2. Acts as a
-   [Profilarr Compliant Database](https://dictionarry.dev/profilarr-setup/linking?section=database-spotlight)
+### New Profiles
+- **ADDED: 2160p Remux (Prefer Theatrical)**: Avoids special editions
+- **ADDED: 2160p Remux Only**: Allows only REMUX with no fallback to encodes, WEB, etc. Allows for 1080p if 2160p is not available.
+- **REMOVED: Most lower-quality granular profiles**: When quality is the goal, there is no need to have over a dozen granular profiles
 
-## Branches
+### Technical Improvements
+- **Custom Format Improvements**: Enhanced format detection and conflict prevention between overlapping formats
+- **Documentation**: Clear CUSTOM comments marking all modifications from upstream for transparency
 
-### stable
+## 🔄 Sync Status
 
-Contains tested database entries ready for production use.
-
-### dev
-
-Contains the latest updates and additions that are pending formal verification.
-May include experimental patterns and profiles that require further testing.
+This fork stays synchronized with upstream while maintaining HTB-specific customizations marked with `CUSTOM:` comments. Currently this is done manually with AI assistance.

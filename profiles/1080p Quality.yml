@@ -2,7 +2,7 @@ name: 1080p Quality
 description: "1080p Quality utilizes the [**Golden Popcorn Performance Index**](https://dictionarry.dev/wiki/gppi)\
   \ to target **transparent** x264 1080p encodes. \n\n- 1080p Blurays\n- Fallbacks\
   \ in Place for Proper Quality Progression\n- 1080p Bluray > 1080p WEB-DL > 720p\
-  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD\n\nCUSTOM: Physical media priority maintained with quality tier integration"
+  \ Bluray > 720p WEB-DL > 480p WEB-DL > DVD\n\nCUSTOM - Physical media priority maintained with quality tier integration"
 tags:
 - 1080p
 - Quality Focused

@@ -1,5 +1,7 @@
 name: Remux Tier 0
-description: WiLDCAT
+description: 'WiLDCAT
+
+CUSTOM - Added to ensure WiLDCAT releases are always chosen above other remux sources (unless an upscale).'
 tags:
 - Release Group Tier
 - Remux

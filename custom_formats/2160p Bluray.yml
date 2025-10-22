@@ -1,5 +1,7 @@
 name: 2160p Bluray
-description: Matches 2160p Blurays that are NOT remuxes
+description: 'Matches 2160p Blurays that are NOT remuxes
+
+CUSTOM - Added "Not Remux" condition to prevent format conflicts between remux and non-remux bluray releases.'
 tags:
 - Source
 conditions:
