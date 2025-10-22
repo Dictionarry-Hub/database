@@ -1,5 +1,5 @@
 name: 2160p Remux (Prefer Theatrical)
-description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000"
+description: "Copied from 2160p Remux\n\nChanges: \n- Special Edition set to -40000\n- IMAX Enhanced set to +40000\n\nCUSTOM: This profile actively penalizes Special Editions to prefer theatrical releases"
 tags:
 - 2160p
 - Remux
@@ -184,8 +184,9 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
+# CUSTOM: Theatrical preference scoring - heavily favor IMAX, penalize Special Editions
 - name: IMAX Enhanced
-  score: 40000
+  score: 40000  # CUSTOM: Strong preference for IMAX Enhanced releases
 - name: MA
   score: 5000
 - name: iT
@@ -195,7 +196,7 @@ custom_formats_radarr:
 - name: CRIT
   score: 1000
 - name: Special Edition
-  score: -40000
+  score: -40000  # CUSTOM: Heavy penalty to prefer theatrical releases
 - name: 3D
   score: -999999
 - name: B&W

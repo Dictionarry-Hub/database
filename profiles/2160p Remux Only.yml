@@ -1,6 +1,5 @@
 name: 2160p Remux Only
-description: "Copied from 2160p Remux\n\nChanges: \n- Only allow 2160p and 1080p Remux\
-  \ qualities"
+description: "Copied from 2160p Remux\n\nChanges: \n- Only allow 2160p and 1080p Remux qualities\n\nCUSTOM: This profile restricts downloads to lossless remux formats only"
 tags:
 - 2160p
 - Remux
@@ -199,8 +198,9 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
+# CUSTOM: IMAX Enhanced preference maintained in remux-only profile
 - name: IMAX Enhanced
-  score: 40000
+  score: 40000  # CUSTOM: Preserve IMAX preference even in remux-only mode
 - name: MA
   score: 5000
 - name: iT
@@ -229,10 +229,11 @@ custom_formats_sonarr:
 - name: TV Extras
   score: -999999
 qualities:
+# CUSTOM: Restricted quality list - only remux formats allowed
 - id: 3
-  name: Remux-2160p
+  name: Remux-2160p  # CUSTOM: Primary target quality
 - id: 8
-  name: Remux-1080p
+  name: Remux-1080p  # CUSTOM: Fallback remux quality
 upgrade_until:
   id: 3
   name: Remux-2160p

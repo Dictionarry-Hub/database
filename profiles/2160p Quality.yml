@@ -1,8 +1,9 @@
 custom_formats:
+# CUSTOM: UHD Bluray prioritized at front of list to ensure physical media preference
 - name: UHD Bluray
-  score: 280000
+  score: 280000  # CUSTOM: Matches Quality Tier 5 score but positioned first for priority
 - name: UHD Bluray (Missing)
-  score: 280000
+  score: 280000  # CUSTOM: Companion to UHD Bluray for missing metadata cases
 - name: 2160p Quality Tier 1
   score: 284000
 - name: 2160p Quality Tier 2
@@ -188,12 +189,13 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
+# CUSTOM: Enhanced streaming service scoring for premium providers
 - name: MA
-  score: 6000
+  score: 6000  # CUSTOM: Movies Anywhere premium scoring
 - name: ATVP
-  score: 4000
+  score: 4000  # CUSTOM: Apple TV+ high priority
 - name: DSNP
-  score: 4000
+  score: 4000  # CUSTOM: Disney+ high priority
 - name: iT
   score: 4000
 - name: Amazon Enhancement
