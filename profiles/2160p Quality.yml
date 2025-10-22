@@ -1,9 +1,9 @@
 custom_formats:
-# CUSTOM: UHD Bluray prioritized at front of list to ensure physical media preference
+# CUSTOM: UHD Bluray moved to front of list and boosted from 240000 to 280000 for physical media priority
 - name: UHD Bluray
-  score: 280000  # CUSTOM: Matches Quality Tier 5 score but positioned first for priority
+  score: 280000  # CUSTOM: Boosted from upstream 240000 to match Quality Tier 5
 - name: UHD Bluray (Missing)
-  score: 280000  # CUSTOM: Companion to UHD Bluray for missing metadata cases
+  score: 280000  # CUSTOM: Boosted from upstream 240000 to match UHD Bluray
 - name: 2160p Quality Tier 1
   score: 284000
 - name: 2160p Quality Tier 2
@@ -23,7 +23,7 @@ custom_formats:
 - name: 2160p Quality Tier 6
   score: 259000
 - name: 2160p Bluray
-  score: 250000
+  score: 250000  # CUSTOM: Added (not present in upstream)
 - name: 1080p Bluray
   score: 200000
 - name: 1080p WEB-DL
@@ -189,13 +189,15 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 custom_formats_radarr:
-# CUSTOM: Enhanced streaming service scoring for premium providers
+# CUSTOM: Enhanced streaming service scoring - MA boosted from 4000 to 6000
+- name: IMAX Enhanced
+  score: 40000  # CUSTOM: Added IMAX Enhanced boost (not in upstream)
 - name: MA
-  score: 6000  # CUSTOM: Movies Anywhere premium scoring
+  score: 6000  # CUSTOM: Boosted from upstream 4000 for Movies Anywhere premium
 - name: ATVP
-  score: 4000  # CUSTOM: Apple TV+ high priority
+  score: 4000
 - name: DSNP
-  score: 4000  # CUSTOM: Disney+ high priority
+  score: 4000
 - name: iT
   score: 4000
 - name: Amazon Enhancement
@@ -242,7 +244,7 @@ description: '2160p Quality utilizes the [**Encode Efficiency Index**](https://d
   - 2160p Bluray > 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p
   WEB-DL > 480p WEB-DL > DVD'
 language: must_original
-minCustomFormatScore: 0
+minCustomFormatScore: 0  # CUSTOM: Removed upstream minimum of 20000
 minScoreIncrement: 1
 name: 2160p Quality
 qualities:

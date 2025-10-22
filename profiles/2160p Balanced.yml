@@ -246,7 +246,7 @@ custom_formats_sonarr:
 description: "2160p Balanced targets consistent & immutable 2160p **WEB-DLs w/ Lossy\
   \ Audio**. \n\n- 2160p WEB-DL\n- Fallbacks in Place for Proper Quality Progression\n\
   - 2160p WEB-DL > 1080p Bluray > 1080p WEB-DL > 720p Bluray > 720p WEB-DL > 480p\
-  \ WEB-DL > DVD"
+  \ WEB-DL > DVD\n\nCUSTOM: Balanced profile with maintained UHD Bluray priority"
 language: must_original
 minCustomFormatScore: 0
 minScoreIncrement: 1
