@@ -163,7 +163,7 @@ custom_formats:
 - name: Foreign Release Groups
   score: -900
 - name: x265 (Bluray)
-  score: -220000
+  score: 0
 - name: AV1
   score: -999999
 - name: Banned Groups

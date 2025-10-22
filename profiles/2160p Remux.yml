@@ -44,9 +44,9 @@ custom_formats:
 - name: 1080p Remux
   score: 260000
 - name: UHD Bluray
-  score: 240000
+  score: 0
 - name: UHD Bluray (Missing)
-  score: 240000
+  score: 0
 - name: 1080p WEB-DL
   score: 200000
 - name: 2160p Remux
@@ -202,7 +202,7 @@ custom_formats:
 - name: Foreign Release Groups
   score: -900
 - name: x265 (Bluray)
-  score: -220000
+  score: 0
 - name: AV1
   score: -999999
 - name: Banned Groups
@@ -230,11 +230,11 @@ custom_formats:
 - name: x264 (2160p)
   score: -999999
 - name: x265 (Missing)
-  score: -999999
+  score: 0
 - name: x265 (Remux)
-  score: -999999
+  score: 0
 - name: x265 (WEB)
-  score: -999999
+  score: 0
 - name: Xvid
   score: -999999
 custom_formats_radarr:
