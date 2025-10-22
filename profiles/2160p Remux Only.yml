@@ -11,14 +11,6 @@ minCustomFormatScore: 0
 upgradeUntilScore: 400000
 minScoreIncrement: 1
 custom_formats:
-- name: 2160p Remux
-  score: 160000
-- name: 2160p WEB-DL
-  score: 140000
-- name: 1080p Remux
-  score: 120000
-- name: 1080p WEB-DL
-  score: 100000
 - name: 2160p Quality Tier 1
   score: 304000
 - name: 2160p Quality Tier 2
@@ -29,8 +21,30 @@ custom_formats:
   score: 301000
 - name: 2160p Quality Tier 5
   score: 300000
+- name: 2160p Balanced Tier 1
+  score: 284000
+- name: 2160p Balanced Tier 2
+  score: 280000
+- name: 2160p WEB-DL
+  score: 280000
 - name: 2160p Quality Tier 6
   score: 279000
+- name: 1080p Remux
+  score: 260000
+- name: UHD Bluray
+  score: 240000
+- name: UHD Bluray (Missing)
+  score: 240000
+- name: 1080p WEB-DL
+  score: 200000
+- name: 2160p Remux
+  score: 160000
+- name: 1080p Bluray
+  score: 140000
+- name: 1080p WEBRip
+  score: 140000
+- name: 720p WEB-DL
+  score: 100000
 - name: 1080p Quality Tier 1
   score: 85000
 - name: 1080p Quality Tier 2
@@ -43,10 +57,12 @@ custom_formats:
   score: 81000
 - name: 1080p Quality Tier 6
   score: 80000
-- name: 1080p WEBRip
-  score: 85000
-- name: 720p WEB-DL
+- name: 720p Bluray
   score: 80000
+- name: 720p WEBRip
+  score: 80000
+- name: 1080p Balanced Tier 1
+  score: 60000
 - name: 480p WEB-DL
   score: 60000
 - name: 720p Quality Tier 1
@@ -61,8 +77,8 @@ custom_formats:
   score: 41000
 - name: 720p Quality Tier 6
   score: 40000
-- name: 720p WEBRip
-  score: 50000
+- name: 720p Balanced Tier 1
+  score: 20000
 - name: DVD
   score: 20000
 - name: SD Quality Tier 1
@@ -107,6 +123,8 @@ custom_formats:
   score: 2000
 - name: HMAX
   score: 2000
+- name: HDR10+
+  score: 2000
 - name: ATV
   score: 1000
 - name: Dolby Digital
@@ -116,8 +134,6 @@ custom_formats:
 - name: HDR10
   score: 1000
 - name: HDR10 (Missing)
-  score: 1000
-- name: HDR10+
   score: 1000
 - name: HLG
   score: 1000
