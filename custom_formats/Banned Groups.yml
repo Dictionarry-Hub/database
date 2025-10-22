@@ -134,11 +134,6 @@ conditions:
   pattern: NhaNc3
   required: false
   type: release_group
-- name: NoGroup
-  negate: false
-  pattern: NoGroup
-  required: false
-  type: release_group
 - name: OEPlus
   negate: false
   pattern: OEPlus
