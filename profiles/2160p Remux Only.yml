@@ -124,7 +124,7 @@ custom_formats:
 - name: HMAX
   score: 2000
 - name: HDR10+
-  score: 2000
+  score: 1000
 - name: ATV
   score: 1000
 - name: Dolby Digital
