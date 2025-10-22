@@ -31,9 +31,9 @@ custom_formats:
   score: 279000
 - name: 1080p Remux
   score: 260000
-- name: UHD Bluray
+- name: UHD Bluray  # Set to 0, use 2160p Remux / Bluray instead
   score: 0
-- name: UHD Bluray (Missing)
+- name: UHD Bluray (Missing)  # Set to 0, use 2160p Remux / Bluray instead
   score: 0
 - name: 1080p WEB-DL
   score: 200000

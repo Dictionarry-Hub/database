@@ -1,7 +1,7 @@
 custom_formats:
-- name: UHD Bluray
+- name: UHD Bluray  # Set to 0, use 2160p Remux / Bluray instead
   score: 0
-- name: UHD Bluray (Missing)
+- name: UHD Bluray (Missing)  # Set to 0, use 2160p Remux / Bluray instead
   score: 0
 - name: 2160p Bluray
   score: 250000
