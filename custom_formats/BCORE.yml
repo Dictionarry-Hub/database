@@ -1,13 +1,13 @@
+name: BCORE
+description: Matches 'Bravia Core' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
 conditions:
 - name: BCORE Regex
   negate: false
   pattern: Bravia Core
-  required: false
-  type: release_title
-- name: BCORE Rename Regex
-  negate: false
-  pattern: Bravia Core Rename
-  required: false
+  required: true
   type: release_title
 - name: WEB-DL
   negate: false
@@ -19,9 +19,4 @@ conditions:
   required: false
   source: webrip
   type: source
-description: Matches 'Bravia Core' WEB-DLs. Negates any encodes.
-name: BCORE
-tags:
-- Streaming Service
-- WEB-DL
 tests: []

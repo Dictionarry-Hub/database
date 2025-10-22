@@ -15,10 +15,10 @@ conditions:
   source: web_dl
   type: source
 - name: WEBRip
-  negate: false
-  required: false
-  source: webrip
   type: source
+  required: false
+  negate: false
+  source: webrip
 tests:
 - conditionResults:
   - matches: true
