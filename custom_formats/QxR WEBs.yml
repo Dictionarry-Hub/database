@@ -1,0 +1,30 @@
+name: QxR WEBs
+description: ''
+tags: []
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: QxR
+  negate: false
+  pattern: QxR (Title)
+  required: true
+  type: release_title
+- name: Release Group
+  negate: true
+  pattern: QxR
+  required: true
+  type: release_group
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+tests: []

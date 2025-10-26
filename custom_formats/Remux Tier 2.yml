@@ -29,6 +29,11 @@ conditions:
   pattern: LM
   required: false
   type: release_group
+- name: PiRAMiDHEAD
+  type: release_group
+  required: false
+  negate: false
+  pattern: PiRAMiDHEAD
 - name: PmP
   negate: false
   pattern: PmP

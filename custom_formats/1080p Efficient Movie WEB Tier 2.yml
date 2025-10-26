@@ -36,6 +36,16 @@ conditions:
   pattern: dkore
   required: false
   type: release_group
+- name: LSt
+  negate: false
+  pattern: LSt
+  required: false
+  type: release_group
+- name: TimeDistortion
+  negate: false
+  pattern: TimeDistortion
+  required: false
+  type: release_group
 tests:
 - conditionResults:
   - matches: true

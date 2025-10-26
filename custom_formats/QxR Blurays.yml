@@ -1,0 +1,25 @@
+name: QxR Blurays
+description: ''
+tags: []
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: QxR
+  negate: false
+  pattern: QxR (Title)
+  required: true
+  type: release_title
+- name: Release Group
+  negate: true
+  pattern: QxR
+  required: true
+  type: release_group
+tests: []

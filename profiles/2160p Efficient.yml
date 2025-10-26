@@ -24,7 +24,7 @@ custom_formats:
   score: 244000
 - name: 2160p Balanced Tier 2
   score: 240000
-- name: 2160p WEB-DL
+- name: 2160p WEB-DL (Efficient)
   score: 240000
 - name: 1080p Bluray HEVC Tier 1
   score: 220000
@@ -47,14 +47,16 @@ custom_formats:
 - name: 480p WEB-DL
   score: 60000
 - name: 720p Quality Tier 1
-  score: 44000
+  score: 45000
 - name: 720p Quality Tier 2
-  score: 43000
+  score: 44000
 - name: 720p Quality Tier 3
-  score: 42000
+  score: 43000
 - name: 720p Quality Tier 4
-  score: 41000
+  score: 42000
 - name: 720p Quality Tier 5
+  score: 41000
+- name: 720p Quality Tier 6
   score: 40000
 - name: 720p Balanced Tier 1
   score: 20000
@@ -120,6 +122,8 @@ custom_formats:
   score: 0
 - name: BCORE
   score: 0
+- name: CRAV
+  score: 0
 - name: HTSR
   score: 0
 - name: HULU
@@ -136,9 +140,9 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
+- name: Foreign Release Groups
+  score: -900
 - name: AV1
-  score: -999999
-- name: B&W
   score: -999999
 - name: Banned Groups (Efficient)
   score: -999999
@@ -169,30 +173,30 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
-- name: 1080p Efficient+ Movie Bluray Tier 1
+- name: 1080p Efficient Movie Bluray Tier 1
   score: 184000
-- name: 1080p Efficient+ Movie Bluray Tier 2
+- name: 1080p Efficient Movie Bluray Tier 2
   score: 183000
-- name: 1080p Efficient+ Movie Bluray Tier 3
+- name: 1080p Efficient Movie Bluray Tier 3
   score: 182000
-- name: 1080p Efficient+ Movie Bluray Tier 4
+- name: Vialle Bluray
+  score: 182000
+- name: 1080p Efficient Movie Bluray Tier 4
   score: 181000
-- name: 1080p Efficient+ Movie Bluray Tier 5
+- name: 1080p Efficient Movie Bluray Tier 5
   score: 180000
-- name: 1080p Efficient+ Movie WEB Tier 1
+- name: 1080p Efficient Movie WEB Tier 1
   score: 163000
 - name: QxR WEB
   score: 163000
 - name: TAoE WEB
   score: 163000
-- name: 1080p Efficient+ Movie WEB Tier 2
+- name: 1080p Efficient Movie WEB Tier 2
   score: 162000
-- name: 1080p Efficient+ Movie WEB Tier 3
+- name: 1080p Efficient Movie WEB Tier 3
   score: 161000
-- name: 1080p Efficient+ Movie WEB Tier 4
+- name: 1080p Efficient Movie WEB Tier 4
   score: 160000
-- name: 720p Golden Popcorn
-  score: 6000
 - name: MA
   score: 6000
 - name: ATVP
@@ -200,8 +204,6 @@ custom_formats_radarr:
 - name: DSNP
   score: 4000
 - name: iT
-  score: 4000
-- name: SD Golden Popcorn
   score: 4000
 - name: Amazon Enhancement
   score: 2000
@@ -219,6 +221,8 @@ custom_formats_radarr:
   score: -3000
 - name: 3D
   score: -999999
+- name: B&W
+  score: -999999
 - name: Extras
   score: -999999
 - name: Full Disc (Quality Match)
@@ -230,35 +234,51 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-- name: 1080p Efficient+ TV Bluray Tier 1
+- name: 2160p Efficient TV Bluray Tier 1
+  score: 281000
+- name: QxR Blurays
+  score: 281000
+- name: TAoE Blurays
+  score: 281000
+- name: 2160p Efficient TV WEB Tier 1
+  score: 261000
+- name: QxR WEBs
+  score: 261000
+- name: TAoE WEBs
+  score: 261000
+- name: 1080p Efficient TV Bluray Tier 1
   score: 184000
-- name: 1080p Efficient+ TV Bluray Tier 2
+- name: 1080p Efficient TV Bluray Tier 2
   score: 183000
-- name: 1080p Efficient+ TV Bluray Tier 3
+- name: Vialle Bluray
+  score: 183000
+- name: 1080p Efficient TV Bluray Tier 3
   score: 182000
-- name: 1080p Efficient+ TV Bluray Tier 4
+- name: 1080p Efficient TV Bluray Tier 4
   score: 181000
-- name: 1080p Efficient+ TV Bluray Tier 5
+- name: 1080p Efficient TV Bluray Tier 5
   score: 180000
-- name: 1080p Efficient+ TV WEB Tier 1
+- name: 1080p Efficient TV WEB Tier 1
   score: 167000
 - name: QxR WEB
   score: 167000
-- name: 1080p Efficient+ TV WEB Tier 2
+- name: 1080p Efficient TV WEB Tier 2
   score: 166000
-- name: 1080p Efficient+ TV WEB Tier 3
+- name: Vialle WEB
+  score: 166000
+- name: 1080p Efficient TV WEB Tier 3
   score: 165000
 - name: TAoE WEB
   score: 165000
-- name: 1080p Efficient+ TV WEB Tier 4
+- name: 1080p Efficient TV WEB Tier 4
   score: 164000
-- name: 1080p Efficient+ TV Bluray Tier 6
+- name: 1080p Efficient TV Bluray Tier 6
   score: 163000
-- name: 1080p Efficient+ TV Bluray Tier 7
+- name: 1080p Efficient TV Bluray Tier 7
   score: 162000
-- name: 1080p Efficient+ TV WEB Tier 5
+- name: 1080p Efficient TV WEB Tier 5
   score: 161000
-- name: 1080p Efficient+ TV WEB Tier 6
+- name: 1080p Efficient TV WEB Tier 6
   score: 160000
 - name: ATVP
   score: 3000
@@ -284,15 +304,17 @@ custom_formats_sonarr:
   score: -999999
 qualities:
 - id: -4
-  name: Balanced Capable
+  name: 2160p Efficient
   description: ''
   qualities:
   - id: 4
     name: Bluray-2160p
   - id: 5
     name: WEBDL-2160p
+  - id: 6
+    name: WEBRip-2160p
 - id: -1
-  name: Efficient Capable
+  name: 1080p Efficient
   description: Balanced Capable releases. Typically WEB-DL would be the overwhelming
     majority of releases, but there are occasional streaming optimised encodes that
     should be preferred.
@@ -304,7 +326,7 @@ qualities:
   - id: 11
     name: WEBRip-1080p
 - id: -2
-  name: 720p Fallback
+  name: 720p Quality
   description: Fallback to 720p when 1080p cannot be found.
   qualities:
   - id: 13
@@ -314,7 +336,7 @@ qualities:
   - id: 15
     name: WEBRip-720p
 - id: -3
-  name: SD Fallback
+  name: 480p Quality
   description: Standard Definition Fallbacks
   qualities:
   - id: 18
@@ -327,5 +349,5 @@ qualities:
     name: DVD
 upgrade_until:
   id: -4
-  name: Balanced Capable
+  name: 2160p Efficient
 language: must_original

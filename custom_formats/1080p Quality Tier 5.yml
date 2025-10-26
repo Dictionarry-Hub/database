@@ -36,6 +36,11 @@ conditions:
   pattern: ATELiER
   required: false
   type: release_group
+- name: BSTD
+  negate: false
+  pattern: BSTD
+  required: false
+  type: release_group
 - name: BV
   negate: false
   pattern: BV
@@ -51,6 +56,11 @@ conditions:
   pattern: CJ
   required: false
   type: release_group
+- name: coffee
+  negate: false
+  pattern: coffee
+  required: false
+  type: release_group
 - name: CRX
   negate: false
   pattern: CRX
@@ -61,14 +71,19 @@ conditions:
   pattern: Dariush
   required: false
   type: release_group
-- name: E.N.D
-  negate: false
-  pattern: E.N.D
-  required: false
-  type: release_group
 - name: E1
   negate: false
   pattern: E1
+  required: false
+  type: release_group
+- name: EA
+  type: release_group
+  required: false
+  negate: false
+  pattern: EA
+- name: E.N.D
+  negate: false
+  pattern: E.N.D
   required: false
   type: release_group
 - name: EDPH
@@ -86,19 +101,9 @@ conditions:
   pattern: EXCiSION
   required: false
   type: release_group
-- name: FilmHD
-  negate: false
-  pattern: FilmHD
-  required: false
-  type: release_group
 - name: FraMeSToR
   negate: false
   pattern: FraMeSToR
-  required: false
-  type: release_group
-- name: FTW-HD
-  negate: false
-  pattern: FTW-HD
   required: false
   type: release_group
 - name: GALAXY
@@ -111,24 +116,14 @@ conditions:
   pattern: GS88
   required: false
   type: release_group
-- name: HANDJOB
-  negate: false
-  pattern: HANDJOB
-  required: false
-  type: release_group
 - name: hdalx
   negate: false
   pattern: hdalx
   required: false
   type: release_group
-- name: HDC
+- name: HQMUX
   negate: false
-  pattern: HDC
-  required: false
-  type: release_group
-- name: iON
-  negate: false
-  pattern: iON
+  pattern: HQMUX
   required: false
   type: release_group
 - name: KASHMiR
@@ -139,11 +134,6 @@ conditions:
 - name: Kitsune
   negate: false
   pattern: Kitsune
-  required: false
-  type: release_group
-- name: LEGi0N
-  negate: false
-  pattern: LEGi0N
   required: false
   type: release_group
 - name: LiNG
@@ -161,9 +151,9 @@ conditions:
   pattern: luvBB
   required: false
   type: release_group
-- name: MTeam
+- name: NiBuRu
   negate: false
-  pattern: MTeam
+  pattern: NiBuRu
   required: false
   type: release_group
 - name: nmd
@@ -179,11 +169,6 @@ conditions:
 - name: ORiGEN
   negate: false
   pattern: ORiGEN
-  required: false
-  type: release_group
-- name: P0W4HD
-  negate: false
-  pattern: P0W4HD
   required: false
   type: release_group
 - name: Penumbra
@@ -206,14 +191,19 @@ conditions:
   pattern: PTer
   required: false
   type: release_group
-- name: REBORN
+- name: RiCO
   negate: false
-  pattern: REBORN
+  pattern: RiCO
   required: false
   type: release_group
 - name: rightSIZE
   negate: false
   pattern: rightSIZE
+  required: false
+  type: release_group
+- name: RO
+  negate: false
+  pattern: RO
   required: false
   type: release_group
 - name: rttr
@@ -236,11 +226,6 @@ conditions:
   pattern: SiMPLE
   required: false
   type: release_group
-- name: SoLaR
-  negate: false
-  pattern: SoLaR
-  required: false
-  type: release_group
 - name: SOP
   negate: false
   pattern: SOP
@@ -261,11 +246,6 @@ conditions:
   pattern: TDD
   required: false
   type: release_group
-- name: TeamSyndicate
-  type: release_group
-  required: false
-  negate: false
-  pattern: TeamSyndicate
 - name: TnP
   negate: false
   pattern: TnP
@@ -281,9 +261,9 @@ conditions:
   pattern: W4NK3R
   required: false
   type: release_group
-- name: WiKi
+- name: WiLF
   negate: false
-  pattern: WiKi
+  pattern: WiLF
   required: false
   type: release_group
 - name: xander

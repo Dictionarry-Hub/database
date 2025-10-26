@@ -1,280 +1,68 @@
 name: Special Edition
-pattern: (?<!^|{)\b(extended|uncut|directors|special|unrated|uncensored|cut|version|edition)(\b|\d)
+pattern: (?<=\b[12]\d{3}\b).*\b(Cut|Directors|DC|Edition|Extended|Special|Uncensored|Uncut|Unrated|Version)(\b|\d)
 description: 'Matches any type of non theatrical edition. '
 tags:
 - Edition
 tests:
-- expected: true
-  id: 1
-  input: Zenimation.S01.Extended.Edition.720p.DSNP.WEB-DL.DDP5.1.H.264-LAZY
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 23
-    start: 15
-  matchedContent: Extended
-  matchedGroups:
-  - Extended
-  - ''
-  passes: true
-- expected: true
-  id: 2
-  input: Vikings Extended S05 1080p BluRay REMUX AVC DTS-HD MA 5.1-FraMeSToR
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 16
-    start: 8
-  matchedContent: Extended
-  matchedGroups:
-  - Extended
-  - ''
-  passes: true
-- expected: false
-  id: 3
+- id: 3
   input: My Very Extended Family
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 16
-    start: 8
-  matchedContent: Extended
-  matchedGroups:
-  - Extended
-  - ''
-  passes: false
-- expected: false
-  id: 4
+  expected: false
+- id: 4
   input: Pente lepta akoma AKA Extended Play
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 30
-    start: 22
-  matchedContent: Extended
-  matchedGroups:
-  - Extended
-  - ''
-  passes: false
-- expected: false
-  id: 5
+  expected: false
+- id: 5
   input: Uncut.2023.1080p.AMZN.WEB-DL.DDP2.0.H.264-LLL.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 6
+  expected: false
+- id: 6
   input: The Punisher (1989) Remastered Uncut 1080p BluRay x265 SDR DDP 5.1 English-Ralphy
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 36
-    start: 31
-  matchedContent: Uncut
-  matchedGroups:
-  - Uncut
-  - ''
-  passes: true
-- expected: false
-  id: 7
+  expected: true
+- id: 7
   input: The Naked Director S01 2160p NF WEB-DL Dual-Audio DD+ 5.1 H.265-HONE
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 8
+  expected: false
+- id: 8
   input: Midsommar.2019.PROPER.Directors.Cut.UHD.BluRay.1080p.DDP.5.1.DoVi.HDR10.x265-SM737.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 31
-    start: 22
-  matchedContent: Directors
-  matchedGroups:
-  - Directors
-  - ''
-  passes: true
-- expected: false
-  id: 9
+  expected: true
+- id: 9
   input: George.Michael.Freedom.Uncut.2022.1080p.AMZN.WEB-DL.DDP5.1.H.264-PTP.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 28
-    start: 23
-  matchedContent: Uncut
-  matchedGroups:
-  - Uncut
-  - ''
-  passes: false
-- expected: false
-  id: 10
+  expected: false
+- id: 10
   input: Tupac.Uncensored.and.Uncut.The.Lost.Prison.Tapes.2011.DVDRip.x264-HANDJOB.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 16
-    start: 6
-  matchedContent: Uncensored
-  matchedGroups:
-  - Uncensored
-  - ''
-  passes: false
-- expected: false
-  id: 11
+  expected: false
+- id: 11
   input: Friedkin.Uncut.2018.1080p.MUBI.WEB-DL.AAC2.0.H.264-BdC.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 14
-    start: 9
-  matchedContent: Uncut
-  matchedGroups:
-  - Uncut
-  - ''
-  passes: false
-- expected: false
-  id: 12
+  expected: false
+- id: 12
   input: Sniper.Special.Ops.2016.720p.BluRay.DD5.1.x264-SpaceHD
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 14
-    start: 7
-  matchedContent: Special
-  matchedGroups:
-  - Special
-  - ''
-  passes: false
-- expected: true
-  id: 13
+  expected: false
+- id: 13
   input: Revhead.Miduga.Special.Edition-SKIDROW
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 22
-    start: 15
-  matchedContent: Special
-  matchedGroups:
-  - Special
-  - ''
-  passes: true
-- expected: false
-  id: 14
-  input: Pointless.Celebrities.S17E09.Special.720p.WEB-DL.AAC2.0.H.264-BTN
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 36
-    start: 29
-  matchedContent: Special
-  matchedGroups:
-  - Special
-  - ''
-  passes: false
-- expected: true
-  id: 15
+  expected: false
+- id: 15
   input: Land of the Dead 2005 Unrated DC REPACK SHOUT 1080p UHD BluRay DD 5 1 Atmos
     DV HDR x265-SQS
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 29
-    start: 22
-  matchedContent: Unrated
-  matchedGroups:
-  - Unrated
-  - ''
-  passes: true
-- expected: false
-  id: 16
+  expected: true
+- id: 16
   input: 'Unrated: The Movie'
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 17
+  expected: false
+- id: 17
   input: Who Framed Roger Rabbit 1988 Uncensored 1080p HDTV DD5.1 H.264.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 39
-    start: 29
-  matchedContent: Uncensored
-  matchedGroups:
-  - Uncensored
-  - ''
-  passes: true
-- expected: true
-  id: 18
-  input: The Veil Uncensored S01 2021 1080p WEB-DL AAC 2.0 H.264-Solonese
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 19
-    start: 9
-  matchedContent: Uncensored
-  matchedGroups:
-  - Uncensored
-  - ''
-  passes: true
-- expected: false
-  id: 19
-  input: Uncensored 2018 S06E11 Tamela Mann 720p HDTV x264-CRiMSON
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan: null
-  matchedContent: null
-  matchedGroups: []
-  passes: true
-- expected: true
-  id: 20
+  expected: true
+- id: 20
   input: Zodiac.2007.Directors.Cut.Bluray.1080p.TrueHD.5.1.AVC.REMUX-FraMeSToR.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 21
-    start: 12
-  matchedContent: Directors
-  matchedGroups:
-  - Directors
-  - ''
-  passes: true
-- expected: true
-  id: 21
+  expected: true
+- id: 21
   input: X-Men Days of Future Past 2014 The Rogue Cut 2160p MA WEB-DL TrueHD 7 1 DV
     HDR10+ H 265-DRX
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 44
-    start: 41
-  matchedContent: Cut
-  matchedGroups:
-  - Cut
-  - ''
-  passes: true
-- expected: true
-  id: 22
+  expected: true
+- id: 22
   input: The.Wicker.Man.The.Final.Cut.1973.UHD.BluRay.2160p.FLAC.2.0.DV.HEVC.REMUX-FraMeSToR
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 28
-    start: 25
-  matchedContent: Cut
-  matchedGroups:
-  - Cut
-  - ''
-  passes: true
-- expected: true
-  id: 23
+  expected: false
+- id: 23
   input: Twin Peaks Alternate International Version 1989 720p BluRay DTD 5.1 x264-reward
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 42
-    start: 35
-  matchedContent: Version
-  matchedGroups:
-  - Version
-  - ''
-  passes: true
-- expected: true
-  id: 24
+  expected: false
+- id: 24
   input: Trainspotting.1996.Collectors.Edition.1080P.BluRay.DD.5.1.X265-Ralphy.mkv
-  lastRun: '2025-02-26T04:33:39.532784'
-  matchSpan:
-    end: 37
-    start: 30
-  matchedContent: Edition
-  matchedGroups:
-  - Edition
-  - ''
-  passes: true
+  expected: true
+- id: 25
+  input: RoboCop.1987.DC.2160p.UHD.BluRay.TrueHD.7.1.DV.x265-W4NK3R.mkv
+  expected: true

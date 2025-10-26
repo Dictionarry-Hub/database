@@ -1,0 +1,7 @@
+name: coffee
+pattern: (?<=^|[\s.-])coffee\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

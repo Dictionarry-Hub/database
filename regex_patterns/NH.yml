@@ -1,0 +1,7 @@
+name: NH
+pattern: (?<=^|[\s.-])NH\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

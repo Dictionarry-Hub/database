@@ -56,6 +56,11 @@ conditions:
   pattern: NCmt
   required: false
   type: release_group
+- name: Skazhutin
+  type: release_group
+  required: false
+  negate: false
+  pattern: Skazhutin
 - name: NTb
   negate: false
   pattern: NTb

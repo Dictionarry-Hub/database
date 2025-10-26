@@ -1,0 +1,38 @@
+name: Crave
+pattern: \b(?:CRAV|(?:CRAVE)(?=\s*.(?:WEB-?DL|WEBRIP)))\b
+description: Crave (originally CraveTV) is a Canadian subscription video on demand
+  service. The service competes directly with other subscription-based over-the-top
+  streaming services operating in Canada, primarily against American-based services.
+  The service features Bell Media original programming, exclusive Canadian access
+  to programming acquired from several U.S. television and streaming services, and
+  various theatrically-released films. Crave's major programming supplier is Warner
+  Bros. Discovery (HBO / Max and Warner Bros. films). Starz, offered in partnership
+  with Lionsgate.
+tags:
+- Streaming Service
+- WEB-DL
+tests:
+- id: 1
+  input: The CRAVE Accountant 2 2025 2160p CRAV WEB-DL DD+ 5.1 Atmos DV H.265-FLUX
+  expected: true
+- id: 2
+  input: The CRAVE Accountant 2 2025 2160p CRAV WEBRIP DD+ 5.1 Atmos DV H.265-FLUX
+  expected: true
+- id: 3
+  input: The.CRAVE.Accountant.2.2025.2160p.CRAVE.WEBDL.DD+.5.1.Atmos.DV.H.265-FLUX
+  expected: true
+- id: 4
+  input: 'Star Trek: Picard CRAVE S03 2160p CRAV WEB-DL DTS-HD MA 5.1 H.265-FLUX'
+  expected: true
+- id: 5
+  input: 'Star Trek: Picard CRAVE S03 2160p CRAVE WEBRIP DTS-HD MA 5.1 H.265-FLUX'
+  expected: true
+- id: 6
+  input: The.Terminal.List.Dark.CRAVE.S01E04.THE.SOUND.OF.CRAVE.2160p.CRAV.WEB-DL.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
+- id: 7
+  input: The.Terminal.List.Dark.CRAVE.S01E04.THE.SOUND.OF.CRAVE.2160p.CRAV.WEBRIP.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true
+- id: 8
+  input: The.Terminal.List.Dark.CRAVE.S01E04.THE.SOUND.OF.CRAVE.2160p.CRAVE.WEBDL.DDP5.1.HDR.H.265-FLUX.mkv
+  expected: true

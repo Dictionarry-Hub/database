@@ -9,6 +9,11 @@ conditions:
   required: true
   source: web_dl
   type: source
+- name: '126811'
+  type: release_group
+  required: false
+  negate: false
+  pattern: '126811'
 - name: APEX
   negate: false
   pattern: APEX
@@ -25,10 +30,10 @@ conditions:
   required: false
   type: release_group
 - name: PTP
-  type: release_group
-  required: false
   negate: false
   pattern: PTP
+  required: false
+  type: release_group
 - name: RTN
   negate: false
   pattern: RTN

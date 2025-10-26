@@ -56,11 +56,6 @@ conditions:
   pattern: iFT
   required: false
   type: release_group
-- name: SA89
-  negate: false
-  pattern: SA89
-  required: false
-  type: release_group
 - name: WMING
   negate: false
   pattern: WMING

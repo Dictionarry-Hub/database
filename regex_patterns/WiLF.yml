@@ -1,0 +1,7 @@
+name: WiLF
+pattern: (?<=^|[\s.-])WiLF\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

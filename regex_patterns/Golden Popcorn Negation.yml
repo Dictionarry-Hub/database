@@ -1,0 +1,5 @@
+name: Golden Popcorn Negation
+pattern: (?<=^|[\s.-])(AJP69|ATELiER|BMF|BSTD|BV|c0kE|Chotab|CJ|coffee|CRiSC|CRX|CtrlHD|Dariush|de[42]|decibel|DON|D-Z0N3|E.N.D|E1|EDPH|EbP|ESiR|EuReKA|EXCiSION|FoRM|FraMeSToR|GALAXY|Geek|GS88|HANDJOB|hdalx|HDC|HDMaNiAcS|HiDt|HiFi|HiP|HQMUX|IDE|iFT|iON|Ivandro|KASHMiR|Kitsune|KnG|LEGi0N|LiNG|LolHD|LoRD|luvBB|MaG|MTeam|NCmt|NiBuRu|NiP|nmd|NTb|NyHD|ORiGEN|P0W4HD|Penumbra|playHD|Positive|PTer|PTP|REBORN|RiCO|rightSIZE|RO|ROCiNANTE|rttr|SA89|SaNcTi|SbR|SiMPLE|Skazhutin|Slappy|SoLaR|SOP|SPHD|TayTo|TBB|TDD|TeamSyndicate|ThD|TnP|VLAD|VietHD|W4NK3R|WiKi|WiLDCAT|WiLF|WMING|xander|ZIMBO|ZoroSenpai|ZQ)\b
+description: Match release groups who should not be categorized as UHD Bluray
+tags: []
+tests: []

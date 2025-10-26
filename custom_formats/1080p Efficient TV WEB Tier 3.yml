@@ -27,10 +27,10 @@ conditions:
   source: webrip
   type: source
 - name: edge2020
-  type: release_group
-  required: false
   negate: false
   pattern: edge2020
+  required: false
+  type: release_group
 - name: Grimm
   negate: false
   pattern: GRiMM

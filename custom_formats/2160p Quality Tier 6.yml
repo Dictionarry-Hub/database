@@ -15,16 +15,11 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: AAAUHD
-  negate: false
-  pattern: AAAUHD
-  required: false
-  type: release_group
-- name: Absinth
-  negate: false
-  pattern: Absinth
-  required: false
-  type: release_group
+- name: Not Remux
+  type: release_title
+  required: true
+  negate: true
+  pattern: Remux
 - name: ADE
   negate: false
   pattern: ADE
@@ -40,6 +35,11 @@ conditions:
   pattern: beAst
   required: false
   type: release_group
+- name: BeiTai
+  negate: false
+  pattern: BeiTai
+  required: false
+  type: release_group
 - name: CHD
   negate: false
   pattern: CHD
@@ -50,9 +50,9 @@ conditions:
   pattern: CMCT
   required: false
   type: release_group
-- name: EDPH
+- name: dkore
   negate: false
-  pattern: EDPH
+  pattern: dkore
   required: false
   type: release_group
 - name: EMERALD
@@ -60,24 +60,14 @@ conditions:
   pattern: EMERALD
   required: false
   type: release_group
-- name: ESiR
+- name: FLAME
   negate: false
-  pattern: ESiR
-  required: false
-  type: release_group
-- name: FRDS
-  negate: false
-  pattern: FRDS
+  pattern: FLAME
   required: false
   type: release_group
 - name: GUHZER
   negate: false
   pattern: GUHZER
-  required: false
-  type: release_group
-- name: HD77
-  negate: false
-  pattern: HD77
   required: false
   type: release_group
 - name: HDChina
@@ -90,11 +80,6 @@ conditions:
   pattern: HDmux
   required: false
   type: release_group
-- name: HUNTJR
-  negate: false
-  pattern: HUNTJR
-  required: false
-  type: release_group
 - name: HypStu
   negate: false
   pattern: HypStu
@@ -105,29 +90,9 @@ conditions:
   pattern: IAMABLE
   required: false
   type: release_group
-- name: iCandy
-  negate: false
-  pattern: iCandy
-  required: false
-  type: release_group
-- name: iNVANDRAREN
-  negate: false
-  pattern: iNVANDRAREN
-  required: false
-  type: release_group
-- name: k00kie
-  negate: false
-  pattern: k00kie
-  required: false
-  type: release_group
 - name: KAN3D2M
   negate: false
   pattern: KAN3D2M
-  required: false
-  type: release_group
-- name: KNiVES
-  negate: false
-  pattern: KNiVES
   required: false
   type: release_group
 - name: LAZARUS
@@ -155,24 +120,9 @@ conditions:
   pattern: ReQuEsT
   required: false
   type: release_group
-- name: SMAHAWUG
-  negate: false
-  pattern: SMAHAWUG
-  required: false
-  type: release_group
-- name: SPECTACLE
-  negate: false
-  pattern: SPECTACLE
-  required: false
-  type: release_group
 - name: STRiKES
   negate: false
   pattern: STRiKES
-  required: false
-  type: release_group
-- name: SWAGGERUHD
-  negate: false
-  pattern: SWAGGERUHD
   required: false
   type: release_group
 - name: SWTYBLZ
@@ -185,24 +135,9 @@ conditions:
   pattern: TERMiNAL
   required: false
   type: release_group
-- name: TOMBCRUISE
-  negate: false
-  pattern: TOMBCRUISE
-  required: false
-  type: release_group
-- name: Tron
-  negate: false
-  pattern: Tron
-  required: false
-  type: release_group
 - name: ULTRAHDCLUB
   negate: false
   pattern: ULTRAHDCLUB
-  required: false
-  type: release_group
-- name: VALiS
-  negate: false
-  pattern: VALiS
   required: false
   type: release_group
 - name: Whiterhino

@@ -1,0 +1,7 @@
+name: UDF
+pattern: (?<=^|[\s.-])UDF\b
+description: ''
+tags:
+- Release Group
+- Anime
+tests: []

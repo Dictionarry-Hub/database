@@ -1,0 +1,25 @@
+name: Vialle Bluray
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: Vialle
+  negate: false
+  pattern: Vialle
+  required: true
+  type: release_title
+- name: Release Group
+  negate: true
+  pattern: Vialle
+  required: true
+  type: release_group
+tests: []

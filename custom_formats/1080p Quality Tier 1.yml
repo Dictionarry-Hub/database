@@ -17,10 +17,10 @@ conditions:
   required: true
   type: release_title
 - name: Bluray
-  type: source
-  required: false
   negate: false
+  required: false
   source: bluray
+  type: source
 - name: WEBRip
   negate: false
   required: false
@@ -41,4 +41,14 @@ conditions:
   pattern: EbP
   required: false
   type: release_group
+- name: TeamSyndicate
+  type: release_group
+  required: false
+  negate: false
+  pattern: TeamSyndicate
+- name: ZoroSenpai
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZoroSenpai
 tests: []

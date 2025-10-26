@@ -1,0 +1,7 @@
+name: '126811'
+pattern: (?<=^|[\s.-])126811\b
+description: ''
+tags:
+- Release Group
+- WEB-DL
+tests: []

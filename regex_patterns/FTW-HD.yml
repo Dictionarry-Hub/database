@@ -1,7 +1,0 @@
-name: FTW-HD
-pattern: (?<=^|[\s.-])FTW-HD\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []
