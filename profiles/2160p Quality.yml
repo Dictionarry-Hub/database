@@ -99,6 +99,8 @@ custom_formats:
   score: 2000
 - name: HDR10+
   score: 2000
+- name: Dolby Digital
+  score: 1200
 - name: ATV
   score: 1000
 - name: DTS-X
@@ -129,15 +131,11 @@ custom_formats:
   score: 500
 - name: Opus
   score: 500
-- name: Dolby Digital +
-  score: 400
 - name: DTS-ES
   score: 300
 - name: Atmos
   score: 200
 - name: Atmos (Missing)
-  score: 200
-- name: Dolby Digital
   score: 200
 - name: DTS
   score: 100
@@ -222,6 +220,8 @@ custom_formats_radarr:
   score: 4000
 - name: iT
   score: 4000
+- name: Dolby Digital +
+  score: 2400
 - name: Amazon Enhancement
   score: 2000
 - name: HMAX
@@ -259,6 +259,8 @@ custom_formats_sonarr:
   score: 3000
 - name: MAX
   score: 3000
+- name: Dolby Digital +
+  score: 1400
 - name: Amazon Enhancement
   score: 1000
 - name: iT

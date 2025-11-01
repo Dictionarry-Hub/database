@@ -65,9 +65,9 @@ qualityDefinitions:
       min: 0
       preferred: 1990
     Remux-2160p:
-      max: 2000
-      min: 0
-      preferred: 1990
+      min: 299
+      preferred: 541
+      max: 873
     SDTV:
       max: 2000
       min: 0
