@@ -1,0 +1,17 @@
+name: Micro Encode Tier 2
+description: Matches mid-tier micro-encode release groups (BONE, GalaxyRG) for storage-conscious users
+tags:
+- Release Group Tier
+- Micro
+conditions:
+- name: BONE
+  negate: false
+  pattern: BONE
+  required: false
+  type: release_group
+- name: GalaxyRG
+  negate: false
+  pattern: GalaxyRG
+  required: false
+  type: release_group
+tests: []

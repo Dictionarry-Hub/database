@@ -1,0 +1,7 @@
+name: TGx
+pattern: (?<=^|[\s.-])TGx\b
+description: Matches "TGx" when preceded by whitespace, a hyphen or dot
+tags:
+- Release Group
+- HEVC
+tests: []

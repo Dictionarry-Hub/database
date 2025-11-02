@@ -1,0 +1,17 @@
+name: Micro Encode Tier 3
+description: Matches lower-tier micro-encode release groups (TGx, ETHEL) for storage-conscious users
+tags:
+- Release Group Tier
+- Micro
+conditions:
+- name: TGx
+  negate: false
+  pattern: TGx
+  required: false
+  type: release_group
+- name: ETHEL
+  negate: false
+  pattern: ETHEL
+  required: false
+  type: release_group
+tests: []

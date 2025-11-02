@@ -1,0 +1,7 @@
+name: ETHEL
+pattern: (?<=^|[\s.-])ETHEL\b
+description: Matches "ETHEL" when preceded by whitespace, a hyphen or dot
+tags:
+- Release Group
+- HEVC
+tests: []

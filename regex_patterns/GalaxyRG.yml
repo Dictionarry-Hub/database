@@ -1,0 +1,7 @@
+name: GalaxyRG
+pattern: (?<=^|[\s.-])GalaxyRG\b
+description: Matches "GalaxyRG" when preceded by whitespace, a hyphen or dot
+tags:
+- Release Group
+- HEVC
+tests: []

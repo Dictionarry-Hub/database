@@ -1,0 +1,17 @@
+name: Micro Encode Tier 1
+description: Matches top-tier micro-encode release groups (YTS, YIFY) for storage-conscious users
+tags:
+- Release Group Tier
+- Micro
+conditions:
+- name: YTS
+  negate: false
+  pattern: YTS
+  required: false
+  type: release_group
+- name: YIFY
+  negate: false
+  pattern: YIFY
+  required: false
+  type: release_group
+tests: []

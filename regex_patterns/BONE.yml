@@ -1,0 +1,7 @@
+name: BONE
+pattern: (?<=^|[\s.-])BONE\b
+description: Matches "BONE" when preceded by whitespace, a hyphen or dot
+tags:
+- Release Group
+- HEVC
+tests: []

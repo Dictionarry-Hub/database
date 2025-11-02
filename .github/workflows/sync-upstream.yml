@@ -1,0 +1,62 @@
+name: Sync Upstream
+
+on:
+  schedule:
+    # Run weekly on Sundays at 2 AM UTC
+    - cron: '0 2 * * 0'
+  workflow_dispatch:
+    # Allow manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream remote
+        run: |
+          git remote add upstream https://github.com/Dictionarry-Hub/database.git || true
+          git fetch upstream
+
+      - name: Sync from upstream stable branch
+        run: |
+          # Try to merge upstream changes
+          git merge upstream/stable --no-edit --allow-unrelated-histories || {
+            echo "Merge conflict detected, attempting auto-resolution..."
+
+            # Keep our custom files (Micro profiles and formats)
+            git checkout --ours profiles/*Micro*.yml custom_formats/*Micro*.yml regex_patterns/BONE.yml regex_patterns/GalaxyRG.yml regex_patterns/TGx.yml regex_patterns/ETHEL.yml 2>/dev/null || true
+
+            # Keep their files for everything else
+            git checkout --theirs profiles/*.yml custom_formats/*.yml regex_patterns/*.yml 2>/dev/null || true
+
+            # Add resolved files
+            git add -A
+
+            # Complete the merge
+            git commit -m "chore(sync): Merge upstream changes from Dictionarry-Hub/database" || true
+          }
+
+      - name: Push changes
+        run: |
+          git push origin main || git push origin master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create summary
+        run: |
+          echo "## Upstream Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "✅ Successfully synced from upstream repository" >> $GITHUB_STEP_SUMMARY
+          echo "- Source: Dictionarry-Hub/database (stable branch)" >> $GITHUB_STEP_SUMMARY
+          echo "- Custom files preserved: Micro profiles and formats" >> $GITHUB_STEP_SUMMARY
