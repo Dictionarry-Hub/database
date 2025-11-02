@@ -7,7 +7,7 @@ description: '720p Micro targets highly compressed micro-encodes for extreme sto
 
   - Fallbacks in Place for Proper Quality Progression
 
-  - 720p WEB-DL > 720p Bluray > 480p WEB-DL > DVD
+  - 720p (all sources) > 480p WEB-DL > DVD
 
   - Prefers x265/HEVC for better compression'
 tags:
@@ -18,7 +18,7 @@ tags:
 - x265
 upgradesAllowed: true
 minCustomFormatScore: 10000
-upgradeUntilScore: 200000
+upgradeUntilScore: 300000
 minScoreIncrement: 1
 custom_formats:
 - name: Micro Encode Tier 1
@@ -27,12 +27,12 @@ custom_formats:
   score: 100000
 - name: Micro Encode Tier 3
   score: 80000
+- name: 720p Bluray
+  score: 100000
 - name: 720p WEB-DL
   score: 100000
-- name: 720p Bluray
-  score: 80000
 - name: 720p WEBRip
-  score: 80000
+  score: 100000
 - name: 480p WEB-DL
   score: 60000
 - name: DVD
