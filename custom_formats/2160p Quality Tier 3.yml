@@ -16,13 +16,18 @@ conditions:
   source: bluray
   type: source
 - name: Not Remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
+  required: true
+  type: release_title
 - name: BV
   negate: false
   pattern: BV
+  required: false
+  type: release_group
+- name: c0kE
+  negate: false
+  pattern: c0kE
   required: false
   type: release_group
 - name: Chotab
@@ -30,24 +35,24 @@ conditions:
   pattern: Chotab
   required: false
   type: release_group
-- name: REBORN
+- name: D-Z0N3
   negate: false
-  pattern: REBORN
+  pattern: D-Z0N3
   required: false
   type: release_group
-- name: SoLaR
+- name: HQMUX
   negate: false
-  pattern: SoLaR
+  pattern: HQMUX
   required: false
   type: release_group
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
 - name: TnP
   negate: false
   pattern: TnP
-  required: false
-  type: release_group
-- name: W4NK3R
-  negate: false
-  pattern: W4NK3R
   required: false
   type: release_group
 tests: []

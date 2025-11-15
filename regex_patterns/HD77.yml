@@ -1,7 +1,0 @@
-name: HD77
-pattern: (?<=^|[\s.-])HD77\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

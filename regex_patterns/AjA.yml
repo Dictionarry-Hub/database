@@ -1,7 +1,0 @@
-name: AjA
-pattern: (?<=^|[\s.-])AjA\b
-description: ''
-tags:
-- Release Group
-- WEB-DL
-tests: []

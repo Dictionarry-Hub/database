@@ -1,7 +1,0 @@
-name: SWAGGERUHD
-pattern: (?<=^|[\s.-])SWAGGERUHD\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

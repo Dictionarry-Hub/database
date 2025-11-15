@@ -9,31 +9,31 @@ conditions:
   required: true
   resolution: 2160p
   type: resolution
-- name: Remux
+- name: Atmos
   negate: false
-  pattern: Remux
+  pattern: Atmos (Missing)
   required: true
   type: release_title
-- name: TrueHD Missing Groups
-  negate: false
-  pattern: TrueHD (Missing Groups)
-  required: true
-  type: release_title
-- name: Not DTS-HD
+- name: Not DD
   negate: true
-  pattern: DTS-HD
+  pattern: Dolby Digital
   required: true
   type: release_title
-- name: Not DTS-X
+- name: Not DD+
   negate: true
-  pattern: DTS-X
+  pattern: Dolby Digital +
+  required: true
+  type: release_title
+- name: Not DTS
+  negate: true
+  pattern: DTS
   required: true
   type: release_title
 - name: Not FLAC
+  type: release_title
+  required: true
   negate: true
   pattern: FLAC
-  required: true
-  type: release_title
 - name: Not TrueHD
   negate: true
   pattern: TrueHD

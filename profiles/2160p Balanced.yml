@@ -95,20 +95,24 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
+- name: FLAC
+  score: 800
 - name: DTS-HD HRA
-  score: 800
+  score: 700
 - name: Opus
-  score: 800
+  score: 700
 - name: Dolby Digital +
   score: 600
+- name: DTS-ES
+  score: 500
 - name: Dolby Atmos
   score: 400
-- name: DTS-ES
-  score: 400
 - name: Dolby Digital
-  score: 200
+  score: 400
 - name: DTS
-  score: 100
+  score: 300
+- name: AAC
+  score: 200
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
@@ -125,8 +129,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: AAC
-  score: 0
 - name: BCORE
   score: 0
 - name: CRAV
@@ -147,8 +149,6 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
-- name: Foreign Release Groups
-  score: -900
 - name: x265 (Bluray)
   score: -220000
 - name: AV1
