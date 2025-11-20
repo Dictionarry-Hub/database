@@ -32,24 +32,51 @@ jobs:
         run: |
           # Try to merge upstream changes
           git merge upstream/stable --no-edit --allow-unrelated-histories || {
-            echo "Merge conflict detected, attempting auto-resolution..."
+            echo "=== Merge conflict detected, applying custom merge strategy ==="
 
-            # Keep our custom files (Micro profiles and formats)
-            git checkout --ours profiles/*Micro*.yml custom_formats/*Micro*.yml regex_patterns/BONE.yml regex_patterns/GalaxyRG.yml regex_patterns/TGx.yml regex_patterns/ETHEL.yml 2>/dev/null || true
-
-            # Keep their files for everything else
-            git checkout --theirs profiles/*.yml custom_formats/*.yml regex_patterns/*.yml 2>/dev/null || true
-
-            # Add resolved files
+            # PHASE 1: Accept ALL upstream changes first
+            echo "Phase 1: Accepting all upstream changes..."
+            git checkout --theirs .
             git add -A
 
+            # PHASE 2: Restore our custom files explicitly
+            echo "Phase 2: Restoring custom files from our branch..."
+
+            CUSTOM_FILES=(
+              "profiles/1080p Micro.yml"
+              "profiles/720p Micro.yml"
+              "custom_formats/Micro Encode Tier 1.yml"
+              "custom_formats/Micro Encode Tier 2.yml"
+              "custom_formats/Micro Encode Tier 3.yml"
+              "regex_patterns/BONE.yml"
+              "regex_patterns/ETHEL.yml"
+              "regex_patterns/GalaxyRG.yml"
+              "regex_patterns/TGx.yml"
+              "custom_formats/Foreign Release Groups.yml"
+            )
+
+            for file in "${CUSTOM_FILES[@]}"; do
+              if git cat-file -e HEAD:"$file" 2>/dev/null; then
+                echo "  ✓ Preserving: $file"
+                git checkout --ours "$file"
+                git add "$file"
+              else
+                echo "  ⚠ Not found in our branch: $file"
+              fi
+            done
+
             # Complete the merge
-            git commit -m "chore(sync): Merge upstream changes from Dictionarry-Hub/database" || true
+            if git diff --cached --quiet; then
+              echo "No changes to commit after merge resolution"
+            else
+              echo "=== Committing merge ==="
+              git commit -m "chore(sync): Merge upstream changes while preserving custom Micro profiles and formats"
+            fi
           }
 
       - name: Push changes
         run: |
-          git push origin main || git push origin master
+          git push origin stable
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
