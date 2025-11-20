@@ -103,9 +103,15 @@ custom_formats:
   score: 2000
 - name: HDR10+
   score: 2000
-- name: ATV
-  score: 1000
 - name: DTS-X
+  score: 1600
+- name: DTS-HD MA
+  score: 1200
+- name: TrueHD
+  score: 1200
+- name: TrueHD (Missing)
+  score: 1200
+- name: ATV
   score: 1000
 - name: HDR
   score: 1000
@@ -121,32 +127,28 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
-- name: DTS-HD MA
-  score: 800
-- name: TrueHD
-  score: 800
-- name: TrueHD (Missing)
-  score: 800
 - name: FLAC
-  score: 700
+  score: 800
 - name: PCM
-  score: 700
+  score: 800
 - name: DTS-HD HRA
-  score: 500
+  score: 700
 - name: Opus
-  score: 500
+  score: 700
 - name: Dolby Digital +
-  score: 400
+  score: 600
 - name: DTS-ES
-  score: 300
+  score: 500
 - name: Atmos
-  score: 200
+  score: 400
 - name: Atmos (Missing)
-  score: 200
+  score: 400
 - name: Dolby Digital
-  score: 200
+  score: 400
 - name: DTS
-  score: 100
+  score: 300
+- name: AAC
+  score: 200
 - name: Remux Tier 1
   score: 100
 - name: WEB-DL Tier 1
@@ -171,8 +173,6 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: AAC
-  score: 0
 - name: BCORE
   score: 0
 - name: CRAV
@@ -193,8 +193,6 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
-- name: Foreign Release Groups
-  score: -900
 - name: x265 (Bluray)
   score: -220000
 - name: AV1

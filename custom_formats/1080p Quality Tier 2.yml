@@ -31,6 +31,11 @@ conditions:
   pattern: c0kE
   required: false
   type: release_group
+- name: coffee
+  type: release_group
+  required: false
+  negate: false
+  pattern: coffee
 - name: CtrlHD
   negate: false
   pattern: CtrlHD
@@ -57,10 +62,10 @@ conditions:
   required: false
   type: release_group
 - name: SoLaR
-  type: release_group
-  required: false
   negate: false
   pattern: SoLaR
+  required: false
+  type: release_group
 - name: TayTo
   negate: false
   pattern: TayTo

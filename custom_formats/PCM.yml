@@ -15,10 +15,10 @@ conditions:
   required: true
   type: release_title
 - name: Not Dolby Digital
-  type: release_title
-  required: true
   negate: true
   pattern: Dolby Digital
+  required: true
+  type: release_title
 - name: Not Dolby Digital +
   negate: true
   pattern: Dolby Digital +
@@ -32,11 +32,6 @@ conditions:
 - name: Not FLAC
   negate: true
   pattern: FLAC
-  required: true
-  type: release_title
-- name: Not PCM
-  negate: true
-  pattern: PCM
   required: true
   type: release_title
 - name: Not TrueHD
