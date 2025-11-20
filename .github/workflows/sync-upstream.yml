@@ -43,8 +43,7 @@ jobs:
             echo "Phase 2: Restoring custom files from our branch..."
 
             CUSTOM_FILES=(
-              "profiles/1080p Micro.yml"
-              "profiles/720p Micro.yml"
+              "profiles/Micro.yml"
               "custom_formats/Micro Encode Tier 1.yml"
               "custom_formats/Micro Encode Tier 2.yml"
               "custom_formats/Micro Encode Tier 3.yml"
@@ -52,7 +51,6 @@ jobs:
               "regex_patterns/ETHEL.yml"
               "regex_patterns/GalaxyRG.yml"
               "regex_patterns/TGx.yml"
-              "custom_formats/Foreign Release Groups.yml"
             )
 
             for file in "${CUSTOM_FILES[@]}"; do
@@ -86,4 +84,4 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "✅ Successfully synced from upstream repository" >> $GITHUB_STEP_SUMMARY
           echo "- Source: Dictionarry-Hub/database (stable branch)" >> $GITHUB_STEP_SUMMARY
-          echo "- Custom files preserved: Micro profiles and formats" >> $GITHUB_STEP_SUMMARY
+          echo "- Custom files preserved: Micro profile, Micro encode tiers, and micro-encode release groups" >> $GITHUB_STEP_SUMMARY

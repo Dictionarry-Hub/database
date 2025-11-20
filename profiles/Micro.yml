@@ -1,5 +1,5 @@
-name: 1080p Micro
-description: '1080p Micro targets highly compressed micro-encodes for storage-conscious
+name: Micro
+description: 'Micro targets highly compressed micro-encodes for storage-conscious
   users, prioritizing small file sizes while maintaining acceptable quality
 
 
@@ -12,6 +12,7 @@ description: '1080p Micro targets highly compressed micro-encodes for storage-co
   - Prefers x265/HEVC for better compression'
 tags:
 - 1080p
+- 720p
 - Micro Encode
 - Storage Focused
 - h265
