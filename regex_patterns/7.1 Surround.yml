@@ -1,7 +1,37 @@
 name: 7.1 Surround
-pattern: '7\.1'
+pattern: '\D7\.1(\D|$)'
 description: ''
 tags:
 - Audio
 - Channel
-tests: []
+tests:
+- expected: true
+  id: 1
+  input: SomeName.TrueHD.7.1-GROUP
+  lastRun: '2025-11-26T00:12:58.921246'
+  matchSpan:
+    end: 20
+    start: 15
+  matchedContent: .7.1-
+  matchedGroups:
+  - '-'
+  passes: true
+- expected: false
+  id: 2
+  input: SomeName.2007.1080p-GROUP
+  lastRun: '2025-11-26T00:12:58.921246'
+  matchSpan: null
+  matchedContent: null
+  matchedGroups: []
+  passes: true
+- expected: true
+  id: 3
+  input: SomeName.TrueHD.7.1
+  lastRun: '2025-11-26T00:12:58.921246'
+  matchSpan:
+    end: 19
+    start: 15
+  matchedContent: .7.1
+  matchedGroups:
+  - ''
+  passes: true
