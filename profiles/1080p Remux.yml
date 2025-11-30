@@ -269,28 +269,6 @@ qualities:
     name: WEBDL-1080p
   - id: 11
     name: WEBRip-1080p
-- id: -2
-  name: 720p Quality
-  description: Fallback to 720p when 1080p cannot be found.
-  qualities:
-  - id: 13
-    name: Bluray-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
-- id: -3
-  name: 480p Quality
-  description: Standard Definition Fallbacks
-  qualities:
-  - id: 17
-    name: Bluray-576p
-  - id: 18
-    name: Bluray-480p
-  - id: 19
-    name: WEBDL-480p
-  - id: 22
-    name: DVD
 upgrade_until:
   id: -1
   name: 1080p Remux
