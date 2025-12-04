@@ -1,0 +1,21 @@
+name: German Only
+description: Excludes without English or German
+tags:
+- Language
+conditions:
+- name: German
+  language: german
+  negate: false
+  required: true
+  type: language
+- name: Not German DL
+  negate: true
+  pattern: German DL
+  required: true
+  type: release_title
+- name: Not English
+  language: english
+  negate: true
+  required: true
+  type: language
+tests: []

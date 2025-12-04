@@ -1,0 +1,11 @@
+name: German DL
+description: Matches with German DL in Title
+tags:
+- Language
+conditions:
+- name: German DL
+  negate: false
+  pattern: German DL
+  required: true
+  type: release_title
+tests: []

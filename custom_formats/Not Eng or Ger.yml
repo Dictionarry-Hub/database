@@ -1,0 +1,21 @@
+name: Language Not ENG or GER
+description: Excludes without English or German
+tags:
+- Language
+conditions:
+- name: NOT English
+  language: english
+  negate: true
+  required: true
+  type: language
+- name: NOT German
+  language: german
+  negate: true
+  required: true
+  type: language
+- name: Not German in Title
+  negate: true
+  pattern: German
+  required: true
+  type: release_title
+tests: []

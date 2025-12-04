@@ -1,0 +1,6 @@
+name: German DL
+pattern: (?i)\bgerman\b
+description: 'Matches german in title'
+tags:
+- Language
+tests: []
