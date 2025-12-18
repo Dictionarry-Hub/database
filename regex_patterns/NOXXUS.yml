@@ -1,6 +1,0 @@
-name: NOXXUS
-pattern: (?<=^|[\s.-])NOXXUS\b
-description: ''
-tags:
-- Release Group
-tests: null
