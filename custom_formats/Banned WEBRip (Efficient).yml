@@ -9,14 +9,19 @@ conditions:
   required: true
   source: webrip
   type: source
+- name: Not 2160p
+  type: resolution
+  required: true
+  negate: true
+  resolution: 2160p
 - name: Not 1080p
   negate: true
   required: true
   resolution: 1080p
   type: resolution
 - name: Release Groups
-  type: release_group
-  required: true
   negate: true
-  pattern: UHD Bluray Release Groups
+  pattern: UHD WEBRip Release Groups
+  required: true
+  type: release_group
 tests: []

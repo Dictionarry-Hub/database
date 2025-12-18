@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: bluegreeen
+  negate: false
+  pattern: bluegreeen
+  required: false
+  type: release_group
 - name: bluespots
   negate: false
   pattern: bluespots
@@ -36,6 +41,11 @@ conditions:
   pattern: dkore
   required: false
   type: release_group
+- name: noxxus
+  type: release_group
+  required: false
+  negate: false
+  pattern: noxxus
 - name: Ralphy
   negate: false
   pattern: Ralphy

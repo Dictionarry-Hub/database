@@ -1,0 +1,54 @@
+name: 576p Quality Tier 2
+description: Matches release groups who fall under 576p Quality Tier 2
+tags:
+- GPPi
+- Release Group Tier
+- 576p
+- Quality
+conditions:
+- name: 576p
+  negate: false
+  required: true
+  resolution: 576p
+  type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: BV
+  negate: false
+  pattern: BV
+  required: false
+  type: release_group
+- name: c0kE
+  negate: false
+  pattern: c0kE
+  required: false
+  type: release_group
+- name: Dariush
+  negate: false
+  pattern: Dariush
+  required: false
+  type: release_group
+- name: HaB
+  type: release_group
+  required: false
+  negate: false
+  pattern: HaB
+- name: TBB
+  negate: false
+  pattern: TBB
+  required: false
+  type: release_group
+- name: ZQ
+  negate: false
+  pattern: ZQ
+  required: false
+  type: release_group
+tests: []

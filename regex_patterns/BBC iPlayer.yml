@@ -1,0 +1,22 @@
+name: BBC iPlayer
+pattern: \b(iP)\b
+description: 'BBC iPlayer is a video on demand service from the BBC. The service is
+  available over-the-top on a wide range of devices, including mobile phones and tablets,
+  personal computers and smart televisions. iPlayer services delivered to UK-based
+  viewers are free from commercial advertising. '
+tags:
+- Streaming Service
+- WEB-DL
+tests:
+- id: 1
+  input: Palmer.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-EVO.mkv
+  expected: true
+- id: 2
+  input: Fathom.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv
+  expected: true
+- id: 3
+  input: You.Are.the.Apple.of.My.Eye.2011.720p.BluRay.DD5.1.x264-EbP.mkv
+  expected: false
+- id: 4
+  input: Men in Black 1997 2160p Apple TV+ WEB-DL DDP 5 1 Atmos DV H 265-CHDWEB
+  expected: true

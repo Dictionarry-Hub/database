@@ -1,5 +1,5 @@
 name: BTM
-pattern: (?<=^|[\s.-])BTM\b
+pattern: (?<=^|[\s.-])(BEN THE MEN|BEN|BTM)\b
 description: ''
 tags:
 - Release Group

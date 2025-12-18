@@ -1,7 +1,0 @@
-name: SMAHAWUG
-pattern: (?<=^|[\s.-])SMAHAWUG\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

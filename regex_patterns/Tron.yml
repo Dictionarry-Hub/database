@@ -1,7 +1,0 @@
-name: Tron
-pattern: (?<=^|[\s.-])Tron\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

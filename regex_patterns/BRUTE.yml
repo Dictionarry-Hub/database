@@ -1,0 +1,7 @@
+name: BRUTE
+pattern: (?<=^|[\s.-])BRUTE\b
+description: ''
+tags:
+- Release Group
+- Bluray
+tests: []

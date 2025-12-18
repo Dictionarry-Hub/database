@@ -1,0 +1,14 @@
+name: Youku
+pattern: \b(Youku|YK)\b
+description: "Youku is a major Chinese streaming platform owned by Alibaba Group,\
+  \ offering a wide range of long-form video content including TV dramas, films, variety\
+  \ shows, animation, original productions, and licensed international titles. Known\
+  \ as one of China\u2019s top three streaming services alongside iQIYI and Tencent\
+  \ Video, Youku operates on both ad-supported and subscription models and is integrated\
+  \ across mobile, web, smart TV, and other devices. The platform emphasizes high-quality,\
+  \ professionally produced content and also supports user-generated videos and live\
+  \ broadcasts, making it a central hub for digital entertainment within China."
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

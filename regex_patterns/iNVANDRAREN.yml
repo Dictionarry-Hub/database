@@ -1,7 +1,0 @@
-name: iNVANDRAREN
-pattern: (?<=^|[\s.-])iNVANDRAREN\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

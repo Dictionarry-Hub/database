@@ -1,0 +1,54 @@
+name: 576p Quality Tier 3
+description: Matches release groups who fall under 576p Quality Tier 3
+tags:
+- GPPi
+- Release Group Tier
+- 576p
+- Quality
+conditions:
+- name: 576p
+  negate: false
+  required: true
+  resolution: 576p
+  type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: EDPH
+  negate: false
+  pattern: EDPH
+  required: false
+  type: release_group
+- name: GS88
+  type: release_group
+  required: false
+  negate: false
+  pattern: GS88
+- name: KnG
+  type: release_group
+  required: false
+  negate: false
+  pattern: KnG
+- name: PTer
+  type: release_group
+  required: false
+  negate: false
+  pattern: PTer
+- name: rttr
+  type: release_group
+  required: false
+  negate: false
+  pattern: rttr
+- name: ZIMBO
+  type: release_group
+  required: false
+  negate: false
+  pattern: ZIMBO
+tests: []

@@ -56,11 +56,6 @@ conditions:
   pattern: CJ
   required: false
   type: release_group
-- name: coffee
-  negate: false
-  pattern: coffee
-  required: false
-  type: release_group
 - name: CRX
   negate: false
   pattern: CRX
@@ -77,10 +72,10 @@ conditions:
   required: false
   type: release_group
 - name: EA
-  type: release_group
-  required: false
   negate: false
   pattern: EA
+  required: false
+  type: release_group
 - name: E.N.D
   negate: false
   pattern: E.N.D

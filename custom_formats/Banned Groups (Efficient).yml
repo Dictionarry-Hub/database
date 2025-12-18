@@ -174,11 +174,16 @@ conditions:
   pattern: TvR
   required: false
   type: release_group
-- name: VD0N
+- name: UnKn0wn
   type: release_group
   required: false
   negate: false
+  pattern: UnKn0wn
+- name: VD0N
+  negate: false
   pattern: VD0N
+  required: false
+  type: release_group
 - name: VECTOR
   negate: false
   pattern: VECTOR

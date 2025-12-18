@@ -1,0 +1,25 @@
+name: Weasley WEB
+description: ''
+tags: []
+conditions:
+- name: 1080p
+  negate: false
+  required: true
+  resolution: 1080p
+  type: resolution
+- name: Weasley
+  negate: false
+  pattern: Weasley
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+tests: []

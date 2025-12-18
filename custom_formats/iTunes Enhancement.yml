@@ -11,6 +11,6 @@ conditions:
 - name: iT
   negate: false
   pattern: iTunes
-  required: false
+  required: true
   type: release_title
 tests: []

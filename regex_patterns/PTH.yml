@@ -1,7 +1,0 @@
-name: PTH
-pattern: (?<=^|[\s.-])PTH\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

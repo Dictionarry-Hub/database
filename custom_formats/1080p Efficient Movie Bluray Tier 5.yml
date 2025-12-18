@@ -21,6 +21,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
+- name: bluegreeen
+  negate: false
+  pattern: bluegreeen
+  required: false
+  type: release_group
 - name: Chivaman
   negate: false
   pattern: Chivaman
@@ -31,6 +36,11 @@ conditions:
   pattern: edge2020
   required: false
   type: release_group
+- name: noxxus
+  type: release_group
+  required: false
+  negate: false
+  pattern: noxxus
 - name: R1GY3B
   negate: false
   pattern: R1GY3B

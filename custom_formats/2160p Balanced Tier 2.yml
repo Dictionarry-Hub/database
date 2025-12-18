@@ -15,14 +15,9 @@ conditions:
   required: true
   source: bluray
   type: source
-- name: BHDStudio
+- name: dkore
   negate: false
-  pattern: BHDStudio
-  required: false
-  type: release_group
-- name: hallowed
-  negate: false
-  pattern: hallowed
+  pattern: dkore
   required: false
   type: release_group
 tests:

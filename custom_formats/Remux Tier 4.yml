@@ -14,11 +14,6 @@ conditions:
   required: true
   source: dvd
   type: source
-- name: '126811'
-  negate: false
-  pattern: '126811'
-  required: false
-  type: release_group
 - name: BTN
   negate: false
   pattern: BTN

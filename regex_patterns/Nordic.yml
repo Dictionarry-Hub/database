@@ -1,7 +1,0 @@
-name: Nordic
-pattern: \b(Nordic)\b
-description: Matches releases with the word Nordic
-tags:
-- Aspect Ratio
-- Enhancement
-tests: []

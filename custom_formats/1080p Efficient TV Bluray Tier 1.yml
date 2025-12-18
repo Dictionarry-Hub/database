@@ -36,6 +36,11 @@ conditions:
   pattern: TAoE
   required: false
   type: release_group
+- name: Vialle
+  type: release_group
+  required: false
+  negate: false
+  pattern: Vialle
 tests:
 - conditionResults:
   - matches: true

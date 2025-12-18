@@ -21,6 +21,11 @@ conditions:
   pattern: x265 (Efficient)
   required: true
   type: release_title
+- name: bluegreeen
+  type: release_group
+  required: false
+  negate: false
+  pattern: bluegreeen
 - name: cXcY
   negate: false
   pattern: cXcY

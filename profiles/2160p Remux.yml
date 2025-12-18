@@ -18,76 +18,86 @@ tags:
 - x265
 upgradesAllowed: true
 minCustomFormatScore: 20000
-upgradeUntilScore: 400000
+upgradeUntilScore: 600000
 minScoreIncrement: 1
 custom_formats:
 - name: 2160p Remux
-  score: 320000
+  score: 500000
 - name: 2160p Quality Tier 1
-  score: 304000
+  score: 485000
 - name: 2160p Quality Tier 2
-  score: 303000
+  score: 484000
 - name: 2160p Quality Tier 3
-  score: 302000
+  score: 483000
 - name: 2160p Quality Tier 4
-  score: 301000
+  score: 482000
 - name: 2160p Quality Tier 5
-  score: 300000
-- name: 2160p Balanced Tier 1
-  score: 284000
-- name: 2160p Balanced Tier 2
-  score: 280000
+  score: 480000
 - name: 2160p WEB-DL
+  score: 460000
+- name: 1080p Remux
+  score: 440000
+- name: UHD Bluray
+  score: 420000
+- name: 1080p WEB-DL
+  score: 380000
+- name: 1080p Bluray
+  score: 280000
+- name: 1080p WEBRip
   score: 280000
 - name: 2160p Quality Tier 6
   score: 279000
-- name: 1080p Remux
-  score: 260000
-- name: UHD Bluray
-  score: 240000
-- name: UHD Bluray (Missing)
-  score: 240000
-- name: 1080p WEB-DL
-  score: 200000
-- name: 1080p Bluray
-  score: 140000
-- name: 1080p WEBRip
-  score: 140000
 - name: 720p WEB-DL
-  score: 100000
-- name: 1080p Quality Tier 1
-  score: 85000
-- name: 1080p Quality Tier 2
-  score: 84000
-- name: 1080p Quality Tier 3
-  score: 83000
-- name: 1080p Quality Tier 4
-  score: 82000
-- name: 1080p Quality Tier 5
-  score: 81000
-- name: 1080p Quality Tier 6
-  score: 80000
+  score: 240000
 - name: 720p Bluray
-  score: 80000
+  score: 180000
 - name: 720p WEBRip
+  score: 180000
+- name: 1080p Quality Tier 1
+  score: 125000
+- name: 1080p Quality Tier 2
+  score: 124000
+- name: 1080p Quality Tier 3
+  score: 123000
+- name: 1080p Quality Tier 4
+  score: 122000
+- name: 1080p Quality Tier 5
+  score: 121000
+- name: 1080p Quality Tier 6
+  score: 120000
+- name: 576p Bluray
+  score: 120000
+- name: 720p Quality Tier 1
+  score: 85000
+- name: 720p Quality Tier 2
+  score: 84000
+- name: 720p Quality Tier 3
+  score: 83000
+- name: 720p Quality Tier 4
+  score: 82000
+- name: 720p Quality Tier 5
+  score: 81000
+- name: 480p Bluray
   score: 80000
-- name: 1080p Balanced Tier 1
-  score: 60000
+- name: 720p Quality Tier 6
+  score: 80000
 - name: 480p WEB-DL
   score: 60000
-- name: 720p Quality Tier 1
-  score: 45000
-- name: 720p Quality Tier 2
-  score: 44000
-- name: 720p Quality Tier 3
+- name: 576p Quality Tier 1
   score: 43000
-- name: 720p Quality Tier 4
+- name: 576p Quality Tier 2
   score: 42000
-- name: 720p Quality Tier 5
+- name: 576p Quality Tier 3
   score: 41000
-- name: 720p Quality Tier 6
+- name: 576p Quality Tier 4
   score: 40000
-- name: 720p Balanced Tier 1
+- name: 480p Quality Tier 1
+  score: 23000
+- name: 480p Quality Tier 2
+  score: 22000
+- name: 480p Quality Tier 3
+  score: 21000
+- name: 480p Quality Tier 4
   score: 20000
 - name: DVD
   score: 20000
@@ -101,11 +111,19 @@ custom_formats:
   score: 3000
 - name: AMZN
   score: 2000
+- name: ATVP
+  score: 2000
 - name: HDR10+
   score: 2000
-- name: ATV
-  score: 1000
 - name: DTS-X
+  score: 1600
+- name: DTS-HD MA
+  score: 1200
+- name: TrueHD
+  score: 1200
+- name: TrueHD (Missing)
+  score: 1200
+- name: Amazon Enhancement
   score: 1000
 - name: HDR
   score: 1000
@@ -121,32 +139,28 @@ custom_formats:
   score: 1000
 - name: PQ
   score: 1000
-- name: DTS-HD MA
-  score: 800
-- name: TrueHD
-  score: 800
-- name: TrueHD (Missing)
-  score: 800
 - name: FLAC
-  score: 700
+  score: 800
 - name: PCM
-  score: 700
+  score: 800
 - name: DTS-HD HRA
-  score: 500
+  score: 700
 - name: Opus
-  score: 500
+  score: 700
 - name: Dolby Digital +
-  score: 400
+  score: 600
 - name: DTS-ES
-  score: 300
+  score: 500
 - name: Atmos
-  score: 200
+  score: 400
 - name: Atmos (Missing)
-  score: 200
+  score: 400
 - name: Dolby Digital
-  score: 200
+  score: 400
 - name: DTS
-  score: 100
+  score: 300
+- name: AAC
+  score: 200
 - name: Remux Tier 1
   score: 100
 - name: WEB-DL Tier 1
@@ -171,19 +185,27 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
-- name: AAC
-  score: 0
 - name: BCORE
   score: 0
 - name: CRAV
+  score: 0
+- name: CRIT
+  score: 0
+- name: DRPO
   score: 0
 - name: HTSR
   score: 0
 - name: HULU
   score: 0
+- name: iP
+  score: 0
+- name: MUBI
+  score: 0
 - name: NOW
   score: 0
 - name: PCOK
+  score: 0
+- name: PLAY
   score: 0
 - name: PMTP
   score: 0
@@ -193,15 +215,11 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
-- name: Foreign Release Groups
-  score: -900
 - name: x265 (Bluray)
-  score: -220000
+  score: -400000
 - name: AV1
   score: -999999
 - name: Banned Groups
-  score: -999999
-- name: Banned Groups (Title)
   score: -999999
 - name: Banned Remux
   score: -999999
@@ -230,26 +248,36 @@ custom_formats:
 - name: Xvid
   score: -999999
 custom_formats_radarr:
+- name: 2160p Balanced Tier 1
+  score: 462000
+- name: 2160p Balanced Tier 2
+  score: 461000
+- name: 2160p Balanced Tier 3
+  score: 460000
+- name: 1080p Balanced Tier 1
+  score: 101000
+- name: 1080p Balanced Tier 2
+  score: 100000
+- name: 720p Balanced Tier 1
+  score: 60000
 - name: MA
   score: 6000
-- name: ATVP
-  score: 4000
 - name: DSNP
   score: 4000
 - name: iT
   score: 4000
-- name: Amazon Enhancement
-  score: 2000
 - name: HMAX
   score: 2000
 - name: MAX
   score: 2000
 - name: Better Theatricals
   score: 1000
-- name: CRIT
-  score: 1000
 - name: Special Edition
   score: 1000
+- name: Disney+ Enhancement
+  score: -1000
+- name: Movies Anywhere Enhancement
+  score: -2000
 - name: iTunes Enhancement
   score: -3000
 - name: 3D
@@ -265,16 +293,14 @@ custom_formats_radarr:
 - name: Upscale
   score: -999999
 custom_formats_sonarr:
-- name: ATVP
-  score: 3000
+- name: 2160p Balanced Tier 1
+  score: 464000
 - name: DSNP
   score: 3000
 - name: HMAX
   score: 3000
 - name: MAX
   score: 3000
-- name: Amazon Enhancement
-  score: 1000
 - name: iT
   score: 1000
 - name: Season Pack
@@ -323,12 +349,12 @@ qualities:
   name: 480p Quality
   description: Standard Definition Fallbacks
   qualities:
+  - id: 17
+    name: Bluray-576p
   - id: 18
     name: Bluray-480p
   - id: 19
     name: WEBDL-480p
-  - id: 20
-    name: WEBRip-480p
   - id: 22
     name: DVD
 upgrade_until:

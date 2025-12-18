@@ -26,9 +26,24 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: BRUTE
+  negate: false
+  pattern: BRUTE
+  required: false
+  type: release_group
 - name: EuReKA
   negate: false
   pattern: EuReKA
+  required: false
+  type: release_group
+- name: GALVANiZE
+  negate: false
+  pattern: GALVANiZE
+  required: false
+  type: release_group
+- name: HaB
+  negate: false
+  pattern: HaB
   required: false
   type: release_group
 - name: HANDJOB
@@ -49,6 +64,11 @@ conditions:
 - name: Ivandro
   negate: false
   pattern: Ivandro
+  required: false
+  type: release_group
+- name: j3rico
+  negate: false
+  pattern: j3rico
   required: false
   type: release_group
 - name: KnG
@@ -91,6 +111,11 @@ conditions:
   pattern: PTP
   required: false
   type: release_group
+- name: PuTao
+  type: release_group
+  required: false
+  negate: false
+  pattern: PuTao
 - name: ROCiNANTE
   negate: false
   pattern: ROCiNANTE

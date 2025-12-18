@@ -40,6 +40,11 @@ conditions:
   pattern: DEPTH
   required: false
   type: release_group
+- name: j3rico
+  type: release_group
+  required: false
+  negate: false
+  pattern: j3rico
 - name: JustWatch
   negate: false
   pattern: JustWatch
@@ -56,8 +61,8 @@ conditions:
   required: false
   type: release_group
 - name: WiKi
-  type: release_group
-  required: false
   negate: false
   pattern: WiKi
+  required: false
+  type: release_group
 tests: []

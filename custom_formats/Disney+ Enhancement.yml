@@ -1,0 +1,16 @@
+name: Disney+ Enhancement
+description: ''
+tags:
+- Enhancement
+conditions:
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: DSNP
+  negate: false
+  pattern: Disney+
+  required: true
+  type: release_title
+tests: []

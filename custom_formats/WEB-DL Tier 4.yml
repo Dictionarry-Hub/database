@@ -9,11 +9,6 @@ conditions:
   required: true
   source: web_dl
   type: source
-- name: '126811'
-  type: release_group
-  required: false
-  negate: false
-  pattern: '126811'
 - name: APEX
   negate: false
   pattern: APEX

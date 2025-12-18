@@ -1,7 +1,0 @@
-name: FRDS
-pattern: (?<=^|[\s.-])FRDS\b
-description: ''
-tags:
-- Release Group
-- Bluray
-tests: []

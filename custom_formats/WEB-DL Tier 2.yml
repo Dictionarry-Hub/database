@@ -19,11 +19,6 @@ conditions:
   pattern: CMRG
   required: false
   type: release_group
-- name: HHWEB
-  negate: false
-  pattern: HHWEB
-  required: false
-  type: release_group
 - name: HONE
   negate: false
   pattern: HONE

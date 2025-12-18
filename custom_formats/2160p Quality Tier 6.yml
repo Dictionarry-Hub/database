@@ -16,10 +16,10 @@ conditions:
   source: bluray
   type: source
 - name: Not Remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
+  required: true
+  type: release_title
 - name: ADE
   negate: false
   pattern: ADE
@@ -48,11 +48,6 @@ conditions:
 - name: CMCT
   negate: false
   pattern: CMCT
-  required: false
-  type: release_group
-- name: dkore
-  negate: false
-  pattern: dkore
   required: false
   type: release_group
 - name: EMERALD

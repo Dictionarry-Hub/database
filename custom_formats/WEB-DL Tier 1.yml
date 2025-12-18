@@ -19,4 +19,9 @@ conditions:
   pattern: NTb
   required: false
   type: release_group
+- name: TheFarm
+  type: release_group
+  required: false
+  negate: false
+  pattern: TheFarm
 tests: []

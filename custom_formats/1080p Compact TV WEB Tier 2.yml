@@ -46,11 +46,6 @@ conditions:
   pattern: ToNaTo
   required: false
   type: release_group
-- name: Vialle
-  negate: false
-  pattern: Vialle
-  required: false
-  type: release_group
 tests:
 - conditionResults:
   - matches: true

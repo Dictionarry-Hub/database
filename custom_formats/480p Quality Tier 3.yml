@@ -1,0 +1,54 @@
+name: 480p Quality Tier 3
+description: Matches release groups who fall under 480p Quality Tier 3
+tags:
+- GPPi
+- Release Group Tier
+- 480p
+- Quality
+conditions:
+- name: 480p
+  negate: false
+  required: true
+  resolution: 480p
+  type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: EDPH
+  negate: false
+  pattern: EDPH
+  required: false
+  type: release_group
+- name: GS88
+  negate: false
+  pattern: GS88
+  required: false
+  type: release_group
+- name: KnG
+  negate: false
+  pattern: KnG
+  required: false
+  type: release_group
+- name: playSD
+  negate: false
+  pattern: playSD
+  required: false
+  type: release_group
+- name: PTer
+  negate: false
+  pattern: PTer
+  required: false
+  type: release_group
+- name: rttr
+  negate: false
+  pattern: rttr
+  required: false
+  type: release_group
+tests: []

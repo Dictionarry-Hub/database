@@ -10,8 +10,8 @@ conditions:
   source: webrip
   type: source
 - name: Release Groups
-  type: release_group
-  required: true
   negate: true
-  pattern: UHD Bluray Release Groups
+  pattern: UHD WEBRip Release Groups
+  required: true
+  type: release_group
 tests: []

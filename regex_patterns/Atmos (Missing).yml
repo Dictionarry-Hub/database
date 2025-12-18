@@ -1,0 +1,19 @@
+name: Atmos (Missing)
+pattern: \bATMOS(\b|\d)
+description: ''
+tags:
+- Audio
+- Enhancement
+tests:
+- id: 1
+  input: The.Last.of.Us.S01.2160p.UHD.BluRay.Remux.TrueHDA7.1.H.265-PmP
+  expected: false
+- id: 2
+  input: The.Last.of.Us.S01.UHD.BluRay.2160p.TrueHD.Atmos.7.1.DV.HEVC.REMUX-FraMeSToR
+  expected: true
+- id: 3
+  input: The Last of Us S01 2160p MAX WEB-DL DDP 5.1 Atmos DV HDR H.265-FLUX
+  expected: true
+- id: 4
+  input: The.Last.of.Us.S01.DV.HDR.2160p.MAX.WEB-DL.DDPA5.1.H.265-FLUX
+  expected: false

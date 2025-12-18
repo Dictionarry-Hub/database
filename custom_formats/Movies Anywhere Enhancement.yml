@@ -1,0 +1,16 @@
+name: Movies Anywhere Enhancement
+description: ''
+tags:
+- Enhancement
+conditions:
+- name: Not 2160p
+  negate: true
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: MA
+  negate: false
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
+tests: []

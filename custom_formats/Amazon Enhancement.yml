@@ -11,6 +11,6 @@ conditions:
 - name: AMZN
   negate: false
   pattern: Amazon Prime
-  required: false
+  required: true
   type: release_title
 tests: []

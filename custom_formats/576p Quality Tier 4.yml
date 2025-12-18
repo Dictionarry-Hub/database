@@ -1,0 +1,34 @@
+name: 576p Quality Tier 4
+description: Matches release groups who fall under 576p Quality Tier 4
+tags:
+- GPPi
+- Release Group Tier
+- 576p
+- Quality
+conditions:
+- name: 576p
+  negate: false
+  required: true
+  resolution: 576p
+  type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: HANDJOB
+  negate: false
+  pattern: HANDJOB
+  required: false
+  type: release_group
+- name: PTP
+  negate: false
+  pattern: PTP
+  required: false
+  type: release_group
+tests: []

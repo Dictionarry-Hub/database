@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: noxxus
+  type: release_group
+  required: false
+  negate: false
+  pattern: noxxus
 - name: SARTRE
   negate: false
   pattern: SARTRE

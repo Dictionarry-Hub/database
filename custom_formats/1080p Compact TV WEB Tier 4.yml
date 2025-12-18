@@ -26,6 +26,11 @@ conditions:
   required: false
   source: webrip
   type: source
+- name: bluegreeen
+  type: release_group
+  required: false
+  negate: false
+  pattern: bluegreeen
 - name: bluespots
   negate: false
   pattern: bluespots

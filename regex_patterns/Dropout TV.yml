@@ -1,0 +1,25 @@
+name: Dropout TV
+pattern: \b(DRPO)\b
+description: Dropout is an American comedy subscription streaming service run by the
+  production company of the same name (formerly CollegeHumor), founded in September
+  2018. Its ad-free original shows are mainly composed of live play, such as Dimension
+  20 hosted by Brennan Lee Mulligan, and improv comedy and panel shows like Game Changer,
+  Make Some Noise (both hosted by Dropout owner and CEO Sam Reich), and Very Important
+  People hosted by Vic Michaelis. Dropout's series often feature a rotating cast of
+  regular comedians and performers.
+tags:
+- Streaming Service
+- WEB-DL
+tests:
+- id: 1
+  input: Palmer.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-EVO.mkv
+  expected: true
+- id: 2
+  input: Fathom.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv
+  expected: true
+- id: 3
+  input: You.Are.the.Apple.of.My.Eye.2011.720p.BluRay.DD5.1.x264-EbP.mkv
+  expected: false
+- id: 4
+  input: Men in Black 1997 2160p Apple TV+ WEB-DL DDP 5 1 Atmos DV H 265-CHDWEB
+  expected: true

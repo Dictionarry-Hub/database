@@ -1,0 +1,16 @@
+name: 576p Bluray
+description: Matches 576p Blurays.
+tags:
+- Source
+conditions:
+- name: 576p
+  negate: false
+  required: true
+  resolution: 576p
+  type: resolution
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+tests: []

@@ -16,28 +16,28 @@ conditions:
   source: bluray
   type: source
 - name: Not Remux
-  type: release_title
-  required: true
   negate: true
   pattern: Remux
-- name: CtrlHD
-  negate: false
-  pattern: CtrlHD
-  required: false
-  type: release_group
+  required: true
+  type: release_title
 - name: DON
   negate: false
   pattern: DON
   required: false
   type: release_group
-- name: HQMUX
-  negate: false
-  pattern: HQMUX
-  required: false
-  type: release_group
 - name: SA89
   negate: false
   pattern: SA89
+  required: false
+  type: release_group
+- name: REBORN
+  negate: false
+  pattern: REBORN
+  required: false
+  type: release_group
+- name: SoLaR
+  negate: false
+  pattern: SoLaR
   required: false
   type: release_group
 tests: []

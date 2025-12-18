@@ -1,0 +1,40 @@
+name: iP
+description: Matches 'BBC iPlayer' WEB-DLs. Negates any encodes.
+tags:
+- Streaming Service
+- WEB-DL
+conditions:
+- name: iP Regex
+  negate: false
+  pattern: BBC iPlayer
+  required: true
+  type: release_title
+- name: WEB-DL
+  negate: false
+  required: false
+  source: web_dl
+  type: source
+- name: WEBRip
+  negate: false
+  required: false
+  source: webrip
+  type: source
+tests:
+- conditionResults:
+  - matches: true
+    name: APTV Regex
+    negate: false
+    pattern: Apple TV+
+    required: true
+    type: release_title
+  - matches: true
+    name: x265
+    negate: true
+    pattern: x265
+    required: false
+    type: release_title
+  expected: false
+  id: 2
+  input: Little America 2020 S01 1080p APTV Webrip x265 10bit EAC3 5 1 - Ainz
+  lastRun: '2024-12-03T02:27:03.531343'
+  passes: true

@@ -1,0 +1,12 @@
+name: Google TV Rename
+pattern: \[(PLAY)\b|\b(PLAY)\]
+description: Google TV, formerly known as Google Play Movies & TV, is a digital distribution
+  service for movies and television series developed by Google. Launched in 2011 as
+  part of the Google Play product line, the service offers search and discovery of
+  video titles across multiple streaming services, including rental or purchase options,
+  alongside watchlist features for accessing titles from eligible devices and platforms.
+  In September 2020, it was relaunched as Google TV.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

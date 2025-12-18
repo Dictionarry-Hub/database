@@ -199,6 +199,11 @@ conditions:
   pattern: TvR
   required: false
   type: release_group
+- name: UnKn0wn
+  negate: false
+  pattern: UnKn0wn
+  required: false
+  type: release_group
 - name: VD0N
   negate: false
   pattern: VD0N

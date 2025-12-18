@@ -1,0 +1,44 @@
+name: 480p Quality Tier 2
+description: Matches release groups who fall under 480p Quality Tier 2
+tags:
+- GPPi
+- Release Group Tier
+- 480p
+- Quality
+conditions:
+- name: 480p
+  negate: false
+  required: true
+  resolution: 480p
+  type: resolution
+- name: Not Remux
+  negate: true
+  pattern: Remux
+  required: true
+  type: release_title
+- name: Bluray
+  negate: false
+  required: true
+  source: bluray
+  type: source
+- name: c0kE
+  negate: false
+  pattern: c0kE
+  required: false
+  type: release_group
+- name: Dariush
+  negate: false
+  pattern: Dariush
+  required: false
+  type: release_group
+- name: HaB
+  type: release_group
+  required: false
+  negate: false
+  pattern: HaB
+- name: TBB
+  type: release_group
+  required: false
+  negate: false
+  pattern: TBB
+tests: []

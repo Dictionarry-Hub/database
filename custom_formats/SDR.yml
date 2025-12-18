@@ -1,0 +1,26 @@
+name: SDR
+description: Ban 2160p WEB-DL Releases without Dolby Vision or HDR Formats. Movies
+  Anywhere is excluded due to the high bitrate.
+tags: []
+conditions:
+- name: 2160p
+  negate: false
+  required: true
+  resolution: 2160p
+  type: resolution
+- name: WEB-DL
+  negate: false
+  required: true
+  source: web_dl
+  type: source
+- name: DV HDR
+  negate: true
+  pattern: Basic HDR Formats
+  required: true
+  type: release_title
+- name: Movies Anywhere
+  negate: true
+  pattern: Movies Anywhere
+  required: true
+  type: release_title
+tests: []

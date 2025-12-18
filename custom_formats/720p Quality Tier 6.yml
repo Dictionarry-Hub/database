@@ -76,6 +76,11 @@ conditions:
   pattern: PTP
   required: false
   type: release_group
+- name: PuTao
+  type: release_group
+  required: false
+  negate: false
+  pattern: PuTao
 - name: Slappy
   negate: false
   pattern: Slappy

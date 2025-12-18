@@ -8,19 +8,14 @@ conditions:
   pattern: Xvid
   required: true
   type: release_title
-- name: 2160p
-  negate: false
-  required: false
-  resolution: 2160p
-  type: resolution
-- name: 1080p
-  negate: false
-  required: false
-  resolution: 1080p
-  type: resolution
-- name: 720p
-  negate: false
-  required: false
-  resolution: 720p
-  type: resolution
+- name: Not DVD
+  negate: true
+  required: true
+  source: dvd
+  type: source
+- name: Not HDTV
+  negate: true
+  required: true
+  source: television
+  type: source
 tests: []

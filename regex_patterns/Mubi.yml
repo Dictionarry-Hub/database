@@ -1,0 +1,10 @@
+name: Mubi
+pattern: \b(MUBI)\b
+description: Mubi is a British streaming platform, production company and film distributor.
+  Mubi produces and theatrically distributes films by emerging and established filmmakers,
+  which are exclusively available on its platform. The catalogue consists of world
+  cinema films, such as arthouse, documentary and independent films.
+tags:
+- Streaming Service
+- WEB-DL
+tests: []

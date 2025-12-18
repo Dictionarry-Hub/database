@@ -31,6 +31,16 @@ conditions:
   pattern: QxR
   required: false
   type: release_group
+- name: TAoE
+  type: release_group
+  required: false
+  negate: false
+  pattern: TAoE
+- name: Vialle
+  type: release_group
+  required: false
+  negate: false
+  pattern: Vialle
 tests:
 - conditionResults:
   - matches: true

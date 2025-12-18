@@ -1,5 +1,5 @@
 name: Apple TV+
-pattern: \b(atvp|aptv|Apple TV\+)\s*\b
+pattern: \b(ATVP|ATV|APTV|Apple TV\+)\s*\b
 description: Apple TV+ is an American subscription OTT streaming service owned and
   operated by Apple Inc. Launched on November 1, 2019, it offers a selection of original
   production film and television series called Apple Originals.
@@ -7,23 +7,15 @@ tags:
 - Streaming Service
 - WEB-DL
 tests:
-- expected: true
-  id: 1
+- id: 1
   input: Palmer.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-EVO.mkv
-  lastRun: '2024-12-03T02:31:55.764873'
-  passes: true
-- expected: true
-  id: 2
+  expected: true
+- id: 2
   input: Fathom.1080p.APTV.WEB-DL.DDP5.1.Atmos.H.264-CMRG.mkv
-  lastRun: '2024-12-03T02:31:55.764873'
-  passes: true
-- expected: false
-  id: 3
+  expected: true
+- id: 3
   input: You.Are.the.Apple.of.My.Eye.2011.720p.BluRay.DD5.1.x264-EbP.mkv
-  lastRun: '2024-12-03T02:31:55.764873'
-  passes: true
-- expected: true
-  id: 4
+  expected: false
+- id: 4
   input: Men in Black 1997 2160p Apple TV+ WEB-DL DDP 5 1 Atmos DV H 265-CHDWEB
-  lastRun: '2024-12-03T02:31:55.764873'
-  passes: true
+  expected: true
