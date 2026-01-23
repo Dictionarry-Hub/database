@@ -1,0 +1,44 @@
+name: ✨ Feature Request
+description: Request new content or changes to existing content
+labels: ["type: feature"]
+
+body:
+  - type: dropdown
+    id: what
+    attributes:
+      label: What do you want?
+      options:
+        - New profile
+        - New custom format
+        - New regex pattern
+        - Changes to existing content
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: Describe what you want in detail
+    validations:
+      required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is this useful?
+      placeholder: Explain your use case
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If relevant, include interactive searches or movie/season history from your arrs.
+      placeholder: Drag and drop screenshots here
+
+  - type: input
+    id: related
+    attributes:
+      label: Related issues
+      placeholder: "#123, #456"

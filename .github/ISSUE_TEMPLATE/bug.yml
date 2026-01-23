@@ -1,0 +1,32 @@
+name: 🐛 Bug Report
+description: Report a problem with a custom format, profile, or regex
+labels: ["type: bug"]
+
+body:
+  - type: input
+    id: which
+    attributes:
+      label: Which custom format/profile/regex?
+      placeholder: e.g. Remux Tier 1, DV HDR10+, x265
+    validations:
+      required: true
+
+  - type: textarea
+    id: whats-wrong
+    attributes:
+      label: What's wrong?
+      description: Include the release title, whether it should or shouldn't have matched, and a Regex101 link if relevant.
+      placeholder: |
+        Release: Some.Movie.2024.2160p.UHD.BluRay.REMUX.DV.HDR.DTS-HD.MA.7.1-GROUP
+        Expected: Should match Remux Tier 1
+        Actual: Didn't match
+        Regex101: https://regex101.com/...
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Interactive searches and movie/season history from your arrs are the most important info you can give. Without them, it's going to be much harder to solve this issue.
+      placeholder: Drag and drop screenshots here
