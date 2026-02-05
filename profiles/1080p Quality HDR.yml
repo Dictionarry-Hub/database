@@ -14,6 +14,7 @@ upgradesAllowed: true
 minCustomFormatScore: 20000
 upgradeUntilScore: 888888
 minScoreIncrement: 1
+
 custom_formats:
 - name: UHD Bluray
   score: 420000
@@ -83,52 +84,68 @@ custom_formats:
   score: 11000
 - name: SD Quality Tier 2
   score: 10000
+
+# --- Services (leave as-is) ---
 - name: AMZN
-  score: 3000
-- name: Dolby Vision
   score: 3000
 - name: DSNP
   score: 3000
 - name: ATVP
   score: 2000
-- name: HDR10+
-  score: 2000
 - name: HMAX
   score: 2000
 - name: MAX
   score: 2000
-- name: HDR
-  score: 1000
-- name: HDR (Missing)
-  score: 1000
-- name: HDR10
-  score: 1000
-- name: HLG
+- name: NF
   score: 1000
 - name: iT
   score: 1000
-- name: NF
+
+# --- HDR logic (Samsung-first) ---
+- name: HDR10+
+  score: 3500
+- name: HDR10
   score: 1000
-- name: PQ
-  score: 1000
-- name: FLAC
-  score: 800
-- name: DTS-HD HRA
-  score: 700
-- name: Opus
-  score: 700
-- name: Dolby Digital +
+- name: HDR
+  score: 900
+- name: HDR (Missing)
   score: 600
-- name: DTS-ES
-  score: 500
+- name: HLG
+  score: 600
+- name: PQ
+  score: 600
+
+# --- Dolby Vision logic (Samsung-first) ---
+# Don’t prefer generic DV on Samsung; fallback DV releases can still work,
+# but DV-only is already hard-banned below.
+- name: Dolby Vision
+  score: -500
+
+# --- Audio (TV-app friendly) ---
+- name: Dolby Digital +
+  score: 900
 - name: Dolby Atmos
-  score: 400
+  score: 450
 - name: Dolby Digital
   score: 400
-- name: DTS
-  score: 300
 - name: AAC
   score: 200
+
+# De-prioritize DTS family a bit so DD+ wins more often
+- name: DTS-HD HRA
+  score: 250
+- name: DTS-ES
+  score: 200
+- name: DTS
+  score: 100
+
+# Keep FLAC/Opus as you had (mostly irrelevant for TV playback but harmless)
+- name: FLAC
+  score: 800
+- name: Opus
+  score: 700
+
+# --- Tiers / repacks (leave as-is) ---
 - name: WEB-DL Tier 1
   score: 100
 - name: WEB-DL Tier 2
@@ -145,6 +162,8 @@ custom_formats:
   score: 7
 - name: Repack1
   score: 6
+
+# --- Providers at 0 (leave as-is) ---
 - name: CRAV
   score: 0
 - name: CRIT
@@ -173,6 +192,8 @@ custom_formats:
   score: 0
 - name: STAN
   score: 0
+
+# --- Bans / hard negatives (leave as-is) ---
 - name: x265 (Bluray)
   score: -400000
 - name: ASL
@@ -203,79 +224,3 @@ custom_formats:
   score: -999999
 - name: Xvid
   score: -999999
-custom_formats_radarr:
-- name: 1080p Balanced Tier 1
-  score: 101000
-- name: 1080p Balanced Tier 2
-  score: 100000
-- name: 720p Balanced Tier 1
-  score: 60000
-- name: MA
-  score: 4000
-- name: Better Theatricals
-  score: 1000
-- name: Special Edition
-  score: 1000
-- name: 3D
-  score: -999999
-- name: B&W
-  score: -999999
-- name: Extras
-  score: -999999
-- name: Full Disc (Quality Match)
-  score: -999999
-- name: Remux (Quality Match)
-  score: -999999
-- name: Sing Along
-  score: -999999
-- name: Upscale
-  score: -999999
-custom_formats_sonarr:
-- name: Season Pack
-  score: 10
-- name: Remux (Source)
-  score: -999999
-- name: TV Extras
-  score: -999999
-- name: Upscaled
-  score: -999999
-qualities:
-- id: -1
-  name: 1080p Quality HDR
-  description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
-  qualities:
-  - id: 10
-    name: Bluray-1080p
-  - id: 9
-    name: WEBDL-1080p
-  - id: 11
-    name: WEBRip-1080p
-- id: -2
-  name: 720p Quality
-  description: Fallback to 720p when 1080p cannot be found.
-  qualities:
-  - id: 13
-    name: Bluray-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
-- id: -3
-  name: 480p Quality
-  description: Standard Definition Fallbacks
-  qualities:
-  - id: 17
-    name: Bluray-576p
-  - id: 18
-    name: Bluray-480p
-  - id: 19
-    name: WEBDL-480p
-  - id: 22
-    name: DVD
-upgrade_until:
-  id: -1
-  name: 1080p Quality HDR
-  description: All capable of being indistinguishable from source. WEB-DL included
-    to not allow unknown encode to trump known WEB-DL.
-language: must_original
