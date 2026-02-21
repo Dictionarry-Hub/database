@@ -1,0 +1,12 @@
+name: FR - Not Multi
+description: Matches releases that do NOT have the MULTi tag
+tags:
+- Language
+- French
+conditions:
+- name: Not Multi
+  negate: true
+  pattern: FR - Multi
+  required: true
+  type: release_title
+tests: []

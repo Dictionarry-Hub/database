@@ -1,0 +1,25 @@
+name: FR - Multi
+pattern: (?i)\b(MULTI)\b
+description: Matches releases tagged MULTi (multiple audio tracks, typically VO+VF)
+tags:
+- Language
+- French
+tests:
+- id: 1
+  input: Movie.2024.MULTi.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 2
+  input: Movie.2024.MULTI.1080p.BluRay.x265-GROUP
+  expected: true
+- id: 3
+  input: Movie.2024.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 4
+  input: Movie.2024.FRENCH.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 5
+  input: Movie.2024.MULTi.2160p.UHD.BluRay.x265-GROUP
+  expected: true
+- id: 6
+  input: MultiVerse.2024.1080p.WEB-DL.x265-GROUP
+  expected: false

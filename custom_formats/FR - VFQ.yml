@@ -1,0 +1,12 @@
+name: FR - VFQ
+description: Matches releases tagged with Quebec French version (VFQ)
+tags:
+- Language
+- French
+conditions:
+- name: VFQ
+  negate: false
+  pattern: FR - VFQ
+  required: true
+  type: release_title
+tests: []

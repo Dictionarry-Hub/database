@@ -1,0 +1,18 @@
+name: FR - VF Only
+description: Matches releases with French version markers that are NOT Multi (VF without
+  VO)
+tags:
+- Language
+- French
+conditions:
+- name: VF
+  negate: false
+  pattern: FR - VF
+  required: true
+  type: release_title
+- name: Not Multi
+  negate: true
+  pattern: FR - Multi
+  required: true
+  type: release_title
+tests: []

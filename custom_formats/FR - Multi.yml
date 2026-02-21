@@ -1,0 +1,12 @@
+name: FR - Multi
+description: Matches releases tagged MULTi (multiple audio tracks)
+tags:
+- Language
+- French
+conditions:
+- name: Multi
+  negate: false
+  pattern: FR - Multi
+  required: true
+  type: release_title
+tests: []

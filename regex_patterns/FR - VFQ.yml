@@ -1,0 +1,22 @@
+name: FR - VFQ
+pattern: (?i)\b(VFQ)\b
+description: Matches Quebec French version marker (VFQ) in release titles
+tags:
+- Language
+- French
+tests:
+- id: 1
+  input: Movie.2024.VFQ.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 2
+  input: Movie.2024.VFF.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 3
+  input: Movie.2024.FRENCH.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 4
+  input: Movie.2024.MULTi.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 5
+  input: Movie.2024.1080p.WEB-DL.x265-GROUP
+  expected: false

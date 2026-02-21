@@ -1,0 +1,35 @@
+name: FR - VF
+pattern: (?i)\b(VFF|VFI|VF2|TRUEFRENCH|FRENCH|VF)\b
+description: Matches French version markers in release titles (VFF, VFI, VF2, TRUEFRENCH,
+  FRENCH, VF)
+tags:
+- Language
+- French
+tests:
+- id: 1
+  input: Movie.2024.VFF.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 2
+  input: Movie.2024.FRENCH.1080p.BluRay.x265-GROUP
+  expected: true
+- id: 3
+  input: Movie.2024.TRUEFRENCH.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 4
+  input: Movie.2024.VFQ.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 5
+  input: Movie.2024.VFI.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 6
+  input: Movie.2024.VF2.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 7
+  input: Movie.2024.VF.1080p.WEB-DL.x265-GROUP
+  expected: true
+- id: 8
+  input: Movie.2024.1080p.WEB-DL.x265-GROUP
+  expected: false
+- id: 9
+  input: Movie.2024.MULTi.1080p.WEB-DL.x265-GROUP
+  expected: false
