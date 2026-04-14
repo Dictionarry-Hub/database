@@ -1,0 +1,121 @@
+custom_formats:
+  - name: RU SDR
+    description: Marks releases with explicit SDR in title.
+    tags: [ru, sdr]
+    conditions:
+      - source: Release Title
+        pattern: RU SDR
+        required: true
+        negate: false
+
+  - name: RU HEVC
+    description: Matches HEVC / x265 / H.265 releases.
+    tags: [ru, codec, hevc]
+    conditions:
+      - source: Release Title
+        pattern: RU HEVC
+        required: true
+        negate: false
+
+  - name: RU WEB-DL
+    description: Matches WEB-DL releases.
+    tags: [ru, source, webdl]
+    conditions:
+      - source: Release Title
+        pattern: RU WEB-DL
+        required: true
+        negate: false
+
+  - name: RU WEBRip
+    description: Matches WEBRip releases.
+    tags: [ru, source, webrip]
+    conditions:
+      - source: Release Title
+        pattern: RU WEBRip
+        required: true
+        negate: false
+
+  - name: RU BDRip/BluRay
+    description: Matches BDRip or BluRay releases.
+    tags: [ru, source, bluray]
+    conditions:
+      - source: Release Title
+        pattern: RU BDRip
+        required: false
+        negate: false
+      - source: Release Title
+        pattern: RU BluRay
+        required: false
+        negate: false
+
+  - name: RU 10bit
+    description: Matches 10-bit releases.
+    tags: [ru, bitdepth, 10bit]
+    conditions:
+      - source: Release Title
+        pattern: RU 10bit
+        required: true
+        negate: false
+
+  - name: RU Reject HDR/DV/HLG
+    description: Rejects HDR, HDR10, HDR10+, Dolby Vision, DV and HLG.
+    tags: [ru, reject, hdr]
+    conditions:
+      - source: Release Title
+        pattern: RU HDR DV HLG
+        required: true
+        negate: false
+
+  - name: RU Reject BR-DISK
+    description: Rejects BDMV, ISO, full BluRay and complete disc releases.
+    tags: [ru, reject, disc]
+    conditions:
+      - source: Release Title
+        pattern: RU BR-DISK
+        required: true
+        negate: false
+
+  - name: RU Reject AV1
+    description: Rejects AV1 releases.
+    tags: [ru, reject, av1]
+    conditions:
+      - source: Release Title
+        pattern: RU AV1
+        required: true
+        negate: false
+
+  - name: RU Reject LQ
+    description: Rejects low quality releases marked as LQ.
+    tags: [ru, reject, lq]
+    conditions:
+      - source: Release Title
+        pattern: RU LQ
+        required: true
+        negate: false
+
+  - name: RU Reject Upscale
+    description: Rejects releases marked as upscale or upscaled.
+    tags: [ru, reject, upscale]
+    conditions:
+      - source: Release Title
+        pattern: RU Upscale
+        required: true
+        negate: false
+
+  - name: RU Reject AI
+    description: Rejects AI-upscaled or AI-enhanced releases.
+    tags: [ru, reject, ai]
+    conditions:
+      - source: Release Title
+        pattern: RU AI Upscale
+        required: true
+        negate: false
+
+  - name: RU Reject REMUX
+    description: Rejects REMUX releases.
+    tags: [ru, reject, remux]
+    conditions:
+      - source: Release Title
+        pattern: RU REMUX
+        required: true
+        negate: false

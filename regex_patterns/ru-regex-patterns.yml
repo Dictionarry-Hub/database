@@ -1,0 +1,135 @@
+regex_patterns:
+  - name: RU SDR
+    pattern: '(?i)\bSDR\b'
+    description: Explicit SDR marker in release title.
+    tests:
+      should_match:
+        - 'Ghost in the Shell (1995) BDRip [H.265/2160p] [4K, SDR, 10-bit]'
+      should_not_match:
+        - 'Ghost in the Shell (1995) BDRip-HEVC 2160p HDR'
+
+  - name: RU HEVC
+    pattern: '(?i)\b(HEVC|x265|H\.?265)\b'
+    description: HEVC / x265 / H.265 codec markers.
+    tests:
+      should_match:
+        - 'Movie 2024 WEB-DL 2160p HEVC SDR'
+        - 'Movie 2024 WEB-DL 1080p x265'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 1080p x264'
+
+  - name: RU WEB-DL
+    pattern: '(?i)\b(WEB[\s._-]?DL|WEBDL)\b'
+    description: WEB-DL source marker.
+    tests:
+      should_match:
+        - 'Movie 2024 WEB-DL 2160p SDR'
+        - 'Movie 2024 WEBDL 1080p'
+      should_not_match:
+        - 'Movie 2024 WEBRip 1080p'
+
+  - name: RU WEBRip
+    pattern: '(?i)\b(WEB[\s._-]?RIP|WEBRIP)\b'
+    description: WEBRip source marker.
+    tests:
+      should_match:
+        - 'Movie 2024 WEBRip 1080p'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 1080p'
+
+  - name: RU BDRip
+    pattern: '(?i)\bBDRip\b'
+    description: BDRip source marker.
+    tests:
+      should_match:
+        - 'Movie 2024 BDRip 1080p'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 1080p'
+
+  - name: RU BluRay
+    pattern: '(?i)\bBlu[\s._-]?Ray\b'
+    description: BluRay source marker.
+    tests:
+      should_match:
+        - 'Movie 2024 BluRay 1080p'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 1080p'
+
+  - name: RU 10bit
+    pattern: '(?i)\b(10[\s-]?bit|10bit)\b'
+    description: 10-bit marker.
+    tests:
+      should_match:
+        - 'Movie 2024 2160p SDR 10-bit'
+        - 'Movie 2024 2160p SDR 10bit'
+      should_not_match:
+        - 'Movie 2024 2160p SDR'
+
+  - name: RU HDR DV HLG
+    pattern: '(?i)\b(HDR10\+|HDR10|HDR|Dolby[\s._-]?Vision|DV|HLG)\b'
+    description: HDR / Dolby Vision / HLG markers.
+    tests:
+      should_match:
+        - 'Movie 2024 WEB-DL 2160p HDR'
+        - 'Movie 2024 WEB-DL 2160p Dolby Vision'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 2160p SDR'
+
+  - name: RU BR-DISK
+    pattern: '(?i)\b(BDMV|BDISO|ISO|UHD[\s._-]?BD|Blu[\s-]?ray[\s-]?Disc|BD[\s-]?ROM|COMPLETE|FULL[\s-]?BLURAY|FULL[\s-]?BD)\b'
+    description: Full disc / BDMV / ISO markers.
+    tests:
+      should_match:
+        - 'Movie 2024 BDMV'
+        - 'Movie 2024 FULL BLURAY'
+        - 'Movie 2024 BDISO'
+      should_not_match:
+        - 'Movie 2024 BDRip 1080p'
+
+  - name: RU AV1
+    pattern: '(?i)\bAV1\b'
+    description: AV1 codec marker.
+    tests:
+      should_match:
+        - 'Movie 2024 WEB-DL 2160p AV1'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 2160p HEVC'
+
+  - name: RU LQ
+    pattern: '(?i)\bLQ\b'
+    description: Low quality marker.
+    tests:
+      should_match:
+        - 'Movie 2024 WEB-DL 1080p LQ'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 1080p'
+
+  - name: RU Upscale
+    pattern: '(?i)\b(upscale|upscaled)\b'
+    description: Upscale marker.
+    tests:
+      should_match:
+        - 'Movie 2024 BDRip 2160p upscale'
+        - 'Movie 2024 BDRip 2160p upscaled'
+      should_not_match:
+        - 'Movie 2024 BDRip 2160p'
+
+  - name: RU AI Upscale
+    pattern: '(?i)\b(AI[\s._-]?upscale|AI[\s._-]?enhanced|hand[\s._-]?made[\s._-]?upscale[\s._-]?AI|AI)\b'
+    description: AI upscale / AI enhanced markers.
+    tests:
+      should_match:
+        - 'Movie 2024 [hand made Upscale AI]'
+        - 'Movie 2024 AI upscale'
+        - 'Movie 2024 AI enhanced'
+      should_not_match:
+        - 'Movie 2024 WEB-DL 2160p SDR'
+
+  - name: RU REMUX
+    pattern: '(?i)\bREMUX\b'
+    description: REMUX marker.
+    tests:
+      should_match:
+        - 'Movie 2024 UHD BluRay REMUX 2160p'
+      should_not_match:
+        - 'Movie 2024 BDRip 2160p'

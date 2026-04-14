@@ -1,0 +1,63 @@
+quality_profiles:
+  - name: RU - 2160p SDR
+    min_custom_format_score: 0
+    upgrade_until_custom_format_score: 7000
+    qualities:
+      - name: WEBDL-2160p
+        enabled: true
+      - name: WEBRip-2160p
+        enabled: true
+      - name: Bluray-2160p
+        enabled: true
+      - name: Remux-2160p
+        enabled: false
+      - name: HDTV-2160p
+        enabled: false
+    order:
+      - WEBDL-2160p
+      - Bluray-2160p
+      - WEBRip-2160p
+    scores:
+      RU SDR: 5000
+      RU HEVC: 2500
+      RU WEB-DL: 1200
+      RU WEBRip: 700
+      RU 10bit: 400
+      RU Reject HDR/DV/HLG: -10000
+      RU Reject BR-DISK: -10000
+      RU Reject AV1: -10000
+      RU Reject LQ: -10000
+      RU Reject Upscale: -5000
+      RU Reject AI: -3000
+      RU Reject REMUX: -5000
+
+  - name: RU - 1080p SDR
+    min_custom_format_score: 0
+    upgrade_until_custom_format_score: 2500
+    qualities:
+      - name: WEBDL-1080p
+        enabled: true
+      - name: WEBRip-1080p
+        enabled: true
+      - name: Bluray-1080p
+        enabled: true
+      - name: Remux-1080p
+        enabled: false
+      - name: HDTV-1080p
+        enabled: false
+    order:
+      - WEBDL-1080p
+      - Bluray-1080p
+      - WEBRip-1080p
+    scores:
+      RU HEVC: 1000
+      RU WEB-DL: 800
+      RU WEBRip: 600
+      RU BDRip/BluRay: 500
+      RU Reject HDR/DV/HLG: -10000
+      RU Reject BR-DISK: -10000
+      RU Reject AV1: -10000
+      RU Reject LQ: -10000
+      RU Reject Upscale: -5000
+      RU Reject AI: -3000
+      RU Reject REMUX: -3000
